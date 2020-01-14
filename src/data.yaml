@@ -3,6 +3,7 @@
     - AElig
   tags:
     - AE
+  description: latin capital letter ae
 - symbol: "&"
   entities:
     - AMP
@@ -11,63 +12,76 @@
     - "&"
     - and
     - ampersand
+  description: ampersand
 - symbol: Á
   entities:
     - Aacute
   tags:
     - A
     - acute
+  description: latin capital letter a with acute
 - symbol: Ă
   entities:
     - Abreve
   tags: []
+  description: latin capital letter a with breve
 - symbol: Â
   entities:
     - Acirc
   tags:
     - A
     - circumflex
+  description: latin capital letter a with circumflex
 - symbol: А
   entities:
     - Acy
   tags: []
+  description: cyrillic capital letter a
 - symbol: 𝔄
   entities:
     - Afr
   tags: []
+  description: mathematical fraktur capital a
 - symbol: À
   entities:
     - Agrave
   tags:
     - A
     - grave
+  description: latin capital letter a with grave
 - symbol: Α
   entities:
     - Alpha
   tags:
     - a
     - alpha
+  description: greek capital letter alpha
 - symbol: Ā
   entities:
     - Amacr
   tags: []
+  description: latin capital letter a with macron
 - symbol: ⩓
   entities:
     - And
   tags: []
+  description: double logical and
 - symbol: Ą
   entities:
     - Aogon
   tags: []
+  description: latin capital letter a with ogonek
 - symbol: 𝔸
   entities:
     - Aopf
   tags: []
+  description: mathematical double-struck capital a
 - symbol: ⁡
   entities:
     - ApplyFunction
     - af
   tags: []
+  description: function application
 - symbol: Å
   entities:
     - Aring
@@ -75,28 +89,33 @@
   tags:
     - A
     - ring
+  description: latin capital letter a with ring above
 - symbol: 𝒜
   entities:
     - Ascr
   tags: []
+  description: mathematical script capital a
 - symbol: ≔
   entities:
     - Assign
     - colone
     - coloneq
   tags: []
+  description: colon equals
 - symbol: Ã
   entities:
     - Atilde
   tags:
     - A
     - tilde
+  description: latin capital letter a with tilde
 - symbol: Ä
   entities:
     - Auml
   tags:
     - A
     - diaeresis
+  description: latin capital letter a with diaeresis
 - symbol: ∖
   entities:
     - Backslash
@@ -105,60 +124,72 @@
     - smallsetminus
     - ssetmn
   tags: []
+  description: set minus
 - symbol: ⫧
   entities:
     - Barv
   tags: []
+  description: short down tack with overbar
 - symbol: ⌆
   entities:
     - Barwed
     - doublebarwedge
   tags: []
+  description: perspective
 - symbol: Б
   entities:
     - Bcy
   tags: []
+  description: cyrillic capital letter be
 - symbol: ∵
   entities:
     - Because
     - becaus
     - because
   tags: []
+  description: because
 - symbol: ℬ
   entities:
     - Bernoullis
     - Bscr
     - bernou
   tags: []
+  description: script capital b
 - symbol: Β
   entities:
     - Beta
   tags:
     - B
     - beta
+  description: greek capital letter beta
 - symbol: 𝔅
   entities:
     - Bfr
   tags: []
+  description: mathematical fraktur capital b
 - symbol: 𝔹
   entities:
     - Bopf
   tags: []
+  description: mathematical double-struck capital b
 - symbol: ˘
   entities:
     - Breve
     - breve
   tags: []
+  description: breve
 - symbol: ≎
   entities:
     - Bumpeq
     - HumpDownHump
     - bump
   tags: []
+  description: geometrically equivalent to
 - symbol: Ч
   entities:
     - CHcy
   tags: []
+  description: cyrillic capital letter che
 - symbol: ©
   entities:
     - COPY
@@ -167,52 +198,63 @@
     - (c)
     - c
     - copyright
+  description: copyright sign
 - symbol: Ć
   entities:
     - Cacute
   tags: []
+  description: latin capital letter c with acute
 - symbol: ⋒
   entities:
     - Cap
   tags: []
+  description: double intersection
 - symbol: ⅅ
   entities:
     - CapitalDifferentialD
     - DD
   tags: []
+  description: double-struck italic capital d
 - symbol: ℭ
   entities:
     - Cayleys
     - Cfr
   tags: []
+  description: black-letter capital c
 - symbol: Č
   entities:
     - Ccaron
   tags: []
+  description: latin capital letter c with caron
 - symbol: Ç
   entities:
     - Ccedil
   tags:
     - C
     - cedilla
+  description: latin capital letter c with cedilla
 - symbol: Ĉ
   entities:
     - Ccirc
   tags: []
+  description: latin capital letter c with circumflex
 - symbol: ∰
   entities:
     - Cconint
   tags: []
+  description: volume integral
 - symbol: Ċ
   entities:
     - Cdot
   tags: []
+  description: latin capital letter c with dot above
 - symbol: ¸
   entities:
     - Cedilla
     - cedil
   tags:
     - ","
+  description: cedilla
 - symbol: ·
   entities:
     - CenterDot
@@ -222,22 +264,26 @@
     - .
     - middle
     - dot
+  description: middle dot
 - symbol: Χ
   entities:
     - Chi
   tags:
     - x
     - chi
+  description: greek capital letter chi
 - symbol: ⊙
   entities:
     - CircleDot
     - odot
   tags: []
+  description: circled dot operator
 - symbol: ⊖
   entities:
     - CircleMinus
     - ominus
   tags: []
+  description: circled minus
 - symbol: ⊕
   entities:
     - CirclePlus
@@ -248,6 +294,7 @@
     - +
     - O
     - "0"
+  description: circled plus
 - symbol: ⊗
   entities:
     - CircleTimes
@@ -260,11 +307,13 @@
     - "*"
     - o
     - "0"
+  description: circled times
 - symbol: ∲
   entities:
     - ClockwiseContourIntegral
     - cwconint
   tags: []
+  description: clockwise contour integral
 - symbol: ”
   entities:
     - CloseCurlyDoubleQuote
@@ -275,6 +324,7 @@
     - double
     - quotation
     - quote
+  description: right double quotation mark
 - symbol: ’
   entities:
     - CloseCurlyQuote
@@ -285,15 +335,18 @@
     - right
     - quotation
     - quote
+  description: right single quotation mark
 - symbol: ∷
   entities:
     - Colon
     - Proportion
   tags: []
+  description: proportion
 - symbol: ⩴
   entities:
     - Colone
   tags: []
+  description: double colon equal
 - symbol: ≡
   entities:
     - Congruent
@@ -301,65 +354,79 @@
   tags:
     - identical
     - =
+  description: identical to
 - symbol: ∯
   entities:
     - Conint
     - DoubleContourIntegral
   tags: []
+  description: surface integral
 - symbol: ∮
   entities:
     - ContourIntegral
     - conint
     - oint
   tags: []
+  description: contour integral
 - symbol: ℂ
   entities:
     - Copf
     - complexes
   tags: []
+  description: double-struck capital c
 - symbol: ∐
   entities:
     - Coproduct
     - coprod
   tags: []
+  description: n-ary coproduct
 - symbol: ∳
   entities:
     - CounterClockwiseContourIntegral
     - awconint
   tags: []
+  description: anticlockwise contour integral
 - symbol: ⨯
   entities:
     - Cross
   tags: []
+  description: vector or cross product
 - symbol: 𝒞
   entities:
     - Cscr
   tags: []
+  description: mathematical script capital c
 - symbol: ⋓
   entities:
     - Cup
   tags: []
+  description: double union
 - symbol: ≍
   entities:
     - CupCap
     - asympeq
   tags: []
+  description: equivalent to
 - symbol: ⤑
   entities:
     - DDotrahd
   tags: []
+  description: rightwards arrow with dotted stem
 - symbol: Ђ
   entities:
     - DJcy
   tags: []
+  description: cyrillic capital letter dje
 - symbol: Ѕ
   entities:
     - DScy
   tags: []
+  description: cyrillic capital letter dze
 - symbol: Џ
   entities:
     - DZcy
   tags: []
+  description: cyrillic capital letter dzhe
 - symbol: ‡
   entities:
     - Dagger
@@ -369,23 +436,28 @@
     - dagger
     - ++
     - +
+  description: double dagger
 - symbol: ↡
   entities:
     - Darr
   tags: []
+  description: downwards two headed arrow
 - symbol: ⫤
   entities:
     - Dashv
     - DoubleLeftTee
   tags: []
+  description: vertical bar double left turnstile
 - symbol: Ď
   entities:
     - Dcaron
   tags: []
+  description: latin capital letter d with caron
 - symbol: Д
   entities:
     - Dcy
   tags: []
+  description: cyrillic capital letter de
 - symbol: ∇
   entities:
     - Del
@@ -394,16 +466,19 @@
     - nabla
     - difference
     - triangle
+  description: nabla
 - symbol: Δ
   entities:
     - Delta
   tags:
     - delta
     - triangle
+  description: greek capital letter delta
 - symbol: 𝔇
   entities:
     - Dfr
   tags: []
+  description: mathematical fraktur capital d
 - symbol: ´
   entities:
     - DiacriticalAcute
@@ -412,21 +487,25 @@
     - acute
     - "'"
     - "`"
+  description: acute accent
 - symbol: ˙
   entities:
     - DiacriticalDot
     - dot
   tags: []
+  description: dot above
 - symbol: ˝
   entities:
     - DiacriticalDoubleAcute
     - dblac
   tags: []
+  description: double acute accent
 - symbol: "`"
   entities:
     - DiacriticalGrave
     - grave
   tags: []
+  description: grave accent
 - symbol: ˜
   entities:
     - DiacriticalTilde
@@ -434,21 +513,25 @@
   tags:
     - tilde
     - "~"
+  description: small tilde
 - symbol: ⋄
   entities:
     - Diamond
     - diam
     - diamond
   tags: []
+  description: diamond operator
 - symbol: ⅆ
   entities:
     - DifferentialD
     - dd
   tags: []
+  description: double-struck italic small d
 - symbol: 𝔻
   entities:
     - Dopf
   tags: []
+  description: mathematical double-struck capital d
 - symbol: ¨
   entities:
     - Dot
@@ -457,16 +540,19 @@
     - uml
   tags:
     - '"'
+  description: diaeresis
 - symbol: ⃜
   entities:
     - DotDot
   tags: []
+  description: combining four dots above
 - symbol: ≐
   entities:
     - DotEqual
     - doteq
     - esdot
   tags: []
+  description: approaches the limit
 - symbol: ⇓
   entities:
     - DoubleDownArrow
@@ -476,6 +562,7 @@
     - downwards
     - double
     - arrow
+  description: downwards double arrow
 - symbol: ⇐
   entities:
     - DoubleLeftArrow
@@ -487,6 +574,7 @@
     - <
     - <-
     - <=
+  description: leftwards double arrow
 - symbol: ⇔
   entities:
     - DoubleLeftRightArrow
@@ -501,24 +589,28 @@
     - right
     - double
     - arrow
+  description: left right double arrow
 - symbol: ⟸
   entities:
     - DoubleLongLeftArrow
     - Longleftarrow
     - xlArr
   tags: []
+  description: long leftwards double arrow
 - symbol: ⟺
   entities:
     - DoubleLongLeftRightArrow
     - Longleftrightarrow
     - xhArr
   tags: []
+  description: long left right double arrow
 - symbol: ⟹
   entities:
     - DoubleLongRightArrow
     - Longrightarrow
     - xrArr
   tags: []
+  description: long rightwards double arrow
 - symbol: ⇒
   entities:
     - DoubleRightArrow
@@ -532,11 +624,13 @@
     - double
     - =>
     - arrow
+  description: rightwards double arrow
 - symbol: ⊨
   entities:
     - DoubleRightTee
     - vDash
   tags: []
+  description: "true"
 - symbol: ⇑
   entities:
     - DoubleUpArrow
@@ -546,12 +640,14 @@
     - upwards
     - double
     - arrow
+  description: upwards double arrow
 - symbol: ⇕
   entities:
     - DoubleUpDownArrow
     - Updownarrow
     - vArr
   tags: []
+  description: up down double arrow
 - symbol: ∥
   entities:
     - DoubleVerticalBar
@@ -560,6 +656,7 @@
     - shortparallel
     - spar
   tags: []
+  description: parallel to
 - symbol: ↓
   entities:
     - DownArrow
@@ -569,113 +666,137 @@
   tags:
     - downwards
     - arrow
+  description: downwards arrow
 - symbol: ⤓
   entities:
     - DownArrowBar
   tags: []
+  description: downwards arrow to bar
 - symbol: ⇵
   entities:
     - DownArrowUpArrow
     - duarr
   tags: []
+  description: downwards arrow leftwards of upwards arrow
 - symbol: ̑
   entities:
     - DownBreve
   tags: []
+  description: combining inverted breve
 - symbol: ⥐
   entities:
     - DownLeftRightVector
   tags: []
+  description: left barb down right barb down harpoon
 - symbol: ⥞
   entities:
     - DownLeftTeeVector
   tags: []
+  description: leftwards harpoon with barb down from bar
 - symbol: ↽
   entities:
     - DownLeftVector
     - leftharpoondown
     - lhard
   tags: []
+  description: leftwards harpoon with barb downwards
 - symbol: ⥖
   entities:
     - DownLeftVectorBar
   tags: []
+  description: leftwards harpoon with barb down to bar
 - symbol: ⥟
   entities:
     - DownRightTeeVector
   tags: []
+  description: rightwards harpoon with barb down from bar
 - symbol: ⇁
   entities:
     - DownRightVector
     - rhard
     - rightharpoondown
   tags: []
+  description: rightwards harpoon with barb downwards
 - symbol: ⥗
   entities:
     - DownRightVectorBar
   tags: []
+  description: rightwards harpoon with barb down to bar
 - symbol: ⊤
   entities:
     - DownTee
     - top
   tags: []
+  description: down tack
 - symbol: ↧
   entities:
     - DownTeeArrow
     - mapstodown
   tags: []
+  description: downwards arrow from bar
 - symbol: 𝒟
   entities:
     - Dscr
   tags: []
+  description: mathematical script capital d
 - symbol: Đ
   entities:
     - Dstrok
   tags: []
+  description: latin capital letter d with stroke
 - symbol: Ŋ
   entities:
     - ENG
   tags: []
+  description: latin capital letter eng
 - symbol: Ð
   entities:
     - ETH
   tags:
     - ETH
     - D
+  description: latin capital letter eth
 - symbol: É
   entities:
     - Eacute
   tags:
     - E
     - acute
+  description: latin capital letter e with acute
 - symbol: Ě
   entities:
     - Ecaron
   tags: []
+  description: latin capital letter e with caron
 - symbol: Ê
   entities:
     - Ecirc
   tags:
     - E
     - circumflex
+  description: latin capital letter e with circumflex
 - symbol: Э
   entities:
     - Ecy
   tags: []
+  description: cyrillic capital letter e
 - symbol: Ė
   entities:
     - Edot
   tags: []
+  description: latin capital letter e with dot above
 - symbol: 𝔈
   entities:
     - Efr
   tags: []
+  description: mathematical fraktur capital e
 - symbol: È
   entities:
     - Egrave
   tags:
     - E
     - grave
+  description: latin capital letter e with grave
 - symbol: ∈
   entities:
     - Element
@@ -685,69 +806,83 @@
   tags:
     - element
     - e
+  description: element of
 - symbol: Ē
   entities:
     - Emacr
   tags: []
+  description: latin capital letter e with macron
 - symbol: ◻
   entities:
     - EmptySmallSquare
   tags: []
+  description: white medium square
 - symbol: ▫
   entities:
     - EmptyVerySmallSquare
   tags: []
+  description: white small square
 - symbol: Ę
   entities:
     - Eogon
   tags: []
+  description: latin capital letter e with ogonek
 - symbol: 𝔼
   entities:
     - Eopf
   tags: []
+  description: mathematical double-struck capital e
 - symbol: Ε
   entities:
     - Epsilon
   tags:
     - e
     - epsilon
+  description: greek capital letter epsilon
 - symbol: ⩵
   entities:
     - Equal
   tags: []
+  description: two consecutive equals signs
 - symbol: ≂
   entities:
     - EqualTilde
     - eqsim
     - esim
   tags: []
+  description: minus tilde
 - symbol: ⇌
   entities:
     - Equilibrium
     - rightleftharpoons
     - rlhar
   tags: []
+  description: rightwards harpoon over leftwards harpoon
 - symbol: ℰ
   entities:
     - Escr
     - expectation
   tags: []
+  description: script capital e
 - symbol: ⩳
   entities:
     - Esim
   tags: []
+  description: equals sign above tilde operator
 - symbol: Η
   entities:
     - Eta
   tags:
     - h
     - eta
+  description: greek capital letter eta
 - symbol: Ë
   entities:
     - Euml
   tags:
     - E
     - diaeresis
+  description: latin capital letter e with diaeresis
 - symbol: ∃
   entities:
     - Exists
@@ -755,24 +890,29 @@
   tags:
     - e
     - exists
+  description: there exists
 - symbol: ⅇ
   entities:
     - ExponentialE
     - ee
     - exponentiale
   tags: []
+  description: double-struck italic small e
 - symbol: Ф
   entities:
     - Fcy
   tags: []
+  description: cyrillic capital letter ef
 - symbol: 𝔉
   entities:
     - Ffr
   tags: []
+  description: mathematical fraktur capital f
 - symbol: ◼
   entities:
     - FilledSmallSquare
   tags: []
+  description: black medium square
 - symbol: ▪
   entities:
     - FilledVerySmallSquare
@@ -780,10 +920,12 @@
     - squarf
     - squf
   tags: []
+  description: black small square
 - symbol: 𝔽
   entities:
     - Fopf
   tags: []
+  description: mathematical double-struck capital f
 - symbol: ∀
   entities:
     - ForAll
@@ -791,15 +933,18 @@
   tags:
     - all
     - A
+  description: for all
 - symbol: ℱ
   entities:
     - Fouriertrf
     - Fscr
   tags: []
+  description: script capital f
 - symbol: Ѓ
   entities:
     - GJcy
   tags: []
+  description: cyrillic capital letter gje
 - symbol: ">"
   entities:
     - GT
@@ -807,49 +952,60 @@
   tags:
     - ">"
     - greater-than
+  description: greater-than sign
 - symbol: Γ
   entities:
     - Gamma
   tags:
     - gamma
     - L
+  description: greek capital letter gamma
 - symbol: Ϝ
   entities:
     - Gammad
   tags: []
+  description: greek letter digamma
 - symbol: Ğ
   entities:
     - Gbreve
   tags: []
+  description: latin capital letter g with breve
 - symbol: Ģ
   entities:
     - Gcedil
   tags: []
+  description: latin capital letter g with cedilla
 - symbol: Ĝ
   entities:
     - Gcirc
   tags: []
+  description: latin capital letter g with circumflex
 - symbol: Г
   entities:
     - Gcy
   tags: []
+  description: cyrillic capital letter ghe
 - symbol: Ġ
   entities:
     - Gdot
   tags: []
+  description: latin capital letter g with dot above
 - symbol: 𝔊
   entities:
     - Gfr
   tags: []
+  description: mathematical fraktur capital g
 - symbol: ⋙
   entities:
     - Gg
     - ggg
   tags: []
+  description: very much greater-than
 - symbol: 𝔾
   entities:
     - Gopf
   tags: []
+  description: mathematical double-struck capital g
 - symbol: ≥
   entities:
     - GreaterEqual
@@ -862,110 +1018,132 @@
     - =>
     - =
     - ">"
+  description: greater-than or equal to
 - symbol: ⋛
   entities:
     - GreaterEqualLess
     - gel
     - gtreqless
   tags: []
+  description: greater-than equal to or less-than
 - symbol: ≧
   entities:
     - GreaterFullEqual
     - gE
     - geqq
   tags: []
+  description: greater-than over equal to
 - symbol: ⪢
   entities:
     - GreaterGreater
   tags: []
+  description: double nested greater-than
 - symbol: ≷
   entities:
     - GreaterLess
     - gl
     - gtrless
   tags: []
+  description: greater-than or less-than
 - symbol: ⩾
   entities:
     - GreaterSlantEqual
     - geqslant
     - ges
   tags: []
+  description: greater-than or slanted equal to
 - symbol: ≳
   entities:
     - GreaterTilde
     - gsim
     - gtrsim
   tags: []
+  description: greater-than or equivalent to
 - symbol: 𝒢
   entities:
     - Gscr
   tags: []
+  description: mathematical script capital g
 - symbol: ≫
   entities:
     - Gt
     - NestedGreaterGreater
     - gg
   tags: []
+  description: much greater-than
 - symbol: Ъ
   entities:
     - HARDcy
   tags: []
+  description: cyrillic capital letter hard sign
 - symbol: ˇ
   entities:
     - Hacek
     - caron
   tags: []
+  description: caron
 - symbol: ^
   entities:
     - Hat
   tags: []
+  description: circumflex accent
 - symbol: Ĥ
   entities:
     - Hcirc
   tags: []
+  description: latin capital letter h with circumflex
 - symbol: ℌ
   entities:
     - Hfr
     - Poincareplane
   tags: []
+  description: black-letter capital h
 - symbol: ℋ
   entities:
     - HilbertSpace
     - Hscr
     - hamilt
   tags: []
+  description: script capital h
 - symbol: ℍ
   entities:
     - Hopf
     - quaternions
   tags: []
+  description: double-struck capital h
 - symbol: ─
   entities:
     - HorizontalLine
     - boxh
   tags: []
+  description: box drawings light horizontal
 - symbol: Ħ
   entities:
     - Hstrok
   tags: []
+  description: latin capital letter h with stroke
 - symbol: ≏
   entities:
     - HumpEqual
     - bumpe
     - bumpeq
   tags: []
+  description: difference between
 - symbol: Е
   entities:
     - IEcy
   tags: []
+  description: cyrillic capital letter ie
 - symbol: Ĳ
   entities:
     - IJlig
   tags: []
+  description: latin capital ligature ij
 - symbol: Ё
   entities:
     - IOcy
   tags: []
+  description: cyrillic capital letter io
 - symbol: Í
   entities:
     - Iacute
@@ -973,6 +1151,7 @@
     - I
     - acute
     - L
+  description: latin capital letter i with acute
 - symbol: Î
   entities:
     - Icirc
@@ -980,14 +1159,17 @@
     - I
     - circumflex
     - L
+  description: latin capital letter i with circumflex
 - symbol: И
   entities:
     - Icy
   tags: []
+  description: cyrillic capital letter i
 - symbol: İ
   entities:
     - Idot
   tags: []
+  description: latin capital letter i with dot above
 - symbol: ℑ
   entities:
     - Ifr
@@ -998,6 +1180,7 @@
     - blackletter
     - I
     - imaginary
+  description: black-letter capital i
 - symbol: Ì
   entities:
     - Igrave
@@ -1005,19 +1188,23 @@
     - I
     - grave
     - L
+  description: latin capital letter i with grave
 - symbol: Ī
   entities:
     - Imacr
   tags: []
+  description: latin capital letter i with macron
 - symbol: ⅈ
   entities:
     - ImaginaryI
     - ii
   tags: []
+  description: double-struck italic small i
 - symbol: ∬
   entities:
     - Int
   tags: []
+  description: double integral
 - symbol: ∫
   entities:
     - Integral
@@ -1025,49 +1212,59 @@
   tags:
     - integral
     - f
+  description: integral
 - symbol: ⋂
   entities:
     - Intersection
     - bigcap
     - xcap
   tags: []
+  description: n-ary intersection
 - symbol: ⁣
   entities:
     - InvisibleComma
     - ic
   tags: []
+  description: invisible separator
 - symbol: ⁢
   entities:
     - InvisibleTimes
     - it
   tags: []
+  description: invisible times
 - symbol: Į
   entities:
     - Iogon
   tags: []
+  description: latin capital letter i with ogonek
 - symbol: 𝕀
   entities:
     - Iopf
   tags: []
+  description: mathematical double-struck capital i
 - symbol: Ι
   entities:
     - Iota
   tags:
     - i
     - iota
+  description: greek capital letter iota
 - symbol: ℐ
   entities:
     - Iscr
     - imagline
   tags: []
+  description: script capital i
 - symbol: Ĩ
   entities:
     - Itilde
   tags: []
+  description: latin capital letter i with tilde
 - symbol: І
   entities:
     - Iukcy
   tags: []
+  description: cyrillic capital letter byelorussian-ukrainian i
 - symbol: Ï
   entities:
     - Iuml
@@ -1075,72 +1272,89 @@
     - I
     - diaeresis
     - L
+  description: latin capital letter i with diaeresis
 - symbol: Ĵ
   entities:
     - Jcirc
   tags: []
+  description: latin capital letter j with circumflex
 - symbol: Й
   entities:
     - Jcy
   tags: []
+  description: cyrillic capital letter short i
 - symbol: 𝔍
   entities:
     - Jfr
   tags: []
+  description: mathematical fraktur capital j
 - symbol: 𝕁
   entities:
     - Jopf
   tags: []
+  description: mathematical double-struck capital j
 - symbol: 𝒥
   entities:
     - Jscr
   tags: []
+  description: mathematical script capital j
 - symbol: Ј
   entities:
     - Jsercy
   tags: []
+  description: cyrillic capital letter je
 - symbol: Є
   entities:
     - Jukcy
   tags: []
+  description: cyrillic capital letter ukrainian ie
 - symbol: Х
   entities:
     - KHcy
   tags: []
+  description: cyrillic capital letter ha
 - symbol: Ќ
   entities:
     - KJcy
   tags: []
+  description: cyrillic capital letter kje
 - symbol: Κ
   entities:
     - Kappa
   tags:
     - k
     - kappa
+  description: greek capital letter kappa
 - symbol: Ķ
   entities:
     - Kcedil
   tags: []
+  description: latin capital letter k with cedilla
 - symbol: К
   entities:
     - Kcy
   tags: []
+  description: cyrillic capital letter ka
 - symbol: 𝔎
   entities:
     - Kfr
   tags: []
+  description: mathematical fraktur capital k
 - symbol: 𝕂
   entities:
     - Kopf
   tags: []
+  description: mathematical double-struck capital k
 - symbol: 𝒦
   entities:
     - Kscr
   tags: []
+  description: mathematical script capital k
 - symbol: Љ
   entities:
     - LJcy
   tags: []
+  description: cyrillic capital letter lje
 - symbol: <
   entities:
     - LT
@@ -1150,43 +1364,52 @@
     - <
     - left
     - arrow
+  description: less-than sign
 - symbol: Ĺ
   entities:
     - Lacute
   tags: []
+  description: latin capital letter l with acute
 - symbol: Λ
   entities:
     - Lambda
   tags:
     - lambda
     - triangle
+  description: greek capital letter lamda
 - symbol: ⟪
   entities:
     - Lang
   tags: []
+  description: mathematical left double angle bracket
 - symbol: ℒ
   entities:
     - Laplacetrf
     - Lscr
     - lagran
   tags: []
+  description: script capital l
 - symbol: ↞
   entities:
     - Larr
     - twoheadleftarrow
   tags: []
+  description: leftwards two headed arrow
 - symbol: Ľ
   entities:
     - Lcaron
   tags: []
+  description: latin capital letter l with caron
 - symbol: Ļ
   entities:
     - Lcedil
   tags: []
+  description: latin capital letter l with cedilla
 - symbol: Л
   entities:
     - Lcy
   tags: []
+  description: cyrillic capital letter el
 - symbol: ⟨
   entities:
     - LeftAngleBracket
@@ -1196,6 +1419,7 @@
     - <
     - angle
     - bracket
+  description: mathematical left angle bracket
 - symbol: ←
   entities:
     - LeftArrow
@@ -1208,17 +1432,20 @@
     - <
     - leftwards
     - arrow
+  description: leftwards arrow
 - symbol: ⇤
   entities:
     - LeftArrowBar
     - larrb
   tags: []
+  description: leftwards arrow to bar
 - symbol: ⇆
   entities:
     - LeftArrowRightArrow
     - leftrightarrows
     - lrarr
   tags: []
+  description: leftwards arrow over rightwards arrow
 - symbol: ⌈
   entities:
     - LeftCeiling
@@ -1226,25 +1453,30 @@
   tags:
     - "["
     - ceiling
+  description: left ceiling
 - symbol: ⟦
   entities:
     - LeftDoubleBracket
     - lobrk
   tags: []
+  description: mathematical left white square bracket
 - symbol: ⥡
   entities:
     - LeftDownTeeVector
   tags: []
+  description: downwards harpoon with barb left from bar
 - symbol: ⇃
   entities:
     - LeftDownVector
     - dharl
     - downharpoonleft
   tags: []
+  description: downwards harpoon with barb leftwards
 - symbol: ⥙
   entities:
     - LeftDownVectorBar
   tags: []
+  description: downwards harpoon with barb left to bar
 - symbol: ⌊
   entities:
     - LeftFloor
@@ -1252,6 +1484,7 @@
   tags:
     - "["
     - floor
+  description: left floor
 - symbol: ↔
   entities:
     - LeftRightArrow
@@ -1263,226 +1496,272 @@
     - <>
     - left
     - arrow
+  description: left right arrow
 - symbol: ⥎
   entities:
     - LeftRightVector
   tags: []
+  description: left barb up right barb up harpoon
 - symbol: ⊣
   entities:
     - LeftTee
     - dashv
   tags: []
+  description: left tack
 - symbol: ↤
   entities:
     - LeftTeeArrow
     - mapstoleft
   tags: []
+  description: leftwards arrow from bar
 - symbol: ⥚
   entities:
     - LeftTeeVector
   tags: []
+  description: leftwards harpoon with barb up from bar
 - symbol: ⊲
   entities:
     - LeftTriangle
     - vartriangleleft
     - vltri
   tags: []
+  description: normal subgroup of
 - symbol: ⧏
   entities:
     - LeftTriangleBar
   tags: []
+  description: left triangle beside vertical bar
 - symbol: ⊴
   entities:
     - LeftTriangleEqual
     - ltrie
     - trianglelefteq
   tags: []
+  description: normal subgroup of or equal to
 - symbol: ⥑
   entities:
     - LeftUpDownVector
   tags: []
+  description: up barb left down barb left harpoon
 - symbol: ⥠
   entities:
     - LeftUpTeeVector
   tags: []
+  description: upwards harpoon with barb left from bar
 - symbol: ↿
   entities:
     - LeftUpVector
     - uharl
     - upharpoonleft
   tags: []
+  description: upwards harpoon with barb leftwards
 - symbol: ⥘
   entities:
     - LeftUpVectorBar
   tags: []
+  description: upwards harpoon with barb left to bar
 - symbol: ↼
   entities:
     - LeftVector
     - leftharpoonup
     - lharu
   tags: []
+  description: leftwards harpoon with barb upwards
 - symbol: ⥒
   entities:
     - LeftVectorBar
   tags: []
+  description: leftwards harpoon with barb up to bar
 - symbol: ⋚
   entities:
     - LessEqualGreater
     - leg
     - lesseqgtr
   tags: []
+  description: less-than equal to or greater-than
 - symbol: ≦
   entities:
     - LessFullEqual
     - lE
     - leqq
   tags: []
+  description: less-than over equal to
 - symbol: ≶
   entities:
     - LessGreater
     - lessgtr
     - lg
   tags: []
+  description: less-than or greater-than
 - symbol: ⪡
   entities:
     - LessLess
   tags: []
+  description: double nested less-than
 - symbol: ⩽
   entities:
     - LessSlantEqual
     - leqslant
     - les
   tags: []
+  description: less-than or slanted equal to
 - symbol: ≲
   entities:
     - LessTilde
     - lesssim
     - lsim
   tags: []
+  description: less-than or equivalent to
 - symbol: 𝔏
   entities:
     - Lfr
   tags: []
+  description: mathematical fraktur capital l
 - symbol: ⋘
   entities:
     - Ll
   tags: []
+  description: very much less-than
 - symbol: ⇚
   entities:
     - Lleftarrow
     - lAarr
   tags: []
+  description: leftwards triple arrow
 - symbol: Ŀ
   entities:
     - Lmidot
   tags: []
+  description: latin capital letter l with middle dot
 - symbol: ⟵
   entities:
     - LongLeftArrow
     - longleftarrow
     - xlarr
   tags: []
+  description: long leftwards arrow
 - symbol: ⟷
   entities:
     - LongLeftRightArrow
     - longleftrightarrow
     - xharr
   tags: []
+  description: long left right arrow
 - symbol: ⟶
   entities:
     - LongRightArrow
     - longrightarrow
     - xrarr
   tags: []
+  description: long rightwards arrow
 - symbol: 𝕃
   entities:
     - Lopf
   tags: []
+  description: mathematical double-struck capital l
 - symbol: ↙
   entities:
     - LowerLeftArrow
     - swarr
     - swarrow
   tags: []
+  description: south west arrow
 - symbol: ↘
   entities:
     - LowerRightArrow
     - searr
     - searrow
   tags: []
+  description: south east arrow
 - symbol: ↰
   entities:
     - Lsh
     - lsh
   tags: []
+  description: upwards arrow with tip leftwards
 - symbol: Ł
   entities:
     - Lstrok
   tags: []
+  description: latin capital letter l with stroke
 - symbol: ≪
   entities:
     - Lt
     - NestedLessLess
     - ll
   tags: []
+  description: much less-than
 - symbol: ⤅
   entities:
     - Map
   tags: []
+  description: rightwards two-headed arrow from bar
 - symbol: М
   entities:
     - Mcy
   tags: []
+  description: cyrillic capital letter em
 - symbol:  
   entities:
     - MediumSpace
   tags: []
+  description: medium mathematical space
 - symbol: ℳ
   entities:
     - Mellintrf
     - Mscr
     - phmmat
   tags: []
+  description: script capital m
 - symbol: 𝔐
   entities:
     - Mfr
   tags: []
+  description: mathematical fraktur capital m
 - symbol: ∓
   entities:
     - MinusPlus
     - mnplus
     - mp
   tags: []
+  description: minus-or-plus sign
 - symbol: 𝕄
   entities:
     - Mopf
   tags: []
+  description: mathematical double-struck capital m
 - symbol: Μ
   entities:
     - Mu
   tags:
     - m
     - mu
+  description: greek capital letter mu
 - symbol: Њ
   entities:
     - NJcy
   tags: []
+  description: cyrillic capital letter nje
 - symbol: Ń
   entities:
     - Nacute
   tags: []
+  description: latin capital letter n with acute
 - symbol: Ň
   entities:
     - Ncaron
   tags: []
+  description: latin capital letter n with caron
 - symbol: Ņ
   entities:
     - Ncedil
   tags: []
+  description: latin capital letter n with cedilla
 - symbol: Н
   entities:
     - Ncy
   tags: []
+  description: cyrillic capital letter en
 - symbol: ​
   entities:
     - NegativeMediumSpace
@@ -1491,42 +1770,51 @@
     - NegativeVeryThinSpace
     - ZeroWidthSpace
   tags: []
+  description: zero width space
 - symbol: "\n"
   entities:
     - NewLine
   tags: []
+  description: line feed (lf)
 - symbol: 𝔑
   entities:
     - Nfr
   tags: []
+  description: mathematical fraktur capital n
 - symbol: ⁠
   entities:
     - NoBreak
   tags: []
+  description: word joiner
 - symbol:  
   entities:
     - NonBreakingSpace
     - nbsp
   tags:
     - space
+  description: no-break space
 - symbol: ℕ
   entities:
     - Nopf
     - naturals
   tags: []
+  description: double-struck capital n
 - symbol: ⫬
   entities:
     - Not
   tags: []
+  description: double stroke not sign
 - symbol: ≢
   entities:
     - NotCongruent
     - nequiv
   tags: []
+  description: not identical to
 - symbol: ≭
   entities:
     - NotCupCap
   tags: []
+  description: not equivalent to
 - symbol: ∦
   entities:
     - NotDoubleVerticalBar
@@ -1535,6 +1823,7 @@
     - nshortparallel
     - nspar
   tags: []
+  description: not parallel to
 - symbol: ∉
   entities:
     - NotElement
@@ -1544,6 +1833,7 @@
     - e
     - not
     - element
+  description: not an element of
 - symbol: ≠
   entities:
     - NotEqual
@@ -1552,247 +1842,293 @@
     - not
     - equal
     - =
+  description: not equal to
 - symbol: ≂̸
   entities:
     - NotEqualTilde
     - nesim
   tags: []
+  description: minus tilde with slash
 - symbol: ∄
   entities:
     - NotExists
     - nexist
     - nexists
   tags: []
+  description: there does not exist
 - symbol: ≯
   entities:
     - NotGreater
     - ngt
     - ngtr
   tags: []
+  description: not greater-than
 - symbol: ≱
   entities:
     - NotGreaterEqual
     - nge
     - ngeq
   tags: []
+  description: neither greater-than nor equal to
 - symbol: ≧̸
   entities:
     - NotGreaterFullEqual
     - ngE
     - ngeqq
   tags: []
+  description: greater-than over equal to with slash
 - symbol: ≫̸
   entities:
     - NotGreaterGreater
     - nGtv
   tags: []
+  description: much greater than with slash
 - symbol: ≹
   entities:
     - NotGreaterLess
     - ntgl
   tags: []
+  description: neither greater-than nor less-than
 - symbol: ⩾̸
   entities:
     - NotGreaterSlantEqual
     - ngeqslant
     - nges
   tags: []
+  description: greater-than or slanted equal to with slash
 - symbol: ≵
   entities:
     - NotGreaterTilde
     - ngsim
   tags: []
+  description: neither greater-than nor equivalent to
 - symbol: ≎̸
   entities:
     - NotHumpDownHump
     - nbump
   tags: []
+  description: geometrically equivalent to with slash
 - symbol: ≏̸
   entities:
     - NotHumpEqual
     - nbumpe
   tags: []
+  description: difference between with slash
 - symbol: ⋪
   entities:
     - NotLeftTriangle
     - nltri
     - ntriangleleft
   tags: []
+  description: not normal subgroup of
 - symbol: ⧏̸
   entities:
     - NotLeftTriangleBar
   tags: []
+  description: left triangle beside vertical bar with slash
 - symbol: ⋬
   entities:
     - NotLeftTriangleEqual
     - nltrie
     - ntrianglelefteq
   tags: []
+  description: not normal subgroup of or equal to
 - symbol: ≮
   entities:
     - NotLess
     - nless
     - nlt
   tags: []
+  description: not less-than
 - symbol: ≰
   entities:
     - NotLessEqual
     - nle
     - nleq
   tags: []
+  description: neither less-than nor equal to
 - symbol: ≸
   entities:
     - NotLessGreater
     - ntlg
   tags: []
+  description: neither less-than nor greater-than
 - symbol: ≪̸
   entities:
     - NotLessLess
     - nLtv
   tags: []
+  description: much less than with slash
 - symbol: ⩽̸
   entities:
     - NotLessSlantEqual
     - nleqslant
     - nles
   tags: []
+  description: less-than or slanted equal to with slash
 - symbol: ≴
   entities:
     - NotLessTilde
     - nlsim
   tags: []
+  description: neither less-than nor equivalent to
 - symbol: ⪢̸
   entities:
     - NotNestedGreaterGreater
   tags: []
+  description: double nested greater-than with slash
 - symbol: ⪡̸
   entities:
     - NotNestedLessLess
   tags: []
+  description: double nested less-than with slash
 - symbol: ⊀
   entities:
     - NotPrecedes
     - npr
     - nprec
   tags: []
+  description: does not precede
 - symbol: ⪯̸
   entities:
     - NotPrecedesEqual
     - npre
     - npreceq
   tags: []
+  description: precedes above single-line equals sign with slash
 - symbol: ⋠
   entities:
     - NotPrecedesSlantEqual
     - nprcue
   tags: []
+  description: does not precede or equal
 - symbol: ∌
   entities:
     - NotReverseElement
     - notni
     - notniva
   tags: []
+  description: does not contain as member
 - symbol: ⋫
   entities:
     - NotRightTriangle
     - nrtri
     - ntriangleright
   tags: []
+  description: does not contain as normal subgroup
 - symbol: ⧐̸
   entities:
     - NotRightTriangleBar
   tags: []
+  description: vertical bar beside right triangle with slash
 - symbol: ⋭
   entities:
     - NotRightTriangleEqual
     - nrtrie
     - ntrianglerighteq
   tags: []
+  description: does not contain as normal subgroup or equal
 - symbol: ⊏̸
   entities:
     - NotSquareSubset
   tags: []
+  description: square image of with slash
 - symbol: ⋢
   entities:
     - NotSquareSubsetEqual
     - nsqsube
   tags: []
+  description: not square image of or equal to
 - symbol: ⊐̸
   entities:
     - NotSquareSuperset
   tags: []
+  description: square original of with slash
 - symbol: ⋣
   entities:
     - NotSquareSupersetEqual
     - nsqsupe
   tags: []
+  description: not square original of or equal to
 - symbol: ⊂⃒
   entities:
     - NotSubset
     - nsubset
     - vnsub
   tags: []
+  description: subset of with vertical line
 - symbol: ⊈
   entities:
     - NotSubsetEqual
     - nsube
     - nsubseteq
   tags: []
+  description: neither a subset of nor equal to
 - symbol: ⊁
   entities:
     - NotSucceeds
     - nsc
     - nsucc
   tags: []
+  description: does not succeed
 - symbol: ⪰̸
   entities:
     - NotSucceedsEqual
     - nsce
     - nsucceq
   tags: []
+  description: succeeds above single-line equals sign with slash
 - symbol: ⋡
   entities:
     - NotSucceedsSlantEqual
     - nsccue
   tags: []
+  description: does not succeed or equal
 - symbol: ≿̸
   entities:
     - NotSucceedsTilde
   tags: []
+  description: succeeds or equivalent to with slash
 - symbol: ⊃⃒
   entities:
     - NotSuperset
     - nsupset
     - vnsup
   tags: []
+  description: superset of with vertical line
 - symbol: ⊉
   entities:
     - NotSupersetEqual
     - nsupe
     - nsupseteq
   tags: []
+  description: neither a superset of nor equal to
 - symbol: ≁
   entities:
     - NotTilde
     - nsim
   tags: []
+  description: not tilde
 - symbol: ≄
   entities:
     - NotTildeEqual
     - nsime
     - nsimeq
   tags: []
+  description: not asymptotically equal to
 - symbol: ≇
   entities:
     - NotTildeFullEqual
     - ncong
   tags: []
+  description: neither approximately nor actually equal to
 - symbol: ≉
   entities:
     - NotTildeTilde
     - nap
     - napprox
   tags: []
+  description: not almost equal to
 - symbol: ∤
   entities:
     - NotVerticalBar
@@ -1800,61 +2136,73 @@
     - nshortmid
     - nsmid
   tags: []
+  description: does not divide
 - symbol: 𝒩
   entities:
     - Nscr
   tags: []
+  description: mathematical script capital n
 - symbol: Ñ
   entities:
     - Ntilde
   tags:
     - N
     - tilde
+  description: latin capital letter n with tilde
 - symbol: Ν
   entities:
     - Nu
   tags:
     - n
     - nu
+  description: greek capital letter nu
 - symbol: Œ
   entities:
     - OElig
   tags:
     - OE
+  description: latin capital ligature oe
 - symbol: Ó
   entities:
     - Oacute
   tags:
     - O
     - acute
+  description: latin capital letter o with acute
 - symbol: Ô
   entities:
     - Ocirc
   tags:
     - O
     - circumflex
+  description: latin capital letter o with circumflex
 - symbol: О
   entities:
     - Ocy
   tags: []
+  description: cyrillic capital letter o
 - symbol: Ő
   entities:
     - Odblac
   tags: []
+  description: latin capital letter o with double acute
 - symbol: 𝔒
   entities:
     - Ofr
   tags: []
+  description: mathematical fraktur capital o
 - symbol: Ò
   entities:
     - Ograve
   tags:
     - O
     - grave
+  description: latin capital letter o with grave
 - symbol: Ō
   entities:
     - Omacr
   tags: []
+  description: latin capital letter o with macron
 - symbol: Ω
   entities:
     - Omega
@@ -1862,16 +2210,19 @@
   tags:
     - omega
     - o
+  description: greek capital letter omega
 - symbol: Ο
   entities:
     - Omicron
   tags:
     - o
     - omicron
+  description: greek capital letter omicron
 - symbol: 𝕆
   entities:
     - Oopf
   tags: []
+  description: mathematical double-struck capital o
 - symbol: “
   entities:
     - OpenCurlyDoubleQuote
@@ -1880,6 +2231,7 @@
     - '"'
     - quotation
     - quote
+  description: left double quotation mark
 - symbol: ‘
   entities:
     - OpenCurlyQuote
@@ -1889,14 +2241,17 @@
     - quotation
     - quote
     - "'"
+  description: left single quotation mark
 - symbol: ⩔
   entities:
     - Or
   tags: []
+  description: double logical or
 - symbol: 𝒪
   entities:
     - Oscr
   tags: []
+  description: mathematical script capital o
 - symbol: Ø
   entities:
     - Oslash
@@ -1904,22 +2259,26 @@
     - O
     - stroke
     - slash
+  description: latin capital letter o with stroke
 - symbol: Õ
   entities:
     - Otilde
   tags:
     - O
     - tilde
+  description: latin capital letter o with tilde
 - symbol: ⨷
   entities:
     - Otimes
   tags: []
+  description: multiplication sign in double circle
 - symbol: Ö
   entities:
     - Ouml
   tags:
     - O
     - diaeresis
+  description: latin capital letter o with diaeresis
 - symbol: ‾
   entities:
     - OverBar
@@ -1928,19 +2287,23 @@
     - overline
     - overscore
     - _
+  description: overline
 - symbol: ⏞
   entities:
     - OverBrace
   tags: []
+  description: top curly bracket
 - symbol: ⎴
   entities:
     - OverBracket
     - tbrk
   tags: []
+  description: top square bracket
 - symbol: ⏜
   entities:
     - OverParenthesis
   tags: []
+  description: top parenthesis
 - symbol: ∂
   entities:
     - PartialD
@@ -1949,25 +2312,30 @@
     - partial
     - differential
     - d
+  description: partial differential
 - symbol: П
   entities:
     - Pcy
   tags: []
+  description: cyrillic capital letter pe
 - symbol: 𝔓
   entities:
     - Pfr
   tags: []
+  description: mathematical fraktur capital p
 - symbol: Φ
   entities:
     - Phi
   tags:
     - o
     - phi
+  description: greek capital letter phi
 - symbol: Π
   entities:
     - Pi
   tags:
     - pi
+  description: greek capital letter pi
 - symbol: ±
   entities:
     - PlusMinus
@@ -1978,39 +2346,46 @@
     - +
     - "-"
     - +-
+  description: plus-minus sign
 - symbol: ℙ
   entities:
     - Popf
     - primes
   tags: []
+  description: double-struck capital p
 - symbol: ⪻
   entities:
     - Pr
   tags: []
+  description: double precedes
 - symbol: ≺
   entities:
     - Precedes
     - pr
     - prec
   tags: []
+  description: precedes
 - symbol: ⪯
   entities:
     - PrecedesEqual
     - pre
     - preceq
   tags: []
+  description: precedes above single-line equals sign
 - symbol: ≼
   entities:
     - PrecedesSlantEqual
     - prcue
     - preccurlyeq
   tags: []
+  description: precedes or equal to
 - symbol: ≾
   entities:
     - PrecedesTilde
     - precsim
     - prsim
   tags: []
+  description: precedes or equivalent to
 - symbol: ″
   entities:
     - Prime
@@ -2018,6 +2393,7 @@
     - '"'
     - double
     - "''"
+  description: double prime
 - symbol: ∏
   entities:
     - Product
@@ -2026,6 +2402,7 @@
     - n-ary
     - product
     - n
+  description: n-ary product
 - symbol: ∝
   entities:
     - Proportional
@@ -2035,40 +2412,48 @@
     - vprop
   tags:
     - proportional
+  description: proportional to
 - symbol: 𝒫
   entities:
     - Pscr
   tags: []
+  description: mathematical script capital p
 - symbol: Ψ
   entities:
     - Psi
   tags:
     - y
     - psi
+  description: greek capital letter psi
 - symbol: '"'
   entities:
     - QUOT
     - quot
   tags:
     - quotation
+  description: quotation mark
 - symbol: 𝔔
   entities:
     - Qfr
   tags: []
+  description: mathematical fraktur capital q
 - symbol: ℚ
   entities:
     - Qopf
     - rationals
   tags: []
+  description: double-struck capital q
 - symbol: 𝒬
   entities:
     - Qscr
   tags: []
+  description: mathematical script capital q
 - symbol: ⤐
   entities:
     - RBarr
     - drbkarow
   tags: []
+  description: rightwards two-headed triple dash arrow
 - symbol: ®
   entities:
     - REG
@@ -2078,35 +2463,43 @@
     - (r)
     - r
     - registered
+  description: registered sign
 - symbol: Ŕ
   entities:
     - Racute
   tags: []
+  description: latin capital letter r with acute
 - symbol: ⟫
   entities:
     - Rang
   tags: []
+  description: mathematical right double angle bracket
 - symbol: ↠
   entities:
     - Rarr
     - twoheadrightarrow
   tags: []
+  description: rightwards two headed arrow
 - symbol: ⤖
   entities:
     - Rarrtl
   tags: []
+  description: rightwards two-headed arrow with tail
 - symbol: Ř
   entities:
     - Rcaron
   tags: []
+  description: latin capital letter r with caron
 - symbol: Ŗ
   entities:
     - Rcedil
   tags: []
+  description: latin capital letter r with cedilla
 - symbol: Р
   entities:
     - Rcy
   tags: []
+  description: cyrillic capital letter er
 - symbol: ℜ
   entities:
     - Re
@@ -2118,6 +2511,7 @@
     - blackletter
     - real
     - part
+  description: black-letter capital r
 - symbol: ∋
   entities:
     - ReverseElement
@@ -2128,23 +2522,27 @@
     - contains
     - member
     - e
+  description: contains as member
 - symbol: ⇋
   entities:
     - ReverseEquilibrium
     - leftrightharpoons
     - lrhar
   tags: []
+  description: leftwards harpoon over rightwards harpoon
 - symbol: ⥯
   entities:
     - ReverseUpEquilibrium
     - duhar
   tags: []
+  description: downwards harpoon with barb left beside upwards harpoon with barb right
 - symbol: Ρ
   entities:
     - Rho
   tags:
     - p
     - rho
+  description: greek capital letter rho
 - symbol: ⟩
   entities:
     - RightAngleBracket
@@ -2154,6 +2552,7 @@
     - ">"
     - angle
     - bracket
+  description: mathematical right angle bracket
 - symbol: →
   entities:
     - RightArrow
@@ -2166,17 +2565,20 @@
     - ">"
     - rightwards
     - arrow
+  description: rightwards arrow
 - symbol: ⇥
   entities:
     - RightArrowBar
     - rarrb
   tags: []
+  description: rightwards arrow to bar
 - symbol: ⇄
   entities:
     - RightArrowLeftArrow
     - rightleftarrows
     - rlarr
   tags: []
+  description: rightwards arrow over leftwards arrow
 - symbol: ⌉
   entities:
     - RightCeiling
@@ -2184,25 +2586,30 @@
   tags:
     - "]"
     - right
+  description: right ceiling
 - symbol: ⟧
   entities:
     - RightDoubleBracket
     - robrk
   tags: []
+  description: mathematical right white square bracket
 - symbol: ⥝
   entities:
     - RightDownTeeVector
   tags: []
+  description: downwards harpoon with barb right from bar
 - symbol: ⇂
   entities:
     - RightDownVector
     - dharr
     - downharpoonright
   tags: []
+  description: downwards harpoon with barb rightwards
 - symbol: ⥕
   entities:
     - RightDownVectorBar
   tags: []
+  description: downwards harpoon with barb right to bar
 - symbol: ⌋
   entities:
     - RightFloor
@@ -2211,135 +2618,164 @@
     - "]"
     - right
     - floor
+  description: right floor
 - symbol: ⊢
   entities:
     - RightTee
     - vdash
   tags: []
+  description: right tack
 - symbol: ↦
   entities:
     - RightTeeArrow
     - map
     - mapsto
   tags: []
+  description: rightwards arrow from bar
 - symbol: ⥛
   entities:
     - RightTeeVector
   tags: []
+  description: rightwards harpoon with barb up from bar
 - symbol: ⊳
   entities:
     - RightTriangle
     - vartriangleright
     - vrtri
   tags: []
+  description: contains as normal subgroup
 - symbol: ⧐
   entities:
     - RightTriangleBar
   tags: []
+  description: vertical bar beside right triangle
 - symbol: ⊵
   entities:
     - RightTriangleEqual
     - rtrie
     - trianglerighteq
   tags: []
+  description: contains as normal subgroup or equal to
 - symbol: ⥏
   entities:
     - RightUpDownVector
   tags: []
+  description: up barb right down barb right harpoon
 - symbol: ⥜
   entities:
     - RightUpTeeVector
   tags: []
+  description: upwards harpoon with barb right from bar
 - symbol: ↾
   entities:
     - RightUpVector
     - uharr
     - upharpoonright
   tags: []
+  description: upwards harpoon with barb rightwards
 - symbol: ⥔
   entities:
     - RightUpVectorBar
   tags: []
+  description: upwards harpoon with barb right to bar
 - symbol: ⇀
   entities:
     - RightVector
     - rharu
     - rightharpoonup
   tags: []
+  description: rightwards harpoon with barb upwards
 - symbol: ⥓
   entities:
     - RightVectorBar
   tags: []
+  description: rightwards harpoon with barb up to bar
 - symbol: ℝ
   entities:
     - Ropf
     - reals
   tags: []
+  description: double-struck capital r
 - symbol: ⥰
   entities:
     - RoundImplies
   tags: []
+  description: right double arrow with rounded head
 - symbol: ⇛
   entities:
     - Rrightarrow
     - rAarr
   tags: []
+  description: rightwards triple arrow
 - symbol: ℛ
   entities:
     - Rscr
     - realine
   tags: []
+  description: script capital r
 - symbol: ↱
   entities:
     - Rsh
     - rsh
   tags: []
+  description: upwards arrow with tip rightwards
 - symbol: ⧴
   entities:
     - RuleDelayed
   tags: []
+  description: rule-delayed
 - symbol: Щ
   entities:
     - SHCHcy
   tags: []
+  description: cyrillic capital letter shcha
 - symbol: Ш
   entities:
     - SHcy
   tags: []
+  description: cyrillic capital letter sha
 - symbol: Ь
   entities:
     - SOFTcy
   tags: []
+  description: cyrillic capital letter soft sign
 - symbol: Ś
   entities:
     - Sacute
   tags: []
+  description: latin capital letter s with acute
 - symbol: ⪼
   entities:
     - Sc
   tags: []
+  description: double succeeds
 - symbol: Š
   entities:
     - Scaron
   tags:
     - S
     - caron
+  description: latin capital letter s with caron
 - symbol: Ş
   entities:
     - Scedil
   tags: []
+  description: latin capital letter s with cedilla
 - symbol: Ŝ
   entities:
     - Scirc
   tags: []
+  description: latin capital letter s with circumflex
 - symbol: С
   entities:
     - Scy
   tags: []
+  description: cyrillic capital letter es
 - symbol: 𝔖
   entities:
     - Sfr
   tags: []
+  description: mathematical fraktur capital s
 - symbol: ↑
   entities:
     - ShortUpArrow
@@ -2348,21 +2784,25 @@
     - uparrow
   tags:
     - arrow
+  description: upwards arrow
 - symbol: Σ
   entities:
     - Sigma
   tags:
     - sigma
     - e
+  description: greek capital letter sigma
 - symbol: ∘
   entities:
     - SmallCircle
     - compfn
   tags: []
+  description: ring operator
 - symbol: 𝕊
   entities:
     - Sopf
   tags: []
+  description: mathematical double-struck capital s
 - symbol: √
   entities:
     - Sqrt
@@ -2372,60 +2812,71 @@
     - root
     - y
     - ^
+  description: square root
 - symbol: □
   entities:
     - Square
     - squ
     - square
   tags: []
+  description: white square
 - symbol: ⊓
   entities:
     - SquareIntersection
     - sqcap
   tags: []
+  description: square cap
 - symbol: ⊏
   entities:
     - SquareSubset
     - sqsub
     - sqsubset
   tags: []
+  description: square image of
 - symbol: ⊑
   entities:
     - SquareSubsetEqual
     - sqsube
     - sqsubseteq
   tags: []
+  description: square image of or equal to
 - symbol: ⊐
   entities:
     - SquareSuperset
     - sqsup
     - sqsupset
   tags: []
+  description: square original of
 - symbol: ⊒
   entities:
     - SquareSupersetEqual
     - sqsupe
     - sqsupseteq
   tags: []
+  description: square original of or equal to
 - symbol: ⊔
   entities:
     - SquareUnion
     - sqcup
   tags: []
+  description: square cup
 - symbol: 𝒮
   entities:
     - Sscr
   tags: []
+  description: mathematical script capital s
 - symbol: ⋆
   entities:
     - Star
     - sstarf
   tags: []
+  description: star operator
 - symbol: ⋐
   entities:
     - Sub
     - Subset
   tags: []
+  description: double subset
 - symbol: ⊆
   entities:
     - SubsetEqual
@@ -2436,30 +2887,35 @@
     - equal
     - c
     - =
+  description: subset of or equal to
 - symbol: ≻
   entities:
     - Succeeds
     - sc
     - succ
   tags: []
+  description: succeeds
 - symbol: ⪰
   entities:
     - SucceedsEqual
     - sce
     - succeq
   tags: []
+  description: succeeds above single-line equals sign
 - symbol: ≽
   entities:
     - SucceedsSlantEqual
     - sccue
     - succcurlyeq
   tags: []
+  description: succeeds or equal to
 - symbol: ≿
   entities:
     - SucceedsTilde
     - scsim
     - succsim
   tags: []
+  description: succeeds or equivalent to
 - symbol: ∑
   entities:
     - Sum
@@ -2468,11 +2924,13 @@
     - e
     - n-ary
     - sumation
+  description: n-ary summation
 - symbol: ⋑
   entities:
     - Sup
     - Supset
   tags: []
+  description: double superset
 - symbol: ⊃
   entities:
     - Superset
@@ -2481,6 +2939,7 @@
   tags:
     - superset
     - c
+  description: superset of
 - symbol: ⊇
   entities:
     - SupersetEqual
@@ -2491,12 +2950,14 @@
     - superset
     - equal
     - =
+  description: superset of or equal to
 - symbol: Þ
   entities:
     - THORN
   tags:
     - THORN
     - P
+  description: latin capital letter thorn
 - symbol: ™
   entities:
     - TRADE
@@ -2505,40 +2966,49 @@
     - trade
     - mark
     - tm
+  description: trade mark sign
 - symbol: Ћ
   entities:
     - TSHcy
   tags: []
+  description: cyrillic capital letter tshe
 - symbol: Ц
   entities:
     - TScy
   tags: []
+  description: cyrillic capital letter tse
 - symbol: "\t"
   entities:
     - Tab
   tags: []
+  description: character tabulation
 - symbol: Τ
   entities:
     - Tau
   tags:
     - t
     - tau
+  description: greek capital letter tau
 - symbol: Ť
   entities:
     - Tcaron
   tags: []
+  description: latin capital letter t with caron
 - symbol: Ţ
   entities:
     - Tcedil
   tags: []
+  description: latin capital letter t with cedilla
 - symbol: Т
   entities:
     - Tcy
   tags: []
+  description: cyrillic capital letter te
 - symbol: 𝔗
   entities:
     - Tfr
   tags: []
+  description: mathematical fraktur capital t
 - symbol: ∴
   entities:
     - Therefore
@@ -2546,22 +3016,26 @@
     - therefore
   tags:
     - therefore
+  description: therefore
 - symbol: Θ
   entities:
     - Theta
   tags:
     - theta
     - o
+  description: greek capital letter theta
 - symbol:   
   entities:
     - ThickSpace
   tags: []
+  description: space of width 5/18 em
 - symbol:  
   entities:
     - ThinSpace
     - thinsp
   tags:
     - space
+  description: thin space
 - symbol: ∼
   entities:
     - Tilde
@@ -2572,12 +3046,14 @@
     - tilde
     - "~"
     - similar
+  description: tilde operator
 - symbol: ≃
   entities:
     - TildeEqual
     - sime
     - simeq
   tags: []
+  description: asymptotically equal to
 - symbol: ≅
   entities:
     - TildeFullEqual
@@ -2587,6 +3063,7 @@
     - equal
     - =
     - "~"
+  description: approximately equal to
 - symbol: ≈
   entities:
     - TildeTilde
@@ -2601,130 +3078,158 @@
     - ~~
     - =
     - equal
+  description: almost equal to
 - symbol: 𝕋
   entities:
     - Topf
   tags: []
+  description: mathematical double-struck capital t
 - symbol: ⃛
   entities:
     - TripleDot
     - tdot
   tags: []
+  description: combining three dots above
 - symbol: 𝒯
   entities:
     - Tscr
   tags: []
+  description: mathematical script capital t
 - symbol: Ŧ
   entities:
     - Tstrok
   tags: []
+  description: latin capital letter t with stroke
 - symbol: Ú
   entities:
     - Uacute
   tags:
     - U
     - acute
+  description: latin capital letter u with acute
 - symbol: ↟
   entities:
     - Uarr
   tags: []
+  description: upwards two headed arrow
 - symbol: ⥉
   entities:
     - Uarrocir
   tags: []
+  description: upwards two-headed arrow from small circle
 - symbol: Ў
   entities:
     - Ubrcy
   tags: []
+  description: cyrillic capital letter short u
 - symbol: Ŭ
   entities:
     - Ubreve
   tags: []
+  description: latin capital letter u with breve
 - symbol: Û
   entities:
     - Ucirc
   tags:
     - U
     - circumflex
+  description: latin capital letter u with circumflex
 - symbol: У
   entities:
     - Ucy
   tags: []
+  description: cyrillic capital letter u
 - symbol: Ű
   entities:
     - Udblac
   tags: []
+  description: latin capital letter u with double acute
 - symbol: 𝔘
   entities:
     - Ufr
   tags: []
+  description: mathematical fraktur capital u
 - symbol: Ù
   entities:
     - Ugrave
   tags:
     - U
     - grave
+  description: latin capital letter u with grave
 - symbol: Ū
   entities:
     - Umacr
   tags: []
+  description: latin capital letter u with macron
 - symbol: _
   entities:
     - UnderBar
     - lowbar
   tags: []
+  description: low line
 - symbol: ⏟
   entities:
     - UnderBrace
   tags: []
+  description: bottom curly bracket
 - symbol: ⎵
   entities:
     - UnderBracket
     - bbrk
   tags: []
+  description: bottom square bracket
 - symbol: ⏝
   entities:
     - UnderParenthesis
   tags: []
+  description: bottom parenthesis
 - symbol: ⋃
   entities:
     - Union
     - bigcup
     - xcup
   tags: []
+  description: n-ary union
 - symbol: ⊎
   entities:
     - UnionPlus
     - uplus
   tags: []
+  description: multiset union
 - symbol: Ų
   entities:
     - Uogon
   tags: []
+  description: latin capital letter u with ogonek
 - symbol: 𝕌
   entities:
     - Uopf
   tags: []
+  description: mathematical double-struck capital u
 - symbol: ⤒
   entities:
     - UpArrowBar
   tags: []
+  description: upwards arrow to bar
 - symbol: ⇅
   entities:
     - UpArrowDownArrow
     - udarr
   tags: []
+  description: upwards arrow leftwards of downwards arrow
 - symbol: ↕
   entities:
     - UpDownArrow
     - updownarrow
     - varr
   tags: []
+  description: up down arrow
 - symbol: ⥮
   entities:
     - UpEquilibrium
     - udhar
   tags: []
+  description: upwards harpoon with barb left beside downwards harpoon with barb right
 - symbol: ⊥
   entities:
     - UpTee
@@ -2736,23 +3241,27 @@
     - "|"
     - orthogonal
     - perpendicular
+  description: up tack
 - symbol: ↥
   entities:
     - UpTeeArrow
     - mapstoup
   tags: []
+  description: upwards arrow from bar
 - symbol: ↖
   entities:
     - UpperLeftArrow
     - nwarr
     - nwarrow
   tags: []
+  description: north west arrow
 - symbol: ↗
   entities:
     - UpperRightArrow
     - nearr
     - nearrow
   tags: []
+  description: north east arrow
 - symbol: ϒ
   entities:
     - Upsi
@@ -2761,61 +3270,74 @@
     - y
     - hook
     - upsilon
+  description: greek upsilon with hook symbol
 - symbol: Υ
   entities:
     - Upsilon
   tags:
     - upsilon
     - y
+  description: greek capital letter upsilon
 - symbol: Ů
   entities:
     - Uring
   tags: []
+  description: latin capital letter u with ring above
 - symbol: 𝒰
   entities:
     - Uscr
   tags: []
+  description: mathematical script capital u
 - symbol: Ũ
   entities:
     - Utilde
   tags: []
+  description: latin capital letter u with tilde
 - symbol: Ü
   entities:
     - Uuml
   tags:
     - U
     - diaeresis
+  description: latin capital letter u with diaeresis
 - symbol: ⊫
   entities:
     - VDash
   tags: []
+  description: double vertical bar double right turnstile
 - symbol: ⫫
   entities:
     - Vbar
   tags: []
+  description: double up tack
 - symbol: В
   entities:
     - Vcy
   tags: []
+  description: cyrillic capital letter ve
 - symbol: ⊩
   entities:
     - Vdash
   tags: []
+  description: forces
 - symbol: ⫦
   entities:
     - Vdashl
   tags: []
+  description: long dash from left member of double vertical
 - symbol: ⋁
   entities:
     - Vee
     - bigvee
     - xvee
   tags: []
+  description: n-ary logical or
 - symbol: ‖
   entities:
     - Verbar
     - Vert
   tags: []
+  description: double vertical line
 - symbol: ∣
   entities:
     - VerticalBar
@@ -2823,215 +3345,262 @@
     - shortmid
     - smid
   tags: []
+  description: divides
 - symbol: "|"
   entities:
     - VerticalLine
     - verbar
     - vert
   tags: []
+  description: vertical line
 - symbol: ❘
   entities:
     - VerticalSeparator
   tags: []
+  description: light vertical bar
 - symbol: ≀
   entities:
     - VerticalTilde
     - wr
     - wreath
   tags: []
+  description: wreath product
 - symbol:  
   entities:
     - VeryThinSpace
     - hairsp
   tags: []
+  description: hair space
 - symbol: 𝔙
   entities:
     - Vfr
   tags: []
+  description: mathematical fraktur capital v
 - symbol: 𝕍
   entities:
     - Vopf
   tags: []
+  description: mathematical double-struck capital v
 - symbol: 𝒱
   entities:
     - Vscr
   tags: []
+  description: mathematical script capital v
 - symbol: ⊪
   entities:
     - Vvdash
   tags: []
+  description: triple vertical bar right turnstile
 - symbol: Ŵ
   entities:
     - Wcirc
   tags: []
+  description: latin capital letter w with circumflex
 - symbol: ⋀
   entities:
     - Wedge
     - bigwedge
     - xwedge
   tags: []
+  description: n-ary logical and
 - symbol: 𝔚
   entities:
     - Wfr
   tags: []
+  description: mathematical fraktur capital w
 - symbol: 𝕎
   entities:
     - Wopf
   tags: []
+  description: mathematical double-struck capital w
 - symbol: 𝒲
   entities:
     - Wscr
   tags: []
+  description: mathematical script capital w
 - symbol: 𝔛
   entities:
     - Xfr
   tags: []
+  description: mathematical fraktur capital x
 - symbol: Ξ
   entities:
     - Xi
   tags:
     - xi
     - e
+  description: greek capital letter xi
 - symbol: 𝕏
   entities:
     - Xopf
   tags: []
+  description: mathematical double-struck capital x
 - symbol: 𝒳
   entities:
     - Xscr
   tags: []
+  description: mathematical script capital x
 - symbol: Я
   entities:
     - YAcy
   tags: []
+  description: cyrillic capital letter ya
 - symbol: Ї
   entities:
     - YIcy
   tags: []
+  description: cyrillic capital letter yi
 - symbol: Ю
   entities:
     - YUcy
   tags: []
+  description: cyrillic capital letter yu
 - symbol: Ý
   entities:
     - Yacute
   tags:
     - Y
     - acute
+  description: latin capital letter y with acute
 - symbol: Ŷ
   entities:
     - Ycirc
   tags: []
+  description: latin capital letter y with circumflex
 - symbol: Ы
   entities:
     - Ycy
   tags: []
+  description: cyrillic capital letter yeru
 - symbol: 𝔜
   entities:
     - Yfr
   tags: []
+  description: mathematical fraktur capital y
 - symbol: 𝕐
   entities:
     - Yopf
   tags: []
+  description: mathematical double-struck capital y
 - symbol: 𝒴
   entities:
     - Yscr
   tags: []
+  description: mathematical script capital y
 - symbol: Ÿ
   entities:
     - Yuml
   tags:
     - Y
     - diaeresis
+  description: latin capital letter y with diaeresis
 - symbol: Ж
   entities:
     - ZHcy
   tags: []
+  description: cyrillic capital letter zhe
 - symbol: Ź
   entities:
     - Zacute
   tags: []
+  description: latin capital letter z with acute
 - symbol: Ž
   entities:
     - Zcaron
   tags: []
+  description: latin capital letter z with caron
 - symbol: З
   entities:
     - Zcy
   tags: []
+  description: cyrillic capital letter ze
 - symbol: Ż
   entities:
     - Zdot
   tags: []
+  description: latin capital letter z with dot above
 - symbol: Ζ
   entities:
     - Zeta
   tags:
     - z
     - zeta
+  description: greek capital letter zeta
 - symbol: ℨ
   entities:
     - Zfr
     - zeetrf
   tags: []
+  description: black-letter capital z
 - symbol: ℤ
   entities:
     - Zopf
     - integers
   tags: []
+  description: double-struck capital z
 - symbol: 𝒵
   entities:
     - Zscr
   tags: []
+  description: mathematical script capital z
 - symbol: á
   entities:
     - aacute
   tags:
     - a
     - acute
+  description: latin small letter a with acute
 - symbol: ă
   entities:
     - abreve
   tags: []
+  description: latin small letter a with breve
 - symbol: ∾
   entities:
     - ac
     - mstpos
   tags: []
+  description: inverted lazy s
 - symbol: ∾̳
   entities:
     - acE
   tags: []
+  description: inverted lazy s with double underline
 - symbol: ∿
   entities:
     - acd
   tags: []
+  description: sine wave
 - symbol: â
   entities:
     - acirc
   tags:
     - a
     - circumflex
+  description: latin small letter a with circumflex
 - symbol: а
   entities:
     - acy
   tags: []
+  description: cyrillic small letter a
 - symbol: æ
   entities:
     - aelig
   tags:
     - ae
+  description: latin small letter ae
 - symbol: 𝔞
   entities:
     - afr
   tags: []
+  description: mathematical fraktur small a
 - symbol: à
   entities:
     - agrave
   tags:
     - a
     - grave
+  description: latin small letter a with grave
 - symbol: ℵ
   entities:
     - alefsym
@@ -3040,20 +3609,24 @@
     - alef
     - transfinite
     - n
+  description: alef symbol
 - symbol: α
   entities:
     - alpha
   tags:
     - alpha
     - a
+  description: greek small letter alpha
 - symbol: ā
   entities:
     - amacr
   tags: []
+  description: latin small letter a with macron
 - symbol: ⨿
   entities:
     - amalg
   tags: []
+  description: amalgamation or coproduct
 - symbol: ∧
   entities:
     - and
@@ -3063,22 +3636,27 @@
     - and
     - wedge
     - ^
+  description: logical and
 - symbol: ⩕
   entities:
     - andand
   tags: []
+  description: two intersecting logical and
 - symbol: ⩜
   entities:
     - andd
   tags: []
+  description: logical and with horizontal dash
 - symbol: ⩘
   entities:
     - andslope
   tags: []
+  description: sloping large and
 - symbol: ⩚
   entities:
     - andv
   tags: []
+  description: logical and with middle stem
 - symbol: ∠
   entities:
     - ang
@@ -3086,173 +3664,212 @@
   tags:
     - angle
     - <
+  description: angle
 - symbol: ⦤
   entities:
     - ange
   tags: []
+  description: angle with underbar
 - symbol: ∡
   entities:
     - angmsd
     - measuredangle
   tags: []
+  description: measured angle
 - symbol: ⦨
   entities:
     - angmsdaa
   tags: []
+  description: measured angle with open arm ending in arrow pointing up and right
 - symbol: ⦩
   entities:
     - angmsdab
   tags: []
+  description: measured angle with open arm ending in arrow pointing up and left
 - symbol: ⦪
   entities:
     - angmsdac
   tags: []
+  description: measured angle with open arm ending in arrow pointing down and right
 - symbol: ⦫
   entities:
     - angmsdad
   tags: []
+  description: measured angle with open arm ending in arrow pointing down and left
 - symbol: ⦬
   entities:
     - angmsdae
   tags: []
+  description: measured angle with open arm ending in arrow pointing right and up
 - symbol: ⦭
   entities:
     - angmsdaf
   tags: []
+  description: measured angle with open arm ending in arrow pointing left and up
 - symbol: ⦮
   entities:
     - angmsdag
   tags: []
+  description: measured angle with open arm ending in arrow pointing right and down
 - symbol: ⦯
   entities:
     - angmsdah
   tags: []
+  description: measured angle with open arm ending in arrow pointing left and down
 - symbol: ∟
   entities:
     - angrt
   tags: []
+  description: right angle
 - symbol: ⊾
   entities:
     - angrtvb
   tags: []
+  description: right angle with arc
 - symbol: ⦝
   entities:
     - angrtvbd
   tags: []
+  description: measured right angle with dot
 - symbol: ∢
   entities:
     - angsph
   tags: []
+  description: spherical angle
 - symbol: ⍼
   entities:
     - angzarr
   tags: []
+  description: right angle with downwards zigzag arrow
 - symbol: ą
   entities:
     - aogon
   tags: []
+  description: latin small letter a with ogonek
 - symbol: 𝕒
   entities:
     - aopf
   tags: []
+  description: mathematical double-struck small a
 - symbol: ⩰
   entities:
     - apE
   tags: []
+  description: approximately equal or equal to
 - symbol: ⩯
   entities:
     - apacir
   tags: []
+  description: almost equal to with circumflex accent
 - symbol: ≊
   entities:
     - ape
     - approxeq
   tags: []
+  description: almost equal or equal to
 - symbol: ≋
   entities:
     - apid
   tags: []
+  description: triple tilde
 - symbol: "'"
   entities:
     - apos
   tags: []
+  description: apostrophe
 - symbol: å
   entities:
     - aring
   tags:
     - a
     - ring
+  description: latin small letter a with ring above
 - symbol: 𝒶
   entities:
     - ascr
   tags: []
+  description: mathematical script small a
 - symbol: "*"
   entities:
     - ast
     - midast
   tags: []
+  description: asterisk
 - symbol: ã
   entities:
     - atilde
   tags:
     - a
     - tilde
+  description: latin small letter a with tilde
 - symbol: ä
   entities:
     - auml
   tags:
     - a
     - diaeresis
+  description: latin small letter a with diaeresis
 - symbol: ⨑
   entities:
     - awint
   tags: []
+  description: anticlockwise integration
 - symbol: ⫭
   entities:
     - bNot
   tags: []
+  description: reversed double stroke not sign
 - symbol: ≌
   entities:
     - backcong
     - bcong
   tags: []
+  description: all equal to
 - symbol: ϶
   entities:
     - backepsilon
     - bepsi
   tags: []
+  description: greek reversed lunate epsilon symbol
 - symbol: ‵
   entities:
     - backprime
     - bprime
   tags: []
+  description: reversed prime
 - symbol: ∽
   entities:
     - backsim
     - bsim
   tags: []
+  description: reversed tilde
 - symbol: ⋍
   entities:
     - backsimeq
     - bsime
   tags: []
+  description: reversed tilde equals
 - symbol: ⊽
   entities:
     - barvee
   tags: []
+  description: nor
 - symbol: ⌅
   entities:
     - barwed
     - barwedge
   tags: []
+  description: projective
 - symbol: ⎶
   entities:
     - bbrktbrk
   tags: []
+  description: bottom square bracket over top square bracket
 - symbol: б
   entities:
     - bcy
   tags: []
+  description: cyrillic small letter be
 - symbol: „
   entities:
     - bdquo
@@ -3263,319 +3880,393 @@
     - quotation
     - quote
     - '"'
+  description: double low-9 quotation mark
 - symbol: ⦰
   entities:
     - bemptyv
   tags: []
+  description: reversed empty set
 - symbol: β
   entities:
     - beta
   tags:
     - b
     - beta
+  description: greek small letter beta
 - symbol: ℶ
   entities:
     - beth
   tags: []
+  description: bet symbol
 - symbol: ≬
   entities:
     - between
     - twixt
   tags: []
+  description: between
 - symbol: 𝔟
   entities:
     - bfr
   tags: []
+  description: mathematical fraktur small b
 - symbol: ◯
   entities:
     - bigcirc
     - xcirc
   tags: []
+  description: large circle
 - symbol: ⨀
   entities:
     - bigodot
     - xodot
   tags: []
+  description: n-ary circled dot operator
 - symbol: ⨁
   entities:
     - bigoplus
     - xoplus
   tags: []
+  description: n-ary circled plus operator
 - symbol: ⨂
   entities:
     - bigotimes
     - xotime
   tags: []
+  description: n-ary circled times operator
 - symbol: ⨆
   entities:
     - bigsqcup
     - xsqcup
   tags: []
+  description: n-ary square union operator
 - symbol: ★
   entities:
     - bigstar
     - starf
   tags: []
+  description: black star
 - symbol: ▽
   entities:
     - bigtriangledown
     - xdtri
   tags: []
+  description: white down-pointing triangle
 - symbol: △
   entities:
     - bigtriangleup
     - xutri
   tags: []
+  description: white up-pointing triangle
 - symbol: ⨄
   entities:
     - biguplus
     - xuplus
   tags: []
+  description: n-ary union operator with plus
 - symbol: ⤍
   entities:
     - bkarow
     - rbarr
   tags: []
+  description: rightwards double dash arrow
 - symbol: ⧫
   entities:
     - blacklozenge
     - lozf
   tags: []
+  description: black lozenge
 - symbol: ▴
   entities:
     - blacktriangle
     - utrif
   tags: []
+  description: black up-pointing small triangle
 - symbol: ▾
   entities:
     - blacktriangledown
     - dtrif
   tags: []
+  description: black down-pointing small triangle
 - symbol: ◂
   entities:
     - blacktriangleleft
     - ltrif
   tags: []
+  description: black left-pointing small triangle
 - symbol: ▸
   entities:
     - blacktriangleright
     - rtrif
   tags: []
+  description: black right-pointing small triangle
 - symbol: ␣
   entities:
     - blank
   tags: []
+  description: open box
 - symbol: ▒
   entities:
     - blk12
   tags: []
+  description: medium shade
 - symbol: ░
   entities:
     - blk14
   tags: []
+  description: light shade
 - symbol: ▓
   entities:
     - blk34
   tags: []
+  description: dark shade
 - symbol: █
   entities:
     - block
   tags: []
+  description: full block
 - symbol: =⃥
   entities:
     - bne
   tags: []
+  description: equals sign with reverse slash
 - symbol: ≡⃥
   entities:
     - bnequiv
   tags: []
+  description: identical to with reverse slash
 - symbol: ⌐
   entities:
     - bnot
   tags: []
+  description: reversed not sign
 - symbol: 𝕓
   entities:
     - bopf
   tags: []
+  description: mathematical double-struck small b
 - symbol: ⋈
   entities:
     - bowtie
   tags: []
+  description: bowtie
 - symbol: ╗
   entities:
     - boxDL
   tags: []
+  description: box drawings double down and left
 - symbol: ╔
   entities:
     - boxDR
   tags: []
+  description: box drawings double down and right
 - symbol: ╖
   entities:
     - boxDl
   tags: []
+  description: box drawings down double and left single
 - symbol: ╓
   entities:
     - boxDr
   tags: []
+  description: box drawings down double and right single
 - symbol: ═
   entities:
     - boxH
   tags: []
+  description: box drawings double horizontal
 - symbol: ╦
   entities:
     - boxHD
   tags: []
+  description: box drawings double down and horizontal
 - symbol: ╩
   entities:
     - boxHU
   tags: []
+  description: box drawings double up and horizontal
 - symbol: ╤
   entities:
     - boxHd
   tags: []
+  description: box drawings down single and horizontal double
 - symbol: ╧
   entities:
     - boxHu
   tags: []
+  description: box drawings up single and horizontal double
 - symbol: ╝
   entities:
     - boxUL
   tags: []
+  description: box drawings double up and left
 - symbol: ╚
   entities:
     - boxUR
   tags: []
+  description: box drawings double up and right
 - symbol: ╜
   entities:
     - boxUl
   tags: []
+  description: box drawings up double and left single
 - symbol: ╙
   entities:
     - boxUr
   tags: []
+  description: box drawings up double and right single
 - symbol: ║
   entities:
     - boxV
   tags: []
+  description: box drawings double vertical
 - symbol: ╬
   entities:
     - boxVH
   tags: []
+  description: box drawings double vertical and horizontal
 - symbol: ╣
   entities:
     - boxVL
   tags: []
+  description: box drawings double vertical and left
 - symbol: ╠
   entities:
     - boxVR
   tags: []
+  description: box drawings double vertical and right
 - symbol: ╫
   entities:
     - boxVh
   tags: []
+  description: box drawings vertical double and horizontal single
 - symbol: ╢
   entities:
     - boxVl
   tags: []
+  description: box drawings vertical double and left single
 - symbol: ╟
   entities:
     - boxVr
   tags: []
+  description: box drawings vertical double and right single
 - symbol: ⧉
   entities:
     - boxbox
   tags: []
+  description: two joined squares
 - symbol: ╕
   entities:
     - boxdL
   tags: []
+  description: box drawings down single and left double
 - symbol: ╒
   entities:
     - boxdR
   tags: []
+  description: box drawings down single and right double
 - symbol: ┐
   entities:
     - boxdl
   tags: []
+  description: box drawings light down and left
 - symbol: ┌
   entities:
     - boxdr
   tags: []
+  description: box drawings light down and right
 - symbol: ╥
   entities:
     - boxhD
   tags: []
+  description: box drawings down double and horizontal single
 - symbol: ╨
   entities:
     - boxhU
   tags: []
+  description: box drawings up double and horizontal single
 - symbol: ┬
   entities:
     - boxhd
   tags: []
+  description: box drawings light down and horizontal
 - symbol: ┴
   entities:
     - boxhu
   tags: []
+  description: box drawings light up and horizontal
 - symbol: ⊟
   entities:
     - boxminus
     - minusb
   tags: []
+  description: squared minus
 - symbol: ⊞
   entities:
     - boxplus
     - plusb
   tags: []
+  description: squared plus
 - symbol: ⊠
   entities:
     - boxtimes
     - timesb
   tags: []
+  description: squared times
 - symbol: ╛
   entities:
     - boxuL
   tags: []
+  description: box drawings up single and left double
 - symbol: ╘
   entities:
     - boxuR
   tags: []
+  description: box drawings up single and right double
 - symbol: ┘
   entities:
     - boxul
   tags: []
+  description: box drawings light up and left
 - symbol: └
   entities:
     - boxur
   tags: []
+  description: box drawings light up and right
 - symbol: │
   entities:
     - boxv
   tags: []
+  description: box drawings light vertical
 - symbol: ╪
   entities:
     - boxvH
   tags: []
+  description: box drawings vertical single and horizontal double
 - symbol: ╡
   entities:
     - boxvL
   tags: []
+  description: box drawings vertical single and left double
 - symbol: ╞
   entities:
     - boxvR
   tags: []
+  description: box drawings vertical single and right double
 - symbol: ┼
   entities:
     - boxvh
   tags: []
+  description: box drawings light vertical and horizontal
 - symbol: ┤
   entities:
     - boxvl
   tags: []
+  description: box drawings light vertical and left
 - symbol: ├
   entities:
     - boxvr
   tags: []
+  description: box drawings light vertical and right
 - symbol: ¦
   entities:
     - brvbar
@@ -3583,26 +4274,32 @@
     - bar
     - vertical
     - "|"
+  description: broken bar
 - symbol: 𝒷
   entities:
     - bscr
   tags: []
+  description: mathematical script small b
 - symbol: ⁏
   entities:
     - bsemi
   tags: []
+  description: reversed semicolon
 - symbol: \
   entities:
     - bsol
   tags: []
+  description: reverse solidus
 - symbol: ⧅
   entities:
     - bsolb
   tags: []
+  description: squared falling diagonal slash
 - symbol: ⟈
   entities:
     - bsolhsub
   tags: []
+  description: reverse solidus preceding subset
 - symbol: •
   entities:
     - bull
@@ -3610,115 +4307,141 @@
   tags:
     - "*"
     - bullet
+  description: bullet
 - symbol: ⪮
   entities:
     - bumpE
   tags: []
+  description: equals sign with bumpy above
 - symbol: ć
   entities:
     - cacute
   tags: []
+  description: latin small letter c with acute
 - symbol: ∩
   entities:
     - cap
   tags:
     - intersection
     - cap
+  description: intersection
 - symbol: ⩄
   entities:
     - capand
   tags: []
+  description: intersection with logical and
 - symbol: ⩉
   entities:
     - capbrcup
   tags: []
+  description: intersection above bar above union
 - symbol: ⩋
   entities:
     - capcap
   tags: []
+  description: intersection beside and joined with intersection
 - symbol: ⩇
   entities:
     - capcup
   tags: []
+  description: intersection above union
 - symbol: ⩀
   entities:
     - capdot
   tags: []
+  description: intersection with dot
 - symbol: ∩︀
   entities:
     - caps
   tags: []
+  description: intersection with serifs
 - symbol: ⁁
   entities:
     - caret
   tags: []
+  description: caret insertion point
 - symbol: ⩍
   entities:
     - ccaps
   tags: []
+  description: closed intersection with serifs
 - symbol: č
   entities:
     - ccaron
   tags: []
+  description: latin small letter c with caron
 - symbol: ç
   entities:
     - ccedil
   tags:
     - c
     - cedilla
+  description: latin small letter c with cedilla
 - symbol: ĉ
   entities:
     - ccirc
   tags: []
+  description: latin small letter c with circumflex
 - symbol: ⩌
   entities:
     - ccups
   tags: []
+  description: closed union with serifs
 - symbol: ⩐
   entities:
     - ccupssm
   tags: []
+  description: closed union with serifs and smash product
 - symbol: ċ
   entities:
     - cdot
   tags: []
+  description: latin small letter c with dot above
 - symbol: ⦲
   entities:
     - cemptyv
   tags: []
+  description: empty set with small circle above
 - symbol: ¢
   entities:
     - cent
   tags:
     - cent
     - c
+  description: cent sign
 - symbol: 𝔠
   entities:
     - cfr
   tags: []
+  description: mathematical fraktur small c
 - symbol: ч
   entities:
     - chcy
   tags: []
+  description: cyrillic small letter che
 - symbol: ✓
   entities:
     - check
     - checkmark
   tags: []
+  description: check mark
 - symbol: χ
   entities:
     - chi
   tags:
     - x
     - chi
+  description: greek small letter chi
 - symbol: ○
   entities:
     - cir
   tags: []
+  description: white circle
 - symbol: ⧃
   entities:
     - cirE
   tags: []
+  description: circle with two horizontal strokes to the right
 - symbol: ˆ
   entities:
     - circ
@@ -3726,53 +4449,64 @@
     - circumflex
     - accent
     - ^
+  description: modifier letter circumflex accent
 - symbol: ≗
   entities:
     - circeq
     - cire
   tags: []
+  description: ring equal to
 - symbol: ↺
   entities:
     - circlearrowleft
     - olarr
   tags: []
+  description: anticlockwise open circle arrow
 - symbol: ↻
   entities:
     - circlearrowright
     - orarr
   tags: []
+  description: clockwise open circle arrow
 - symbol: Ⓢ
   entities:
     - circledS
     - oS
   tags: []
+  description: circled latin capital letter s
 - symbol: ⊛
   entities:
     - circledast
     - oast
   tags: []
+  description: circled asterisk operator
 - symbol: ⊚
   entities:
     - circledcirc
     - ocir
   tags: []
+  description: circled ring operator
 - symbol: ⊝
   entities:
     - circleddash
     - odash
   tags: []
+  description: circled dash
 - symbol: ⨐
   entities:
     - cirfnint
   tags: []
+  description: circulation function
 - symbol: ⫯
   entities:
     - cirmid
   tags: []
+  description: vertical line with circle above
 - symbol: ⧂
   entities:
     - cirscir
   tags: []
+  description: circle with small circle to the right
 - symbol: ♣
   entities:
     - clubs
@@ -3782,35 +4516,43 @@
     - shamrock
     - card
     - cards
+  description: black club suit
 - symbol: ":"
   entities:
     - colon
   tags: []
+  description: colon
 - symbol: ","
   entities:
     - comma
   tags: []
+  description: comma
 - symbol: "@"
   entities:
     - commat
   tags: []
+  description: commercial at
 - symbol: ∁
   entities:
     - comp
     - complement
   tags: []
+  description: complement
 - symbol: ⩭
   entities:
     - congdot
   tags: []
+  description: congruent with dot above
 - symbol: 𝕔
   entities:
     - copf
   tags: []
+  description: mathematical double-struck small c
 - symbol: ℗
   entities:
     - copysr
   tags: []
+  description: sound recording copyright
 - symbol: ↵
   entities:
     - crarr
@@ -3821,171 +4563,209 @@
     - carriage
     - return
     - enter
+  description: downwards arrow with corner leftwards
 - symbol: ✗
   entities:
     - cross
   tags: []
+  description: ballot x
 - symbol: 𝒸
   entities:
     - cscr
   tags: []
+  description: mathematical script small c
 - symbol: ⫏
   entities:
     - csub
   tags: []
+  description: closed subset
 - symbol: ⫑
   entities:
     - csube
   tags: []
+  description: closed subset or equal to
 - symbol: ⫐
   entities:
     - csup
   tags: []
+  description: closed superset
 - symbol: ⫒
   entities:
     - csupe
   tags: []
+  description: closed superset or equal to
 - symbol: ⋯
   entities:
     - ctdot
   tags: []
+  description: midline horizontal ellipsis
 - symbol: ⤸
   entities:
     - cudarrl
   tags: []
+  description: right-side arc clockwise arrow
 - symbol: ⤵
   entities:
     - cudarrr
   tags: []
+  description: arrow pointing rightwards then curving downwards
 - symbol: ⋞
   entities:
     - cuepr
     - curlyeqprec
   tags: []
+  description: equal to or precedes
 - symbol: ⋟
   entities:
     - cuesc
     - curlyeqsucc
   tags: []
+  description: equal to or succeeds
 - symbol: ↶
   entities:
     - cularr
     - curvearrowleft
   tags: []
+  description: anticlockwise top semicircle arrow
 - symbol: ⤽
   entities:
     - cularrp
   tags: []
+  description: top arc anticlockwise arrow with plus
 - symbol: ∪
   entities:
     - cup
   tags:
     - union
     - cup
+  description: union
 - symbol: ⩈
   entities:
     - cupbrcap
   tags: []
+  description: union above bar above intersection
 - symbol: ⩆
   entities:
     - cupcap
   tags: []
+  description: union above intersection
 - symbol: ⩊
   entities:
     - cupcup
   tags: []
+  description: union beside and joined with union
 - symbol: ⊍
   entities:
     - cupdot
   tags: []
+  description: multiset multiplication
 - symbol: ⩅
   entities:
     - cupor
   tags: []
+  description: union with logical or
 - symbol: ∪︀
   entities:
     - cups
   tags: []
+  description: union with serifs
 - symbol: ↷
   entities:
     - curarr
     - curvearrowright
   tags: []
+  description: clockwise top semicircle arrow
 - symbol: ⤼
   entities:
     - curarrm
   tags: []
+  description: top arc clockwise arrow with minus
 - symbol: ⋎
   entities:
     - curlyvee
     - cuvee
   tags: []
+  description: curly logical or
 - symbol: ⋏
   entities:
     - curlywedge
     - cuwed
   tags: []
+  description: curly logical and
 - symbol: ¤
   entities:
     - curren
   tags:
     - currency
+  description: currency sign
 - symbol: ∱
   entities:
     - cwint
   tags: []
+  description: clockwise integral
 - symbol: ⌭
   entities:
     - cylcty
   tags: []
+  description: cylindricity
 - symbol: ⥥
   entities:
     - dHar
   tags: []
+  description: downwards harpoon with barb left beside downwards harpoon with barb right
 - symbol: †
   entities:
     - dagger
   tags:
     - +
     - dagger
+  description: dagger
 - symbol: ℸ
   entities:
     - daleth
   tags: []
+  description: dalet symbol
 - symbol: ‐
   entities:
     - dash
     - hyphen
   tags: []
+  description: hyphen
 - symbol: ⤏
   entities:
     - dbkarow
     - rBarr
   tags: []
+  description: rightwards triple dash arrow
 - symbol: ď
   entities:
     - dcaron
   tags: []
+  description: latin small letter d with caron
 - symbol: д
   entities:
     - dcy
   tags: []
+  description: cyrillic small letter de
 - symbol: ⇊
   entities:
     - ddarr
     - downdownarrows
   tags: []
+  description: downwards paired arrows
 - symbol: ⩷
   entities:
     - ddotseq
     - eDDot
   tags: []
+  description: equals sign with two dots above and two dots below
 - symbol: °
   entities:
     - deg
   tags:
     - degree
     - o
+  description: degree sign
 - symbol: δ
   entities:
     - delta
@@ -3993,18 +4773,22 @@
     - d
     - delta
     - o
+  description: greek small letter delta
 - symbol: ⦱
   entities:
     - demptyv
   tags: []
+  description: empty set with overbar
 - symbol: ⥿
   entities:
     - dfisht
   tags: []
+  description: down fish tail
 - symbol: 𝔡
   entities:
     - dfr
   tags: []
+  description: mathematical fraktur small d
 - symbol: ♦
   entities:
     - diamondsuit
@@ -4013,15 +4797,18 @@
     - card
     - cards
     - diamond
+  description: black diamond suit
 - symbol: ϝ
   entities:
     - digamma
     - gammad
   tags: []
+  description: greek small letter digamma
 - symbol: ⋲
   entities:
     - disin
   tags: []
+  description: element of with long horizontal stroke
 - symbol: ÷
   entities:
     - div
@@ -4030,189 +4817,231 @@
     - division
     - /
     - div
+  description: division sign
 - symbol: ⋇
   entities:
     - divideontimes
     - divonx
   tags: []
+  description: division times
 - symbol: ђ
   entities:
     - djcy
   tags: []
+  description: cyrillic small letter dje
 - symbol: ⌞
   entities:
     - dlcorn
     - llcorner
   tags: []
+  description: bottom left corner
 - symbol: ⌍
   entities:
     - dlcrop
   tags: []
+  description: bottom left crop
 - symbol: $
   entities:
     - dollar
   tags: []
+  description: dollar sign
 - symbol: 𝕕
   entities:
     - dopf
   tags: []
+  description: mathematical double-struck small d
 - symbol: ≑
   entities:
     - doteqdot
     - eDot
   tags: []
+  description: geometrically equal to
 - symbol: ∸
   entities:
     - dotminus
     - minusd
   tags: []
+  description: dot minus
 - symbol: ∔
   entities:
     - dotplus
     - plusdo
   tags: []
+  description: dot plus
 - symbol: ⊡
   entities:
     - dotsquare
     - sdotb
   tags: []
+  description: squared dot operator
 - symbol: ⌟
   entities:
     - drcorn
     - lrcorner
   tags: []
+  description: bottom right corner
 - symbol: ⌌
   entities:
     - drcrop
   tags: []
+  description: bottom right crop
 - symbol: 𝒹
   entities:
     - dscr
   tags: []
+  description: mathematical script small d
 - symbol: ѕ
   entities:
     - dscy
   tags: []
+  description: cyrillic small letter dze
 - symbol: ⧶
   entities:
     - dsol
   tags: []
+  description: solidus with overbar
 - symbol: đ
   entities:
     - dstrok
   tags: []
+  description: latin small letter d with stroke
 - symbol: ⋱
   entities:
     - dtdot
   tags: []
+  description: down right diagonal ellipsis
 - symbol: ▿
   entities:
     - dtri
     - triangledown
   tags: []
+  description: white down-pointing small triangle
 - symbol: ⦦
   entities:
     - dwangle
   tags: []
+  description: oblique angle opening up
 - symbol: џ
   entities:
     - dzcy
   tags: []
+  description: cyrillic small letter dzhe
 - symbol: ⟿
   entities:
     - dzigrarr
   tags: []
+  description: long rightwards squiggle arrow
 - symbol: é
   entities:
     - eacute
   tags:
     - e
     - acute
+  description: latin small letter e with acute
 - symbol: ⩮
   entities:
     - easter
   tags: []
+  description: equals with asterisk
 - symbol: ě
   entities:
     - ecaron
   tags: []
+  description: latin small letter e with caron
 - symbol: ≖
   entities:
     - ecir
     - eqcirc
   tags: []
+  description: ring in equal to
 - symbol: ê
   entities:
     - ecirc
   tags:
     - e
     - circumflex
+  description: latin small letter e with circumflex
 - symbol: ≕
   entities:
     - ecolon
     - eqcolon
   tags: []
+  description: equals colon
 - symbol: э
   entities:
     - ecy
   tags: []
+  description: cyrillic small letter e
 - symbol: ė
   entities:
     - edot
   tags: []
+  description: latin small letter e with dot above
 - symbol: ≒
   entities:
     - efDot
     - fallingdotseq
   tags: []
+  description: approximately equal to or the image of
 - symbol: 𝔢
   entities:
     - efr
   tags: []
+  description: mathematical fraktur small e
 - symbol: ⪚
   entities:
     - eg
   tags: []
+  description: double-line equal to or greater-than
 - symbol: è
   entities:
     - egrave
   tags:
     - e
     - grave
+  description: latin small letter e with grave
 - symbol: ⪖
   entities:
     - egs
     - eqslantgtr
   tags: []
+  description: slanted equal to or greater-than
 - symbol: ⪘
   entities:
     - egsdot
   tags: []
+  description: slanted equal to or greater-than with dot inside
 - symbol: ⪙
   entities:
     - el
   tags: []
+  description: double-line equal to or less-than
 - symbol: ⏧
   entities:
     - elinters
   tags: []
+  description: electrical intersection
 - symbol: ℓ
   entities:
     - ell
   tags: []
+  description: script small l
 - symbol: ⪕
   entities:
     - els
     - eqslantless
   tags: []
+  description: slanted equal to or less-than
 - symbol: ⪗
   entities:
     - elsdot
   tags: []
+  description: slanted equal to or less-than with dot inside
 - symbol: ē
   entities:
     - emacr
   tags: []
+  description: latin small letter e with macron
 - symbol: ∅
   entities:
     - empty
@@ -4225,48 +5054,59 @@
     - set
     - "null"
     - diameter
+  description: empty set
 - symbol:  
   entities:
     - emsp13
   tags: []
+  description: three-per-em space
 - symbol:  
   entities:
     - emsp14
   tags: []
+  description: four-per-em space
 - symbol:  
   entities:
     - emsp
   tags:
     - space
+  description: em space
 - symbol: ŋ
   entities:
     - eng
   tags: []
+  description: latin small letter eng
 - symbol:  
   entities:
     - ensp
   tags:
     - space
+  description: en space
 - symbol: ę
   entities:
     - eogon
   tags: []
+  description: latin small letter e with ogonek
 - symbol: 𝕖
   entities:
     - eopf
   tags: []
+  description: mathematical double-struck small e
 - symbol: ⋕
   entities:
     - epar
   tags: []
+  description: equal and parallel to
 - symbol: ⧣
   entities:
     - eparsl
   tags: []
+  description: equals sign and slanted parallel
 - symbol: ⩱
   entities:
     - eplus
   tags: []
+  description: equals sign above plus sign
 - symbol: ε
   entities:
     - epsi
@@ -4274,60 +5114,72 @@
   tags:
     - e
     - epsilon
+  description: greek small letter epsilon
 - symbol: ϵ
   entities:
     - epsiv
     - straightepsilon
     - varepsilon
   tags: []
+  description: greek lunate epsilon symbol
 - symbol: =
   entities:
     - equals
   tags: []
+  description: equals sign
 - symbol: ≟
   entities:
     - equest
     - questeq
   tags: []
+  description: questioned equal to
 - symbol: ⩸
   entities:
     - equivDD
   tags: []
+  description: equivalent with four dots above
 - symbol: ⧥
   entities:
     - eqvparsl
   tags: []
+  description: identical to and slanted parallel
 - symbol: ≓
   entities:
     - erDot
     - risingdotseq
   tags: []
+  description: image of or approximately equal to
 - symbol: ⥱
   entities:
     - erarr
   tags: []
+  description: equals sign above rightwards arrow
 - symbol: ℯ
   entities:
     - escr
   tags: []
+  description: script small e
 - symbol: η
   entities:
     - eta
   tags:
     - n
     - eta
+  description: greek small letter eta
 - symbol: ð
   entities:
     - eth
   tags:
     - eth
     - o
+  description: latin small letter eth
 - symbol: ë
   entities:
     - euml
   tags:
     - e
     - diaeresis
+  description: latin small letter e with diaeresis
 - symbol: €
   entities:
     - euro
@@ -4335,54 +5187,67 @@
     - E
     - €
     - euro
+  description: euro sign
 - symbol: "!"
   entities:
     - excl
   tags: []
+  description: exclamation mark
 - symbol: ф
   entities:
     - fcy
   tags: []
+  description: cyrillic small letter ef
 - symbol: ♀
   entities:
     - female
   tags: []
+  description: female sign
 - symbol: ﬃ
   entities:
     - ffilig
   tags: []
+  description: latin small ligature ffi
 - symbol: ﬀ
   entities:
     - fflig
   tags: []
+  description: latin small ligature ff
 - symbol: ﬄ
   entities:
     - ffllig
   tags: []
+  description: latin small ligature ffl
 - symbol: 𝔣
   entities:
     - ffr
   tags: []
+  description: mathematical fraktur small f
 - symbol: ﬁ
   entities:
     - filig
   tags: []
+  description: latin small ligature fi
 - symbol: fj
   entities:
     - fjlig
   tags: []
+  description: fj ligature
 - symbol: ♭
   entities:
     - flat
   tags: []
+  description: music flat sign
 - symbol: ﬂ
   entities:
     - fllig
   tags: []
+  description: latin small ligature fl
 - symbol: ▱
   entities:
     - fltns
   tags: []
+  description: white parallelogram
 - symbol: ƒ
   entities:
     - fnof
@@ -4391,23 +5256,28 @@
     - hook
     - function
     - florin
+  description: latin small letter f with hook
 - symbol: 𝕗
   entities:
     - fopf
   tags: []
+  description: mathematical double-struck small f
 - symbol: ⋔
   entities:
     - fork
     - pitchfork
   tags: []
+  description: pitchfork
 - symbol: ⫙
   entities:
     - forkv
   tags: []
+  description: element of opening downwards
 - symbol: ⨍
   entities:
     - fpartint
   tags: []
+  description: finite part integral
 - symbol: ½
   entities:
     - frac12
@@ -4416,10 +5286,12 @@
     - fraction
     - half
     - 1/2
+  description: vulgar fraction one half
 - symbol: ⅓
   entities:
     - frac13
   tags: []
+  description: vulgar fraction one third
 - symbol: ¼
   entities:
     - frac14
@@ -4427,26 +5299,32 @@
     - fraction
     - 1/4
     - quarter
+  description: vulgar fraction one quarter
 - symbol: ⅕
   entities:
     - frac15
   tags: []
+  description: vulgar fraction one fifth
 - symbol: ⅙
   entities:
     - frac16
   tags: []
+  description: vulgar fraction one sixth
 - symbol: ⅛
   entities:
     - frac18
   tags: []
+  description: vulgar fraction one eighth
 - symbol: ⅔
   entities:
     - frac23
   tags: []
+  description: vulgar fraction two thirds
 - symbol: ⅖
   entities:
     - frac25
   tags: []
+  description: vulgar fraction two fifths
 - symbol: ¾
   entities:
     - frac34
@@ -4454,30 +5332,37 @@
     - fraction
     - quarters
     - 3/4
+  description: vulgar fraction three quarters
 - symbol: ⅗
   entities:
     - frac35
   tags: []
+  description: vulgar fraction three fifths
 - symbol: ⅜
   entities:
     - frac38
   tags: []
+  description: vulgar fraction three eighths
 - symbol: ⅘
   entities:
     - frac45
   tags: []
+  description: vulgar fraction four fifths
 - symbol: ⅚
   entities:
     - frac56
   tags: []
+  description: vulgar fraction five sixths
 - symbol: ⅝
   entities:
     - frac58
   tags: []
+  description: vulgar fraction five eighths
 - symbol: ⅞
   entities:
     - frac78
   tags: []
+  description: vulgar fraction seven eighths
 - symbol: ⁄
   entities:
     - frasl
@@ -4485,177 +5370,218 @@
     - /
     - fraction
     - slash
+  description: fraction slash
 - symbol: ⌢
   entities:
     - frown
     - sfrown
   tags: []
+  description: frown
 - symbol: 𝒻
   entities:
     - fscr
   tags: []
+  description: mathematical script small f
 - symbol: ⪌
   entities:
     - gEl
     - gtreqqless
   tags: []
+  description: greater-than above double-line equal above less-than
 - symbol: ǵ
   entities:
     - gacute
   tags: []
+  description: latin small letter g with acute
 - symbol: γ
   entities:
     - gamma
   tags:
     - y
     - gamma
+  description: greek small letter gamma
 - symbol: ⪆
   entities:
     - gap
     - gtrapprox
   tags: []
+  description: greater-than or approximate
 - symbol: ğ
   entities:
     - gbreve
   tags: []
+  description: latin small letter g with breve
 - symbol: ĝ
   entities:
     - gcirc
   tags: []
+  description: latin small letter g with circumflex
 - symbol: г
   entities:
     - gcy
   tags: []
+  description: cyrillic small letter ghe
 - symbol: ġ
   entities:
     - gdot
   tags: []
+  description: latin small letter g with dot above
 - symbol: ⪩
   entities:
     - gescc
   tags: []
+  description: greater-than closed by curve above slanted equal
 - symbol: ⪀
   entities:
     - gesdot
   tags: []
+  description: greater-than or slanted equal to with dot inside
 - symbol: ⪂
   entities:
     - gesdoto
   tags: []
+  description: greater-than or slanted equal to with dot above
 - symbol: ⪄
   entities:
     - gesdotol
   tags: []
+  description: greater-than or slanted equal to with dot above left
 - symbol: ⋛︀
   entities:
     - gesl
   tags: []
+  description: greater-than slanted equal to or less-than
 - symbol: ⪔
   entities:
     - gesles
   tags: []
+  description: greater-than above slanted equal above less-than above slanted equal
 - symbol: 𝔤
   entities:
     - gfr
   tags: []
+  description: mathematical fraktur small g
 - symbol: ℷ
   entities:
     - gimel
   tags: []
+  description: gimel symbol
 - symbol: ѓ
   entities:
     - gjcy
   tags: []
+  description: cyrillic small letter gje
 - symbol: ⪒
   entities:
     - glE
   tags: []
+  description: greater-than above less-than above double-line equal
 - symbol: ⪥
   entities:
     - gla
   tags: []
+  description: greater-than beside less-than
 - symbol: ⪤
   entities:
     - glj
   tags: []
+  description: greater-than overlapping less-than
 - symbol: ≩
   entities:
     - gnE
     - gneqq
   tags: []
+  description: greater-than but not equal to
 - symbol: ⪊
   entities:
     - gnap
     - gnapprox
   tags: []
+  description: greater-than and not approximate
 - symbol: ⪈
   entities:
     - gne
     - gneq
   tags: []
+  description: greater-than and single-line not equal to
 - symbol: ⋧
   entities:
     - gnsim
   tags: []
+  description: greater-than but not equivalent to
 - symbol: 𝕘
   entities:
     - gopf
   tags: []
+  description: mathematical double-struck small g
 - symbol: ℊ
   entities:
     - gscr
   tags: []
+  description: script small g
 - symbol: ⪎
   entities:
     - gsime
   tags: []
+  description: greater-than above similar or equal
 - symbol: ⪐
   entities:
     - gsiml
   tags: []
+  description: greater-than above similar above less-than
 - symbol: ⪧
   entities:
     - gtcc
   tags: []
+  description: greater-than closed by curve
 - symbol: ⩺
   entities:
     - gtcir
   tags: []
+  description: greater-than with circle inside
 - symbol: ⋗
   entities:
     - gtdot
     - gtrdot
   tags: []
+  description: greater-than with dot
 - symbol: ⦕
   entities:
     - gtlPar
   tags: []
+  description: double left arc greater-than bracket
 - symbol: ⩼
   entities:
     - gtquest
   tags: []
+  description: greater-than with question mark above
 - symbol: ⥸
   entities:
     - gtrarr
   tags: []
+  description: greater-than above rightwards arrow
 - symbol: ≩︀
   entities:
     - gvertneqq
     - gvnE
   tags: []
+  description: greater-than but not equal to - with vertical stroke
 - symbol: ъ
   entities:
     - hardcy
   tags: []
+  description: cyrillic small letter hard sign
 - symbol: ⥈
   entities:
     - harrcir
   tags: []
+  description: left right arrow through small circle
 - symbol: ↭
   entities:
     - harrw
     - leftrightsquigarrow
   tags: []
+  description: left right wave arrow
 - symbol: ℏ
   entities:
     - hbar
@@ -4663,10 +5589,12 @@
     - planck
     - plankv
   tags: []
+  description: planck constant over two pi
 - symbol: ĥ
   entities:
     - hcirc
   tags: []
+  description: latin small letter h with circumflex
 - symbol: ♥
   entities:
     - hearts
@@ -4676,68 +5604,83 @@
     - valentine
     - card
     - cards
+  description: black heart suit
 - symbol: …
   entities:
     - hellip
     - mldr
   tags:
     - ...
+  description: horizontal ellipsis
 - symbol: ⊹
   entities:
     - hercon
   tags: []
+  description: hermitian conjugate matrix
 - symbol: 𝔥
   entities:
     - hfr
   tags: []
+  description: mathematical fraktur small h
 - symbol: ⤥
   entities:
     - hksearow
     - searhk
   tags: []
+  description: south east arrow with hook
 - symbol: ⤦
   entities:
     - hkswarow
     - swarhk
   tags: []
+  description: south west arrow with hook
 - symbol: ⇿
   entities:
     - hoarr
   tags: []
+  description: left right open-headed arrow
 - symbol: ∻
   entities:
     - homtht
   tags: []
+  description: homothetic
 - symbol: ↩
   entities:
     - hookleftarrow
     - larrhk
   tags: []
+  description: leftwards arrow with hook
 - symbol: ↪
   entities:
     - hookrightarrow
     - rarrhk
   tags: []
+  description: rightwards arrow with hook
 - symbol: 𝕙
   entities:
     - hopf
   tags: []
+  description: mathematical double-struck small h
 - symbol: ―
   entities:
     - horbar
   tags: []
+  description: horizontal bar
 - symbol: 𝒽
   entities:
     - hscr
   tags: []
+  description: mathematical script small h
 - symbol: ħ
   entities:
     - hstrok
   tags: []
+  description: latin small letter h with stroke
 - symbol: ⁃
   entities:
     - hybull
   tags: []
+  description: hyphen bullet
 - symbol: í
   entities:
     - iacute
@@ -4745,6 +5688,7 @@
     - i
     - acute
     - L
+  description: latin small letter i with acute
 - symbol: î
   entities:
     - icirc
@@ -4752,14 +5696,17 @@
     - i
     - circumflex
     - L
+  description: latin small letter i with circumflex
 - symbol: и
   entities:
     - icy
   tags: []
+  description: cyrillic small letter i
 - symbol: е
   entities:
     - iecy
   tags: []
+  description: cyrillic small letter ie
 - symbol: ¡
   entities:
     - iexcl
@@ -4767,10 +5714,12 @@
     - exclamation
     - mark
     - "!"
+  description: inverted exclamation mark
 - symbol: 𝔦
   entities:
     - ifr
   tags: []
+  description: mathematical fraktur small i
 - symbol: ì
   entities:
     - igrave
@@ -4778,84 +5727,103 @@
     - i
     - grave
     - L
+  description: latin small letter i with grave
 - symbol: ⨌
   entities:
     - iiiint
     - qint
   tags: []
+  description: quadruple integral operator
 - symbol: ∭
   entities:
     - iiint
     - tint
   tags: []
+  description: triple integral
 - symbol: ⧜
   entities:
     - iinfin
   tags: []
+  description: incomplete infinity
 - symbol: ℩
   entities:
     - iiota
   tags: []
+  description: turned greek small letter iota
 - symbol: ĳ
   entities:
     - ijlig
   tags: []
+  description: latin small ligature ij
 - symbol: ī
   entities:
     - imacr
   tags: []
+  description: latin small letter i with macron
 - symbol: ı
   entities:
     - imath
     - inodot
   tags: []
+  description: latin small letter dotless i
 - symbol: ⊷
   entities:
     - imof
   tags: []
+  description: image of
 - symbol: Ƶ
   entities:
     - imped
   tags: []
+  description: latin capital letter z with stroke
 - symbol: ℅
   entities:
     - incare
   tags: []
+  description: care of
 - symbol: ∞
   entities:
     - infin
   tags:
     - infinity
+  description: infinity
 - symbol: ⧝
   entities:
     - infintie
   tags: []
+  description: tie over infinity
 - symbol: ⊺
   entities:
     - intcal
     - intercal
   tags: []
+  description: intercalate
 - symbol: ⨗
   entities:
     - intlarhk
   tags: []
+  description: integral with leftwards arrow with hook
 - symbol: ⨼
   entities:
     - intprod
     - iprod
   tags: []
+  description: interior product
 - symbol: ё
   entities:
     - iocy
   tags: []
+  description: cyrillic small letter io
 - symbol: į
   entities:
     - iogon
   tags: []
+  description: latin small letter i with ogonek
 - symbol: 𝕚
   entities:
     - iopf
   tags: []
+  description: mathematical double-struck small i
 - symbol: ι
   entities:
     - iota
@@ -4863,6 +5831,7 @@
     - i
     - l
     - iota
+  description: greek small letter iota
 - symbol: ¿
   entities:
     - iquest
@@ -4870,34 +5839,42 @@
     - "?"
     - question
     - inverted
+  description: inverted question mark
 - symbol: 𝒾
   entities:
     - iscr
   tags: []
+  description: mathematical script small i
 - symbol: ⋹
   entities:
     - isinE
   tags: []
+  description: element of with two horizontal strokes
 - symbol: ⋵
   entities:
     - isindot
   tags: []
+  description: element of with dot above
 - symbol: ⋴
   entities:
     - isins
   tags: []
+  description: small element of with vertical bar at end of horizontal stroke
 - symbol: ⋳
   entities:
     - isinsv
   tags: []
+  description: element of with vertical bar at end of horizontal stroke
 - symbol: ĩ
   entities:
     - itilde
   tags: []
+  description: latin small letter i with tilde
 - symbol: і
   entities:
     - iukcy
   tags: []
+  description: cyrillic small letter byelorussian-ukrainian i
 - symbol: ï
   entities:
     - iuml
@@ -4905,106 +5882,131 @@
     - i
     - diaeresis
     - L
+  description: latin small letter i with diaeresis
 - symbol: ĵ
   entities:
     - jcirc
   tags: []
+  description: latin small letter j with circumflex
 - symbol: й
   entities:
     - jcy
   tags: []
+  description: cyrillic small letter short i
 - symbol: 𝔧
   entities:
     - jfr
   tags: []
+  description: mathematical fraktur small j
 - symbol: ȷ
   entities:
     - jmath
   tags: []
+  description: latin small letter dotless j
 - symbol: 𝕛
   entities:
     - jopf
   tags: []
+  description: mathematical double-struck small j
 - symbol: 𝒿
   entities:
     - jscr
   tags: []
+  description: mathematical script small j
 - symbol: ј
   entities:
     - jsercy
   tags: []
+  description: cyrillic small letter je
 - symbol: є
   entities:
     - jukcy
   tags: []
+  description: cyrillic small letter ukrainian ie
 - symbol: κ
   entities:
     - kappa
   tags:
     - k
     - kappa
+  description: greek small letter kappa
 - symbol: ϰ
   entities:
     - kappav
     - varkappa
   tags: []
+  description: greek kappa symbol
 - symbol: ķ
   entities:
     - kcedil
   tags: []
+  description: latin small letter k with cedilla
 - symbol: к
   entities:
     - kcy
   tags: []
+  description: cyrillic small letter ka
 - symbol: 𝔨
   entities:
     - kfr
   tags: []
+  description: mathematical fraktur small k
 - symbol: ĸ
   entities:
     - kgreen
   tags: []
+  description: latin small letter kra
 - symbol: х
   entities:
     - khcy
   tags: []
+  description: cyrillic small letter ha
 - symbol: ќ
   entities:
     - kjcy
   tags: []
+  description: cyrillic small letter kje
 - symbol: 𝕜
   entities:
     - kopf
   tags: []
+  description: mathematical double-struck small k
 - symbol: 𝓀
   entities:
     - kscr
   tags: []
+  description: mathematical script small k
 - symbol: ⤛
   entities:
     - lAtail
   tags: []
+  description: leftwards double arrow-tail
 - symbol: ⤎
   entities:
     - lBarr
   tags: []
+  description: leftwards triple dash arrow
 - symbol: ⪋
   entities:
     - lEg
     - lesseqqgtr
   tags: []
+  description: less-than above double-line equal above greater-than
 - symbol: ⥢
   entities:
     - lHar
   tags: []
+  description: leftwards harpoon with barb up above leftwards harpoon with barb down
 - symbol: ĺ
   entities:
     - lacute
   tags: []
+  description: latin small letter l with acute
 - symbol: ⦴
   entities:
     - laemptyv
   tags: []
+  description: empty set with left arrow above
 - symbol: λ
   entities:
     - lambda
@@ -5012,15 +6014,18 @@
     - n
     - lambda
     - y
+  description: greek small letter lamda
 - symbol: ⦑
   entities:
     - langd
   tags: []
+  description: left angle bracket with dot
 - symbol: ⪅
   entities:
     - lap
     - lessapprox
   tags: []
+  description: less-than or approximate
 - symbol: «
   entities:
     - laquo
@@ -5028,106 +6033,131 @@
     - <
     - <<
     - double
+  description: left-pointing double angle quotation mark
 - symbol: ⤟
   entities:
     - larrbfs
   tags: []
+  description: leftwards arrow from bar to black diamond
 - symbol: ⤝
   entities:
     - larrfs
   tags: []
+  description: leftwards arrow to black diamond
 - symbol: ↫
   entities:
     - larrlp
     - looparrowleft
   tags: []
+  description: leftwards arrow with loop
 - symbol: ⤹
   entities:
     - larrpl
   tags: []
+  description: left-side arc anticlockwise arrow
 - symbol: ⥳
   entities:
     - larrsim
   tags: []
+  description: leftwards arrow above tilde operator
 - symbol: ↢
   entities:
     - larrtl
     - leftarrowtail
   tags: []
+  description: leftwards arrow with tail
 - symbol: ⪫
   entities:
     - lat
   tags: []
+  description: larger than
 - symbol: ⤙
   entities:
     - latail
   tags: []
+  description: leftwards arrow-tail
 - symbol: ⪭
   entities:
     - late
   tags: []
+  description: larger than or equal to
 - symbol: ⪭︀
   entities:
     - lates
   tags: []
+  description: larger than or slanted equal
 - symbol: ⤌
   entities:
     - lbarr
   tags: []
+  description: leftwards double dash arrow
 - symbol: ❲
   entities:
     - lbbrk
   tags: []
+  description: light left tortoise shell bracket ornament
 - symbol: "{"
   entities:
     - lbrace
     - lcub
   tags: []
+  description: left curly bracket
 - symbol: "["
   entities:
     - lbrack
     - lsqb
   tags: []
+  description: left square bracket
 - symbol: ⦋
   entities:
     - lbrke
   tags: []
+  description: left square bracket with underbar
 - symbol: ⦏
   entities:
     - lbrksld
   tags: []
+  description: left square bracket with tick in bottom corner
 - symbol: ⦍
   entities:
     - lbrkslu
   tags: []
+  description: left square bracket with tick in top corner
 - symbol: ľ
   entities:
     - lcaron
   tags: []
+  description: latin small letter l with caron
 - symbol: ļ
   entities:
     - lcedil
   tags: []
+  description: latin small letter l with cedilla
 - symbol: л
   entities:
     - lcy
   tags: []
+  description: cyrillic small letter el
 - symbol: ⤶
   entities:
     - ldca
   tags: []
+  description: arrow pointing downwards then curving leftwards
 - symbol: ⥧
   entities:
     - ldrdhar
   tags: []
+  description: leftwards harpoon with barb down above rightwards harpoon with barb down
 - symbol: ⥋
   entities:
     - ldrushar
   tags: []
+  description: left barb down right barb up harpoon
 - symbol: ↲
   entities:
     - ldsh
   tags: []
+  description: downwards arrow with tip leftwards
 - symbol: ≤
   entities:
     - le
@@ -5139,139 +6169,171 @@
     - =<
     - <
     - =
+  description: less-than or equal to
 - symbol: ⇇
   entities:
     - leftleftarrows
     - llarr
   tags: []
+  description: leftwards paired arrows
 - symbol: ⋋
   entities:
     - leftthreetimes
     - lthree
   tags: []
+  description: left semidirect product
 - symbol: ⪨
   entities:
     - lescc
   tags: []
+  description: less-than closed by curve above slanted equal
 - symbol: ⩿
   entities:
     - lesdot
   tags: []
+  description: less-than or slanted equal to with dot inside
 - symbol: ⪁
   entities:
     - lesdoto
   tags: []
+  description: less-than or slanted equal to with dot above
 - symbol: ⪃
   entities:
     - lesdotor
   tags: []
+  description: less-than or slanted equal to with dot above right
 - symbol: ⋚︀
   entities:
     - lesg
   tags: []
+  description: less-than slanted equal to or greater-than
 - symbol: ⪓
   entities:
     - lesges
   tags: []
+  description: less-than above slanted equal above greater-than above slanted equal
 - symbol: ⋖
   entities:
     - lessdot
     - ltdot
   tags: []
+  description: less-than with dot
 - symbol: ⥼
   entities:
     - lfisht
   tags: []
+  description: left fish tail
 - symbol: 𝔩
   entities:
     - lfr
   tags: []
+  description: mathematical fraktur small l
 - symbol: ⪑
   entities:
     - lgE
   tags: []
+  description: less-than above greater-than above double-line equal
 - symbol: ⥪
   entities:
     - lharul
   tags: []
+  description: leftwards harpoon with barb up above long dash
 - symbol: ▄
   entities:
     - lhblk
   tags: []
+  description: lower half block
 - symbol: љ
   entities:
     - ljcy
   tags: []
+  description: cyrillic small letter lje
 - symbol: ⥫
   entities:
     - llhard
   tags: []
+  description: leftwards harpoon with barb down below long dash
 - symbol: ◺
   entities:
     - lltri
   tags: []
+  description: lower left triangle
 - symbol: ŀ
   entities:
     - lmidot
   tags: []
+  description: latin small letter l with middle dot
 - symbol: ⎰
   entities:
     - lmoust
     - lmoustache
   tags: []
+  description: upper left or lower right curly bracket section
 - symbol: ≨
   entities:
     - lnE
     - lneqq
   tags: []
+  description: less-than but not equal to
 - symbol: ⪉
   entities:
     - lnap
     - lnapprox
   tags: []
+  description: less-than and not approximate
 - symbol: ⪇
   entities:
     - lne
     - lneq
   tags: []
+  description: less-than and single-line not equal to
 - symbol: ⋦
   entities:
     - lnsim
   tags: []
+  description: less-than but not equivalent to
 - symbol: ⟬
   entities:
     - loang
   tags: []
+  description: mathematical left white tortoise shell bracket
 - symbol: ⇽
   entities:
     - loarr
   tags: []
+  description: leftwards open-headed arrow
 - symbol: ⟼
   entities:
     - longmapsto
     - xmap
   tags: []
+  description: long rightwards arrow from bar
 - symbol: ↬
   entities:
     - looparrowright
     - rarrlp
   tags: []
+  description: rightwards arrow with loop
 - symbol: ⦅
   entities:
     - lopar
   tags: []
+  description: left white parenthesis
 - symbol: 𝕝
   entities:
     - lopf
   tags: []
+  description: mathematical double-struck small l
 - symbol: ⨭
   entities:
     - loplus
   tags: []
+  description: plus sign in left half circle
 - symbol: ⨴
   entities:
     - lotimes
   tags: []
+  description: multiplication sign in left half circle
 - symbol: ∗
   entities:
     - lowast
@@ -5279,6 +6341,7 @@
     - asterisk
     - "*"
     - bullet
+  description: asterisk operator
 - symbol: ◊
   entities:
     - loz
@@ -5287,28 +6350,34 @@
     - <>
     - lozenge
     - diamond
+  description: lozenge
 - symbol: (
   entities:
     - lpar
   tags: []
+  description: left parenthesis
 - symbol: ⦓
   entities:
     - lparlt
   tags: []
+  description: left arc less-than bracket
 - symbol: ⥭
   entities:
     - lrhard
   tags: []
+  description: rightwards harpoon with barb down below long dash
 - symbol: ‎
   entities:
     - lrm
   tags:
     - left-to-right
     - <>
+  description: left-to-right mark
 - symbol: ⊿
   entities:
     - lrtri
   tags: []
+  description: right triangle
 - symbol: ‹
   entities:
     - lsaquo
@@ -5316,18 +6385,22 @@
     - left-pointing
     - angle
     - <
+  description: single left-pointing angle quotation mark
 - symbol: 𝓁
   entities:
     - lscr
   tags: []
+  description: mathematical script small l
 - symbol: ⪍
   entities:
     - lsime
   tags: []
+  description: less-than above similar or equal
 - symbol: ⪏
   entities:
     - lsimg
   tags: []
+  description: less-than above similar above greater-than
 - symbol: ‚
   entities:
     - lsquor
@@ -5338,56 +6411,69 @@
     - quote
     - low-9
     - low
+  description: single low-9 quotation mark
 - symbol: ł
   entities:
     - lstrok
   tags: []
+  description: latin small letter l with stroke
 - symbol: ⪦
   entities:
     - ltcc
   tags: []
+  description: less-than closed by curve
 - symbol: ⩹
   entities:
     - ltcir
   tags: []
+  description: less-than with circle inside
 - symbol: ⋉
   entities:
     - ltimes
   tags: []
+  description: left normal factor semidirect product
 - symbol: ⥶
   entities:
     - ltlarr
   tags: []
+  description: less-than above leftwards arrow
 - symbol: ⩻
   entities:
     - ltquest
   tags: []
+  description: less-than with question mark above
 - symbol: ⦖
   entities:
     - ltrPar
   tags: []
+  description: double right arc less-than bracket
 - symbol: ◃
   entities:
     - ltri
     - triangleleft
   tags: []
+  description: white left-pointing small triangle
 - symbol: ⥊
   entities:
     - lurdshar
   tags: []
+  description: left barb up right barb down harpoon
 - symbol: ⥦
   entities:
     - luruhar
   tags: []
+  description: leftwards harpoon with barb up above rightwards harpoon with barb up
 - symbol: ≨︀
   entities:
     - lvertneqq
     - lvnE
   tags: []
+  description: less-than but not equal to - with vertical stroke
 - symbol: ∺
   entities:
     - mDDot
   tags: []
+  description: geometric proportion
 - symbol: ¯
   entities:
     - macr
@@ -5395,27 +6481,33 @@
   tags:
     - "-"
     - overline
+  description: macron
 - symbol: ♂
   entities:
     - male
   tags: []
+  description: male sign
 - symbol: ✠
   entities:
     - malt
     - maltese
   tags: []
+  description: maltese cross
 - symbol: ▮
   entities:
     - marker
   tags: []
+  description: black vertical rectangle
 - symbol: ⨩
   entities:
     - mcomma
   tags: []
+  description: minus sign with comma above
 - symbol: м
   entities:
     - mcy
   tags: []
+  description: cyrillic small letter em
 - symbol: —
   entities:
     - mdash
@@ -5424,149 +6516,183 @@
     - em
     - dash
     - "-"
+  description: em dash
 - symbol: 𝔪
   entities:
     - mfr
   tags: []
+  description: mathematical fraktur small m
 - symbol: ℧
   entities:
     - mho
   tags: []
+  description: inverted ohm sign
 - symbol: µ
   entities:
     - micro
   tags:
     - micro
     - u
+  description: micro sign
 - symbol: ⫰
   entities:
     - midcir
   tags: []
+  description: vertical line with circle below
 - symbol: −
   entities:
     - minus
   tags:
     - "-"
     - minus
+  description: minus sign
 - symbol: ⨪
   entities:
     - minusdu
   tags: []
+  description: minus sign with dot below
 - symbol: ⫛
   entities:
     - mlcp
   tags: []
+  description: transversal intersection
 - symbol: ⊧
   entities:
     - models
   tags: []
+  description: models
 - symbol: 𝕞
   entities:
     - mopf
   tags: []
+  description: mathematical double-struck small m
 - symbol: 𝓂
   entities:
     - mscr
   tags: []
+  description: mathematical script small m
 - symbol: μ
   entities:
     - mu
   tags:
     - u
     - mu
+  description: greek small letter mu
 - symbol: ⊸
   entities:
     - multimap
     - mumap
   tags: []
+  description: multimap
 - symbol: ⋙̸
   entities:
     - nGg
   tags: []
+  description: very much greater-than with slash
 - symbol: ≫⃒
   entities:
     - nGt
   tags: []
+  description: much greater than with vertical line
 - symbol: ⇍
   entities:
     - nLeftarrow
     - nlArr
   tags: []
+  description: leftwards double arrow with stroke
 - symbol: ⇎
   entities:
     - nLeftrightarrow
     - nhArr
   tags: []
+  description: left right double arrow with stroke
 - symbol: ⋘̸
   entities:
     - nLl
   tags: []
+  description: very much less-than with slash
 - symbol: ≪⃒
   entities:
     - nLt
   tags: []
+  description: much less than with vertical line
 - symbol: ⇏
   entities:
     - nRightarrow
     - nrArr
   tags: []
+  description: rightwards double arrow with stroke
 - symbol: ⊯
   entities:
     - nVDash
   tags: []
+  description: negated double vertical bar double right turnstile
 - symbol: ⊮
   entities:
     - nVdash
   tags: []
+  description: does not force
 - symbol: ń
   entities:
     - nacute
   tags: []
+  description: latin small letter n with acute
 - symbol: ∠⃒
   entities:
     - nang
   tags: []
+  description: angle with vertical line
 - symbol: ⩰̸
   entities:
     - napE
   tags: []
+  description: approximately equal or equal to with slash
 - symbol: ≋̸
   entities:
     - napid
   tags: []
+  description: triple tilde with slash
 - symbol: ŉ
   entities:
     - napos
   tags: []
+  description: latin small letter n preceded by apostrophe
 - symbol: ♮
   entities:
     - natur
     - natural
   tags: []
+  description: music natural sign
 - symbol: ⩃
   entities:
     - ncap
   tags: []
+  description: intersection with overbar
 - symbol: ň
   entities:
     - ncaron
   tags: []
+  description: latin small letter n with caron
 - symbol: ņ
   entities:
     - ncedil
   tags: []
+  description: latin small letter n with cedilla
 - symbol: ⩭̸
   entities:
     - ncongdot
   tags: []
+  description: congruent with dot above with slash
 - symbol: ⩂
   entities:
     - ncup
   tags: []
+  description: union with overbar
 - symbol: н
   entities:
     - ncy
   tags: []
+  description: cyrillic small letter en
 - symbol: –
   entities:
     - ndash
@@ -5575,125 +6701,154 @@
     - en
     - dash
     - "-"
+  description: en dash
 - symbol: ⇗
   entities:
     - neArr
   tags: []
+  description: north east double arrow
 - symbol: ⤤
   entities:
     - nearhk
   tags: []
+  description: north east arrow with hook
 - symbol: ≐̸
   entities:
     - nedot
   tags: []
+  description: approaches the limit with slash
 - symbol: ⤨
   entities:
     - nesear
     - toea
   tags: []
+  description: north east arrow and south east arrow
 - symbol: 𝔫
   entities:
     - nfr
   tags: []
+  description: mathematical fraktur small n
 - symbol: ↮
   entities:
     - nharr
     - nleftrightarrow
   tags: []
+  description: left right arrow with stroke
 - symbol: ⫲
   entities:
     - nhpar
   tags: []
+  description: parallel with horizontal stroke
 - symbol: ⋼
   entities:
     - nis
   tags: []
+  description: small contains with vertical bar at end of horizontal stroke
 - symbol: ⋺
   entities:
     - nisd
   tags: []
+  description: contains with long horizontal stroke
 - symbol: њ
   entities:
     - njcy
   tags: []
+  description: cyrillic small letter nje
 - symbol: ≦̸
   entities:
     - nlE
     - nleqq
   tags: []
+  description: less-than over equal to with slash
 - symbol: ↚
   entities:
     - nlarr
     - nleftarrow
   tags: []
+  description: leftwards arrow with stroke
 - symbol: ‥
   entities:
     - nldr
   tags: []
+  description: two dot leader
 - symbol: 𝕟
   entities:
     - nopf
   tags: []
+  description: mathematical double-struck small n
 - symbol: ¬
   entities:
     - not
   tags:
     - not
     - "-"
+  description: not sign
 - symbol: ⋹̸
   entities:
     - notinE
   tags: []
+  description: element of with two horizontal strokes with slash
 - symbol: ⋵̸
   entities:
     - notindot
   tags: []
+  description: element of with dot above with slash
 - symbol: ⋷
   entities:
     - notinvb
   tags: []
+  description: small element of with overbar
 - symbol: ⋶
   entities:
     - notinvc
   tags: []
+  description: element of with overbar
 - symbol: ⋾
   entities:
     - notnivb
   tags: []
+  description: small contains with overbar
 - symbol: ⋽
   entities:
     - notnivc
   tags: []
+  description: contains with overbar
 - symbol: ⫽⃥
   entities:
     - nparsl
   tags: []
+  description: double solidus operator with reverse slash
 - symbol: ∂̸
   entities:
     - npart
   tags: []
+  description: partial differential with slash
 - symbol: ⨔
   entities:
     - npolint
   tags: []
+  description: line integration not including the pole
 - symbol: ↛
   entities:
     - nrarr
     - nrightarrow
   tags: []
+  description: rightwards arrow with stroke
 - symbol: ⤳̸
   entities:
     - nrarrc
   tags: []
+  description: wave arrow pointing directly right with slash
 - symbol: ↝̸
   entities:
     - nrarrw
   tags: []
+  description: rightwards wave arrow with slash
 - symbol: 𝓃
   entities:
     - nscr
   tags: []
+  description: mathematical script small n
 - symbol: ⊄
   entities:
     - nsub
@@ -5701,215 +6856,264 @@
     - c
     - not
     - subset
+  description: not a subset of
 - symbol: ⫅̸
   entities:
     - nsubE
     - nsubseteqq
   tags: []
+  description: subset of above equals sign with slash
 - symbol: ⊅
   entities:
     - nsup
   tags: []
+  description: not a superset of
 - symbol: ⫆̸
   entities:
     - nsupE
     - nsupseteqq
   tags: []
+  description: superset of above equals sign with slash
 - symbol: ñ
   entities:
     - ntilde
   tags:
     - n
     - tilde
+  description: latin small letter n with tilde
 - symbol: ν
   entities:
     - nu
   tags:
     - nu
     - v
+  description: greek small letter nu
 - symbol: "#"
   entities:
     - num
   tags: []
+  description: number sign
 - symbol: №
   entities:
     - numero
   tags: []
+  description: numero sign
 - symbol:  
   entities:
     - numsp
   tags: []
+  description: figure space
 - symbol: ⊭
   entities:
     - nvDash
   tags: []
+  description: not true
 - symbol: ⤄
   entities:
     - nvHarr
   tags: []
+  description: left right double arrow with vertical stroke
 - symbol: ≍⃒
   entities:
     - nvap
   tags: []
+  description: equivalent to with vertical line
 - symbol: ⊬
   entities:
     - nvdash
   tags: []
+  description: does not prove
 - symbol: ≥⃒
   entities:
     - nvge
   tags: []
+  description: greater-than or equal to with vertical line
 - symbol: ">⃒"
   entities:
     - nvgt
   tags: []
+  description: greater-than sign with vertical line
 - symbol: ⧞
   entities:
     - nvinfin
   tags: []
+  description: infinity negated with vertical bar
 - symbol: ⤂
   entities:
     - nvlArr
   tags: []
+  description: leftwards double arrow with vertical stroke
 - symbol: ≤⃒
   entities:
     - nvle
   tags: []
+  description: less-than or equal to with vertical line
 - symbol: <⃒
   entities:
     - nvlt
   tags: []
+  description: less-than sign with vertical line
 - symbol: ⊴⃒
   entities:
     - nvltrie
   tags: []
+  description: normal subgroup of or equal to with vertical line
 - symbol: ⤃
   entities:
     - nvrArr
   tags: []
+  description: rightwards double arrow with vertical stroke
 - symbol: ⊵⃒
   entities:
     - nvrtrie
   tags: []
+  description: contains as normal subgroup or equal to with vertical line
 - symbol: ∼⃒
   entities:
     - nvsim
   tags: []
+  description: tilde operator with vertical line
 - symbol: ⇖
   entities:
     - nwArr
   tags: []
+  description: north west double arrow
 - symbol: ⤣
   entities:
     - nwarhk
   tags: []
+  description: north west arrow with hook
 - symbol: ⤧
   entities:
     - nwnear
   tags: []
+  description: north west arrow and north east arrow
 - symbol: ó
   entities:
     - oacute
   tags:
     - o
     - acute
+  description: latin small letter o with acute
 - symbol: ô
   entities:
     - ocirc
   tags:
     - o
     - circumflex
+  description: latin small letter o with circumflex
 - symbol: о
   entities:
     - ocy
   tags: []
+  description: cyrillic small letter o
 - symbol: ő
   entities:
     - odblac
   tags: []
+  description: latin small letter o with double acute
 - symbol: ⨸
   entities:
     - odiv
   tags: []
+  description: circled division sign
 - symbol: ⦼
   entities:
     - odsold
   tags: []
+  description: circled anticlockwise-rotated division sign
 - symbol: œ
   entities:
     - oelig
   tags:
     - oe
+  description: latin small ligature oe
 - symbol: ⦿
   entities:
     - ofcir
   tags: []
+  description: circled bullet
 - symbol: 𝔬
   entities:
     - ofr
   tags: []
+  description: mathematical fraktur small o
 - symbol: ˛
   entities:
     - ogon
   tags: []
+  description: ogonek
 - symbol: ò
   entities:
     - ograve
   tags:
     - o
     - grave
+  description: latin small letter o with grave
 - symbol: ⧁
   entities:
     - ogt
   tags: []
+  description: circled greater-than
 - symbol: ⦵
   entities:
     - ohbar
   tags: []
+  description: circle with horizontal bar
 - symbol: ⦾
   entities:
     - olcir
   tags: []
+  description: circled white bullet
 - symbol: ⦻
   entities:
     - olcross
   tags: []
+  description: circle with superimposed x
 - symbol: ⧀
   entities:
     - olt
   tags: []
+  description: circled less-than
 - symbol: ō
   entities:
     - omacr
   tags: []
+  description: latin small letter o with macron
 - symbol: ω
   entities:
     - omega
   tags:
     - w
     - omega
+  description: greek small letter omega
 - symbol: ο
   entities:
     - omicron
   tags:
     - o
     - omicron
+  description: greek small letter omicron
 - symbol: ⦶
   entities:
     - omid
   tags: []
+  description: circled vertical bar
 - symbol: 𝕠
   entities:
     - oopf
   tags: []
+  description: mathematical double-struck small o
 - symbol: ⦷
   entities:
     - opar
   tags: []
+  description: circled parallel
 - symbol: ⦹
   entities:
     - operp
   tags: []
+  description: circled perpendicular
 - symbol: ∨
   entities:
     - or
@@ -5918,43 +7122,52 @@
     - logical
     - or
     - vee
+  description: logical or
 - symbol: ⩝
   entities:
     - ord
   tags: []
+  description: logical or with horizontal dash
 - symbol: ℴ
   entities:
     - order
     - orderof
     - oscr
   tags: []
+  description: script small o
 - symbol: ª
   entities:
     - ordf
   tags:
     - a
+  description: feminine ordinal indicator
 - symbol: º
   entities:
     - ordm
   tags:
     - o
     - ordinal
+  description: masculine ordinal indicator
 - symbol: ⊶
   entities:
     - origof
   tags: []
+  description: original of
 - symbol: ⩖
   entities:
     - oror
   tags: []
+  description: two intersecting logical or
 - symbol: ⩗
   entities:
     - orslope
   tags: []
+  description: sloping large or
 - symbol: ⩛
   entities:
     - orv
   tags: []
+  description: logical or with middle stem
 - symbol: ø
   entities:
     - oslash
@@ -5962,30 +7175,36 @@
     - o
     - stroke
     - slash
+  description: latin small letter o with stroke
 - symbol: ⊘
   entities:
     - osol
   tags: []
+  description: circled division slash
 - symbol: õ
   entities:
     - otilde
   tags:
     - o
     - tilde
+  description: latin small letter o with tilde
 - symbol: ⨶
   entities:
     - otimesas
   tags: []
+  description: circled multiplication sign with circumflex accent
 - symbol: ö
   entities:
     - ouml
   tags:
     - o
     - diaeresis
+  description: latin small letter o with diaeresis
 - symbol: ⌽
   entities:
     - ovbar
   tags: []
+  description: apl functional symbol circle stile
 - symbol: ¶
   entities:
     - para
@@ -5994,26 +7213,32 @@
     - enter
     - return
     - n
+  description: pilcrow sign
 - symbol: ⫳
   entities:
     - parsim
   tags: []
+  description: parallel with tilde operator
 - symbol: ⫽
   entities:
     - parsl
   tags: []
+  description: double solidus operator
 - symbol: п
   entities:
     - pcy
   tags: []
+  description: cyrillic small letter pe
 - symbol: "%"
   entities:
     - percnt
   tags: []
+  description: percent sign
 - symbol: .
   entities:
     - period
   tags: []
+  description: full stop
 - symbol: ‰
   entities:
     - permil
@@ -6021,111 +7246,135 @@
     - per
     - mille
     - "%"
+  description: per mille sign
 - symbol: ‱
   entities:
     - pertenk
   tags: []
+  description: per ten thousand sign
 - symbol: 𝔭
   entities:
     - pfr
   tags: []
+  description: mathematical fraktur small p
 - symbol: φ
   entities:
     - phi
   tags:
     - y
     - phi
+  description: greek small letter phi
 - symbol: ϕ
   entities:
     - phiv
     - straightphi
     - varphi
   tags: []
+  description: greek phi symbol
 - symbol: ☎
   entities:
     - phone
   tags: []
+  description: black telephone
 - symbol: π
   entities:
     - pi
   tags:
     - pi
+  description: greek small letter pi
 - symbol: ϖ
   entities:
     - piv
     - varpi
   tags:
     - pi
+  description: greek pi symbol
 - symbol: ℎ
   entities:
     - planckh
   tags: []
+  description: planck constant
 - symbol: +
   entities:
     - plus
   tags: []
+  description: plus sign
 - symbol: ⨣
   entities:
     - plusacir
   tags: []
+  description: plus sign with circumflex accent above
 - symbol: ⨢
   entities:
     - pluscir
   tags: []
+  description: plus sign with small circle above
 - symbol: ⨥
   entities:
     - plusdu
   tags: []
+  description: plus sign with dot below
 - symbol: ⩲
   entities:
     - pluse
   tags: []
+  description: plus sign above equals sign
 - symbol: ⨦
   entities:
     - plussim
   tags: []
+  description: plus sign with tilde below
 - symbol: ⨧
   entities:
     - plustwo
   tags: []
+  description: plus sign with subscript two
 - symbol: ⨕
   entities:
     - pointint
   tags: []
+  description: integral around a point operator
 - symbol: 𝕡
   entities:
     - popf
   tags: []
+  description: mathematical double-struck small p
 - symbol: £
   entities:
     - pound
   tags:
     - "#"
     - pound
+  description: pound sign
 - symbol: ⪳
   entities:
     - prE
   tags: []
+  description: precedes above equals sign
 - symbol: ⪷
   entities:
     - prap
     - precapprox
   tags: []
+  description: precedes above almost equal to
 - symbol: ⪹
   entities:
     - precnapprox
     - prnap
   tags: []
+  description: precedes above not almost equal to
 - symbol: ⪵
   entities:
     - precneqq
     - prnE
   tags: []
+  description: precedes above not equal to
 - symbol: ⋨
   entities:
     - precnsim
     - prnsim
   tags: []
+  description: precedes but not equivalent to
 - symbol: ′
   entities:
     - prime
@@ -6133,88 +7382,109 @@
     - "'"
     - "`"
     - prime
+  description: prime
 - symbol: ⌮
   entities:
     - profalar
   tags: []
+  description: all around-profile
 - symbol: ⌒
   entities:
     - profline
   tags: []
+  description: arc
 - symbol: ⌓
   entities:
     - profsurf
   tags: []
+  description: segment
 - symbol: ⊰
   entities:
     - prurel
   tags: []
+  description: precedes under relation
 - symbol: 𝓅
   entities:
     - pscr
   tags: []
+  description: mathematical script small p
 - symbol: ψ
   entities:
     - psi
   tags:
     - y
     - psi
+  description: greek small letter psi
 - symbol:  
   entities:
     - puncsp
   tags: []
+  description: punctuation space
 - symbol: 𝔮
   entities:
     - qfr
   tags: []
+  description: mathematical fraktur small q
 - symbol: 𝕢
   entities:
     - qopf
   tags: []
+  description: mathematical double-struck small q
 - symbol: ⁗
   entities:
     - qprime
   tags: []
+  description: quadruple prime
 - symbol: 𝓆
   entities:
     - qscr
   tags: []
+  description: mathematical script small q
 - symbol: ⨖
   entities:
     - quatint
   tags: []
+  description: quaternion integral operator
 - symbol: "?"
   entities:
     - quest
   tags: []
+  description: question mark
 - symbol: ⤜
   entities:
     - rAtail
   tags: []
+  description: rightwards double arrow-tail
 - symbol: ⥤
   entities:
     - rHar
   tags: []
+  description: rightwards harpoon with barb up above rightwards harpoon with barb down
 - symbol: ∽̱
   entities:
     - race
   tags: []
+  description: reversed tilde with underline
 - symbol: ŕ
   entities:
     - racute
   tags: []
+  description: latin small letter r with acute
 - symbol: ⦳
   entities:
     - raemptyv
   tags: []
+  description: empty set with right arrow above
 - symbol: ⦒
   entities:
     - rangd
   tags: []
+  description: right angle bracket with dot
 - symbol: ⦥
   entities:
     - range
   tags: []
+  description: reversed angle with underbar
 - symbol: »
   entities:
     - raquo
@@ -6223,114 +7493,141 @@
     - double
     - ">"
     - ">>"
+  description: right-pointing double angle quotation mark
 - symbol: ⥵
   entities:
     - rarrap
   tags: []
+  description: rightwards arrow above almost equal to
 - symbol: ⤠
   entities:
     - rarrbfs
   tags: []
+  description: rightwards arrow from bar to black diamond
 - symbol: ⤳
   entities:
     - rarrc
   tags: []
+  description: wave arrow pointing directly right
 - symbol: ⤞
   entities:
     - rarrfs
   tags: []
+  description: rightwards arrow to black diamond
 - symbol: ⥅
   entities:
     - rarrpl
   tags: []
+  description: rightwards arrow with plus below
 - symbol: ⥴
   entities:
     - rarrsim
   tags: []
+  description: rightwards arrow above tilde operator
 - symbol: ↣
   entities:
     - rarrtl
     - rightarrowtail
   tags: []
+  description: rightwards arrow with tail
 - symbol: ↝
   entities:
     - rarrw
     - rightsquigarrow
   tags: []
+  description: rightwards wave arrow
 - symbol: ⤚
   entities:
     - ratail
   tags: []
+  description: rightwards arrow-tail
 - symbol: ∶
   entities:
     - ratio
   tags: []
+  description: ratio
 - symbol: ❳
   entities:
     - rbbrk
   tags: []
+  description: light right tortoise shell bracket ornament
 - symbol: "}"
   entities:
     - rbrace
     - rcub
   tags: []
+  description: right curly bracket
 - symbol: "]"
   entities:
     - rbrack
     - rsqb
   tags: []
+  description: right square bracket
 - symbol: ⦌
   entities:
     - rbrke
   tags: []
+  description: right square bracket with underbar
 - symbol: ⦎
   entities:
     - rbrksld
   tags: []
+  description: right square bracket with tick in bottom corner
 - symbol: ⦐
   entities:
     - rbrkslu
   tags: []
+  description: right square bracket with tick in top corner
 - symbol: ř
   entities:
     - rcaron
   tags: []
+  description: latin small letter r with caron
 - symbol: ŗ
   entities:
     - rcedil
   tags: []
+  description: latin small letter r with cedilla
 - symbol: р
   entities:
     - rcy
   tags: []
+  description: cyrillic small letter er
 - symbol: ⤷
   entities:
     - rdca
   tags: []
+  description: arrow pointing downwards then curving rightwards
 - symbol: ⥩
   entities:
     - rdldhar
   tags: []
+  description: rightwards harpoon with barb down above leftwards harpoon with barb down
 - symbol: ↳
   entities:
     - rdsh
   tags: []
+  description: downwards arrow with tip rightwards
 - symbol: ▭
   entities:
     - rect
   tags: []
+  description: white rectangle
 - symbol: ⥽
   entities:
     - rfisht
   tags: []
+  description: right fish tail
 - symbol: 𝔯
   entities:
     - rfr
   tags: []
+  description: mathematical fraktur small r
 - symbol: ⥬
   entities:
     - rharul
   tags: []
+  description: rightwards harpoon with barb up above long dash
 - symbol: ρ
   entities:
     - rho
@@ -6338,76 +7635,93 @@
     - p
     - o
     - rho
+  description: greek small letter rho
 - symbol: ϱ
   entities:
     - rhov
     - varrho
   tags: []
+  description: greek rho symbol
 - symbol: ⇉
   entities:
     - rightrightarrows
     - rrarr
   tags: []
+  description: rightwards paired arrows
 - symbol: ⋌
   entities:
     - rightthreetimes
     - rthree
   tags: []
+  description: right semidirect product
 - symbol: ˚
   entities:
     - ring
   tags: []
+  description: ring above
 - symbol: ‏
   entities:
     - rlm
   tags:
     - right-to-left
     - "><"
+  description: right-to-left mark
 - symbol: ⎱
   entities:
     - rmoust
     - rmoustache
   tags: []
+  description: upper right or lower left curly bracket section
 - symbol: ⫮
   entities:
     - rnmid
   tags: []
+  description: does not divide with reversed negation slash
 - symbol: ⟭
   entities:
     - roang
   tags: []
+  description: mathematical right white tortoise shell bracket
 - symbol: ⇾
   entities:
     - roarr
   tags: []
+  description: rightwards open-headed arrow
 - symbol: ⦆
   entities:
     - ropar
   tags: []
+  description: right white parenthesis
 - symbol: 𝕣
   entities:
     - ropf
   tags: []
+  description: mathematical double-struck small r
 - symbol: ⨮
   entities:
     - roplus
   tags: []
+  description: plus sign in right half circle
 - symbol: ⨵
   entities:
     - rotimes
   tags: []
+  description: multiplication sign in right half circle
 - symbol: )
   entities:
     - rpar
   tags: []
+  description: right parenthesis
 - symbol: ⦔
   entities:
     - rpargt
   tags: []
+  description: right arc greater-than bracket
 - symbol: ⨒
   entities:
     - rppolint
   tags: []
+  description: line integration with rectangular path around pole
 - symbol: ›
   entities:
     - rsaquo
@@ -6415,81 +7729,99 @@
     - right-pointing
     - angle
     - ">"
+  description: single right-pointing angle quotation mark
 - symbol: 𝓇
   entities:
     - rscr
   tags: []
+  description: mathematical script small r
 - symbol: ⋊
   entities:
     - rtimes
   tags: []
+  description: right normal factor semidirect product
 - symbol: ▹
   entities:
     - rtri
     - triangleright
   tags: []
+  description: white right-pointing small triangle
 - symbol: ⧎
   entities:
     - rtriltri
   tags: []
+  description: right triangle above left triangle
 - symbol: ⥨
   entities:
     - ruluhar
   tags: []
+  description: rightwards harpoon with barb up above leftwards harpoon with barb up
 - symbol: ℞
   entities:
     - rx
   tags: []
+  description: prescription take
 - symbol: ś
   entities:
     - sacute
   tags: []
+  description: latin small letter s with acute
 - symbol: ⪴
   entities:
     - scE
   tags: []
+  description: succeeds above equals sign
 - symbol: ⪸
   entities:
     - scap
     - succapprox
   tags: []
+  description: succeeds above almost equal to
 - symbol: š
   entities:
     - scaron
   tags:
     - s
     - caron
+  description: latin small letter s with caron
 - symbol: ş
   entities:
     - scedil
   tags: []
+  description: latin small letter s with cedilla
 - symbol: ŝ
   entities:
     - scirc
   tags: []
+  description: latin small letter s with circumflex
 - symbol: ⪶
   entities:
     - scnE
     - succneqq
   tags: []
+  description: succeeds above not equal to
 - symbol: ⪺
   entities:
     - scnap
     - succnapprox
   tags: []
+  description: succeeds above not almost equal to
 - symbol: ⋩
   entities:
     - scnsim
     - succnsim
   tags: []
+  description: succeeds but not equivalent to
 - symbol: ⨓
   entities:
     - scpolint
   tags: []
+  description: line integration with semicircular path around pole
 - symbol: с
   entities:
     - scy
   tags: []
+  description: cyrillic small letter es
 - symbol: ⋅
   entities:
     - sdot
@@ -6498,59 +7830,72 @@
     - dot
     - "*"
     - bullet
+  description: dot operator
 - symbol: ⩦
   entities:
     - sdote
   tags: []
+  description: equals sign with dot below
 - symbol: ⇘
   entities:
     - seArr
   tags: []
+  description: south east double arrow
 - symbol: §
   entities:
     - sect
   tags:
     - section
     - s
+  description: section sign
 - symbol: ;
   entities:
     - semi
   tags: []
+  description: semicolon
 - symbol: ⤩
   entities:
     - seswar
     - tosa
   tags: []
+  description: south east arrow and south west arrow
 - symbol: ✶
   entities:
     - sext
   tags: []
+  description: six pointed black star
 - symbol: 𝔰
   entities:
     - sfr
   tags: []
+  description: mathematical fraktur small s
 - symbol: ♯
   entities:
     - sharp
   tags: []
+  description: music sharp sign
 - symbol: щ
   entities:
     - shchcy
   tags: []
+  description: cyrillic small letter shcha
 - symbol: ш
   entities:
     - shcy
   tags: []
+  description: cyrillic small letter sha
 - symbol: ­
   entities:
     - shy
   tags: []
+  description: soft hyphen
 - symbol: σ
   entities:
     - sigma
   tags:
     - o
     - sigma
+  description: greek small letter sigma
 - symbol: ς
   entities:
     - sigmaf
@@ -6560,83 +7905,103 @@
     - c
     - sigma
     - final
+  description: greek small letter final sigma
 - symbol: ⩪
   entities:
     - simdot
   tags: []
+  description: tilde operator with dot above
 - symbol: ⪞
   entities:
     - simg
   tags: []
+  description: similar or greater-than
 - symbol: ⪠
   entities:
     - simgE
   tags: []
+  description: similar above greater-than above equals sign
 - symbol: ⪝
   entities:
     - siml
   tags: []
+  description: similar or less-than
 - symbol: ⪟
   entities:
     - simlE
   tags: []
+  description: similar above less-than above equals sign
 - symbol: ≆
   entities:
     - simne
   tags: []
+  description: approximately but not actually equal to
 - symbol: ⨤
   entities:
     - simplus
   tags: []
+  description: plus sign with tilde above
 - symbol: ⥲
   entities:
     - simrarr
   tags: []
+  description: tilde operator above rightwards arrow
 - symbol: ⨳
   entities:
     - smashp
   tags: []
+  description: smash product
 - symbol: ⧤
   entities:
     - smeparsl
   tags: []
+  description: equals sign and slanted parallel with tilde above
 - symbol: ⌣
   entities:
     - smile
     - ssmile
   tags: []
+  description: smile
 - symbol: ⪪
   entities:
     - smt
   tags: []
+  description: smaller than
 - symbol: ⪬
   entities:
     - smte
   tags: []
+  description: smaller than or equal to
 - symbol: ⪬︀
   entities:
     - smtes
   tags: []
+  description: smaller than or slanted equal
 - symbol: ь
   entities:
     - softcy
   tags: []
+  description: cyrillic small letter soft sign
 - symbol: /
   entities:
     - sol
   tags: []
+  description: solidus
 - symbol: ⧄
   entities:
     - solb
   tags: []
+  description: squared rising diagonal slash
 - symbol: ⌿
   entities:
     - solbar
   tags: []
+  description: apl functional symbol slash bar
 - symbol: 𝕤
   entities:
     - sopf
   tags: []
+  description: mathematical double-struck small s
 - symbol: ♠
   entities:
     - spades
@@ -6645,22 +8010,27 @@
     - spade
     - card
     - cards
+  description: black spade suit
 - symbol: ⊓︀
   entities:
     - sqcaps
   tags: []
+  description: square cap with serifs
 - symbol: ⊔︀
   entities:
     - sqcups
   tags: []
+  description: square cup with serifs
 - symbol: 𝓈
   entities:
     - sscr
   tags: []
+  description: mathematical script small s
 - symbol: ☆
   entities:
     - star
   tags: []
+  description: white star
 - symbol: ⊂
   entities:
     - sub
@@ -6668,57 +8038,70 @@
   tags:
     - subset
     - c
+  description: subset of
 - symbol: ⫅
   entities:
     - subE
     - subseteqq
   tags: []
+  description: subset of above equals sign
 - symbol: ⪽
   entities:
     - subdot
   tags: []
+  description: subset with dot
 - symbol: ⫃
   entities:
     - subedot
   tags: []
+  description: subset of or equal to with dot above
 - symbol: ⫁
   entities:
     - submult
   tags: []
+  description: subset with multiplication sign below
 - symbol: ⫋
   entities:
     - subnE
     - subsetneqq
   tags: []
+  description: subset of above not equal to
 - symbol: ⊊
   entities:
     - subne
     - subsetneq
   tags: []
+  description: subset of with not equal to
 - symbol: ⪿
   entities:
     - subplus
   tags: []
+  description: subset with plus sign below
 - symbol: ⥹
   entities:
     - subrarr
   tags: []
+  description: subset above rightwards arrow
 - symbol: ⫇
   entities:
     - subsim
   tags: []
+  description: subset of above tilde operator
 - symbol: ⫕
   entities:
     - subsub
   tags: []
+  description: subset above subset
 - symbol: ⫓
   entities:
     - subsup
   tags: []
+  description: subset above superset
 - symbol: ♪
   entities:
     - sung
   tags: []
+  description: eighth note
 - symbol: ¹
   entities:
     - sup1
@@ -6726,6 +8109,7 @@
     - "1"
     - superscript
     - one
+  description: superscript one
 - symbol: ²
   entities:
     - sup2
@@ -6733,6 +8117,7 @@
     - superscript
     - two
     - "2"
+  description: superscript two
 - symbol: ³
   entities:
     - sup3
@@ -6740,73 +8125,90 @@
     - superscript
     - three
     - "3"
+  description: superscript three
 - symbol: ⫆
   entities:
     - supE
     - supseteqq
   tags: []
+  description: superset of above equals sign
 - symbol: ⪾
   entities:
     - supdot
   tags: []
+  description: superset with dot
 - symbol: ⫘
   entities:
     - supdsub
   tags: []
+  description: superset beside and joined by dash with subset
 - symbol: ⫄
   entities:
     - supedot
   tags: []
+  description: superset of or equal to with dot above
 - symbol: ⟉
   entities:
     - suphsol
   tags: []
+  description: superset preceding solidus
 - symbol: ⫗
   entities:
     - suphsub
   tags: []
+  description: superset beside subset
 - symbol: ⥻
   entities:
     - suplarr
   tags: []
+  description: superset above leftwards arrow
 - symbol: ⫂
   entities:
     - supmult
   tags: []
+  description: superset with multiplication sign below
 - symbol: ⫌
   entities:
     - supnE
     - supsetneqq
   tags: []
+  description: superset of above not equal to
 - symbol: ⊋
   entities:
     - supne
     - supsetneq
   tags: []
+  description: superset of with not equal to
 - symbol: ⫀
   entities:
     - supplus
   tags: []
+  description: superset with plus sign below
 - symbol: ⫈
   entities:
     - supsim
   tags: []
+  description: superset of above tilde operator
 - symbol: ⫔
   entities:
     - supsub
   tags: []
+  description: superset above subset
 - symbol: ⫖
   entities:
     - supsup
   tags: []
+  description: superset above superset
 - symbol: ⇙
   entities:
     - swArr
   tags: []
+  description: south west double arrow
 - symbol: ⤪
   entities:
     - swnwar
   tags: []
+  description: south west arrow and north west arrow
 - symbol: ß
   entities:
     - szlig
@@ -6815,42 +8217,51 @@
     - beta
     - ess-zed
     - s
+  description: latin small letter sharp s
 - symbol: ⌖
   entities:
     - target
   tags: []
+  description: position indicator
 - symbol: τ
   entities:
     - tau
   tags:
     - t
     - tau
+  description: greek small letter tau
 - symbol: ť
   entities:
     - tcaron
   tags: []
+  description: latin small letter t with caron
 - symbol: ţ
   entities:
     - tcedil
   tags: []
+  description: latin small letter t with cedilla
 - symbol: т
   entities:
     - tcy
   tags: []
+  description: cyrillic small letter te
 - symbol: ⌕
   entities:
     - telrec
   tags: []
+  description: telephone recorder
 - symbol: 𝔱
   entities:
     - tfr
   tags: []
+  description: mathematical fraktur small t
 - symbol: θ
   entities:
     - theta
   tags:
     - o
     - theta
+  description: greek small letter theta
 - symbol: ϑ
   entities:
     - thetasym
@@ -6859,12 +8270,14 @@
   tags:
     - "0"
     - theta
+  description: greek theta symbol
 - symbol: þ
   entities:
     - thorn
   tags:
     - p
     - thorn
+  description: latin small letter thorn
 - symbol: ×
   entities:
     - times
@@ -6872,159 +8285,196 @@
     - multiplication
     - x
     - times
+  description: multiplication sign
 - symbol: ⨱
   entities:
     - timesbar
   tags: []
+  description: multiplication sign with underbar
 - symbol: ⨰
   entities:
     - timesd
   tags: []
+  description: multiplication sign with dot above
 - symbol: ⌶
   entities:
     - topbot
   tags: []
+  description: apl functional symbol i-beam
 - symbol: ⫱
   entities:
     - topcir
   tags: []
+  description: down tack with circle below
 - symbol: 𝕥
   entities:
     - topf
   tags: []
+  description: mathematical double-struck small t
 - symbol: ⫚
   entities:
     - topfork
   tags: []
+  description: pitchfork with tee top
 - symbol: ‴
   entities:
     - tprime
   tags: []
+  description: triple prime
 - symbol: ▵
   entities:
     - triangle
     - utri
   tags: []
+  description: white up-pointing small triangle
 - symbol: ≜
   entities:
     - triangleq
     - trie
   tags: []
+  description: delta equal to
 - symbol: ◬
   entities:
     - tridot
   tags: []
+  description: white up-pointing triangle with dot
 - symbol: ⨺
   entities:
     - triminus
   tags: []
+  description: minus sign in triangle
 - symbol: ⨹
   entities:
     - triplus
   tags: []
+  description: plus sign in triangle
 - symbol: ⧍
   entities:
     - trisb
   tags: []
+  description: triangle with serifs at bottom
 - symbol: ⨻
   entities:
     - tritime
   tags: []
+  description: multiplication sign in triangle
 - symbol: ⏢
   entities:
     - trpezium
   tags: []
+  description: white trapezium
 - symbol: 𝓉
   entities:
     - tscr
   tags: []
+  description: mathematical script small t
 - symbol: ц
   entities:
     - tscy
   tags: []
+  description: cyrillic small letter tse
 - symbol: ћ
   entities:
     - tshcy
   tags: []
+  description: cyrillic small letter tshe
 - symbol: ŧ
   entities:
     - tstrok
   tags: []
+  description: latin small letter t with stroke
 - symbol: ⥣
   entities:
     - uHar
   tags: []
+  description: upwards harpoon with barb left beside upwards harpoon with barb right
 - symbol: ú
   entities:
     - uacute
   tags:
     - u
     - acute
+  description: latin small letter u with acute
 - symbol: ў
   entities:
     - ubrcy
   tags: []
+  description: cyrillic small letter short u
 - symbol: ŭ
   entities:
     - ubreve
   tags: []
+  description: latin small letter u with breve
 - symbol: û
   entities:
     - ucirc
   tags:
     - u
     - circumflex
+  description: latin small letter u with circumflex
 - symbol: у
   entities:
     - ucy
   tags: []
+  description: cyrillic small letter u
 - symbol: ű
   entities:
     - udblac
   tags: []
+  description: latin small letter u with double acute
 - symbol: ⥾
   entities:
     - ufisht
   tags: []
+  description: up fish tail
 - symbol: 𝔲
   entities:
     - ufr
   tags: []
+  description: mathematical fraktur small u
 - symbol: ù
   entities:
     - ugrave
   tags:
     - u
     - grave
+  description: latin small letter u with grave
 - symbol: ▀
   entities:
     - uhblk
   tags: []
+  description: upper half block
 - symbol: ⌜
   entities:
     - ulcorn
     - ulcorner
   tags: []
+  description: top left corner
 - symbol: ⌏
   entities:
     - ulcrop
   tags: []
+  description: top left crop
 - symbol: ◸
   entities:
     - ultri
   tags: []
+  description: upper left triangle
 - symbol: ū
   entities:
     - umacr
   tags: []
+  description: latin small letter u with macron
 - symbol: ų
   entities:
     - uogon
   tags: []
+  description: latin small letter u with ogonek
 - symbol: 𝕦
   entities:
     - uopf
   tags: []
+  description: mathematical double-struck small u
 - symbol: υ
   entities:
     - upsi
@@ -7032,126 +8482,155 @@
   tags:
     - u
     - upsilon
+  description: greek small letter upsilon
 - symbol: ⇈
   entities:
     - upuparrows
     - uuarr
   tags: []
+  description: upwards paired arrows
 - symbol: ⌝
   entities:
     - urcorn
     - urcorner
   tags: []
+  description: top right corner
 - symbol: ⌎
   entities:
     - urcrop
   tags: []
+  description: top right crop
 - symbol: ů
   entities:
     - uring
   tags: []
+  description: latin small letter u with ring above
 - symbol: ◹
   entities:
     - urtri
   tags: []
+  description: upper right triangle
 - symbol: 𝓊
   entities:
     - uscr
   tags: []
+  description: mathematical script small u
 - symbol: ⋰
   entities:
     - utdot
   tags: []
+  description: up right diagonal ellipsis
 - symbol: ũ
   entities:
     - utilde
   tags: []
+  description: latin small letter u with tilde
 - symbol: ü
   entities:
     - uuml
   tags:
     - u
     - diaeresis
+  description: latin small letter u with diaeresis
 - symbol: ⦧
   entities:
     - uwangle
   tags: []
+  description: oblique angle opening down
 - symbol: ⫨
   entities:
     - vBar
   tags: []
+  description: short up tack with underbar
 - symbol: ⫩
   entities:
     - vBarv
   tags: []
+  description: short up tack above short down tack
 - symbol: ⦜
   entities:
     - vangrt
   tags: []
+  description: right angle variant with square
 - symbol: ⊊︀
   entities:
     - varsubsetneq
     - vsubne
   tags: []
+  description: subset of with not equal to - variant with stroke through bottom members
 - symbol: ⫋︀
   entities:
     - varsubsetneqq
     - vsubnE
   tags: []
+  description: subset of above not equal to - variant with stroke through bottom members
 - symbol: ⊋︀
   entities:
     - varsupsetneq
     - vsupne
   tags: []
+  description: superset of with not equal to - variant with stroke through bottom members
 - symbol: ⫌︀
   entities:
     - varsupsetneqq
     - vsupnE
   tags: []
+  description: superset of above not equal to - variant with stroke through bottom members
 - symbol: в
   entities:
     - vcy
   tags: []
+  description: cyrillic small letter ve
 - symbol: ⊻
   entities:
     - veebar
   tags: []
+  description: xor
 - symbol: ≚
   entities:
     - veeeq
   tags: []
+  description: equiangular to
 - symbol: ⋮
   entities:
     - vellip
   tags: []
+  description: vertical ellipsis
 - symbol: 𝔳
   entities:
     - vfr
   tags: []
+  description: mathematical fraktur small v
 - symbol: 𝕧
   entities:
     - vopf
   tags: []
+  description: mathematical double-struck small v
 - symbol: 𝓋
   entities:
     - vscr
   tags: []
+  description: mathematical script small v
 - symbol: ⦚
   entities:
     - vzigzag
   tags: []
+  description: vertical zigzag line
 - symbol: ŵ
   entities:
     - wcirc
   tags: []
+  description: latin small letter w with circumflex
 - symbol: ⩟
   entities:
     - wedbar
   tags: []
+  description: logical and with underbar
 - symbol: ≙
   entities:
     - wedgeq
   tags: []
+  description: estimates
 - symbol: ℘
   entities:
     - weierp
@@ -7159,138 +8638,169 @@
   tags:
     - P
     - power
+  description: script capital p
 - symbol: 𝔴
   entities:
     - wfr
   tags: []
+  description: mathematical fraktur small w
 - symbol: 𝕨
   entities:
     - wopf
   tags: []
+  description: mathematical double-struck small w
 - symbol: 𝓌
   entities:
     - wscr
   tags: []
+  description: mathematical script small w
 - symbol: 𝔵
   entities:
     - xfr
   tags: []
+  description: mathematical fraktur small x
 - symbol: ξ
   entities:
     - xi
   tags:
     - e
     - xi
+  description: greek small letter xi
 - symbol: ⋻
   entities:
     - xnis
   tags: []
+  description: contains with vertical bar at end of horizontal stroke
 - symbol: 𝕩
   entities:
     - xopf
   tags: []
+  description: mathematical double-struck small x
 - symbol: 𝓍
   entities:
     - xscr
   tags: []
+  description: mathematical script small x
 - symbol: ý
   entities:
     - yacute
   tags:
     - y
     - acute
+  description: latin small letter y with acute
 - symbol: я
   entities:
     - yacy
   tags: []
+  description: cyrillic small letter ya
 - symbol: ŷ
   entities:
     - ycirc
   tags: []
+  description: latin small letter y with circumflex
 - symbol: ы
   entities:
     - ycy
   tags: []
+  description: cyrillic small letter yeru
 - symbol: ¥
   entities:
     - yen
   tags:
     - yen
     - y
+  description: yen sign
 - symbol: 𝔶
   entities:
     - yfr
   tags: []
+  description: mathematical fraktur small y
 - symbol: ї
   entities:
     - yicy
   tags: []
+  description: cyrillic small letter yi
 - symbol: 𝕪
   entities:
     - yopf
   tags: []
+  description: mathematical double-struck small y
 - symbol: 𝓎
   entities:
     - yscr
   tags: []
+  description: mathematical script small y
 - symbol: ю
   entities:
     - yucy
   tags: []
+  description: cyrillic small letter yu
 - symbol: ÿ
   entities:
     - yuml
   tags:
     - y
     - diaeresis
+  description: latin small letter y with diaeresis
 - symbol: ź
   entities:
     - zacute
   tags: []
+  description: latin small letter z with acute
 - symbol: ž
   entities:
     - zcaron
   tags: []
+  description: latin small letter z with caron
 - symbol: з
   entities:
     - zcy
   tags: []
+  description: cyrillic small letter ze
 - symbol: ż
   entities:
     - zdot
   tags: []
+  description: latin small letter z with dot above
 - symbol: ζ
   entities:
     - zeta
   tags:
     - z
     - zeta
+  description: greek small letter zeta
 - symbol: 𝔷
   entities:
     - zfr
   tags: []
+  description: mathematical fraktur small z
 - symbol: ж
   entities:
     - zhcy
   tags: []
+  description: cyrillic small letter zhe
 - symbol: ⇝
   entities:
     - zigrarr
   tags: []
+  description: rightwards squiggle arrow
 - symbol: 𝕫
   entities:
     - zopf
   tags: []
+  description: mathematical double-struck small z
 - symbol: 𝓏
   entities:
     - zscr
   tags: []
+  description: mathematical script small z
 - symbol: ‍
   entities:
     - zwj
   tags:
     - " "
     - zero
+  description: zero width joiner
 - symbol: ‌
   entities:
     - zwnj
@@ -7298,3 +8808,4 @@
     - " "
     - zero
     - non-joiner
+  description: zero width non-joiner

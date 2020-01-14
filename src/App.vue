@@ -53,6 +53,11 @@ export default {
           editDistance: 1,
           boost: 1,
     ***REMOVED***
+
+        query.term(this.query, {
+          fields: ['description'],
+          wildcard: lunr.Query.wildcard.TRAILING,
+    ***REMOVED***
   ***REMOVED***
         .map(item => ({
           ...data.find(glyph => glyph.symbol === item.ref),
@@ -64,13 +69,14 @@ export default {
   mounted() {
     this.idx = lunr(function () {
       this.pipeline.remove(lunr.trimmer)
-      // this.pipeline.remove(lunr.stemmer)
-      // this.pipeline.remove(lunr.stopWordFilter)
+      this.pipeline.remove(lunr.stemmer)
+      this.pipeline.remove(lunr.stopWordFilter)
 
       this.ref('symbol')
       this.field('symbol')
       this.field('entities')
       this.field('tags')
+      this.field('description')
 
       data.forEach(function (glyph) {
         this.add(glyph)
