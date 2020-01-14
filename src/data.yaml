@@ -1,6375 +1,7300 @@
-- name: AElig
-  value: Æ
-  tags: []
-- name: AMP
-  value: "&"
-  tags: []
-- name: Aacute
-  value: Á
-  tags: []
-- name: Abreve
-  value: Ă
-  tags: []
-- name: Acirc
-  value: Â
-  tags: []
-- name: Acy
-  value: А
-  tags: []
-- name: Afr
-  value: 𝔄
-  tags: []
-- name: Agrave
-  value: À
-  tags: []
-- name: Alpha
-  value: Α
-  tags: []
-- name: Amacr
-  value: Ā
-  tags: []
-- name: And
-  value: ⩓
-  tags: []
-- name: Aogon
-  value: Ą
-  tags: []
-- name: Aopf
-  value: 𝔸
-  tags: []
-- name: ApplyFunction
-  value: ⁡
-  tags: []
-- name: Aring
-  value: Å
-  tags: []
-- name: Ascr
-  value: 𝒜
-  tags: []
-- name: Assign
-  value: ≔
-  tags: []
-- name: Atilde
-  value: Ã
-  tags: []
-- name: Auml
-  value: Ä
-  tags: []
-- name: Backslash
-  value: ∖
-  tags: []
-- name: Barv
-  value: ⫧
-  tags: []
-- name: Barwed
-  value: ⌆
-  tags: []
-- name: Bcy
-  value: Б
-  tags: []
-- name: Because
-  value: ∵
-  tags: []
-- name: Bernoullis
-  value: ℬ
-  tags: []
-- name: Beta
-  value: Β
-  tags: []
-- name: Bfr
-  value: 𝔅
-  tags: []
-- name: Bopf
-  value: 𝔹
-  tags: []
-- name: Breve
-  value: ˘
-  tags: []
-- name: Bscr
-  value: ℬ
-  tags: []
-- name: Bumpeq
-  value: ≎
-  tags: []
-- name: CHcy
-  value: Ч
-  tags: []
-- name: COPY
-  value: ©
-  tags: []
-- name: Cacute
-  value: Ć
-  tags: []
-- name: Cap
-  value: ⋒
-  tags: []
-- name: CapitalDifferentialD
-  value: ⅅ
-  tags: []
-- name: Cayleys
-  value: ℭ
-  tags: []
-- name: Ccaron
-  value: Č
-  tags: []
-- name: Ccedil
-  value: Ç
-  tags: []
-- name: Ccirc
-  value: Ĉ
-  tags: []
-- name: Cconint
-  value: ∰
-  tags: []
-- name: Cdot
-  value: Ċ
-  tags: []
-- name: Cedilla
-  value: ¸
-  tags: []
-- name: CenterDot
-  value: ·
-  tags: []
-- name: Cfr
-  value: ℭ
-  tags: []
-- name: Chi
-  value: Χ
-  tags: []
-- name: CircleDot
-  value: ⊙
-  tags: []
-- name: CircleMinus
-  value: ⊖
-  tags: []
-- name: CirclePlus
-  value: ⊕
-  tags: []
-- name: CircleTimes
-  value: ⊗
-  tags: []
-- name: ClockwiseContourIntegral
-  value: ∲
-  tags: []
-- name: CloseCurlyDoubleQuote
-  value: ”
-  tags: []
-- name: CloseCurlyQuote
-  value: ’
-  tags: []
-- name: Colon
-  value: ∷
-  tags: []
-- name: Colone
-  value: ⩴
-  tags: []
-- name: Congruent
-  value: ≡
-  tags: []
-- name: Conint
-  value: ∯
-  tags: []
-- name: ContourIntegral
-  value: ∮
-  tags: []
-- name: Copf
-  value: ℂ
-  tags: []
-- name: Coproduct
-  value: ∐
-  tags: []
-- name: CounterClockwiseContourIntegral
-  value: ∳
-  tags: []
-- name: Cross
-  value: ⨯
-  tags: []
-- name: Cscr
-  value: 𝒞
-  tags: []
-- name: Cup
-  value: ⋓
-  tags: []
-- name: CupCap
-  value: ≍
-  tags: []
-- name: DD
-  value: ⅅ
-  tags: []
-- name: DDotrahd
-  value: ⤑
-  tags: []
-- name: DJcy
-  value: Ђ
-  tags: []
-- name: DScy
-  value: Ѕ
-  tags: []
-- name: DZcy
-  value: Џ
-  tags: []
-- name: Dagger
-  value: ‡
-  tags: []
-- name: Darr
-  value: ↡
-  tags: []
-- name: Dashv
-  value: ⫤
-  tags: []
-- name: Dcaron
-  value: Ď
-  tags: []
-- name: Dcy
-  value: Д
-  tags: []
-- name: Del
-  value: ∇
-  tags: []
-- name: Delta
-  value: Δ
-  tags: []
-- name: Dfr
-  value: 𝔇
-  tags: []
-- name: DiacriticalAcute
-  value: ´
-  tags: []
-- name: DiacriticalDot
-  value: ˙
-  tags: []
-- name: DiacriticalDoubleAcute
-  value: ˝
-  tags: []
-- name: DiacriticalGrave
-  value: "`"
-  tags: []
-- name: DiacriticalTilde
-  value: ˜
-  tags: []
-- name: Diamond
-  value: ⋄
-  tags: []
-- name: DifferentialD
-  value: ⅆ
-  tags: []
-- name: Dopf
-  value: 𝔻
-  tags: []
-- name: Dot
-  value: ¨
-  tags: []
-- name: DotDot
-  value: ⃜
-  tags: []
-- name: DotEqual
-  value: ≐
-  tags: []
-- name: DoubleContourIntegral
-  value: ∯
-  tags: []
-- name: DoubleDot
-  value: ¨
-  tags: []
-- name: DoubleDownArrow
-  value: ⇓
-  tags: []
-- name: DoubleLeftArrow
-  value: ⇐
-  tags: []
-- name: DoubleLeftRightArrow
-  value: ⇔
-  tags: []
-- name: DoubleLeftTee
-  value: ⫤
-  tags: []
-- name: DoubleLongLeftArrow
-  value: ⟸
-  tags: []
-- name: DoubleLongLeftRightArrow
-  value: ⟺
-  tags: []
-- name: DoubleLongRightArrow
-  value: ⟹
-  tags: []
-- name: DoubleRightArrow
-  value: ⇒
-  tags: []
-- name: DoubleRightTee
-  value: ⊨
-  tags: []
-- name: DoubleUpArrow
-  value: ⇑
-  tags: []
-- name: DoubleUpDownArrow
-  value: ⇕
-  tags: []
-- name: DoubleVerticalBar
-  value: ∥
-  tags: []
-- name: DownArrow
-  value: ↓
-  tags: []
-- name: DownArrowBar
-  value: ⤓
-  tags: []
-- name: DownArrowUpArrow
-  value: ⇵
-  tags: []
-- name: DownBreve
-  value: ̑
-  tags: []
-- name: DownLeftRightVector
-  value: ⥐
-  tags: []
-- name: DownLeftTeeVector
-  value: ⥞
-  tags: []
-- name: DownLeftVector
-  value: ↽
-  tags: []
-- name: DownLeftVectorBar
-  value: ⥖
-  tags: []
-- name: DownRightTeeVector
-  value: ⥟
-  tags: []
-- name: DownRightVector
-  value: ⇁
-  tags: []
-- name: DownRightVectorBar
-  value: ⥗
-  tags: []
-- name: DownTee
-  value: ⊤
-  tags: []
-- name: DownTeeArrow
-  value: ↧
-  tags: []
-- name: Downarrow
-  value: ⇓
-  tags: []
-- name: Dscr
-  value: 𝒟
-  tags: []
-- name: Dstrok
-  value: Đ
-  tags: []
-- name: ENG
-  value: Ŋ
-  tags: []
-- name: ETH
-  value: Ð
-  tags: []
-- name: Eacute
-  value: É
-  tags: []
-- name: Ecaron
-  value: Ě
-  tags: []
-- name: Ecirc
-  value: Ê
-  tags: []
-- name: Ecy
-  value: Э
-  tags: []
-- name: Edot
-  value: Ė
-  tags: []
-- name: Efr
-  value: 𝔈
-  tags: []
-- name: Egrave
-  value: È
-  tags: []
-- name: Element
-  value: ∈
-  tags: []
-- name: Emacr
-  value: Ē
-  tags: []
-- name: EmptySmallSquare
-  value: ◻
-  tags: []
-- name: EmptyVerySmallSquare
-  value: ▫
-  tags: []
-- name: Eogon
-  value: Ę
-  tags: []
-- name: Eopf
-  value: 𝔼
-  tags: []
-- name: Epsilon
-  value: Ε
-  tags: []
-- name: Equal
-  value: ⩵
-  tags: []
-- name: EqualTilde
-  value: ≂
-  tags: []
-- name: Equilibrium
-  value: ⇌
-  tags: []
-- name: Escr
-  value: ℰ
-  tags: []
-- name: Esim
-  value: ⩳
-  tags: []
-- name: Eta
-  value: Η
-  tags: []
-- name: Euml
-  value: Ë
-  tags: []
-- name: Exists
-  value: ∃
-  tags: []
-- name: ExponentialE
-  value: ⅇ
-  tags: []
-- name: Fcy
-  value: Ф
-  tags: []
-- name: Ffr
-  value: 𝔉
-  tags: []
-- name: FilledSmallSquare
-  value: ◼
-  tags: []
-- name: FilledVerySmallSquare
-  value: ▪
-  tags: []
-- name: Fopf
-  value: 𝔽
-  tags: []
-- name: ForAll
-  value: ∀
-  tags: []
-- name: Fouriertrf
-  value: ℱ
-  tags: []
-- name: Fscr
-  value: ℱ
-  tags: []
-- name: GJcy
-  value: Ѓ
-  tags: []
-- name: GT
-  value: ">"
-  tags: []
-- name: Gamma
-  value: Γ
-  tags: []
-- name: Gammad
-  value: Ϝ
-  tags: []
-- name: Gbreve
-  value: Ğ
-  tags: []
-- name: Gcedil
-  value: Ģ
-  tags: []
-- name: Gcirc
-  value: Ĝ
-  tags: []
-- name: Gcy
-  value: Г
-  tags: []
-- name: Gdot
-  value: Ġ
-  tags: []
-- name: Gfr
-  value: 𝔊
-  tags: []
-- name: Gg
-  value: ⋙
-  tags: []
-- name: Gopf
-  value: 𝔾
-  tags: []
-- name: GreaterEqual
-  value: ≥
-  tags: []
-- name: GreaterEqualLess
-  value: ⋛
-  tags: []
-- name: GreaterFullEqual
-  value: ≧
-  tags: []
-- name: GreaterGreater
-  value: ⪢
-  tags: []
-- name: GreaterLess
-  value: ≷
-  tags: []
-- name: GreaterSlantEqual
-  value: ⩾
-  tags: []
-- name: GreaterTilde
-  value: ≳
-  tags: []
-- name: Gscr
-  value: 𝒢
-  tags: []
-- name: Gt
-  value: ≫
-  tags: []
-- name: HARDcy
-  value: Ъ
-  tags: []
-- name: Hacek
-  value: ˇ
-  tags: []
-- name: Hat
-  value: ^
-  tags: []
-- name: Hcirc
-  value: Ĥ
-  tags: []
-- name: Hfr
-  value: ℌ
-  tags: []
-- name: HilbertSpace
-  value: ℋ
-  tags: []
-- name: Hopf
-  value: ℍ
-  tags: []
-- name: HorizontalLine
-  value: ─
-  tags: []
-- name: Hscr
-  value: ℋ
-  tags: []
-- name: Hstrok
-  value: Ħ
-  tags: []
-- name: HumpDownHump
-  value: ≎
-  tags: []
-- name: HumpEqual
-  value: ≏
-  tags: []
-- name: IEcy
-  value: Е
-  tags: []
-- name: IJlig
-  value: Ĳ
-  tags: []
-- name: IOcy
-  value: Ё
-  tags: []
-- name: Iacute
-  value: Í
-  tags: []
-- name: Icirc
-  value: Î
-  tags: []
-- name: Icy
-  value: И
-  tags: []
-- name: Idot
-  value: İ
-  tags: []
-- name: Ifr
-  value: ℑ
-  tags: []
-- name: Igrave
-  value: Ì
-  tags: []
-- name: Im
-  value: ℑ
-  tags: []
-- name: Imacr
-  value: Ī
-  tags: []
-- name: ImaginaryI
-  value: ⅈ
-  tags: []
-- name: Implies
-  value: ⇒
-  tags: []
-- name: Int
-  value: ∬
-  tags: []
-- name: Integral
-  value: ∫
-  tags: []
-- name: Intersection
-  value: ⋂
-  tags: []
-- name: InvisibleComma
-  value: ⁣
-  tags: []
-- name: InvisibleTimes
-  value: ⁢
-  tags: []
-- name: Iogon
-  value: Į
-  tags: []
-- name: Iopf
-  value: 𝕀
-  tags: []
-- name: Iota
-  value: Ι
-  tags: []
-- name: Iscr
-  value: ℐ
-  tags: []
-- name: Itilde
-  value: Ĩ
-  tags: []
-- name: Iukcy
-  value: І
-  tags: []
-- name: Iuml
-  value: Ï
-  tags: []
-- name: Jcirc
-  value: Ĵ
-  tags: []
-- name: Jcy
-  value: Й
-  tags: []
-- name: Jfr
-  value: 𝔍
-  tags: []
-- name: Jopf
-  value: 𝕁
-  tags: []
-- name: Jscr
-  value: 𝒥
-  tags: []
-- name: Jsercy
-  value: Ј
-  tags: []
-- name: Jukcy
-  value: Є
-  tags: []
-- name: KHcy
-  value: Х
-  tags: []
-- name: KJcy
-  value: Ќ
-  tags: []
-- name: Kappa
-  value: Κ
-  tags: []
-- name: Kcedil
-  value: Ķ
-  tags: []
-- name: Kcy
-  value: К
-  tags: []
-- name: Kfr
-  value: 𝔎
-  tags: []
-- name: Kopf
-  value: 𝕂
-  tags: []
-- name: Kscr
-  value: 𝒦
-  tags: []
-- name: LJcy
-  value: Љ
-  tags: []
-- name: LT
-  value: <
-  tags: []
-- name: Lacute
-  value: Ĺ
-  tags: []
-- name: Lambda
-  value: Λ
-  tags: []
-- name: Lang
-  value: ⟪
-  tags: []
-- name: Laplacetrf
-  value: ℒ
-  tags: []
-- name: Larr
-  value: ↞
-  tags: []
-- name: Lcaron
-  value: Ľ
-  tags: []
-- name: Lcedil
-  value: Ļ
-  tags: []
-- name: Lcy
-  value: Л
-  tags: []
-- name: LeftAngleBracket
-  value: ⟨
-  tags: []
-- name: LeftArrow
-  value: ←
-  tags: []
-- name: LeftArrowBar
-  value: ⇤
-  tags: []
-- name: LeftArrowRightArrow
-  value: ⇆
-  tags: []
-- name: LeftCeiling
-  value: ⌈
-  tags: []
-- name: LeftDoubleBracket
-  value: ⟦
-  tags: []
-- name: LeftDownTeeVector
-  value: ⥡
-  tags: []
-- name: LeftDownVector
-  value: ⇃
-  tags: []
-- name: LeftDownVectorBar
-  value: ⥙
-  tags: []
-- name: LeftFloor
-  value: ⌊
-  tags: []
-- name: LeftRightArrow
-  value: ↔
-  tags: []
-- name: LeftRightVector
-  value: ⥎
-  tags: []
-- name: LeftTee
-  value: ⊣
-  tags: []
-- name: LeftTeeArrow
-  value: ↤
-  tags: []
-- name: LeftTeeVector
-  value: ⥚
-  tags: []
-- name: LeftTriangle
-  value: ⊲
-  tags: []
-- name: LeftTriangleBar
-  value: ⧏
-  tags: []
-- name: LeftTriangleEqual
-  value: ⊴
-  tags: []
-- name: LeftUpDownVector
-  value: ⥑
-  tags: []
-- name: LeftUpTeeVector
-  value: ⥠
-  tags: []
-- name: LeftUpVector
-  value: ↿
-  tags: []
-- name: LeftUpVectorBar
-  value: ⥘
-  tags: []
-- name: LeftVector
-  value: ↼
-  tags: []
-- name: LeftVectorBar
-  value: ⥒
-  tags: []
-- name: Leftarrow
-  value: ⇐
-  tags: []
-- name: Leftrightarrow
-  value: ⇔
-  tags: []
-- name: LessEqualGreater
-  value: ⋚
-  tags: []
-- name: LessFullEqual
-  value: ≦
-  tags: []
-- name: LessGreater
-  value: ≶
-  tags: []
-- name: LessLess
-  value: ⪡
-  tags: []
-- name: LessSlantEqual
-  value: ⩽
-  tags: []
-- name: LessTilde
-  value: ≲
-  tags: []
-- name: Lfr
-  value: 𝔏
-  tags: []
-- name: Ll
-  value: ⋘
-  tags: []
-- name: Lleftarrow
-  value: ⇚
-  tags: []
-- name: Lmidot
-  value: Ŀ
-  tags: []
-- name: LongLeftArrow
-  value: ⟵
-  tags: []
-- name: LongLeftRightArrow
-  value: ⟷
-  tags: []
-- name: LongRightArrow
-  value: ⟶
-  tags: []
-- name: Longleftarrow
-  value: ⟸
-  tags: []
-- name: Longleftrightarrow
-  value: ⟺
-  tags: []
-- name: Longrightarrow
-  value: ⟹
-  tags: []
-- name: Lopf
-  value: 𝕃
-  tags: []
-- name: LowerLeftArrow
-  value: ↙
-  tags: []
-- name: LowerRightArrow
-  value: ↘
-  tags: []
-- name: Lscr
-  value: ℒ
-  tags: []
-- name: Lsh
-  value: ↰
-  tags: []
-- name: Lstrok
-  value: Ł
-  tags: []
-- name: Lt
-  value: ≪
-  tags: []
-- name: Map
-  value: ⤅
-  tags: []
-- name: Mcy
-  value: М
-  tags: []
-- name: MediumSpace
-  value:  
-  tags: []
-- name: Mellintrf
-  value: ℳ
-  tags: []
-- name: Mfr
-  value: 𝔐
-  tags: []
-- name: MinusPlus
-  value: ∓
-  tags: []
-- name: Mopf
-  value: 𝕄
-  tags: []
-- name: Mscr
-  value: ℳ
-  tags: []
-- name: Mu
-  value: Μ
-  tags: []
-- name: NJcy
-  value: Њ
-  tags: []
-- name: Nacute
-  value: Ń
-  tags: []
-- name: Ncaron
-  value: Ň
-  tags: []
-- name: Ncedil
-  value: Ņ
-  tags: []
-- name: Ncy
-  value: Н
-  tags: []
-- name: NegativeMediumSpace
-  value: ​
-  tags: []
-- name: NegativeThickSpace
-  value: ​
-  tags: []
-- name: NegativeThinSpace
-  value: ​
-  tags: []
-- name: NegativeVeryThinSpace
-  value: ​
-  tags: []
-- name: NestedGreaterGreater
-  value: ≫
-  tags: []
-- name: NestedLessLess
-  value: ≪
-  tags: []
-- name: NewLine
-  value: "\n"
-  tags: []
-- name: Nfr
-  value: 𝔑
-  tags: []
-- name: NoBreak
-  value: ⁠
-  tags: []
-- name: NonBreakingSpace
-  value:  
-  tags: []
-- name: Nopf
-  value: ℕ
-  tags: []
-- name: Not
-  value: ⫬
-  tags: []
-- name: NotCongruent
-  value: ≢
-  tags: []
-- name: NotCupCap
-  value: ≭
-  tags: []
-- name: NotDoubleVerticalBar
-  value: ∦
-  tags: []
-- name: NotElement
-  value: ∉
-  tags: []
-- name: NotEqual
-  value: ≠
-  tags: []
-- name: NotEqualTilde
-  value: ≂̸
-  tags: []
-- name: NotExists
-  value: ∄
-  tags: []
-- name: NotGreater
-  value: ≯
-  tags: []
-- name: NotGreaterEqual
-  value: ≱
-  tags: []
-- name: NotGreaterFullEqual
-  value: ≧̸
-  tags: []
-- name: NotGreaterGreater
-  value: ≫̸
-  tags: []
-- name: NotGreaterLess
-  value: ≹
-  tags: []
-- name: NotGreaterSlantEqual
-  value: ⩾̸
-  tags: []
-- name: NotGreaterTilde
-  value: ≵
-  tags: []
-- name: NotHumpDownHump
-  value: ≎̸
-  tags: []
-- name: NotHumpEqual
-  value: ≏̸
-  tags: []
-- name: NotLeftTriangle
-  value: ⋪
-  tags: []
-- name: NotLeftTriangleBar
-  value: ⧏̸
-  tags: []
-- name: NotLeftTriangleEqual
-  value: ⋬
-  tags: []
-- name: NotLess
-  value: ≮
-  tags: []
-- name: NotLessEqual
-  value: ≰
-  tags: []
-- name: NotLessGreater
-  value: ≸
-  tags: []
-- name: NotLessLess
-  value: ≪̸
-  tags: []
-- name: NotLessSlantEqual
-  value: ⩽̸
-  tags: []
-- name: NotLessTilde
-  value: ≴
-  tags: []
-- name: NotNestedGreaterGreater
-  value: ⪢̸
-  tags: []
-- name: NotNestedLessLess
-  value: ⪡̸
-  tags: []
-- name: NotPrecedes
-  value: ⊀
-  tags: []
-- name: NotPrecedesEqual
-  value: ⪯̸
-  tags: []
-- name: NotPrecedesSlantEqual
-  value: ⋠
-  tags: []
-- name: NotReverseElement
-  value: ∌
-  tags: []
-- name: NotRightTriangle
-  value: ⋫
-  tags: []
-- name: NotRightTriangleBar
-  value: ⧐̸
-  tags: []
-- name: NotRightTriangleEqual
-  value: ⋭
-  tags: []
-- name: NotSquareSubset
-  value: ⊏̸
-  tags: []
-- name: NotSquareSubsetEqual
-  value: ⋢
-  tags: []
-- name: NotSquareSuperset
-  value: ⊐̸
-  tags: []
-- name: NotSquareSupersetEqual
-  value: ⋣
-  tags: []
-- name: NotSubset
-  value: ⊂⃒
-  tags: []
-- name: NotSubsetEqual
-  value: ⊈
-  tags: []
-- name: NotSucceeds
-  value: ⊁
-  tags: []
-- name: NotSucceedsEqual
-  value: ⪰̸
-  tags: []
-- name: NotSucceedsSlantEqual
-  value: ⋡
-  tags: []
-- name: NotSucceedsTilde
-  value: ≿̸
-  tags: []
-- name: NotSuperset
-  value: ⊃⃒
-  tags: []
-- name: NotSupersetEqual
-  value: ⊉
-  tags: []
-- name: NotTilde
-  value: ≁
-  tags: []
-- name: NotTildeEqual
-  value: ≄
-  tags: []
-- name: NotTildeFullEqual
-  value: ≇
-  tags: []
-- name: NotTildeTilde
-  value: ≉
-  tags: []
-- name: NotVerticalBar
-  value: ∤
-  tags: []
-- name: Nscr
-  value: 𝒩
-  tags: []
-- name: Ntilde
-  value: Ñ
-  tags: []
-- name: Nu
-  value: Ν
-  tags: []
-- name: OElig
-  value: Œ
-  tags: []
-- name: Oacute
-  value: Ó
-  tags: []
-- name: Ocirc
-  value: Ô
-  tags: []
-- name: Ocy
-  value: О
-  tags: []
-- name: Odblac
-  value: Ő
-  tags: []
-- name: Ofr
-  value: 𝔒
-  tags: []
-- name: Ograve
-  value: Ò
-  tags: []
-- name: Omacr
-  value: Ō
-  tags: []
-- name: Omega
-  value: Ω
-  tags: []
-- name: Omicron
-  value: Ο
-  tags: []
-- name: Oopf
-  value: 𝕆
-  tags: []
-- name: OpenCurlyDoubleQuote
-  value: “
-  tags: []
-- name: OpenCurlyQuote
-  value: ‘
-  tags: []
-- name: Or
-  value: ⩔
-  tags: []
-- name: Oscr
-  value: 𝒪
-  tags: []
-- name: Oslash
-  value: Ø
-  tags: []
-- name: Otilde
-  value: Õ
-  tags: []
-- name: Otimes
-  value: ⨷
-  tags: []
-- name: Ouml
-  value: Ö
-  tags: []
-- name: OverBar
-  value: ‾
-  tags: []
-- name: OverBrace
-  value: ⏞
-  tags: []
-- name: OverBracket
-  value: ⎴
-  tags: []
-- name: OverParenthesis
-  value: ⏜
-  tags: []
-- name: PartialD
-  value: ∂
-  tags: []
-- name: Pcy
-  value: П
-  tags: []
-- name: Pfr
-  value: 𝔓
-  tags: []
-- name: Phi
-  value: Φ
-  tags: []
-- name: Pi
-  value: Π
-  tags: []
-- name: PlusMinus
-  value: ±
-  tags: []
-- name: Poincareplane
-  value: ℌ
-  tags: []
-- name: Popf
-  value: ℙ
-  tags: []
-- name: Pr
-  value: ⪻
-  tags: []
-- name: Precedes
-  value: ≺
-  tags: []
-- name: PrecedesEqual
-  value: ⪯
-  tags: []
-- name: PrecedesSlantEqual
-  value: ≼
-  tags: []
-- name: PrecedesTilde
-  value: ≾
-  tags: []
-- name: Prime
-  value: ″
-  tags: []
-- name: Product
-  value: ∏
-  tags: []
-- name: Proportion
-  value: ∷
-  tags: []
-- name: Proportional
-  value: ∝
-  tags: []
-- name: Pscr
-  value: 𝒫
-  tags: []
-- name: Psi
-  value: Ψ
-  tags: []
-- name: QUOT
-  value: '"'
-  tags: []
-- name: Qfr
-  value: 𝔔
-  tags: []
-- name: Qopf
-  value: ℚ
-  tags: []
-- name: Qscr
-  value: 𝒬
-  tags: []
-- name: RBarr
-  value: ⤐
-  tags: []
-- name: REG
-  value: ®
-  tags: []
-- name: Racute
-  value: Ŕ
-  tags: []
-- name: Rang
-  value: ⟫
-  tags: []
-- name: Rarr
-  value: ↠
-  tags: []
-- name: Rarrtl
-  value: ⤖
-  tags: []
-- name: Rcaron
-  value: Ř
-  tags: []
-- name: Rcedil
-  value: Ŗ
-  tags: []
-- name: Rcy
-  value: Р
-  tags: []
-- name: Re
-  value: ℜ
-  tags: []
-- name: ReverseElement
-  value: ∋
-  tags: []
-- name: ReverseEquilibrium
-  value: ⇋
-  tags: []
-- name: ReverseUpEquilibrium
-  value: ⥯
-  tags: []
-- name: Rfr
-  value: ℜ
-  tags: []
-- name: Rho
-  value: Ρ
-  tags: []
-- name: RightAngleBracket
-  value: ⟩
-  tags: []
-- name: RightArrow
-  value: →
-  tags: []
-- name: RightArrowBar
-  value: ⇥
-  tags: []
-- name: RightArrowLeftArrow
-  value: ⇄
-  tags: []
-- name: RightCeiling
-  value: ⌉
-  tags: []
-- name: RightDoubleBracket
-  value: ⟧
-  tags: []
-- name: RightDownTeeVector
-  value: ⥝
-  tags: []
-- name: RightDownVector
-  value: ⇂
-  tags: []
-- name: RightDownVectorBar
-  value: ⥕
-  tags: []
-- name: RightFloor
-  value: ⌋
-  tags: []
-- name: RightTee
-  value: ⊢
-  tags: []
-- name: RightTeeArrow
-  value: ↦
-  tags: []
-- name: RightTeeVector
-  value: ⥛
-  tags: []
-- name: RightTriangle
-  value: ⊳
-  tags: []
-- name: RightTriangleBar
-  value: ⧐
-  tags: []
-- name: RightTriangleEqual
-  value: ⊵
-  tags: []
-- name: RightUpDownVector
-  value: ⥏
-  tags: []
-- name: RightUpTeeVector
-  value: ⥜
-  tags: []
-- name: RightUpVector
-  value: ↾
-  tags: []
-- name: RightUpVectorBar
-  value: ⥔
-  tags: []
-- name: RightVector
-  value: ⇀
-  tags: []
-- name: RightVectorBar
-  value: ⥓
-  tags: []
-- name: Rightarrow
-  value: ⇒
-  tags: []
-- name: Ropf
-  value: ℝ
-  tags: []
-- name: RoundImplies
-  value: ⥰
-  tags: []
-- name: Rrightarrow
-  value: ⇛
-  tags: []
-- name: Rscr
-  value: ℛ
-  tags: []
-- name: Rsh
-  value: ↱
-  tags: []
-- name: RuleDelayed
-  value: ⧴
-  tags: []
-- name: SHCHcy
-  value: Щ
-  tags: []
-- name: SHcy
-  value: Ш
-  tags: []
-- name: SOFTcy
-  value: Ь
-  tags: []
-- name: Sacute
-  value: Ś
-  tags: []
-- name: Sc
-  value: ⪼
-  tags: []
-- name: Scaron
-  value: Š
-  tags: []
-- name: Scedil
-  value: Ş
-  tags: []
-- name: Scirc
-  value: Ŝ
-  tags: []
-- name: Scy
-  value: С
-  tags: []
-- name: Sfr
-  value: 𝔖
-  tags: []
-- name: ShortDownArrow
-  value: ↓
-  tags: []
-- name: ShortLeftArrow
-  value: ←
-  tags: []
-- name: ShortRightArrow
-  value: →
-  tags: []
-- name: ShortUpArrow
-  value: ↑
-  tags: []
-- name: Sigma
-  value: Σ
-  tags: []
-- name: SmallCircle
-  value: ∘
-  tags: []
-- name: Sopf
-  value: 𝕊
-  tags: []
-- name: Sqrt
-  value: √
-  tags: []
-- name: Square
-  value: □
-  tags: []
-- name: SquareIntersection
-  value: ⊓
-  tags: []
-- name: SquareSubset
-  value: ⊏
-  tags: []
-- name: SquareSubsetEqual
-  value: ⊑
-  tags: []
-- name: SquareSuperset
-  value: ⊐
-  tags: []
-- name: SquareSupersetEqual
-  value: ⊒
-  tags: []
-- name: SquareUnion
-  value: ⊔
-  tags: []
-- name: Sscr
-  value: 𝒮
-  tags: []
-- name: Star
-  value: ⋆
-  tags: []
-- name: Sub
-  value: ⋐
-  tags: []
-- name: Subset
-  value: ⋐
-  tags: []
-- name: SubsetEqual
-  value: ⊆
-  tags: []
-- name: Succeeds
-  value: ≻
-  tags: []
-- name: SucceedsEqual
-  value: ⪰
-  tags: []
-- name: SucceedsSlantEqual
-  value: ≽
-  tags: []
-- name: SucceedsTilde
-  value: ≿
-  tags: []
-- name: SuchThat
-  value: ∋
-  tags: []
-- name: Sum
-  value: ∑
-  tags: []
-- name: Sup
-  value: ⋑
-  tags: []
-- name: Superset
-  value: ⊃
-  tags: []
-- name: SupersetEqual
-  value: ⊇
-  tags: []
-- name: Supset
-  value: ⋑
-  tags: []
-- name: THORN
-  value: Þ
-  tags: []
-- name: TRADE
-  value: ™
-  tags: []
-- name: TSHcy
-  value: Ћ
-  tags: []
-- name: TScy
-  value: Ц
-  tags: []
-- name: Tab
-  value: "\t"
-  tags: []
-- name: Tau
-  value: Τ
-  tags: []
-- name: Tcaron
-  value: Ť
-  tags: []
-- name: Tcedil
-  value: Ţ
-  tags: []
-- name: Tcy
-  value: Т
-  tags: []
-- name: Tfr
-  value: 𝔗
-  tags: []
-- name: Therefore
-  value: ∴
-  tags: []
-- name: Theta
-  value: Θ
-  tags: []
-- name: ThickSpace
-  value:   
-  tags: []
-- name: ThinSpace
-  value:  
-  tags: []
-- name: Tilde
-  value: ∼
-  tags: []
-- name: TildeEqual
-  value: ≃
-  tags: []
-- name: TildeFullEqual
-  value: ≅
-  tags: []
-- name: TildeTilde
-  value: ≈
-  tags: []
-- name: Topf
-  value: 𝕋
-  tags: []
-- name: TripleDot
-  value: ⃛
-  tags: []
-- name: Tscr
-  value: 𝒯
-  tags: []
-- name: Tstrok
-  value: Ŧ
-  tags: []
-- name: Uacute
-  value: Ú
-  tags: []
-- name: Uarr
-  value: ↟
-  tags: []
-- name: Uarrocir
-  value: ⥉
-  tags: []
-- name: Ubrcy
-  value: Ў
-  tags: []
-- name: Ubreve
-  value: Ŭ
-  tags: []
-- name: Ucirc
-  value: Û
-  tags: []
-- name: Ucy
-  value: У
-  tags: []
-- name: Udblac
-  value: Ű
-  tags: []
-- name: Ufr
-  value: 𝔘
-  tags: []
-- name: Ugrave
-  value: Ù
-  tags: []
-- name: Umacr
-  value: Ū
-  tags: []
-- name: UnderBar
-  value: _
-  tags: []
-- name: UnderBrace
-  value: ⏟
-  tags: []
-- name: UnderBracket
-  value: ⎵
-  tags: []
-- name: UnderParenthesis
-  value: ⏝
-  tags: []
-- name: Union
-  value: ⋃
-  tags: []
-- name: UnionPlus
-  value: ⊎
-  tags: []
-- name: Uogon
-  value: Ų
-  tags: []
-- name: Uopf
-  value: 𝕌
-  tags: []
-- name: UpArrow
-  value: ↑
-  tags: []
-- name: UpArrowBar
-  value: ⤒
-  tags: []
-- name: UpArrowDownArrow
-  value: ⇅
-  tags: []
-- name: UpDownArrow
-  value: ↕
-  tags: []
-- name: UpEquilibrium
-  value: ⥮
-  tags: []
-- name: UpTee
-  value: ⊥
-  tags: []
-- name: UpTeeArrow
-  value: ↥
-  tags: []
-- name: Uparrow
-  value: ⇑
-  tags: []
-- name: Updownarrow
-  value: ⇕
-  tags: []
-- name: UpperLeftArrow
-  value: ↖
-  tags: []
-- name: UpperRightArrow
-  value: ↗
-  tags: []
-- name: Upsi
-  value: ϒ
-  tags: []
-- name: Upsilon
-  value: Υ
-  tags: []
-- name: Uring
-  value: Ů
-  tags: []
-- name: Uscr
-  value: 𝒰
-  tags: []
-- name: Utilde
-  value: Ũ
-  tags: []
-- name: Uuml
-  value: Ü
-  tags: []
-- name: VDash
-  value: ⊫
-  tags: []
-- name: Vbar
-  value: ⫫
-  tags: []
-- name: Vcy
-  value: В
-  tags: []
-- name: Vdash
-  value: ⊩
-  tags: []
-- name: Vdashl
-  value: ⫦
-  tags: []
-- name: Vee
-  value: ⋁
-  tags: []
-- name: Verbar
-  value: ‖
-  tags: []
-- name: Vert
-  value: ‖
-  tags: []
-- name: VerticalBar
-  value: ∣
-  tags: []
-- name: VerticalLine
-  value: "|"
-  tags: []
-- name: VerticalSeparator
-  value: ❘
-  tags: []
-- name: VerticalTilde
-  value: ≀
-  tags: []
-- name: VeryThinSpace
-  value:  
-  tags: []
-- name: Vfr
-  value: 𝔙
-  tags: []
-- name: Vopf
-  value: 𝕍
-  tags: []
-- name: Vscr
-  value: 𝒱
-  tags: []
-- name: Vvdash
-  value: ⊪
-  tags: []
-- name: Wcirc
-  value: Ŵ
-  tags: []
-- name: Wedge
-  value: ⋀
-  tags: []
-- name: Wfr
-  value: 𝔚
-  tags: []
-- name: Wopf
-  value: 𝕎
-  tags: []
-- name: Wscr
-  value: 𝒲
-  tags: []
-- name: Xfr
-  value: 𝔛
-  tags: []
-- name: Xi
-  value: Ξ
-  tags: []
-- name: Xopf
-  value: 𝕏
-  tags: []
-- name: Xscr
-  value: 𝒳
-  tags: []
-- name: YAcy
-  value: Я
-  tags: []
-- name: YIcy
-  value: Ї
-  tags: []
-- name: YUcy
-  value: Ю
-  tags: []
-- name: Yacute
-  value: Ý
-  tags: []
-- name: Ycirc
-  value: Ŷ
-  tags: []
-- name: Ycy
-  value: Ы
-  tags: []
-- name: Yfr
-  value: 𝔜
-  tags: []
-- name: Yopf
-  value: 𝕐
-  tags: []
-- name: Yscr
-  value: 𝒴
-  tags: []
-- name: Yuml
-  value: Ÿ
-  tags: []
-- name: ZHcy
-  value: Ж
-  tags: []
-- name: Zacute
-  value: Ź
-  tags: []
-- name: Zcaron
-  value: Ž
-  tags: []
-- name: Zcy
-  value: З
-  tags: []
-- name: Zdot
-  value: Ż
-  tags: []
-- name: ZeroWidthSpace
-  value: ​
-  tags: []
-- name: Zeta
-  value: Ζ
-  tags: []
-- name: Zfr
-  value: ℨ
-  tags: []
-- name: Zopf
-  value: ℤ
-  tags: []
-- name: Zscr
-  value: 𝒵
-  tags: []
-- name: aacute
-  value: á
-  tags: []
-- name: abreve
-  value: ă
-  tags: []
-- name: ac
-  value: ∾
-  tags: []
-- name: acE
-  value: ∾̳
-  tags: []
-- name: acd
-  value: ∿
-  tags: []
-- name: acirc
-  value: â
-  tags: []
-- name: acute
-  value: ´
-  tags: []
-- name: acy
-  value: а
-  tags: []
-- name: aelig
-  value: æ
-  tags: []
-- name: af
-  value: ⁡
-  tags: []
-- name: afr
-  value: 𝔞
-  tags: []
-- name: agrave
-  value: à
-  tags: []
-- name: alefsym
-  value: ℵ
-  tags: []
-- name: aleph
-  value: ℵ
-  tags: []
-- name: alpha
-  value: α
-  tags: []
-- name: amacr
-  value: ā
-  tags: []
-- name: amalg
-  value: ⨿
-  tags: []
-- name: amp
-  value: "&"
-  tags: []
-- name: and
-  value: ∧
-  tags: []
-- name: andand
-  value: ⩕
-  tags: []
-- name: andd
-  value: ⩜
-  tags: []
-- name: andslope
-  value: ⩘
-  tags: []
-- name: andv
-  value: ⩚
-  tags: []
-- name: ang
-  value: ∠
-  tags: []
-- name: ange
-  value: ⦤
-  tags: []
-- name: angle
-  value: ∠
-  tags: []
-- name: angmsd
-  value: ∡
-  tags: []
-- name: angmsdaa
-  value: ⦨
-  tags: []
-- name: angmsdab
-  value: ⦩
-  tags: []
-- name: angmsdac
-  value: ⦪
-  tags: []
-- name: angmsdad
-  value: ⦫
-  tags: []
-- name: angmsdae
-  value: ⦬
-  tags: []
-- name: angmsdaf
-  value: ⦭
-  tags: []
-- name: angmsdag
-  value: ⦮
-  tags: []
-- name: angmsdah
-  value: ⦯
-  tags: []
-- name: angrt
-  value: ∟
-  tags: []
-- name: angrtvb
-  value: ⊾
-  tags: []
-- name: angrtvbd
-  value: ⦝
-  tags: []
-- name: angsph
-  value: ∢
-  tags: []
-- name: angst
-  value: Å
-  tags: []
-- name: angzarr
-  value: ⍼
-  tags: []
-- name: aogon
-  value: ą
-  tags: []
-- name: aopf
-  value: 𝕒
-  tags: []
-- name: ap
-  value: ≈
-  tags: []
-- name: apE
-  value: ⩰
-  tags: []
-- name: apacir
-  value: ⩯
-  tags: []
-- name: ape
-  value: ≊
-  tags: []
-- name: apid
-  value: ≋
-  tags: []
-- name: apos
-  value: "'"
-  tags: []
-- name: approx
-  value: ≈
-  tags: []
-- name: approxeq
-  value: ≊
-  tags: []
-- name: aring
-  value: å
-  tags: []
-- name: ascr
-  value: 𝒶
-  tags: []
-- name: ast
-  value: "*"
-  tags: []
-- name: asymp
-  value: ≈
-  tags: []
-- name: asympeq
-  value: ≍
-  tags: []
-- name: atilde
-  value: ã
-  tags: []
-- name: auml
-  value: ä
-  tags: []
-- name: awconint
-  value: ∳
-  tags: []
-- name: awint
-  value: ⨑
-  tags: []
-- name: bNot
-  value: ⫭
-  tags: []
-- name: backcong
-  value: ≌
-  tags: []
-- name: backepsilon
-  value: ϶
-  tags: []
-- name: backprime
-  value: ‵
-  tags: []
-- name: backsim
-  value: ∽
-  tags: []
-- name: backsimeq
-  value: ⋍
-  tags: []
-- name: barvee
-  value: ⊽
-  tags: []
-- name: barwed
-  value: ⌅
-  tags: []
-- name: barwedge
-  value: ⌅
-  tags: []
-- name: bbrk
-  value: ⎵
-  tags: []
-- name: bbrktbrk
-  value: ⎶
-  tags: []
-- name: bcong
-  value: ≌
-  tags: []
-- name: bcy
-  value: б
-  tags: []
-- name: bdquo
-  value: „
-  tags: []
-- name: becaus
-  value: ∵
-  tags: []
-- name: because
-  value: ∵
-  tags: []
-- name: bemptyv
-  value: ⦰
-  tags: []
-- name: bepsi
-  value: ϶
-  tags: []
-- name: bernou
-  value: ℬ
-  tags: []
-- name: beta
-  value: β
-  tags: []
-- name: beth
-  value: ℶ
-  tags: []
-- name: between
-  value: ≬
-  tags: []
-- name: bfr
-  value: 𝔟
-  tags: []
-- name: bigcap
-  value: ⋂
-  tags: []
-- name: bigcirc
-  value: ◯
-  tags: []
-- name: bigcup
-  value: ⋃
-  tags: []
-- name: bigodot
-  value: ⨀
-  tags: []
-- name: bigoplus
-  value: ⨁
-  tags: []
-- name: bigotimes
-  value: ⨂
-  tags: []
-- name: bigsqcup
-  value: ⨆
-  tags: []
-- name: bigstar
-  value: ★
-  tags: []
-- name: bigtriangledown
-  value: ▽
-  tags: []
-- name: bigtriangleup
-  value: △
-  tags: []
-- name: biguplus
-  value: ⨄
-  tags: []
-- name: bigvee
-  value: ⋁
-  tags: []
-- name: bigwedge
-  value: ⋀
-  tags: []
-- name: bkarow
-  value: ⤍
-  tags: []
-- name: blacklozenge
-  value: ⧫
-  tags: []
-- name: blacksquare
-  value: ▪
-  tags: []
-- name: blacktriangle
-  value: ▴
-  tags: []
-- name: blacktriangledown
-  value: ▾
-  tags: []
-- name: blacktriangleleft
-  value: ◂
-  tags: []
-- name: blacktriangleright
-  value: ▸
-  tags: []
-- name: blank
-  value: ␣
-  tags: []
-- name: blk12
-  value: ▒
-  tags: []
-- name: blk14
-  value: ░
-  tags: []
-- name: blk34
-  value: ▓
-  tags: []
-- name: block
-  value: █
-  tags: []
-- name: bne
-  value: =⃥
-  tags: []
-- name: bnequiv
-  value: ≡⃥
-  tags: []
-- name: bnot
-  value: ⌐
-  tags: []
-- name: bopf
-  value: 𝕓
-  tags: []
-- name: bot
-  value: ⊥
-  tags: []
-- name: bottom
-  value: ⊥
-  tags: []
-- name: bowtie
-  value: ⋈
-  tags: []
-- name: boxDL
-  value: ╗
-  tags: []
-- name: boxDR
-  value: ╔
-  tags: []
-- name: boxDl
-  value: ╖
-  tags: []
-- name: boxDr
-  value: ╓
-  tags: []
-- name: boxH
-  value: ═
-  tags: []
-- name: boxHD
-  value: ╦
-  tags: []
-- name: boxHU
-  value: ╩
-  tags: []
-- name: boxHd
-  value: ╤
-  tags: []
-- name: boxHu
-  value: ╧
-  tags: []
-- name: boxUL
-  value: ╝
-  tags: []
-- name: boxUR
-  value: ╚
-  tags: []
-- name: boxUl
-  value: ╜
-  tags: []
-- name: boxUr
-  value: ╙
-  tags: []
-- name: boxV
-  value: ║
-  tags: []
-- name: boxVH
-  value: ╬
-  tags: []
-- name: boxVL
-  value: ╣
-  tags: []
-- name: boxVR
-  value: ╠
-  tags: []
-- name: boxVh
-  value: ╫
-  tags: []
-- name: boxVl
-  value: ╢
-  tags: []
-- name: boxVr
-  value: ╟
-  tags: []
-- name: boxbox
-  value: ⧉
-  tags: []
-- name: boxdL
-  value: ╕
-  tags: []
-- name: boxdR
-  value: ╒
-  tags: []
-- name: boxdl
-  value: ┐
-  tags: []
-- name: boxdr
-  value: ┌
-  tags: []
-- name: boxh
-  value: ─
-  tags: []
-- name: boxhD
-  value: ╥
-  tags: []
-- name: boxhU
-  value: ╨
-  tags: []
-- name: boxhd
-  value: ┬
-  tags: []
-- name: boxhu
-  value: ┴
-  tags: []
-- name: boxminus
-  value: ⊟
-  tags: []
-- name: boxplus
-  value: ⊞
-  tags: []
-- name: boxtimes
-  value: ⊠
-  tags: []
-- name: boxuL
-  value: ╛
-  tags: []
-- name: boxuR
-  value: ╘
-  tags: []
-- name: boxul
-  value: ┘
-  tags: []
-- name: boxur
-  value: └
-  tags: []
-- name: boxv
-  value: │
-  tags: []
-- name: boxvH
-  value: ╪
-  tags: []
-- name: boxvL
-  value: ╡
-  tags: []
-- name: boxvR
-  value: ╞
-  tags: []
-- name: boxvh
-  value: ┼
-  tags: []
-- name: boxvl
-  value: ┤
-  tags: []
-- name: boxvr
-  value: ├
-  tags: []
-- name: bprime
-  value: ‵
-  tags: []
-- name: breve
-  value: ˘
-  tags: []
-- name: brvbar
-  value: ¦
-  tags: []
-- name: bscr
-  value: 𝒷
-  tags: []
-- name: bsemi
-  value: ⁏
-  tags: []
-- name: bsim
-  value: ∽
-  tags: []
-- name: bsime
-  value: ⋍
-  tags: []
-- name: bsol
-  value: \
-  tags: []
-- name: bsolb
-  value: ⧅
-  tags: []
-- name: bsolhsub
-  value: ⟈
-  tags: []
-- name: bull
-  value: •
-  tags: []
-- name: bullet
-  value: •
-  tags: []
-- name: bump
-  value: ≎
-  tags: []
-- name: bumpE
-  value: ⪮
-  tags: []
-- name: bumpe
-  value: ≏
-  tags: []
-- name: bumpeq
-  value: ≏
-  tags: []
-- name: cacute
-  value: ć
-  tags: []
-- name: cap
-  value: ∩
-  tags: []
-- name: capand
-  value: ⩄
-  tags: []
-- name: capbrcup
-  value: ⩉
-  tags: []
-- name: capcap
-  value: ⩋
-  tags: []
-- name: capcup
-  value: ⩇
-  tags: []
-- name: capdot
-  value: ⩀
-  tags: []
-- name: caps
-  value: ∩︀
-  tags: []
-- name: caret
-  value: ⁁
-  tags: []
-- name: caron
-  value: ˇ
-  tags: []
-- name: ccaps
-  value: ⩍
-  tags: []
-- name: ccaron
-  value: č
-  tags: []
-- name: ccedil
-  value: ç
-  tags: []
-- name: ccirc
-  value: ĉ
-  tags: []
-- name: ccups
-  value: ⩌
-  tags: []
-- name: ccupssm
-  value: ⩐
-  tags: []
-- name: cdot
-  value: ċ
-  tags: []
-- name: cedil
-  value: ¸
-  tags: []
-- name: cemptyv
-  value: ⦲
-  tags: []
-- name: cent
-  value: ¢
-  tags: []
-- name: centerdot
-  value: ·
-  tags: []
-- name: cfr
-  value: 𝔠
-  tags: []
-- name: chcy
-  value: ч
-  tags: []
-- name: check
-  value: ✓
-  tags: []
-- name: checkmark
-  value: ✓
-  tags: []
-- name: chi
-  value: χ
-  tags: []
-- name: cir
-  value: ○
-  tags: []
-- name: cirE
-  value: ⧃
-  tags: []
-- name: circ
-  value: ˆ
-  tags: []
-- name: circeq
-  value: ≗
-  tags: []
-- name: circlearrowleft
-  value: ↺
-  tags: []
-- name: circlearrowright
-  value: ↻
-  tags: []
-- name: circledR
-  value: ®
-  tags: []
-- name: circledS
-  value: Ⓢ
-  tags: []
-- name: circledast
-  value: ⊛
-  tags: []
-- name: circledcirc
-  value: ⊚
-  tags: []
-- name: circleddash
-  value: ⊝
-  tags: []
-- name: cire
-  value: ≗
-  tags: []
-- name: cirfnint
-  value: ⨐
-  tags: []
-- name: cirmid
-  value: ⫯
-  tags: []
-- name: cirscir
-  value: ⧂
-  tags: []
-- name: clubs
-  value: ♣
-  tags: []
-- name: clubsuit
-  value: ♣
-  tags: []
-- name: colon
-  value: ":"
-  tags: []
-- name: colone
-  value: ≔
-  tags: []
-- name: coloneq
-  value: ≔
-  tags: []
-- name: comma
-  value: ","
-  tags: []
-- name: commat
-  value: "@"
-  tags: []
-- name: comp
-  value: ∁
-  tags: []
-- name: compfn
-  value: ∘
-  tags: []
-- name: complement
-  value: ∁
-  tags: []
-- name: complexes
-  value: ℂ
-  tags: []
-- name: cong
-  value: ≅
-  tags: []
-- name: congdot
-  value: ⩭
-  tags: []
-- name: conint
-  value: ∮
-  tags: []
-- name: copf
-  value: 𝕔
-  tags: []
-- name: coprod
-  value: ∐
-  tags: []
-- name: copy
-  value: ©
-  tags: []
-- name: copysr
-  value: ℗
-  tags: []
-- name: crarr
-  value: ↵
-  tags: []
-- name: cross
-  value: ✗
-  tags: []
-- name: cscr
-  value: 𝒸
-  tags: []
-- name: csub
-  value: ⫏
-  tags: []
-- name: csube
-  value: ⫑
-  tags: []
-- name: csup
-  value: ⫐
-  tags: []
-- name: csupe
-  value: ⫒
-  tags: []
-- name: ctdot
-  value: ⋯
-  tags: []
-- name: cudarrl
-  value: ⤸
-  tags: []
-- name: cudarrr
-  value: ⤵
-  tags: []
-- name: cuepr
-  value: ⋞
-  tags: []
-- name: cuesc
-  value: ⋟
-  tags: []
-- name: cularr
-  value: ↶
-  tags: []
-- name: cularrp
-  value: ⤽
-  tags: []
-- name: cup
-  value: ∪
-  tags: []
-- name: cupbrcap
-  value: ⩈
-  tags: []
-- name: cupcap
-  value: ⩆
-  tags: []
-- name: cupcup
-  value: ⩊
-  tags: []
-- name: cupdot
-  value: ⊍
-  tags: []
-- name: cupor
-  value: ⩅
-  tags: []
-- name: cups
-  value: ∪︀
-  tags: []
-- name: curarr
-  value: ↷
-  tags: []
-- name: curarrm
-  value: ⤼
-  tags: []
-- name: curlyeqprec
-  value: ⋞
-  tags: []
-- name: curlyeqsucc
-  value: ⋟
-  tags: []
-- name: curlyvee
-  value: ⋎
-  tags: []
-- name: curlywedge
-  value: ⋏
-  tags: []
-- name: curren
-  value: ¤
-  tags: []
-- name: curvearrowleft
-  value: ↶
-  tags: []
-- name: curvearrowright
-  value: ↷
-  tags: []
-- name: cuvee
-  value: ⋎
-  tags: []
-- name: cuwed
-  value: ⋏
-  tags: []
-- name: cwconint
-  value: ∲
-  tags: []
-- name: cwint
-  value: ∱
-  tags: []
-- name: cylcty
-  value: ⌭
-  tags: []
-- name: dArr
-  value: ⇓
-  tags: []
-- name: dHar
-  value: ⥥
-  tags: []
-- name: dagger
-  value: †
-  tags: []
-- name: daleth
-  value: ℸ
-  tags: []
-- name: darr
-  value: ↓
-  tags: []
-- name: dash
-  value: ‐
-  tags: []
-- name: dashv
-  value: ⊣
-  tags: []
-- name: dbkarow
-  value: ⤏
-  tags: []
-- name: dblac
-  value: ˝
-  tags: []
-- name: dcaron
-  value: ď
-  tags: []
-- name: dcy
-  value: д
-  tags: []
-- name: dd
-  value: ⅆ
-  tags: []
-- name: ddagger
-  value: ‡
-  tags: []
-- name: ddarr
-  value: ⇊
-  tags: []
-- name: ddotseq
-  value: ⩷
-  tags: []
-- name: deg
-  value: °
-  tags: []
-- name: delta
-  value: δ
-  tags: []
-- name: demptyv
-  value: ⦱
-  tags: []
-- name: dfisht
-  value: ⥿
-  tags: []
-- name: dfr
-  value: 𝔡
-  tags: []
-- name: dharl
-  value: ⇃
-  tags: []
-- name: dharr
-  value: ⇂
-  tags: []
-- name: diam
-  value: ⋄
-  tags: []
-- name: diamond
-  value: ⋄
-  tags: []
-- name: diamondsuit
-  value: ♦
-  tags: []
-- name: diams
-  value: ♦
-  tags: []
-- name: die
-  value: ¨
-  tags: []
-- name: digamma
-  value: ϝ
-  tags: []
-- name: disin
-  value: ⋲
-  tags: []
-- name: div
-  value: ÷
-  tags: []
-- name: divide
-  value: ÷
-  tags: []
-- name: divideontimes
-  value: ⋇
-  tags: []
-- name: divonx
-  value: ⋇
-  tags: []
-- name: djcy
-  value: ђ
-  tags: []
-- name: dlcorn
-  value: ⌞
-  tags: []
-- name: dlcrop
-  value: ⌍
-  tags: []
-- name: dollar
-  value: $
-  tags: []
-- name: dopf
-  value: 𝕕
-  tags: []
-- name: dot
-  value: ˙
-  tags: []
-- name: doteq
-  value: ≐
-  tags: []
-- name: doteqdot
-  value: ≑
-  tags: []
-- name: dotminus
-  value: ∸
-  tags: []
-- name: dotplus
-  value: ∔
-  tags: []
-- name: dotsquare
-  value: ⊡
-  tags: []
-- name: doublebarwedge
-  value: ⌆
-  tags: []
-- name: downarrow
-  value: ↓
-  tags: []
-- name: downdownarrows
-  value: ⇊
-  tags: []
-- name: downharpoonleft
-  value: ⇃
-  tags: []
-- name: downharpoonright
-  value: ⇂
-  tags: []
-- name: drbkarow
-  value: ⤐
-  tags: []
-- name: drcorn
-  value: ⌟
-  tags: []
-- name: drcrop
-  value: ⌌
-  tags: []
-- name: dscr
-  value: 𝒹
-  tags: []
-- name: dscy
-  value: ѕ
-  tags: []
-- name: dsol
-  value: ⧶
-  tags: []
-- name: dstrok
-  value: đ
-  tags: []
-- name: dtdot
-  value: ⋱
-  tags: []
-- name: dtri
-  value: ▿
-  tags: []
-- name: dtrif
-  value: ▾
-  tags: []
-- name: duarr
-  value: ⇵
-  tags: []
-- name: duhar
-  value: ⥯
-  tags: []
-- name: dwangle
-  value: ⦦
-  tags: []
-- name: dzcy
-  value: џ
-  tags: []
-- name: dzigrarr
-  value: ⟿
-  tags: []
-- name: eDDot
-  value: ⩷
-  tags: []
-- name: eDot
-  value: ≑
-  tags: []
-- name: eacute
-  value: é
-  tags: []
-- name: easter
-  value: ⩮
-  tags: []
-- name: ecaron
-  value: ě
-  tags: []
-- name: ecir
-  value: ≖
-  tags: []
-- name: ecirc
-  value: ê
-  tags: []
-- name: ecolon
-  value: ≕
-  tags: []
-- name: ecy
-  value: э
-  tags: []
-- name: edot
-  value: ė
-  tags: []
-- name: ee
-  value: ⅇ
-  tags: []
-- name: efDot
-  value: ≒
-  tags: []
-- name: efr
-  value: 𝔢
-  tags: []
-- name: eg
-  value: ⪚
-  tags: []
-- name: egrave
-  value: è
-  tags: []
-- name: egs
-  value: ⪖
-  tags: []
-- name: egsdot
-  value: ⪘
-  tags: []
-- name: el
-  value: ⪙
-  tags: []
-- name: elinters
-  value: ⏧
-  tags: []
-- name: ell
-  value: ℓ
-  tags: []
-- name: els
-  value: ⪕
-  tags: []
-- name: elsdot
-  value: ⪗
-  tags: []
-- name: emacr
-  value: ē
-  tags: []
-- name: empty
-  value: ∅
-  tags: []
-- name: emptyset
-  value: ∅
-  tags: []
-- name: emptyv
-  value: ∅
-  tags: []
-- name: emsp13
-  value:  
-  tags: []
-- name: emsp14
-  value:  
-  tags: []
-- name: emsp
-  value:  
-  tags: []
-- name: eng
-  value: ŋ
-  tags: []
-- name: ensp
-  value:  
-  tags: []
-- name: eogon
-  value: ę
-  tags: []
-- name: eopf
-  value: 𝕖
-  tags: []
-- name: epar
-  value: ⋕
-  tags: []
-- name: eparsl
-  value: ⧣
-  tags: []
-- name: eplus
-  value: ⩱
-  tags: []
-- name: epsi
-  value: ε
-  tags: []
-- name: epsilon
-  value: ε
-  tags: []
-- name: epsiv
-  value: ϵ
-  tags: []
-- name: eqcirc
-  value: ≖
-  tags: []
-- name: eqcolon
-  value: ≕
-  tags: []
-- name: eqsim
-  value: ≂
-  tags: []
-- name: eqslantgtr
-  value: ⪖
-  tags: []
-- name: eqslantless
-  value: ⪕
-  tags: []
-- name: equals
-  value: =
-  tags: []
-- name: equest
-  value: ≟
-  tags: []
-- name: equiv
-  value: ≡
-  tags: []
-- name: equivDD
-  value: ⩸
-  tags: []
-- name: eqvparsl
-  value: ⧥
-  tags: []
-- name: erDot
-  value: ≓
-  tags: []
-- name: erarr
-  value: ⥱
-  tags: []
-- name: escr
-  value: ℯ
-  tags: []
-- name: esdot
-  value: ≐
-  tags: []
-- name: esim
-  value: ≂
-  tags: []
-- name: eta
-  value: η
-  tags: []
-- name: eth
-  value: ð
-  tags: []
-- name: euml
-  value: ë
-  tags: []
-- name: euro
-  value: €
-  tags: []
-- name: excl
-  value: "!"
-  tags: []
-- name: exist
-  value: ∃
-  tags: []
-- name: expectation
-  value: ℰ
-  tags: []
-- name: exponentiale
-  value: ⅇ
-  tags: []
-- name: fallingdotseq
-  value: ≒
-  tags: []
-- name: fcy
-  value: ф
-  tags: []
-- name: female
-  value: ♀
-  tags: []
-- name: ffilig
-  value: ﬃ
-  tags: []
-- name: fflig
-  value: ﬀ
-  tags: []
-- name: ffllig
-  value: ﬄ
-  tags: []
-- name: ffr
-  value: 𝔣
-  tags: []
-- name: filig
-  value: ﬁ
-  tags: []
-- name: fjlig
-  value: fj
-  tags: []
-- name: flat
-  value: ♭
-  tags: []
-- name: fllig
-  value: ﬂ
-  tags: []
-- name: fltns
-  value: ▱
-  tags: []
-- name: fnof
-  value: ƒ
-  tags: []
-- name: fopf
-  value: 𝕗
-  tags: []
-- name: forall
-  value: ∀
-  tags: []
-- name: fork
-  value: ⋔
-  tags: []
-- name: forkv
-  value: ⫙
-  tags: []
-- name: fpartint
-  value: ⨍
-  tags: []
-- name: frac12
-  value: ½
-  tags: []
-- name: frac13
-  value: ⅓
-  tags: []
-- name: frac14
-  value: ¼
-  tags: []
-- name: frac15
-  value: ⅕
-  tags: []
-- name: frac16
-  value: ⅙
-  tags: []
-- name: frac18
-  value: ⅛
-  tags: []
-- name: frac23
-  value: ⅔
-  tags: []
-- name: frac25
-  value: ⅖
-  tags: []
-- name: frac34
-  value: ¾
-  tags: []
-- name: frac35
-  value: ⅗
-  tags: []
-- name: frac38
-  value: ⅜
-  tags: []
-- name: frac45
-  value: ⅘
-  tags: []
-- name: frac56
-  value: ⅚
-  tags: []
-- name: frac58
-  value: ⅝
-  tags: []
-- name: frac78
-  value: ⅞
-  tags: []
-- name: frasl
-  value: ⁄
-  tags: []
-- name: frown
-  value: ⌢
-  tags: []
-- name: fscr
-  value: 𝒻
-  tags: []
-- name: gE
-  value: ≧
-  tags: []
-- name: gEl
-  value: ⪌
-  tags: []
-- name: gacute
-  value: ǵ
-  tags: []
-- name: gamma
-  value: γ
-  tags: []
-- name: gammad
-  value: ϝ
-  tags: []
-- name: gap
-  value: ⪆
-  tags: []
-- name: gbreve
-  value: ğ
-  tags: []
-- name: gcirc
-  value: ĝ
-  tags: []
-- name: gcy
-  value: г
-  tags: []
-- name: gdot
-  value: ġ
-  tags: []
-- name: ge
-  value: ≥
-  tags: []
-- name: gel
-  value: ⋛
-  tags: []
-- name: geq
-  value: ≥
-  tags: []
-- name: geqq
-  value: ≧
-  tags: []
-- name: geqslant
-  value: ⩾
-  tags: []
-- name: ges
-  value: ⩾
-  tags: []
-- name: gescc
-  value: ⪩
-  tags: []
-- name: gesdot
-  value: ⪀
-  tags: []
-- name: gesdoto
-  value: ⪂
-  tags: []
-- name: gesdotol
-  value: ⪄
-  tags: []
-- name: gesl
-  value: ⋛︀
-  tags: []
-- name: gesles
-  value: ⪔
-  tags: []
-- name: gfr
-  value: 𝔤
-  tags: []
-- name: gg
-  value: ≫
-  tags: []
-- name: ggg
-  value: ⋙
-  tags: []
-- name: gimel
-  value: ℷ
-  tags: []
-- name: gjcy
-  value: ѓ
-  tags: []
-- name: gl
-  value: ≷
-  tags: []
-- name: glE
-  value: ⪒
-  tags: []
-- name: gla
-  value: ⪥
-  tags: []
-- name: glj
-  value: ⪤
-  tags: []
-- name: gnE
-  value: ≩
-  tags: []
-- name: gnap
-  value: ⪊
-  tags: []
-- name: gnapprox
-  value: ⪊
-  tags: []
-- name: gne
-  value: ⪈
-  tags: []
-- name: gneq
-  value: ⪈
-  tags: []
-- name: gneqq
-  value: ≩
-  tags: []
-- name: gnsim
-  value: ⋧
-  tags: []
-- name: gopf
-  value: 𝕘
-  tags: []
-- name: grave
-  value: "`"
-  tags: []
-- name: gscr
-  value: ℊ
-  tags: []
-- name: gsim
-  value: ≳
-  tags: []
-- name: gsime
-  value: ⪎
-  tags: []
-- name: gsiml
-  value: ⪐
-  tags: []
-- name: gt
-  value: ">"
-  tags: []
-- name: gtcc
-  value: ⪧
-  tags: []
-- name: gtcir
-  value: ⩺
-  tags: []
-- name: gtdot
-  value: ⋗
-  tags: []
-- name: gtlPar
-  value: ⦕
-  tags: []
-- name: gtquest
-  value: ⩼
-  tags: []
-- name: gtrapprox
-  value: ⪆
-  tags: []
-- name: gtrarr
-  value: ⥸
-  tags: []
-- name: gtrdot
-  value: ⋗
-  tags: []
-- name: gtreqless
-  value: ⋛
-  tags: []
-- name: gtreqqless
-  value: ⪌
-  tags: []
-- name: gtrless
-  value: ≷
-  tags: []
-- name: gtrsim
-  value: ≳
-  tags: []
-- name: gvertneqq
-  value: ≩︀
-  tags: []
-- name: gvnE
-  value: ≩︀
-  tags: []
-- name: hArr
-  value: ⇔
-  tags: []
-- name: hairsp
-  value:  
-  tags: []
-- name: half
-  value: ½
-  tags: []
-- name: hamilt
-  value: ℋ
-  tags: []
-- name: hardcy
-  value: ъ
-  tags: []
-- name: harr
-  value: ↔
-  tags: []
-- name: harrcir
-  value: ⥈
-  tags: []
-- name: harrw
-  value: ↭
-  tags: []
-- name: hbar
-  value: ℏ
-  tags: []
-- name: hcirc
-  value: ĥ
-  tags: []
-- name: hearts
-  value: ♥
-  tags: []
-- name: heartsuit
-  value: ♥
-  tags: []
-- name: hellip
-  value: …
-  tags: []
-- name: hercon
-  value: ⊹
-  tags: []
-- name: hfr
-  value: 𝔥
-  tags: []
-- name: hksearow
-  value: ⤥
-  tags: []
-- name: hkswarow
-  value: ⤦
-  tags: []
-- name: hoarr
-  value: ⇿
-  tags: []
-- name: homtht
-  value: ∻
-  tags: []
-- name: hookleftarrow
-  value: ↩
-  tags: []
-- name: hookrightarrow
-  value: ↪
-  tags: []
-- name: hopf
-  value: 𝕙
-  tags: []
-- name: horbar
-  value: ―
-  tags: []
-- name: hscr
-  value: 𝒽
-  tags: []
-- name: hslash
-  value: ℏ
-  tags: []
-- name: hstrok
-  value: ħ
-  tags: []
-- name: hybull
-  value: ⁃
-  tags: []
-- name: hyphen
-  value: ‐
-  tags: []
-- name: iacute
-  value: í
-  tags: []
-- name: ic
-  value: ⁣
-  tags: []
-- name: icirc
-  value: î
-  tags: []
-- name: icy
-  value: и
-  tags: []
-- name: iecy
-  value: е
-  tags: []
-- name: iexcl
-  value: ¡
-  tags: []
-- name: iff
-  value: ⇔
-  tags: []
-- name: ifr
-  value: 𝔦
-  tags: []
-- name: igrave
-  value: ì
-  tags: []
-- name: ii
-  value: ⅈ
-  tags: []
-- name: iiiint
-  value: ⨌
-  tags: []
-- name: iiint
-  value: ∭
-  tags: []
-- name: iinfin
-  value: ⧜
-  tags: []
-- name: iiota
-  value: ℩
-  tags: []
-- name: ijlig
-  value: ĳ
-  tags: []
-- name: imacr
-  value: ī
-  tags: []
-- name: image
-  value: ℑ
-  tags: []
-- name: imagline
-  value: ℐ
-  tags: []
-- name: imagpart
-  value: ℑ
-  tags: []
-- name: imath
-  value: ı
-  tags: []
-- name: imof
-  value: ⊷
-  tags: []
-- name: imped
-  value: Ƶ
-  tags: []
-- name: in
-  value: ∈
-  tags: []
-- name: incare
-  value: ℅
-  tags: []
-- name: infin
-  value: ∞
-  tags: []
-- name: infintie
-  value: ⧝
-  tags: []
-- name: inodot
-  value: ı
-  tags: []
-- name: int
-  value: ∫
-  tags: []
-- name: intcal
-  value: ⊺
-  tags: []
-- name: integers
-  value: ℤ
-  tags: []
-- name: intercal
-  value: ⊺
-  tags: []
-- name: intlarhk
-  value: ⨗
-  tags: []
-- name: intprod
-  value: ⨼
-  tags: []
-- name: iocy
-  value: ё
-  tags: []
-- name: iogon
-  value: į
-  tags: []
-- name: iopf
-  value: 𝕚
-  tags: []
-- name: iota
-  value: ι
-  tags: []
-- name: iprod
-  value: ⨼
-  tags: []
-- name: iquest
-  value: ¿
-  tags: []
-- name: iscr
-  value: 𝒾
-  tags: []
-- name: isin
-  value: ∈
-  tags: []
-- name: isinE
-  value: ⋹
-  tags: []
-- name: isindot
-  value: ⋵
-  tags: []
-- name: isins
-  value: ⋴
-  tags: []
-- name: isinsv
-  value: ⋳
-  tags: []
-- name: isinv
-  value: ∈
-  tags: []
-- name: it
-  value: ⁢
-  tags: []
-- name: itilde
-  value: ĩ
-  tags: []
-- name: iukcy
-  value: і
-  tags: []
-- name: iuml
-  value: ï
-  tags: []
-- name: jcirc
-  value: ĵ
-  tags: []
-- name: jcy
-  value: й
-  tags: []
-- name: jfr
-  value: 𝔧
-  tags: []
-- name: jmath
-  value: ȷ
-  tags: []
-- name: jopf
-  value: 𝕛
-  tags: []
-- name: jscr
-  value: 𝒿
-  tags: []
-- name: jsercy
-  value: ј
-  tags: []
-- name: jukcy
-  value: є
-  tags: []
-- name: kappa
-  value: κ
-  tags: []
-- name: kappav
-  value: ϰ
-  tags: []
-- name: kcedil
-  value: ķ
-  tags: []
-- name: kcy
-  value: к
-  tags: []
-- name: kfr
-  value: 𝔨
-  tags: []
-- name: kgreen
-  value: ĸ
-  tags: []
-- name: khcy
-  value: х
-  tags: []
-- name: kjcy
-  value: ќ
-  tags: []
-- name: kopf
-  value: 𝕜
-  tags: []
-- name: kscr
-  value: 𝓀
-  tags: []
-- name: lAarr
-  value: ⇚
-  tags: []
-- name: lArr
-  value: ⇐
-  tags: []
-- name: lAtail
-  value: ⤛
-  tags: []
-- name: lBarr
-  value: ⤎
-  tags: []
-- name: lE
-  value: ≦
-  tags: []
-- name: lEg
-  value: ⪋
-  tags: []
-- name: lHar
-  value: ⥢
-  tags: []
-- name: lacute
-  value: ĺ
-  tags: []
-- name: laemptyv
-  value: ⦴
-  tags: []
-- name: lagran
-  value: ℒ
-  tags: []
-- name: lambda
-  value: λ
-  tags: []
-- name: lang
-  value: ⟨
-  tags: []
-- name: langd
-  value: ⦑
-  tags: []
-- name: langle
-  value: ⟨
-  tags: []
-- name: lap
-  value: ⪅
-  tags: []
-- name: laquo
-  value: «
-  tags: []
-- name: larr
-  value: ←
-  tags: []
-- name: larrb
-  value: ⇤
-  tags: []
-- name: larrbfs
-  value: ⤟
-  tags: []
-- name: larrfs
-  value: ⤝
-  tags: []
-- name: larrhk
-  value: ↩
-  tags: []
-- name: larrlp
-  value: ↫
-  tags: []
-- name: larrpl
-  value: ⤹
-  tags: []
-- name: larrsim
-  value: ⥳
-  tags: []
-- name: larrtl
-  value: ↢
-  tags: []
-- name: lat
-  value: ⪫
-  tags: []
-- name: latail
-  value: ⤙
-  tags: []
-- name: late
-  value: ⪭
-  tags: []
-- name: lates
-  value: ⪭︀
-  tags: []
-- name: lbarr
-  value: ⤌
-  tags: []
-- name: lbbrk
-  value: ❲
-  tags: []
-- name: lbrace
-  value: "{"
-  tags: []
-- name: lbrack
-  value: "["
-  tags: []
-- name: lbrke
-  value: ⦋
-  tags: []
-- name: lbrksld
-  value: ⦏
-  tags: []
-- name: lbrkslu
-  value: ⦍
-  tags: []
-- name: lcaron
-  value: ľ
-  tags: []
-- name: lcedil
-  value: ļ
-  tags: []
-- name: lceil
-  value: ⌈
-  tags: []
-- name: lcub
-  value: "{"
-  tags: []
-- name: lcy
-  value: л
-  tags: []
-- name: ldca
-  value: ⤶
-  tags: []
-- name: ldquo
-  value: “
-  tags: []
-- name: ldquor
-  value: „
-  tags: []
-- name: ldrdhar
-  value: ⥧
-  tags: []
-- name: ldrushar
-  value: ⥋
-  tags: []
-- name: ldsh
-  value: ↲
-  tags: []
-- name: le
-  value: ≤
-  tags: []
-- name: leftarrow
-  value: ←
-  tags: []
-- name: leftarrowtail
-  value: ↢
-  tags: []
-- name: leftharpoondown
-  value: ↽
-  tags: []
-- name: leftharpoonup
-  value: ↼
-  tags: []
-- name: leftleftarrows
-  value: ⇇
-  tags: []
-- name: leftrightarrow
-  value: ↔
-  tags: []
-- name: leftrightarrows
-  value: ⇆
-  tags: []
-- name: leftrightharpoons
-  value: ⇋
-  tags: []
-- name: leftrightsquigarrow
-  value: ↭
-  tags: []
-- name: leftthreetimes
-  value: ⋋
-  tags: []
-- name: leg
-  value: ⋚
-  tags: []
-- name: leq
-  value: ≤
-  tags: []
-- name: leqq
-  value: ≦
-  tags: []
-- name: leqslant
-  value: ⩽
-  tags: []
-- name: les
-  value: ⩽
-  tags: []
-- name: lescc
-  value: ⪨
-  tags: []
-- name: lesdot
-  value: ⩿
-  tags: []
-- name: lesdoto
-  value: ⪁
-  tags: []
-- name: lesdotor
-  value: ⪃
-  tags: []
-- name: lesg
-  value: ⋚︀
-  tags: []
-- name: lesges
-  value: ⪓
-  tags: []
-- name: lessapprox
-  value: ⪅
-  tags: []
-- name: lessdot
-  value: ⋖
-  tags: []
-- name: lesseqgtr
-  value: ⋚
-  tags: []
-- name: lesseqqgtr
-  value: ⪋
-  tags: []
-- name: lessgtr
-  value: ≶
-  tags: []
-- name: lesssim
-  value: ≲
-  tags: []
-- name: lfisht
-  value: ⥼
-  tags: []
-- name: lfloor
-  value: ⌊
-  tags: []
-- name: lfr
-  value: 𝔩
-  tags: []
-- name: lg
-  value: ≶
-  tags: []
-- name: lgE
-  value: ⪑
-  tags: []
-- name: lhard
-  value: ↽
-  tags: []
-- name: lharu
-  value: ↼
-  tags: []
-- name: lharul
-  value: ⥪
-  tags: []
-- name: lhblk
-  value: ▄
-  tags: []
-- name: ljcy
-  value: љ
-  tags: []
-- name: ll
-  value: ≪
-  tags: []
-- name: llarr
-  value: ⇇
-  tags: []
-- name: llcorner
-  value: ⌞
-  tags: []
-- name: llhard
-  value: ⥫
-  tags: []
-- name: lltri
-  value: ◺
-  tags: []
-- name: lmidot
-  value: ŀ
-  tags: []
-- name: lmoust
-  value: ⎰
-  tags: []
-- name: lmoustache
-  value: ⎰
-  tags: []
-- name: lnE
-  value: ≨
-  tags: []
-- name: lnap
-  value: ⪉
-  tags: []
-- name: lnapprox
-  value: ⪉
-  tags: []
-- name: lne
-  value: ⪇
-  tags: []
-- name: lneq
-  value: ⪇
-  tags: []
-- name: lneqq
-  value: ≨
-  tags: []
-- name: lnsim
-  value: ⋦
-  tags: []
-- name: loang
-  value: ⟬
-  tags: []
-- name: loarr
-  value: ⇽
-  tags: []
-- name: lobrk
-  value: ⟦
-  tags: []
-- name: longleftarrow
-  value: ⟵
-  tags: []
-- name: longleftrightarrow
-  value: ⟷
-  tags: []
-- name: longmapsto
-  value: ⟼
-  tags: []
-- name: longrightarrow
-  value: ⟶
-  tags: []
-- name: looparrowleft
-  value: ↫
-  tags: []
-- name: looparrowright
-  value: ↬
-  tags: []
-- name: lopar
-  value: ⦅
-  tags: []
-- name: lopf
-  value: 𝕝
-  tags: []
-- name: loplus
-  value: ⨭
-  tags: []
-- name: lotimes
-  value: ⨴
-  tags: []
-- name: lowast
-  value: ∗
-  tags: []
-- name: lowbar
-  value: _
-  tags: []
-- name: loz
-  value: ◊
-  tags: []
-- name: lozenge
-  value: ◊
-  tags: []
-- name: lozf
-  value: ⧫
-  tags: []
-- name: lpar
-  value: (
-  tags: []
-- name: lparlt
-  value: ⦓
-  tags: []
-- name: lrarr
-  value: ⇆
-  tags: []
-- name: lrcorner
-  value: ⌟
-  tags: []
-- name: lrhar
-  value: ⇋
-  tags: []
-- name: lrhard
-  value: ⥭
-  tags: []
-- name: lrm
-  value: ‎
-  tags: []
-- name: lrtri
-  value: ⊿
-  tags: []
-- name: lsaquo
-  value: ‹
-  tags: []
-- name: lscr
-  value: 𝓁
-  tags: []
-- name: lsh
-  value: ↰
-  tags: []
-- name: lsim
-  value: ≲
-  tags: []
-- name: lsime
-  value: ⪍
-  tags: []
-- name: lsimg
-  value: ⪏
-  tags: []
-- name: lsqb
-  value: "["
-  tags: []
-- name: lsquo
-  value: ‘
-  tags: []
-- name: lsquor
-  value: ‚
-  tags: []
-- name: lstrok
-  value: ł
-  tags: []
-- name: lt
-  value: <
-  tags: []
-- name: ltcc
-  value: ⪦
-  tags: []
-- name: ltcir
-  value: ⩹
-  tags: []
-- name: ltdot
-  value: ⋖
-  tags: []
-- name: lthree
-  value: ⋋
-  tags: []
-- name: ltimes
-  value: ⋉
-  tags: []
-- name: ltlarr
-  value: ⥶
-  tags: []
-- name: ltquest
-  value: ⩻
-  tags: []
-- name: ltrPar
-  value: ⦖
-  tags: []
-- name: ltri
-  value: ◃
-  tags: []
-- name: ltrie
-  value: ⊴
-  tags: []
-- name: ltrif
-  value: ◂
-  tags: []
-- name: lurdshar
-  value: ⥊
-  tags: []
-- name: luruhar
-  value: ⥦
-  tags: []
-- name: lvertneqq
-  value: ≨︀
-  tags: []
-- name: lvnE
-  value: ≨︀
-  tags: []
-- name: mDDot
-  value: ∺
-  tags: []
-- name: macr
-  value: ¯
-  tags: []
-- name: male
-  value: ♂
-  tags: []
-- name: malt
-  value: ✠
-  tags: []
-- name: maltese
-  value: ✠
-  tags: []
-- name: map
-  value: ↦
-  tags: []
-- name: mapsto
-  value: ↦
-  tags: []
-- name: mapstodown
-  value: ↧
-  tags: []
-- name: mapstoleft
-  value: ↤
-  tags: []
-- name: mapstoup
-  value: ↥
-  tags: []
-- name: marker
-  value: ▮
-  tags: []
-- name: mcomma
-  value: ⨩
-  tags: []
-- name: mcy
-  value: м
-  tags: []
-- name: mdash
-  value: —
-  tags: []
-- name: measuredangle
-  value: ∡
-  tags: []
-- name: mfr
-  value: 𝔪
-  tags: []
-- name: mho
-  value: ℧
-  tags: []
-- name: micro
-  value: µ
-  tags: []
-- name: mid
-  value: ∣
-  tags: []
-- name: midast
-  value: "*"
-  tags: []
-- name: midcir
-  value: ⫰
-  tags: []
-- name: middot
-  value: ·
-  tags: []
-- name: minus
-  value: −
-  tags: []
-- name: minusb
-  value: ⊟
-  tags: []
-- name: minusd
-  value: ∸
-  tags: []
-- name: minusdu
-  value: ⨪
-  tags: []
-- name: mlcp
-  value: ⫛
-  tags: []
-- name: mldr
-  value: …
-  tags: []
-- name: mnplus
-  value: ∓
-  tags: []
-- name: models
-  value: ⊧
-  tags: []
-- name: mopf
-  value: 𝕞
-  tags: []
-- name: mp
-  value: ∓
-  tags: []
-- name: mscr
-  value: 𝓂
-  tags: []
-- name: mstpos
-  value: ∾
-  tags: []
-- name: mu
-  value: μ
-  tags: []
-- name: multimap
-  value: ⊸
-  tags: []
-- name: mumap
-  value: ⊸
-  tags: []
-- name: nGg
-  value: ⋙̸
-  tags: []
-- name: nGt
-  value: ≫⃒
-  tags: []
-- name: nGtv
-  value: ≫̸
-  tags: []
-- name: nLeftarrow
-  value: ⇍
-  tags: []
-- name: nLeftrightarrow
-  value: ⇎
-  tags: []
-- name: nLl
-  value: ⋘̸
-  tags: []
-- name: nLt
-  value: ≪⃒
-  tags: []
-- name: nLtv
-  value: ≪̸
-  tags: []
-- name: nRightarrow
-  value: ⇏
-  tags: []
-- name: nVDash
-  value: ⊯
-  tags: []
-- name: nVdash
-  value: ⊮
-  tags: []
-- name: nabla
-  value: ∇
-  tags: []
-- name: nacute
-  value: ń
-  tags: []
-- name: nang
-  value: ∠⃒
-  tags: []
-- name: nap
-  value: ≉
-  tags: []
-- name: napE
-  value: ⩰̸
-  tags: []
-- name: napid
-  value: ≋̸
-  tags: []
-- name: napos
-  value: ŉ
-  tags: []
-- name: napprox
-  value: ≉
-  tags: []
-- name: natur
-  value: ♮
-  tags: []
-- name: natural
-  value: ♮
-  tags: []
-- name: naturals
-  value: ℕ
-  tags: []
-- name: nbsp
-  value:  
-  tags: []
-- name: nbump
-  value: ≎̸
-  tags: []
-- name: nbumpe
-  value: ≏̸
-  tags: []
-- name: ncap
-  value: ⩃
-  tags: []
-- name: ncaron
-  value: ň
-  tags: []
-- name: ncedil
-  value: ņ
-  tags: []
-- name: ncong
-  value: ≇
-  tags: []
-- name: ncongdot
-  value: ⩭̸
-  tags: []
-- name: ncup
-  value: ⩂
-  tags: []
-- name: ncy
-  value: н
-  tags: []
-- name: ndash
-  value: –
-  tags: []
-- name: ne
-  value: ≠
-  tags: []
-- name: neArr
-  value: ⇗
-  tags: []
-- name: nearhk
-  value: ⤤
-  tags: []
-- name: nearr
-  value: ↗
-  tags: []
-- name: nearrow
-  value: ↗
-  tags: []
-- name: nedot
-  value: ≐̸
-  tags: []
-- name: nequiv
-  value: ≢
-  tags: []
-- name: nesear
-  value: ⤨
-  tags: []
-- name: nesim
-  value: ≂̸
-  tags: []
-- name: nexist
-  value: ∄
-  tags: []
-- name: nexists
-  value: ∄
-  tags: []
-- name: nfr
-  value: 𝔫
-  tags: []
-- name: ngE
-  value: ≧̸
-  tags: []
-- name: nge
-  value: ≱
-  tags: []
-- name: ngeq
-  value: ≱
-  tags: []
-- name: ngeqq
-  value: ≧̸
-  tags: []
-- name: ngeqslant
-  value: ⩾̸
-  tags: []
-- name: nges
-  value: ⩾̸
-  tags: []
-- name: ngsim
-  value: ≵
-  tags: []
-- name: ngt
-  value: ≯
-  tags: []
-- name: ngtr
-  value: ≯
-  tags: []
-- name: nhArr
-  value: ⇎
-  tags: []
-- name: nharr
-  value: ↮
-  tags: []
-- name: nhpar
-  value: ⫲
-  tags: []
-- name: ni
-  value: ∋
-  tags: []
-- name: nis
-  value: ⋼
-  tags: []
-- name: nisd
-  value: ⋺
-  tags: []
-- name: niv
-  value: ∋
-  tags: []
-- name: njcy
-  value: њ
-  tags: []
-- name: nlArr
-  value: ⇍
-  tags: []
-- name: nlE
-  value: ≦̸
-  tags: []
-- name: nlarr
-  value: ↚
-  tags: []
-- name: nldr
-  value: ‥
-  tags: []
-- name: nle
-  value: ≰
-  tags: []
-- name: nleftarrow
-  value: ↚
-  tags: []
-- name: nleftrightarrow
-  value: ↮
-  tags: []
-- name: nleq
-  value: ≰
-  tags: []
-- name: nleqq
-  value: ≦̸
-  tags: []
-- name: nleqslant
-  value: ⩽̸
-  tags: []
-- name: nles
-  value: ⩽̸
-  tags: []
-- name: nless
-  value: ≮
-  tags: []
-- name: nlsim
-  value: ≴
-  tags: []
-- name: nlt
-  value: ≮
-  tags: []
-- name: nltri
-  value: ⋪
-  tags: []
-- name: nltrie
-  value: ⋬
-  tags: []
-- name: nmid
-  value: ∤
-  tags: []
-- name: nopf
-  value: 𝕟
-  tags: []
-- name: not
-  value: ¬
-  tags: []
-- name: notin
-  value: ∉
-  tags: []
-- name: notinE
-  value: ⋹̸
-  tags: []
-- name: notindot
-  value: ⋵̸
-  tags: []
-- name: notinva
-  value: ∉
-  tags: []
-- name: notinvb
-  value: ⋷
-  tags: []
-- name: notinvc
-  value: ⋶
-  tags: []
-- name: notni
-  value: ∌
-  tags: []
-- name: notniva
-  value: ∌
-  tags: []
-- name: notnivb
-  value: ⋾
-  tags: []
-- name: notnivc
-  value: ⋽
-  tags: []
-- name: npar
-  value: ∦
-  tags: []
-- name: nparallel
-  value: ∦
-  tags: []
-- name: nparsl
-  value: ⫽⃥
-  tags: []
-- name: npart
-  value: ∂̸
-  tags: []
-- name: npolint
-  value: ⨔
-  tags: []
-- name: npr
-  value: ⊀
-  tags: []
-- name: nprcue
-  value: ⋠
-  tags: []
-- name: npre
-  value: ⪯̸
-  tags: []
-- name: nprec
-  value: ⊀
-  tags: []
-- name: npreceq
-  value: ⪯̸
-  tags: []
-- name: nrArr
-  value: ⇏
-  tags: []
-- name: nrarr
-  value: ↛
-  tags: []
-- name: nrarrc
-  value: ⤳̸
-  tags: []
-- name: nrarrw
-  value: ↝̸
-  tags: []
-- name: nrightarrow
-  value: ↛
-  tags: []
-- name: nrtri
-  value: ⋫
-  tags: []
-- name: nrtrie
-  value: ⋭
-  tags: []
-- name: nsc
-  value: ⊁
-  tags: []
-- name: nsccue
-  value: ⋡
-  tags: []
-- name: nsce
-  value: ⪰̸
-  tags: []
-- name: nscr
-  value: 𝓃
-  tags: []
-- name: nshortmid
-  value: ∤
-  tags: []
-- name: nshortparallel
-  value: ∦
-  tags: []
-- name: nsim
-  value: ≁
-  tags: []
-- name: nsime
-  value: ≄
-  tags: []
-- name: nsimeq
-  value: ≄
-  tags: []
-- name: nsmid
-  value: ∤
-  tags: []
-- name: nspar
-  value: ∦
-  tags: []
-- name: nsqsube
-  value: ⋢
-  tags: []
-- name: nsqsupe
-  value: ⋣
-  tags: []
-- name: nsub
-  value: ⊄
-  tags: []
-- name: nsubE
-  value: ⫅̸
-  tags: []
-- name: nsube
-  value: ⊈
-  tags: []
-- name: nsubset
-  value: ⊂⃒
-  tags: []
-- name: nsubseteq
-  value: ⊈
-  tags: []
-- name: nsubseteqq
-  value: ⫅̸
-  tags: []
-- name: nsucc
-  value: ⊁
-  tags: []
-- name: nsucceq
-  value: ⪰̸
-  tags: []
-- name: nsup
-  value: ⊅
-  tags: []
-- name: nsupE
-  value: ⫆̸
-  tags: []
-- name: nsupe
-  value: ⊉
-  tags: []
-- name: nsupset
-  value: ⊃⃒
-  tags: []
-- name: nsupseteq
-  value: ⊉
-  tags: []
-- name: nsupseteqq
-  value: ⫆̸
-  tags: []
-- name: ntgl
-  value: ≹
-  tags: []
-- name: ntilde
-  value: ñ
-  tags: []
-- name: ntlg
-  value: ≸
-  tags: []
-- name: ntriangleleft
-  value: ⋪
-  tags: []
-- name: ntrianglelefteq
-  value: ⋬
-  tags: []
-- name: ntriangleright
-  value: ⋫
-  tags: []
-- name: ntrianglerighteq
-  value: ⋭
-  tags: []
-- name: nu
-  value: ν
-  tags: []
-- name: num
-  value: "#"
-  tags: []
-- name: numero
-  value: №
-  tags: []
-- name: numsp
-  value:  
-  tags: []
-- name: nvDash
-  value: ⊭
-  tags: []
-- name: nvHarr
-  value: ⤄
-  tags: []
-- name: nvap
-  value: ≍⃒
-  tags: []
-- name: nvdash
-  value: ⊬
-  tags: []
-- name: nvge
-  value: ≥⃒
-  tags: []
-- name: nvgt
-  value: ">⃒"
-  tags: []
-- name: nvinfin
-  value: ⧞
-  tags: []
-- name: nvlArr
-  value: ⤂
-  tags: []
-- name: nvle
-  value: ≤⃒
-  tags: []
-- name: nvlt
-  value: <⃒
-  tags: []
-- name: nvltrie
-  value: ⊴⃒
-  tags: []
-- name: nvrArr
-  value: ⤃
-  tags: []
-- name: nvrtrie
-  value: ⊵⃒
-  tags: []
-- name: nvsim
-  value: ∼⃒
-  tags: []
-- name: nwArr
-  value: ⇖
-  tags: []
-- name: nwarhk
-  value: ⤣
-  tags: []
-- name: nwarr
-  value: ↖
-  tags: []
-- name: nwarrow
-  value: ↖
-  tags: []
-- name: nwnear
-  value: ⤧
-  tags: []
-- name: oS
-  value: Ⓢ
-  tags: []
-- name: oacute
-  value: ó
-  tags: []
-- name: oast
-  value: ⊛
-  tags: []
-- name: ocir
-  value: ⊚
-  tags: []
-- name: ocirc
-  value: ô
-  tags: []
-- name: ocy
-  value: о
-  tags: []
-- name: odash
-  value: ⊝
-  tags: []
-- name: odblac
-  value: ő
-  tags: []
-- name: odiv
-  value: ⨸
-  tags: []
-- name: odot
-  value: ⊙
-  tags: []
-- name: odsold
-  value: ⦼
-  tags: []
-- name: oelig
-  value: œ
-  tags: []
-- name: ofcir
-  value: ⦿
-  tags: []
-- name: ofr
-  value: 𝔬
-  tags: []
-- name: ogon
-  value: ˛
-  tags: []
-- name: ograve
-  value: ò
-  tags: []
-- name: ogt
-  value: ⧁
-  tags: []
-- name: ohbar
-  value: ⦵
-  tags: []
-- name: ohm
-  value: Ω
-  tags: []
-- name: oint
-  value: ∮
-  tags: []
-- name: olarr
-  value: ↺
-  tags: []
-- name: olcir
-  value: ⦾
-  tags: []
-- name: olcross
-  value: ⦻
-  tags: []
-- name: oline
-  value: ‾
-  tags: []
-- name: olt
-  value: ⧀
-  tags: []
-- name: omacr
-  value: ō
-  tags: []
-- name: omega
-  value: ω
-  tags: []
-- name: omicron
-  value: ο
-  tags: []
-- name: omid
-  value: ⦶
-  tags: []
-- name: ominus
-  value: ⊖
-  tags: []
-- name: oopf
-  value: 𝕠
-  tags: []
-- name: opar
-  value: ⦷
-  tags: []
-- name: operp
-  value: ⦹
-  tags: []
-- name: oplus
-  value: ⊕
-  tags: []
-- name: or
-  value: ∨
-  tags: []
-- name: orarr
-  value: ↻
-  tags: []
-- name: ord
-  value: ⩝
-  tags: []
-- name: order
-  value: ℴ
-  tags: []
-- name: orderof
-  value: ℴ
-  tags: []
-- name: ordf
-  value: ª
-  tags: []
-- name: ordm
-  value: º
-  tags: []
-- name: origof
-  value: ⊶
-  tags: []
-- name: oror
-  value: ⩖
-  tags: []
-- name: orslope
-  value: ⩗
-  tags: []
-- name: orv
-  value: ⩛
-  tags: []
-- name: oscr
-  value: ℴ
-  tags: []
-- name: oslash
-  value: ø
-  tags: []
-- name: osol
-  value: ⊘
-  tags: []
-- name: otilde
-  value: õ
-  tags: []
-- name: otimes
-  value: ⊗
-  tags: []
-- name: otimesas
-  value: ⨶
-  tags: []
-- name: ouml
-  value: ö
-  tags: []
-- name: ovbar
-  value: ⌽
-  tags: []
-- name: par
-  value: ∥
-  tags: []
-- name: para
-  value: ¶
-  tags: []
-- name: parallel
-  value: ∥
-  tags: []
-- name: parsim
-  value: ⫳
-  tags: []
-- name: parsl
-  value: ⫽
-  tags: []
-- name: part
-  value: ∂
-  tags: []
-- name: pcy
-  value: п
-  tags: []
-- name: percnt
-  value: "%"
-  tags: []
-- name: period
-  value: .
-  tags: []
-- name: permil
-  value: ‰
-  tags: []
-- name: perp
-  value: ⊥
-  tags: []
-- name: pertenk
-  value: ‱
-  tags: []
-- name: pfr
-  value: 𝔭
-  tags: []
-- name: phi
-  value: φ
-  tags: []
-- name: phiv
-  value: ϕ
-  tags: []
-- name: phmmat
-  value: ℳ
-  tags: []
-- name: phone
-  value: ☎
-  tags: []
-- name: pi
-  value: π
-  tags: []
-- name: pitchfork
-  value: ⋔
-  tags: []
-- name: piv
-  value: ϖ
-  tags: []
-- name: planck
-  value: ℏ
-  tags: []
-- name: planckh
-  value: ℎ
-  tags: []
-- name: plankv
-  value: ℏ
-  tags: []
-- name: plus
-  value: +
-  tags: []
-- name: plusacir
-  value: ⨣
-  tags: []
-- name: plusb
-  value: ⊞
-  tags: []
-- name: pluscir
-  value: ⨢
-  tags: []
-- name: plusdo
-  value: ∔
-  tags: []
-- name: plusdu
-  value: ⨥
-  tags: []
-- name: pluse
-  value: ⩲
-  tags: []
-- name: plusmn
-  value: ±
-  tags: []
-- name: plussim
-  value: ⨦
-  tags: []
-- name: plustwo
-  value: ⨧
-  tags: []
-- name: pm
-  value: ±
-  tags: []
-- name: pointint
-  value: ⨕
-  tags: []
-- name: popf
-  value: 𝕡
-  tags: []
-- name: pound
-  value: £
-  tags: []
-- name: pr
-  value: ≺
-  tags: []
-- name: prE
-  value: ⪳
-  tags: []
-- name: prap
-  value: ⪷
-  tags: []
-- name: prcue
-  value: ≼
-  tags: []
-- name: pre
-  value: ⪯
-  tags: []
-- name: prec
-  value: ≺
-  tags: []
-- name: precapprox
-  value: ⪷
-  tags: []
-- name: preccurlyeq
-  value: ≼
-  tags: []
-- name: preceq
-  value: ⪯
-  tags: []
-- name: precnapprox
-  value: ⪹
-  tags: []
-- name: precneqq
-  value: ⪵
-  tags: []
-- name: precnsim
-  value: ⋨
-  tags: []
-- name: precsim
-  value: ≾
-  tags: []
-- name: prime
-  value: ′
-  tags: []
-- name: primes
-  value: ℙ
-  tags: []
-- name: prnE
-  value: ⪵
-  tags: []
-- name: prnap
-  value: ⪹
-  tags: []
-- name: prnsim
-  value: ⋨
-  tags: []
-- name: prod
-  value: ∏
-  tags: []
-- name: profalar
-  value: ⌮
-  tags: []
-- name: profline
-  value: ⌒
-  tags: []
-- name: profsurf
-  value: ⌓
-  tags: []
-- name: prop
-  value: ∝
-  tags: []
-- name: propto
-  value: ∝
-  tags: []
-- name: prsim
-  value: ≾
-  tags: []
-- name: prurel
-  value: ⊰
-  tags: []
-- name: pscr
-  value: 𝓅
-  tags: []
-- name: psi
-  value: ψ
-  tags: []
-- name: puncsp
-  value:  
-  tags: []
-- name: qfr
-  value: 𝔮
-  tags: []
-- name: qint
-  value: ⨌
-  tags: []
-- name: qopf
-  value: 𝕢
-  tags: []
-- name: qprime
-  value: ⁗
-  tags: []
-- name: qscr
-  value: 𝓆
-  tags: []
-- name: quaternions
-  value: ℍ
-  tags: []
-- name: quatint
-  value: ⨖
-  tags: []
-- name: quest
-  value: "?"
-  tags: []
-- name: questeq
-  value: ≟
-  tags: []
-- name: quot
-  value: '"'
-  tags: []
-- name: rAarr
-  value: ⇛
-  tags: []
-- name: rArr
-  value: ⇒
-  tags: []
-- name: rAtail
-  value: ⤜
-  tags: []
-- name: rBarr
-  value: ⤏
-  tags: []
-- name: rHar
-  value: ⥤
-  tags: []
-- name: race
-  value: ∽̱
-  tags: []
-- name: racute
-  value: ŕ
-  tags: []
-- name: radic
-  value: √
-  tags: []
-- name: raemptyv
-  value: ⦳
-  tags: []
-- name: rang
-  value: ⟩
-  tags: []
-- name: rangd
-  value: ⦒
-  tags: []
-- name: range
-  value: ⦥
-  tags: []
-- name: rangle
-  value: ⟩
-  tags: []
-- name: raquo
-  value: »
-  tags: []
-- name: rarr
-  value: →
-  tags: []
-- name: rarrap
-  value: ⥵
-  tags: []
-- name: rarrb
-  value: ⇥
-  tags: []
-- name: rarrbfs
-  value: ⤠
-  tags: []
-- name: rarrc
-  value: ⤳
-  tags: []
-- name: rarrfs
-  value: ⤞
-  tags: []
-- name: rarrhk
-  value: ↪
-  tags: []
-- name: rarrlp
-  value: ↬
-  tags: []
-- name: rarrpl
-  value: ⥅
-  tags: []
-- name: rarrsim
-  value: ⥴
-  tags: []
-- name: rarrtl
-  value: ↣
-  tags: []
-- name: rarrw
-  value: ↝
-  tags: []
-- name: ratail
-  value: ⤚
-  tags: []
-- name: ratio
-  value: ∶
-  tags: []
-- name: rationals
-  value: ℚ
-  tags: []
-- name: rbarr
-  value: ⤍
-  tags: []
-- name: rbbrk
-  value: ❳
-  tags: []
-- name: rbrace
-  value: "}"
-  tags: []
-- name: rbrack
-  value: "]"
-  tags: []
-- name: rbrke
-  value: ⦌
-  tags: []
-- name: rbrksld
-  value: ⦎
-  tags: []
-- name: rbrkslu
-  value: ⦐
-  tags: []
-- name: rcaron
-  value: ř
-  tags: []
-- name: rcedil
-  value: ŗ
-  tags: []
-- name: rceil
-  value: ⌉
-  tags: []
-- name: rcub
-  value: "}"
-  tags: []
-- name: rcy
-  value: р
-  tags: []
-- name: rdca
-  value: ⤷
-  tags: []
-- name: rdldhar
-  value: ⥩
-  tags: []
-- name: rdquo
-  value: ”
-  tags: []
-- name: rdquor
-  value: ”
-  tags: []
-- name: rdsh
-  value: ↳
-  tags: []
-- name: real
-  value: ℜ
-  tags: []
-- name: realine
-  value: ℛ
-  tags: []
-- name: realpart
-  value: ℜ
-  tags: []
-- name: reals
-  value: ℝ
-  tags: []
-- name: rect
-  value: ▭
-  tags: []
-- name: reg
-  value: ®
-  tags: []
-- name: rfisht
-  value: ⥽
-  tags: []
-- name: rfloor
-  value: ⌋
-  tags: []
-- name: rfr
-  value: 𝔯
-  tags: []
-- name: rhard
-  value: ⇁
-  tags: []
-- name: rharu
-  value: ⇀
-  tags: []
-- name: rharul
-  value: ⥬
-  tags: []
-- name: rho
-  value: ρ
-  tags: []
-- name: rhov
-  value: ϱ
-  tags: []
-- name: rightarrow
-  value: →
-  tags: []
-- name: rightarrowtail
-  value: ↣
-  tags: []
-- name: rightharpoondown
-  value: ⇁
-  tags: []
-- name: rightharpoonup
-  value: ⇀
-  tags: []
-- name: rightleftarrows
-  value: ⇄
-  tags: []
-- name: rightleftharpoons
-  value: ⇌
-  tags: []
-- name: rightrightarrows
-  value: ⇉
-  tags: []
-- name: rightsquigarrow
-  value: ↝
-  tags: []
-- name: rightthreetimes
-  value: ⋌
-  tags: []
-- name: ring
-  value: ˚
-  tags: []
-- name: risingdotseq
-  value: ≓
-  tags: []
-- name: rlarr
-  value: ⇄
-  tags: []
-- name: rlhar
-  value: ⇌
-  tags: []
-- name: rlm
-  value: ‏
-  tags: []
-- name: rmoust
-  value: ⎱
-  tags: []
-- name: rmoustache
-  value: ⎱
-  tags: []
-- name: rnmid
-  value: ⫮
-  tags: []
-- name: roang
-  value: ⟭
-  tags: []
-- name: roarr
-  value: ⇾
-  tags: []
-- name: robrk
-  value: ⟧
-  tags: []
-- name: ropar
-  value: ⦆
-  tags: []
-- name: ropf
-  value: 𝕣
-  tags: []
-- name: roplus
-  value: ⨮
-  tags: []
-- name: rotimes
-  value: ⨵
-  tags: []
-- name: rpar
-  value: )
-  tags: []
-- name: rpargt
-  value: ⦔
-  tags: []
-- name: rppolint
-  value: ⨒
-  tags: []
-- name: rrarr
-  value: ⇉
-  tags: []
-- name: rsaquo
-  value: ›
-  tags: []
-- name: rscr
-  value: 𝓇
-  tags: []
-- name: rsh
-  value: ↱
-  tags: []
-- name: rsqb
-  value: "]"
-  tags: []
-- name: rsquo
-  value: ’
-  tags: []
-- name: rsquor
-  value: ’
-  tags: []
-- name: rthree
-  value: ⋌
-  tags: []
-- name: rtimes
-  value: ⋊
-  tags: []
-- name: rtri
-  value: ▹
-  tags: []
-- name: rtrie
-  value: ⊵
-  tags: []
-- name: rtrif
-  value: ▸
-  tags: []
-- name: rtriltri
-  value: ⧎
-  tags: []
-- name: ruluhar
-  value: ⥨
-  tags: []
-- name: rx
-  value: ℞
-  tags: []
-- name: sacute
-  value: ś
-  tags: []
-- name: sbquo
-  value: ‚
-  tags: []
-- name: sc
-  value: ≻
-  tags: []
-- name: scE
-  value: ⪴
-  tags: []
-- name: scap
-  value: ⪸
-  tags: []
-- name: scaron
-  value: š
-  tags: []
-- name: sccue
-  value: ≽
-  tags: []
-- name: sce
-  value: ⪰
-  tags: []
-- name: scedil
-  value: ş
-  tags: []
-- name: scirc
-  value: ŝ
-  tags: []
-- name: scnE
-  value: ⪶
-  tags: []
-- name: scnap
-  value: ⪺
-  tags: []
-- name: scnsim
-  value: ⋩
-  tags: []
-- name: scpolint
-  value: ⨓
-  tags: []
-- name: scsim
-  value: ≿
-  tags: []
-- name: scy
-  value: с
-  tags: []
-- name: sdot
-  value: ⋅
-  tags: []
-- name: sdotb
-  value: ⊡
-  tags: []
-- name: sdote
-  value: ⩦
-  tags: []
-- name: seArr
-  value: ⇘
-  tags: []
-- name: searhk
-  value: ⤥
-  tags: []
-- name: searr
-  value: ↘
-  tags: []
-- name: searrow
-  value: ↘
-  tags: []
-- name: sect
-  value: §
-  tags: []
-- name: semi
-  value: ;
-  tags: []
-- name: seswar
-  value: ⤩
-  tags: []
-- name: setminus
-  value: ∖
-  tags: []
-- name: setmn
-  value: ∖
-  tags: []
-- name: sext
-  value: ✶
-  tags: []
-- name: sfr
-  value: 𝔰
-  tags: []
-- name: sfrown
-  value: ⌢
-  tags: []
-- name: sharp
-  value: ♯
-  tags: []
-- name: shchcy
-  value: щ
-  tags: []
-- name: shcy
-  value: ш
-  tags: []
-- name: shortmid
-  value: ∣
-  tags: []
-- name: shortparallel
-  value: ∥
-  tags: []
-- name: shy
-  value: ­
-  tags: []
-- name: sigma
-  value: σ
-  tags: []
-- name: sigmaf
-  value: ς
-  tags: []
-- name: sigmav
-  value: ς
-  tags: []
-- name: sim
-  value: ∼
-  tags: []
-- name: simdot
-  value: ⩪
-  tags: []
-- name: sime
-  value: ≃
-  tags: []
-- name: simeq
-  value: ≃
-  tags: []
-- name: simg
-  value: ⪞
-  tags: []
-- name: simgE
-  value: ⪠
-  tags: []
-- name: siml
-  value: ⪝
-  tags: []
-- name: simlE
-  value: ⪟
-  tags: []
-- name: simne
-  value: ≆
-  tags: []
-- name: simplus
-  value: ⨤
-  tags: []
-- name: simrarr
-  value: ⥲
-  tags: []
-- name: slarr
-  value: ←
-  tags: []
-- name: smallsetminus
-  value: ∖
-  tags: []
-- name: smashp
-  value: ⨳
-  tags: []
-- name: smeparsl
-  value: ⧤
-  tags: []
-- name: smid
-  value: ∣
-  tags: []
-- name: smile
-  value: ⌣
-  tags: []
-- name: smt
-  value: ⪪
-  tags: []
-- name: smte
-  value: ⪬
-  tags: []
-- name: smtes
-  value: ⪬︀
-  tags: []
-- name: softcy
-  value: ь
-  tags: []
-- name: sol
-  value: /
-  tags: []
-- name: solb
-  value: ⧄
-  tags: []
-- name: solbar
-  value: ⌿
-  tags: []
-- name: sopf
-  value: 𝕤
-  tags: []
-- name: spades
-  value: ♠
-  tags: []
-- name: spadesuit
-  value: ♠
-  tags: []
-- name: spar
-  value: ∥
-  tags: []
-- name: sqcap
-  value: ⊓
-  tags: []
-- name: sqcaps
-  value: ⊓︀
-  tags: []
-- name: sqcup
-  value: ⊔
-  tags: []
-- name: sqcups
-  value: ⊔︀
-  tags: []
-- name: sqsub
-  value: ⊏
-  tags: []
-- name: sqsube
-  value: ⊑
-  tags: []
-- name: sqsubset
-  value: ⊏
-  tags: []
-- name: sqsubseteq
-  value: ⊑
-  tags: []
-- name: sqsup
-  value: ⊐
-  tags: []
-- name: sqsupe
-  value: ⊒
-  tags: []
-- name: sqsupset
-  value: ⊐
-  tags: []
-- name: sqsupseteq
-  value: ⊒
-  tags: []
-- name: squ
-  value: □
-  tags: []
-- name: square
-  value: □
-  tags: []
-- name: squarf
-  value: ▪
-  tags: []
-- name: squf
-  value: ▪
-  tags: []
-- name: srarr
-  value: →
-  tags: []
-- name: sscr
-  value: 𝓈
-  tags: []
-- name: ssetmn
-  value: ∖
-  tags: []
-- name: ssmile
-  value: ⌣
-  tags: []
-- name: sstarf
-  value: ⋆
-  tags: []
-- name: star
-  value: ☆
-  tags: []
-- name: starf
-  value: ★
-  tags: []
-- name: straightepsilon
-  value: ϵ
-  tags: []
-- name: straightphi
-  value: ϕ
-  tags: []
-- name: strns
-  value: ¯
-  tags: []
-- name: sub
-  value: ⊂
-  tags: []
-- name: subE
-  value: ⫅
-  tags: []
-- name: subdot
-  value: ⪽
-  tags: []
-- name: sube
-  value: ⊆
-  tags: []
-- name: subedot
-  value: ⫃
-  tags: []
-- name: submult
-  value: ⫁
-  tags: []
-- name: subnE
-  value: ⫋
-  tags: []
-- name: subne
-  value: ⊊
-  tags: []
-- name: subplus
-  value: ⪿
-  tags: []
-- name: subrarr
-  value: ⥹
-  tags: []
-- name: subset
-  value: ⊂
-  tags: []
-- name: subseteq
-  value: ⊆
-  tags: []
-- name: subseteqq
-  value: ⫅
-  tags: []
-- name: subsetneq
-  value: ⊊
-  tags: []
-- name: subsetneqq
-  value: ⫋
-  tags: []
-- name: subsim
-  value: ⫇
-  tags: []
-- name: subsub
-  value: ⫕
-  tags: []
-- name: subsup
-  value: ⫓
-  tags: []
-- name: succ
-  value: ≻
-  tags: []
-- name: succapprox
-  value: ⪸
-  tags: []
-- name: succcurlyeq
-  value: ≽
-  tags: []
-- name: succeq
-  value: ⪰
-  tags: []
-- name: succnapprox
-  value: ⪺
-  tags: []
-- name: succneqq
-  value: ⪶
-  tags: []
-- name: succnsim
-  value: ⋩
-  tags: []
-- name: succsim
-  value: ≿
-  tags: []
-- name: sum
-  value: ∑
-  tags: []
-- name: sung
-  value: ♪
-  tags: []
-- name: sup1
-  value: ¹
-  tags: []
-- name: sup2
-  value: ²
-  tags: []
-- name: sup3
-  value: ³
-  tags: []
-- name: sup
-  value: ⊃
-  tags: []
-- name: supE
-  value: ⫆
-  tags: []
-- name: supdot
-  value: ⪾
-  tags: []
-- name: supdsub
-  value: ⫘
-  tags: []
-- name: supe
-  value: ⊇
-  tags: []
-- name: supedot
-  value: ⫄
-  tags: []
-- name: suphsol
-  value: ⟉
-  tags: []
-- name: suphsub
-  value: ⫗
-  tags: []
-- name: suplarr
-  value: ⥻
-  tags: []
-- name: supmult
-  value: ⫂
-  tags: []
-- name: supnE
-  value: ⫌
-  tags: []
-- name: supne
-  value: ⊋
-  tags: []
-- name: supplus
-  value: ⫀
-  tags: []
-- name: supset
-  value: ⊃
-  tags: []
-- name: supseteq
-  value: ⊇
-  tags: []
-- name: supseteqq
-  value: ⫆
-  tags: []
-- name: supsetneq
-  value: ⊋
-  tags: []
-- name: supsetneqq
-  value: ⫌
-  tags: []
-- name: supsim
-  value: ⫈
-  tags: []
-- name: supsub
-  value: ⫔
-  tags: []
-- name: supsup
-  value: ⫖
-  tags: []
-- name: swArr
-  value: ⇙
-  tags: []
-- name: swarhk
-  value: ⤦
-  tags: []
-- name: swarr
-  value: ↙
-  tags: []
-- name: swarrow
-  value: ↙
-  tags: []
-- name: swnwar
-  value: ⤪
-  tags: []
-- name: szlig
-  value: ß
-  tags: []
-- name: target
-  value: ⌖
-  tags: []
-- name: tau
-  value: τ
-  tags: []
-- name: tbrk
-  value: ⎴
-  tags: []
-- name: tcaron
-  value: ť
-  tags: []
-- name: tcedil
-  value: ţ
-  tags: []
-- name: tcy
-  value: т
-  tags: []
-- name: tdot
-  value: ⃛
-  tags: []
-- name: telrec
-  value: ⌕
-  tags: []
-- name: tfr
-  value: 𝔱
-  tags: []
-- name: there4
-  value: ∴
-  tags: []
-- name: therefore
-  value: ∴
-  tags: []
-- name: theta
-  value: θ
-  tags: []
-- name: thetasym
-  value: ϑ
-  tags: []
-- name: thetav
-  value: ϑ
-  tags: []
-- name: thickapprox
-  value: ≈
-  tags: []
-- name: thicksim
-  value: ∼
-  tags: []
-- name: thinsp
-  value:  
-  tags: []
-- name: thkap
-  value: ≈
-  tags: []
-- name: thksim
-  value: ∼
-  tags: []
-- name: thorn
-  value: þ
-  tags: []
-- name: tilde
-  value: ˜
-  tags: []
-- name: times
-  value: ×
-  tags: []
-- name: timesb
-  value: ⊠
-  tags: []
-- name: timesbar
-  value: ⨱
-  tags: []
-- name: timesd
-  value: ⨰
-  tags: []
-- name: tint
-  value: ∭
-  tags: []
-- name: toea
-  value: ⤨
-  tags: []
-- name: top
-  value: ⊤
-  tags: []
-- name: topbot
-  value: ⌶
-  tags: []
-- name: topcir
-  value: ⫱
-  tags: []
-- name: topf
-  value: 𝕥
-  tags: []
-- name: topfork
-  value: ⫚
-  tags: []
-- name: tosa
-  value: ⤩
-  tags: []
-- name: tprime
-  value: ‴
-  tags: []
-- name: trade
-  value: ™
-  tags: []
-- name: triangle
-  value: ▵
-  tags: []
-- name: triangledown
-  value: ▿
-  tags: []
-- name: triangleleft
-  value: ◃
-  tags: []
-- name: trianglelefteq
-  value: ⊴
-  tags: []
-- name: triangleq
-  value: ≜
-  tags: []
-- name: triangleright
-  value: ▹
-  tags: []
-- name: trianglerighteq
-  value: ⊵
-  tags: []
-- name: tridot
-  value: ◬
-  tags: []
-- name: trie
-  value: ≜
-  tags: []
-- name: triminus
-  value: ⨺
-  tags: []
-- name: triplus
-  value: ⨹
-  tags: []
-- name: trisb
-  value: ⧍
-  tags: []
-- name: tritime
-  value: ⨻
-  tags: []
-- name: trpezium
-  value: ⏢
-  tags: []
-- name: tscr
-  value: 𝓉
-  tags: []
-- name: tscy
-  value: ц
-  tags: []
-- name: tshcy
-  value: ћ
-  tags: []
-- name: tstrok
-  value: ŧ
-  tags: []
-- name: twixt
-  value: ≬
-  tags: []
-- name: twoheadleftarrow
-  value: ↞
-  tags: []
-- name: twoheadrightarrow
-  value: ↠
-  tags: []
-- name: uArr
-  value: ⇑
-  tags: []
-- name: uHar
-  value: ⥣
-  tags: []
-- name: uacute
-  value: ú
-  tags: []
-- name: uarr
-  value: ↑
-  tags: []
-- name: ubrcy
-  value: ў
-  tags: []
-- name: ubreve
-  value: ŭ
-  tags: []
-- name: ucirc
-  value: û
-  tags: []
-- name: ucy
-  value: у
-  tags: []
-- name: udarr
-  value: ⇅
-  tags: []
-- name: udblac
-  value: ű
-  tags: []
-- name: udhar
-  value: ⥮
-  tags: []
-- name: ufisht
-  value: ⥾
-  tags: []
-- name: ufr
-  value: 𝔲
-  tags: []
-- name: ugrave
-  value: ù
-  tags: []
-- name: uharl
-  value: ↿
-  tags: []
-- name: uharr
-  value: ↾
-  tags: []
-- name: uhblk
-  value: ▀
-  tags: []
-- name: ulcorn
-  value: ⌜
-  tags: []
-- name: ulcorner
-  value: ⌜
-  tags: []
-- name: ulcrop
-  value: ⌏
-  tags: []
-- name: ultri
-  value: ◸
-  tags: []
-- name: umacr
-  value: ū
-  tags: []
-- name: uml
-  value: ¨
-  tags: []
-- name: uogon
-  value: ų
-  tags: []
-- name: uopf
-  value: 𝕦
-  tags: []
-- name: uparrow
-  value: ↑
-  tags: []
-- name: updownarrow
-  value: ↕
-  tags: []
-- name: upharpoonleft
-  value: ↿
-  tags: []
-- name: upharpoonright
-  value: ↾
-  tags: []
-- name: uplus
-  value: ⊎
-  tags: []
-- name: upsi
-  value: υ
-  tags: []
-- name: upsih
-  value: ϒ
-  tags: []
-- name: upsilon
-  value: υ
-  tags: []
-- name: upuparrows
-  value: ⇈
-  tags: []
-- name: urcorn
-  value: ⌝
-  tags: []
-- name: urcorner
-  value: ⌝
-  tags: []
-- name: urcrop
-  value: ⌎
-  tags: []
-- name: uring
-  value: ů
-  tags: []
-- name: urtri
-  value: ◹
-  tags: []
-- name: uscr
-  value: 𝓊
-  tags: []
-- name: utdot
-  value: ⋰
-  tags: []
-- name: utilde
-  value: ũ
-  tags: []
-- name: utri
-  value: ▵
-  tags: []
-- name: utrif
-  value: ▴
-  tags: []
-- name: uuarr
-  value: ⇈
-  tags: []
-- name: uuml
-  value: ü
-  tags: []
-- name: uwangle
-  value: ⦧
-  tags: []
-- name: vArr
-  value: ⇕
-  tags: []
-- name: vBar
-  value: ⫨
-  tags: []
-- name: vBarv
-  value: ⫩
-  tags: []
-- name: vDash
-  value: ⊨
-  tags: []
-- name: vangrt
-  value: ⦜
-  tags: []
-- name: varepsilon
-  value: ϵ
-  tags: []
-- name: varkappa
-  value: ϰ
-  tags: []
-- name: varnothing
-  value: ∅
-  tags: []
-- name: varphi
-  value: ϕ
-  tags: []
-- name: varpi
-  value: ϖ
-  tags: []
-- name: varpropto
-  value: ∝
-  tags: []
-- name: varr
-  value: ↕
-  tags: []
-- name: varrho
-  value: ϱ
-  tags: []
-- name: varsigma
-  value: ς
-  tags: []
-- name: varsubsetneq
-  value: ⊊︀
-  tags: []
-- name: varsubsetneqq
-  value: ⫋︀
-  tags: []
-- name: varsupsetneq
-  value: ⊋︀
-  tags: []
-- name: varsupsetneqq
-  value: ⫌︀
-  tags: []
-- name: vartheta
-  value: ϑ
-  tags: []
-- name: vartriangleleft
-  value: ⊲
-  tags: []
-- name: vartriangleright
-  value: ⊳
-  tags: []
-- name: vcy
-  value: в
-  tags: []
-- name: vdash
-  value: ⊢
-  tags: []
-- name: vee
-  value: ∨
-  tags: []
-- name: veebar
-  value: ⊻
-  tags: []
-- name: veeeq
-  value: ≚
-  tags: []
-- name: vellip
-  value: ⋮
-  tags: []
-- name: verbar
-  value: "|"
-  tags: []
-- name: vert
-  value: "|"
-  tags: []
-- name: vfr
-  value: 𝔳
-  tags: []
-- name: vltri
-  value: ⊲
-  tags: []
-- name: vnsub
-  value: ⊂⃒
-  tags: []
-- name: vnsup
-  value: ⊃⃒
-  tags: []
-- name: vopf
-  value: 𝕧
-  tags: []
-- name: vprop
-  value: ∝
-  tags: []
-- name: vrtri
-  value: ⊳
-  tags: []
-- name: vscr
-  value: 𝓋
-  tags: []
-- name: vsubnE
-  value: ⫋︀
-  tags: []
-- name: vsubne
-  value: ⊊︀
-  tags: []
-- name: vsupnE
-  value: ⫌︀
-  tags: []
-- name: vsupne
-  value: ⊋︀
-  tags: []
-- name: vzigzag
-  value: ⦚
-  tags: []
-- name: wcirc
-  value: ŵ
-  tags: []
-- name: wedbar
-  value: ⩟
-  tags: []
-- name: wedge
-  value: ∧
-  tags: []
-- name: wedgeq
-  value: ≙
-  tags: []
-- name: weierp
-  value: ℘
-  tags: []
-- name: wfr
-  value: 𝔴
-  tags: []
-- name: wopf
-  value: 𝕨
-  tags: []
-- name: wp
-  value: ℘
-  tags: []
-- name: wr
-  value: ≀
-  tags: []
-- name: wreath
-  value: ≀
-  tags: []
-- name: wscr
-  value: 𝓌
-  tags: []
-- name: xcap
-  value: ⋂
-  tags: []
-- name: xcirc
-  value: ◯
-  tags: []
-- name: xcup
-  value: ⋃
-  tags: []
-- name: xdtri
-  value: ▽
-  tags: []
-- name: xfr
-  value: 𝔵
-  tags: []
-- name: xhArr
-  value: ⟺
-  tags: []
-- name: xharr
-  value: ⟷
-  tags: []
-- name: xi
-  value: ξ
-  tags: []
-- name: xlArr
-  value: ⟸
-  tags: []
-- name: xlarr
-  value: ⟵
-  tags: []
-- name: xmap
-  value: ⟼
-  tags: []
-- name: xnis
-  value: ⋻
-  tags: []
-- name: xodot
-  value: ⨀
-  tags: []
-- name: xopf
-  value: 𝕩
-  tags: []
-- name: xoplus
-  value: ⨁
-  tags: []
-- name: xotime
-  value: ⨂
-  tags: []
-- name: xrArr
-  value: ⟹
-  tags: []
-- name: xrarr
-  value: ⟶
-  tags: []
-- name: xscr
-  value: 𝓍
-  tags: []
-- name: xsqcup
-  value: ⨆
-  tags: []
-- name: xuplus
-  value: ⨄
-  tags: []
-- name: xutri
-  value: △
-  tags: []
-- name: xvee
-  value: ⋁
-  tags: []
-- name: xwedge
-  value: ⋀
-  tags: []
-- name: yacute
-  value: ý
-  tags: []
-- name: yacy
-  value: я
-  tags: []
-- name: ycirc
-  value: ŷ
-  tags: []
-- name: ycy
-  value: ы
-  tags: []
-- name: yen
-  value: ¥
-  tags: []
-- name: yfr
-  value: 𝔶
-  tags: []
-- name: yicy
-  value: ї
-  tags: []
-- name: yopf
-  value: 𝕪
-  tags: []
-- name: yscr
-  value: 𝓎
-  tags: []
-- name: yucy
-  value: ю
-  tags: []
-- name: yuml
-  value: ÿ
-  tags: []
-- name: zacute
-  value: ź
-  tags: []
-- name: zcaron
-  value: ž
-  tags: []
-- name: zcy
-  value: з
-  tags: []
-- name: zdot
-  value: ż
-  tags: []
-- name: zeetrf
-  value: ℨ
-  tags: []
-- name: zeta
-  value: ζ
-  tags: []
-- name: zfr
-  value: 𝔷
-  tags: []
-- name: zhcy
-  value: ж
-  tags: []
-- name: zigrarr
-  value: ⇝
-  tags: []
-- name: zopf
-  value: 𝕫
-  tags: []
-- name: zscr
-  value: 𝓏
-  tags: []
-- name: zwj
-  value: ‍
-  tags: []
-- name: zwnj
-  value: ‌
-  tags: []
+- symbol: Æ
+  entities:
+    - AElig
+  tags:
+    - AE
+- symbol: "&"
+  entities:
+    - AMP
+    - amp
+  tags:
+    - "&"
+    - and
+    - ampersand
+- symbol: Á
+  entities:
+    - Aacute
+  tags:
+    - A
+    - acute
+- symbol: Ă
+  entities:
+    - Abreve
+  tags: []
+- symbol: Â
+  entities:
+    - Acirc
+  tags:
+    - A
+    - circumflex
+- symbol: А
+  entities:
+    - Acy
+  tags: []
+- symbol: 𝔄
+  entities:
+    - Afr
+  tags: []
+- symbol: À
+  entities:
+    - Agrave
+  tags:
+    - A
+    - grave
+- symbol: Α
+  entities:
+    - Alpha
+  tags:
+    - a
+    - alpha
+- symbol: Ā
+  entities:
+    - Amacr
+  tags: []
+- symbol: ⩓
+  entities:
+    - And
+  tags: []
+- symbol: Ą
+  entities:
+    - Aogon
+  tags: []
+- symbol: 𝔸
+  entities:
+    - Aopf
+  tags: []
+- symbol: ⁡
+  entities:
+    - ApplyFunction
+    - af
+  tags: []
+- symbol: Å
+  entities:
+    - Aring
+    - angst
+  tags:
+    - A
+    - ring
+- symbol: 𝒜
+  entities:
+    - Ascr
+  tags: []
+- symbol: ≔
+  entities:
+    - Assign
+    - colone
+    - coloneq
+  tags: []
+- symbol: Ã
+  entities:
+    - Atilde
+  tags:
+    - A
+    - tilde
+- symbol: Ä
+  entities:
+    - Auml
+  tags:
+    - A
+    - diaeresis
+- symbol: ∖
+  entities:
+    - Backslash
+    - setminus
+    - setmn
+    - smallsetminus
+    - ssetmn
+  tags: []
+- symbol: ⫧
+  entities:
+    - Barv
+  tags: []
+- symbol: ⌆
+  entities:
+    - Barwed
+    - doublebarwedge
+  tags: []
+- symbol: Б
+  entities:
+    - Bcy
+  tags: []
+- symbol: ∵
+  entities:
+    - Because
+    - becaus
+    - because
+  tags: []
+- symbol: ℬ
+  entities:
+    - Bernoullis
+    - Bscr
+    - bernou
+  tags: []
+- symbol: Β
+  entities:
+    - Beta
+  tags:
+    - B
+    - beta
+- symbol: 𝔅
+  entities:
+    - Bfr
+  tags: []
+- symbol: 𝔹
+  entities:
+    - Bopf
+  tags: []
+- symbol: ˘
+  entities:
+    - Breve
+    - breve
+  tags: []
+- symbol: ≎
+  entities:
+    - Bumpeq
+    - HumpDownHump
+    - bump
+  tags: []
+- symbol: Ч
+  entities:
+    - CHcy
+  tags: []
+- symbol: ©
+  entities:
+    - COPY
+    - copy
+  tags:
+    - (c)
+    - c
+    - copyright
+- symbol: Ć
+  entities:
+    - Cacute
+  tags: []
+- symbol: ⋒
+  entities:
+    - Cap
+  tags: []
+- symbol: ⅅ
+  entities:
+    - CapitalDifferentialD
+    - DD
+  tags: []
+- symbol: ℭ
+  entities:
+    - Cayleys
+    - Cfr
+  tags: []
+- symbol: Č
+  entities:
+    - Ccaron
+  tags: []
+- symbol: Ç
+  entities:
+    - Ccedil
+  tags:
+    - C
+    - cedilla
+- symbol: Ĉ
+  entities:
+    - Ccirc
+  tags: []
+- symbol: ∰
+  entities:
+    - Cconint
+  tags: []
+- symbol: Ċ
+  entities:
+    - Cdot
+  tags: []
+- symbol: ¸
+  entities:
+    - Cedilla
+    - cedil
+  tags:
+    - ","
+- symbol: ·
+  entities:
+    - CenterDot
+    - centerdot
+    - middot
+  tags:
+    - .
+    - middle
+    - dot
+- symbol: Χ
+  entities:
+    - Chi
+  tags:
+    - x
+    - chi
+- symbol: ⊙
+  entities:
+    - CircleDot
+    - odot
+  tags: []
+- symbol: ⊖
+  entities:
+    - CircleMinus
+    - ominus
+  tags: []
+- symbol: ⊕
+  entities:
+    - CirclePlus
+    - oplus
+  tags:
+    - circled
+    - plus
+    - +
+    - O
+    - "0"
+- symbol: ⊗
+  entities:
+    - CircleTimes
+    - otimes
+  tags:
+    - circled
+    - times
+    - vector
+    - x
+    - "*"
+    - o
+    - "0"
+- symbol: ∲
+  entities:
+    - ClockwiseContourIntegral
+    - cwconint
+  tags: []
+- symbol: ”
+  entities:
+    - CloseCurlyDoubleQuote
+    - rdquo
+    - rdquor
+  tags:
+    - '"'
+    - double
+    - quotation
+    - quote
+- symbol: ’
+  entities:
+    - CloseCurlyQuote
+    - rsquo
+    - rsquor
+  tags:
+    - "'"
+    - right
+    - quotation
+    - quote
+- symbol: ∷
+  entities:
+    - Colon
+    - Proportion
+  tags: []
+- symbol: ⩴
+  entities:
+    - Colone
+  tags: []
+- symbol: ≡
+  entities:
+    - Congruent
+    - equiv
+  tags:
+    - identical
+    - =
+- symbol: ∯
+  entities:
+    - Conint
+    - DoubleContourIntegral
+  tags: []
+- symbol: ∮
+  entities:
+    - ContourIntegral
+    - conint
+    - oint
+  tags: []
+- symbol: ℂ
+  entities:
+    - Copf
+    - complexes
+  tags: []
+- symbol: ∐
+  entities:
+    - Coproduct
+    - coprod
+  tags: []
+- symbol: ∳
+  entities:
+    - CounterClockwiseContourIntegral
+    - awconint
+  tags: []
+- symbol: ⨯
+  entities:
+    - Cross
+  tags: []
+- symbol: 𝒞
+  entities:
+    - Cscr
+  tags: []
+- symbol: ⋓
+  entities:
+    - Cup
+  tags: []
+- symbol: ≍
+  entities:
+    - CupCap
+    - asympeq
+  tags: []
+- symbol: ⤑
+  entities:
+    - DDotrahd
+  tags: []
+- symbol: Ђ
+  entities:
+    - DJcy
+  tags: []
+- symbol: Ѕ
+  entities:
+    - DScy
+  tags: []
+- symbol: Џ
+  entities:
+    - DZcy
+  tags: []
+- symbol: ‡
+  entities:
+    - Dagger
+    - ddagger
+  tags:
+    - double
+    - dagger
+    - ++
+    - +
+- symbol: ↡
+  entities:
+    - Darr
+  tags: []
+- symbol: ⫤
+  entities:
+    - Dashv
+    - DoubleLeftTee
+  tags: []
+- symbol: Ď
+  entities:
+    - Dcaron
+  tags: []
+- symbol: Д
+  entities:
+    - Dcy
+  tags: []
+- symbol: ∇
+  entities:
+    - Del
+    - nabla
+  tags:
+    - nabla
+    - difference
+    - triangle
+- symbol: Δ
+  entities:
+    - Delta
+  tags:
+    - delta
+    - triangle
+- symbol: 𝔇
+  entities:
+    - Dfr
+  tags: []
+- symbol: ´
+  entities:
+    - DiacriticalAcute
+    - acute
+  tags:
+    - acute
+    - "'"
+    - "`"
+- symbol: ˙
+  entities:
+    - DiacriticalDot
+    - dot
+  tags: []
+- symbol: ˝
+  entities:
+    - DiacriticalDoubleAcute
+    - dblac
+  tags: []
+- symbol: "`"
+  entities:
+    - DiacriticalGrave
+    - grave
+  tags: []
+- symbol: ˜
+  entities:
+    - DiacriticalTilde
+    - tilde
+  tags:
+    - tilde
+    - "~"
+- symbol: ⋄
+  entities:
+    - Diamond
+    - diam
+    - diamond
+  tags: []
+- symbol: ⅆ
+  entities:
+    - DifferentialD
+    - dd
+  tags: []
+- symbol: 𝔻
+  entities:
+    - Dopf
+  tags: []
+- symbol: ¨
+  entities:
+    - Dot
+    - DoubleDot
+    - die
+    - uml
+  tags:
+    - '"'
+- symbol: ⃜
+  entities:
+    - DotDot
+  tags: []
+- symbol: ≐
+  entities:
+    - DotEqual
+    - doteq
+    - esdot
+  tags: []
+- symbol: ⇓
+  entities:
+    - DoubleDownArrow
+    - Downarrow
+    - dArr
+  tags:
+    - downwards
+    - double
+    - arrow
+- symbol: ⇐
+  entities:
+    - DoubleLeftArrow
+    - Leftarrow
+    - lArr
+  tags:
+    - double
+    - arrow
+    - <
+    - <-
+    - <=
+- symbol: ⇔
+  entities:
+    - DoubleLeftRightArrow
+    - Leftrightarrow
+    - hArr
+    - iff
+  tags:
+    - <>
+    - <=>
+    - <->
+    - left
+    - right
+    - double
+    - arrow
+- symbol: ⟸
+  entities:
+    - DoubleLongLeftArrow
+    - Longleftarrow
+    - xlArr
+  tags: []
+- symbol: ⟺
+  entities:
+    - DoubleLongLeftRightArrow
+    - Longleftrightarrow
+    - xhArr
+  tags: []
+- symbol: ⟹
+  entities:
+    - DoubleLongRightArrow
+    - Longrightarrow
+    - xrArr
+  tags: []
+- symbol: ⇒
+  entities:
+    - DoubleRightArrow
+    - Implies
+    - Rightarrow
+    - rArr
+  tags:
+    - ">"
+    - ->
+    - rightwards
+    - double
+    - =>
+    - arrow
+- symbol: ⊨
+  entities:
+    - DoubleRightTee
+    - vDash
+  tags: []
+- symbol: ⇑
+  entities:
+    - DoubleUpArrow
+    - Uparrow
+    - uArr
+  tags:
+    - upwards
+    - double
+    - arrow
+- symbol: ⇕
+  entities:
+    - DoubleUpDownArrow
+    - Updownarrow
+    - vArr
+  tags: []
+- symbol: ∥
+  entities:
+    - DoubleVerticalBar
+    - par
+    - parallel
+    - shortparallel
+    - spar
+  tags: []
+- symbol: ↓
+  entities:
+    - DownArrow
+    - ShortDownArrow
+    - darr
+    - downarrow
+  tags:
+    - downwards
+    - arrow
+- symbol: ⤓
+  entities:
+    - DownArrowBar
+  tags: []
+- symbol: ⇵
+  entities:
+    - DownArrowUpArrow
+    - duarr
+  tags: []
+- symbol: ̑
+  entities:
+    - DownBreve
+  tags: []
+- symbol: ⥐
+  entities:
+    - DownLeftRightVector
+  tags: []
+- symbol: ⥞
+  entities:
+    - DownLeftTeeVector
+  tags: []
+- symbol: ↽
+  entities:
+    - DownLeftVector
+    - leftharpoondown
+    - lhard
+  tags: []
+- symbol: ⥖
+  entities:
+    - DownLeftVectorBar
+  tags: []
+- symbol: ⥟
+  entities:
+    - DownRightTeeVector
+  tags: []
+- symbol: ⇁
+  entities:
+    - DownRightVector
+    - rhard
+    - rightharpoondown
+  tags: []
+- symbol: ⥗
+  entities:
+    - DownRightVectorBar
+  tags: []
+- symbol: ⊤
+  entities:
+    - DownTee
+    - top
+  tags: []
+- symbol: ↧
+  entities:
+    - DownTeeArrow
+    - mapstodown
+  tags: []
+- symbol: 𝒟
+  entities:
+    - Dscr
+  tags: []
+- symbol: Đ
+  entities:
+    - Dstrok
+  tags: []
+- symbol: Ŋ
+  entities:
+    - ENG
+  tags: []
+- symbol: Ð
+  entities:
+    - ETH
+  tags:
+    - ETH
+    - D
+- symbol: É
+  entities:
+    - Eacute
+  tags:
+    - E
+    - acute
+- symbol: Ě
+  entities:
+    - Ecaron
+  tags: []
+- symbol: Ê
+  entities:
+    - Ecirc
+  tags:
+    - E
+    - circumflex
+- symbol: Э
+  entities:
+    - Ecy
+  tags: []
+- symbol: Ė
+  entities:
+    - Edot
+  tags: []
+- symbol: 𝔈
+  entities:
+    - Efr
+  tags: []
+- symbol: È
+  entities:
+    - Egrave
+  tags:
+    - E
+    - grave
+- symbol: ∈
+  entities:
+    - Element
+    - in
+    - isin
+    - isinv
+  tags:
+    - element
+    - e
+- symbol: Ē
+  entities:
+    - Emacr
+  tags: []
+- symbol: ◻
+  entities:
+    - EmptySmallSquare
+  tags: []
+- symbol: ▫
+  entities:
+    - EmptyVerySmallSquare
+  tags: []
+- symbol: Ę
+  entities:
+    - Eogon
+  tags: []
+- symbol: 𝔼
+  entities:
+    - Eopf
+  tags: []
+- symbol: Ε
+  entities:
+    - Epsilon
+  tags:
+    - e
+    - epsilon
+- symbol: ⩵
+  entities:
+    - Equal
+  tags: []
+- symbol: ≂
+  entities:
+    - EqualTilde
+    - eqsim
+    - esim
+  tags: []
+- symbol: ⇌
+  entities:
+    - Equilibrium
+    - rightleftharpoons
+    - rlhar
+  tags: []
+- symbol: ℰ
+  entities:
+    - Escr
+    - expectation
+  tags: []
+- symbol: ⩳
+  entities:
+    - Esim
+  tags: []
+- symbol: Η
+  entities:
+    - Eta
+  tags:
+    - h
+    - eta
+- symbol: Ë
+  entities:
+    - Euml
+  tags:
+    - E
+    - diaeresis
+- symbol: ∃
+  entities:
+    - Exists
+    - exist
+  tags:
+    - e
+    - exists
+- symbol: ⅇ
+  entities:
+    - ExponentialE
+    - ee
+    - exponentiale
+  tags: []
+- symbol: Ф
+  entities:
+    - Fcy
+  tags: []
+- symbol: 𝔉
+  entities:
+    - Ffr
+  tags: []
+- symbol: ◼
+  entities:
+    - FilledSmallSquare
+  tags: []
+- symbol: ▪
+  entities:
+    - FilledVerySmallSquare
+    - blacksquare
+    - squarf
+    - squf
+  tags: []
+- symbol: 𝔽
+  entities:
+    - Fopf
+  tags: []
+- symbol: ∀
+  entities:
+    - ForAll
+    - forall
+  tags:
+    - all
+    - A
+- symbol: ℱ
+  entities:
+    - Fouriertrf
+    - Fscr
+  tags: []
+- symbol: Ѓ
+  entities:
+    - GJcy
+  tags: []
+- symbol: ">"
+  entities:
+    - GT
+    - gt
+  tags:
+    - ">"
+    - greater-than
+- symbol: Γ
+  entities:
+    - Gamma
+  tags:
+    - gamma
+    - L
+- symbol: Ϝ
+  entities:
+    - Gammad
+  tags: []
+- symbol: Ğ
+  entities:
+    - Gbreve
+  tags: []
+- symbol: Ģ
+  entities:
+    - Gcedil
+  tags: []
+- symbol: Ĝ
+  entities:
+    - Gcirc
+  tags: []
+- symbol: Г
+  entities:
+    - Gcy
+  tags: []
+- symbol: Ġ
+  entities:
+    - Gdot
+  tags: []
+- symbol: 𝔊
+  entities:
+    - Gfr
+  tags: []
+- symbol: ⋙
+  entities:
+    - Gg
+    - ggg
+  tags: []
+- symbol: 𝔾
+  entities:
+    - Gopf
+  tags: []
+- symbol: ≥
+  entities:
+    - GreaterEqual
+    - ge
+    - geq
+  tags:
+    - greater-than
+    - equal
+    - ">="
+    - =>
+    - =
+    - ">"
+- symbol: ⋛
+  entities:
+    - GreaterEqualLess
+    - gel
+    - gtreqless
+  tags: []
+- symbol: ≧
+  entities:
+    - GreaterFullEqual
+    - gE
+    - geqq
+  tags: []
+- symbol: ⪢
+  entities:
+    - GreaterGreater
+  tags: []
+- symbol: ≷
+  entities:
+    - GreaterLess
+    - gl
+    - gtrless
+  tags: []
+- symbol: ⩾
+  entities:
+    - GreaterSlantEqual
+    - geqslant
+    - ges
+  tags: []
+- symbol: ≳
+  entities:
+    - GreaterTilde
+    - gsim
+    - gtrsim
+  tags: []
+- symbol: 𝒢
+  entities:
+    - Gscr
+  tags: []
+- symbol: ≫
+  entities:
+    - Gt
+    - NestedGreaterGreater
+    - gg
+  tags: []
+- symbol: Ъ
+  entities:
+    - HARDcy
+  tags: []
+- symbol: ˇ
+  entities:
+    - Hacek
+    - caron
+  tags: []
+- symbol: ^
+  entities:
+    - Hat
+  tags: []
+- symbol: Ĥ
+  entities:
+    - Hcirc
+  tags: []
+- symbol: ℌ
+  entities:
+    - Hfr
+    - Poincareplane
+  tags: []
+- symbol: ℋ
+  entities:
+    - HilbertSpace
+    - Hscr
+    - hamilt
+  tags: []
+- symbol: ℍ
+  entities:
+    - Hopf
+    - quaternions
+  tags: []
+- symbol: ─
+  entities:
+    - HorizontalLine
+    - boxh
+  tags: []
+- symbol: Ħ
+  entities:
+    - Hstrok
+  tags: []
+- symbol: ≏
+  entities:
+    - HumpEqual
+    - bumpe
+    - bumpeq
+  tags: []
+- symbol: Е
+  entities:
+    - IEcy
+  tags: []
+- symbol: Ĳ
+  entities:
+    - IJlig
+  tags: []
+- symbol: Ё
+  entities:
+    - IOcy
+  tags: []
+- symbol: Í
+  entities:
+    - Iacute
+  tags:
+    - I
+    - acute
+    - L
+- symbol: Î
+  entities:
+    - Icirc
+  tags:
+    - I
+    - circumflex
+    - L
+- symbol: И
+  entities:
+    - Icy
+  tags: []
+- symbol: İ
+  entities:
+    - Idot
+  tags: []
+- symbol: ℑ
+  entities:
+    - Ifr
+    - Im
+    - image
+    - imagpart
+  tags:
+    - blackletter
+    - I
+    - imaginary
+- symbol: Ì
+  entities:
+    - Igrave
+  tags:
+    - I
+    - grave
+    - L
+- symbol: Ī
+  entities:
+    - Imacr
+  tags: []
+- symbol: ⅈ
+  entities:
+    - ImaginaryI
+    - ii
+  tags: []
+- symbol: ∬
+  entities:
+    - Int
+  tags: []
+- symbol: ∫
+  entities:
+    - Integral
+    - int
+  tags:
+    - integral
+    - f
+- symbol: ⋂
+  entities:
+    - Intersection
+    - bigcap
+    - xcap
+  tags: []
+- symbol: ⁣
+  entities:
+    - InvisibleComma
+    - ic
+  tags: []
+- symbol: ⁢
+  entities:
+    - InvisibleTimes
+    - it
+  tags: []
+- symbol: Į
+  entities:
+    - Iogon
+  tags: []
+- symbol: 𝕀
+  entities:
+    - Iopf
+  tags: []
+- symbol: Ι
+  entities:
+    - Iota
+  tags:
+    - i
+    - iota
+- symbol: ℐ
+  entities:
+    - Iscr
+    - imagline
+  tags: []
+- symbol: Ĩ
+  entities:
+    - Itilde
+  tags: []
+- symbol: І
+  entities:
+    - Iukcy
+  tags: []
+- symbol: Ï
+  entities:
+    - Iuml
+  tags:
+    - I
+    - diaeresis
+    - L
+- symbol: Ĵ
+  entities:
+    - Jcirc
+  tags: []
+- symbol: Й
+  entities:
+    - Jcy
+  tags: []
+- symbol: 𝔍
+  entities:
+    - Jfr
+  tags: []
+- symbol: 𝕁
+  entities:
+    - Jopf
+  tags: []
+- symbol: 𝒥
+  entities:
+    - Jscr
+  tags: []
+- symbol: Ј
+  entities:
+    - Jsercy
+  tags: []
+- symbol: Є
+  entities:
+    - Jukcy
+  tags: []
+- symbol: Х
+  entities:
+    - KHcy
+  tags: []
+- symbol: Ќ
+  entities:
+    - KJcy
+  tags: []
+- symbol: Κ
+  entities:
+    - Kappa
+  tags:
+    - k
+    - kappa
+- symbol: Ķ
+  entities:
+    - Kcedil
+  tags: []
+- symbol: К
+  entities:
+    - Kcy
+  tags: []
+- symbol: 𝔎
+  entities:
+    - Kfr
+  tags: []
+- symbol: 𝕂
+  entities:
+    - Kopf
+  tags: []
+- symbol: 𝒦
+  entities:
+    - Kscr
+  tags: []
+- symbol: Љ
+  entities:
+    - LJcy
+  tags: []
+- symbol: <
+  entities:
+    - LT
+    - lt
+  tags:
+    - less-than
+    - <
+    - left
+    - arrow
+- symbol: Ĺ
+  entities:
+    - Lacute
+  tags: []
+- symbol: Λ
+  entities:
+    - Lambda
+  tags:
+    - lambda
+    - triangle
+- symbol: ⟪
+  entities:
+    - Lang
+  tags: []
+- symbol: ℒ
+  entities:
+    - Laplacetrf
+    - Lscr
+    - lagran
+  tags: []
+- symbol: ↞
+  entities:
+    - Larr
+    - twoheadleftarrow
+  tags: []
+- symbol: Ľ
+  entities:
+    - Lcaron
+  tags: []
+- symbol: Ļ
+  entities:
+    - Lcedil
+  tags: []
+- symbol: Л
+  entities:
+    - Lcy
+  tags: []
+- symbol: ⟨
+  entities:
+    - LeftAngleBracket
+    - lang
+    - langle
+  tags:
+    - <
+    - angle
+    - bracket
+- symbol: ←
+  entities:
+    - LeftArrow
+    - ShortLeftArrow
+    - larr
+    - leftarrow
+    - slarr
+  tags:
+    - <-
+    - <
+    - leftwards
+    - arrow
+- symbol: ⇤
+  entities:
+    - LeftArrowBar
+    - larrb
+  tags: []
+- symbol: ⇆
+  entities:
+    - LeftArrowRightArrow
+    - leftrightarrows
+    - lrarr
+  tags: []
+- symbol: ⌈
+  entities:
+    - LeftCeiling
+    - lceil
+  tags:
+    - "["
+    - ceiling
+- symbol: ⟦
+  entities:
+    - LeftDoubleBracket
+    - lobrk
+  tags: []
+- symbol: ⥡
+  entities:
+    - LeftDownTeeVector
+  tags: []
+- symbol: ⇃
+  entities:
+    - LeftDownVector
+    - dharl
+    - downharpoonleft
+  tags: []
+- symbol: ⥙
+  entities:
+    - LeftDownVectorBar
+  tags: []
+- symbol: ⌊
+  entities:
+    - LeftFloor
+    - lfloor
+  tags:
+    - "["
+    - floor
+- symbol: ↔
+  entities:
+    - LeftRightArrow
+    - harr
+    - leftrightarrow
+  tags:
+    - <->
+    - right
+    - <>
+    - left
+    - arrow
+- symbol: ⥎
+  entities:
+    - LeftRightVector
+  tags: []
+- symbol: ⊣
+  entities:
+    - LeftTee
+    - dashv
+  tags: []
+- symbol: ↤
+  entities:
+    - LeftTeeArrow
+    - mapstoleft
+  tags: []
+- symbol: ⥚
+  entities:
+    - LeftTeeVector
+  tags: []
+- symbol: ⊲
+  entities:
+    - LeftTriangle
+    - vartriangleleft
+    - vltri
+  tags: []
+- symbol: ⧏
+  entities:
+    - LeftTriangleBar
+  tags: []
+- symbol: ⊴
+  entities:
+    - LeftTriangleEqual
+    - ltrie
+    - trianglelefteq
+  tags: []
+- symbol: ⥑
+  entities:
+    - LeftUpDownVector
+  tags: []
+- symbol: ⥠
+  entities:
+    - LeftUpTeeVector
+  tags: []
+- symbol: ↿
+  entities:
+    - LeftUpVector
+    - uharl
+    - upharpoonleft
+  tags: []
+- symbol: ⥘
+  entities:
+    - LeftUpVectorBar
+  tags: []
+- symbol: ↼
+  entities:
+    - LeftVector
+    - leftharpoonup
+    - lharu
+  tags: []
+- symbol: ⥒
+  entities:
+    - LeftVectorBar
+  tags: []
+- symbol: ⋚
+  entities:
+    - LessEqualGreater
+    - leg
+    - lesseqgtr
+  tags: []
+- symbol: ≦
+  entities:
+    - LessFullEqual
+    - lE
+    - leqq
+  tags: []
+- symbol: ≶
+  entities:
+    - LessGreater
+    - lessgtr
+    - lg
+  tags: []
+- symbol: ⪡
+  entities:
+    - LessLess
+  tags: []
+- symbol: ⩽
+  entities:
+    - LessSlantEqual
+    - leqslant
+    - les
+  tags: []
+- symbol: ≲
+  entities:
+    - LessTilde
+    - lesssim
+    - lsim
+  tags: []
+- symbol: 𝔏
+  entities:
+    - Lfr
+  tags: []
+- symbol: ⋘
+  entities:
+    - Ll
+  tags: []
+- symbol: ⇚
+  entities:
+    - Lleftarrow
+    - lAarr
+  tags: []
+- symbol: Ŀ
+  entities:
+    - Lmidot
+  tags: []
+- symbol: ⟵
+  entities:
+    - LongLeftArrow
+    - longleftarrow
+    - xlarr
+  tags: []
+- symbol: ⟷
+  entities:
+    - LongLeftRightArrow
+    - longleftrightarrow
+    - xharr
+  tags: []
+- symbol: ⟶
+  entities:
+    - LongRightArrow
+    - longrightarrow
+    - xrarr
+  tags: []
+- symbol: 𝕃
+  entities:
+    - Lopf
+  tags: []
+- symbol: ↙
+  entities:
+    - LowerLeftArrow
+    - swarr
+    - swarrow
+  tags: []
+- symbol: ↘
+  entities:
+    - LowerRightArrow
+    - searr
+    - searrow
+  tags: []
+- symbol: ↰
+  entities:
+    - Lsh
+    - lsh
+  tags: []
+- symbol: Ł
+  entities:
+    - Lstrok
+  tags: []
+- symbol: ≪
+  entities:
+    - Lt
+    - NestedLessLess
+    - ll
+  tags: []
+- symbol: ⤅
+  entities:
+    - Map
+  tags: []
+- symbol: М
+  entities:
+    - Mcy
+  tags: []
+- symbol:  
+  entities:
+    - MediumSpace
+  tags: []
+- symbol: ℳ
+  entities:
+    - Mellintrf
+    - Mscr
+    - phmmat
+  tags: []
+- symbol: 𝔐
+  entities:
+    - Mfr
+  tags: []
+- symbol: ∓
+  entities:
+    - MinusPlus
+    - mnplus
+    - mp
+  tags: []
+- symbol: 𝕄
+  entities:
+    - Mopf
+  tags: []
+- symbol: Μ
+  entities:
+    - Mu
+  tags:
+    - m
+    - mu
+- symbol: Њ
+  entities:
+    - NJcy
+  tags: []
+- symbol: Ń
+  entities:
+    - Nacute
+  tags: []
+- symbol: Ň
+  entities:
+    - Ncaron
+  tags: []
+- symbol: Ņ
+  entities:
+    - Ncedil
+  tags: []
+- symbol: Н
+  entities:
+    - Ncy
+  tags: []
+- symbol: ​
+  entities:
+    - NegativeMediumSpace
+    - NegativeThickSpace
+    - NegativeThinSpace
+    - NegativeVeryThinSpace
+    - ZeroWidthSpace
+  tags: []
+- symbol: "\n"
+  entities:
+    - NewLine
+  tags: []
+- symbol: 𝔑
+  entities:
+    - Nfr
+  tags: []
+- symbol: ⁠
+  entities:
+    - NoBreak
+  tags: []
+- symbol:  
+  entities:
+    - NonBreakingSpace
+    - nbsp
+  tags:
+    - space
+- symbol: ℕ
+  entities:
+    - Nopf
+    - naturals
+  tags: []
+- symbol: ⫬
+  entities:
+    - Not
+  tags: []
+- symbol: ≢
+  entities:
+    - NotCongruent
+    - nequiv
+  tags: []
+- symbol: ≭
+  entities:
+    - NotCupCap
+  tags: []
+- symbol: ∦
+  entities:
+    - NotDoubleVerticalBar
+    - npar
+    - nparallel
+    - nshortparallel
+    - nspar
+  tags: []
+- symbol: ∉
+  entities:
+    - NotElement
+    - notin
+    - notinva
+  tags:
+    - e
+    - not
+    - element
+- symbol: ≠
+  entities:
+    - NotEqual
+    - ne
+  tags:
+    - not
+    - equal
+    - =
+- symbol: ≂̸
+  entities:
+    - NotEqualTilde
+    - nesim
+  tags: []
+- symbol: ∄
+  entities:
+    - NotExists
+    - nexist
+    - nexists
+  tags: []
+- symbol: ≯
+  entities:
+    - NotGreater
+    - ngt
+    - ngtr
+  tags: []
+- symbol: ≱
+  entities:
+    - NotGreaterEqual
+    - nge
+    - ngeq
+  tags: []
+- symbol: ≧̸
+  entities:
+    - NotGreaterFullEqual
+    - ngE
+    - ngeqq
+  tags: []
+- symbol: ≫̸
+  entities:
+    - NotGreaterGreater
+    - nGtv
+  tags: []
+- symbol: ≹
+  entities:
+    - NotGreaterLess
+    - ntgl
+  tags: []
+- symbol: ⩾̸
+  entities:
+    - NotGreaterSlantEqual
+    - ngeqslant
+    - nges
+  tags: []
+- symbol: ≵
+  entities:
+    - NotGreaterTilde
+    - ngsim
+  tags: []
+- symbol: ≎̸
+  entities:
+    - NotHumpDownHump
+    - nbump
+  tags: []
+- symbol: ≏̸
+  entities:
+    - NotHumpEqual
+    - nbumpe
+  tags: []
+- symbol: ⋪
+  entities:
+    - NotLeftTriangle
+    - nltri
+    - ntriangleleft
+  tags: []
+- symbol: ⧏̸
+  entities:
+    - NotLeftTriangleBar
+  tags: []
+- symbol: ⋬
+  entities:
+    - NotLeftTriangleEqual
+    - nltrie
+    - ntrianglelefteq
+  tags: []
+- symbol: ≮
+  entities:
+    - NotLess
+    - nless
+    - nlt
+  tags: []
+- symbol: ≰
+  entities:
+    - NotLessEqual
+    - nle
+    - nleq
+  tags: []
+- symbol: ≸
+  entities:
+    - NotLessGreater
+    - ntlg
+  tags: []
+- symbol: ≪̸
+  entities:
+    - NotLessLess
+    - nLtv
+  tags: []
+- symbol: ⩽̸
+  entities:
+    - NotLessSlantEqual
+    - nleqslant
+    - nles
+  tags: []
+- symbol: ≴
+  entities:
+    - NotLessTilde
+    - nlsim
+  tags: []
+- symbol: ⪢̸
+  entities:
+    - NotNestedGreaterGreater
+  tags: []
+- symbol: ⪡̸
+  entities:
+    - NotNestedLessLess
+  tags: []
+- symbol: ⊀
+  entities:
+    - NotPrecedes
+    - npr
+    - nprec
+  tags: []
+- symbol: ⪯̸
+  entities:
+    - NotPrecedesEqual
+    - npre
+    - npreceq
+  tags: []
+- symbol: ⋠
+  entities:
+    - NotPrecedesSlantEqual
+    - nprcue
+  tags: []
+- symbol: ∌
+  entities:
+    - NotReverseElement
+    - notni
+    - notniva
+  tags: []
+- symbol: ⋫
+  entities:
+    - NotRightTriangle
+    - nrtri
+    - ntriangleright
+  tags: []
+- symbol: ⧐̸
+  entities:
+    - NotRightTriangleBar
+  tags: []
+- symbol: ⋭
+  entities:
+    - NotRightTriangleEqual
+    - nrtrie
+    - ntrianglerighteq
+  tags: []
+- symbol: ⊏̸
+  entities:
+    - NotSquareSubset
+  tags: []
+- symbol: ⋢
+  entities:
+    - NotSquareSubsetEqual
+    - nsqsube
+  tags: []
+- symbol: ⊐̸
+  entities:
+    - NotSquareSuperset
+  tags: []
+- symbol: ⋣
+  entities:
+    - NotSquareSupersetEqual
+    - nsqsupe
+  tags: []
+- symbol: ⊂⃒
+  entities:
+    - NotSubset
+    - nsubset
+    - vnsub
+  tags: []
+- symbol: ⊈
+  entities:
+    - NotSubsetEqual
+    - nsube
+    - nsubseteq
+  tags: []
+- symbol: ⊁
+  entities:
+    - NotSucceeds
+    - nsc
+    - nsucc
+  tags: []
+- symbol: ⪰̸
+  entities:
+    - NotSucceedsEqual
+    - nsce
+    - nsucceq
+  tags: []
+- symbol: ⋡
+  entities:
+    - NotSucceedsSlantEqual
+    - nsccue
+  tags: []
+- symbol: ≿̸
+  entities:
+    - NotSucceedsTilde
+  tags: []
+- symbol: ⊃⃒
+  entities:
+    - NotSuperset
+    - nsupset
+    - vnsup
+  tags: []
+- symbol: ⊉
+  entities:
+    - NotSupersetEqual
+    - nsupe
+    - nsupseteq
+  tags: []
+- symbol: ≁
+  entities:
+    - NotTilde
+    - nsim
+  tags: []
+- symbol: ≄
+  entities:
+    - NotTildeEqual
+    - nsime
+    - nsimeq
+  tags: []
+- symbol: ≇
+  entities:
+    - NotTildeFullEqual
+    - ncong
+  tags: []
+- symbol: ≉
+  entities:
+    - NotTildeTilde
+    - nap
+    - napprox
+  tags: []
+- symbol: ∤
+  entities:
+    - NotVerticalBar
+    - nmid
+    - nshortmid
+    - nsmid
+  tags: []
+- symbol: 𝒩
+  entities:
+    - Nscr
+  tags: []
+- symbol: Ñ
+  entities:
+    - Ntilde
+  tags:
+    - N
+    - tilde
+- symbol: Ν
+  entities:
+    - Nu
+  tags:
+    - n
+    - nu
+- symbol: Œ
+  entities:
+    - OElig
+  tags:
+    - OE
+- symbol: Ó
+  entities:
+    - Oacute
+  tags:
+    - O
+    - acute
+- symbol: Ô
+  entities:
+    - Ocirc
+  tags:
+    - O
+    - circumflex
+- symbol: О
+  entities:
+    - Ocy
+  tags: []
+- symbol: Ő
+  entities:
+    - Odblac
+  tags: []
+- symbol: 𝔒
+  entities:
+    - Ofr
+  tags: []
+- symbol: Ò
+  entities:
+    - Ograve
+  tags:
+    - O
+    - grave
+- symbol: Ō
+  entities:
+    - Omacr
+  tags: []
+- symbol: Ω
+  entities:
+    - Omega
+    - ohm
+  tags:
+    - omega
+    - o
+- symbol: Ο
+  entities:
+    - Omicron
+  tags:
+    - o
+    - omicron
+- symbol: 𝕆
+  entities:
+    - Oopf
+  tags: []
+- symbol: “
+  entities:
+    - OpenCurlyDoubleQuote
+    - ldquo
+  tags:
+    - '"'
+    - quotation
+    - quote
+- symbol: ‘
+  entities:
+    - OpenCurlyQuote
+    - lsquo
+  tags:
+    - left
+    - quotation
+    - quote
+    - "'"
+- symbol: ⩔
+  entities:
+    - Or
+  tags: []
+- symbol: 𝒪
+  entities:
+    - Oscr
+  tags: []
+- symbol: Ø
+  entities:
+    - Oslash
+  tags:
+    - O
+    - stroke
+    - slash
+- symbol: Õ
+  entities:
+    - Otilde
+  tags:
+    - O
+    - tilde
+- symbol: ⨷
+  entities:
+    - Otimes
+  tags: []
+- symbol: Ö
+  entities:
+    - Ouml
+  tags:
+    - O
+    - diaeresis
+- symbol: ‾
+  entities:
+    - OverBar
+    - oline
+  tags:
+    - overline
+    - overscore
+    - _
+- symbol: ⏞
+  entities:
+    - OverBrace
+  tags: []
+- symbol: ⎴
+  entities:
+    - OverBracket
+    - tbrk
+  tags: []
+- symbol: ⏜
+  entities:
+    - OverParenthesis
+  tags: []
+- symbol: ∂
+  entities:
+    - PartialD
+    - part
+  tags:
+    - partial
+    - differential
+    - d
+- symbol: П
+  entities:
+    - Pcy
+  tags: []
+- symbol: 𝔓
+  entities:
+    - Pfr
+  tags: []
+- symbol: Φ
+  entities:
+    - Phi
+  tags:
+    - o
+    - phi
+- symbol: Π
+  entities:
+    - Pi
+  tags:
+    - pi
+- symbol: ±
+  entities:
+    - PlusMinus
+    - plusmn
+    - pm
+  tags:
+    - plus-minus
+    - +
+    - "-"
+    - +-
+- symbol: ℙ
+  entities:
+    - Popf
+    - primes
+  tags: []
+- symbol: ⪻
+  entities:
+    - Pr
+  tags: []
+- symbol: ≺
+  entities:
+    - Precedes
+    - pr
+    - prec
+  tags: []
+- symbol: ⪯
+  entities:
+    - PrecedesEqual
+    - pre
+    - preceq
+  tags: []
+- symbol: ≼
+  entities:
+    - PrecedesSlantEqual
+    - prcue
+    - preccurlyeq
+  tags: []
+- symbol: ≾
+  entities:
+    - PrecedesTilde
+    - precsim
+    - prsim
+  tags: []
+- symbol: ″
+  entities:
+    - Prime
+  tags:
+    - '"'
+    - double
+    - "''"
+- symbol: ∏
+  entities:
+    - Product
+    - prod
+  tags:
+    - n-ary
+    - product
+    - n
+- symbol: ∝
+  entities:
+    - Proportional
+    - prop
+    - propto
+    - varpropto
+    - vprop
+  tags:
+    - proportional
+- symbol: 𝒫
+  entities:
+    - Pscr
+  tags: []
+- symbol: Ψ
+  entities:
+    - Psi
+  tags:
+    - y
+    - psi
+- symbol: '"'
+  entities:
+    - QUOT
+    - quot
+  tags:
+    - quotation
+- symbol: 𝔔
+  entities:
+    - Qfr
+  tags: []
+- symbol: ℚ
+  entities:
+    - Qopf
+    - rationals
+  tags: []
+- symbol: 𝒬
+  entities:
+    - Qscr
+  tags: []
+- symbol: ⤐
+  entities:
+    - RBarr
+    - drbkarow
+  tags: []
+- symbol: ®
+  entities:
+    - REG
+    - circledR
+    - reg
+  tags:
+    - (r)
+    - r
+    - registered
+- symbol: Ŕ
+  entities:
+    - Racute
+  tags: []
+- symbol: ⟫
+  entities:
+    - Rang
+  tags: []
+- symbol: ↠
+  entities:
+    - Rarr
+    - twoheadrightarrow
+  tags: []
+- symbol: ⤖
+  entities:
+    - Rarrtl
+  tags: []
+- symbol: Ř
+  entities:
+    - Rcaron
+  tags: []
+- symbol: Ŗ
+  entities:
+    - Rcedil
+  tags: []
+- symbol: Р
+  entities:
+    - Rcy
+  tags: []
+- symbol: ℜ
+  entities:
+    - Re
+    - Rfr
+    - real
+    - realpart
+  tags:
+    - R
+    - blackletter
+    - real
+    - part
+- symbol: ∋
+  entities:
+    - ReverseElement
+    - SuchThat
+    - ni
+    - niv
+  tags:
+    - contains
+    - member
+    - e
+- symbol: ⇋
+  entities:
+    - ReverseEquilibrium
+    - leftrightharpoons
+    - lrhar
+  tags: []
+- symbol: ⥯
+  entities:
+    - ReverseUpEquilibrium
+    - duhar
+  tags: []
+- symbol: Ρ
+  entities:
+    - Rho
+  tags:
+    - p
+    - rho
+- symbol: ⟩
+  entities:
+    - RightAngleBracket
+    - rang
+    - rangle
+  tags:
+    - ">"
+    - angle
+    - bracket
+- symbol: →
+  entities:
+    - RightArrow
+    - ShortRightArrow
+    - rarr
+    - rightarrow
+    - srarr
+  tags:
+    - ->
+    - ">"
+    - rightwards
+    - arrow
+- symbol: ⇥
+  entities:
+    - RightArrowBar
+    - rarrb
+  tags: []
+- symbol: ⇄
+  entities:
+    - RightArrowLeftArrow
+    - rightleftarrows
+    - rlarr
+  tags: []
+- symbol: ⌉
+  entities:
+    - RightCeiling
+    - rceil
+  tags:
+    - "]"
+    - right
+- symbol: ⟧
+  entities:
+    - RightDoubleBracket
+    - robrk
+  tags: []
+- symbol: ⥝
+  entities:
+    - RightDownTeeVector
+  tags: []
+- symbol: ⇂
+  entities:
+    - RightDownVector
+    - dharr
+    - downharpoonright
+  tags: []
+- symbol: ⥕
+  entities:
+    - RightDownVectorBar
+  tags: []
+- symbol: ⌋
+  entities:
+    - RightFloor
+    - rfloor
+  tags:
+    - "]"
+    - right
+    - floor
+- symbol: ⊢
+  entities:
+    - RightTee
+    - vdash
+  tags: []
+- symbol: ↦
+  entities:
+    - RightTeeArrow
+    - map
+    - mapsto
+  tags: []
+- symbol: ⥛
+  entities:
+    - RightTeeVector
+  tags: []
+- symbol: ⊳
+  entities:
+    - RightTriangle
+    - vartriangleright
+    - vrtri
+  tags: []
+- symbol: ⧐
+  entities:
+    - RightTriangleBar
+  tags: []
+- symbol: ⊵
+  entities:
+    - RightTriangleEqual
+    - rtrie
+    - trianglerighteq
+  tags: []
+- symbol: ⥏
+  entities:
+    - RightUpDownVector
+  tags: []
+- symbol: ⥜
+  entities:
+    - RightUpTeeVector
+  tags: []
+- symbol: ↾
+  entities:
+    - RightUpVector
+    - uharr
+    - upharpoonright
+  tags: []
+- symbol: ⥔
+  entities:
+    - RightUpVectorBar
+  tags: []
+- symbol: ⇀
+  entities:
+    - RightVector
+    - rharu
+    - rightharpoonup
+  tags: []
+- symbol: ⥓
+  entities:
+    - RightVectorBar
+  tags: []
+- symbol: ℝ
+  entities:
+    - Ropf
+    - reals
+  tags: []
+- symbol: ⥰
+  entities:
+    - RoundImplies
+  tags: []
+- symbol: ⇛
+  entities:
+    - Rrightarrow
+    - rAarr
+  tags: []
+- symbol: ℛ
+  entities:
+    - Rscr
+    - realine
+  tags: []
+- symbol: ↱
+  entities:
+    - Rsh
+    - rsh
+  tags: []
+- symbol: ⧴
+  entities:
+    - RuleDelayed
+  tags: []
+- symbol: Щ
+  entities:
+    - SHCHcy
+  tags: []
+- symbol: Ш
+  entities:
+    - SHcy
+  tags: []
+- symbol: Ь
+  entities:
+    - SOFTcy
+  tags: []
+- symbol: Ś
+  entities:
+    - Sacute
+  tags: []
+- symbol: ⪼
+  entities:
+    - Sc
+  tags: []
+- symbol: Š
+  entities:
+    - Scaron
+  tags:
+    - S
+    - caron
+- symbol: Ş
+  entities:
+    - Scedil
+  tags: []
+- symbol: Ŝ
+  entities:
+    - Scirc
+  tags: []
+- symbol: С
+  entities:
+    - Scy
+  tags: []
+- symbol: 𝔖
+  entities:
+    - Sfr
+  tags: []
+- symbol: ↑
+  entities:
+    - ShortUpArrow
+    - UpArrow
+    - uarr
+    - uparrow
+  tags:
+    - arrow
+- symbol: Σ
+  entities:
+    - Sigma
+  tags:
+    - sigma
+    - e
+- symbol: ∘
+  entities:
+    - SmallCircle
+    - compfn
+  tags: []
+- symbol: 𝕊
+  entities:
+    - Sopf
+  tags: []
+- symbol: √
+  entities:
+    - Sqrt
+    - radic
+  tags:
+    - square
+    - root
+    - y
+    - ^
+- symbol: □
+  entities:
+    - Square
+    - squ
+    - square
+  tags: []
+- symbol: ⊓
+  entities:
+    - SquareIntersection
+    - sqcap
+  tags: []
+- symbol: ⊏
+  entities:
+    - SquareSubset
+    - sqsub
+    - sqsubset
+  tags: []
+- symbol: ⊑
+  entities:
+    - SquareSubsetEqual
+    - sqsube
+    - sqsubseteq
+  tags: []
+- symbol: ⊐
+  entities:
+    - SquareSuperset
+    - sqsup
+    - sqsupset
+  tags: []
+- symbol: ⊒
+  entities:
+    - SquareSupersetEqual
+    - sqsupe
+    - sqsupseteq
+  tags: []
+- symbol: ⊔
+  entities:
+    - SquareUnion
+    - sqcup
+  tags: []
+- symbol: 𝒮
+  entities:
+    - Sscr
+  tags: []
+- symbol: ⋆
+  entities:
+    - Star
+    - sstarf
+  tags: []
+- symbol: ⋐
+  entities:
+    - Sub
+    - Subset
+  tags: []
+- symbol: ⊆
+  entities:
+    - SubsetEqual
+    - sube
+    - subseteq
+  tags:
+    - subset
+    - equal
+    - c
+    - =
+- symbol: ≻
+  entities:
+    - Succeeds
+    - sc
+    - succ
+  tags: []
+- symbol: ⪰
+  entities:
+    - SucceedsEqual
+    - sce
+    - succeq
+  tags: []
+- symbol: ≽
+  entities:
+    - SucceedsSlantEqual
+    - sccue
+    - succcurlyeq
+  tags: []
+- symbol: ≿
+  entities:
+    - SucceedsTilde
+    - scsim
+    - succsim
+  tags: []
+- symbol: ∑
+  entities:
+    - Sum
+    - sum
+  tags:
+    - e
+    - n-ary
+    - sumation
+- symbol: ⋑
+  entities:
+    - Sup
+    - Supset
+  tags: []
+- symbol: ⊃
+  entities:
+    - Superset
+    - sup
+    - supset
+  tags:
+    - superset
+    - c
+- symbol: ⊇
+  entities:
+    - SupersetEqual
+    - supe
+    - supseteq
+  tags:
+    - c
+    - superset
+    - equal
+    - =
+- symbol: Þ
+  entities:
+    - THORN
+  tags:
+    - THORN
+    - P
+- symbol: ™
+  entities:
+    - TRADE
+    - trade
+  tags:
+    - trade
+    - mark
+    - tm
+- symbol: Ћ
+  entities:
+    - TSHcy
+  tags: []
+- symbol: Ц
+  entities:
+    - TScy
+  tags: []
+- symbol: "\t"
+  entities:
+    - Tab
+  tags: []
+- symbol: Τ
+  entities:
+    - Tau
+  tags:
+    - t
+    - tau
+- symbol: Ť
+  entities:
+    - Tcaron
+  tags: []
+- symbol: Ţ
+  entities:
+    - Tcedil
+  tags: []
+- symbol: Т
+  entities:
+    - Tcy
+  tags: []
+- symbol: 𝔗
+  entities:
+    - Tfr
+  tags: []
+- symbol: ∴
+  entities:
+    - Therefore
+    - there4
+    - therefore
+  tags:
+    - therefore
+- symbol: Θ
+  entities:
+    - Theta
+  tags:
+    - theta
+    - o
+- symbol:   
+  entities:
+    - ThickSpace
+  tags: []
+- symbol:  
+  entities:
+    - ThinSpace
+    - thinsp
+  tags:
+    - space
+- symbol: ∼
+  entities:
+    - Tilde
+    - sim
+    - thicksim
+    - thksim
+  tags:
+    - tilde
+    - "~"
+    - similar
+- symbol: ≃
+  entities:
+    - TildeEqual
+    - sime
+    - simeq
+  tags: []
+- symbol: ≅
+  entities:
+    - TildeFullEqual
+    - cong
+  tags:
+    - approximately
+    - equal
+    - =
+    - "~"
+- symbol: ≈
+  entities:
+    - TildeTilde
+    - ap
+    - approx
+    - asymp
+    - thickapprox
+    - thkap
+  tags:
+    - almost
+    - "~"
+    - ~~
+    - =
+    - equal
+- symbol: 𝕋
+  entities:
+    - Topf
+  tags: []
+- symbol: ⃛
+  entities:
+    - TripleDot
+    - tdot
+  tags: []
+- symbol: 𝒯
+  entities:
+    - Tscr
+  tags: []
+- symbol: Ŧ
+  entities:
+    - Tstrok
+  tags: []
+- symbol: Ú
+  entities:
+    - Uacute
+  tags:
+    - U
+    - acute
+- symbol: ↟
+  entities:
+    - Uarr
+  tags: []
+- symbol: ⥉
+  entities:
+    - Uarrocir
+  tags: []
+- symbol: Ў
+  entities:
+    - Ubrcy
+  tags: []
+- symbol: Ŭ
+  entities:
+    - Ubreve
+  tags: []
+- symbol: Û
+  entities:
+    - Ucirc
+  tags:
+    - U
+    - circumflex
+- symbol: У
+  entities:
+    - Ucy
+  tags: []
+- symbol: Ű
+  entities:
+    - Udblac
+  tags: []
+- symbol: 𝔘
+  entities:
+    - Ufr
+  tags: []
+- symbol: Ù
+  entities:
+    - Ugrave
+  tags:
+    - U
+    - grave
+- symbol: Ū
+  entities:
+    - Umacr
+  tags: []
+- symbol: _
+  entities:
+    - UnderBar
+    - lowbar
+  tags: []
+- symbol: ⏟
+  entities:
+    - UnderBrace
+  tags: []
+- symbol: ⎵
+  entities:
+    - UnderBracket
+    - bbrk
+  tags: []
+- symbol: ⏝
+  entities:
+    - UnderParenthesis
+  tags: []
+- symbol: ⋃
+  entities:
+    - Union
+    - bigcup
+    - xcup
+  tags: []
+- symbol: ⊎
+  entities:
+    - UnionPlus
+    - uplus
+  tags: []
+- symbol: Ų
+  entities:
+    - Uogon
+  tags: []
+- symbol: 𝕌
+  entities:
+    - Uopf
+  tags: []
+- symbol: ⤒
+  entities:
+    - UpArrowBar
+  tags: []
+- symbol: ⇅
+  entities:
+    - UpArrowDownArrow
+    - udarr
+  tags: []
+- symbol: ↕
+  entities:
+    - UpDownArrow
+    - updownarrow
+    - varr
+  tags: []
+- symbol: ⥮
+  entities:
+    - UpEquilibrium
+    - udhar
+  tags: []
+- symbol: ⊥
+  entities:
+    - UpTee
+    - bot
+    - bottom
+    - perp
+  tags:
+    - up
+    - "|"
+    - orthogonal
+    - perpendicular
+- symbol: ↥
+  entities:
+    - UpTeeArrow
+    - mapstoup
+  tags: []
+- symbol: ↖
+  entities:
+    - UpperLeftArrow
+    - nwarr
+    - nwarrow
+  tags: []
+- symbol: ↗
+  entities:
+    - UpperRightArrow
+    - nearr
+    - nearrow
+  tags: []
+- symbol: ϒ
+  entities:
+    - Upsi
+    - upsih
+  tags:
+    - y
+    - hook
+    - upsilon
+- symbol: Υ
+  entities:
+    - Upsilon
+  tags:
+    - upsilon
+    - y
+- symbol: Ů
+  entities:
+    - Uring
+  tags: []
+- symbol: 𝒰
+  entities:
+    - Uscr
+  tags: []
+- symbol: Ũ
+  entities:
+    - Utilde
+  tags: []
+- symbol: Ü
+  entities:
+    - Uuml
+  tags:
+    - U
+    - diaeresis
+- symbol: ⊫
+  entities:
+    - VDash
+  tags: []
+- symbol: ⫫
+  entities:
+    - Vbar
+  tags: []
+- symbol: В
+  entities:
+    - Vcy
+  tags: []
+- symbol: ⊩
+  entities:
+    - Vdash
+  tags: []
+- symbol: ⫦
+  entities:
+    - Vdashl
+  tags: []
+- symbol: ⋁
+  entities:
+    - Vee
+    - bigvee
+    - xvee
+  tags: []
+- symbol: ‖
+  entities:
+    - Verbar
+    - Vert
+  tags: []
+- symbol: ∣
+  entities:
+    - VerticalBar
+    - mid
+    - shortmid
+    - smid
+  tags: []
+- symbol: "|"
+  entities:
+    - VerticalLine
+    - verbar
+    - vert
+  tags: []
+- symbol: ❘
+  entities:
+    - VerticalSeparator
+  tags: []
+- symbol: ≀
+  entities:
+    - VerticalTilde
+    - wr
+    - wreath
+  tags: []
+- symbol:  
+  entities:
+    - VeryThinSpace
+    - hairsp
+  tags: []
+- symbol: 𝔙
+  entities:
+    - Vfr
+  tags: []
+- symbol: 𝕍
+  entities:
+    - Vopf
+  tags: []
+- symbol: 𝒱
+  entities:
+    - Vscr
+  tags: []
+- symbol: ⊪
+  entities:
+    - Vvdash
+  tags: []
+- symbol: Ŵ
+  entities:
+    - Wcirc
+  tags: []
+- symbol: ⋀
+  entities:
+    - Wedge
+    - bigwedge
+    - xwedge
+  tags: []
+- symbol: 𝔚
+  entities:
+    - Wfr
+  tags: []
+- symbol: 𝕎
+  entities:
+    - Wopf
+  tags: []
+- symbol: 𝒲
+  entities:
+    - Wscr
+  tags: []
+- symbol: 𝔛
+  entities:
+    - Xfr
+  tags: []
+- symbol: Ξ
+  entities:
+    - Xi
+  tags:
+    - xi
+    - e
+- symbol: 𝕏
+  entities:
+    - Xopf
+  tags: []
+- symbol: 𝒳
+  entities:
+    - Xscr
+  tags: []
+- symbol: Я
+  entities:
+    - YAcy
+  tags: []
+- symbol: Ї
+  entities:
+    - YIcy
+  tags: []
+- symbol: Ю
+  entities:
+    - YUcy
+  tags: []
+- symbol: Ý
+  entities:
+    - Yacute
+  tags:
+    - Y
+    - acute
+- symbol: Ŷ
+  entities:
+    - Ycirc
+  tags: []
+- symbol: Ы
+  entities:
+    - Ycy
+  tags: []
+- symbol: 𝔜
+  entities:
+    - Yfr
+  tags: []
+- symbol: 𝕐
+  entities:
+    - Yopf
+  tags: []
+- symbol: 𝒴
+  entities:
+    - Yscr
+  tags: []
+- symbol: Ÿ
+  entities:
+    - Yuml
+  tags:
+    - Y
+    - diaeresis
+- symbol: Ж
+  entities:
+    - ZHcy
+  tags: []
+- symbol: Ź
+  entities:
+    - Zacute
+  tags: []
+- symbol: Ž
+  entities:
+    - Zcaron
+  tags: []
+- symbol: З
+  entities:
+    - Zcy
+  tags: []
+- symbol: Ż
+  entities:
+    - Zdot
+  tags: []
+- symbol: Ζ
+  entities:
+    - Zeta
+  tags:
+    - z
+    - zeta
+- symbol: ℨ
+  entities:
+    - Zfr
+    - zeetrf
+  tags: []
+- symbol: ℤ
+  entities:
+    - Zopf
+    - integers
+  tags: []
+- symbol: 𝒵
+  entities:
+    - Zscr
+  tags: []
+- symbol: á
+  entities:
+    - aacute
+  tags:
+    - a
+    - acute
+- symbol: ă
+  entities:
+    - abreve
+  tags: []
+- symbol: ∾
+  entities:
+    - ac
+    - mstpos
+  tags: []
+- symbol: ∾̳
+  entities:
+    - acE
+  tags: []
+- symbol: ∿
+  entities:
+    - acd
+  tags: []
+- symbol: â
+  entities:
+    - acirc
+  tags:
+    - a
+    - circumflex
+- symbol: а
+  entities:
+    - acy
+  tags: []
+- symbol: æ
+  entities:
+    - aelig
+  tags:
+    - ae
+- symbol: 𝔞
+  entities:
+    - afr
+  tags: []
+- symbol: à
+  entities:
+    - agrave
+  tags:
+    - a
+    - grave
+- symbol: ℵ
+  entities:
+    - alefsym
+    - aleph
+  tags:
+    - alef
+    - transfinite
+    - n
+- symbol: α
+  entities:
+    - alpha
+  tags:
+    - alpha
+    - a
+- symbol: ā
+  entities:
+    - amacr
+  tags: []
+- symbol: ⨿
+  entities:
+    - amalg
+  tags: []
+- symbol: ∧
+  entities:
+    - and
+    - wedge
+  tags:
+    - logical
+    - and
+    - wedge
+    - ^
+- symbol: ⩕
+  entities:
+    - andand
+  tags: []
+- symbol: ⩜
+  entities:
+    - andd
+  tags: []
+- symbol: ⩘
+  entities:
+    - andslope
+  tags: []
+- symbol: ⩚
+  entities:
+    - andv
+  tags: []
+- symbol: ∠
+  entities:
+    - ang
+    - angle
+  tags:
+    - angle
+    - <
+- symbol: ⦤
+  entities:
+    - ange
+  tags: []
+- symbol: ∡
+  entities:
+    - angmsd
+    - measuredangle
+  tags: []
+- symbol: ⦨
+  entities:
+    - angmsdaa
+  tags: []
+- symbol: ⦩
+  entities:
+    - angmsdab
+  tags: []
+- symbol: ⦪
+  entities:
+    - angmsdac
+  tags: []
+- symbol: ⦫
+  entities:
+    - angmsdad
+  tags: []
+- symbol: ⦬
+  entities:
+    - angmsdae
+  tags: []
+- symbol: ⦭
+  entities:
+    - angmsdaf
+  tags: []
+- symbol: ⦮
+  entities:
+    - angmsdag
+  tags: []
+- symbol: ⦯
+  entities:
+    - angmsdah
+  tags: []
+- symbol: ∟
+  entities:
+    - angrt
+  tags: []
+- symbol: ⊾
+  entities:
+    - angrtvb
+  tags: []
+- symbol: ⦝
+  entities:
+    - angrtvbd
+  tags: []
+- symbol: ∢
+  entities:
+    - angsph
+  tags: []
+- symbol: ⍼
+  entities:
+    - angzarr
+  tags: []
+- symbol: ą
+  entities:
+    - aogon
+  tags: []
+- symbol: 𝕒
+  entities:
+    - aopf
+  tags: []
+- symbol: ⩰
+  entities:
+    - apE
+  tags: []
+- symbol: ⩯
+  entities:
+    - apacir
+  tags: []
+- symbol: ≊
+  entities:
+    - ape
+    - approxeq
+  tags: []
+- symbol: ≋
+  entities:
+    - apid
+  tags: []
+- symbol: "'"
+  entities:
+    - apos
+  tags: []
+- symbol: å
+  entities:
+    - aring
+  tags:
+    - a
+    - ring
+- symbol: 𝒶
+  entities:
+    - ascr
+  tags: []
+- symbol: "*"
+  entities:
+    - ast
+    - midast
+  tags: []
+- symbol: ã
+  entities:
+    - atilde
+  tags:
+    - a
+    - tilde
+- symbol: ä
+  entities:
+    - auml
+  tags:
+    - a
+    - diaeresis
+- symbol: ⨑
+  entities:
+    - awint
+  tags: []
+- symbol: ⫭
+  entities:
+    - bNot
+  tags: []
+- symbol: ≌
+  entities:
+    - backcong
+    - bcong
+  tags: []
+- symbol: ϶
+  entities:
+    - backepsilon
+    - bepsi
+  tags: []
+- symbol: ‵
+  entities:
+    - backprime
+    - bprime
+  tags: []
+- symbol: ∽
+  entities:
+    - backsim
+    - bsim
+  tags: []
+- symbol: ⋍
+  entities:
+    - backsimeq
+    - bsime
+  tags: []
+- symbol: ⊽
+  entities:
+    - barvee
+  tags: []
+- symbol: ⌅
+  entities:
+    - barwed
+    - barwedge
+  tags: []
+- symbol: ⎶
+  entities:
+    - bbrktbrk
+  tags: []
+- symbol: б
+  entities:
+    - bcy
+  tags: []
+- symbol: „
+  entities:
+    - bdquo
+    - ldquor
+  tags:
+    - double
+    - low-9
+    - quotation
+    - quote
+    - '"'
+- symbol: ⦰
+  entities:
+    - bemptyv
+  tags: []
+- symbol: β
+  entities:
+    - beta
+  tags:
+    - b
+    - beta
+- symbol: ℶ
+  entities:
+    - beth
+  tags: []
+- symbol: ≬
+  entities:
+    - between
+    - twixt
+  tags: []
+- symbol: 𝔟
+  entities:
+    - bfr
+  tags: []
+- symbol: ◯
+  entities:
+    - bigcirc
+    - xcirc
+  tags: []
+- symbol: ⨀
+  entities:
+    - bigodot
+    - xodot
+  tags: []
+- symbol: ⨁
+  entities:
+    - bigoplus
+    - xoplus
+  tags: []
+- symbol: ⨂
+  entities:
+    - bigotimes
+    - xotime
+  tags: []
+- symbol: ⨆
+  entities:
+    - bigsqcup
+    - xsqcup
+  tags: []
+- symbol: ★
+  entities:
+    - bigstar
+    - starf
+  tags: []
+- symbol: ▽
+  entities:
+    - bigtriangledown
+    - xdtri
+  tags: []
+- symbol: △
+  entities:
+    - bigtriangleup
+    - xutri
+  tags: []
+- symbol: ⨄
+  entities:
+    - biguplus
+    - xuplus
+  tags: []
+- symbol: ⤍
+  entities:
+    - bkarow
+    - rbarr
+  tags: []
+- symbol: ⧫
+  entities:
+    - blacklozenge
+    - lozf
+  tags: []
+- symbol: ▴
+  entities:
+    - blacktriangle
+    - utrif
+  tags: []
+- symbol: ▾
+  entities:
+    - blacktriangledown
+    - dtrif
+  tags: []
+- symbol: ◂
+  entities:
+    - blacktriangleleft
+    - ltrif
+  tags: []
+- symbol: ▸
+  entities:
+    - blacktriangleright
+    - rtrif
+  tags: []
+- symbol: ␣
+  entities:
+    - blank
+  tags: []
+- symbol: ▒
+  entities:
+    - blk12
+  tags: []
+- symbol: ░
+  entities:
+    - blk14
+  tags: []
+- symbol: ▓
+  entities:
+    - blk34
+  tags: []
+- symbol: █
+  entities:
+    - block
+  tags: []
+- symbol: =⃥
+  entities:
+    - bne
+  tags: []
+- symbol: ≡⃥
+  entities:
+    - bnequiv
+  tags: []
+- symbol: ⌐
+  entities:
+    - bnot
+  tags: []
+- symbol: 𝕓
+  entities:
+    - bopf
+  tags: []
+- symbol: ⋈
+  entities:
+    - bowtie
+  tags: []
+- symbol: ╗
+  entities:
+    - boxDL
+  tags: []
+- symbol: ╔
+  entities:
+    - boxDR
+  tags: []
+- symbol: ╖
+  entities:
+    - boxDl
+  tags: []
+- symbol: ╓
+  entities:
+    - boxDr
+  tags: []
+- symbol: ═
+  entities:
+    - boxH
+  tags: []
+- symbol: ╦
+  entities:
+    - boxHD
+  tags: []
+- symbol: ╩
+  entities:
+    - boxHU
+  tags: []
+- symbol: ╤
+  entities:
+    - boxHd
+  tags: []
+- symbol: ╧
+  entities:
+    - boxHu
+  tags: []
+- symbol: ╝
+  entities:
+    - boxUL
+  tags: []
+- symbol: ╚
+  entities:
+    - boxUR
+  tags: []
+- symbol: ╜
+  entities:
+    - boxUl
+  tags: []
+- symbol: ╙
+  entities:
+    - boxUr
+  tags: []
+- symbol: ║
+  entities:
+    - boxV
+  tags: []
+- symbol: ╬
+  entities:
+    - boxVH
+  tags: []
+- symbol: ╣
+  entities:
+    - boxVL
+  tags: []
+- symbol: ╠
+  entities:
+    - boxVR
+  tags: []
+- symbol: ╫
+  entities:
+    - boxVh
+  tags: []
+- symbol: ╢
+  entities:
+    - boxVl
+  tags: []
+- symbol: ╟
+  entities:
+    - boxVr
+  tags: []
+- symbol: ⧉
+  entities:
+    - boxbox
+  tags: []
+- symbol: ╕
+  entities:
+    - boxdL
+  tags: []
+- symbol: ╒
+  entities:
+    - boxdR
+  tags: []
+- symbol: ┐
+  entities:
+    - boxdl
+  tags: []
+- symbol: ┌
+  entities:
+    - boxdr
+  tags: []
+- symbol: ╥
+  entities:
+    - boxhD
+  tags: []
+- symbol: ╨
+  entities:
+    - boxhU
+  tags: []
+- symbol: ┬
+  entities:
+    - boxhd
+  tags: []
+- symbol: ┴
+  entities:
+    - boxhu
+  tags: []
+- symbol: ⊟
+  entities:
+    - boxminus
+    - minusb
+  tags: []
+- symbol: ⊞
+  entities:
+    - boxplus
+    - plusb
+  tags: []
+- symbol: ⊠
+  entities:
+    - boxtimes
+    - timesb
+  tags: []
+- symbol: ╛
+  entities:
+    - boxuL
+  tags: []
+- symbol: ╘
+  entities:
+    - boxuR
+  tags: []
+- symbol: ┘
+  entities:
+    - boxul
+  tags: []
+- symbol: └
+  entities:
+    - boxur
+  tags: []
+- symbol: │
+  entities:
+    - boxv
+  tags: []
+- symbol: ╪
+  entities:
+    - boxvH
+  tags: []
+- symbol: ╡
+  entities:
+    - boxvL
+  tags: []
+- symbol: ╞
+  entities:
+    - boxvR
+  tags: []
+- symbol: ┼
+  entities:
+    - boxvh
+  tags: []
+- symbol: ┤
+  entities:
+    - boxvl
+  tags: []
+- symbol: ├
+  entities:
+    - boxvr
+  tags: []
+- symbol: ¦
+  entities:
+    - brvbar
+  tags:
+    - bar
+    - vertical
+    - "|"
+- symbol: 𝒷
+  entities:
+    - bscr
+  tags: []
+- symbol: ⁏
+  entities:
+    - bsemi
+  tags: []
+- symbol: \
+  entities:
+    - bsol
+  tags: []
+- symbol: ⧅
+  entities:
+    - bsolb
+  tags: []
+- symbol: ⟈
+  entities:
+    - bsolhsub
+  tags: []
+- symbol: •
+  entities:
+    - bull
+    - bullet
+  tags:
+    - "*"
+    - bullet
+- symbol: ⪮
+  entities:
+    - bumpE
+  tags: []
+- symbol: ć
+  entities:
+    - cacute
+  tags: []
+- symbol: ∩
+  entities:
+    - cap
+  tags:
+    - intersection
+    - cap
+- symbol: ⩄
+  entities:
+    - capand
+  tags: []
+- symbol: ⩉
+  entities:
+    - capbrcup
+  tags: []
+- symbol: ⩋
+  entities:
+    - capcap
+  tags: []
+- symbol: ⩇
+  entities:
+    - capcup
+  tags: []
+- symbol: ⩀
+  entities:
+    - capdot
+  tags: []
+- symbol: ∩︀
+  entities:
+    - caps
+  tags: []
+- symbol: ⁁
+  entities:
+    - caret
+  tags: []
+- symbol: ⩍
+  entities:
+    - ccaps
+  tags: []
+- symbol: č
+  entities:
+    - ccaron
+  tags: []
+- symbol: ç
+  entities:
+    - ccedil
+  tags:
+    - c
+    - cedilla
+- symbol: ĉ
+  entities:
+    - ccirc
+  tags: []
+- symbol: ⩌
+  entities:
+    - ccups
+  tags: []
+- symbol: ⩐
+  entities:
+    - ccupssm
+  tags: []
+- symbol: ċ
+  entities:
+    - cdot
+  tags: []
+- symbol: ⦲
+  entities:
+    - cemptyv
+  tags: []
+- symbol: ¢
+  entities:
+    - cent
+  tags:
+    - cent
+    - c
+- symbol: 𝔠
+  entities:
+    - cfr
+  tags: []
+- symbol: ч
+  entities:
+    - chcy
+  tags: []
+- symbol: ✓
+  entities:
+    - check
+    - checkmark
+  tags: []
+- symbol: χ
+  entities:
+    - chi
+  tags:
+    - x
+    - chi
+- symbol: ○
+  entities:
+    - cir
+  tags: []
+- symbol: ⧃
+  entities:
+    - cirE
+  tags: []
+- symbol: ˆ
+  entities:
+    - circ
+  tags:
+    - circumflex
+    - accent
+    - ^
+- symbol: ≗
+  entities:
+    - circeq
+    - cire
+  tags: []
+- symbol: ↺
+  entities:
+    - circlearrowleft
+    - olarr
+  tags: []
+- symbol: ↻
+  entities:
+    - circlearrowright
+    - orarr
+  tags: []
+- symbol: Ⓢ
+  entities:
+    - circledS
+    - oS
+  tags: []
+- symbol: ⊛
+  entities:
+    - circledast
+    - oast
+  tags: []
+- symbol: ⊚
+  entities:
+    - circledcirc
+    - ocir
+  tags: []
+- symbol: ⊝
+  entities:
+    - circleddash
+    - odash
+  tags: []
+- symbol: ⨐
+  entities:
+    - cirfnint
+  tags: []
+- symbol: ⫯
+  entities:
+    - cirmid
+  tags: []
+- symbol: ⧂
+  entities:
+    - cirscir
+  tags: []
+- symbol: ♣
+  entities:
+    - clubs
+    - clubsuit
+  tags:
+    - club
+    - shamrock
+    - card
+    - cards
+- symbol: ":"
+  entities:
+    - colon
+  tags: []
+- symbol: ","
+  entities:
+    - comma
+  tags: []
+- symbol: "@"
+  entities:
+    - commat
+  tags: []
+- symbol: ∁
+  entities:
+    - comp
+    - complement
+  tags: []
+- symbol: ⩭
+  entities:
+    - congdot
+  tags: []
+- symbol: 𝕔
+  entities:
+    - copf
+  tags: []
+- symbol: ℗
+  entities:
+    - copysr
+  tags: []
+- symbol: ↵
+  entities:
+    - crarr
+  tags:
+    - downwards
+    - arrow
+    - leftwards
+    - carriage
+    - return
+    - enter
+- symbol: ✗
+  entities:
+    - cross
+  tags: []
+- symbol: 𝒸
+  entities:
+    - cscr
+  tags: []
+- symbol: ⫏
+  entities:
+    - csub
+  tags: []
+- symbol: ⫑
+  entities:
+    - csube
+  tags: []
+- symbol: ⫐
+  entities:
+    - csup
+  tags: []
+- symbol: ⫒
+  entities:
+    - csupe
+  tags: []
+- symbol: ⋯
+  entities:
+    - ctdot
+  tags: []
+- symbol: ⤸
+  entities:
+    - cudarrl
+  tags: []
+- symbol: ⤵
+  entities:
+    - cudarrr
+  tags: []
+- symbol: ⋞
+  entities:
+    - cuepr
+    - curlyeqprec
+  tags: []
+- symbol: ⋟
+  entities:
+    - cuesc
+    - curlyeqsucc
+  tags: []
+- symbol: ↶
+  entities:
+    - cularr
+    - curvearrowleft
+  tags: []
+- symbol: ⤽
+  entities:
+    - cularrp
+  tags: []
+- symbol: ∪
+  entities:
+    - cup
+  tags:
+    - union
+    - cup
+- symbol: ⩈
+  entities:
+    - cupbrcap
+  tags: []
+- symbol: ⩆
+  entities:
+    - cupcap
+  tags: []
+- symbol: ⩊
+  entities:
+    - cupcup
+  tags: []
+- symbol: ⊍
+  entities:
+    - cupdot
+  tags: []
+- symbol: ⩅
+  entities:
+    - cupor
+  tags: []
+- symbol: ∪︀
+  entities:
+    - cups
+  tags: []
+- symbol: ↷
+  entities:
+    - curarr
+    - curvearrowright
+  tags: []
+- symbol: ⤼
+  entities:
+    - curarrm
+  tags: []
+- symbol: ⋎
+  entities:
+    - curlyvee
+    - cuvee
+  tags: []
+- symbol: ⋏
+  entities:
+    - curlywedge
+    - cuwed
+  tags: []
+- symbol: ¤
+  entities:
+    - curren
+  tags:
+    - currency
+- symbol: ∱
+  entities:
+    - cwint
+  tags: []
+- symbol: ⌭
+  entities:
+    - cylcty
+  tags: []
+- symbol: ⥥
+  entities:
+    - dHar
+  tags: []
+- symbol: †
+  entities:
+    - dagger
+  tags:
+    - +
+    - dagger
+- symbol: ℸ
+  entities:
+    - daleth
+  tags: []
+- symbol: ‐
+  entities:
+    - dash
+    - hyphen
+  tags: []
+- symbol: ⤏
+  entities:
+    - dbkarow
+    - rBarr
+  tags: []
+- symbol: ď
+  entities:
+    - dcaron
+  tags: []
+- symbol: д
+  entities:
+    - dcy
+  tags: []
+- symbol: ⇊
+  entities:
+    - ddarr
+    - downdownarrows
+  tags: []
+- symbol: ⩷
+  entities:
+    - ddotseq
+    - eDDot
+  tags: []
+- symbol: °
+  entities:
+    - deg
+  tags:
+    - degree
+    - o
+- symbol: δ
+  entities:
+    - delta
+  tags:
+    - d
+    - delta
+    - o
+- symbol: ⦱
+  entities:
+    - demptyv
+  tags: []
+- symbol: ⥿
+  entities:
+    - dfisht
+  tags: []
+- symbol: 𝔡
+  entities:
+    - dfr
+  tags: []
+- symbol: ♦
+  entities:
+    - diamondsuit
+    - diams
+  tags:
+    - card
+    - cards
+    - diamond
+- symbol: ϝ
+  entities:
+    - digamma
+    - gammad
+  tags: []
+- symbol: ⋲
+  entities:
+    - disin
+  tags: []
+- symbol: ÷
+  entities:
+    - div
+    - divide
+  tags:
+    - division
+    - /
+    - div
+- symbol: ⋇
+  entities:
+    - divideontimes
+    - divonx
+  tags: []
+- symbol: ђ
+  entities:
+    - djcy
+  tags: []
+- symbol: ⌞
+  entities:
+    - dlcorn
+    - llcorner
+  tags: []
+- symbol: ⌍
+  entities:
+    - dlcrop
+  tags: []
+- symbol: $
+  entities:
+    - dollar
+  tags: []
+- symbol: 𝕕
+  entities:
+    - dopf
+  tags: []
+- symbol: ≑
+  entities:
+    - doteqdot
+    - eDot
+  tags: []
+- symbol: ∸
+  entities:
+    - dotminus
+    - minusd
+  tags: []
+- symbol: ∔
+  entities:
+    - dotplus
+    - plusdo
+  tags: []
+- symbol: ⊡
+  entities:
+    - dotsquare
+    - sdotb
+  tags: []
+- symbol: ⌟
+  entities:
+    - drcorn
+    - lrcorner
+  tags: []
+- symbol: ⌌
+  entities:
+    - drcrop
+  tags: []
+- symbol: 𝒹
+  entities:
+    - dscr
+  tags: []
+- symbol: ѕ
+  entities:
+    - dscy
+  tags: []
+- symbol: ⧶
+  entities:
+    - dsol
+  tags: []
+- symbol: đ
+  entities:
+    - dstrok
+  tags: []
+- symbol: ⋱
+  entities:
+    - dtdot
+  tags: []
+- symbol: ▿
+  entities:
+    - dtri
+    - triangledown
+  tags: []
+- symbol: ⦦
+  entities:
+    - dwangle
+  tags: []
+- symbol: џ
+  entities:
+    - dzcy
+  tags: []
+- symbol: ⟿
+  entities:
+    - dzigrarr
+  tags: []
+- symbol: é
+  entities:
+    - eacute
+  tags:
+    - e
+    - acute
+- symbol: ⩮
+  entities:
+    - easter
+  tags: []
+- symbol: ě
+  entities:
+    - ecaron
+  tags: []
+- symbol: ≖
+  entities:
+    - ecir
+    - eqcirc
+  tags: []
+- symbol: ê
+  entities:
+    - ecirc
+  tags:
+    - e
+    - circumflex
+- symbol: ≕
+  entities:
+    - ecolon
+    - eqcolon
+  tags: []
+- symbol: э
+  entities:
+    - ecy
+  tags: []
+- symbol: ė
+  entities:
+    - edot
+  tags: []
+- symbol: ≒
+  entities:
+    - efDot
+    - fallingdotseq
+  tags: []
+- symbol: 𝔢
+  entities:
+    - efr
+  tags: []
+- symbol: ⪚
+  entities:
+    - eg
+  tags: []
+- symbol: è
+  entities:
+    - egrave
+  tags:
+    - e
+    - grave
+- symbol: ⪖
+  entities:
+    - egs
+    - eqslantgtr
+  tags: []
+- symbol: ⪘
+  entities:
+    - egsdot
+  tags: []
+- symbol: ⪙
+  entities:
+    - el
+  tags: []
+- symbol: ⏧
+  entities:
+    - elinters
+  tags: []
+- symbol: ℓ
+  entities:
+    - ell
+  tags: []
+- symbol: ⪕
+  entities:
+    - els
+    - eqslantless
+  tags: []
+- symbol: ⪗
+  entities:
+    - elsdot
+  tags: []
+- symbol: ē
+  entities:
+    - emacr
+  tags: []
+- symbol: ∅
+  entities:
+    - empty
+    - emptyset
+    - emptyv
+    - varnothing
+  tags:
+    - o
+    - empty
+    - set
+    - "null"
+    - diameter
+- symbol:  
+  entities:
+    - emsp13
+  tags: []
+- symbol:  
+  entities:
+    - emsp14
+  tags: []
+- symbol:  
+  entities:
+    - emsp
+  tags:
+    - space
+- symbol: ŋ
+  entities:
+    - eng
+  tags: []
+- symbol:  
+  entities:
+    - ensp
+  tags:
+    - space
+- symbol: ę
+  entities:
+    - eogon
+  tags: []
+- symbol: 𝕖
+  entities:
+    - eopf
+  tags: []
+- symbol: ⋕
+  entities:
+    - epar
+  tags: []
+- symbol: ⧣
+  entities:
+    - eparsl
+  tags: []
+- symbol: ⩱
+  entities:
+    - eplus
+  tags: []
+- symbol: ε
+  entities:
+    - epsi
+    - epsilon
+  tags:
+    - e
+    - epsilon
+- symbol: ϵ
+  entities:
+    - epsiv
+    - straightepsilon
+    - varepsilon
+  tags: []
+- symbol: =
+  entities:
+    - equals
+  tags: []
+- symbol: ≟
+  entities:
+    - equest
+    - questeq
+  tags: []
+- symbol: ⩸
+  entities:
+    - equivDD
+  tags: []
+- symbol: ⧥
+  entities:
+    - eqvparsl
+  tags: []
+- symbol: ≓
+  entities:
+    - erDot
+    - risingdotseq
+  tags: []
+- symbol: ⥱
+  entities:
+    - erarr
+  tags: []
+- symbol: ℯ
+  entities:
+    - escr
+  tags: []
+- symbol: η
+  entities:
+    - eta
+  tags:
+    - n
+    - eta
+- symbol: ð
+  entities:
+    - eth
+  tags:
+    - eth
+    - o
+- symbol: ë
+  entities:
+    - euml
+  tags:
+    - e
+    - diaeresis
+- symbol: €
+  entities:
+    - euro
+  tags:
+    - E
+    - €
+    - euro
+- symbol: "!"
+  entities:
+    - excl
+  tags: []
+- symbol: ф
+  entities:
+    - fcy
+  tags: []
+- symbol: ♀
+  entities:
+    - female
+  tags: []
+- symbol: ﬃ
+  entities:
+    - ffilig
+  tags: []
+- symbol: ﬀ
+  entities:
+    - fflig
+  tags: []
+- symbol: ﬄ
+  entities:
+    - ffllig
+  tags: []
+- symbol: 𝔣
+  entities:
+    - ffr
+  tags: []
+- symbol: ﬁ
+  entities:
+    - filig
+  tags: []
+- symbol: fj
+  entities:
+    - fjlig
+  tags: []
+- symbol: ♭
+  entities:
+    - flat
+  tags: []
+- symbol: ﬂ
+  entities:
+    - fllig
+  tags: []
+- symbol: ▱
+  entities:
+    - fltns
+  tags: []
+- symbol: ƒ
+  entities:
+    - fnof
+  tags:
+    - f
+    - hook
+    - function
+    - florin
+- symbol: 𝕗
+  entities:
+    - fopf
+  tags: []
+- symbol: ⋔
+  entities:
+    - fork
+    - pitchfork
+  tags: []
+- symbol: ⫙
+  entities:
+    - forkv
+  tags: []
+- symbol: ⨍
+  entities:
+    - fpartint
+  tags: []
+- symbol: ½
+  entities:
+    - frac12
+    - half
+  tags:
+    - fraction
+    - half
+    - 1/2
+- symbol: ⅓
+  entities:
+    - frac13
+  tags: []
+- symbol: ¼
+  entities:
+    - frac14
+  tags:
+    - fraction
+    - 1/4
+    - quarter
+- symbol: ⅕
+  entities:
+    - frac15
+  tags: []
+- symbol: ⅙
+  entities:
+    - frac16
+  tags: []
+- symbol: ⅛
+  entities:
+    - frac18
+  tags: []
+- symbol: ⅔
+  entities:
+    - frac23
+  tags: []
+- symbol: ⅖
+  entities:
+    - frac25
+  tags: []
+- symbol: ¾
+  entities:
+    - frac34
+  tags:
+    - fraction
+    - quarters
+    - 3/4
+- symbol: ⅗
+  entities:
+    - frac35
+  tags: []
+- symbol: ⅜
+  entities:
+    - frac38
+  tags: []
+- symbol: ⅘
+  entities:
+    - frac45
+  tags: []
+- symbol: ⅚
+  entities:
+    - frac56
+  tags: []
+- symbol: ⅝
+  entities:
+    - frac58
+  tags: []
+- symbol: ⅞
+  entities:
+    - frac78
+  tags: []
+- symbol: ⁄
+  entities:
+    - frasl
+  tags:
+    - /
+    - fraction
+    - slash
+- symbol: ⌢
+  entities:
+    - frown
+    - sfrown
+  tags: []
+- symbol: 𝒻
+  entities:
+    - fscr
+  tags: []
+- symbol: ⪌
+  entities:
+    - gEl
+    - gtreqqless
+  tags: []
+- symbol: ǵ
+  entities:
+    - gacute
+  tags: []
+- symbol: γ
+  entities:
+    - gamma
+  tags:
+    - y
+    - gamma
+- symbol: ⪆
+  entities:
+    - gap
+    - gtrapprox
+  tags: []
+- symbol: ğ
+  entities:
+    - gbreve
+  tags: []
+- symbol: ĝ
+  entities:
+    - gcirc
+  tags: []
+- symbol: г
+  entities:
+    - gcy
+  tags: []
+- symbol: ġ
+  entities:
+    - gdot
+  tags: []
+- symbol: ⪩
+  entities:
+    - gescc
+  tags: []
+- symbol: ⪀
+  entities:
+    - gesdot
+  tags: []
+- symbol: ⪂
+  entities:
+    - gesdoto
+  tags: []
+- symbol: ⪄
+  entities:
+    - gesdotol
+  tags: []
+- symbol: ⋛︀
+  entities:
+    - gesl
+  tags: []
+- symbol: ⪔
+  entities:
+    - gesles
+  tags: []
+- symbol: 𝔤
+  entities:
+    - gfr
+  tags: []
+- symbol: ℷ
+  entities:
+    - gimel
+  tags: []
+- symbol: ѓ
+  entities:
+    - gjcy
+  tags: []
+- symbol: ⪒
+  entities:
+    - glE
+  tags: []
+- symbol: ⪥
+  entities:
+    - gla
+  tags: []
+- symbol: ⪤
+  entities:
+    - glj
+  tags: []
+- symbol: ≩
+  entities:
+    - gnE
+    - gneqq
+  tags: []
+- symbol: ⪊
+  entities:
+    - gnap
+    - gnapprox
+  tags: []
+- symbol: ⪈
+  entities:
+    - gne
+    - gneq
+  tags: []
+- symbol: ⋧
+  entities:
+    - gnsim
+  tags: []
+- symbol: 𝕘
+  entities:
+    - gopf
+  tags: []
+- symbol: ℊ
+  entities:
+    - gscr
+  tags: []
+- symbol: ⪎
+  entities:
+    - gsime
+  tags: []
+- symbol: ⪐
+  entities:
+    - gsiml
+  tags: []
+- symbol: ⪧
+  entities:
+    - gtcc
+  tags: []
+- symbol: ⩺
+  entities:
+    - gtcir
+  tags: []
+- symbol: ⋗
+  entities:
+    - gtdot
+    - gtrdot
+  tags: []
+- symbol: ⦕
+  entities:
+    - gtlPar
+  tags: []
+- symbol: ⩼
+  entities:
+    - gtquest
+  tags: []
+- symbol: ⥸
+  entities:
+    - gtrarr
+  tags: []
+- symbol: ≩︀
+  entities:
+    - gvertneqq
+    - gvnE
+  tags: []
+- symbol: ъ
+  entities:
+    - hardcy
+  tags: []
+- symbol: ⥈
+  entities:
+    - harrcir
+  tags: []
+- symbol: ↭
+  entities:
+    - harrw
+    - leftrightsquigarrow
+  tags: []
+- symbol: ℏ
+  entities:
+    - hbar
+    - hslash
+    - planck
+    - plankv
+  tags: []
+- symbol: ĥ
+  entities:
+    - hcirc
+  tags: []
+- symbol: ♥
+  entities:
+    - hearts
+    - heartsuit
+  tags:
+    - heart
+    - valentine
+    - card
+    - cards
+- symbol: …
+  entities:
+    - hellip
+    - mldr
+  tags:
+    - ...
+- symbol: ⊹
+  entities:
+    - hercon
+  tags: []
+- symbol: 𝔥
+  entities:
+    - hfr
+  tags: []
+- symbol: ⤥
+  entities:
+    - hksearow
+    - searhk
+  tags: []
+- symbol: ⤦
+  entities:
+    - hkswarow
+    - swarhk
+  tags: []
+- symbol: ⇿
+  entities:
+    - hoarr
+  tags: []
+- symbol: ∻
+  entities:
+    - homtht
+  tags: []
+- symbol: ↩
+  entities:
+    - hookleftarrow
+    - larrhk
+  tags: []
+- symbol: ↪
+  entities:
+    - hookrightarrow
+    - rarrhk
+  tags: []
+- symbol: 𝕙
+  entities:
+    - hopf
+  tags: []
+- symbol: ―
+  entities:
+    - horbar
+  tags: []
+- symbol: 𝒽
+  entities:
+    - hscr
+  tags: []
+- symbol: ħ
+  entities:
+    - hstrok
+  tags: []
+- symbol: ⁃
+  entities:
+    - hybull
+  tags: []
+- symbol: í
+  entities:
+    - iacute
+  tags:
+    - i
+    - acute
+    - L
+- symbol: î
+  entities:
+    - icirc
+  tags:
+    - i
+    - circumflex
+    - L
+- symbol: и
+  entities:
+    - icy
+  tags: []
+- symbol: е
+  entities:
+    - iecy
+  tags: []
+- symbol: ¡
+  entities:
+    - iexcl
+  tags:
+    - exclamation
+    - mark
+    - "!"
+- symbol: 𝔦
+  entities:
+    - ifr
+  tags: []
+- symbol: ì
+  entities:
+    - igrave
+  tags:
+    - i
+    - grave
+    - L
+- symbol: ⨌
+  entities:
+    - iiiint
+    - qint
+  tags: []
+- symbol: ∭
+  entities:
+    - iiint
+    - tint
+  tags: []
+- symbol: ⧜
+  entities:
+    - iinfin
+  tags: []
+- symbol: ℩
+  entities:
+    - iiota
+  tags: []
+- symbol: ĳ
+  entities:
+    - ijlig
+  tags: []
+- symbol: ī
+  entities:
+    - imacr
+  tags: []
+- symbol: ı
+  entities:
+    - imath
+    - inodot
+  tags: []
+- symbol: ⊷
+  entities:
+    - imof
+  tags: []
+- symbol: Ƶ
+  entities:
+    - imped
+  tags: []
+- symbol: ℅
+  entities:
+    - incare
+  tags: []
+- symbol: ∞
+  entities:
+    - infin
+  tags:
+    - infinity
+- symbol: ⧝
+  entities:
+    - infintie
+  tags: []
+- symbol: ⊺
+  entities:
+    - intcal
+    - intercal
+  tags: []
+- symbol: ⨗
+  entities:
+    - intlarhk
+  tags: []
+- symbol: ⨼
+  entities:
+    - intprod
+    - iprod
+  tags: []
+- symbol: ё
+  entities:
+    - iocy
+  tags: []
+- symbol: į
+  entities:
+    - iogon
+  tags: []
+- symbol: 𝕚
+  entities:
+    - iopf
+  tags: []
+- symbol: ι
+  entities:
+    - iota
+  tags:
+    - i
+    - l
+    - iota
+- symbol: ¿
+  entities:
+    - iquest
+  tags:
+    - "?"
+    - question
+    - inverted
+- symbol: 𝒾
+  entities:
+    - iscr
+  tags: []
+- symbol: ⋹
+  entities:
+    - isinE
+  tags: []
+- symbol: ⋵
+  entities:
+    - isindot
+  tags: []
+- symbol: ⋴
+  entities:
+    - isins
+  tags: []
+- symbol: ⋳
+  entities:
+    - isinsv
+  tags: []
+- symbol: ĩ
+  entities:
+    - itilde
+  tags: []
+- symbol: і
+  entities:
+    - iukcy
+  tags: []
+- symbol: ï
+  entities:
+    - iuml
+  tags:
+    - i
+    - diaeresis
+    - L
+- symbol: ĵ
+  entities:
+    - jcirc
+  tags: []
+- symbol: й
+  entities:
+    - jcy
+  tags: []
+- symbol: 𝔧
+  entities:
+    - jfr
+  tags: []
+- symbol: ȷ
+  entities:
+    - jmath
+  tags: []
+- symbol: 𝕛
+  entities:
+    - jopf
+  tags: []
+- symbol: 𝒿
+  entities:
+    - jscr
+  tags: []
+- symbol: ј
+  entities:
+    - jsercy
+  tags: []
+- symbol: є
+  entities:
+    - jukcy
+  tags: []
+- symbol: κ
+  entities:
+    - kappa
+  tags:
+    - k
+    - kappa
+- symbol: ϰ
+  entities:
+    - kappav
+    - varkappa
+  tags: []
+- symbol: ķ
+  entities:
+    - kcedil
+  tags: []
+- symbol: к
+  entities:
+    - kcy
+  tags: []
+- symbol: 𝔨
+  entities:
+    - kfr
+  tags: []
+- symbol: ĸ
+  entities:
+    - kgreen
+  tags: []
+- symbol: х
+  entities:
+    - khcy
+  tags: []
+- symbol: ќ
+  entities:
+    - kjcy
+  tags: []
+- symbol: 𝕜
+  entities:
+    - kopf
+  tags: []
+- symbol: 𝓀
+  entities:
+    - kscr
+  tags: []
+- symbol: ⤛
+  entities:
+    - lAtail
+  tags: []
+- symbol: ⤎
+  entities:
+    - lBarr
+  tags: []
+- symbol: ⪋
+  entities:
+    - lEg
+    - lesseqqgtr
+  tags: []
+- symbol: ⥢
+  entities:
+    - lHar
+  tags: []
+- symbol: ĺ
+  entities:
+    - lacute
+  tags: []
+- symbol: ⦴
+  entities:
+    - laemptyv
+  tags: []
+- symbol: λ
+  entities:
+    - lambda
+  tags:
+    - n
+    - lambda
+    - y
+- symbol: ⦑
+  entities:
+    - langd
+  tags: []
+- symbol: ⪅
+  entities:
+    - lap
+    - lessapprox
+  tags: []
+- symbol: «
+  entities:
+    - laquo
+  tags:
+    - <
+    - <<
+    - double
+- symbol: ⤟
+  entities:
+    - larrbfs
+  tags: []
+- symbol: ⤝
+  entities:
+    - larrfs
+  tags: []
+- symbol: ↫
+  entities:
+    - larrlp
+    - looparrowleft
+  tags: []
+- symbol: ⤹
+  entities:
+    - larrpl
+  tags: []
+- symbol: ⥳
+  entities:
+    - larrsim
+  tags: []
+- symbol: ↢
+  entities:
+    - larrtl
+    - leftarrowtail
+  tags: []
+- symbol: ⪫
+  entities:
+    - lat
+  tags: []
+- symbol: ⤙
+  entities:
+    - latail
+  tags: []
+- symbol: ⪭
+  entities:
+    - late
+  tags: []
+- symbol: ⪭︀
+  entities:
+    - lates
+  tags: []
+- symbol: ⤌
+  entities:
+    - lbarr
+  tags: []
+- symbol: ❲
+  entities:
+    - lbbrk
+  tags: []
+- symbol: "{"
+  entities:
+    - lbrace
+    - lcub
+  tags: []
+- symbol: "["
+  entities:
+    - lbrack
+    - lsqb
+  tags: []
+- symbol: ⦋
+  entities:
+    - lbrke
+  tags: []
+- symbol: ⦏
+  entities:
+    - lbrksld
+  tags: []
+- symbol: ⦍
+  entities:
+    - lbrkslu
+  tags: []
+- symbol: ľ
+  entities:
+    - lcaron
+  tags: []
+- symbol: ļ
+  entities:
+    - lcedil
+  tags: []
+- symbol: л
+  entities:
+    - lcy
+  tags: []
+- symbol: ⤶
+  entities:
+    - ldca
+  tags: []
+- symbol: ⥧
+  entities:
+    - ldrdhar
+  tags: []
+- symbol: ⥋
+  entities:
+    - ldrushar
+  tags: []
+- symbol: ↲
+  entities:
+    - ldsh
+  tags: []
+- symbol: ≤
+  entities:
+    - le
+    - leq
+  tags:
+    - less-than
+    - equal
+    - <=
+    - =<
+    - <
+    - =
+- symbol: ⇇
+  entities:
+    - leftleftarrows
+    - llarr
+  tags: []
+- symbol: ⋋
+  entities:
+    - leftthreetimes
+    - lthree
+  tags: []
+- symbol: ⪨
+  entities:
+    - lescc
+  tags: []
+- symbol: ⩿
+  entities:
+    - lesdot
+  tags: []
+- symbol: ⪁
+  entities:
+    - lesdoto
+  tags: []
+- symbol: ⪃
+  entities:
+    - lesdotor
+  tags: []
+- symbol: ⋚︀
+  entities:
+    - lesg
+  tags: []
+- symbol: ⪓
+  entities:
+    - lesges
+  tags: []
+- symbol: ⋖
+  entities:
+    - lessdot
+    - ltdot
+  tags: []
+- symbol: ⥼
+  entities:
+    - lfisht
+  tags: []
+- symbol: 𝔩
+  entities:
+    - lfr
+  tags: []
+- symbol: ⪑
+  entities:
+    - lgE
+  tags: []
+- symbol: ⥪
+  entities:
+    - lharul
+  tags: []
+- symbol: ▄
+  entities:
+    - lhblk
+  tags: []
+- symbol: љ
+  entities:
+    - ljcy
+  tags: []
+- symbol: ⥫
+  entities:
+    - llhard
+  tags: []
+- symbol: ◺
+  entities:
+    - lltri
+  tags: []
+- symbol: ŀ
+  entities:
+    - lmidot
+  tags: []
+- symbol: ⎰
+  entities:
+    - lmoust
+    - lmoustache
+  tags: []
+- symbol: ≨
+  entities:
+    - lnE
+    - lneqq
+  tags: []
+- symbol: ⪉
+  entities:
+    - lnap
+    - lnapprox
+  tags: []
+- symbol: ⪇
+  entities:
+    - lne
+    - lneq
+  tags: []
+- symbol: ⋦
+  entities:
+    - lnsim
+  tags: []
+- symbol: ⟬
+  entities:
+    - loang
+  tags: []
+- symbol: ⇽
+  entities:
+    - loarr
+  tags: []
+- symbol: ⟼
+  entities:
+    - longmapsto
+    - xmap
+  tags: []
+- symbol: ↬
+  entities:
+    - looparrowright
+    - rarrlp
+  tags: []
+- symbol: ⦅
+  entities:
+    - lopar
+  tags: []
+- symbol: 𝕝
+  entities:
+    - lopf
+  tags: []
+- symbol: ⨭
+  entities:
+    - loplus
+  tags: []
+- symbol: ⨴
+  entities:
+    - lotimes
+  tags: []
+- symbol: ∗
+  entities:
+    - lowast
+  tags:
+    - asterisk
+    - "*"
+    - bullet
+- symbol: ◊
+  entities:
+    - loz
+    - lozenge
+  tags:
+    - <>
+    - lozenge
+    - diamond
+- symbol: (
+  entities:
+    - lpar
+  tags: []
+- symbol: ⦓
+  entities:
+    - lparlt
+  tags: []
+- symbol: ⥭
+  entities:
+    - lrhard
+  tags: []
+- symbol: ‎
+  entities:
+    - lrm
+  tags:
+    - left-to-right
+    - <>
+- symbol: ⊿
+  entities:
+    - lrtri
+  tags: []
+- symbol: ‹
+  entities:
+    - lsaquo
+  tags:
+    - left-pointing
+    - angle
+    - <
+- symbol: 𝓁
+  entities:
+    - lscr
+  tags: []
+- symbol: ⪍
+  entities:
+    - lsime
+  tags: []
+- symbol: ⪏
+  entities:
+    - lsimg
+  tags: []
+- symbol: ‚
+  entities:
+    - lsquor
+    - sbquo
+  tags:
+    - ","
+    - quotation
+    - quote
+    - low-9
+    - low
+- symbol: ł
+  entities:
+    - lstrok
+  tags: []
+- symbol: ⪦
+  entities:
+    - ltcc
+  tags: []
+- symbol: ⩹
+  entities:
+    - ltcir
+  tags: []
+- symbol: ⋉
+  entities:
+    - ltimes
+  tags: []
+- symbol: ⥶
+  entities:
+    - ltlarr
+  tags: []
+- symbol: ⩻
+  entities:
+    - ltquest
+  tags: []
+- symbol: ⦖
+  entities:
+    - ltrPar
+  tags: []
+- symbol: ◃
+  entities:
+    - ltri
+    - triangleleft
+  tags: []
+- symbol: ⥊
+  entities:
+    - lurdshar
+  tags: []
+- symbol: ⥦
+  entities:
+    - luruhar
+  tags: []
+- symbol: ≨︀
+  entities:
+    - lvertneqq
+    - lvnE
+  tags: []
+- symbol: ∺
+  entities:
+    - mDDot
+  tags: []
+- symbol: ¯
+  entities:
+    - macr
+    - strns
+  tags:
+    - "-"
+    - overline
+- symbol: ♂
+  entities:
+    - male
+  tags: []
+- symbol: ✠
+  entities:
+    - malt
+    - maltese
+  tags: []
+- symbol: ▮
+  entities:
+    - marker
+  tags: []
+- symbol: ⨩
+  entities:
+    - mcomma
+  tags: []
+- symbol: м
+  entities:
+    - mcy
+  tags: []
+- symbol: —
+  entities:
+    - mdash
+  tags:
+    - m
+    - em
+    - dash
+    - "-"
+- symbol: 𝔪
+  entities:
+    - mfr
+  tags: []
+- symbol: ℧
+  entities:
+    - mho
+  tags: []
+- symbol: µ
+  entities:
+    - micro
+  tags:
+    - micro
+    - u
+- symbol: ⫰
+  entities:
+    - midcir
+  tags: []
+- symbol: −
+  entities:
+    - minus
+  tags:
+    - "-"
+    - minus
+- symbol: ⨪
+  entities:
+    - minusdu
+  tags: []
+- symbol: ⫛
+  entities:
+    - mlcp
+  tags: []
+- symbol: ⊧
+  entities:
+    - models
+  tags: []
+- symbol: 𝕞
+  entities:
+    - mopf
+  tags: []
+- symbol: 𝓂
+  entities:
+    - mscr
+  tags: []
+- symbol: μ
+  entities:
+    - mu
+  tags:
+    - u
+    - mu
+- symbol: ⊸
+  entities:
+    - multimap
+    - mumap
+  tags: []
+- symbol: ⋙̸
+  entities:
+    - nGg
+  tags: []
+- symbol: ≫⃒
+  entities:
+    - nGt
+  tags: []
+- symbol: ⇍
+  entities:
+    - nLeftarrow
+    - nlArr
+  tags: []
+- symbol: ⇎
+  entities:
+    - nLeftrightarrow
+    - nhArr
+  tags: []
+- symbol: ⋘̸
+  entities:
+    - nLl
+  tags: []
+- symbol: ≪⃒
+  entities:
+    - nLt
+  tags: []
+- symbol: ⇏
+  entities:
+    - nRightarrow
+    - nrArr
+  tags: []
+- symbol: ⊯
+  entities:
+    - nVDash
+  tags: []
+- symbol: ⊮
+  entities:
+    - nVdash
+  tags: []
+- symbol: ń
+  entities:
+    - nacute
+  tags: []
+- symbol: ∠⃒
+  entities:
+    - nang
+  tags: []
+- symbol: ⩰̸
+  entities:
+    - napE
+  tags: []
+- symbol: ≋̸
+  entities:
+    - napid
+  tags: []
+- symbol: ŉ
+  entities:
+    - napos
+  tags: []
+- symbol: ♮
+  entities:
+    - natur
+    - natural
+  tags: []
+- symbol: ⩃
+  entities:
+    - ncap
+  tags: []
+- symbol: ň
+  entities:
+    - ncaron
+  tags: []
+- symbol: ņ
+  entities:
+    - ncedil
+  tags: []
+- symbol: ⩭̸
+  entities:
+    - ncongdot
+  tags: []
+- symbol: ⩂
+  entities:
+    - ncup
+  tags: []
+- symbol: н
+  entities:
+    - ncy
+  tags: []
+- symbol: –
+  entities:
+    - ndash
+  tags:
+    - n
+    - en
+    - dash
+    - "-"
+- symbol: ⇗
+  entities:
+    - neArr
+  tags: []
+- symbol: ⤤
+  entities:
+    - nearhk
+  tags: []
+- symbol: ≐̸
+  entities:
+    - nedot
+  tags: []
+- symbol: ⤨
+  entities:
+    - nesear
+    - toea
+  tags: []
+- symbol: 𝔫
+  entities:
+    - nfr
+  tags: []
+- symbol: ↮
+  entities:
+    - nharr
+    - nleftrightarrow
+  tags: []
+- symbol: ⫲
+  entities:
+    - nhpar
+  tags: []
+- symbol: ⋼
+  entities:
+    - nis
+  tags: []
+- symbol: ⋺
+  entities:
+    - nisd
+  tags: []
+- symbol: њ
+  entities:
+    - njcy
+  tags: []
+- symbol: ≦̸
+  entities:
+    - nlE
+    - nleqq
+  tags: []
+- symbol: ↚
+  entities:
+    - nlarr
+    - nleftarrow
+  tags: []
+- symbol: ‥
+  entities:
+    - nldr
+  tags: []
+- symbol: 𝕟
+  entities:
+    - nopf
+  tags: []
+- symbol: ¬
+  entities:
+    - not
+  tags:
+    - not
+    - "-"
+- symbol: ⋹̸
+  entities:
+    - notinE
+  tags: []
+- symbol: ⋵̸
+  entities:
+    - notindot
+  tags: []
+- symbol: ⋷
+  entities:
+    - notinvb
+  tags: []
+- symbol: ⋶
+  entities:
+    - notinvc
+  tags: []
+- symbol: ⋾
+  entities:
+    - notnivb
+  tags: []
+- symbol: ⋽
+  entities:
+    - notnivc
+  tags: []
+- symbol: ⫽⃥
+  entities:
+    - nparsl
+  tags: []
+- symbol: ∂̸
+  entities:
+    - npart
+  tags: []
+- symbol: ⨔
+  entities:
+    - npolint
+  tags: []
+- symbol: ↛
+  entities:
+    - nrarr
+    - nrightarrow
+  tags: []
+- symbol: ⤳̸
+  entities:
+    - nrarrc
+  tags: []
+- symbol: ↝̸
+  entities:
+    - nrarrw
+  tags: []
+- symbol: 𝓃
+  entities:
+    - nscr
+  tags: []
+- symbol: ⊄
+  entities:
+    - nsub
+  tags:
+    - c
+    - not
+    - subset
+- symbol: ⫅̸
+  entities:
+    - nsubE
+    - nsubseteqq
+  tags: []
+- symbol: ⊅
+  entities:
+    - nsup
+  tags: []
+- symbol: ⫆̸
+  entities:
+    - nsupE
+    - nsupseteqq
+  tags: []
+- symbol: ñ
+  entities:
+    - ntilde
+  tags:
+    - n
+    - tilde
+- symbol: ν
+  entities:
+    - nu
+  tags:
+    - nu
+    - v
+- symbol: "#"
+  entities:
+    - num
+  tags: []
+- symbol: №
+  entities:
+    - numero
+  tags: []
+- symbol:  
+  entities:
+    - numsp
+  tags: []
+- symbol: ⊭
+  entities:
+    - nvDash
+  tags: []
+- symbol: ⤄
+  entities:
+    - nvHarr
+  tags: []
+- symbol: ≍⃒
+  entities:
+    - nvap
+  tags: []
+- symbol: ⊬
+  entities:
+    - nvdash
+  tags: []
+- symbol: ≥⃒
+  entities:
+    - nvge
+  tags: []
+- symbol: ">⃒"
+  entities:
+    - nvgt
+  tags: []
+- symbol: ⧞
+  entities:
+    - nvinfin
+  tags: []
+- symbol: ⤂
+  entities:
+    - nvlArr
+  tags: []
+- symbol: ≤⃒
+  entities:
+    - nvle
+  tags: []
+- symbol: <⃒
+  entities:
+    - nvlt
+  tags: []
+- symbol: ⊴⃒
+  entities:
+    - nvltrie
+  tags: []
+- symbol: ⤃
+  entities:
+    - nvrArr
+  tags: []
+- symbol: ⊵⃒
+  entities:
+    - nvrtrie
+  tags: []
+- symbol: ∼⃒
+  entities:
+    - nvsim
+  tags: []
+- symbol: ⇖
+  entities:
+    - nwArr
+  tags: []
+- symbol: ⤣
+  entities:
+    - nwarhk
+  tags: []
+- symbol: ⤧
+  entities:
+    - nwnear
+  tags: []
+- symbol: ó
+  entities:
+    - oacute
+  tags:
+    - o
+    - acute
+- symbol: ô
+  entities:
+    - ocirc
+  tags:
+    - o
+    - circumflex
+- symbol: о
+  entities:
+    - ocy
+  tags: []
+- symbol: ő
+  entities:
+    - odblac
+  tags: []
+- symbol: ⨸
+  entities:
+    - odiv
+  tags: []
+- symbol: ⦼
+  entities:
+    - odsold
+  tags: []
+- symbol: œ
+  entities:
+    - oelig
+  tags:
+    - oe
+- symbol: ⦿
+  entities:
+    - ofcir
+  tags: []
+- symbol: 𝔬
+  entities:
+    - ofr
+  tags: []
+- symbol: ˛
+  entities:
+    - ogon
+  tags: []
+- symbol: ò
+  entities:
+    - ograve
+  tags:
+    - o
+    - grave
+- symbol: ⧁
+  entities:
+    - ogt
+  tags: []
+- symbol: ⦵
+  entities:
+    - ohbar
+  tags: []
+- symbol: ⦾
+  entities:
+    - olcir
+  tags: []
+- symbol: ⦻
+  entities:
+    - olcross
+  tags: []
+- symbol: ⧀
+  entities:
+    - olt
+  tags: []
+- symbol: ō
+  entities:
+    - omacr
+  tags: []
+- symbol: ω
+  entities:
+    - omega
+  tags:
+    - w
+    - omega
+- symbol: ο
+  entities:
+    - omicron
+  tags:
+    - o
+    - omicron
+- symbol: ⦶
+  entities:
+    - omid
+  tags: []
+- symbol: 𝕠
+  entities:
+    - oopf
+  tags: []
+- symbol: ⦷
+  entities:
+    - opar
+  tags: []
+- symbol: ⦹
+  entities:
+    - operp
+  tags: []
+- symbol: ∨
+  entities:
+    - or
+    - vee
+  tags:
+    - logical
+    - or
+    - vee
+- symbol: ⩝
+  entities:
+    - ord
+  tags: []
+- symbol: ℴ
+  entities:
+    - order
+    - orderof
+    - oscr
+  tags: []
+- symbol: ª
+  entities:
+    - ordf
+  tags:
+    - a
+- symbol: º
+  entities:
+    - ordm
+  tags:
+    - o
+    - ordinal
+- symbol: ⊶
+  entities:
+    - origof
+  tags: []
+- symbol: ⩖
+  entities:
+    - oror
+  tags: []
+- symbol: ⩗
+  entities:
+    - orslope
+  tags: []
+- symbol: ⩛
+  entities:
+    - orv
+  tags: []
+- symbol: ø
+  entities:
+    - oslash
+  tags:
+    - o
+    - stroke
+    - slash
+- symbol: ⊘
+  entities:
+    - osol
+  tags: []
+- symbol: õ
+  entities:
+    - otilde
+  tags:
+    - o
+    - tilde
+- symbol: ⨶
+  entities:
+    - otimesas
+  tags: []
+- symbol: ö
+  entities:
+    - ouml
+  tags:
+    - o
+    - diaeresis
+- symbol: ⌽
+  entities:
+    - ovbar
+  tags: []
+- symbol: ¶
+  entities:
+    - para
+  tags:
+    - pilcrow
+    - enter
+    - return
+    - n
+- symbol: ⫳
+  entities:
+    - parsim
+  tags: []
+- symbol: ⫽
+  entities:
+    - parsl
+  tags: []
+- symbol: п
+  entities:
+    - pcy
+  tags: []
+- symbol: "%"
+  entities:
+    - percnt
+  tags: []
+- symbol: .
+  entities:
+    - period
+  tags: []
+- symbol: ‰
+  entities:
+    - permil
+  tags:
+    - per
+    - mille
+    - "%"
+- symbol: ‱
+  entities:
+    - pertenk
+  tags: []
+- symbol: 𝔭
+  entities:
+    - pfr
+  tags: []
+- symbol: φ
+  entities:
+    - phi
+  tags:
+    - y
+    - phi
+- symbol: ϕ
+  entities:
+    - phiv
+    - straightphi
+    - varphi
+  tags: []
+- symbol: ☎
+  entities:
+    - phone
+  tags: []
+- symbol: π
+  entities:
+    - pi
+  tags:
+    - pi
+- symbol: ϖ
+  entities:
+    - piv
+    - varpi
+  tags:
+    - pi
+- symbol: ℎ
+  entities:
+    - planckh
+  tags: []
+- symbol: +
+  entities:
+    - plus
+  tags: []
+- symbol: ⨣
+  entities:
+    - plusacir
+  tags: []
+- symbol: ⨢
+  entities:
+    - pluscir
+  tags: []
+- symbol: ⨥
+  entities:
+    - plusdu
+  tags: []
+- symbol: ⩲
+  entities:
+    - pluse
+  tags: []
+- symbol: ⨦
+  entities:
+    - plussim
+  tags: []
+- symbol: ⨧
+  entities:
+    - plustwo
+  tags: []
+- symbol: ⨕
+  entities:
+    - pointint
+  tags: []
+- symbol: 𝕡
+  entities:
+    - popf
+  tags: []
+- symbol: £
+  entities:
+    - pound
+  tags:
+    - "#"
+    - pound
+- symbol: ⪳
+  entities:
+    - prE
+  tags: []
+- symbol: ⪷
+  entities:
+    - prap
+    - precapprox
+  tags: []
+- symbol: ⪹
+  entities:
+    - precnapprox
+    - prnap
+  tags: []
+- symbol: ⪵
+  entities:
+    - precneqq
+    - prnE
+  tags: []
+- symbol: ⋨
+  entities:
+    - precnsim
+    - prnsim
+  tags: []
+- symbol: ′
+  entities:
+    - prime
+  tags:
+    - "'"
+    - "`"
+    - prime
+- symbol: ⌮
+  entities:
+    - profalar
+  tags: []
+- symbol: ⌒
+  entities:
+    - profline
+  tags: []
+- symbol: ⌓
+  entities:
+    - profsurf
+  tags: []
+- symbol: ⊰
+  entities:
+    - prurel
+  tags: []
+- symbol: 𝓅
+  entities:
+    - pscr
+  tags: []
+- symbol: ψ
+  entities:
+    - psi
+  tags:
+    - y
+    - psi
+- symbol:  
+  entities:
+    - puncsp
+  tags: []
+- symbol: 𝔮
+  entities:
+    - qfr
+  tags: []
+- symbol: 𝕢
+  entities:
+    - qopf
+  tags: []
+- symbol: ⁗
+  entities:
+    - qprime
+  tags: []
+- symbol: 𝓆
+  entities:
+    - qscr
+  tags: []
+- symbol: ⨖
+  entities:
+    - quatint
+  tags: []
+- symbol: "?"
+  entities:
+    - quest
+  tags: []
+- symbol: ⤜
+  entities:
+    - rAtail
+  tags: []
+- symbol: ⥤
+  entities:
+    - rHar
+  tags: []
+- symbol: ∽̱
+  entities:
+    - race
+  tags: []
+- symbol: ŕ
+  entities:
+    - racute
+  tags: []
+- symbol: ⦳
+  entities:
+    - raemptyv
+  tags: []
+- symbol: ⦒
+  entities:
+    - rangd
+  tags: []
+- symbol: ⦥
+  entities:
+    - range
+  tags: []
+- symbol: »
+  entities:
+    - raquo
+  tags:
+    - right-pointing
+    - double
+    - ">"
+    - ">>"
+- symbol: ⥵
+  entities:
+    - rarrap
+  tags: []
+- symbol: ⤠
+  entities:
+    - rarrbfs
+  tags: []
+- symbol: ⤳
+  entities:
+    - rarrc
+  tags: []
+- symbol: ⤞
+  entities:
+    - rarrfs
+  tags: []
+- symbol: ⥅
+  entities:
+    - rarrpl
+  tags: []
+- symbol: ⥴
+  entities:
+    - rarrsim
+  tags: []
+- symbol: ↣
+  entities:
+    - rarrtl
+    - rightarrowtail
+  tags: []
+- symbol: ↝
+  entities:
+    - rarrw
+    - rightsquigarrow
+  tags: []
+- symbol: ⤚
+  entities:
+    - ratail
+  tags: []
+- symbol: ∶
+  entities:
+    - ratio
+  tags: []
+- symbol: ❳
+  entities:
+    - rbbrk
+  tags: []
+- symbol: "}"
+  entities:
+    - rbrace
+    - rcub
+  tags: []
+- symbol: "]"
+  entities:
+    - rbrack
+    - rsqb
+  tags: []
+- symbol: ⦌
+  entities:
+    - rbrke
+  tags: []
+- symbol: ⦎
+  entities:
+    - rbrksld
+  tags: []
+- symbol: ⦐
+  entities:
+    - rbrkslu
+  tags: []
+- symbol: ř
+  entities:
+    - rcaron
+  tags: []
+- symbol: ŗ
+  entities:
+    - rcedil
+  tags: []
+- symbol: р
+  entities:
+    - rcy
+  tags: []
+- symbol: ⤷
+  entities:
+    - rdca
+  tags: []
+- symbol: ⥩
+  entities:
+    - rdldhar
+  tags: []
+- symbol: ↳
+  entities:
+    - rdsh
+  tags: []
+- symbol: ▭
+  entities:
+    - rect
+  tags: []
+- symbol: ⥽
+  entities:
+    - rfisht
+  tags: []
+- symbol: 𝔯
+  entities:
+    - rfr
+  tags: []
+- symbol: ⥬
+  entities:
+    - rharul
+  tags: []
+- symbol: ρ
+  entities:
+    - rho
+  tags:
+    - p
+    - o
+    - rho
+- symbol: ϱ
+  entities:
+    - rhov
+    - varrho
+  tags: []
+- symbol: ⇉
+  entities:
+    - rightrightarrows
+    - rrarr
+  tags: []
+- symbol: ⋌
+  entities:
+    - rightthreetimes
+    - rthree
+  tags: []
+- symbol: ˚
+  entities:
+    - ring
+  tags: []
+- symbol: ‏
+  entities:
+    - rlm
+  tags:
+    - right-to-left
+    - "><"
+- symbol: ⎱
+  entities:
+    - rmoust
+    - rmoustache
+  tags: []
+- symbol: ⫮
+  entities:
+    - rnmid
+  tags: []
+- symbol: ⟭
+  entities:
+    - roang
+  tags: []
+- symbol: ⇾
+  entities:
+    - roarr
+  tags: []
+- symbol: ⦆
+  entities:
+    - ropar
+  tags: []
+- symbol: 𝕣
+  entities:
+    - ropf
+  tags: []
+- symbol: ⨮
+  entities:
+    - roplus
+  tags: []
+- symbol: ⨵
+  entities:
+    - rotimes
+  tags: []
+- symbol: )
+  entities:
+    - rpar
+  tags: []
+- symbol: ⦔
+  entities:
+    - rpargt
+  tags: []
+- symbol: ⨒
+  entities:
+    - rppolint
+  tags: []
+- symbol: ›
+  entities:
+    - rsaquo
+  tags:
+    - right-pointing
+    - angle
+    - ">"
+- symbol: 𝓇
+  entities:
+    - rscr
+  tags: []
+- symbol: ⋊
+  entities:
+    - rtimes
+  tags: []
+- symbol: ▹
+  entities:
+    - rtri
+    - triangleright
+  tags: []
+- symbol: ⧎
+  entities:
+    - rtriltri
+  tags: []
+- symbol: ⥨
+  entities:
+    - ruluhar
+  tags: []
+- symbol: ℞
+  entities:
+    - rx
+  tags: []
+- symbol: ś
+  entities:
+    - sacute
+  tags: []
+- symbol: ⪴
+  entities:
+    - scE
+  tags: []
+- symbol: ⪸
+  entities:
+    - scap
+    - succapprox
+  tags: []
+- symbol: š
+  entities:
+    - scaron
+  tags:
+    - s
+    - caron
+- symbol: ş
+  entities:
+    - scedil
+  tags: []
+- symbol: ŝ
+  entities:
+    - scirc
+  tags: []
+- symbol: ⪶
+  entities:
+    - scnE
+    - succneqq
+  tags: []
+- symbol: ⪺
+  entities:
+    - scnap
+    - succnapprox
+  tags: []
+- symbol: ⋩
+  entities:
+    - scnsim
+    - succnsim
+  tags: []
+- symbol: ⨓
+  entities:
+    - scpolint
+  tags: []
+- symbol: с
+  entities:
+    - scy
+  tags: []
+- symbol: ⋅
+  entities:
+    - sdot
+  tags:
+    - .
+    - dot
+    - "*"
+    - bullet
+- symbol: ⩦
+  entities:
+    - sdote
+  tags: []
+- symbol: ⇘
+  entities:
+    - seArr
+  tags: []
+- symbol: §
+  entities:
+    - sect
+  tags:
+    - section
+    - s
+- symbol: ;
+  entities:
+    - semi
+  tags: []
+- symbol: ⤩
+  entities:
+    - seswar
+    - tosa
+  tags: []
+- symbol: ✶
+  entities:
+    - sext
+  tags: []
+- symbol: 𝔰
+  entities:
+    - sfr
+  tags: []
+- symbol: ♯
+  entities:
+    - sharp
+  tags: []
+- symbol: щ
+  entities:
+    - shchcy
+  tags: []
+- symbol: ш
+  entities:
+    - shcy
+  tags: []
+- symbol: ­
+  entities:
+    - shy
+  tags: []
+- symbol: σ
+  entities:
+    - sigma
+  tags:
+    - o
+    - sigma
+- symbol: ς
+  entities:
+    - sigmaf
+    - sigmav
+    - varsigma
+  tags:
+    - c
+    - sigma
+    - final
+- symbol: ⩪
+  entities:
+    - simdot
+  tags: []
+- symbol: ⪞
+  entities:
+    - simg
+  tags: []
+- symbol: ⪠
+  entities:
+    - simgE
+  tags: []
+- symbol: ⪝
+  entities:
+    - siml
+  tags: []
+- symbol: ⪟
+  entities:
+    - simlE
+  tags: []
+- symbol: ≆
+  entities:
+    - simne
+  tags: []
+- symbol: ⨤
+  entities:
+    - simplus
+  tags: []
+- symbol: ⥲
+  entities:
+    - simrarr
+  tags: []
+- symbol: ⨳
+  entities:
+    - smashp
+  tags: []
+- symbol: ⧤
+  entities:
+    - smeparsl
+  tags: []
+- symbol: ⌣
+  entities:
+    - smile
+    - ssmile
+  tags: []
+- symbol: ⪪
+  entities:
+    - smt
+  tags: []
+- symbol: ⪬
+  entities:
+    - smte
+  tags: []
+- symbol: ⪬︀
+  entities:
+    - smtes
+  tags: []
+- symbol: ь
+  entities:
+    - softcy
+  tags: []
+- symbol: /
+  entities:
+    - sol
+  tags: []
+- symbol: ⧄
+  entities:
+    - solb
+  tags: []
+- symbol: ⌿
+  entities:
+    - solbar
+  tags: []
+- symbol: 𝕤
+  entities:
+    - sopf
+  tags: []
+- symbol: ♠
+  entities:
+    - spades
+    - spadesuit
+  tags:
+    - spade
+    - card
+    - cards
+- symbol: ⊓︀
+  entities:
+    - sqcaps
+  tags: []
+- symbol: ⊔︀
+  entities:
+    - sqcups
+  tags: []
+- symbol: 𝓈
+  entities:
+    - sscr
+  tags: []
+- symbol: ☆
+  entities:
+    - star
+  tags: []
+- symbol: ⊂
+  entities:
+    - sub
+    - subset
+  tags:
+    - subset
+    - c
+- symbol: ⫅
+  entities:
+    - subE
+    - subseteqq
+  tags: []
+- symbol: ⪽
+  entities:
+    - subdot
+  tags: []
+- symbol: ⫃
+  entities:
+    - subedot
+  tags: []
+- symbol: ⫁
+  entities:
+    - submult
+  tags: []
+- symbol: ⫋
+  entities:
+    - subnE
+    - subsetneqq
+  tags: []
+- symbol: ⊊
+  entities:
+    - subne
+    - subsetneq
+  tags: []
+- symbol: ⪿
+  entities:
+    - subplus
+  tags: []
+- symbol: ⥹
+  entities:
+    - subrarr
+  tags: []
+- symbol: ⫇
+  entities:
+    - subsim
+  tags: []
+- symbol: ⫕
+  entities:
+    - subsub
+  tags: []
+- symbol: ⫓
+  entities:
+    - subsup
+  tags: []
+- symbol: ♪
+  entities:
+    - sung
+  tags: []
+- symbol: ¹
+  entities:
+    - sup1
+  tags:
+    - "1"
+    - superscript
+    - one
+- symbol: ²
+  entities:
+    - sup2
+  tags:
+    - superscript
+    - two
+    - "2"
+- symbol: ³
+  entities:
+    - sup3
+  tags:
+    - superscript
+    - three
+    - "3"
+- symbol: ⫆
+  entities:
+    - supE
+    - supseteqq
+  tags: []
+- symbol: ⪾
+  entities:
+    - supdot
+  tags: []
+- symbol: ⫘
+  entities:
+    - supdsub
+  tags: []
+- symbol: ⫄
+  entities:
+    - supedot
+  tags: []
+- symbol: ⟉
+  entities:
+    - suphsol
+  tags: []
+- symbol: ⫗
+  entities:
+    - suphsub
+  tags: []
+- symbol: ⥻
+  entities:
+    - suplarr
+  tags: []
+- symbol: ⫂
+  entities:
+    - supmult
+  tags: []
+- symbol: ⫌
+  entities:
+    - supnE
+    - supsetneqq
+  tags: []
+- symbol: ⊋
+  entities:
+    - supne
+    - supsetneq
+  tags: []
+- symbol: ⫀
+  entities:
+    - supplus
+  tags: []
+- symbol: ⫈
+  entities:
+    - supsim
+  tags: []
+- symbol: ⫔
+  entities:
+    - supsub
+  tags: []
+- symbol: ⫖
+  entities:
+    - supsup
+  tags: []
+- symbol: ⇙
+  entities:
+    - swArr
+  tags: []
+- symbol: ⤪
+  entities:
+    - swnwar
+  tags: []
+- symbol: ß
+  entities:
+    - szlig
+  tags:
+    - b
+    - beta
+    - ess-zed
+    - s
+- symbol: ⌖
+  entities:
+    - target
+  tags: []
+- symbol: τ
+  entities:
+    - tau
+  tags:
+    - t
+    - tau
+- symbol: ť
+  entities:
+    - tcaron
+  tags: []
+- symbol: ţ
+  entities:
+    - tcedil
+  tags: []
+- symbol: т
+  entities:
+    - tcy
+  tags: []
+- symbol: ⌕
+  entities:
+    - telrec
+  tags: []
+- symbol: 𝔱
+  entities:
+    - tfr
+  tags: []
+- symbol: θ
+  entities:
+    - theta
+  tags:
+    - o
+    - theta
+- symbol: ϑ
+  entities:
+    - thetasym
+    - thetav
+    - vartheta
+  tags:
+    - "0"
+    - theta
+- symbol: þ
+  entities:
+    - thorn
+  tags:
+    - p
+    - thorn
+- symbol: ×
+  entities:
+    - times
+  tags:
+    - multiplication
+    - x
+    - times
+- symbol: ⨱
+  entities:
+    - timesbar
+  tags: []
+- symbol: ⨰
+  entities:
+    - timesd
+  tags: []
+- symbol: ⌶
+  entities:
+    - topbot
+  tags: []
+- symbol: ⫱
+  entities:
+    - topcir
+  tags: []
+- symbol: 𝕥
+  entities:
+    - topf
+  tags: []
+- symbol: ⫚
+  entities:
+    - topfork
+  tags: []
+- symbol: ‴
+  entities:
+    - tprime
+  tags: []
+- symbol: ▵
+  entities:
+    - triangle
+    - utri
+  tags: []
+- symbol: ≜
+  entities:
+    - triangleq
+    - trie
+  tags: []
+- symbol: ◬
+  entities:
+    - tridot
+  tags: []
+- symbol: ⨺
+  entities:
+    - triminus
+  tags: []
+- symbol: ⨹
+  entities:
+    - triplus
+  tags: []
+- symbol: ⧍
+  entities:
+    - trisb
+  tags: []
+- symbol: ⨻
+  entities:
+    - tritime
+  tags: []
+- symbol: ⏢
+  entities:
+    - trpezium
+  tags: []
+- symbol: 𝓉
+  entities:
+    - tscr
+  tags: []
+- symbol: ц
+  entities:
+    - tscy
+  tags: []
+- symbol: ћ
+  entities:
+    - tshcy
+  tags: []
+- symbol: ŧ
+  entities:
+    - tstrok
+  tags: []
+- symbol: ⥣
+  entities:
+    - uHar
+  tags: []
+- symbol: ú
+  entities:
+    - uacute
+  tags:
+    - u
+    - acute
+- symbol: ў
+  entities:
+    - ubrcy
+  tags: []
+- symbol: ŭ
+  entities:
+    - ubreve
+  tags: []
+- symbol: û
+  entities:
+    - ucirc
+  tags:
+    - u
+    - circumflex
+- symbol: у
+  entities:
+    - ucy
+  tags: []
+- symbol: ű
+  entities:
+    - udblac
+  tags: []
+- symbol: ⥾
+  entities:
+    - ufisht
+  tags: []
+- symbol: 𝔲
+  entities:
+    - ufr
+  tags: []
+- symbol: ù
+  entities:
+    - ugrave
+  tags:
+    - u
+    - grave
+- symbol: ▀
+  entities:
+    - uhblk
+  tags: []
+- symbol: ⌜
+  entities:
+    - ulcorn
+    - ulcorner
+  tags: []
+- symbol: ⌏
+  entities:
+    - ulcrop
+  tags: []
+- symbol: ◸
+  entities:
+    - ultri
+  tags: []
+- symbol: ū
+  entities:
+    - umacr
+  tags: []
+- symbol: ų
+  entities:
+    - uogon
+  tags: []
+- symbol: 𝕦
+  entities:
+    - uopf
+  tags: []
+- symbol: υ
+  entities:
+    - upsi
+    - upsilon
+  tags:
+    - u
+    - upsilon
+- symbol: ⇈
+  entities:
+    - upuparrows
+    - uuarr
+  tags: []
+- symbol: ⌝
+  entities:
+    - urcorn
+    - urcorner
+  tags: []
+- symbol: ⌎
+  entities:
+    - urcrop
+  tags: []
+- symbol: ů
+  entities:
+    - uring
+  tags: []
+- symbol: ◹
+  entities:
+    - urtri
+  tags: []
+- symbol: 𝓊
+  entities:
+    - uscr
+  tags: []
+- symbol: ⋰
+  entities:
+    - utdot
+  tags: []
+- symbol: ũ
+  entities:
+    - utilde
+  tags: []
+- symbol: ü
+  entities:
+    - uuml
+  tags:
+    - u
+    - diaeresis
+- symbol: ⦧
+  entities:
+    - uwangle
+  tags: []
+- symbol: ⫨
+  entities:
+    - vBar
+  tags: []
+- symbol: ⫩
+  entities:
+    - vBarv
+  tags: []
+- symbol: ⦜
+  entities:
+    - vangrt
+  tags: []
+- symbol: ⊊︀
+  entities:
+    - varsubsetneq
+    - vsubne
+  tags: []
+- symbol: ⫋︀
+  entities:
+    - varsubsetneqq
+    - vsubnE
+  tags: []
+- symbol: ⊋︀
+  entities:
+    - varsupsetneq
+    - vsupne
+  tags: []
+- symbol: ⫌︀
+  entities:
+    - varsupsetneqq
+    - vsupnE
+  tags: []
+- symbol: в
+  entities:
+    - vcy
+  tags: []
+- symbol: ⊻
+  entities:
+    - veebar
+  tags: []
+- symbol: ≚
+  entities:
+    - veeeq
+  tags: []
+- symbol: ⋮
+  entities:
+    - vellip
+  tags: []
+- symbol: 𝔳
+  entities:
+    - vfr
+  tags: []
+- symbol: 𝕧
+  entities:
+    - vopf
+  tags: []
+- symbol: 𝓋
+  entities:
+    - vscr
+  tags: []
+- symbol: ⦚
+  entities:
+    - vzigzag
+  tags: []
+- symbol: ŵ
+  entities:
+    - wcirc
+  tags: []
+- symbol: ⩟
+  entities:
+    - wedbar
+  tags: []
+- symbol: ≙
+  entities:
+    - wedgeq
+  tags: []
+- symbol: ℘
+  entities:
+    - weierp
+    - wp
+  tags:
+    - P
+    - power
+- symbol: 𝔴
+  entities:
+    - wfr
+  tags: []
+- symbol: 𝕨
+  entities:
+    - wopf
+  tags: []
+- symbol: 𝓌
+  entities:
+    - wscr
+  tags: []
+- symbol: 𝔵
+  entities:
+    - xfr
+  tags: []
+- symbol: ξ
+  entities:
+    - xi
+  tags:
+    - e
+    - xi
+- symbol: ⋻
+  entities:
+    - xnis
+  tags: []
+- symbol: 𝕩
+  entities:
+    - xopf
+  tags: []
+- symbol: 𝓍
+  entities:
+    - xscr
+  tags: []
+- symbol: ý
+  entities:
+    - yacute
+  tags:
+    - y
+    - acute
+- symbol: я
+  entities:
+    - yacy
+  tags: []
+- symbol: ŷ
+  entities:
+    - ycirc
+  tags: []
+- symbol: ы
+  entities:
+    - ycy
+  tags: []
+- symbol: ¥
+  entities:
+    - yen
+  tags:
+    - yen
+    - y
+- symbol: 𝔶
+  entities:
+    - yfr
+  tags: []
+- symbol: ї
+  entities:
+    - yicy
+  tags: []
+- symbol: 𝕪
+  entities:
+    - yopf
+  tags: []
+- symbol: 𝓎
+  entities:
+    - yscr
+  tags: []
+- symbol: ю
+  entities:
+    - yucy
+  tags: []
+- symbol: ÿ
+  entities:
+    - yuml
+  tags:
+    - y
+    - diaeresis
+- symbol: ź
+  entities:
+    - zacute
+  tags: []
+- symbol: ž
+  entities:
+    - zcaron
+  tags: []
+- symbol: з
+  entities:
+    - zcy
+  tags: []
+- symbol: ż
+  entities:
+    - zdot
+  tags: []
+- symbol: ζ
+  entities:
+    - zeta
+  tags:
+    - z
+    - zeta
+- symbol: 𝔷
+  entities:
+    - zfr
+  tags: []
+- symbol: ж
+  entities:
+    - zhcy
+  tags: []
+- symbol: ⇝
+  entities:
+    - zigrarr
+  tags: []
+- symbol: 𝕫
+  entities:
+    - zopf
+  tags: []
+- symbol: 𝓏
+  entities:
+    - zscr
+  tags: []
+- symbol: ‍
+  entities:
+    - zwj
+  tags:
+    - " "
+    - zero
+- symbol: ‌
+  entities:
+    - zwnj
+  tags:
+    - " "
+    - zero
+    - non-joiner

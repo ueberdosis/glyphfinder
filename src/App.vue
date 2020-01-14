@@ -7,8 +7,8 @@
       v-debounce="250"
     >
 
-    <div v-for="result in results" :key="result.name">
-      {{ result }}
+    <div v-for="result in results" :key="result.symbol">
+      {{ result.symbol }}
     </div>
   </div>
 </template>
@@ -19,8 +19,6 @@ import debounce from 'v-debounce'
 import data from './data.yaml'
 
 export default {
-  name: 'App',
-
   directives: { debounce },
 
   data() {
@@ -38,26 +36,26 @@ export default {
 ***REMOVED*** this.idx.query(query => {
         // exact match
         query.term(this.query, {
-          fields: ['name', 'tags', 'alts'],
+          fields: ['symbol', 'entities', 'tags'],
           boost: 3,
     ***REMOVED***
 
         // first chars correct
         query.term(this.query, {
-          fields: ['name', 'tags'],
+          fields: ['symbol', 'entities', 'tags'],
           boost: 2,
           wildcard: lunr.Query.wildcard.TRAILING,
     ***REMOVED***
 
         // fuzzy
         query.term(this.query, {
-          fields: ['name', 'tags'],
+          fields: ['symbol', 'entities', 'tags'],
           editDistance: 1,
           boost: 1,
     ***REMOVED***
   ***REMOVED***
         .map(item => ({
-          ...data.find(glyph => glyph.name === item.ref),
+          ...data.find(glyph => glyph.symbol === item.ref),
           score: item.score,
     ***REMOVED***)
   ***REMOVED***,
@@ -69,10 +67,10 @@ export default {
       // this.pipeline.remove(lunr.stemmer)
       // this.pipeline.remove(lunr.stopWordFilter)
 
-      this.ref('name')
-      this.field('name')
+      this.ref('symbol')
+      this.field('symbol')
+      this.field('entities')
       this.field('tags')
-      this.field('alts')
 
       data.forEach(function (glyph) {
         this.add(glyph)

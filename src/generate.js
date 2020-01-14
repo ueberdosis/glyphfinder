@@ -4,6 +4,32 @@ const bail = require('bail')
 const concat = require('concat-stream')
 const YAML = require('yaml')
 const collect = require('collect.js')
+const entityLookupData = require('./entity-lookup')
+
+function format(data) {
+  return collect(data)
+    .groupBy('symbol')
+    .map(items => {
+      const { symbol } = items.first()
+      const entities = items.map(item => item.entity).toArray()
+      const entityLookupItem = collect(entityLookupData)
+        .filter(item => entities.includes(item.name))
+        .map(item => ({
+          ...item,
+          tags: item.tags.slice(1),
+    ***REMOVED***)
+        .first()
+      const tags = entityLookupItem ? entityLookupItem.tags : []
+
+***REMOVED*** [{
+        symbol,
+        entities,
+        tags,
+    ***REMOVED***]
+***REMOVED***
+    .flatten(1)
+    .toArray()
+}
 
 function onconcat(response) {
   const data = JSON.parse(response)
@@ -12,29 +38,18 @@ function onconcat(response) {
   Object.keys(data).forEach(key => {
     if (key[key.length - 1] === ';') {
       entities.push({
-        name: key.slice(1, -1),
-        value: data[key].characters,
-        tags: [],
+        entity: key.slice(1, -1),
+        symbol: data[key].characters,
   ***REMOVED***
   ***REMOVED***
 ***REMOVED***)
 
-  const formattedEntities2 = collect(entities)
-    .groupBy('value')
-    .map(items => [{
-      value: items.first().value,
-      entities: items.map(item => item.name),
-      tags: [],
-  ***REMOVED***])
-    .flatten(1)
-    .toArray()
+  const formattedEntities = format(entities)
 
-  fs.writeFile('src/data.yaml', YAML.stringify(entities), bail)
-  fs.writeFile('src/data2.yaml', YAML.stringify(formattedEntities2), bail)
+  fs.writeFile('src/data.yaml', YAML.stringify(formattedEntities), bail)
 }
 
-function onconnection(res) {
+// https://www.w3.org/TR/xml-entity-names/
+https.get('https://html.spec.whatwg.org/entities.json', res => {
   res.pipe(concat(onconcat)).on('error', bail)
-}
-
-https.get('https://html.spec.whatwg.org/entities.json', onconnection)
+})
