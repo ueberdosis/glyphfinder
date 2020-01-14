@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-    <input type="text" autofocus v-model="query">
+    <input
+      type="text"
+      autofocus
+      v-model.lazy="query"
+      v-debounce="250"
+    >
 
     <div v-for="result in results" :key="result.name">
       {{ result }}
@@ -10,10 +15,13 @@
 
 <script>
 import lunr from 'lunr'
+import debounce from 'v-debounce'
 import data from './data.yaml'
 
 export default {
   name: 'App',
+
+  directives: { debounce },
 
   data() {
     return {

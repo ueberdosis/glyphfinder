@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate": "node ./src/generate.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -13,9 +14,15 @@
 ***REMOVED***,
   "main": "background.js",
   "dependencies": {
+    "bail": "^1.0.4",
+    "collect.js": "^4.19.0",
+    "concat-stream": "^2.0.0",
     "core-js": "^3.4.4",
+    "https": "^1.0.0",
     "lunr": "^2.3.8",
-    "vue": "^2.6.10"
+    "v-debounce": "^0.1.2",
+    "vue": "^2.6.10",
+    "yaml": "^1.7.2"
 ***REMOVED***,
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
