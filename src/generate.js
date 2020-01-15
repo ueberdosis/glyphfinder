@@ -32,9 +32,9 @@ function format(data) {
 
 ***REMOVED*** [{
         symbol,
+        description,
         entities,
         tags,
-        description,
     ***REMOVED***]
 ***REMOVED***
     .flatten(1)
