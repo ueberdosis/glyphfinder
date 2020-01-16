@@ -7,7 +7,7 @@ import {
   installVueDevtools,
 } from 'vue-cli-plugin-electron-builder/lib'
 
-import robot from 'robotjs'
+// import robot from 'robotjs'
 
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
@@ -21,8 +21,13 @@ protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: tru
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 306,
+    height: 520,
+    resizable: false,
+    fullscreen: false,
+    titleBarStyle: 'hiddenInset',
+    transparent: true,
+    backgroundColor: '#000',
     webPreferences: {
       nodeIntegration: true,
   ***REMOVED***,
@@ -71,12 +76,11 @@ app.on('ready', async () => {
     // Electron will not launch with Devtools extensions installed on Windows 10 with dark mode
     // If you are not using Windows 10 dark mode, you may uncomment these lines
     // In addition, if the linked issue is closed, you can upgrade electron and uncomment these lines
-    // try {
-    //   await installVueDevtools()
-    // } catch (e) {
-    //   console.error('Vue Devtools failed to install:', e.toString())
-    // }
-
+    try {
+      await installVueDevtools()
+  ***REMOVED*** catch (e) {
+      console.error('Vue Devtools failed to install:', e.toString())
+  ***REMOVED***
 ***REMOVED***
   createWindow()
 

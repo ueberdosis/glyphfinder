@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="wrapper">
     <input
       type="text"
       autofocus
@@ -7,19 +7,22 @@
       v-debounce="250"
     >
 
-    <div v-for="result in results" :key="result.symbol">
-      {{ result.symbol }}
-    </div>
+    <glyph-list :glyphs="results" />
   </div>
 </template>
 
 <script>
 import lunr from 'lunr'
 import debounce from 'v-debounce'
-import data from './data.yaml'
+import data from '@/data.yaml'
+import GlyphList from '@/components/GlyphList'
 
 export default {
   directives: { debounce },
+
+  components: {
+    GlyphList,
+***REMOVED***,
 
   data() {
     return {
@@ -86,24 +89,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#app {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol"
-  ;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss" src="./fonts.scss"></style>
+<style lang="scss" src="./base.scss"></style>
+<style lang="scss" src="./style.scss" scoped></style>
