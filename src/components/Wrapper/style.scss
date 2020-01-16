@@ -1,4 +1,6 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
   position: relative;
   height: 100vh;
   padding: 48px 16px 16px 16px;
@@ -12,6 +14,16 @@
     height: 36px;
     pointer-events: none;
     -webkit-app-region: drag;
+***REMOVED***
+
+  &__header {
+    flex: 0 0 auto;
+***REMOVED***
+
+  &__content {
+    flex: 1 1 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 ***REMOVED***
 
   &__search {

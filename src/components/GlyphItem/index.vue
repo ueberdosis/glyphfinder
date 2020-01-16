@@ -1,9 +1,10 @@
 <template>
   <button
     class="glyph-item"
-    data-focusable
+    type="button"
     @keydown.enter="copyToClipboard"
     @dblclick="copyToClipboard"
+    :title="glyph.description"
   >
     {{ glyph.symbol }}
   </button>
