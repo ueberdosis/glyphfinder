@@ -6,7 +6,7 @@
         type="text"
         autofocus
         v-model.lazy="query"
-        v-debounce="250"
+        v-debounce="0"
       >
     </div>
     <div class="wrapper__content">
