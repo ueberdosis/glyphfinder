@@ -1,5 +1,5 @@
 <template>
-  <button class="glyph">
+  <button class="glyph-item">
     {{ glyph.symbol }}
   </button>
 </template>
@@ -15,6 +15,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style lang="scss" src="./style.scss" scoped></style>

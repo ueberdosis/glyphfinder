@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <input
+      class="wrapper__search"
       type="text"
       autofocus
       v-model.lazy="query"
@@ -33,7 +34,7 @@ export default {
   computed: {
     results() {
       if (!this.query) {
-  ***REMOVED*** []
+  ***REMOVED*** data
     ***REMOVED***
 
 ***REMOVED*** this.idx.query(query => {
