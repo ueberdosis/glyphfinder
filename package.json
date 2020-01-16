@@ -17,10 +17,12 @@
     "bail": "^1.0.4",
     "collect.js": "^4.19.0",
     "concat-stream": "^2.0.0",
+    "copy-to-clipboard": "^3.2.0",
     "core-js": "^3.4.4",
     "https": "^1.0.0",
     "lunr": "^2.3.8",
     "robotjs": "^0.6.0",
+    "spatial-navigation-js": "^1.0.0",
     "v-debounce": "^0.1.2",
     "vue": "^2.6.10",
     "yaml": "^1.7.2"

@@ -10,7 +10,8 @@
     background-color: rgba($colorWhite, 0.05);
 ***REMOVED***
 
-  &.is-active {
+  &.is-active,
+  &:focus {
     background-color: $colorRed;
 ***REMOVED***
 }

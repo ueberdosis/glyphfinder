@@ -15,6 +15,7 @@
 <script>
 import lunr from 'lunr'
 import debounce from 'v-debounce'
+import SpatialNavigation from 'spatial-navigation-js'
 import data from '@/data.yaml'
 import GlyphList from '@/components/GlyphList'
 
@@ -71,6 +72,10 @@ export default {
 ***REMOVED***,
 
   mounted() {
+    SpatialNavigation.init()
+    SpatialNavigation.add({ selector: '[data-focusable]' })
+    SpatialNavigation.makeFocusable()
+
     this.idx = lunr(function () {
       this.pipeline.remove(lunr.trimmer)
       this.pipeline.remove(lunr.stemmer)
