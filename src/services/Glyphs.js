@@ -56,13 +56,13 @@ import data from '@/data.yaml'
         // exact match
         query.term(searchQuery, {
           fields: ['symbol', 'entities', 'alts', 'tags'],
-          boost: 3,
+          boost: 10,
     ***REMOVED***
 
         // first chars correct
         query.term(searchQuery, {
           fields: ['symbol', 'entities', 'tags'],
-          boost: 2,
+          boost: 5,
           wildcard: lunr.Query.wildcard.TRAILING,
     ***REMOVED***
 
@@ -70,7 +70,6 @@ import data from '@/data.yaml'
         query.term(searchQuery, {
           fields: ['symbol', 'entities', 'tags'],
           editDistance: 1,
-          boost: 1,
     ***REMOVED***
 
         query.term(searchQuery, {
