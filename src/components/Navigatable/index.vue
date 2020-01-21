@@ -24,7 +24,9 @@ export default {
 ***REMOVED***,
 
   provide() {
-    const navigatable = {}
+    const navigatable = {
+      selectGlyph: this.selectGlyph,
+  ***REMOVED***
 
     Object.defineProperty(navigatable, 'selectedGlyph', {
       enumerable: true,
@@ -44,6 +46,12 @@ export default {
 ***REMOVED***,
 
   methods: {
+    selectGlyph(glyph) {
+      const index = this.glyphs.findIndex(item => item.symbol === glyph.symbol)
+
+      this.selectedIndex = index
+  ***REMOVED***,
+
     handleKeyDown(event) {
       const { key } = event
 

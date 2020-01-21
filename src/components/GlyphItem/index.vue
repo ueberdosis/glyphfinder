@@ -4,6 +4,7 @@
     :class="{ 'is-active': isSelected }"
     type="button"
     @keydown.enter="copyToClipboard"
+    @click="handleClick"
     @dblclick="copyToClipboard"
     :title="glyph.name"
   >
@@ -40,6 +41,10 @@ export default {
     ***REMOVED*** else {
         console.log('copy failed')
     ***REMOVED***
+  ***REMOVED***,
+
+    handleClick() {
+      this.navigatable.selectGlyph(this.glyph)
   ***REMOVED***,
 ***REMOVED***,
 }
