@@ -1,11 +1,12 @@
 <template>
   <div class="glyph-list">
     <virtual-list
+      :start="0"
       :size="50"
       :remain="8"
-      :item="item"
-      :itemcount="count"
-      :itemprops="getItemprops"
+      :item="rowComponent"
+      :itemcount="rowsCount"
+      :itemprops="getItemProps"
     />
   </div>
 </template>
@@ -29,13 +30,13 @@ export default {
 
   data() {
     return {
-      item: GlyphRow,
+      rowComponent: GlyphRow,
       itemsPerRow: 5,
   ***REMOVED***
 ***REMOVED***,
 
   computed: {
-    count() {
+    rowsCount() {
 ***REMOVED*** this.rows.length
   ***REMOVED***,
 
@@ -47,7 +48,7 @@ export default {
 ***REMOVED***,
 
   methods: {
-    getItemprops(itemIndex) {
+    getItemProps(itemIndex) {
 ***REMOVED*** {
         props: {
           glyphs: this.rows[itemIndex],

@@ -24,3 +24,5 @@ export default {
 ***REMOVED***,
 }
 </script>
+
+<style lang="scss" src="./style.scss" scoped></style>
