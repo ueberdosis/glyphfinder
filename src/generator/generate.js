@@ -45,19 +45,38 @@ function formatCodePoints(data, HTMLentities) {
     .toArray()
 
   const emojis = collect(rawEmojis)
-    .map(item => ({
-      symbol: item.emoji,
-      hex: item.hexcode.split('-').join(' '),
-      code: '',
-      name: item.annotation,
-      category: groups[item.group],
-      entities: '',
-      tags: [
+    .map(item => {
+
+      const tags = [
         'emoji',
         subgroups[item.subgroup],
         ...item.tags,
-      ].join(' '),
-***REMOVED***)
+      ].join(' ')
+
+***REMOVED*** [
+        {
+          symbol: item.emoji,
+          hex: item.hexcode.split('-').join(' '),
+          code: '',
+          name: item.annotation,
+          category: groups[item.group],
+          entities: '',
+          tags,
+      ***REMOVED***,
+        ...(item.skins
+          ? item.skins.map(skin => ({
+            symbol: skin.emoji,
+            hex: skin.hexcode.split('-').join(' '),
+            code: '',
+            name: skin.annotation,
+            category: groups[skin.group],
+            entities: '',
+            tags,
+      ***REMOVED***) : []
+        ),
+      ]
+***REMOVED***
+    .flatten(1)
     .toArray()
 
   return [
