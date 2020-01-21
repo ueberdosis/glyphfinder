@@ -1,19 +1,19 @@
 <template>
-  <div class="wrapper">
-    <div class="wrapper__header">
-      <input
-        class="wrapper__search"
-        type="text"
-        autofocus
-        v-model="query"
-      >
-    </div>
-    <div class="wrapper__content">
-      <navigatable :glyphs="glyphs">
+  <navigatable :glyphs="glyphs">
+    <div class="wrapper">
+      <div class="wrapper__header">
+        <input
+          class="wrapper__search"
+          type="text"
+          autofocus
+          v-model="query"
+        >
+      </div>
+      <div class="wrapper__content">
         <glyph-list :glyphs="glyphs" />
-      </navigatable>
+      </div>
     </div>
-  </div>
+  </navigatable>
 </template>
 
 <script>
