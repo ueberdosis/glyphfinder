@@ -5,6 +5,7 @@ const collect = require('collect.js')
 const concat = require('concat-stream')
 const rawCodepoints = require('codepoints')
 const rawEmojis = require('emojibase-data/en/data.json')
+const { parse } = require('json2csv')
 const { groups, subgroups } = require('emojibase-data/meta/groups.json')
 const entityLookupData = require('./src/entity-lookup')
 
@@ -25,6 +26,7 @@ function formatCodePoints(data, HTMLentities) {
       'Variation Selectors Supplement',
       'Tags',
       'Emoticons',
+      'Supplemental Symbols and Pictographs',
     ].includes(item.block))
     .map(item => {
       const symbol = String.fromCodePoint(item.code)
@@ -122,9 +124,11 @@ function formatEntities(data) {
 function onconcat(response) {
   const entities = formatEntities(JSON.parse(response))
   const codepoints = formatCodePoints(rawCodepoints, entities)
+  const csv = parse(codepoints)
 
   fs.writeFile('./src/generator/dist/codepoints.json', JSON.stringify(rawCodepoints, null, 2), bail)
   fs.writeFile('./src/generator/dist/data.json', JSON.stringify(codepoints, null, 2), bail)
+  fs.writeFile('./src/generator/dist/data.csv', csv, bail)
 }
 
 https.get('https://html.spec.whatwg.org/entities.json', res => {
