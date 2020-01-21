@@ -11,8 +11,9 @@
 </template>
 
 <script>
+import collect from 'collect.js'
 import VirtualList from 'vue-virtual-scroll-list'
-import GlyphItem from '@/components/GlyphItem'
+import GlyphRow from '@/components/GlyphRow'
 
 export default {
   components: {
@@ -28,13 +29,20 @@ export default {
 
   data() {
     return {
-      item: GlyphItem,
+      item: GlyphRow,
+      itemsPerRow: 5,
   ***REMOVED***
 ***REMOVED***,
 
   computed: {
     count() {
-***REMOVED*** this.glyphs.length
+***REMOVED*** this.rows.length
+  ***REMOVED***,
+
+    rows() {
+***REMOVED*** collect(this.glyphs)
+        .chunk(this.itemsPerRow)
+        .toArray()
   ***REMOVED***,
 ***REMOVED***,
 
@@ -42,7 +50,7 @@ export default {
     getItemprops(itemIndex) {
 ***REMOVED*** {
         props: {
-          glyph: this.glyphs[itemIndex],
+          glyphs: this.rows[itemIndex],
       ***REMOVED***,
     ***REMOVED***
   ***REMOVED***,
