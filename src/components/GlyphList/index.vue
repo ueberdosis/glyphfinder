@@ -1,9 +1,9 @@
 <template>
   <div class="glyph-list">
     <virtual-list
-      :start="0"
+      :start="navigatable.startRow"
       :size="50"
-      :remain="8"
+      :remain="navigatable.showRows"
       :item="rowComponent"
       :itemcount="rowsCount"
       :itemprops="getItemProps"
@@ -17,6 +17,8 @@ import VirtualList from 'vue-virtual-scroll-list'
 import GlyphRow from '@/components/GlyphRow'
 
 export default {
+  inject: ['navigatable'],
+
   components: {
     VirtualList,
 ***REMOVED***,
@@ -31,7 +33,6 @@ export default {
   data() {
     return {
       rowComponent: GlyphRow,
-      itemsPerRow: 5,
   ***REMOVED***
 ***REMOVED***,
 
@@ -42,7 +43,7 @@ export default {
 
     rows() {
 ***REMOVED*** collect(this.glyphs)
-        .chunk(this.itemsPerRow)
+        .chunk(this.navigatable.itemsPerRow)
         .toArray()
   ***REMOVED***,
 ***REMOVED***,
