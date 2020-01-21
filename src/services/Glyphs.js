@@ -1,5 +1,5 @@
 import FlexSearch from 'flexsearch'
-import data from '../generator/dist/data.json'
+import data from '../data/data.json'
 
 ***REMOVED***
 
