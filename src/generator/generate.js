@@ -5,6 +5,7 @@ const collect = require('collect.js')
 const concat = require('concat-stream')
 const rawCodepoints = require('codepoints')
 const rawEmojis = require('emojibase-data/en/data.json')
+const { groups, subgroups } = require('emojibase-data/meta/groups.json')
 const entityLookupData = require('./src/entity-lookup')
 
 function getHex(char) {
@@ -49,10 +50,11 @@ function formatCodePoints(data, HTMLentities) {
       hex: item.hexcode.split('-').join(' '),
       code: '',
       name: item.annotation,
-      category: '',
+      category: groups[item.group],
       entities: '',
       tags: [
         'emoji',
+        subgroups[item.subgroup],
         ...item.tags,
       ].join(' '),
 ***REMOVED***)
