@@ -25,8 +25,6 @@ function formatCodePoints(data, HTMLentities) {
       'Variation Selectors',
       'Variation Selectors Supplement',
       'Tags',
-      'Emoticons',
-      'Supplemental Symbols and Pictographs',
     ].includes(item.block))
     .map(item => {
       const symbol = String.fromCodePoint(item.code)
@@ -81,8 +79,12 @@ function formatCodePoints(data, HTMLentities) {
     .flatten(1)
     .toArray()
 
+  const charsWithoutEmojis = collect(chars)
+    .filter(item => !emojis.find(emoji => emoji.hex === item.hex))
+    .toArray()
+
   return [
-    ...chars,
+    ...charsWithoutEmojis,
     ...emojis,
   ]
 }
@@ -121,10 +123,22 @@ function formatEntities(data) {
   return formattedEntities
 }
 
+function healthcheck(data) {
+  const duplicates = collect(data)
+    .groupBy('symbol')
+    .filter(items => items.toArray().length > 1)
+    .map(items => items.toArray()[0].symbol)
+    .toArray()
+
+  console.log({ duplicates })
+}
+
 function onconcat(response) {
   const entities = formatEntities(JSON.parse(response))
   const codepoints = formatCodePoints(rawCodepoints, entities)
   const csv = parse(codepoints)
+
+  healthcheck(codepoints)
 
   fs.writeFile('./src/generator/dist/codepoints.json', JSON.stringify(rawCodepoints, null, 2), bail)
   fs.writeFile('./src/generator/dist/data.json', JSON.stringify(codepoints, null, 2), bail)
