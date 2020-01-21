@@ -10,7 +10,6 @@
     "start": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps",
-    "codepoints": "node ./src/generator/codepoints.js",
     "generate": "node ./src/generator/generate.js"
 ***REMOVED***,
   "main": "background.js",
@@ -21,16 +20,11 @@
     "concat-stream": "^2.0.0",
     "copy-to-clipboard": "^3.2.0",
     "core-js": "^3.4.4",
+    "flexsearch": "^0.6.32",
     "https": "^1.0.0",
-    "lunr": "^2.3.8",
-    "robotjs": "^0.6.0",
-    "unicode-11.0.0": "^0.7.8",
-    "unicode-database-parser": "^2.0.2",
     "uuid": "^3.3.3",
-    "v-debounce": "^0.1.2",
     "vue": "^2.6.10",
-    "vue-virtual-scroll-list": "^1.4.4",
-    "yaml": "^1.7.2"
+    "vue-virtual-scroll-list": "^1.4.4"
 ***REMOVED***,
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
