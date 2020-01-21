@@ -47,6 +47,12 @@ import data from '@/data.yaml'
       .toArray()
 ***REMOVED***
 
+  getRows(glyphs = [], count) {
+    return collect(glyphs)
+      .chunk(count)
+      .toArray()
+***REMOVED***
+
   search(searchQuery = null) {
     const filteredQuery = searchQuery ? searchQuery.toLowerCase().trim() : ''
 
