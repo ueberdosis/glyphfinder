@@ -1,15 +1,22 @@
 <template>
   <div class="glyph-list">
-    <glyph-item v-for="glyph in glyphs" :key="glyph.symbol" :glyph="glyph" />
+    <virtual-list
+      :size="50"
+      :remain="8"
+      :item="item"
+      :itemcount="count"
+      :itemprops="getItemprops"
+    />
   </div>
 </template>
 
 <script>
+import VirtualList from 'vue-virtual-scroll-list'
 import GlyphItem from '@/components/GlyphItem'
 
 export default {
   components: {
-    GlyphItem,
+    VirtualList,
 ***REMOVED***,
 
   props: {
@@ -18,9 +25,27 @@ export default {
       default: () => ([]),
   ***REMOVED***,
 ***REMOVED***,
+
+  data() {
+    return {
+      item: GlyphItem,
+  ***REMOVED***
+***REMOVED***,
+
+  computed: {
+    count() {
+***REMOVED*** this.glyphs.length
+  ***REMOVED***,
+***REMOVED***,
+
+  methods: {
+    getItemprops(itemIndex) {
+***REMOVED*** {
+        props: {
+          glyph: this.glyphs[itemIndex],
+      ***REMOVED***,
+    ***REMOVED***
+  ***REMOVED***,
+***REMOVED***,
 }
 </script>
-
-<style>
-
-</style>

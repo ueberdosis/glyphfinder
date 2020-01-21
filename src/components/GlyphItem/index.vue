@@ -4,7 +4,7 @@
     type="button"
     @keydown.enter="copyToClipboard"
     @dblclick="copyToClipboard"
-    :title="glyph.description"
+    :title="glyph.name"
   >
     {{ glyph.symbol }}
   </button>

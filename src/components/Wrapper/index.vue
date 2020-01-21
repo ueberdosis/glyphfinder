@@ -5,8 +5,7 @@
         class="wrapper__search"
         type="text"
         autofocus
-        v-model.lazy="query"
-        v-debounce="0"
+        v-model="query"
       >
     </div>
     <div class="wrapper__content">
@@ -16,13 +15,10 @@
 </template>
 
 <script>
-import debounce from 'v-debounce'
 import GlyphList from '@/components/GlyphList'
 import Glyphs from '@/services/Glyphs'
 
 export default {
-  directives: { debounce },
-
   components: {
     GlyphList,
 ***REMOVED***,
@@ -35,11 +31,13 @@ export default {
 
   computed: {
     results() {
-      const glyphs = Glyphs.search(this.query)
+      console.log(Glyphs.items)
+***REMOVED*** Glyphs.items
+      // const glyphs = Glyphs.search(this.query)
 
-      console.log(Glyphs.getRows(glyphs, 5))
+      // console.log(Glyphs.getRows(glyphs, 5))
 
-***REMOVED*** glyphs
+      // return glyphs
   ***REMOVED***,
 ***REMOVED***,
 }

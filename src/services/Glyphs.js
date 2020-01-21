@@ -1,95 +1,97 @@
-import collect from 'collect.js'
-import lunr from 'lunr'
-import data from '@/data.yaml'
+// import collect from 'collect.js'
+// import lunr from 'lunr'
+// import data from '@/data.yaml'
+import data from '../generator/dist/data.json'
 
 ***REMOVED***
 
 ***REMOVED***
-    this.items = this.buildItems(data)
+    // this.items = this.buildItems(data)
+    this.items = data
 
-    this.idx = lunr(builder => {
-      builder.pipeline.remove(lunr.trimmer)
-      builder.pipeline.remove(lunr.stemmer)
-      builder.pipeline.remove(lunr.stopWordFilter)
+    // this.idx = lunr(builder => {
+    //   builder.pipeline.remove(lunr.trimmer)
+    //   builder.pipeline.remove(lunr.stemmer)
+    //   builder.pipeline.remove(lunr.stopWordFilter)
 
-      builder.ref('symbol')
-      builder.field('symbol')
-      builder.field('entities')
-      builder.field('tags')
-      builder.field('alts')
-      builder.field('description')
+    //   builder.ref('symbol')
+    //   builder.field('symbol')
+    //   builder.field('entities')
+    //   builder.field('tags')
+    //   builder.field('alts')
+    //   builder.field('description')
 
-      this.items.forEach(glyph => builder.add(glyph))
-***REMOVED***
-***REMOVED***
-
-  buildItems(items) {
-    return collect(items)
-      .map(glyph => {
-        const unfilteredTags = glyph.tags
-        const [tags, alts] = collect(unfilteredTags)
-          .partition(item => {
-            const isWord = /^\w{2,}$/.test(item) // min 2 letters
-            const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(item)
-
-      ***REMOVED*** isWord || isWordWithHyphens
-      ***REMOVED***
-          .toArray()
-
-  ***REMOVED*** {
-          ...glyph,
-          unfilteredTags,
-          tags,
-          alts,
-      ***REMOVED***
-  ***REMOVED***
-      .sortBy(glyph => glyph.symbol)
-      .toArray()
+    //   this.items.forEach(glyph => builder.add(glyph))
+    // })
 ***REMOVED***
 
-  getRows(glyphs = [], count) {
-    return collect(glyphs)
-      .chunk(count)
-      .toArray()
-***REMOVED***
+  // buildItems(items) {
+  //   // return collect(items)
+  //   //   .map(glyph => {
+  //   //     const unfilteredTags = glyph.tags
+  //   //     const [tags, alts] = collect(unfilteredTags)
+  //   //       .partition(item => {
+  //   //         const isWord = /^\w{2,}$/.test(item) // min 2 letters
+  //   //         const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(item)
 
-  search(searchQuery = null) {
-    const filteredQuery = searchQuery ? searchQuery.toLowerCase().trim() : ''
+  //   //   ***REMOVED*** isWord || isWordWithHyphens
+  //   //   ***REMOVED***
+  //   //       .toArray()
 
-    if (filteredQuery === '') {
-***REMOVED*** this.items
-  ***REMOVED***
+  //   //     return {
+  //   //       ...glyph,
+  //   //       unfilteredTags,
+  //   //       tags,
+  //   //       alts,
+  //   //   ***REMOVED***
+  //   // ***REMOVED***)
+  //   //   .sortBy(glyph => glyph.symbol)
+  //   //   .toArray()
+  // }
 
-    return this.idx
-      .query(query => {
-        // exact match
-        query.term(filteredQuery, {
-          fields: ['symbol', 'entities', 'alts', 'tags'],
-          boost: 10,
-    ***REMOVED***
+  // getRows(glyphs = [], count) {
+  //   return collect(glyphs)
+  //     .chunk(count)
+  //     .toArray()
+  // }
 
-        // first chars correct
-        query.term(filteredQuery, {
-          fields: ['symbol', 'entities', 'tags'],
-          boost: 5,
-          wildcard: lunr.Query.wildcard.TRAILING,
-    ***REMOVED***
+  // search(searchQuery = null) {
+  //   // const filteredQuery = searchQuery ? searchQuery.toLowerCase().trim() : ''
 
-        // fuzzy
-        query.term(filteredQuery, {
-          fields: ['symbol', 'entities', 'tags'],
-          editDistance: 1,
-    ***REMOVED***
+  //   // if (filteredQuery === '') {
+  //   //   return this.items
+  //   // }
 
-        query.term(filteredQuery, {
-          fields: ['description'],
-          wildcard: lunr.Query.wildcard.TRAILING,
-    ***REMOVED***
-  ***REMOVED***
-      .map(item => ({
-        ...this.items.find(glyph => glyph.symbol === item.ref),
-        score: item.score,
-  ***REMOVED***)
-***REMOVED***
+  //   // return this.idx
+  //   //   .query(query => {
+  //   //     // exact match
+  //   //     query.term(filteredQuery, {
+  //   //       fields: ['symbol', 'entities', 'alts', 'tags'],
+  //   //       boost: 10,
+  //   // ***REMOVED***
+
+  //   //     // first chars correct
+  //   //     query.term(filteredQuery, {
+  //   //       fields: ['symbol', 'entities', 'tags'],
+  //   //       boost: 5,
+  //   //       wildcard: lunr.Query.wildcard.TRAILING,
+  //   // ***REMOVED***
+
+  //   //     // fuzzy
+  //   //     query.term(filteredQuery, {
+  //   //       fields: ['symbol', 'entities', 'tags'],
+  //   //       editDistance: 1,
+  //   // ***REMOVED***
+
+  //   //     query.term(filteredQuery, {
+  //   //       fields: ['description'],
+  //   //       wildcard: lunr.Query.wildcard.TRAILING,
+  //   // ***REMOVED***
+  //   // ***REMOVED***)
+  //   //   .map(item => ({
+  //   //     ...this.items.find(glyph => glyph.symbol === item.ref),
+  //   //     score: item.score,
+  //   // ***REMOVED***))
+  // }
 
 ***REMOVED***

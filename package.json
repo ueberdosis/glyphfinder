@@ -29,6 +29,7 @@
     "uuid": "^3.3.3",
     "v-debounce": "^0.1.2",
     "vue": "^2.6.10",
+    "vue-virtual-scroll-list": "^1.4.4",
     "yaml": "^1.7.2"
 ***REMOVED***,
   "devDependencies": {
