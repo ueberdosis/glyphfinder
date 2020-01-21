@@ -4,8 +4,8 @@ const https = require('https')
 const collect = require('collect.js')
 const concat = require('concat-stream')
 const rawCodepoints = require('codepoints')
+const rawEmojis = require('emojibase-data/en/data.json')
 const entityLookupData = require('./src/entity-lookup')
-const rawEmojis = require('./src/emojis')
 
 function getHex(char) {
   return Array.from(char)
@@ -43,17 +43,18 @@ function formatCodePoints(data, HTMLentities) {
 ***REMOVED***
     .toArray()
 
-  console.log(rawEmojis)
-
   const emojis = collect(rawEmojis)
     .map(item => ({
-      symbol: item.char,
-      hex: item.codes,
+      symbol: item.emoji,
+      hex: item.hexcode.split('-').join(' '),
       code: '',
-      name: item.name,
-      category: item.category,
+      name: item.annotation,
+      category: '',
       entities: '',
-      tags: '',
+      tags: [
+        'emoji',
+        ...item.tags,
+      ].join(' '),
 ***REMOVED***)
     .toArray()
 

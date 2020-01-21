@@ -20,6 +20,7 @@
     "concat-stream": "^2.0.0",
     "copy-to-clipboard": "^3.2.0",
     "core-js": "^3.4.4",
+    "emojibase-data": "^4.2.0",
     "flexsearch": "^0.6.32",
     "https": "^1.0.0",
     "uuid": "^3.3.3",
