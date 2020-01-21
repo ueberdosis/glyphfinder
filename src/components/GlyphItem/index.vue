@@ -1,6 +1,7 @@
 <template>
   <button
     class="glyph-item"
+    :class="{ 'is-active': isSelected }"
     type="button"
     @keydown.enter="copyToClipboard"
     @dblclick="copyToClipboard"
@@ -14,10 +15,20 @@
 import copy from 'copy-to-clipboard'
 
 export default {
+  inject: ['navigatable'],
+
   props: {
     glyph: {
       required: true,
       type: Object,
+  ***REMOVED***,
+***REMOVED***,
+
+  computed: {
+    isSelected() {
+***REMOVED*** this.navigatable.selectedGlyph
+        ? this.navigatable.selectedGlyph.symbol === this.glyph.symbol
+        : false
   ***REMOVED***,
 ***REMOVED***,
 

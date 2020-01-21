@@ -9,18 +9,22 @@
       >
     </div>
     <div class="wrapper__content">
-      <glyph-list :glyphs="results" />
+      <navigatable :glyphs="glyphs">
+        <glyph-list :glyphs="glyphs" />
+      </navigatable>
     </div>
   </div>
 </template>
 
 <script>
 import GlyphList from '@/components/GlyphList'
+import Navigatable from '@/components/Navigatable'
 import Glyphs from '@/services/Glyphs'
 
 export default {
   components: {
     GlyphList,
+    Navigatable,
 ***REMOVED***,
 
   data() {
@@ -30,7 +34,7 @@ export default {
 ***REMOVED***,
 
   computed: {
-    results() {
+    glyphs() {
 ***REMOVED*** Glyphs.search(this.query)
   ***REMOVED***,
 ***REMOVED***,

@@ -1,6 +1,10 @@
 <template>
   <div class="glyph-row">
-    <glyph-item v-for="glyph in glyphs" :key="glyph.symbol" :glyph="glyph" />
+    <glyph-item
+      v-for="glyph in glyphs"
+      :key="glyph.symbol"
+      :glyph="glyph"
+    />
   </div>
 </template>
 
