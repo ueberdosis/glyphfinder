@@ -5,6 +5,7 @@ const collect = require('collect.js')
 const concat = require('concat-stream')
 const rawCodepoints = require('codepoints')
 const entityLookupData = require('./src/entity-lookup')
+const rawEmojis = require('./src/emojis')
 
 function getHex(char) {
   return Array.from(char)
@@ -15,13 +16,14 @@ function getHex(char) {
 }
 
 function formatCodePoints(data, HTMLentities) {
-  return collect(data)
+  const chars = collect(data)
     .filter()
     .filter(item => !item.name.startsWith('<') && !item.name.endsWith('>'))
     .filter(item => ![
       'Variation Selectors',
       'Variation Selectors Supplement',
       'Tags',
+      'Emoticons',
     ].includes(item.block))
     .map(item => {
       const symbol = String.fromCodePoint(item.code)
@@ -34,11 +36,31 @@ function formatCodePoints(data, HTMLentities) {
         hex: getHex(symbol),
         code: item.code,
         name: item.name.toLowerCase(),
+        category: item.block,
         entities,
         tags,
     ***REMOVED***
 ***REMOVED***
     .toArray()
+
+  console.log(rawEmojis)
+
+  const emojis = collect(rawEmojis)
+    .map(item => ({
+      symbol: item.char,
+      hex: item.codes,
+      code: '',
+      name: item.name,
+      category: item.category,
+      entities: '',
+      tags: '',
+***REMOVED***)
+    .toArray()
+
+  return [
+    ...chars,
+    ...emojis,
+  ]
 }
 
 function formatEntities(data) {
