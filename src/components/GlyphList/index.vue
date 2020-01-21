@@ -2,11 +2,12 @@
   <div class="glyph-list">
     <virtual-list
       :start="navigatable.startRow"
-      :size="50"
+      :size="navigatable.rowHeight"
       :remain="navigatable.showRows"
       :item="rowComponent"
       :itemcount="rowsCount"
       :itemprops="getItemProps"
+      :onscroll="onScroll"
     />
   </div>
 </template>
@@ -55,6 +56,10 @@ export default {
           glyphs: this.rows[itemIndex],
       ***REMOVED***,
     ***REMOVED***
+  ***REMOVED***,
+
+    onScroll(event, data) {
+      this.navigatable.handleScroll(data)
   ***REMOVED***,
 ***REMOVED***,
 }

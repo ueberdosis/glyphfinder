@@ -8,11 +8,16 @@ export default {
 ***REMOVED***,
 
   data() {
+    const showRows = 8
+
     return {
       selectedIndex: 0,
       startRow: 0,
-      showRows: 8,
+      showRows,
       itemsPerRow: 5,
+      rowHeight: 50,
+      firstFullyVisibleRow: 0,
+      lastFullyVisibleRow: showRows - 1,
   ***REMOVED***
 ***REMOVED***,
 
@@ -24,11 +29,16 @@ export default {
 
 ***REMOVED*** this.glyphs[this.selectedIndex]
   ***REMOVED***,
+
+    selectedRow() {
+***REMOVED*** Math.floor(this.selectedIndex / this.itemsPerRow)
+  ***REMOVED***,
 ***REMOVED***,
 
   provide() {
     const navigatable = {
       selectGlyph: this.selectGlyph,
+      handleScroll: this.handleScroll,
   ***REMOVED***
 
     Object.defineProperty(navigatable, 'selectedGlyph', {
@@ -51,6 +61,11 @@ export default {
       get: () => this.itemsPerRow,
 ***REMOVED***
 
+    Object.defineProperty(navigatable, 'rowHeight', {
+      enumerable: true,
+      get: () => this.rowHeight,
+***REMOVED***
+
     return { navigatable }
 ***REMOVED***,
 
@@ -64,6 +79,27 @@ export default {
 ***REMOVED***,
 
   methods: {
+    handleScroll(data) {
+      this.firstFullyVisibleRow = Math.ceil(data.offset / this.rowHeight)
+
+      const firstVisibleRow = Math.floor(data.offset / this.rowHeight)
+      const scrolledOverFirstRow = data.offset - firstVisibleRow * this.rowHeight
+
+      this.lastFullyVisibleRow = this.firstFullyVisibleRow
+        + this.showRows
+        - (scrolledOverFirstRow > 0 ? 2 : 1)
+  ***REMOVED***,
+
+    maybeUpdateStartRow() {
+      if (this.selectedRow < this.firstFullyVisibleRow) {
+        this.startRow = this.startRow - this.showRows
+    ***REMOVED***
+
+      if (this.selectedRow > this.lastFullyVisibleRow) {
+        this.startRow = this.selectedRow
+    ***REMOVED***
+  ***REMOVED***,
+
     selectGlyph(glyph) {
       const index = this.glyphs.findIndex(item => item.symbol === glyph.symbol)
 
@@ -79,7 +115,6 @@ export default {
 
       if (key === 'ArrowDown') {
         this.changeIndex(5)
-        // this.startRow = this.startRow + 1
     ***REMOVED*** else if (key === 'ArrowUp') {
         this.changeIndex(-5)
     ***REMOVED*** else if (key === 'ArrowRight') {
@@ -95,6 +130,7 @@ export default {
       const newIndex = Math.min(Math.max(parseInt(this.selectedIndex + change, 10), min), max)
 
       this.selectedIndex = newIndex
+      this.maybeUpdateStartRow()
   ***REMOVED***,
 ***REMOVED***,
 
