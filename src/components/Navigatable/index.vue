@@ -74,6 +74,7 @@ export default {
       immediate: true,
       handler() {
         this.selectedIndex = 0
+        this.startRow = 0
     ***REMOVED***,
   ***REMOVED***,
 ***REMOVED***,
@@ -92,7 +93,7 @@ export default {
 
     maybeUpdateStartRow() {
       if (this.selectedRow < this.firstFullyVisibleRow) {
-        this.startRow = this.startRow - this.showRows
+        this.startRow = Math.max(this.startRow - this.showRows, 0)
     ***REMOVED***
 
       if (this.selectedRow > this.lastFullyVisibleRow) {
