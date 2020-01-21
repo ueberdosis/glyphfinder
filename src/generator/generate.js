@@ -18,7 +18,11 @@ function formatCodePoints(data, HTMLentities) {
   return collect(data)
     .filter()
     .filter(item => !item.name.startsWith('<') && !item.name.endsWith('>'))
-    .filter(item => item.block !== 'Variation Selectors')
+    .filter(item => ![
+      'Variation Selectors',
+      'Variation Selectors Supplement',
+      'Tags',
+    ].includes(item.block))
     .map(item => {
       const symbol = String.fromCodePoint(item.code)
       const entity = HTMLentities.find(entityItem => entityItem.symbol === symbol)
