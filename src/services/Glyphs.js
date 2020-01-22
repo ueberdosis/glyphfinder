@@ -12,6 +12,8 @@ import data from '../data/data.json'
           'symbol',
           'name',
           'tags',
+          'entities',
+          'category',
         ],
     ***REMOVED***,
       tokenize: this.tokenize,
