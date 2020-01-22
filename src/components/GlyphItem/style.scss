@@ -8,6 +8,22 @@
   font-size: 24px;
   font-weight: 600;
 
+  &.is-emoji {
+    font-family:
+      // 'Inter',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      Helvetica,
+      Arial,
+      sans-serif,
+      'Apple Color Emoji',
+      'Segoe UI Emoji',
+      'Segoe UI Symbol'
+    ;
+***REMOVED***
+
   &:hover {
     background-color: rgba($colorWhite, 0.05);
 ***REMOVED***
