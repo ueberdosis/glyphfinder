@@ -5,6 +5,7 @@ import data from '../data/data.json'
 
 ***REMOVED***
     this.index = new FlexSearch({
+      cache: true,
       doc: {
         id: 'symbol',
         field: [
@@ -13,31 +14,7 @@ import data from '../data/data.json'
           'tags',
         ],
     ***REMOVED***,
-      tokenize(str) {
-        const words = str.match(/\S+/g) || []
-
-  ***REMOVED*** words
-          .map(word => {
-            const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(word)
-
-            if (isWordWithHyphens) {
-        ***REMOVED*** word.split('-')
-          ***REMOVED***
-
-      ***REMOVED*** word
-      ***REMOVED***
-          .flat()
-          .map(word => {
-            const tokens = []
-
-            for (let i = 0; i < word.length; i += 1) {
-              tokens.push(word.slice(0, i + 1))
-          ***REMOVED***
-
-      ***REMOVED*** tokens
-      ***REMOVED***
-          .flat()
-    ***REMOVED***,
+      tokenize: this.tokenize,
 ***REMOVED***
 
     this.index.add(data)
@@ -45,11 +22,31 @@ import data from '../data/data.json'
     console.log(this.index.info())
 ***REMOVED***
 
-  // getRows(glyphs = [], count) {
-  //   return collect(glyphs)
-  //     .chunk(count)
-  //     .toArray()
-  // }
+  tokenize(value) {
+    const words = value.match(/\S+/g) || []
+
+    return words
+      .map(word => {
+        const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(word)
+
+        if (isWordWithHyphens) {
+    ***REMOVED*** word.split('-')
+      ***REMOVED***
+
+  ***REMOVED*** word
+  ***REMOVED***
+      .flat()
+      .map(word => {
+        const tokens = []
+
+        for (let i = 0; i < word.length; i += 1) {
+          tokens.push(word.slice(0, i + 1))
+      ***REMOVED***
+
+  ***REMOVED*** tokens
+  ***REMOVED***
+      .flat()
+***REMOVED***
 
   search(query = null) {
     const filteredQuery = query ? query.toLowerCase().trim() : ''
