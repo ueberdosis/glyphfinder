@@ -26,6 +26,7 @@
     "flexsearch": "^0.6.32",
     "https": "^1.0.0",
     "json2csv": "^4.5.4",
+    "native-keymap": "^2.1.1",
     "uuid": "^3.3.3",
     "vue": "^2.6.10",
     "vue-virtual-scroll-list": "^1.4.4"
@@ -43,7 +44,8 @@
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-vue": "^5.0.0",
-    "js-yaml-loader": "^1.2.2",
+    "native-ext-loader": "^2.3.0",
+    "node-loader": "^0.6.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "vue-cli-plugin-electron-builder": "^1.4.4",

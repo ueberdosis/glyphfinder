@@ -15,13 +15,17 @@ module.exports = {
 ***REMOVED***,
 
   chainWebpack: config => {
+    const nodeLoader = process.env.NODE_ENV === 'development'
+      ? 'node-loader'
+      : 'native-ext-loader'
+
     config.module
       .rule('node')
-      .test(/\.yaml$/)
-      .use('js-yaml-loader')
-      .loader('js-yaml-loader')
+      .test(/\.node$/)
+      .use(nodeLoader)
+      .loader(nodeLoader)
       .end()
 
-    config.resolve.extensions.prepend('.yaml')
+    config.resolve.extensions.prepend('.node')
 ***REMOVED***,
 }
