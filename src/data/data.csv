@@ -4,8 +4,8 @@ symbol,hex,code,name,category,entities,tags
 """",0022,34,quotation mark,Basic Latin,QUOT quot,quote
 #,0023,35,number sign,Basic Latin,num,
 $,0024,36,dollar sign,Basic Latin,dollar,currency
-%,0025,37,percent sign,Basic Latin,percnt,
-&,0026,38,ampersand,Basic Latin,AMP amp,and
+%,0025,37,percent sign,Basic Latin,percnt,0/0 fraction
+&,0026,38,ampersand,Basic Latin,AMP amp,and et
 ',0027,39,apostrophe,Basic Latin,apos,
 (,0028,40,left parenthesis,Basic Latin,lpar,
 ),0029,41,right parenthesis,Basic Latin,rpar,
@@ -27,11 +27,11 @@ $,0024,36,dollar sign,Basic Latin,dollar,currency
 9,0039,57,digit nine,Basic Latin,,
 :,003A,58,colon,Basic Latin,colon,
 ;,003B,59,semicolon,Basic Latin,semi,
-<,003C,60,less-than sign,Basic Latin,LT lt,less-than < left arrow
+<,003C,60,less-than sign,Basic Latin,LT lt,< left arrow
 =,003D,61,equals sign,Basic Latin,equals,
->,003E,62,greater-than sign,Basic Latin,GT gt,> greater-than
+>,003E,62,greater-than sign,Basic Latin,GT gt,>
 ?,003F,63,question mark,Basic Latin,quest,
-@,0040,64,commercial at,Basic Latin,commat,
+@,0040,64,commercial at,Basic Latin,commat,a
 A,0041,65,latin capital letter a,Basic Latin,,
 B,0042,66,latin capital letter b,Basic Latin,,
 C,0043,67,latin capital letter c,Basic Latin,,
@@ -112,9 +112,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ±,00B1,177,plus-minus sign,Latin-1 Supplement,PlusMinus plusmn pm,plus-minus + - +-
 ²,00B2,178,superscript two,Latin-1 Supplement,sup2,2
 ³,00B3,179,superscript three,Latin-1 Supplement,sup3,3
-´,00B4,180,acute accent,Latin-1 Supplement,DiacriticalAcute acute,acute ' `
-µ,00B5,181,micro sign,Latin-1 Supplement,micro,micro u
-¶,00B6,182,pilcrow sign,Latin-1 Supplement,para,pilcrow enter return n p
+´,00B4,180,acute accent,Latin-1 Supplement,DiacriticalAcute acute,' `
+µ,00B5,181,micro sign,Latin-1 Supplement,micro,u
+¶,00B6,182,pilcrow sign,Latin-1 Supplement,para,enter return n p paragraph
 ·,00B7,183,middle dot,Latin-1 Supplement,CenterDot centerdot middot,. middle dot
 ¸,00B8,184,cedilla,Latin-1 Supplement,Cedilla cedil,","
 ¹,00B9,185,superscript one,Latin-1 Supplement,sup1,1 superscript one
@@ -123,61 +123,61 @@ z,007A,122,latin small letter z,Basic Latin,,
 ¼,00BC,188,vulgar fraction one quarter,Latin-1 Supplement,frac14,1/4 quarter
 ½,00BD,189,vulgar fraction one half,Latin-1 Supplement,frac12 half,half 1/2
 ¾,00BE,190,vulgar fraction three quarters,Latin-1 Supplement,frac34,quarters 3/4
-¿,00BF,191,inverted question mark,Latin-1 Supplement,iquest,? question inverted
-À,00C0,192,latin capital letter a with grave,Latin-1 Supplement,Agrave,A grave
-Á,00C1,193,latin capital letter a with acute,Latin-1 Supplement,Aacute,A acute
-Â,00C2,194,latin capital letter a with circumflex,Latin-1 Supplement,Acirc,A circumflex
-Ã,00C3,195,latin capital letter a with tilde,Latin-1 Supplement,Atilde,A tilde
-Ä,00C4,196,latin capital letter a with diaeresis,Latin-1 Supplement,Auml,A diaeresis
-Å,00C5,197,latin capital letter a with ring above,Latin-1 Supplement,Aring angst,A ring
-Æ,00C6,198,latin capital letter ae,Latin-1 Supplement,AElig,AE
-Ç,00C7,199,latin capital letter c with cedilla,Latin-1 Supplement,Ccedil,C cedilla
-È,00C8,200,latin capital letter e with grave,Latin-1 Supplement,Egrave,E grave
-É,00C9,201,latin capital letter e with acute,Latin-1 Supplement,Eacute,E acute
-Ê,00CA,202,latin capital letter e with circumflex,Latin-1 Supplement,Ecirc,E circumflex
-Ë,00CB,203,latin capital letter e with diaeresis,Latin-1 Supplement,Euml,E diaeresis
-Ì,00CC,204,latin capital letter i with grave,Latin-1 Supplement,Igrave,I grave L
-Í,00CD,205,latin capital letter i with acute,Latin-1 Supplement,Iacute,I acute L
-Î,00CE,206,latin capital letter i with circumflex,Latin-1 Supplement,Icirc,I circumflex L
-Ï,00CF,207,latin capital letter i with diaeresis,Latin-1 Supplement,Iuml,I diaeresis L
-Ð,00D0,208,latin capital letter eth,Latin-1 Supplement,ETH,ETH D
-Ñ,00D1,209,latin capital letter n with tilde,Latin-1 Supplement,Ntilde,N tilde
-Ò,00D2,210,latin capital letter o with grave,Latin-1 Supplement,Ograve,O grave
-Ó,00D3,211,latin capital letter o with acute,Latin-1 Supplement,Oacute,O acute
-Ô,00D4,212,latin capital letter o with circumflex,Latin-1 Supplement,Ocirc,O circumflex
-Õ,00D5,213,latin capital letter o with tilde,Latin-1 Supplement,Otilde,O tilde
-Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,O diaeresis
+¿,00BF,191,inverted question mark,Latin-1 Supplement,iquest,?
+À,00C0,192,latin capital letter a with grave,Latin-1 Supplement,Agrave,
+Á,00C1,193,latin capital letter a with acute,Latin-1 Supplement,Aacute,
+Â,00C2,194,latin capital letter a with circumflex,Latin-1 Supplement,Acirc,
+Ã,00C3,195,latin capital letter a with tilde,Latin-1 Supplement,Atilde,
+Ä,00C4,196,latin capital letter a with diaeresis,Latin-1 Supplement,Auml,
+Å,00C5,197,latin capital letter a with ring above,Latin-1 Supplement,Aring angst,ring
+Æ,00C6,198,latin capital letter ae,Latin-1 Supplement,AElig,
+Ç,00C7,199,latin capital letter c with cedilla,Latin-1 Supplement,Ccedil,
+È,00C8,200,latin capital letter e with grave,Latin-1 Supplement,Egrave,
+É,00C9,201,latin capital letter e with acute,Latin-1 Supplement,Eacute,
+Ê,00CA,202,latin capital letter e with circumflex,Latin-1 Supplement,Ecirc,
+Ë,00CB,203,latin capital letter e with diaeresis,Latin-1 Supplement,Euml,
+Ì,00CC,204,latin capital letter i with grave,Latin-1 Supplement,Igrave,
+Í,00CD,205,latin capital letter i with acute,Latin-1 Supplement,Iacute,
+Î,00CE,206,latin capital letter i with circumflex,Latin-1 Supplement,Icirc,
+Ï,00CF,207,latin capital letter i with diaeresis,Latin-1 Supplement,Iuml,
+Ð,00D0,208,latin capital letter eth,Latin-1 Supplement,ETH,d
+Ñ,00D1,209,latin capital letter n with tilde,Latin-1 Supplement,Ntilde,
+Ò,00D2,210,latin capital letter o with grave,Latin-1 Supplement,Ograve,
+Ó,00D3,211,latin capital letter o with acute,Latin-1 Supplement,Oacute,
+Ô,00D4,212,latin capital letter o with circumflex,Latin-1 Supplement,Ocirc,
+Õ,00D5,213,latin capital letter o with tilde,Latin-1 Supplement,Otilde,
+Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,
 ×,00D7,215,multiplication sign,Latin-1 Supplement,times,multiplication x times
-Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,O stroke slash
-Ù,00D9,217,latin capital letter u with grave,Latin-1 Supplement,Ugrave,U grave
-Ú,00DA,218,latin capital letter u with acute,Latin-1 Supplement,Uacute,U acute
-Û,00DB,219,latin capital letter u with circumflex,Latin-1 Supplement,Ucirc,U circumflex
-Ü,00DC,220,latin capital letter u with diaeresis,Latin-1 Supplement,Uuml,U diaeresis
-Ý,00DD,221,latin capital letter y with acute,Latin-1 Supplement,Yacute,Y acute
-Þ,00DE,222,latin capital letter thorn,Latin-1 Supplement,THORN,THORN P
+Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,slash /
+Ù,00D9,217,latin capital letter u with grave,Latin-1 Supplement,Ugrave,
+Ú,00DA,218,latin capital letter u with acute,Latin-1 Supplement,Uacute,
+Û,00DB,219,latin capital letter u with circumflex,Latin-1 Supplement,Ucirc,
+Ü,00DC,220,latin capital letter u with diaeresis,Latin-1 Supplement,Uuml,
+Ý,00DD,221,latin capital letter y with acute,Latin-1 Supplement,Yacute,
+Þ,00DE,222,latin capital letter thorn,Latin-1 Supplement,THORN,p
 ß,00DF,223,latin small letter sharp s,Latin-1 Supplement,szlig,b beta ess-zed s
-à,00E0,224,latin small letter a with grave,Latin-1 Supplement,agrave,a grave
-á,00E1,225,latin small letter a with acute,Latin-1 Supplement,aacute,a acute
-â,00E2,226,latin small letter a with circumflex,Latin-1 Supplement,acirc,a circumflex
-ã,00E3,227,latin small letter a with tilde,Latin-1 Supplement,atilde,a tilde
-ä,00E4,228,latin small letter a with diaeresis,Latin-1 Supplement,auml,a diaeresis
-å,00E5,229,latin small letter a with ring above,Latin-1 Supplement,aring,a ring
-æ,00E6,230,latin small letter ae,Latin-1 Supplement,aelig,ae
-ç,00E7,231,latin small letter c with cedilla,Latin-1 Supplement,ccedil,c cedilla
-è,00E8,232,latin small letter e with grave,Latin-1 Supplement,egrave,e grave
-é,00E9,233,latin small letter e with acute,Latin-1 Supplement,eacute,e acute
-ê,00EA,234,latin small letter e with circumflex,Latin-1 Supplement,ecirc,e circumflex
-ë,00EB,235,latin small letter e with diaeresis,Latin-1 Supplement,euml,e diaeresis
-ì,00EC,236,latin small letter i with grave,Latin-1 Supplement,igrave,i grave L
-í,00ED,237,latin small letter i with acute,Latin-1 Supplement,iacute,i acute L
-î,00EE,238,latin small letter i with circumflex,Latin-1 Supplement,icirc,i circumflex L
-ï,00EF,239,latin small letter i with diaeresis,Latin-1 Supplement,iuml,i diaeresis L
-ð,00F0,240,latin small letter eth,Latin-1 Supplement,eth,eth o
-ñ,00F1,241,latin small letter n with tilde,Latin-1 Supplement,ntilde,n tilde
-ò,00F2,242,latin small letter o with grave,Latin-1 Supplement,ograve,o grave
-ó,00F3,243,latin small letter o with acute,Latin-1 Supplement,oacute,o acute
-ô,00F4,244,latin small letter o with circumflex,Latin-1 Supplement,ocirc,o circumflex
-õ,00F5,245,latin small letter o with tilde,Latin-1 Supplement,otilde,o tilde
+à,00E0,224,latin small letter a with grave,Latin-1 Supplement,agrave,
+á,00E1,225,latin small letter a with acute,Latin-1 Supplement,aacute,
+â,00E2,226,latin small letter a with circumflex,Latin-1 Supplement,acirc,
+ã,00E3,227,latin small letter a with tilde,Latin-1 Supplement,atilde,
+ä,00E4,228,latin small letter a with diaeresis,Latin-1 Supplement,auml,
+å,00E5,229,latin small letter a with ring above,Latin-1 Supplement,aring,ring
+æ,00E6,230,latin small letter ae,Latin-1 Supplement,aelig,
+ç,00E7,231,latin small letter c with cedilla,Latin-1 Supplement,ccedil,
+è,00E8,232,latin small letter e with grave,Latin-1 Supplement,egrave,
+é,00E9,233,latin small letter e with acute,Latin-1 Supplement,eacute,
+ê,00EA,234,latin small letter e with circumflex,Latin-1 Supplement,ecirc,
+ë,00EB,235,latin small letter e with diaeresis,Latin-1 Supplement,euml,
+ì,00EC,236,latin small letter i with grave,Latin-1 Supplement,igrave,
+í,00ED,237,latin small letter i with acute,Latin-1 Supplement,iacute,
+î,00EE,238,latin small letter i with circumflex,Latin-1 Supplement,icirc,
+ï,00EF,239,latin small letter i with diaeresis,Latin-1 Supplement,iuml,
+ð,00F0,240,latin small letter eth,Latin-1 Supplement,eth,
+ñ,00F1,241,latin small letter n with tilde,Latin-1 Supplement,ntilde,
+ò,00F2,242,latin small letter o with grave,Latin-1 Supplement,ograve,
+ó,00F3,243,latin small letter o with acute,Latin-1 Supplement,oacute,
+ô,00F4,244,latin small letter o with circumflex,Latin-1 Supplement,ocirc,
+õ,00F5,245,latin small letter o with tilde,Latin-1 Supplement,otilde,
 ö,00F6,246,latin small letter o with diaeresis,Latin-1 Supplement,ouml,o diaeresis
 ÷,00F7,247,division sign,Latin-1 Supplement,div divide,division / div
 ø,00F8,248,latin small letter o with stroke,Latin-1 Supplement,oslash,o stroke slash
@@ -185,9 +185,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ú,00FA,250,latin small letter u with acute,Latin-1 Supplement,uacute,u acute
 û,00FB,251,latin small letter u with circumflex,Latin-1 Supplement,ucirc,u circumflex
 ü,00FC,252,latin small letter u with diaeresis,Latin-1 Supplement,uuml,u diaeresis
-ý,00FD,253,latin small letter y with acute,Latin-1 Supplement,yacute,y acute
+ý,00FD,253,latin small letter y with acute,Latin-1 Supplement,yacute,
 þ,00FE,254,latin small letter thorn,Latin-1 Supplement,thorn,p thorn
-ÿ,00FF,255,latin small letter y with diaeresis,Latin-1 Supplement,yuml,y diaeresis
+ÿ,00FF,255,latin small letter y with diaeresis,Latin-1 Supplement,yuml,
 Ā,0100,256,latin capital letter a with macron,Latin Extended-A,Amacr,
 ā,0101,257,latin small letter a with macron,Latin Extended-A,amacr,
 Ă,0102,258,latin capital letter a with breve,Latin Extended-A,Abreve,
@@ -7212,7 +7212,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ‒,2012,8210,figure dash,General Punctuation,,
 –,2013,8211,en dash,General Punctuation,ndash,n en dash -
 —,2014,8212,em dash,General Punctuation,mdash,m em dash -
-―,2015,8213,horizontal bar,General Punctuation,horbar,
+―,2015,8213,horizontal bar,General Punctuation,horbar,dash -
 ‖,2016,8214,double vertical line,General Punctuation,Verbar Vert,
 ‗,2017,8215,double low line,General Punctuation,,
 ‘,2018,8216,left single quotation mark,General Punctuation,OpenCurlyQuote lsquo,left quotation quote '
@@ -7226,11 +7226,11 @@ z,007A,122,latin small letter z,Basic Latin,,
 †,2020,8224,dagger,General Punctuation,dagger,+ dagger
 ‡,2021,8225,double dagger,General Punctuation,Dagger ddagger,double dagger ++ +
 •,2022,8226,bullet,General Punctuation,bull bullet,* bullet
-‣,2023,8227,triangular bullet,General Punctuation,,
-․,2024,8228,one dot leader,General Punctuation,,
-‥,2025,8229,two dot leader,General Punctuation,nldr,
+‣,2023,8227,triangular bullet,General Punctuation,,triangle >
+․,2024,8228,one dot leader,General Punctuation,,.
+‥,2025,8229,two dot leader,General Punctuation,nldr,..
 …,2026,8230,horizontal ellipsis,General Punctuation,hellip mldr,...
-‧,2027,8231,hyphenation point,General Punctuation,,
+‧,2027,8231,hyphenation point,General Punctuation,,. dot
  ,2028,8232,line separator,General Punctuation,,
  ,2029,8233,paragraph separator,General Punctuation,,
 ‪,202A,8234,left-to-right embedding,General Punctuation,,
@@ -7239,51 +7239,51 @@ z,007A,122,latin small letter z,Basic Latin,,
 ‭,202D,8237,left-to-right override,General Punctuation,,
 ‮,202E,8238,right-to-left override,General Punctuation,,
  ,202F,8239,narrow no-break space,General Punctuation,,
-‰,2030,8240,per mille sign,General Punctuation,permil,per mille %
-‱,2031,8241,per ten thousand sign,General Punctuation,pertenk,
+‰,2030,8240,per mille sign,General Punctuation,permil,per mille % 0/00 fraction
+‱,2031,8241,per ten thousand sign,General Punctuation,pertenk,0/000 fraction
 ′,2032,8242,prime,General Punctuation,prime,' ` prime
 ″,2033,8243,double prime,General Punctuation,Prime,""" double ''"
-‴,2034,8244,triple prime,General Punctuation,tprime,
-‵,2035,8245,reversed prime,General Punctuation,backprime bprime,
-‶,2036,8246,reversed double prime,General Punctuation,,
-‷,2037,8247,reversed triple prime,General Punctuation,,
-‸,2038,8248,caret,General Punctuation,,
+‴,2034,8244,triple prime,General Punctuation,tprime,'''
+‵,2035,8245,reversed prime,General Punctuation,backprime bprime,'
+‶,2036,8246,reversed double prime,General Punctuation,,''
+‷,2037,8247,reversed triple prime,General Punctuation,,'''
+‸,2038,8248,caret,General Punctuation,,^
 ‹,2039,8249,single left-pointing angle quotation mark,General Punctuation,lsaquo,left-pointing angle <
 ›,203A,8250,single right-pointing angle quotation mark,General Punctuation,rsaquo,right-pointing angle >
-※,203B,8251,reference mark,General Punctuation,,
-‽,203D,8253,interrobang,General Punctuation,,
+※,203B,8251,reference mark,General Punctuation,,x
+‽,203D,8253,interrobang,General Punctuation,,? ! !? ?!
 ‾,203E,8254,overline,General Punctuation,OverBar oline,overline overscore _
 ‿,203F,8255,undertie,General Punctuation,,
 ⁀,2040,8256,character tie,General Punctuation,,
 ⁁,2041,8257,caret insertion point,General Punctuation,caret,
-⁂,2042,8258,asterism,General Punctuation,,
-⁃,2043,8259,hyphen bullet,General Punctuation,hybull,
+⁂,2042,8258,asterism,General Punctuation,,*
+⁃,2043,8259,hyphen bullet,General Punctuation,hybull,-
 ⁄,2044,8260,fraction slash,General Punctuation,frasl,/ fraction slash
-⁅,2045,8261,left square bracket with quill,General Punctuation,,
-⁆,2046,8262,right square bracket with quill,General Punctuation,,
-⁇,2047,8263,double question mark,General Punctuation,,
-⁈,2048,8264,question exclamation mark,General Punctuation,,
+⁅,2045,8261,left square bracket with quill,General Punctuation,,[
+⁆,2046,8262,right square bracket with quill,General Punctuation,,]
+⁇,2047,8263,double question mark,General Punctuation,,??
+⁈,2048,8264,question exclamation mark,General Punctuation,,?!
 ⁊,204A,8266,tironian sign et,General Punctuation,,
 ⁋,204B,8267,reversed pilcrow sign,General Punctuation,,
 ⁌,204C,8268,black leftwards bullet,General Punctuation,,
 ⁍,204D,8269,black rightwards bullet,General Punctuation,,
-⁎,204E,8270,low asterisk,General Punctuation,,
-⁏,204F,8271,reversed semicolon,General Punctuation,bsemi,
+⁎,204E,8270,low asterisk,General Punctuation,,*
+⁏,204F,8271,reversed semicolon,General Punctuation,bsemi,;
 ⁐,2050,8272,close up,General Punctuation,,
-⁑,2051,8273,two asterisks aligned vertically,General Punctuation,,
-⁒,2052,8274,commercial minus sign,General Punctuation,,
-⁓,2053,8275,swung dash,General Punctuation,,
+⁑,2051,8273,two asterisks aligned vertically,General Punctuation,,*
+⁒,2052,8274,commercial minus sign,General Punctuation,,%
+⁓,2053,8275,swung dash,General Punctuation,,tilde ~
 ⁔,2054,8276,inverted undertie,General Punctuation,,
-⁕,2055,8277,flower punctuation mark,General Punctuation,,
+⁕,2055,8277,flower punctuation mark,General Punctuation,,*
 ⁖,2056,8278,three dot punctuation,General Punctuation,,
-⁗,2057,8279,quadruple prime,General Punctuation,qprime,
+⁗,2057,8279,quadruple prime,General Punctuation,qprime,''''
 ⁘,2058,8280,four dot punctuation,General Punctuation,,
 ⁙,2059,8281,five dot punctuation,General Punctuation,,
-⁚,205A,8282,two dot punctuation,General Punctuation,,
+⁚,205A,8282,two dot punctuation,General Punctuation,,..
 ⁛,205B,8283,four dot mark,General Punctuation,,
-⁜,205C,8284,dotted cross,General Punctuation,,
-⁝,205D,8285,tricolon,General Punctuation,,
-⁞,205E,8286,vertical four dots,General Punctuation,,
+⁜,205C,8284,dotted cross,General Punctuation,,+
+⁝,205D,8285,tricolon,General Punctuation,,...
+⁞,205E,8286,vertical four dots,General Punctuation,,....
  ,205F,8287,medium mathematical space,General Punctuation,MediumSpace,
 ⁠,2060,8288,word joiner,General Punctuation,NoBreak,
 ⁡,2061,8289,function application,General Punctuation,ApplyFunction af,
@@ -7300,35 +7300,35 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⁭,206D,8301,activate arabic form shaping,General Punctuation,,
 ⁮,206E,8302,national digit shapes,General Punctuation,,
 ⁯,206F,8303,nominal digit shapes,General Punctuation,,
-⁰,2070,8304,superscript zero,Superscripts and Subscripts,,
+⁰,2070,8304,superscript zero,Superscripts and Subscripts,,0
 ⁱ,2071,8305,superscript latin small letter i,Superscripts and Subscripts,,
-⁴,2074,8308,superscript four,Superscripts and Subscripts,,
-⁵,2075,8309,superscript five,Superscripts and Subscripts,,
-⁶,2076,8310,superscript six,Superscripts and Subscripts,,
-⁷,2077,8311,superscript seven,Superscripts and Subscripts,,
-⁸,2078,8312,superscript eight,Superscripts and Subscripts,,
-⁹,2079,8313,superscript nine,Superscripts and Subscripts,,
-⁺,207A,8314,superscript plus sign,Superscripts and Subscripts,,
-⁻,207B,8315,superscript minus,Superscripts and Subscripts,,
-⁼,207C,8316,superscript equals sign,Superscripts and Subscripts,,
-⁽,207D,8317,superscript left parenthesis,Superscripts and Subscripts,,
-⁾,207E,8318,superscript right parenthesis,Superscripts and Subscripts,,
+⁴,2074,8308,superscript four,Superscripts and Subscripts,,4
+⁵,2075,8309,superscript five,Superscripts and Subscripts,,5
+⁶,2076,8310,superscript six,Superscripts and Subscripts,,6
+⁷,2077,8311,superscript seven,Superscripts and Subscripts,,7
+⁸,2078,8312,superscript eight,Superscripts and Subscripts,,8
+⁹,2079,8313,superscript nine,Superscripts and Subscripts,,9
+⁺,207A,8314,superscript plus sign,Superscripts and Subscripts,,+
+⁻,207B,8315,superscript minus,Superscripts and Subscripts,,-
+⁼,207C,8316,superscript equals sign,Superscripts and Subscripts,,=
+⁽,207D,8317,superscript left parenthesis,Superscripts and Subscripts,,(
+⁾,207E,8318,superscript right parenthesis,Superscripts and Subscripts,,)
 ⁿ,207F,8319,superscript latin small letter n,Superscripts and Subscripts,,
-₀,2080,8320,subscript zero,Superscripts and Subscripts,,
-₁,2081,8321,subscript one,Superscripts and Subscripts,,
-₂,2082,8322,subscript two,Superscripts and Subscripts,,
-₃,2083,8323,subscript three,Superscripts and Subscripts,,
-₄,2084,8324,subscript four,Superscripts and Subscripts,,
-₅,2085,8325,subscript five,Superscripts and Subscripts,,
-₆,2086,8326,subscript six,Superscripts and Subscripts,,
-₇,2087,8327,subscript seven,Superscripts and Subscripts,,
-₈,2088,8328,subscript eight,Superscripts and Subscripts,,
-₉,2089,8329,subscript nine,Superscripts and Subscripts,,
-₊,208A,8330,subscript plus sign,Superscripts and Subscripts,,
-₋,208B,8331,subscript minus,Superscripts and Subscripts,,
-₌,208C,8332,subscript equals sign,Superscripts and Subscripts,,
-₍,208D,8333,subscript left parenthesis,Superscripts and Subscripts,,
-₎,208E,8334,subscript right parenthesis,Superscripts and Subscripts,,
+₀,2080,8320,subscript zero,Superscripts and Subscripts,,0
+₁,2081,8321,subscript one,Superscripts and Subscripts,,1
+₂,2082,8322,subscript two,Superscripts and Subscripts,,2
+₃,2083,8323,subscript three,Superscripts and Subscripts,,3
+₄,2084,8324,subscript four,Superscripts and Subscripts,,4
+₅,2085,8325,subscript five,Superscripts and Subscripts,,5
+₆,2086,8326,subscript six,Superscripts and Subscripts,,6
+₇,2087,8327,subscript seven,Superscripts and Subscripts,,7
+₈,2088,8328,subscript eight,Superscripts and Subscripts,,8
+₉,2089,8329,subscript nine,Superscripts and Subscripts,,9
+₊,208A,8330,subscript plus sign,Superscripts and Subscripts,,+
+₋,208B,8331,subscript minus,Superscripts and Subscripts,,-
+₌,208C,8332,subscript equals sign,Superscripts and Subscripts,,=
+₍,208D,8333,subscript left parenthesis,Superscripts and Subscripts,,(
+₎,208E,8334,subscript right parenthesis,Superscripts and Subscripts,,)
 ₐ,2090,8336,latin subscript small letter a,Superscripts and Subscripts,,
 ₑ,2091,8337,latin subscript small letter e,Superscripts and Subscripts,,
 ₒ,2092,8338,latin subscript small letter o,Superscripts and Subscripts,,
@@ -7347,11 +7347,11 @@ z,007A,122,latin small letter z,Basic Latin,,
 ₢,20A2,8354,cruzeiro sign,Currency Symbols,,
 ₣,20A3,8355,french franc sign,Currency Symbols,,
 ₤,20A4,8356,lira sign,Currency Symbols,,
-₥,20A5,8357,mill sign,Currency Symbols,,
-₦,20A6,8358,naira sign,Currency Symbols,,
-₧,20A7,8359,peseta sign,Currency Symbols,,
-₨,20A8,8360,rupee sign,Currency Symbols,,
-₩,20A9,8361,won sign,Currency Symbols,,
+₥,20A5,8357,mill sign,Currency Symbols,,m
+₦,20A6,8358,naira sign,Currency Symbols,,n
+₧,20A7,8359,peseta sign,Currency Symbols,,pts
+₨,20A8,8360,rupee sign,Currency Symbols,,rs
+₩,20A9,8361,won sign,Currency Symbols,,w
 ₪,20AA,8362,new sheqel sign,Currency Symbols,,
 ₫,20AB,8363,dong sign,Currency Symbols,,
 €,20AC,8364,euro sign,Currency Symbols,euro,E € euro
@@ -7376,8 +7376,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ₿,20BF,8383,bitcoin sign,Currency Symbols,,crypto
 ⃐,20D0,8400,combining left harpoon above,Combining Diacritical Marks for Symbols,,
 ⃑,20D1,8401,combining right harpoon above,Combining Diacritical Marks for Symbols,,
-⃒,20D2,8402,combining long vertical line overlay,Combining Diacritical Marks for Symbols,,
-⃓,20D3,8403,combining short vertical line overlay,Combining Diacritical Marks for Symbols,,
+⃒,20D2,8402,combining long vertical line overlay,Combining Diacritical Marks for Symbols,,|
+⃓,20D3,8403,combining short vertical line overlay,Combining Diacritical Marks for Symbols,,|
 ⃔,20D4,8404,combining anticlockwise arrow above,Combining Diacritical Marks for Symbols,,<-
 ⃕,20D5,8405,combining clockwise arrow above,Combining Diacritical Marks for Symbols,,->
 ⃖,20D6,8406,combining left arrow above,Combining Diacritical Marks for Symbols,,<-
@@ -7621,13 +7621,13 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⇡,21E1,8673,upwards dashed arrow,Arrows,,^
 ⇢,21E2,8674,rightwards dashed arrow,Arrows,,
 ⇣,21E3,8675,downwards dashed arrow,Arrows,,v
-⇤,21E4,8676,leftwards arrow to bar,Arrows,LeftArrowBar larrb,<- |<-
-⇥,21E5,8677,rightwards arrow to bar,Arrows,RightArrowBar rarrb,-> ->|
+⇤,21E4,8676,leftwards arrow to bar,Arrows,LeftArrowBar larrb,<- |<- tab
+⇥,21E5,8677,rightwards arrow to bar,Arrows,RightArrowBar rarrb,-> ->| tab
 ⇦,21E6,8678,leftwards white arrow,Arrows,,<- <=
-⇧,21E7,8679,upwards white arrow,Arrows,,^
+⇧,21E7,8679,upwards white arrow,Arrows,,^ shift macos windows
 ⇨,21E8,8680,rightwards white arrow,Arrows,,-> =>
 ⇩,21E9,8681,downwards white arrow,Arrows,,v
-⇪,21EA,8682,upwards white arrow from bar,Arrows,,^
+⇪,21EA,8682,upwards white arrow from bar,Arrows,,^ capslock macos windows
 ⇫,21EB,8683,upwards white arrow on pedestal,Arrows,,^
 ⇬,21EC,8684,upwards white arrow on pedestal with horizontal bar,Arrows,,^
 ⇭,21ED,8685,upwards white arrow on pedestal with vertical bar,Arrows,,^
@@ -7827,14 +7827,14 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⊯,22AF,8879,negated double vertical bar double right turnstile,Mathematical Operators,nVDash,
 ⊰,22B0,8880,precedes under relation,Mathematical Operators,prurel,
 ⊱,22B1,8881,succeeds under relation,Mathematical Operators,,
-⊲,22B2,8882,normal subgroup of,Mathematical Operators,LeftTriangle vartriangleleft vltri,
-⊳,22B3,8883,contains as normal subgroup,Mathematical Operators,RightTriangle vartriangleright vrtri,
-⊴,22B4,8884,normal subgroup of or equal to,Mathematical Operators,LeftTriangleEqual ltrie trianglelefteq,
-⊵,22B5,8885,contains as normal subgroup or equal to,Mathematical Operators,RightTriangleEqual rtrie trianglerighteq,
+⊲,22B2,8882,normal subgroup of,Mathematical Operators,LeftTriangle vartriangleleft vltri,<
+⊳,22B3,8883,contains as normal subgroup,Mathematical Operators,RightTriangle vartriangleright vrtri,>
+⊴,22B4,8884,normal subgroup of or equal to,Mathematical Operators,LeftTriangleEqual ltrie trianglelefteq,<
+⊵,22B5,8885,contains as normal subgroup or equal to,Mathematical Operators,RightTriangleEqual rtrie trianglerighteq,>
 ⊶,22B6,8886,original of,Mathematical Operators,origof,
 ⊷,22B7,8887,image of,Mathematical Operators,imof,
 ⊸,22B8,8888,multimap,Mathematical Operators,multimap mumap,
-⊹,22B9,8889,hermitian conjugate matrix,Mathematical Operators,hercon,
+⊹,22B9,8889,hermitian conjugate matrix,Mathematical Operators,hercon,+
 ⊺,22BA,8890,intercalate,Mathematical Operators,intcal intercal,
 ⊻,22BB,8891,xor,Mathematical Operators,veebar,v
 ⊼,22BC,8892,nand,Mathematical Operators,,^
@@ -7845,10 +7845,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⋁,22C1,8897,n-ary logical or,Mathematical Operators,Vee bigvee xvee,v
 ⋂,22C2,8898,n-ary intersection,Mathematical Operators,Intersection bigcap xcap,
 ⋃,22C3,8899,n-ary union,Mathematical Operators,Union bigcup xcup,
-⋄,22C4,8900,diamond operator,Mathematical Operators,Diamond diam diamond,
+⋄,22C4,8900,diamond operator,Mathematical Operators,Diamond diam diamond,.
 ⋅,22C5,8901,dot operator,Mathematical Operators,sdot,. dot * bullet
-⋆,22C6,8902,star operator,Mathematical Operators,Star sstarf,
-⋇,22C7,8903,division times,Mathematical Operators,divideontimes divonx,
+⋆,22C6,8902,star operator,Mathematical Operators,Star sstarf,*
+⋇,22C7,8903,division times,Mathematical Operators,divideontimes divonx,*
 ⋈,22C8,8904,bowtie,Mathematical Operators,bowtie,
 ⋉,22C9,8905,left normal factor semidirect product,Mathematical Operators,ltimes,
 ⋊,22CA,8906,right normal factor semidirect product,Mathematical Operators,rtimes,
@@ -7908,11 +7908,11 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌀,2300,8960,diameter sign,Miscellaneous Technical,,
 ⌁,2301,8961,electric arrow,Miscellaneous Technical,,
 ⌂,2302,8962,house,Miscellaneous Technical,,
-⌃,2303,8963,up arrowhead,Miscellaneous Technical,,
-⌄,2304,8964,down arrowhead,Miscellaneous Technical,,
-⌅,2305,8965,projective,Miscellaneous Technical,barwed barwedge,
-⌆,2306,8966,perspective,Miscellaneous Technical,Barwed doublebarwedge,
-⌇,2307,8967,wavy line,Miscellaneous Technical,,
+⌃,2303,8963,up arrowhead,Miscellaneous Technical,,^ control ctrl strg macos windows
+⌄,2304,8964,down arrowhead,Miscellaneous Technical,,v
+⌅,2305,8965,projective,Miscellaneous Technical,barwed barwedge,^
+⌆,2306,8966,perspective,Miscellaneous Technical,Barwed doublebarwedge,^
+⌇,2307,8967,wavy line,Miscellaneous Technical,,wave
 ⌈,2308,8968,left ceiling,Miscellaneous Technical,LeftCeiling lceil,[ ceiling
 ⌉,2309,8969,right ceiling,Miscellaneous Technical,RightCeiling rceil,] right
 ⌊,230A,8970,left floor,Miscellaneous Technical,LeftFloor lfloor,[ floor
@@ -7928,8 +7928,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌔,2314,8980,sector,Miscellaneous Technical,,
 ⌕,2315,8981,telephone recorder,Miscellaneous Technical,telrec,
 ⌖,2316,8982,position indicator,Miscellaneous Technical,target,
-⌗,2317,8983,viewdata square,Miscellaneous Technical,,
-⌘,2318,8984,place of interest sign,Miscellaneous Technical,,
+⌗,2317,8983,viewdata square,Miscellaneous Technical,,# hash
+⌘,2318,8984,place of interest sign,Miscellaneous Technical,,command meta macos
 ⌙,2319,8985,turned not sign,Miscellaneous Technical,,
 ⌜,231C,8988,top left corner,Miscellaneous Technical,ulcorn ulcorner,
 ⌝,231D,8989,top right corner,Miscellaneous Technical,urcorn urcorner,
@@ -7940,12 +7940,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌢,2322,8994,frown,Miscellaneous Technical,frown sfrown,
 ⌣,2323,8995,smile,Miscellaneous Technical,smile ssmile,
 ⌤,2324,8996,up arrowhead between two horizontal bars,Miscellaneous Technical,,
-⌥,2325,8997,option key,Miscellaneous Technical,,
-⌦,2326,8998,erase to the right,Miscellaneous Technical,,
+⌥,2325,8997,option key,Miscellaneous Technical,,alt option macos
+⌦,2326,8998,erase to the right,Miscellaneous Technical,,delete remove
 ⌧,2327,8999,x in a rectangle box,Miscellaneous Technical,,
 〈,2329,9001,left-pointing angle bracket,Miscellaneous Technical,,
 〉,232A,9002,right-pointing angle bracket,Miscellaneous Technical,,
-⌫,232B,9003,erase to the left,Miscellaneous Technical,,
+⌫,232B,9003,erase to the left,Miscellaneous Technical,,delete remove
 ⌬,232C,9004,benzene ring,Miscellaneous Technical,,
 ⌭,232D,9005,cylindricity,Miscellaneous Technical,cylcty,
 ⌮,232E,9006,all around-profile,Miscellaneous Technical,profalar,
@@ -8193,175 +8193,175 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⑈,2448,9288,ocr dash,Optical Character Recognition,,
 ⑉,2449,9289,ocr customer account number,Optical Character Recognition,,
 ⑊,244A,9290,ocr double backslash,Optical Character Recognition,,
-①,2460,9312,circled digit one,Enclosed Alphanumerics,,
-②,2461,9313,circled digit two,Enclosed Alphanumerics,,
-③,2462,9314,circled digit three,Enclosed Alphanumerics,,
-④,2463,9315,circled digit four,Enclosed Alphanumerics,,
-⑤,2464,9316,circled digit five,Enclosed Alphanumerics,,
-⑥,2465,9317,circled digit six,Enclosed Alphanumerics,,
-⑦,2466,9318,circled digit seven,Enclosed Alphanumerics,,
-⑧,2467,9319,circled digit eight,Enclosed Alphanumerics,,
-⑨,2468,9320,circled digit nine,Enclosed Alphanumerics,,
-⑩,2469,9321,circled number ten,Enclosed Alphanumerics,,
-⑪,246A,9322,circled number eleven,Enclosed Alphanumerics,,
-⑫,246B,9323,circled number twelve,Enclosed Alphanumerics,,
-⑬,246C,9324,circled number thirteen,Enclosed Alphanumerics,,
-⑭,246D,9325,circled number fourteen,Enclosed Alphanumerics,,
-⑮,246E,9326,circled number fifteen,Enclosed Alphanumerics,,
-⑯,246F,9327,circled number sixteen,Enclosed Alphanumerics,,
-⑰,2470,9328,circled number seventeen,Enclosed Alphanumerics,,
-⑱,2471,9329,circled number eighteen,Enclosed Alphanumerics,,
-⑲,2472,9330,circled number nineteen,Enclosed Alphanumerics,,
-⑳,2473,9331,circled number twenty,Enclosed Alphanumerics,,
-⑴,2474,9332,parenthesized digit one,Enclosed Alphanumerics,,
-⑵,2475,9333,parenthesized digit two,Enclosed Alphanumerics,,
-⑶,2476,9334,parenthesized digit three,Enclosed Alphanumerics,,
-⑷,2477,9335,parenthesized digit four,Enclosed Alphanumerics,,
-⑸,2478,9336,parenthesized digit five,Enclosed Alphanumerics,,
-⑹,2479,9337,parenthesized digit six,Enclosed Alphanumerics,,
-⑺,247A,9338,parenthesized digit seven,Enclosed Alphanumerics,,
-⑻,247B,9339,parenthesized digit eight,Enclosed Alphanumerics,,
-⑼,247C,9340,parenthesized digit nine,Enclosed Alphanumerics,,
-⑽,247D,9341,parenthesized number ten,Enclosed Alphanumerics,,
-⑾,247E,9342,parenthesized number eleven,Enclosed Alphanumerics,,
-⑿,247F,9343,parenthesized number twelve,Enclosed Alphanumerics,,
-⒀,2480,9344,parenthesized number thirteen,Enclosed Alphanumerics,,
-⒁,2481,9345,parenthesized number fourteen,Enclosed Alphanumerics,,
-⒂,2482,9346,parenthesized number fifteen,Enclosed Alphanumerics,,
-⒃,2483,9347,parenthesized number sixteen,Enclosed Alphanumerics,,
-⒄,2484,9348,parenthesized number seventeen,Enclosed Alphanumerics,,
-⒅,2485,9349,parenthesized number eighteen,Enclosed Alphanumerics,,
-⒆,2486,9350,parenthesized number nineteen,Enclosed Alphanumerics,,
-⒇,2487,9351,parenthesized number twenty,Enclosed Alphanumerics,,
-⒈,2488,9352,digit one full stop,Enclosed Alphanumerics,,
-⒉,2489,9353,digit two full stop,Enclosed Alphanumerics,,
-⒊,248A,9354,digit three full stop,Enclosed Alphanumerics,,
-⒋,248B,9355,digit four full stop,Enclosed Alphanumerics,,
-⒌,248C,9356,digit five full stop,Enclosed Alphanumerics,,
-⒍,248D,9357,digit six full stop,Enclosed Alphanumerics,,
-⒎,248E,9358,digit seven full stop,Enclosed Alphanumerics,,
-⒏,248F,9359,digit eight full stop,Enclosed Alphanumerics,,
-⒐,2490,9360,digit nine full stop,Enclosed Alphanumerics,,
-⒑,2491,9361,number ten full stop,Enclosed Alphanumerics,,
-⒒,2492,9362,number eleven full stop,Enclosed Alphanumerics,,
-⒓,2493,9363,number twelve full stop,Enclosed Alphanumerics,,
-⒔,2494,9364,number thirteen full stop,Enclosed Alphanumerics,,
-⒕,2495,9365,number fourteen full stop,Enclosed Alphanumerics,,
-⒖,2496,9366,number fifteen full stop,Enclosed Alphanumerics,,
-⒗,2497,9367,number sixteen full stop,Enclosed Alphanumerics,,
-⒘,2498,9368,number seventeen full stop,Enclosed Alphanumerics,,
-⒙,2499,9369,number eighteen full stop,Enclosed Alphanumerics,,
-⒚,249A,9370,number nineteen full stop,Enclosed Alphanumerics,,
-⒛,249B,9371,number twenty full stop,Enclosed Alphanumerics,,
-⒜,249C,9372,parenthesized latin small letter a,Enclosed Alphanumerics,,
-⒝,249D,9373,parenthesized latin small letter b,Enclosed Alphanumerics,,
-⒞,249E,9374,parenthesized latin small letter c,Enclosed Alphanumerics,,
-⒟,249F,9375,parenthesized latin small letter d,Enclosed Alphanumerics,,
-⒠,24A0,9376,parenthesized latin small letter e,Enclosed Alphanumerics,,
-⒡,24A1,9377,parenthesized latin small letter f,Enclosed Alphanumerics,,
-⒢,24A2,9378,parenthesized latin small letter g,Enclosed Alphanumerics,,
-⒣,24A3,9379,parenthesized latin small letter h,Enclosed Alphanumerics,,
-⒤,24A4,9380,parenthesized latin small letter i,Enclosed Alphanumerics,,
-⒥,24A5,9381,parenthesized latin small letter j,Enclosed Alphanumerics,,
-⒦,24A6,9382,parenthesized latin small letter k,Enclosed Alphanumerics,,
-⒧,24A7,9383,parenthesized latin small letter l,Enclosed Alphanumerics,,
-⒨,24A8,9384,parenthesized latin small letter m,Enclosed Alphanumerics,,
-⒩,24A9,9385,parenthesized latin small letter n,Enclosed Alphanumerics,,
-⒪,24AA,9386,parenthesized latin small letter o,Enclosed Alphanumerics,,
-⒫,24AB,9387,parenthesized latin small letter p,Enclosed Alphanumerics,,
-⒬,24AC,9388,parenthesized latin small letter q,Enclosed Alphanumerics,,
-⒭,24AD,9389,parenthesized latin small letter r,Enclosed Alphanumerics,,
-⒮,24AE,9390,parenthesized latin small letter s,Enclosed Alphanumerics,,
-⒯,24AF,9391,parenthesized latin small letter t,Enclosed Alphanumerics,,
-⒰,24B0,9392,parenthesized latin small letter u,Enclosed Alphanumerics,,
-⒱,24B1,9393,parenthesized latin small letter v,Enclosed Alphanumerics,,
-⒲,24B2,9394,parenthesized latin small letter w,Enclosed Alphanumerics,,
-⒳,24B3,9395,parenthesized latin small letter x,Enclosed Alphanumerics,,
-⒴,24B4,9396,parenthesized latin small letter y,Enclosed Alphanumerics,,
-⒵,24B5,9397,parenthesized latin small letter z,Enclosed Alphanumerics,,
-Ⓐ,24B6,9398,circled latin capital letter a,Enclosed Alphanumerics,,
-Ⓑ,24B7,9399,circled latin capital letter b,Enclosed Alphanumerics,,
-Ⓒ,24B8,9400,circled latin capital letter c,Enclosed Alphanumerics,,
-Ⓓ,24B9,9401,circled latin capital letter d,Enclosed Alphanumerics,,
-Ⓔ,24BA,9402,circled latin capital letter e,Enclosed Alphanumerics,,
-Ⓕ,24BB,9403,circled latin capital letter f,Enclosed Alphanumerics,,
-Ⓖ,24BC,9404,circled latin capital letter g,Enclosed Alphanumerics,,
-Ⓗ,24BD,9405,circled latin capital letter h,Enclosed Alphanumerics,,
-Ⓘ,24BE,9406,circled latin capital letter i,Enclosed Alphanumerics,,
-Ⓙ,24BF,9407,circled latin capital letter j,Enclosed Alphanumerics,,
-Ⓚ,24C0,9408,circled latin capital letter k,Enclosed Alphanumerics,,
-Ⓛ,24C1,9409,circled latin capital letter l,Enclosed Alphanumerics,,
-Ⓝ,24C3,9411,circled latin capital letter n,Enclosed Alphanumerics,,
-Ⓞ,24C4,9412,circled latin capital letter o,Enclosed Alphanumerics,,
-Ⓟ,24C5,9413,circled latin capital letter p,Enclosed Alphanumerics,,
-Ⓠ,24C6,9414,circled latin capital letter q,Enclosed Alphanumerics,,
-Ⓡ,24C7,9415,circled latin capital letter r,Enclosed Alphanumerics,,
-Ⓢ,24C8,9416,circled latin capital letter s,Enclosed Alphanumerics,circledS oS,
-Ⓣ,24C9,9417,circled latin capital letter t,Enclosed Alphanumerics,,
-Ⓤ,24CA,9418,circled latin capital letter u,Enclosed Alphanumerics,,
-Ⓥ,24CB,9419,circled latin capital letter v,Enclosed Alphanumerics,,
-Ⓦ,24CC,9420,circled latin capital letter w,Enclosed Alphanumerics,,
-Ⓧ,24CD,9421,circled latin capital letter x,Enclosed Alphanumerics,,
-Ⓨ,24CE,9422,circled latin capital letter y,Enclosed Alphanumerics,,
-Ⓩ,24CF,9423,circled latin capital letter z,Enclosed Alphanumerics,,
-ⓐ,24D0,9424,circled latin small letter a,Enclosed Alphanumerics,,
-ⓑ,24D1,9425,circled latin small letter b,Enclosed Alphanumerics,,
-ⓒ,24D2,9426,circled latin small letter c,Enclosed Alphanumerics,,
-ⓓ,24D3,9427,circled latin small letter d,Enclosed Alphanumerics,,
-ⓔ,24D4,9428,circled latin small letter e,Enclosed Alphanumerics,,
-ⓕ,24D5,9429,circled latin small letter f,Enclosed Alphanumerics,,
-ⓖ,24D6,9430,circled latin small letter g,Enclosed Alphanumerics,,
-ⓗ,24D7,9431,circled latin small letter h,Enclosed Alphanumerics,,
-ⓘ,24D8,9432,circled latin small letter i,Enclosed Alphanumerics,,
-ⓙ,24D9,9433,circled latin small letter j,Enclosed Alphanumerics,,
-ⓚ,24DA,9434,circled latin small letter k,Enclosed Alphanumerics,,
-ⓛ,24DB,9435,circled latin small letter l,Enclosed Alphanumerics,,
-ⓜ,24DC,9436,circled latin small letter m,Enclosed Alphanumerics,,
-ⓝ,24DD,9437,circled latin small letter n,Enclosed Alphanumerics,,
-ⓞ,24DE,9438,circled latin small letter o,Enclosed Alphanumerics,,
-ⓟ,24DF,9439,circled latin small letter p,Enclosed Alphanumerics,,
-ⓠ,24E0,9440,circled latin small letter q,Enclosed Alphanumerics,,
-ⓡ,24E1,9441,circled latin small letter r,Enclosed Alphanumerics,,
-ⓢ,24E2,9442,circled latin small letter s,Enclosed Alphanumerics,,
-ⓣ,24E3,9443,circled latin small letter t,Enclosed Alphanumerics,,
-ⓤ,24E4,9444,circled latin small letter u,Enclosed Alphanumerics,,
-ⓥ,24E5,9445,circled latin small letter v,Enclosed Alphanumerics,,
-ⓦ,24E6,9446,circled latin small letter w,Enclosed Alphanumerics,,
-ⓧ,24E7,9447,circled latin small letter x,Enclosed Alphanumerics,,
-ⓨ,24E8,9448,circled latin small letter y,Enclosed Alphanumerics,,
-ⓩ,24E9,9449,circled latin small letter z,Enclosed Alphanumerics,,
-⓪,24EA,9450,circled digit zero,Enclosed Alphanumerics,,
-⓫,24EB,9451,negative circled number eleven,Enclosed Alphanumerics,,
-⓬,24EC,9452,negative circled number twelve,Enclosed Alphanumerics,,
-⓭,24ED,9453,negative circled number thirteen,Enclosed Alphanumerics,,
-⓮,24EE,9454,negative circled number fourteen,Enclosed Alphanumerics,,
-⓯,24EF,9455,negative circled number fifteen,Enclosed Alphanumerics,,
-⓰,24F0,9456,negative circled number sixteen,Enclosed Alphanumerics,,
-⓱,24F1,9457,negative circled number seventeen,Enclosed Alphanumerics,,
-⓲,24F2,9458,negative circled number eighteen,Enclosed Alphanumerics,,
-⓳,24F3,9459,negative circled number nineteen,Enclosed Alphanumerics,,
-⓴,24F4,9460,negative circled number twenty,Enclosed Alphanumerics,,
-⓵,24F5,9461,double circled digit one,Enclosed Alphanumerics,,
-⓶,24F6,9462,double circled digit two,Enclosed Alphanumerics,,
-⓷,24F7,9463,double circled digit three,Enclosed Alphanumerics,,
-⓸,24F8,9464,double circled digit four,Enclosed Alphanumerics,,
-⓹,24F9,9465,double circled digit five,Enclosed Alphanumerics,,
-⓺,24FA,9466,double circled digit six,Enclosed Alphanumerics,,
-⓻,24FB,9467,double circled digit seven,Enclosed Alphanumerics,,
-⓼,24FC,9468,double circled digit eight,Enclosed Alphanumerics,,
-⓽,24FD,9469,double circled digit nine,Enclosed Alphanumerics,,
-⓾,24FE,9470,double circled number ten,Enclosed Alphanumerics,,
-⓿,24FF,9471,negative circled digit zero,Enclosed Alphanumerics,,
-─,2500,9472,box drawings light horizontal,Box Drawing,HorizontalLine boxh,
-━,2501,9473,box drawings heavy horizontal,Box Drawing,,
+①,2460,9312,circled digit one,Enclosed Alphanumerics,,1 (1)
+②,2461,9313,circled digit two,Enclosed Alphanumerics,,2 (2)
+③,2462,9314,circled digit three,Enclosed Alphanumerics,,3 (3)
+④,2463,9315,circled digit four,Enclosed Alphanumerics,,4 (4)
+⑤,2464,9316,circled digit five,Enclosed Alphanumerics,,5 (5)
+⑥,2465,9317,circled digit six,Enclosed Alphanumerics,,6 (6)
+⑦,2466,9318,circled digit seven,Enclosed Alphanumerics,,7 (7)
+⑧,2467,9319,circled digit eight,Enclosed Alphanumerics,,8 (8)
+⑨,2468,9320,circled digit nine,Enclosed Alphanumerics,,9 (9)
+⑩,2469,9321,circled number ten,Enclosed Alphanumerics,,10 (10)
+⑪,246A,9322,circled number eleven,Enclosed Alphanumerics,,11 (11)
+⑫,246B,9323,circled number twelve,Enclosed Alphanumerics,,12 (12)
+⑬,246C,9324,circled number thirteen,Enclosed Alphanumerics,,13 (13)
+⑭,246D,9325,circled number fourteen,Enclosed Alphanumerics,,14 (14)
+⑮,246E,9326,circled number fifteen,Enclosed Alphanumerics,,15 (15)
+⑯,246F,9327,circled number sixteen,Enclosed Alphanumerics,,16 (16)
+⑰,2470,9328,circled number seventeen,Enclosed Alphanumerics,,17 (17)
+⑱,2471,9329,circled number eighteen,Enclosed Alphanumerics,,18 (18)
+⑲,2472,9330,circled number nineteen,Enclosed Alphanumerics,,19 (19)
+⑳,2473,9331,circled number twenty,Enclosed Alphanumerics,,20 (20)
+⑴,2474,9332,parenthesized digit one,Enclosed Alphanumerics,,1 (1)
+⑵,2475,9333,parenthesized digit two,Enclosed Alphanumerics,,2 (2)
+⑶,2476,9334,parenthesized digit three,Enclosed Alphanumerics,,3 (3)
+⑷,2477,9335,parenthesized digit four,Enclosed Alphanumerics,,4 (4)
+⑸,2478,9336,parenthesized digit five,Enclosed Alphanumerics,,5 (5)
+⑹,2479,9337,parenthesized digit six,Enclosed Alphanumerics,,6 (6)
+⑺,247A,9338,parenthesized digit seven,Enclosed Alphanumerics,,7 (7)
+⑻,247B,9339,parenthesized digit eight,Enclosed Alphanumerics,,8 (8)
+⑼,247C,9340,parenthesized digit nine,Enclosed Alphanumerics,,9 (9)
+⑽,247D,9341,parenthesized number ten,Enclosed Alphanumerics,,10 (10)
+⑾,247E,9342,parenthesized number eleven,Enclosed Alphanumerics,,11 (11)
+⑿,247F,9343,parenthesized number twelve,Enclosed Alphanumerics,,12 (12)
+⒀,2480,9344,parenthesized number thirteen,Enclosed Alphanumerics,,13 (13)
+⒁,2481,9345,parenthesized number fourteen,Enclosed Alphanumerics,,14 (14)
+⒂,2482,9346,parenthesized number fifteen,Enclosed Alphanumerics,,15 (15)
+⒃,2483,9347,parenthesized number sixteen,Enclosed Alphanumerics,,16 (16)
+⒄,2484,9348,parenthesized number seventeen,Enclosed Alphanumerics,,17 (17)
+⒅,2485,9349,parenthesized number eighteen,Enclosed Alphanumerics,,18 (18)
+⒆,2486,9350,parenthesized number nineteen,Enclosed Alphanumerics,,19 (19)
+⒇,2487,9351,parenthesized number twenty,Enclosed Alphanumerics,,20 (20)
+⒈,2488,9352,digit one full stop,Enclosed Alphanumerics,,1 1.
+⒉,2489,9353,digit two full stop,Enclosed Alphanumerics,,2 2.
+⒊,248A,9354,digit three full stop,Enclosed Alphanumerics,,3 3.
+⒋,248B,9355,digit four full stop,Enclosed Alphanumerics,,4 4.
+⒌,248C,9356,digit five full stop,Enclosed Alphanumerics,,5 5.
+⒍,248D,9357,digit six full stop,Enclosed Alphanumerics,,6 6.
+⒎,248E,9358,digit seven full stop,Enclosed Alphanumerics,,7 7.
+⒏,248F,9359,digit eight full stop,Enclosed Alphanumerics,,8 8.
+⒐,2490,9360,digit nine full stop,Enclosed Alphanumerics,,9 9.
+⒑,2491,9361,number ten full stop,Enclosed Alphanumerics,,10 10.
+⒒,2492,9362,number eleven full stop,Enclosed Alphanumerics,,11 11.
+⒓,2493,9363,number twelve full stop,Enclosed Alphanumerics,,12 12.
+⒔,2494,9364,number thirteen full stop,Enclosed Alphanumerics,,13 13.
+⒕,2495,9365,number fourteen full stop,Enclosed Alphanumerics,,14 14.
+⒖,2496,9366,number fifteen full stop,Enclosed Alphanumerics,,15 15.
+⒗,2497,9367,number sixteen full stop,Enclosed Alphanumerics,,16 16.
+⒘,2498,9368,number seventeen full stop,Enclosed Alphanumerics,,17 17.
+⒙,2499,9369,number eighteen full stop,Enclosed Alphanumerics,,18 18.
+⒚,249A,9370,number nineteen full stop,Enclosed Alphanumerics,,19 19.
+⒛,249B,9371,number twenty full stop,Enclosed Alphanumerics,,20 20.
+⒜,249C,9372,parenthesized latin small letter a,Enclosed Alphanumerics,,(a)
+⒝,249D,9373,parenthesized latin small letter b,Enclosed Alphanumerics,,(b)
+⒞,249E,9374,parenthesized latin small letter c,Enclosed Alphanumerics,,(c)
+⒟,249F,9375,parenthesized latin small letter d,Enclosed Alphanumerics,,(d)
+⒠,24A0,9376,parenthesized latin small letter e,Enclosed Alphanumerics,,(e)
+⒡,24A1,9377,parenthesized latin small letter f,Enclosed Alphanumerics,,(f)
+⒢,24A2,9378,parenthesized latin small letter g,Enclosed Alphanumerics,,(g)
+⒣,24A3,9379,parenthesized latin small letter h,Enclosed Alphanumerics,,(h)
+⒤,24A4,9380,parenthesized latin small letter i,Enclosed Alphanumerics,,(i)
+⒥,24A5,9381,parenthesized latin small letter j,Enclosed Alphanumerics,,(j)
+⒦,24A6,9382,parenthesized latin small letter k,Enclosed Alphanumerics,,(k)
+⒧,24A7,9383,parenthesized latin small letter l,Enclosed Alphanumerics,,(l)
+⒨,24A8,9384,parenthesized latin small letter m,Enclosed Alphanumerics,,(m)
+⒩,24A9,9385,parenthesized latin small letter n,Enclosed Alphanumerics,,(n)
+⒪,24AA,9386,parenthesized latin small letter o,Enclosed Alphanumerics,,(o)
+⒫,24AB,9387,parenthesized latin small letter p,Enclosed Alphanumerics,,(p)
+⒬,24AC,9388,parenthesized latin small letter q,Enclosed Alphanumerics,,(q)
+⒭,24AD,9389,parenthesized latin small letter r,Enclosed Alphanumerics,,(r)
+⒮,24AE,9390,parenthesized latin small letter s,Enclosed Alphanumerics,,(s)
+⒯,24AF,9391,parenthesized latin small letter t,Enclosed Alphanumerics,,(t)
+⒰,24B0,9392,parenthesized latin small letter u,Enclosed Alphanumerics,,(u)
+⒱,24B1,9393,parenthesized latin small letter v,Enclosed Alphanumerics,,(v)
+⒲,24B2,9394,parenthesized latin small letter w,Enclosed Alphanumerics,,(w)
+⒳,24B3,9395,parenthesized latin small letter x,Enclosed Alphanumerics,,(x)
+⒴,24B4,9396,parenthesized latin small letter y,Enclosed Alphanumerics,,(y)
+⒵,24B5,9397,parenthesized latin small letter z,Enclosed Alphanumerics,,(z)
+Ⓐ,24B6,9398,circled latin capital letter a,Enclosed Alphanumerics,,(a)
+Ⓑ,24B7,9399,circled latin capital letter b,Enclosed Alphanumerics,,(b)
+Ⓒ,24B8,9400,circled latin capital letter c,Enclosed Alphanumerics,,(c)
+Ⓓ,24B9,9401,circled latin capital letter d,Enclosed Alphanumerics,,(d)
+Ⓔ,24BA,9402,circled latin capital letter e,Enclosed Alphanumerics,,(e)
+Ⓕ,24BB,9403,circled latin capital letter f,Enclosed Alphanumerics,,(f)
+Ⓖ,24BC,9404,circled latin capital letter g,Enclosed Alphanumerics,,(g)
+Ⓗ,24BD,9405,circled latin capital letter h,Enclosed Alphanumerics,,(h)
+Ⓘ,24BE,9406,circled latin capital letter i,Enclosed Alphanumerics,,(i)
+Ⓙ,24BF,9407,circled latin capital letter j,Enclosed Alphanumerics,,(j)
+Ⓚ,24C0,9408,circled latin capital letter k,Enclosed Alphanumerics,,(k)
+Ⓛ,24C1,9409,circled latin capital letter l,Enclosed Alphanumerics,,(l)
+Ⓝ,24C3,9411,circled latin capital letter n,Enclosed Alphanumerics,,(n)
+Ⓞ,24C4,9412,circled latin capital letter o,Enclosed Alphanumerics,,(o)
+Ⓟ,24C5,9413,circled latin capital letter p,Enclosed Alphanumerics,,(p)
+Ⓠ,24C6,9414,circled latin capital letter q,Enclosed Alphanumerics,,(q)
+Ⓡ,24C7,9415,circled latin capital letter r,Enclosed Alphanumerics,,(r)
+Ⓢ,24C8,9416,circled latin capital letter s,Enclosed Alphanumerics,circledS oS,(s)
+Ⓣ,24C9,9417,circled latin capital letter t,Enclosed Alphanumerics,,(t)
+Ⓤ,24CA,9418,circled latin capital letter u,Enclosed Alphanumerics,,(u)
+Ⓥ,24CB,9419,circled latin capital letter v,Enclosed Alphanumerics,,(v)
+Ⓦ,24CC,9420,circled latin capital letter w,Enclosed Alphanumerics,,(w)
+Ⓧ,24CD,9421,circled latin capital letter x,Enclosed Alphanumerics,,(x)
+Ⓨ,24CE,9422,circled latin capital letter y,Enclosed Alphanumerics,,(y)
+Ⓩ,24CF,9423,circled latin capital letter z,Enclosed Alphanumerics,,(z)
+ⓐ,24D0,9424,circled latin small letter a,Enclosed Alphanumerics,,(a)
+ⓑ,24D1,9425,circled latin small letter b,Enclosed Alphanumerics,,(b)
+ⓒ,24D2,9426,circled latin small letter c,Enclosed Alphanumerics,,(c)
+ⓓ,24D3,9427,circled latin small letter d,Enclosed Alphanumerics,,(d)
+ⓔ,24D4,9428,circled latin small letter e,Enclosed Alphanumerics,,(e)
+ⓕ,24D5,9429,circled latin small letter f,Enclosed Alphanumerics,,(f)
+ⓖ,24D6,9430,circled latin small letter g,Enclosed Alphanumerics,,(g)
+ⓗ,24D7,9431,circled latin small letter h,Enclosed Alphanumerics,,(h)
+ⓘ,24D8,9432,circled latin small letter i,Enclosed Alphanumerics,,(i)
+ⓙ,24D9,9433,circled latin small letter j,Enclosed Alphanumerics,,(j)
+ⓚ,24DA,9434,circled latin small letter k,Enclosed Alphanumerics,,(k)
+ⓛ,24DB,9435,circled latin small letter l,Enclosed Alphanumerics,,(l)
+ⓜ,24DC,9436,circled latin small letter m,Enclosed Alphanumerics,,(m)
+ⓝ,24DD,9437,circled latin small letter n,Enclosed Alphanumerics,,(n)
+ⓞ,24DE,9438,circled latin small letter o,Enclosed Alphanumerics,,(o)
+ⓟ,24DF,9439,circled latin small letter p,Enclosed Alphanumerics,,(p)
+ⓠ,24E0,9440,circled latin small letter q,Enclosed Alphanumerics,,(q)
+ⓡ,24E1,9441,circled latin small letter r,Enclosed Alphanumerics,,(r)
+ⓢ,24E2,9442,circled latin small letter s,Enclosed Alphanumerics,,(s)
+ⓣ,24E3,9443,circled latin small letter t,Enclosed Alphanumerics,,(t)
+ⓤ,24E4,9444,circled latin small letter u,Enclosed Alphanumerics,,(u)
+ⓥ,24E5,9445,circled latin small letter v,Enclosed Alphanumerics,,(v)
+ⓦ,24E6,9446,circled latin small letter w,Enclosed Alphanumerics,,(w)
+ⓧ,24E7,9447,circled latin small letter x,Enclosed Alphanumerics,,(x)
+ⓨ,24E8,9448,circled latin small letter y,Enclosed Alphanumerics,,(y)
+ⓩ,24E9,9449,circled latin small letter z,Enclosed Alphanumerics,,(z)
+⓪,24EA,9450,circled digit zero,Enclosed Alphanumerics,,(0) 0
+⓫,24EB,9451,negative circled number eleven,Enclosed Alphanumerics,,11 (11)
+⓬,24EC,9452,negative circled number twelve,Enclosed Alphanumerics,,12 (12)
+⓭,24ED,9453,negative circled number thirteen,Enclosed Alphanumerics,,13 (13)
+⓮,24EE,9454,negative circled number fourteen,Enclosed Alphanumerics,,14 (14)
+⓯,24EF,9455,negative circled number fifteen,Enclosed Alphanumerics,,15 (15)
+⓰,24F0,9456,negative circled number sixteen,Enclosed Alphanumerics,,16 (16)
+⓱,24F1,9457,negative circled number seventeen,Enclosed Alphanumerics,,17 (17)
+⓲,24F2,9458,negative circled number eighteen,Enclosed Alphanumerics,,18 (18)
+⓳,24F3,9459,negative circled number nineteen,Enclosed Alphanumerics,,19 (19)
+⓴,24F4,9460,negative circled number twenty,Enclosed Alphanumerics,,20 (20)
+⓵,24F5,9461,double circled digit one,Enclosed Alphanumerics,,1 (1)
+⓶,24F6,9462,double circled digit two,Enclosed Alphanumerics,,2 (2)
+⓷,24F7,9463,double circled digit three,Enclosed Alphanumerics,,3 (3)
+⓸,24F8,9464,double circled digit four,Enclosed Alphanumerics,,4 (4)
+⓹,24F9,9465,double circled digit five,Enclosed Alphanumerics,,5 (5)
+⓺,24FA,9466,double circled digit six,Enclosed Alphanumerics,,6 (6)
+⓻,24FB,9467,double circled digit seven,Enclosed Alphanumerics,,7 (7)
+⓼,24FC,9468,double circled digit eight,Enclosed Alphanumerics,,8 (8)
+⓽,24FD,9469,double circled digit nine,Enclosed Alphanumerics,,9 (9)
+⓾,24FE,9470,double circled number ten,Enclosed Alphanumerics,,10 (10)
+⓿,24FF,9471,negative circled digit zero,Enclosed Alphanumerics,,0 (0)
+─,2500,9472,box drawings light horizontal,Box Drawing,HorizontalLine boxh,-
+━,2501,9473,box drawings heavy horizontal,Box Drawing,,-
 │,2502,9474,box drawings light vertical,Box Drawing,boxv,
 ┃,2503,9475,box drawings heavy vertical,Box Drawing,,
-┄,2504,9476,box drawings light triple dash horizontal,Box Drawing,,
-┅,2505,9477,box drawings heavy triple dash horizontal,Box Drawing,,
+┄,2504,9476,box drawings light triple dash horizontal,Box Drawing,,---
+┅,2505,9477,box drawings heavy triple dash horizontal,Box Drawing,,---
 ┆,2506,9478,box drawings light triple dash vertical,Box Drawing,,
 ┇,2507,9479,box drawings heavy triple dash vertical,Box Drawing,,
-┈,2508,9480,box drawings light quadruple dash horizontal,Box Drawing,,
-┉,2509,9481,box drawings heavy quadruple dash horizontal,Box Drawing,,
+┈,2508,9480,box drawings light quadruple dash horizontal,Box Drawing,,----
+┉,2509,9481,box drawings heavy quadruple dash horizontal,Box Drawing,,----
 ┊,250A,9482,box drawings light quadruple dash vertical,Box Drawing,,
 ┋,250B,9483,box drawings heavy quadruple dash vertical,Box Drawing,,
 ┌,250C,9484,box drawings light down and right,Box Drawing,boxdr,
@@ -8674,13 +8674,13 @@ z,007A,122,latin small letter z,Basic Latin,,
 ♰,2670,9840,west syriac cross,Miscellaneous Symbols,,
 ♱,2671,9841,east syriac cross,Miscellaneous Symbols,,
 ♲,2672,9842,universal recycling symbol,Miscellaneous Symbols,,
-♳,2673,9843,recycling symbol for type-1 plastics,Miscellaneous Symbols,,
-♴,2674,9844,recycling symbol for type-2 plastics,Miscellaneous Symbols,,
-♵,2675,9845,recycling symbol for type-3 plastics,Miscellaneous Symbols,,
-♶,2676,9846,recycling symbol for type-4 plastics,Miscellaneous Symbols,,
-♷,2677,9847,recycling symbol for type-5 plastics,Miscellaneous Symbols,,
-♸,2678,9848,recycling symbol for type-6 plastics,Miscellaneous Symbols,,
-♹,2679,9849,recycling symbol for type-7 plastics,Miscellaneous Symbols,,
+♳,2673,9843,recycling symbol for type-1 plastics,Miscellaneous Symbols,,1
+♴,2674,9844,recycling symbol for type-2 plastics,Miscellaneous Symbols,,2
+♵,2675,9845,recycling symbol for type-3 plastics,Miscellaneous Symbols,,3
+♶,2676,9846,recycling symbol for type-4 plastics,Miscellaneous Symbols,,4
+♷,2677,9847,recycling symbol for type-5 plastics,Miscellaneous Symbols,,5
+♸,2678,9848,recycling symbol for type-6 plastics,Miscellaneous Symbols,,6
+♹,2679,9849,recycling symbol for type-7 plastics,Miscellaneous Symbols,,7
 ♺,267A,9850,recycling symbol for generic materials,Miscellaneous Symbols,,
 ♼,267C,9852,recycled paper symbol,Miscellaneous Symbols,,
 ♽,267D,9853,partially-recycled paper symbol,Miscellaneous Symbols,,
@@ -8836,7 +8836,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ❐,2750,10064,upper right drop-shadowed white square,Dingbats,,
 ❑,2751,10065,lower right shadowed white square,Dingbats,,
 ❒,2752,10066,upper right shadowed white square,Dingbats,,
-❖,2756,10070,black diamond minus white x,Dingbats,,
+❖,2756,10070,black diamond minus white x,Dingbats,,windows meta
 ❘,2758,10072,light vertical bar,Dingbats,VerticalSeparator,
 ❙,2759,10073,medium vertical bar,Dingbats,,
 ❚,275A,10074,heavy vertical bar,Dingbats,,
@@ -8865,16 +8865,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ❳,2773,10099,light right tortoise shell bracket ornament,Dingbats,rbbrk,
 ❴,2774,10100,medium left curly bracket ornament,Dingbats,,
 ❵,2775,10101,medium right curly bracket ornament,Dingbats,,
-❶,2776,10102,dingbat negative circled digit one,Dingbats,,
-❷,2777,10103,dingbat negative circled digit two,Dingbats,,
-❸,2778,10104,dingbat negative circled digit three,Dingbats,,
-❹,2779,10105,dingbat negative circled digit four,Dingbats,,
-❺,277A,10106,dingbat negative circled digit five,Dingbats,,
-❻,277B,10107,dingbat negative circled digit six,Dingbats,,
-❼,277C,10108,dingbat negative circled digit seven,Dingbats,,
-❽,277D,10109,dingbat negative circled digit eight,Dingbats,,
-❾,277E,10110,dingbat negative circled digit nine,Dingbats,,
-❿,277F,10111,dingbat negative circled number ten,Dingbats,,
+❶,2776,10102,dingbat negative circled digit one,Dingbats,,1
+❷,2777,10103,dingbat negative circled digit two,Dingbats,,2
+❸,2778,10104,dingbat negative circled digit three,Dingbats,,3
+❹,2779,10105,dingbat negative circled digit four,Dingbats,,4
+❺,277A,10106,dingbat negative circled digit five,Dingbats,,5
+❻,277B,10107,dingbat negative circled digit six,Dingbats,,6
+❼,277C,10108,dingbat negative circled digit seven,Dingbats,,7
+❽,277D,10109,dingbat negative circled digit eight,Dingbats,,8
+❾,277E,10110,dingbat negative circled digit nine,Dingbats,,9
+❿,277F,10111,dingbat negative circled number ten,Dingbats,,10
 ➀,2780,10112,dingbat circled sans-serif digit one,Dingbats,,
 ➁,2781,10113,dingbat circled sans-serif digit two,Dingbats,,
 ➂,2782,10114,dingbat circled sans-serif digit three,Dingbats,,
@@ -11782,23 +11782,23 @@ z,007A,122,latin small letter z,Basic Latin,,
 ㎜,339C,13212,square mm,CJK Compatibility,,
 ㎝,339D,13213,square cm,CJK Compatibility,,
 ㎞,339E,13214,square km,CJK Compatibility,,
-㎟,339F,13215,square mm squared,CJK Compatibility,,
-㎠,33A0,13216,square cm squared,CJK Compatibility,,
-㎡,33A1,13217,square m squared,CJK Compatibility,,
-㎢,33A2,13218,square km squared,CJK Compatibility,,
-㎣,33A3,13219,square mm cubed,CJK Compatibility,,
-㎤,33A4,13220,square cm cubed,CJK Compatibility,,
-㎥,33A5,13221,square m cubed,CJK Compatibility,,
-㎦,33A6,13222,square km cubed,CJK Compatibility,,
-㎧,33A7,13223,square m over s,CJK Compatibility,,
-㎨,33A8,13224,square m over s squared,CJK Compatibility,,
+㎟,339F,13215,square mm squared,CJK Compatibility,,mm2
+㎠,33A0,13216,square cm squared,CJK Compatibility,,cm2
+㎡,33A1,13217,square m squared,CJK Compatibility,,m2
+㎢,33A2,13218,square km squared,CJK Compatibility,,km2
+㎣,33A3,13219,square mm cubed,CJK Compatibility,,mm3
+㎤,33A4,13220,square cm cubed,CJK Compatibility,,cm3
+㎥,33A5,13221,square m cubed,CJK Compatibility,,m3
+㎦,33A6,13222,square km cubed,CJK Compatibility,,km3
+㎧,33A7,13223,square m over s,CJK Compatibility,,m/s
+㎨,33A8,13224,square m over s squared,CJK Compatibility,,m/s2
 ㎩,33A9,13225,square pa,CJK Compatibility,,
 ㎪,33AA,13226,square kpa,CJK Compatibility,,
 ㎫,33AB,13227,square mpa,CJK Compatibility,,
 ㎬,33AC,13228,square gpa,CJK Compatibility,,
 ㎭,33AD,13229,square rad,CJK Compatibility,,
-㎮,33AE,13230,square rad over s,CJK Compatibility,,
-㎯,33AF,13231,square rad over s squared,CJK Compatibility,,
+㎮,33AE,13230,square rad over s,CJK Compatibility,,rad/s
+㎯,33AF,13231,square rad over s squared,CJK Compatibility,,rad/s2
 ㎰,33B0,13232,square ps,CJK Compatibility,,
 ㎱,33B1,13233,square ns,CJK Compatibility,,
 ㎲,33B2,13234,square mu s,CJK Compatibility,,
@@ -28005,56 +28005,56 @@ z,007A,122,latin small letter z,Basic Latin,,
 𝟉,1D7C9,120777,mathematical sans-serif bold italic pi symbol,Mathematical Alphanumeric Symbols,,
 𝟊,1D7CA,120778,mathematical bold capital digamma,Mathematical Alphanumeric Symbols,,
 𝟋,1D7CB,120779,mathematical bold small digamma,Mathematical Alphanumeric Symbols,,
-𝟎,1D7CE,120782,mathematical bold digit zero,Mathematical Alphanumeric Symbols,,
-𝟏,1D7CF,120783,mathematical bold digit one,Mathematical Alphanumeric Symbols,,
-𝟐,1D7D0,120784,mathematical bold digit two,Mathematical Alphanumeric Symbols,,
-𝟑,1D7D1,120785,mathematical bold digit three,Mathematical Alphanumeric Symbols,,
-𝟒,1D7D2,120786,mathematical bold digit four,Mathematical Alphanumeric Symbols,,
-𝟓,1D7D3,120787,mathematical bold digit five,Mathematical Alphanumeric Symbols,,
-𝟔,1D7D4,120788,mathematical bold digit six,Mathematical Alphanumeric Symbols,,
-𝟕,1D7D5,120789,mathematical bold digit seven,Mathematical Alphanumeric Symbols,,
-𝟖,1D7D6,120790,mathematical bold digit eight,Mathematical Alphanumeric Symbols,,
-𝟗,1D7D7,120791,mathematical bold digit nine,Mathematical Alphanumeric Symbols,,
-𝟘,1D7D8,120792,mathematical double-struck digit zero,Mathematical Alphanumeric Symbols,,
-𝟙,1D7D9,120793,mathematical double-struck digit one,Mathematical Alphanumeric Symbols,,
-𝟚,1D7DA,120794,mathematical double-struck digit two,Mathematical Alphanumeric Symbols,,
-𝟛,1D7DB,120795,mathematical double-struck digit three,Mathematical Alphanumeric Symbols,,
-𝟜,1D7DC,120796,mathematical double-struck digit four,Mathematical Alphanumeric Symbols,,
-𝟝,1D7DD,120797,mathematical double-struck digit five,Mathematical Alphanumeric Symbols,,
-𝟞,1D7DE,120798,mathematical double-struck digit six,Mathematical Alphanumeric Symbols,,
-𝟟,1D7DF,120799,mathematical double-struck digit seven,Mathematical Alphanumeric Symbols,,
-𝟠,1D7E0,120800,mathematical double-struck digit eight,Mathematical Alphanumeric Symbols,,
-𝟡,1D7E1,120801,mathematical double-struck digit nine,Mathematical Alphanumeric Symbols,,
-𝟢,1D7E2,120802,mathematical sans-serif digit zero,Mathematical Alphanumeric Symbols,,
-𝟣,1D7E3,120803,mathematical sans-serif digit one,Mathematical Alphanumeric Symbols,,
-𝟤,1D7E4,120804,mathematical sans-serif digit two,Mathematical Alphanumeric Symbols,,
-𝟥,1D7E5,120805,mathematical sans-serif digit three,Mathematical Alphanumeric Symbols,,
-𝟦,1D7E6,120806,mathematical sans-serif digit four,Mathematical Alphanumeric Symbols,,
-𝟧,1D7E7,120807,mathematical sans-serif digit five,Mathematical Alphanumeric Symbols,,
-𝟨,1D7E8,120808,mathematical sans-serif digit six,Mathematical Alphanumeric Symbols,,
-𝟩,1D7E9,120809,mathematical sans-serif digit seven,Mathematical Alphanumeric Symbols,,
-𝟪,1D7EA,120810,mathematical sans-serif digit eight,Mathematical Alphanumeric Symbols,,
-𝟫,1D7EB,120811,mathematical sans-serif digit nine,Mathematical Alphanumeric Symbols,,
-𝟬,1D7EC,120812,mathematical sans-serif bold digit zero,Mathematical Alphanumeric Symbols,,
-𝟭,1D7ED,120813,mathematical sans-serif bold digit one,Mathematical Alphanumeric Symbols,,
-𝟮,1D7EE,120814,mathematical sans-serif bold digit two,Mathematical Alphanumeric Symbols,,
-𝟯,1D7EF,120815,mathematical sans-serif bold digit three,Mathematical Alphanumeric Symbols,,
-𝟰,1D7F0,120816,mathematical sans-serif bold digit four,Mathematical Alphanumeric Symbols,,
-𝟱,1D7F1,120817,mathematical sans-serif bold digit five,Mathematical Alphanumeric Symbols,,
-𝟲,1D7F2,120818,mathematical sans-serif bold digit six,Mathematical Alphanumeric Symbols,,
-𝟳,1D7F3,120819,mathematical sans-serif bold digit seven,Mathematical Alphanumeric Symbols,,
-𝟴,1D7F4,120820,mathematical sans-serif bold digit eight,Mathematical Alphanumeric Symbols,,
-𝟵,1D7F5,120821,mathematical sans-serif bold digit nine,Mathematical Alphanumeric Symbols,,
-𝟶,1D7F6,120822,mathematical monospace digit zero,Mathematical Alphanumeric Symbols,,
-𝟷,1D7F7,120823,mathematical monospace digit one,Mathematical Alphanumeric Symbols,,
-𝟸,1D7F8,120824,mathematical monospace digit two,Mathematical Alphanumeric Symbols,,
-𝟹,1D7F9,120825,mathematical monospace digit three,Mathematical Alphanumeric Symbols,,
-𝟺,1D7FA,120826,mathematical monospace digit four,Mathematical Alphanumeric Symbols,,
-𝟻,1D7FB,120827,mathematical monospace digit five,Mathematical Alphanumeric Symbols,,
-𝟼,1D7FC,120828,mathematical monospace digit six,Mathematical Alphanumeric Symbols,,
-𝟽,1D7FD,120829,mathematical monospace digit seven,Mathematical Alphanumeric Symbols,,
-𝟾,1D7FE,120830,mathematical monospace digit eight,Mathematical Alphanumeric Symbols,,
-𝟿,1D7FF,120831,mathematical monospace digit nine,Mathematical Alphanumeric Symbols,,
+𝟎,1D7CE,120782,mathematical bold digit zero,Mathematical Alphanumeric Symbols,,0
+𝟏,1D7CF,120783,mathematical bold digit one,Mathematical Alphanumeric Symbols,,1
+𝟐,1D7D0,120784,mathematical bold digit two,Mathematical Alphanumeric Symbols,,2
+𝟑,1D7D1,120785,mathematical bold digit three,Mathematical Alphanumeric Symbols,,3
+𝟒,1D7D2,120786,mathematical bold digit four,Mathematical Alphanumeric Symbols,,4
+𝟓,1D7D3,120787,mathematical bold digit five,Mathematical Alphanumeric Symbols,,5
+𝟔,1D7D4,120788,mathematical bold digit six,Mathematical Alphanumeric Symbols,,6
+𝟕,1D7D5,120789,mathematical bold digit seven,Mathematical Alphanumeric Symbols,,7
+𝟖,1D7D6,120790,mathematical bold digit eight,Mathematical Alphanumeric Symbols,,8
+𝟗,1D7D7,120791,mathematical bold digit nine,Mathematical Alphanumeric Symbols,,9
+𝟘,1D7D8,120792,mathematical double-struck digit zero,Mathematical Alphanumeric Symbols,,0
+𝟙,1D7D9,120793,mathematical double-struck digit one,Mathematical Alphanumeric Symbols,,1
+𝟚,1D7DA,120794,mathematical double-struck digit two,Mathematical Alphanumeric Symbols,,2
+𝟛,1D7DB,120795,mathematical double-struck digit three,Mathematical Alphanumeric Symbols,,3
+𝟜,1D7DC,120796,mathematical double-struck digit four,Mathematical Alphanumeric Symbols,,4
+𝟝,1D7DD,120797,mathematical double-struck digit five,Mathematical Alphanumeric Symbols,,5
+𝟞,1D7DE,120798,mathematical double-struck digit six,Mathematical Alphanumeric Symbols,,6
+𝟟,1D7DF,120799,mathematical double-struck digit seven,Mathematical Alphanumeric Symbols,,7
+𝟠,1D7E0,120800,mathematical double-struck digit eight,Mathematical Alphanumeric Symbols,,8
+𝟡,1D7E1,120801,mathematical double-struck digit nine,Mathematical Alphanumeric Symbols,,9
+𝟢,1D7E2,120802,mathematical sans-serif digit zero,Mathematical Alphanumeric Symbols,,0
+𝟣,1D7E3,120803,mathematical sans-serif digit one,Mathematical Alphanumeric Symbols,,1
+𝟤,1D7E4,120804,mathematical sans-serif digit two,Mathematical Alphanumeric Symbols,,2
+𝟥,1D7E5,120805,mathematical sans-serif digit three,Mathematical Alphanumeric Symbols,,3
+𝟦,1D7E6,120806,mathematical sans-serif digit four,Mathematical Alphanumeric Symbols,,4
+𝟧,1D7E7,120807,mathematical sans-serif digit five,Mathematical Alphanumeric Symbols,,5
+𝟨,1D7E8,120808,mathematical sans-serif digit six,Mathematical Alphanumeric Symbols,,6
+𝟩,1D7E9,120809,mathematical sans-serif digit seven,Mathematical Alphanumeric Symbols,,7
+𝟪,1D7EA,120810,mathematical sans-serif digit eight,Mathematical Alphanumeric Symbols,,8
+𝟫,1D7EB,120811,mathematical sans-serif digit nine,Mathematical Alphanumeric Symbols,,9
+𝟬,1D7EC,120812,mathematical sans-serif bold digit zero,Mathematical Alphanumeric Symbols,,0
+𝟭,1D7ED,120813,mathematical sans-serif bold digit one,Mathematical Alphanumeric Symbols,,1
+𝟮,1D7EE,120814,mathematical sans-serif bold digit two,Mathematical Alphanumeric Symbols,,2
+𝟯,1D7EF,120815,mathematical sans-serif bold digit three,Mathematical Alphanumeric Symbols,,3
+𝟰,1D7F0,120816,mathematical sans-serif bold digit four,Mathematical Alphanumeric Symbols,,4
+𝟱,1D7F1,120817,mathematical sans-serif bold digit five,Mathematical Alphanumeric Symbols,,5
+𝟲,1D7F2,120818,mathematical sans-serif bold digit six,Mathematical Alphanumeric Symbols,,6
+𝟳,1D7F3,120819,mathematical sans-serif bold digit seven,Mathematical Alphanumeric Symbols,,7
+𝟴,1D7F4,120820,mathematical sans-serif bold digit eight,Mathematical Alphanumeric Symbols,,8
+𝟵,1D7F5,120821,mathematical sans-serif bold digit nine,Mathematical Alphanumeric Symbols,,9
+𝟶,1D7F6,120822,mathematical monospace digit zero,Mathematical Alphanumeric Symbols,,0
+𝟷,1D7F7,120823,mathematical monospace digit one,Mathematical Alphanumeric Symbols,,1
+𝟸,1D7F8,120824,mathematical monospace digit two,Mathematical Alphanumeric Symbols,,2
+𝟹,1D7F9,120825,mathematical monospace digit three,Mathematical Alphanumeric Symbols,,3
+𝟺,1D7FA,120826,mathematical monospace digit four,Mathematical Alphanumeric Symbols,,4
+𝟻,1D7FB,120827,mathematical monospace digit five,Mathematical Alphanumeric Symbols,,5
+𝟼,1D7FC,120828,mathematical monospace digit six,Mathematical Alphanumeric Symbols,,6
+𝟽,1D7FD,120829,mathematical monospace digit seven,Mathematical Alphanumeric Symbols,,7
+𝟾,1D7FE,120830,mathematical monospace digit eight,Mathematical Alphanumeric Symbols,,8
+𝟿,1D7FF,120831,mathematical monospace digit nine,Mathematical Alphanumeric Symbols,,9
 𝠀,1D800,120832,signwriting hand-fist index,Sutton SignWriting,,
 𝠁,1D801,120833,signwriting hand-circle index,Sutton SignWriting,,
 𝠂,1D802,120834,signwriting hand-cup index,Sutton SignWriting,,
