@@ -1,5 +1,5 @@
 <template>
-  <navigatable :glyphs="glyphs">
+  <navigatable :glyphs="glyphs" v-slot="{ selectedGlyph }">
     <div class="wrapper">
       <div class="wrapper__header">
         <input
@@ -12,18 +12,21 @@
       <div class="wrapper__content">
         <glyph-list :glyphs="glyphs" />
       </div>
+      <glyph-data :glyph="selectedGlyph" />
     </div>
   </navigatable>
 </template>
 
 <script>
 import GlyphList from '@/components/GlyphList'
+import GlyphData from '@/components/GlyphData'
 import Navigatable from '@/components/Navigatable'
 import Glyphs from '@/services/Glyphs'
 
 export default {
   components: {
     GlyphList,
+    GlyphData,
     Navigatable,
 ***REMOVED***,
 

@@ -8,14 +8,14 @@ export default {
 ***REMOVED***,
 
   data() {
-    const showRows = 8
+    const showRows = 7
 
     return {
       selectedIndex: 0,
       startRow: 0,
       showRows,
       itemsPerRow: 5,
-      rowHeight: 50,
+      rowHeight: 60,
       firstFullyVisibleRow: 0,
       lastFullyVisibleRow: showRows - 1,
   ***REMOVED***
@@ -144,7 +144,9 @@ export default {
 ***REMOVED***,
 
   render() {
-    return this.$scopedSlots.default()
+    return this.$scopedSlots.default({
+      selectedGlyph: this.selectedGlyph,
+***REMOVED***
 ***REMOVED***,
 }
 </script>
