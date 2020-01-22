@@ -7,7 +7,6 @@ const codepoints = []
 fs.createReadStream('./src/data/data.csv')
   .pipe(csv())
   .on('data', data => {
-    // console.log(data)
     codepoints.push(data)
 ***REMOVED***)
   .on('end', () => {
