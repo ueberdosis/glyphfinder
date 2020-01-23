@@ -30,15 +30,15 @@ if (isISOKeyboard) {
       ***REMOVED***
 
         if (key.withAltGr === symbol) {
-    ***REMOVED*** ['Alt', key.value]
+    ***REMOVED*** ['⌥', key.value]
       ***REMOVED***
 
         if (key.withShift === symbol) {
-    ***REMOVED*** ['Shift', key.value]
+    ***REMOVED*** ['⇧', key.value]
       ***REMOVED***
 
         if (key.withShiftAltGr === symbol) {
-    ***REMOVED*** ['Shift', 'Alt', key.value]
+    ***REMOVED*** ['⇧', '⌥', key.value]
       ***REMOVED***
 
   ***REMOVED*** null

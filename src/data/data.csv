@@ -9,12 +9,12 @@ $,0024,36,dollar sign,Basic Latin,dollar,currency
 ',0027,39,apostrophe,Basic Latin,apos,
 (,0028,40,left parenthesis,Basic Latin,lpar,
 ),0029,41,right parenthesis,Basic Latin,rpar,
-*,002A,42,asterisk,Basic Latin,ast midast,.
+*,002A,42,asterisk,Basic Latin,ast midast,. star
 +,002B,43,plus sign,Basic Latin,plus,
 ",",002C,44,comma,Basic Latin,comma,
 -,002D,45,hyphen-minus,Basic Latin,,– —
-.,002E,46,full stop,Basic Latin,period,
-/,002F,47,solidus,Basic Latin,sol,
+.,002E,46,full stop,Basic Latin,period,dot
+/,002F,47,solidus,Basic Latin,sol,slash fraction
 0,0030,48,digit zero,Basic Latin,,
 1,0031,49,digit one,Basic Latin,,
 2,0032,50,digit two,Basic Latin,,
@@ -29,7 +29,7 @@ $,0024,36,dollar sign,Basic Latin,dollar,currency
 ;,003B,59,semicolon,Basic Latin,semi,
 <,003C,60,less-than sign,Basic Latin,LT lt,< left arrow
 =,003D,61,equals sign,Basic Latin,equals,
->,003E,62,greater-than sign,Basic Latin,GT gt,>
+>,003E,62,greater-than sign,Basic Latin,GT gt,> right arrow
 ?,003F,63,question mark,Basic Latin,quest,
 @,0040,64,commercial at,Basic Latin,commat,a
 A,0041,65,latin capital letter a,Basic Latin,,
@@ -58,11 +58,11 @@ W,0057,87,latin capital letter w,Basic Latin,,
 X,0058,88,latin capital letter x,Basic Latin,,
 Y,0059,89,latin capital letter y,Basic Latin,,
 Z,005A,90,latin capital letter z,Basic Latin,,
-[,005B,91,left square bracket,Basic Latin,lbrack lsqb,
-\,005C,92,reverse solidus,Basic Latin,bsol,
-],005D,93,right square bracket,Basic Latin,rbrack rsqb,
-^,005E,94,circumflex accent,Basic Latin,Hat,
-_,005F,95,low line,Basic Latin,UnderBar lowbar,
+[,005B,91,left square bracket,Basic Latin,lbrack lsqb,(
+\,005C,92,reverse solidus,Basic Latin,bsol,backslash slash
+],005D,93,right square bracket,Basic Latin,rbrack rsqb,)
+^,005E,94,circumflex accent,Basic Latin,Hat,exponent
+_,005F,95,low line,Basic Latin,UnderBar lowbar,-
 `,0060,96,grave accent,Basic Latin,DiacriticalGrave grave,
 a,0061,97,latin small letter a,Basic Latin,,
 b,0062,98,latin small letter b,Basic Latin,,
@@ -104,8 +104,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 §,00A7,167,section sign,Latin-1 Supplement,sect,s
 ¨,00A8,168,diaeresis,Latin-1 Supplement,Dot DoubleDot die uml,""""
 ª,00AA,170,feminine ordinal indicator,Latin-1 Supplement,ordf,a
-«,00AB,171,left-pointing double angle quotation mark,Latin-1 Supplement,laquo,< << double
-¬,00AC,172,not sign,Latin-1 Supplement,not,not -
+«,00AB,171,left-pointing double angle quotation mark,Latin-1 Supplement,laquo,<<
+¬,00AC,172,not sign,Latin-1 Supplement,not,-
 ­,00AD,173,soft hyphen,Latin-1 Supplement,shy,-
 ¯,00AF,175,macron,Latin-1 Supplement,macr strns,- overline
 °,00B0,176,degree sign,Latin-1 Supplement,deg,degree o
@@ -119,10 +119,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ¸,00B8,184,cedilla,Latin-1 Supplement,Cedilla cedil,","
 ¹,00B9,185,superscript one,Latin-1 Supplement,sup1,1 superscript one
 º,00BA,186,masculine ordinal indicator,Latin-1 Supplement,ordm,o ordinal
-»,00BB,187,right-pointing double angle quotation mark,Latin-1 Supplement,raquo,right-pointing double > >>
-¼,00BC,188,vulgar fraction one quarter,Latin-1 Supplement,frac14,1/4 quarter
-½,00BD,189,vulgar fraction one half,Latin-1 Supplement,frac12 half,half 1/2
-¾,00BE,190,vulgar fraction three quarters,Latin-1 Supplement,frac34,quarters 3/4
+»,00BB,187,right-pointing double angle quotation mark,Latin-1 Supplement,raquo,>>
+¼,00BC,188,vulgar fraction one quarter,Latin-1 Supplement,frac14,1/4
+½,00BD,189,vulgar fraction one half,Latin-1 Supplement,frac12 half,1/2
+¾,00BE,190,vulgar fraction three quarters,Latin-1 Supplement,frac34,3/4
 ¿,00BF,191,inverted question mark,Latin-1 Supplement,iquest,?
 À,00C0,192,latin capital letter a with grave,Latin-1 Supplement,Agrave,
 Á,00C1,193,latin capital letter a with acute,Latin-1 Supplement,Aacute,
@@ -147,7 +147,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 Ô,00D4,212,latin capital letter o with circumflex,Latin-1 Supplement,Ocirc,
 Õ,00D5,213,latin capital letter o with tilde,Latin-1 Supplement,Otilde,
 Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,
-×,00D7,215,multiplication sign,Latin-1 Supplement,times,multiplication x times
+×,00D7,215,multiplication sign,Latin-1 Supplement,times,multiplicate x times
 Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,slash /
 Ù,00D9,217,latin capital letter u with grave,Latin-1 Supplement,Ugrave,
 Ú,00DA,218,latin capital letter u with acute,Latin-1 Supplement,Uacute,
@@ -638,10 +638,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ʿ,02BF,703,modifier letter left half ring,Spacing Modifier Letters,,'
 ˀ,02C0,704,modifier letter glottal stop,Spacing Modifier Letters,,
 ˁ,02C1,705,modifier letter reversed glottal stop,Spacing Modifier Letters,,
-˂,02C2,706,modifier letter left arrowhead,Spacing Modifier Letters,,
-˃,02C3,707,modifier letter right arrowhead,Spacing Modifier Letters,,
-˄,02C4,708,modifier letter up arrowhead,Spacing Modifier Letters,,
-˅,02C5,709,modifier letter down arrowhead,Spacing Modifier Letters,,
+˂,02C2,706,modifier letter left arrowhead,Spacing Modifier Letters,,<
+˃,02C3,707,modifier letter right arrowhead,Spacing Modifier Letters,,>
+˄,02C4,708,modifier letter up arrowhead,Spacing Modifier Letters,,^
+˅,02C5,709,modifier letter down arrowhead,Spacing Modifier Letters,,v
 ˆ,02C6,710,modifier letter circumflex accent,Spacing Modifier Letters,circ,circumflex accent ^
 ˇ,02C7,711,caron,Spacing Modifier Letters,Hacek caron,
 ˈ,02C8,712,modifier letter vertical line,Spacing Modifier Letters,,
@@ -683,23 +683,23 @@ z,007A,122,latin small letter z,Basic Latin,,
 ˬ,02EC,748,modifier letter voicing,Spacing Modifier Letters,,
 ˭,02ED,749,modifier letter unaspirated,Spacing Modifier Letters,,
 ˮ,02EE,750,modifier letter double apostrophe,Spacing Modifier Letters,,
-˯,02EF,751,modifier letter low down arrowhead,Spacing Modifier Letters,,
-˰,02F0,752,modifier letter low up arrowhead,Spacing Modifier Letters,,
-˱,02F1,753,modifier letter low left arrowhead,Spacing Modifier Letters,,
-˲,02F2,754,modifier letter low right arrowhead,Spacing Modifier Letters,,
-˳,02F3,755,modifier letter low ring,Spacing Modifier Letters,,
-˴,02F4,756,modifier letter middle grave accent,Spacing Modifier Letters,,
-˵,02F5,757,modifier letter middle double grave accent,Spacing Modifier Letters,,
-˶,02F6,758,modifier letter middle double acute accent,Spacing Modifier Letters,,
-˷,02F7,759,modifier letter low tilde,Spacing Modifier Letters,,
-˸,02F8,760,modifier letter raised colon,Spacing Modifier Letters,,
+˯,02EF,751,modifier letter low down arrowhead,Spacing Modifier Letters,,v
+˰,02F0,752,modifier letter low up arrowhead,Spacing Modifier Letters,,^
+˱,02F1,753,modifier letter low left arrowhead,Spacing Modifier Letters,,<
+˲,02F2,754,modifier letter low right arrowhead,Spacing Modifier Letters,,>
+˳,02F3,755,modifier letter low ring,Spacing Modifier Letters,,.
+˴,02F4,756,modifier letter middle grave accent,Spacing Modifier Letters,,'
+˵,02F5,757,modifier letter middle double grave accent,Spacing Modifier Letters,,""""
+˶,02F6,758,modifier letter middle double acute accent,Spacing Modifier Letters,,""""
+˷,02F7,759,modifier letter low tilde,Spacing Modifier Letters,,~
+˸,02F8,760,modifier letter raised colon,Spacing Modifier Letters,,:
 ˹,02F9,761,modifier letter begin high tone,Spacing Modifier Letters,,
 ˺,02FA,762,modifier letter end high tone,Spacing Modifier Letters,,
 ˻,02FB,763,modifier letter begin low tone,Spacing Modifier Letters,,
 ˼,02FC,764,modifier letter end low tone,Spacing Modifier Letters,,
 ˽,02FD,765,modifier letter shelf,Spacing Modifier Letters,,
 ˾,02FE,766,modifier letter open shelf,Spacing Modifier Letters,,
-˿,02FF,767,modifier letter low left arrow,Spacing Modifier Letters,,
+˿,02FF,767,modifier letter low left arrow,Spacing Modifier Letters,,<-
 ̀,0300,768,combining grave accent,Combining Diacritical Marks,,
 ́,0301,769,combining acute accent,Combining Diacritical Marks,,
 ̂,0302,770,combining circumflex accent,Combining Diacritical Marks,,
@@ -777,16 +777,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ͊,034A,842,combining not tilde above,Combining Diacritical Marks,,
 ͋,034B,843,combining homothetic above,Combining Diacritical Marks,,
 ͌,034C,844,combining almost equal to above,Combining Diacritical Marks,,
-͍,034D,845,combining left right arrow below,Combining Diacritical Marks,,
-͎,034E,846,combining upwards arrow below,Combining Diacritical Marks,,
+͍,034D,845,combining left right arrow below,Combining Diacritical Marks,,<->
+͎,034E,846,combining upwards arrow below,Combining Diacritical Marks,,^
 ͏,034F,847,combining grapheme joiner,Combining Diacritical Marks,,
-͐,0350,848,combining right arrowhead above,Combining Diacritical Marks,,
+͐,0350,848,combining right arrowhead above,Combining Diacritical Marks,,>
 ͑,0351,849,combining left half ring above,Combining Diacritical Marks,,
 ͒,0352,850,combining fermata,Combining Diacritical Marks,,
 ͓,0353,851,combining x below,Combining Diacritical Marks,,
-͔,0354,852,combining left arrowhead below,Combining Diacritical Marks,,
-͕,0355,853,combining right arrowhead below,Combining Diacritical Marks,,
-͖,0356,854,combining right arrowhead and up arrowhead below,Combining Diacritical Marks,,
+͔,0354,852,combining left arrowhead below,Combining Diacritical Marks,,<
+͕,0355,853,combining right arrowhead below,Combining Diacritical Marks,,>
+͖,0356,854,combining right arrowhead and up arrowhead below,Combining Diacritical Marks,,>^
 ͗,0357,855,combining right half ring above,Combining Diacritical Marks,,
 ͘,0358,856,combining dot above right,Combining Diacritical Marks,,
 ͙,0359,857,combining asterisk below,Combining Diacritical Marks,,
@@ -798,7 +798,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ͟,035F,863,combining double macron below,Combining Diacritical Marks,,
 ͠,0360,864,combining double tilde,Combining Diacritical Marks,,
 ͡,0361,865,combining double inverted breve,Combining Diacritical Marks,,
-͢,0362,866,combining double rightwards arrow below,Combining Diacritical Marks,,
+͢,0362,866,combining double rightwards arrow below,Combining Diacritical Marks,,->
 ͣ,0363,867,combining latin small letter a,Combining Diacritical Marks,,
 ͤ,0364,868,combining latin small letter e,Combining Diacritical Marks,,
 ͥ,0365,869,combining latin small letter i,Combining Diacritical Marks,,
@@ -7404,13 +7404,13 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⃫,20EB,8427,combining long double solidus overlay,Combining Diacritical Marks for Symbols,,//
 ⃬,20EC,8428,combining rightwards harpoon with barb downwards,Combining Diacritical Marks for Symbols,,
 ⃭,20ED,8429,combining leftwards harpoon with barb downwards,Combining Diacritical Marks for Symbols,,
-⃮,20EE,8430,combining left arrow below,Combining Diacritical Marks for Symbols,,
-⃯,20EF,8431,combining right arrow below,Combining Diacritical Marks for Symbols,,
-⃰,20F0,8432,combining asterisk above,Combining Diacritical Marks for Symbols,,
+⃮,20EE,8430,combining left arrow below,Combining Diacritical Marks for Symbols,,<-
+⃯,20EF,8431,combining right arrow below,Combining Diacritical Marks for Symbols,,->
+⃰,20F0,8432,combining asterisk above,Combining Diacritical Marks for Symbols,,. star
 ℀,2100,8448,account of,Letterlike Symbols,,a/c
 ℁,2101,8449,addressed to the subject,Letterlike Symbols,,a/s
 ℂ,2102,8450,double-struck capital c,Letterlike Symbols,Copf complexes,
-℃,2103,8451,degree celsius,Letterlike Symbols,,
+℃,2103,8451,degree celsius,Letterlike Symbols,,c
 ℄,2104,8452,centre line symbol,Letterlike Symbols,,cl
 ℅,2105,8453,care of,Letterlike Symbols,incare,c/o
 ℆,2106,8454,cada una,Letterlike Symbols,,c/u
@@ -7579,8 +7579,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ↷,21B7,8631,clockwise top semicircle arrow,Arrows,curarr curvearrowright,v
 ↸,21B8,8632,north west arrow to long bar,Arrows,,<-
 ↹,21B9,8633,leftwards arrow to bar over rightwards arrow to bar,Arrows,,<->
-↺,21BA,8634,anticlockwise open circle arrow,Arrows,circlearrowleft olarr,
-↻,21BB,8635,clockwise open circle arrow,Arrows,circlearrowright orarr,
+↺,21BA,8634,anticlockwise open circle arrow,Arrows,circlearrowleft olarr,repeat shuffle
+↻,21BB,8635,clockwise open circle arrow,Arrows,circlearrowright orarr,repeat shuffle
 ↼,21BC,8636,leftwards harpoon with barb upwards,Arrows,LeftVector leftharpoonup lharu,<-
 ↽,21BD,8637,leftwards harpoon with barb downwards,Arrows,DownLeftVector leftharpoondown lhard,<-
 ↾,21BE,8638,upwards harpoon with barb rightwards,Arrows,RightUpVector uharr upharpoonright,^
@@ -7594,32 +7594,32 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⇆,21C6,8646,leftwards arrow over rightwards arrow,Arrows,LeftArrowRightArrow leftrightarrows lrarr,<->
 ⇇,21C7,8647,leftwards paired arrows,Arrows,leftleftarrows llarr,<-
 ⇈,21C8,8648,upwards paired arrows,Arrows,upuparrows uuarr,^
-⇉,21C9,8649,rightwards paired arrows,Arrows,rightrightarrows rrarr,
-⇊,21CA,8650,downwards paired arrows,Arrows,ddarr downdownarrows,
+⇉,21C9,8649,rightwards paired arrows,Arrows,rightrightarrows rrarr,->
+⇊,21CA,8650,downwards paired arrows,Arrows,ddarr downdownarrows,v
 ⇋,21CB,8651,leftwards harpoon over rightwards harpoon,Arrows,ReverseEquilibrium leftrightharpoons lrhar,
 ⇌,21CC,8652,rightwards harpoon over leftwards harpoon,Arrows,Equilibrium rightleftharpoons rlhar,
-⇍,21CD,8653,leftwards double arrow with stroke,Arrows,nLeftarrow nlArr,
-⇎,21CE,8654,left right double arrow with stroke,Arrows,nLeftrightarrow nhArr,
-⇏,21CF,8655,rightwards double arrow with stroke,Arrows,nRightarrow nrArr,
+⇍,21CD,8653,leftwards double arrow with stroke,Arrows,nLeftarrow nlArr,<=
+⇎,21CE,8654,left right double arrow with stroke,Arrows,nLeftrightarrow nhArr,<=>
+⇏,21CF,8655,rightwards double arrow with stroke,Arrows,nRightarrow nrArr,=>
 ⇐,21D0,8656,leftwards double arrow,Arrows,DoubleLeftArrow Leftarrow lArr,double arrow < <- <=
 ⇑,21D1,8657,upwards double arrow,Arrows,DoubleUpArrow Uparrow uArr,upwards double arrow ^
 ⇒,21D2,8658,rightwards double arrow,Arrows,DoubleRightArrow Implies Rightarrow rArr,> -> rightwards double => arrow
 ⇓,21D3,8659,downwards double arrow,Arrows,DoubleDownArrow Downarrow dArr,downwards double arrow
 ⇔,21D4,8660,left right double arrow,Arrows,DoubleLeftRightArrow Leftrightarrow hArr iff,<> <=> <-> left right double arrow
 ⇕,21D5,8661,up down double arrow,Arrows,DoubleUpDownArrow Updownarrow vArr,^
-⇖,21D6,8662,north west double arrow,Arrows,nwArr,
-⇗,21D7,8663,north east double arrow,Arrows,neArr,
-⇘,21D8,8664,south east double arrow,Arrows,seArr,
-⇙,21D9,8665,south west double arrow,Arrows,swArr,
-⇚,21DA,8666,leftwards triple arrow,Arrows,Lleftarrow lAarr,
-⇛,21DB,8667,rightwards triple arrow,Arrows,Rrightarrow rAarr,
-⇜,21DC,8668,leftwards squiggle arrow,Arrows,,
-⇝,21DD,8669,rightwards squiggle arrow,Arrows,zigrarr,
+⇖,21D6,8662,north west double arrow,Arrows,nwArr,<=
+⇗,21D7,8663,north east double arrow,Arrows,neArr,=>
+⇘,21D8,8664,south east double arrow,Arrows,seArr,=>
+⇙,21D9,8665,south west double arrow,Arrows,swArr,<=
+⇚,21DA,8666,leftwards triple arrow,Arrows,Lleftarrow lAarr,<=
+⇛,21DB,8667,rightwards triple arrow,Arrows,Rrightarrow rAarr,=>
+⇜,21DC,8668,leftwards squiggle arrow,Arrows,,<-
+⇝,21DD,8669,rightwards squiggle arrow,Arrows,zigrarr,->
 ⇞,21DE,8670,upwards arrow with double stroke,Arrows,,^
 ⇟,21DF,8671,downwards arrow with double stroke,Arrows,,v
-⇠,21E0,8672,leftwards dashed arrow,Arrows,,
+⇠,21E0,8672,leftwards dashed arrow,Arrows,,<-
 ⇡,21E1,8673,upwards dashed arrow,Arrows,,^
-⇢,21E2,8674,rightwards dashed arrow,Arrows,,
+⇢,21E2,8674,rightwards dashed arrow,Arrows,,->
 ⇣,21E3,8675,downwards dashed arrow,Arrows,,v
 ⇤,21E4,8676,leftwards arrow to bar,Arrows,LeftArrowBar larrb,<- |<- tab
 ⇥,21E5,8677,rightwards arrow to bar,Arrows,RightArrowBar rarrb,-> ->| tab
@@ -7649,16 +7649,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⇽,21FD,8701,leftwards open-headed arrow,Arrows,loarr,<-
 ⇾,21FE,8702,rightwards open-headed arrow,Arrows,roarr,->
 ⇿,21FF,8703,left right open-headed arrow,Arrows,hoarr,<->
-∀,2200,8704,for all,Mathematical Operators,ForAll forall,all A
+∀,2200,8704,for all,Mathematical Operators,ForAll forall,a
 ∁,2201,8705,complement,Mathematical Operators,comp complement,c
-∂,2202,8706,partial differential,Mathematical Operators,PartialD part,partial differential d
+∂,2202,8706,partial differential,Mathematical Operators,PartialD part,d
 ∃,2203,8707,there exists,Mathematical Operators,Exists exist,e
 ∄,2204,8708,there does not exist,Mathematical Operators,NotExists nexist nexists,e
 ∅,2205,8709,empty set,Mathematical Operators,empty emptyset emptyv varnothing,o null diameter
 ∆,2206,8710,increment,Mathematical Operators,,triangle
 ∇,2207,8711,nabla,Mathematical Operators,Del nabla,difference triangle
-∈,2208,8712,element of,Mathematical Operators,Element in isin isinv,element e
-∉,2209,8713,not an element of,Mathematical Operators,NotElement notin notinva,e not element
+∈,2208,8712,element of,Mathematical Operators,Element in isin isinv,e
+∉,2209,8713,not an element of,Mathematical Operators,NotElement notin notinva,e
 ∊,220A,8714,small element of,Mathematical Operators,,e
 ∋,220B,8715,contains as member,Mathematical Operators,ReverseElement SuchThat ni niv,e
 ∌,220C,8716,does not contain as member,Mathematical Operators,NotReverseElement notni notniva,e
@@ -7670,7 +7670,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 −,2212,8722,minus sign,Mathematical Operators,minus,- minus
 ∓,2213,8723,minus-or-plus sign,Mathematical Operators,MinusPlus mnplus mp,+ +- -
 ∔,2214,8724,dot plus,Mathematical Operators,dotplus plusdo,. +
-∕,2215,8725,division slash,Mathematical Operators,,
+∕,2215,8725,division slash,Mathematical Operators,,/
 ∖,2216,8726,set minus,Mathematical Operators,Backslash setminus setmn smallsetminus ssetmn,\
 ∗,2217,8727,asterisk operator,Mathematical Operators,lowast,asterisk * bullet
 ∘,2218,8728,ring operator,Mathematical Operators,SmallCircle compfn,. o
@@ -7701,7 +7701,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ∱,2231,8753,clockwise integral,Mathematical Operators,cwint,f
 ∲,2232,8754,clockwise contour integral,Mathematical Operators,ClockwiseContourIntegral cwconint,f
 ∳,2233,8755,anticlockwise contour integral,Mathematical Operators,CounterClockwiseContourIntegral awconint,f
-∴,2234,8756,therefore,Mathematical Operators,Therefore there4 therefore,therefore
+∴,2234,8756,therefore,Mathematical Operators,Therefore there4 therefore,
 ∵,2235,8757,because,Mathematical Operators,Because becaus because,
 ∶,2236,8758,ratio,Mathematical Operators,ratio,
 ∷,2237,8759,proportion,Mathematical Operators,Colon Proportion,
@@ -7709,8 +7709,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ∹,2239,8761,excess,Mathematical Operators,,
 ∺,223A,8762,geometric proportion,Mathematical Operators,mDDot,
 ∻,223B,8763,homothetic,Mathematical Operators,homtht,tilde ~
-∼,223C,8764,tilde operator,Mathematical Operators,Tilde sim thicksim thksim,
-∽,223D,8765,reversed tilde,Mathematical Operators,backsim bsim,
+∼,223C,8764,tilde operator,Mathematical Operators,Tilde sim thicksim thksim,~
+∽,223D,8765,reversed tilde,Mathematical Operators,backsim bsim,~
 ∾,223E,8766,inverted lazy s,Mathematical Operators,ac mstpos,tilde ~
 ∿,223F,8767,sine wave,Mathematical Operators,acd,tilde ~
 ≀,2240,8768,wreath product,Mathematical Operators,VerticalTilde wr wreath,~
@@ -7929,7 +7929,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌕,2315,8981,telephone recorder,Miscellaneous Technical,telrec,
 ⌖,2316,8982,position indicator,Miscellaneous Technical,target,
 ⌗,2317,8983,viewdata square,Miscellaneous Technical,,# hash
-⌘,2318,8984,place of interest sign,Miscellaneous Technical,,command meta macos
+⌘,2318,8984,place of interest sign,Miscellaneous Technical,,command meta macos os
 ⌙,2319,8985,turned not sign,Miscellaneous Technical,,
 ⌜,231C,8988,top left corner,Miscellaneous Technical,ulcorn ulcorner,
 ⌝,231D,8989,top right corner,Miscellaneous Technical,urcorn urcorner,
@@ -7940,11 +7940,11 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌢,2322,8994,frown,Miscellaneous Technical,frown sfrown,
 ⌣,2323,8995,smile,Miscellaneous Technical,smile ssmile,
 ⌤,2324,8996,up arrowhead between two horizontal bars,Miscellaneous Technical,,
-⌥,2325,8997,option key,Miscellaneous Technical,,alt option macos
+⌥,2325,8997,option key,Miscellaneous Technical,,alt option macos os
 ⌦,2326,8998,erase to the right,Miscellaneous Technical,,delete remove
 ⌧,2327,8999,x in a rectangle box,Miscellaneous Technical,,
-〈,2329,9001,left-pointing angle bracket,Miscellaneous Technical,,
-〉,232A,9002,right-pointing angle bracket,Miscellaneous Technical,,
+〈,2329,9001,left-pointing angle bracket,Miscellaneous Technical,,<
+〉,232A,9002,right-pointing angle bracket,Miscellaneous Technical,,>
 ⌫,232B,9003,erase to the left,Miscellaneous Technical,,delete remove
 ⌬,232C,9004,benzene ring,Miscellaneous Technical,,
 ⌭,232D,9005,cylindricity,Miscellaneous Technical,cylcty,
@@ -8015,25 +8015,25 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⍮,236E,9070,apl functional symbol semicolon underbar,Miscellaneous Technical,,
 ⍯,236F,9071,apl functional symbol quad not equal,Miscellaneous Technical,,
 ⍰,2370,9072,apl functional symbol quad question,Miscellaneous Technical,,
-⍱,2371,9073,apl functional symbol down caret tilde,Miscellaneous Technical,,
-⍲,2372,9074,apl functional symbol up caret tilde,Miscellaneous Technical,,
-⍳,2373,9075,apl functional symbol iota,Miscellaneous Technical,,
-⍴,2374,9076,apl functional symbol rho,Miscellaneous Technical,,
-⍵,2375,9077,apl functional symbol omega,Miscellaneous Technical,,
-⍶,2376,9078,apl functional symbol alpha underbar,Miscellaneous Technical,,
-⍷,2377,9079,apl functional symbol epsilon underbar,Miscellaneous Technical,,
-⍸,2378,9080,apl functional symbol iota underbar,Miscellaneous Technical,,
-⍹,2379,9081,apl functional symbol omega underbar,Miscellaneous Technical,,
-⍺,237A,9082,apl functional symbol alpha,Miscellaneous Technical,,
+⍱,2371,9073,apl functional symbol down caret tilde,Miscellaneous Technical,,v
+⍲,2372,9074,apl functional symbol up caret tilde,Miscellaneous Technical,,^
+⍳,2373,9075,apl functional symbol iota,Miscellaneous Technical,,l
+⍴,2374,9076,apl functional symbol rho,Miscellaneous Technical,,p
+⍵,2375,9077,apl functional symbol omega,Miscellaneous Technical,,w
+⍶,2376,9078,apl functional symbol alpha underbar,Miscellaneous Technical,,a
+⍷,2377,9079,apl functional symbol epsilon underbar,Miscellaneous Technical,,e
+⍸,2378,9080,apl functional symbol iota underbar,Miscellaneous Technical,,l
+⍹,2379,9081,apl functional symbol omega underbar,Miscellaneous Technical,,w
+⍺,237A,9082,apl functional symbol alpha,Miscellaneous Technical,,a
 ⍻,237B,9083,not check mark,Miscellaneous Technical,,
 ⍼,237C,9084,right angle with downwards zigzag arrow,Miscellaneous Technical,angzarr,
 ⍽,237D,9085,shouldered open box,Miscellaneous Technical,,
 ⍾,237E,9086,bell symbol,Miscellaneous Technical,,
 ⍿,237F,9087,vertical line with middle dot,Miscellaneous Technical,,
-⎀,2380,9088,insertion symbol,Miscellaneous Technical,,
-⎁,2381,9089,continuous underline symbol,Miscellaneous Technical,,
-⎂,2382,9090,discontinuous underline symbol,Miscellaneous Technical,,
-⎃,2383,9091,emphasis symbol,Miscellaneous Technical,,
+⎀,2380,9088,insertion symbol,Miscellaneous Technical,,a
+⎁,2381,9089,continuous underline symbol,Miscellaneous Technical,,a
+⎂,2382,9090,discontinuous underline symbol,Miscellaneous Technical,,aa
+⎃,2383,9091,emphasis symbol,Miscellaneous Technical,,a
 ⎄,2384,9092,composition symbol,Miscellaneous Technical,,
 ⎅,2385,9093,white square with centre vertical line,Miscellaneous Technical,,
 ⎆,2386,9094,enter symbol,Miscellaneous Technical,,
@@ -8041,7 +8041,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⎈,2388,9096,helm symbol,Miscellaneous Technical,,
 ⎉,2389,9097,circled horizontal bar with notch,Miscellaneous Technical,,
 ⎊,238A,9098,circled triangle down,Miscellaneous Technical,,
-⎋,238B,9099,broken circle with northwest arrow,Miscellaneous Technical,,
+⎋,238B,9099,broken circle with northwest arrow,Miscellaneous Technical,,escape <-
 ⎌,238C,9100,undo symbol,Miscellaneous Technical,,
 ⎍,238D,9101,monostable symbol,Miscellaneous Technical,,
 ⎎,238E,9102,hysteresis symbol,Miscellaneous Technical,,
@@ -8143,43 +8143,43 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⏽,23FD,9213,power on symbol,Miscellaneous Technical,,
 ⏾,23FE,9214,power sleep symbol,Miscellaneous Technical,,
 ⏿,23FF,9215,observer eye symbol,Miscellaneous Technical,,
-␀,2400,9216,symbol for null,Control Pictures,,
-␁,2401,9217,symbol for start of heading,Control Pictures,,
-␂,2402,9218,symbol for start of text,Control Pictures,,
-␃,2403,9219,symbol for end of text,Control Pictures,,
-␄,2404,9220,symbol for end of transmission,Control Pictures,,
-␅,2405,9221,symbol for enquiry,Control Pictures,,
-␆,2406,9222,symbol for acknowledge,Control Pictures,,
-␇,2407,9223,symbol for bell,Control Pictures,,
-␈,2408,9224,symbol for backspace,Control Pictures,,
-␉,2409,9225,symbol for horizontal tabulation,Control Pictures,,
-␊,240A,9226,symbol for line feed,Control Pictures,,
-␋,240B,9227,symbol for vertical tabulation,Control Pictures,,
-␌,240C,9228,symbol for form feed,Control Pictures,,
-␍,240D,9229,symbol for carriage return,Control Pictures,,
-␎,240E,9230,symbol for shift out,Control Pictures,,
-␏,240F,9231,symbol for shift in,Control Pictures,,
-␐,2410,9232,symbol for data link escape,Control Pictures,,
-␑,2411,9233,symbol for device control one,Control Pictures,,
-␒,2412,9234,symbol for device control two,Control Pictures,,
-␓,2413,9235,symbol for device control three,Control Pictures,,
-␔,2414,9236,symbol for device control four,Control Pictures,,
-␕,2415,9237,symbol for negative acknowledge,Control Pictures,,
-␖,2416,9238,symbol for synchronous idle,Control Pictures,,
-␗,2417,9239,symbol for end of transmission block,Control Pictures,,
-␘,2418,9240,symbol for cancel,Control Pictures,,
-␙,2419,9241,symbol for end of medium,Control Pictures,,
-␚,241A,9242,symbol for substitute,Control Pictures,,
-␛,241B,9243,symbol for escape,Control Pictures,,
-␜,241C,9244,symbol for file separator,Control Pictures,,
-␝,241D,9245,symbol for group separator,Control Pictures,,
-␞,241E,9246,symbol for record separator,Control Pictures,,
-␟,241F,9247,symbol for unit separator,Control Pictures,,
-␠,2420,9248,symbol for space,Control Pictures,,
-␡,2421,9249,symbol for delete,Control Pictures,,
-␢,2422,9250,blank symbol,Control Pictures,,
-␣,2423,9251,open box,Control Pictures,blank,
-␤,2424,9252,symbol for newline,Control Pictures,,
+␀,2400,9216,symbol for null,Control Pictures,,nul
+␁,2401,9217,symbol for start of heading,Control Pictures,,soh
+␂,2402,9218,symbol for start of text,Control Pictures,,stx
+␃,2403,9219,symbol for end of text,Control Pictures,,etx
+␄,2404,9220,symbol for end of transmission,Control Pictures,,eot
+␅,2405,9221,symbol for enquiry,Control Pictures,,enq
+␆,2406,9222,symbol for acknowledge,Control Pictures,,ack
+␇,2407,9223,symbol for bell,Control Pictures,,bel
+␈,2408,9224,symbol for backspace,Control Pictures,,bs
+␉,2409,9225,symbol for horizontal tabulation,Control Pictures,,ht
+␊,240A,9226,symbol for line feed,Control Pictures,,lf
+␋,240B,9227,symbol for vertical tabulation,Control Pictures,,vt
+␌,240C,9228,symbol for form feed,Control Pictures,,ff
+␍,240D,9229,symbol for carriage return,Control Pictures,,cr
+␎,240E,9230,symbol for shift out,Control Pictures,,so
+␏,240F,9231,symbol for shift in,Control Pictures,,si
+␐,2410,9232,symbol for data link escape,Control Pictures,,dle
+␑,2411,9233,symbol for device control one,Control Pictures,,dc1
+␒,2412,9234,symbol for device control two,Control Pictures,,dc2
+␓,2413,9235,symbol for device control three,Control Pictures,,dc3
+␔,2414,9236,symbol for device control four,Control Pictures,,dc4
+␕,2415,9237,symbol for negative acknowledge,Control Pictures,,nak
+␖,2416,9238,symbol for synchronous idle,Control Pictures,,syn
+␗,2417,9239,symbol for end of transmission block,Control Pictures,,etb
+␘,2418,9240,symbol for cancel,Control Pictures,,can
+␙,2419,9241,symbol for end of medium,Control Pictures,,em
+␚,241A,9242,symbol for substitute,Control Pictures,,sub
+␛,241B,9243,symbol for escape,Control Pictures,,esc
+␜,241C,9244,symbol for file separator,Control Pictures,,fs
+␝,241D,9245,symbol for group separator,Control Pictures,,gs
+␞,241E,9246,symbol for record separator,Control Pictures,,rs
+␟,241F,9247,symbol for unit separator,Control Pictures,,us
+␠,2420,9248,symbol for space,Control Pictures,,sp
+␡,2421,9249,symbol for delete,Control Pictures,,del
+␢,2422,9250,blank symbol,Control Pictures,,b
+␣,2423,9251,open box,Control Pictures,blank,space
+␤,2424,9252,symbol for newline,Control Pictures,,nl
 ␥,2425,9253,symbol for delete form two,Control Pictures,,
 ␦,2426,9254,symbol for substitute form two,Control Pictures,,
 ⑀,2440,9280,ocr hook,Optical Character Recognition,,
@@ -33315,33 +33315,33 @@ z,007A,122,latin small letter z,Basic Latin,,
 🏝️,1F3DD,,desert island,travel-places,,emoji place-geographic desert island yellow green blue
 🏞️,1F3DE,,national park,travel-places,,emoji place-geographic park blue green
 🏟️,1F3DF,,stadium,travel-places,,emoji place-building stadium red green
-🏛️,1F3DB,,classical building,travel-places,,emoji place-building classical white
+🏛️,1F3DB,,classical building,travel-places,,emoji place-building classical white house
 🏗️,1F3D7,,building construction,travel-places,,emoji place-building construction white
 🧱,1F9F1,,brick,travel-places,,emoji place-building bricks clay mortar wall red
 🏘️,1F3D8,,houses,travel-places,,emoji place-building houses white
 🏚️,1F3DA,,derelict house,travel-places,,emoji place-building derelict house white
-🏠️,1F3E0,,house,travel-places,,emoji place-building home white
+🏠️,1F3E0,,house,travel-places,,emoji place-building home white house
 🏡,1F3E1,,house with garden,travel-places,,emoji place-building garden home house green
-🏢,1F3E2,,office building,travel-places,,emoji place-building building white
-🏣,1F3E3,,Japanese post office,travel-places,,emoji place-building japanese japanese post office post white
-🏤,1F3E4,,post office,travel-places,,emoji place-building european post white
-🏥,1F3E5,,hospital,travel-places,,emoji place-building doctor medicine white
-🏦,1F3E6,,bank,travel-places,,emoji place-building building yellow dollar currency
-🏨,1F3E8,,hotel,travel-places,,emoji place-building building white
-🏩,1F3E9,,love hotel,travel-places,,emoji place-building hotel love white red
-🏪,1F3EA,,convenience store,travel-places,,emoji place-building convenience store white
-🏫,1F3EB,,school,travel-places,,emoji place-building building white
-🏬,1F3EC,,department store,travel-places,,emoji place-building department store white
-🏭️,1F3ED,,factory,travel-places,,emoji place-building building white
-🏯,1F3EF,,Japanese castle,travel-places,,emoji place-building castle japanese white
-🏰,1F3F0,,castle,travel-places,,emoji place-building european white
-💒,1F492,,wedding,travel-places,,emoji place-building chapel romance pink
+🏢,1F3E2,,office building,travel-places,,emoji place-building building white house
+🏣,1F3E3,,Japanese post office,travel-places,,emoji place-building japanese japanese post office post white house
+🏤,1F3E4,,post office,travel-places,,emoji place-building european post white house
+🏥,1F3E5,,hospital,travel-places,,emoji place-building doctor medicine white house
+🏦,1F3E6,,bank,travel-places,,emoji place-building building yellow dollar currency house
+🏨,1F3E8,,hotel,travel-places,,emoji place-building building white house
+🏩,1F3E9,,love hotel,travel-places,,emoji place-building hotel love white red house
+🏪,1F3EA,,convenience store,travel-places,,emoji place-building convenience store white house
+🏫,1F3EB,,school,travel-places,,emoji place-building building white house
+🏬,1F3EC,,department store,travel-places,,emoji place-building department store white house
+🏭️,1F3ED,,factory,travel-places,,emoji place-building building white house
+🏯,1F3EF,,Japanese castle,travel-places,,emoji place-building castle japanese white house
+🏰,1F3F0,,castle,travel-places,,emoji place-building european white house
+💒,1F492,,wedding,travel-places,,emoji place-building chapel romance pink house
 🗼,1F5FC,,Tokyo tower,travel-places,,emoji place-building tokyo tower red
 🗽,1F5FD,,Statue of Liberty,travel-places,,emoji place-building liberty statue statue of liberty blue
-⛪️,26EA,,church,travel-places,,emoji place-religious christian cross religion white
-🕌,1F54C,,mosque,travel-places,,emoji place-religious islam muslim religion orange
-🛕,1F6D5,,hindu temple,travel-places,,emoji place-religious hindu temple brown
-🕍,1F54D,,synagogue,travel-places,,emoji place-religious jew jewish religion temple brown
+⛪️,26EA,,church,travel-places,,emoji place-religious christian cross religion white house
+🕌,1F54C,,mosque,travel-places,,emoji place-religious islam muslim religion orange house
+🛕,1F6D5,,hindu temple,travel-places,,emoji place-religious hindu temple brown house
+🕍,1F54D,,synagogue,travel-places,,emoji place-religious jew jewish religion temple brown house
 ⛩️,26E9,,shinto shrine,travel-places,,emoji place-religious religion shinto shrine red
 🕋,1F54B,,kaaba,travel-places,,emoji place-religious islam muslim religion black
 ⛲️,26F2,,fountain,travel-places,,emoji place-other fountain blue
@@ -33495,7 +33495,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 🌫️,1F32B,,fog,travel-places,,emoji sky-weather cloud dust grey white
 🌬️,1F32C,,wind face,travel-places,,emoji sky-weather blow cloud face wind white
 🌀,1F300,,cyclone,travel-places,,emoji sky-weather dizzy hurricane twister typhoon blue
-🌈,1F308,,rainbow,travel-places,,emoji sky-weather rain red orange yellow green purple
+🌈,1F308,,rainbow,travel-places,,emoji sky-weather rain red orange yellow green blue purple
 🌂,1F302,,closed umbrella,travel-places,,emoji sky-weather clothing rain umbrella purple
 ☂️,2602,,umbrella,travel-places,,emoji sky-weather clothing rain purple
 ☔️,2614,,umbrella with rain drops,travel-places,,emoji sky-weather clothing drop rain umbrella purple blue
@@ -33939,7 +33939,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ➿,27BF,,double curly loop,symbols,,emoji other-symbol curl double loop black
 〽️,303D,,part alternation mark,symbols,,emoji other-symbol mark part yellow
 ✳️,2733,,eight-spoked asterisk,symbols,,emoji other-symbol * asterisk green
-✴️,2734,,eight-pointed star,symbols,,emoji other-symbol * star yellow
+✴️,2734,,eight-pointed star,symbols,,emoji other-symbol * star orange
 ❇️,2747,,sparkle,symbols,,emoji other-symbol * green
 ‼️,203C,,double exclamation mark,symbols,,emoji other-symbol ! !! bangbang exclamation mark black
 ⁉️,2049,,exclamation question mark,symbols,,emoji other-symbol ! !? ? exclamation interrobang mark punctuation question red
@@ -33985,23 +33985,23 @@ z,007A,122,latin small letter z,Basic Latin,,
 🅿️,1F17F,,P button,symbols,,emoji alphanum p button parking blue
 🆘,1F198,,SOS button,symbols,,emoji alphanum help sos sos button red
 🆙,1F199,,UP! button,symbols,,emoji alphanum mark up up! button grey
-🆚,1F19A,,VS button,symbols,,emoji alphanum versus vs vs button yellow
+🆚,1F19A,,VS button,symbols,,emoji alphanum versus vs vs button orange
 🈁,1F201,,Japanese “here” button,symbols,,emoji alphanum japanese japanese “here” button katakana “here” ココ grey
 🈂️,1F202,,Japanese “service charge” button,symbols,,emoji alphanum japanese japanese “service charge” button katakana “service charge” サ blue
-🈷️,1F237,,Japanese “monthly amount” button,symbols,,emoji alphanum ideograph japanese japanese “monthly amount” button “monthly amount” 月 yellow
-🈶,1F236,,Japanese “not free of charge” button,symbols,,emoji alphanum ideograph japanese japanese “not free of charge” button “not free of charge” 有 yellow
+🈷️,1F237,,Japanese “monthly amount” button,symbols,,emoji alphanum ideograph japanese japanese “monthly amount” button “monthly amount” 月 orange
+🈶,1F236,,Japanese “not free of charge” button,symbols,,emoji alphanum ideograph japanese japanese “not free of charge” button “not free of charge” 有 orange
 🈯️,1F22F,,Japanese “reserved” button,symbols,,emoji alphanum ideograph japanese japanese “reserved” button “reserved” 指 green
 🉐,1F250,,Japanese “bargain” button,symbols,,emoji alphanum ideograph japanese japanese “bargain” button “bargain” 得 red
 🈹,1F239,,Japanese “discount” button,symbols,,emoji alphanum ideograph japanese japanese “discount” button “discount” 割 red
-🈚️,1F21A,,Japanese “free of charge” button,symbols,,emoji alphanum ideograph japanese japanese “free of charge” button “free of charge” 無 yellow
+🈚️,1F21A,,Japanese “free of charge” button,symbols,,emoji alphanum ideograph japanese japanese “free of charge” button “free of charge” 無 orange
 🈲,1F232,,Japanese “prohibited” button,symbols,,emoji alphanum ideograph japanese japanese “prohibited” button “prohibited” 禁 red
-🉑,1F251,,Japanese “acceptable” button,symbols,,emoji alphanum ideograph japanese japanese “acceptable” button “acceptable” 可 yellow
-🈸,1F238,,Japanese “application” button,symbols,,emoji alphanum ideograph japanese japanese “application” button “application” 申 yellow
+🉑,1F251,,Japanese “acceptable” button,symbols,,emoji alphanum ideograph japanese japanese “acceptable” button “acceptable” 可 orange
+🈸,1F238,,Japanese “application” button,symbols,,emoji alphanum ideograph japanese japanese “application” button “application” 申 orange
 🈴,1F234,,Japanese “passing grade” button,symbols,,emoji alphanum ideograph japanese japanese “passing grade” button “passing grade” 合 red
 🈳,1F233,,Japanese “vacancy” button,symbols,,emoji alphanum ideograph japanese japanese “vacancy” button “vacancy” 空 blue
 ㊗️,3297,,Japanese “congratulations” button,symbols,,emoji alphanum ideograph japanese japanese “congratulations” button “congratulations” 祝 red
 ㊙️,3299,,Japanese “secret” button,symbols,,emoji alphanum ideograph japanese japanese “secret” button “secret” 秘 red
-🈺,1F23A,,Japanese “open for business” button,symbols,,emoji alphanum ideograph japanese japanese “open for business” button “open for business” 営 yellow
+🈺,1F23A,,Japanese “open for business” button,symbols,,emoji alphanum ideograph japanese japanese “open for business” button “open for business” 営 orange
 🈵,1F235,,Japanese “no vacancy” button,symbols,,emoji alphanum ideograph japanese japanese “no vacancy” button “no vacancy” 満 red
 🔴,1F534,,red circle,symbols,,emoji geometric circle geometric red
 🟠,1F7E0,,orange circle,symbols,,emoji geometric circle orange
@@ -34042,7 +34042,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 🎌,1F38C,,crossed flags,flags,,emoji flag celebration cross crossed japanese red white
 🏴,1F3F4,,black flag,flags,,emoji flag waving
 🏳️,1F3F3,,white flag,flags,,emoji flag waving
-🏳️‍🌈,1F3F3 FE0F 200D 1F308,,rainbow flag,flags,,emoji flag pride rainbow
+🏳️‍🌈,1F3F3 FE0F 200D 1F308,,rainbow flag,flags,,emoji flag pride rainbow red orange yellow green blue purple
 🏴‍☠️,1F3F4 200D 2620 FE0F,,pirate flag,flags,,emoji flag jolly roger pirate plunder treasure
 🇦🇨,1F1E6 1F1E8,,flag: Ascension Island,flags,,emoji country-flag AC flag
 🇦🇩,1F1E6 1F1E9,,flag: Andorra,flags,,emoji country-flag AD flag
