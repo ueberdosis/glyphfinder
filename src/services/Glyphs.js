@@ -15,11 +15,11 @@ import data from '../data/data.json'
         ***REMOVED***,
           words: {
             tokenize: 'forward',
+            // tokenize: this.tokenize,
         ***REMOVED***,
       ***REMOVED***,
     ***REMOVED***,
       split: ' ',
-      tokenize: this.tokenize,
 ***REMOVED***
 
     const formattedData = data.map(item => {
