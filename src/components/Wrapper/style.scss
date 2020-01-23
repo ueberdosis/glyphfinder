@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   height: 100vh;
-  padding: 48px 16px 16px 16px;
+  padding: 40px 14px 14px 14px;
 
   &::before {
     content: '';
@@ -33,6 +33,7 @@
     background-color: rgba($colorWhite, 0.05);
     border-radius: 4px;
     margin-bottom: 12px;
+    font-weight: 600;
     font-variant-ligatures: none;
 ***REMOVED***
 }

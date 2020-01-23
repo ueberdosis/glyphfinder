@@ -1,10 +1,11 @@
 <template>
   <div class="glyph-data">
-    {{ glyph.name }}
-    <br>
-    <template v-if="showShortcut">
+    <div class="glyph-data__name">
+      {{ glyph.name }}
+    </div>
+    <div v-if="showShortcut">
       Shortcut: {{ shortcut }}
-    </template>
+    </div>
   </div>
 </template>
 

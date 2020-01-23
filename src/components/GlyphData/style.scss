@@ -4,4 +4,10 @@
   border-radius: 4px;
   padding: 6px;
   font-weight: bold;
+
+  &__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+***REMOVED***
 }

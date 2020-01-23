@@ -6,6 +6,7 @@
           class="wrapper__search"
           ref="search"
           type="text"
+          placeholder="Search …"
           autofocus
           v-model="query"
           @blur="onBlurInput"
