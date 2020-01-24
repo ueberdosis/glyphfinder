@@ -4,13 +4,14 @@
     :class="{
       'is-active': isSelected,
       'is-emoji': isEmoji,
+      'is-space': isSpace,
   ***REMOVED***"
     type="button"
     @click="handleClick"
     @dblclick="copyToClipboard"
     :title="glyph.name"
   >
-    {{ glyph.symbol }}
+    <span class="glyph-item__symbol">{{ glyph.symbol }}</span>
   </button>
 </template>
 
@@ -36,6 +37,12 @@ export default {
 
     isEmoji() {
 ***REMOVED*** this.glyph.tags.includes('emoji')
+  ***REMOVED***,
+
+    isSpace() {
+***REMOVED*** !/[^\s]/.test(this.glyph.symbol)
+        && this.glyph.code !== 5760
+        && this.glyph.code !== '5760'
   ***REMOVED***,
 ***REMOVED***,
 
