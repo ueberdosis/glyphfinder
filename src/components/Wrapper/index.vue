@@ -15,7 +15,11 @@
       <div class="wrapper__content">
         <glyph-list :glyphs="glyphs" />
       </div>
-      <glyph-data :glyph="selectedGlyph" v-if="selectedGlyph" />
+      <glyph-data
+        class="wrapper__overlay"
+        :glyph="selectedGlyph"
+        v-if="selectedGlyph"
+      />
     </div>
   </navigatable>
 </template>

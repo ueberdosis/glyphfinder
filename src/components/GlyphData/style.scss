@@ -1,13 +1,17 @@
 .glyph-data {
-  background-color: $colorRed;
-  color: $colorBlack;
-  border-radius: 4px;
-  padding: 6px;
+  height: 96px;
+  background-color: rgba(#202020, 0.6);
+  backdrop-filter: blur(15px);
+  color: $colorWhite;
+  border-radius: 6px;
+  padding: 16px;
   font-weight: bold;
 
   &__name {
+    color: $colorRed;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.1;
 ***REMOVED***
 }

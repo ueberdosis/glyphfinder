@@ -25,7 +25,7 @@ function createWindow() {
     height: 580,
     resizable: false,
     fullscreen: false,
-    titleBarStyle: 'hiddenInset',
+    titleBarStyle: 'hidden',
     transparent: true,
     backgroundColor: '#000',
     webPreferences: {

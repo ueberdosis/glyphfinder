@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   height: 100vh;
-  padding: 40px 14px 14px 14px;
+  padding: 40px 16px 0 16px;
 
   &::before {
     content: '';
@@ -33,7 +33,18 @@
     background-color: rgba($colorWhite, 0.05);
     border-radius: 4px;
     margin-bottom: 12px;
-    font-weight: 600;
+    font-weight: 500;
     font-variant-ligatures: none;
+
+    &::placeholder {
+      color: rgba($colorWhite, 0.2);
+  ***REMOVED***
+***REMOVED***
+
+  &__overlay {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    width: calc(100% - 16px);
 ***REMOVED***
 }

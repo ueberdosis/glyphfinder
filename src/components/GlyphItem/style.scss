@@ -4,9 +4,11 @@
   height: 60px;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 4px;
   font-size: 24px;
   font-weight: 600;
+  background-color: rgba($colorWhite, 0.05);
+  margin: 2px;
 
   &.is-emoji {
     font-family:

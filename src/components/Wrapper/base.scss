@@ -42,6 +42,12 @@
   background-color: transparent;
 }
 
+// bottom offset
+::-webkit-scrollbar-button:vertical:end {
+  display: block;
+  height: 45px;
+}
+
 body {
   font-family:
     'Inter',
