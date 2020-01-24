@@ -23,9 +23,7 @@
           <div class="glyph-data__label">
             Shortcut
           </div>
-          <template v-if="showShortcut">
-            {{ shortcut }}
-          </template>
+          <keys :keys="shortcut" v-if="showShortcut" />
           <template v-else>
             –
           </template>
@@ -36,7 +34,11 @@
             Entities
           </div>
           <template v-if="entities.length">
-            {{ entities }}
+            <entity
+              v-for="entity in entities"
+              :key="entity"
+              :name="entity"
+            />
           </template>
           <template v-else>
             –
@@ -50,12 +52,16 @@
 <script>
 import Icon from '@/components/Icon'
 import SlideUpDown from '@/components/SlideUpDown'
+import Entity from '@/components/Entity'
+import Keys from '@/components/Keys'
 import Shortcut from '@/services/Shortcut'
 
 export default {
   components: {
     Icon,
     SlideUpDown,
+    Entity,
+    Keys,
 ***REMOVED***,
 
   props: {
