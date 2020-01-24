@@ -2,6 +2,7 @@
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
+  overscroll-behavior: contain;
   margin: -2px;
 
   &::-webkit-scrollbar-button:vertical:end {

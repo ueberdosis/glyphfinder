@@ -15,7 +15,7 @@ export default {
       startRow: 0,
       showRows,
       itemsPerRow: 5,
-      rowHeight: 60,
+      rowHeight: 62,
       firstFullyVisibleRow: 0,
       lastFullyVisibleRow: showRows - 1,
   ***REMOVED***
