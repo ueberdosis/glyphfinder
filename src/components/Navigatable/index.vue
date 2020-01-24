@@ -8,16 +8,18 @@ export default {
 ***REMOVED***,
 
   data() {
-    const showRows = 7
-
     return {
       selectedIndex: 0,
       startRow: 0,
-      showRows,
+      showRows: 8,
       itemsPerRow: 5,
       rowHeight: 62,
       firstFullyVisibleRow: 0,
-      lastFullyVisibleRow: showRows - 1,
+      lastFullyVisibleRow: 0,
+      isExpanded: false,
+      scrollPosition: {
+        offset: 0,
+    ***REMOVED***,
   ***REMOVED***
 ***REMOVED***,
 
@@ -33,12 +35,17 @@ export default {
     selectedRow() {
 ***REMOVED*** Math.floor(this.selectedIndex / this.itemsPerRow)
   ***REMOVED***,
+
+    visibleRows() {
+***REMOVED*** this.showRows - (this.isExpanded ? 2 : 1)
+  ***REMOVED***,
 ***REMOVED***,
 
   provide() {
     const navigatable = {
       selectGlyph: this.selectGlyph,
       handleScroll: this.handleScroll,
+      toggleExpand: this.toggleExpand,
   ***REMOVED***
 
     Object.defineProperty(navigatable, 'selectedGlyph', {
@@ -66,6 +73,11 @@ export default {
       get: () => this.rowHeight,
 ***REMOVED***
 
+    Object.defineProperty(navigatable, 'isExpanded', {
+      enumerable: true,
+      get: () => this.isExpanded,
+***REMOVED***
+
     return { navigatable }
 ***REMOVED***,
 
@@ -80,20 +92,30 @@ export default {
 ***REMOVED***,
 
   methods: {
-    handleScroll(data) {
-      this.firstFullyVisibleRow = Math.ceil(data.offset / this.rowHeight)
+    toggleExpand() {
+      this.isExpanded = !this.isExpanded
+      this.updateVisibleRows()
+  ***REMOVED***,
 
-      const firstVisibleRow = Math.floor(data.offset / this.rowHeight)
-      const scrolledOverFirstRow = data.offset - firstVisibleRow * this.rowHeight
+    handleScroll(scrollPosition) {
+      this.scrollPosition = scrollPosition
+      this.updateVisibleRows()
+  ***REMOVED***,
+
+    updateVisibleRows() {
+      this.firstFullyVisibleRow = Math.ceil(this.scrollPosition.offset / this.rowHeight)
+
+      const firstVisibleRow = Math.floor(this.scrollPosition.offset / this.rowHeight)
+      const scrolledOverFirstRow = this.scrollPosition.offset - firstVisibleRow * this.rowHeight
 
       this.lastFullyVisibleRow = this.firstFullyVisibleRow
-        + this.showRows
+        + this.visibleRows
         - (scrolledOverFirstRow > 0 ? 2 : 1)
   ***REMOVED***,
 
     maybeUpdateStartRow() {
       if (this.selectedRow < this.firstFullyVisibleRow) {
-        this.startRow = Math.max(this.startRow - this.showRows, 0)
+        this.startRow = Math.max(this.startRow - this.visibleRows, 0)
     ***REMOVED***
 
       if (this.selectedRow > this.lastFullyVisibleRow) {
@@ -136,6 +158,7 @@ export default {
 ***REMOVED***,
 
   mounted() {
+    this.updateVisibleRows()
     document.addEventListener('keydown', this.handleKeyDown)
 ***REMOVED***,
 

@@ -7,17 +7,17 @@
       <button
         class="glyph-data__toggle"
         type="button"
-        @click="isActive = !isActive"
+        @click="navigatable.toggleExpand"
       >
         <icon
           class="glyph-data__icon"
-          :class="{ 'is-active': isActive }"
+          :class="{ 'is-active': navigatable.isExpanded }"
           name="arrow-down"
         />
       </button>
     </div>
 
-    <slide-up-down :active="isActive">
+    <slide-up-down :active="navigatable.isExpanded">
       <div class="glyph-data__content">
         <div class="glyph-data__item">
           <div class="glyph-data__label">
@@ -57,6 +57,8 @@ import Keys from '@/components/Keys'
 import Shortcut from '@/services/Shortcut'
 
 export default {
+  inject: ['navigatable'],
+
   components: {
     Icon,
     SlideUpDown,
@@ -69,12 +71,6 @@ export default {
       required: true,
       type: Object,
   ***REMOVED***,
-***REMOVED***,
-
-  data() {
-    return {
-      isActive: false,
-  ***REMOVED***
 ***REMOVED***,
 
   computed: {
