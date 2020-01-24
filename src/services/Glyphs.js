@@ -11,11 +11,12 @@ import data from '../data/data.json'
         id: 'symbol',
         field: {
           signs: {
-            tokenize: str => str.split(' '),
+            // tokenize: str => str.split(' '),
+            tokenize: this.tokenize,
         ***REMOVED***,
           words: {
-            tokenize: 'forward',
-            // tokenize: this.tokenize,
+            // tokenize: 'forward',
+            tokenize: this.tokenize,
         ***REMOVED***,
       ***REMOVED***,
     ***REMOVED***,
@@ -49,31 +50,35 @@ import data from '../data/data.json'
     this.index.add(formattedData)
 ***REMOVED***
 
-  // tokenize(value) {
-  //   const words = value.match(/\S+/g) || []
+  tokenize(value) {
+    const words = value.match(/\S+/g) || []
 
-  //   return words
-  //     .map(word => {
-  //       const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(word)
+    return words
+      .map(word => {
+        const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(word)
 
-  //       if (isWordWithHyphens) {
-  //   ***REMOVED*** word.split('-')
-  //     ***REMOVED***
+        if (isWordWithHyphens) {
+    ***REMOVED*** word.split('-')
+      ***REMOVED***
 
-  // ***REMOVED*** word
-  // ***REMOVED***
-  //     .flat()
-  //     .map(word => {
-  //       const tokens = []
+  ***REMOVED*** word
+  ***REMOVED***
+      .flat()
+      .map(word => {
+        if (word.length === 1) {
+    ***REMOVED*** [word]
+      ***REMOVED***
 
-  //       for (let i = 0; i < word.length; i += 1) {
-  //         tokens.push(word.slice(0, i + 1))
-  //     ***REMOVED***
+        const tokens = []
 
-  // ***REMOVED*** tokens
-  // ***REMOVED***
-  //     .flat()
-  // }
+        for (let i = 0; i < word.length; i += 1) {
+          tokens.push(word.slice(0, i + 1))
+      ***REMOVED***
+
+  ***REMOVED*** tokens.filter(token => token.length > 1)
+  ***REMOVED***
+      .flat()
+***REMOVED***
 
   search(query = null) {
     const filteredQuery = query ? query.toLowerCase().trim() : ''
