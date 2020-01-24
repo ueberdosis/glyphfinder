@@ -1,5 +1,5 @@
 .glyph-data {
-  height: 96px;
+  // height: 96px;
   background-color: rgba(rgb(40, 40, 40), 0.6);
   backdrop-filter: blur(15px);
   color: $colorWhite;
@@ -11,11 +11,54 @@
     0px 0px 8px 1px rgba($colorBlack, 0.4),
   ;
 
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+***REMOVED***
+
   &__name {
     color: $colorRed;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.1;
+    flex: 1 1 auto;
+***REMOVED***
+
+  &__toggle {
+    padding: 8px;
+    margin: -8px;
+    margin-left: 4px;
+    flex: 0 0 auto;
+    cursor: pointer;
+***REMOVED***
+
+  &__icon {
+    opacity: 0.4;
+    transform: rotate(180deg);
+
+    &.is-active {
+      transform: rotate(0deg);
+  ***REMOVED***
+***REMOVED***
+
+  &__label {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba($colorWhite, 0.4);
+***REMOVED***
+
+  &__content {
+    padding-top: 8px;
+    display: flex;
+***REMOVED***
+
+  &__item {
+    margin-left: 12px;
+
+    &:first-child {
+      margin-left: 0;
+  ***REMOVED***
 ***REMOVED***
 }
