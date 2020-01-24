@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   height: 100vh;
-  padding: 40px 16px 0 16px;
+  padding: 30px 16px 0 16px;
 
   &::before {
     content: '';
@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 36px;
+    height: 30px;
     pointer-events: none;
     -webkit-app-region: drag;
 ***REMOVED***
@@ -22,8 +22,8 @@
 
   &__content {
     flex: 1 1 auto;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
+    margin-right: -14px;
 ***REMOVED***
 
   &__search {

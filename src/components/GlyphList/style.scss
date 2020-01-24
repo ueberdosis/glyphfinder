@@ -1,0 +1,11 @@
+.glyph-list {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: -2px;
+
+  &::-webkit-scrollbar-button:vertical:end {
+    display: block;
+    height: 54px;
+***REMOVED***
+}

@@ -1,6 +1,7 @@
 <template>
   <div class="glyph-list">
     <virtual-list
+      :scrollelement="scrollelement"
       :start="navigatable.startRow"
       :size="navigatable.rowHeight"
       :remain="navigatable.showRows"
@@ -34,6 +35,7 @@ export default {
   data() {
     return {
       rowComponent: GlyphRow,
+      scrollelement: null,
   ***REMOVED***
 ***REMOVED***,
 
@@ -62,5 +64,11 @@ export default {
       this.navigatable.handleScroll(data)
   ***REMOVED***,
 ***REMOVED***,
+
+  mounted() {
+    this.scrollelement = this.$el
+***REMOVED***,
 }
 </script>
+
+<style lang="scss" src="./style.scss" scoped></style>

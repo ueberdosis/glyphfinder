@@ -8,7 +8,7 @@ export default {
 ***REMOVED***,
 
   data() {
-    const showRows = 8
+    const showRows = 7
 
     return {
       selectedIndex: 0,
