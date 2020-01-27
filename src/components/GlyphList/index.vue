@@ -46,26 +46,33 @@ export default {
   ***REMOVED***,
 
     rows() {
-      const glyphRows = collect(this.glyphs)
-        .chunk(this.navigatable.itemsPerRow)
-        .map(glyphs => ({
-          glyphs: glyphs.toArray(),
-    ***REMOVED***)
-        .toArray()
+      const allGlyphRows = this.chunkGlyphs(this.glyphs)
+      const frequentlyUsedGlyphRows = this.chunkGlyphs([])
 
 ***REMOVED*** [
         {
           title: 'Frequently used',
       ***REMOVED***,
+        ...frequentlyUsedGlyphRows,
         {
           title: 'Glyphs',
       ***REMOVED***,
-        ...glyphRows,
+        ...allGlyphRows,
       ]
   ***REMOVED***,
 ***REMOVED***,
 
   methods: {
+    chunkGlyphs(glyphs) {
+***REMOVED*** collect(glyphs)
+        .chunk(this.navigatable.itemsPerRow)
+        .filter(items => items.toArray().length)
+        .map(items => ({
+          glyphs: items.toArray(),
+    ***REMOVED***)
+        .toArray()
+  ***REMOVED***,
+
     getVariableHeight(index) {
 ***REMOVED*** this.rows[index].title
         ? this.navigatable.titleRowHeight
@@ -74,10 +81,7 @@ export default {
 
     getItemProps(index) {
 ***REMOVED*** {
-        props: {
-          title: this.rows[index].title,
-          glyphs: this.rows[index].glyphs,
-      ***REMOVED***,
+        props: this.rows[index],
     ***REMOVED***
   ***REMOVED***,
 
