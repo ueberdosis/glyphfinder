@@ -1,4 +1,6 @@
 <script>
+import Store from '@/services/Store'
+
 export default {
   props: {
     glyphs: {
@@ -16,7 +18,7 @@ export default {
       rowHeight: 62,
       firstFullyVisibleRow: 0,
       lastFullyVisibleRow: 0,
-      isExpanded: false,
+      isExpanded: Store.get('expanded', false),
       scrollPosition: {
         offset: 0,
     ***REMOVED***,
@@ -94,6 +96,7 @@ export default {
   methods: {
     toggleExpand() {
       this.isExpanded = !this.isExpanded
+      Store.set('expanded', this.isExpanded)
       this.updateVisibleRows()
   ***REMOVED***,
 
