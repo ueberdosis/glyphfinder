@@ -62,7 +62,15 @@ export default {
   ***REMOVED***,
 
     handleKeyDown(event) {
-      if (this.isSelected && event.key === 'Enter') {
+      if (!this.isSelected) {
+  ***REMOVED***
+    ***REMOVED***
+
+      if (
+        event.key === 'Enter'
+        || (this.isMac && event.key === 'c' && event.metaKey)
+        || (this.isWindows && event.key === 'c' && event.ctrlKey)
+      ) {
         this.copyToClipboard()
     ***REMOVED***
   ***REMOVED***,
