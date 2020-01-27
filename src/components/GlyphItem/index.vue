@@ -16,7 +16,9 @@
 </template>
 
 <script>
+import collect from 'collect.js'
 import copy from 'copy-to-clipboard'
+import Store from '@/services/Store'
 
 export default {
   inject: ['navigatable'],
@@ -49,12 +51,31 @@ export default {
   methods: {
     copyToClipboard() {
       const copied = copy(this.glyph.symbol)
+      this.increaseUsage()
 
       if (copied) {
         console.log('copied', this.glyph)
     ***REMOVED*** else {
         console.log('copy failed')
     ***REMOVED***
+  ***REMOVED***,
+
+    increaseUsage() {
+      const usage = Store.get('usage', [])
+      const usageItem = usage.find(item => item.symbol === this.glyph.symbol) || {
+        symbol: this.glyph.symbol,
+        count: 0,
+    ***REMOVED***
+      const newUsageItem = {
+        ...usageItem,
+        count: usageItem.count + 1,
+    ***REMOVED***
+      const newUsage = collect(usage)
+        .filter(item => item.symbol !== this.glyph.symbol)
+        .push(newUsageItem)
+        .toArray()
+
+      Store.set('usage', newUsage)
   ***REMOVED***,
 
     handleClick() {
