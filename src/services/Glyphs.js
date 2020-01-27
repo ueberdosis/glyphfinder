@@ -12,11 +12,11 @@ import data from '../data/data.json'
         field: {
           signs: {
             // tokenize: str => str.split(' '),
-            tokenize: this.tokenize,
+            tokenize: this.tokenize.bind(this),
         ***REMOVED***,
           words: {
             // tokenize: 'forward',
-            tokenize: this.tokenize,
+            tokenize: this.tokenize.bind(this),
         ***REMOVED***,
       ***REMOVED***,
     ***REMOVED***,
@@ -25,11 +25,7 @@ import data from '../data/data.json'
 
     const formattedData = data.map(item => {
       const [words, signs] = collect(item.tags.match(/\S+/g) || [])
-        .partition(str => {
-          const isWord = /^[a-zA-Z]+$/.test(str)
-          const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(str)
-    ***REMOVED*** isWord || isWordWithHyphens
-    ***REMOVED***
+        .partition(str => this.isWord(str) || this.isWordWithHyphens(str))
         .toArray()
 
 ***REMOVED*** {
@@ -50,14 +46,20 @@ import data from '../data/data.json'
     this.index.add(formattedData)
 ***REMOVED***
 
+  isWord(value) {
+    return /^[a-zA-Z0-9]+$/.test(value)
+***REMOVED***
+
+  isWordWithHyphens(value) {
+    return /^((?:\w+-)+\w+)$/.test(value)
+***REMOVED***
+
   tokenize(value) {
     const words = value.match(/\S+/g) || []
 
     return words
       .map(word => {
-        const isWordWithHyphens = /^((?:\w+-)+\w+)$/.test(word)
-
-        if (isWordWithHyphens) {
+        if (this.isWordWithHyphens(word)) {
     ***REMOVED*** word.split('-')
       ***REMOVED***
 
@@ -75,7 +77,14 @@ import data from '../data/data.json'
           tokens.push(word.slice(0, i + 1))
       ***REMOVED***
 
-  ***REMOVED*** tokens.filter(token => token.length > 1)
+  ***REMOVED*** tokens
+          .filter(token => {
+            if (this.isWord(token)) {
+        ***REMOVED*** token.length > 1
+          ***REMOVED***
+
+      ***REMOVED*** true
+      ***REMOVED***
   ***REMOVED***
       .flat()
 ***REMOVED***
