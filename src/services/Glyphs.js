@@ -11,16 +11,13 @@ import data from '../data/data.json'
         id: 'symbol',
         field: {
           signs: {
-            // tokenize: str => str.split(' '),
             tokenize: this.tokenize.bind(this),
         ***REMOVED***,
           words: {
-            // tokenize: 'forward',
             tokenize: this.tokenize.bind(this),
         ***REMOVED***,
       ***REMOVED***,
     ***REMOVED***,
-      split: ' ',
 ***REMOVED***
 
     const formattedData = data.map(item => {
@@ -100,15 +97,6 @@ import data from '../data/data.json'
       query: filteredQuery,
       limit: 100000,
 ***REMOVED***
-    // return this.index.search([{
-    //   field: 'signs',
-    //   query: filteredQuery,
-    //   bool: 'and',
-    // }, {
-    //   field: 'words',
-    //   query: filteredQuery,
-    //   bool: 'or',
-    // }])
 ***REMOVED***
 
 ***REMOVED***
