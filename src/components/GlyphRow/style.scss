@@ -1,3 +1,11 @@
 .glyph-row {
   display: flex;
+  align-items: center;
+
+  &__title {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba($colorWhite, 0.4);
+    padding-left: 2px;
+***REMOVED***
 }

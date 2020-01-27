@@ -1,9 +1,13 @@
 <template>
-  <div class="glyph-row">
+  <div class="glyph-row" :style="`height:${height}px`">
+    <div class="glyph-row__title" v-if="title">
+      {{ title }}
+    </div>
     <glyph-item
       v-for="glyph in glyphs"
       :key="glyph.symbol"
       :glyph="glyph"
+      v-else
     />
   </div>
 </template>
@@ -12,6 +16,8 @@
 import GlyphItem from '@/components/GlyphItem'
 
 export default {
+  inject: ['navigatable'],
+
   components: {
     GlyphItem,
 ***REMOVED***,
@@ -20,6 +26,19 @@ export default {
     glyphs: {
       type: Array,
       default: () => ([]),
+  ***REMOVED***,
+
+    title: {
+      type: String,
+      default: null,
+  ***REMOVED***,
+***REMOVED***,
+
+  computed: {
+    height() {
+***REMOVED*** this.title
+        ? this.navigatable.titleRowHeight
+        : this.navigatable.rowHeight
   ***REMOVED***,
 ***REMOVED***,
 }
