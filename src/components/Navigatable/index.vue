@@ -79,39 +79,35 @@ export default {
       toggleExpand: this.toggleExpand,
   ***REMOVED***
 
-    Object.defineProperty(navigatable, 'selectedGlyph', {
-      enumerable: true,
-      get: () => this.selectedGlyph,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'startRow', {
-      enumerable: true,
-      get: () => this.startRow,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'showRows', {
-      enumerable: true,
-      get: () => this.showRows,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'itemsPerRow', {
-      enumerable: true,
-      get: () => this.itemsPerRow,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'glyphRowHeight', {
-      enumerable: true,
-      get: () => this.glyphRowHeight,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'titleRowHeight', {
-      enumerable: true,
-      get: () => this.titleRowHeight,
-***REMOVED***
-
-    Object.defineProperty(navigatable, 'isExpanded', {
-      enumerable: true,
-      get: () => this.isExpanded,
+    Object.defineProperties(navigatable, {
+      selectedGlyph: {
+        enumerable: true,
+        get: () => this.selectedGlyph,
+    ***REMOVED***,
+      startRow: {
+        enumerable: true,
+        get: () => this.startRow,
+    ***REMOVED***,
+      showRows: {
+        enumerable: true,
+        get: () => this.showRows,
+    ***REMOVED***,
+      itemsPerRow: {
+        enumerable: true,
+        get: () => this.itemsPerRow,
+    ***REMOVED***,
+      glyphRowHeight: {
+        enumerable: true,
+        get: () => this.glyphRowHeight,
+    ***REMOVED***,
+      titleRowHeight: {
+        enumerable: true,
+        get: () => this.titleRowHeight,
+    ***REMOVED***,
+      isExpanded: {
+        enumerable: true,
+        get: () => this.isExpanded,
+    ***REMOVED***,
 ***REMOVED***
 
     return { navigatable }
