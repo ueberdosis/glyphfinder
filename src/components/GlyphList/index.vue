@@ -69,6 +69,7 @@ export default {
 
   mounted() {
     this.scrollelement = this.$el
+    this.navigatable.setElement(this.$el)
 ***REMOVED***,
 }
 </script>

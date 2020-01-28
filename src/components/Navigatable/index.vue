@@ -21,6 +21,7 @@ export default {
         x: 0,
         y: 0,
     ***REMOVED***,
+      element: null,
       startRow: 0,
       showRows: 8,
       itemsPerRow: 5,
@@ -124,9 +125,7 @@ export default {
       let offset = 0
 
       this.rows.forEach((row, index) => {
-        const size = row.title
-          ? this.glyphRowWithTitleHeight
-          : this.glyphRowHeight
+        const size = row.height
 
         offsets.push({
           index,
@@ -163,18 +162,16 @@ export default {
       ***REMOVED***
 
         this.updateVisibleRows()
-        this.maybeUpdateStartRow()
+        this.maybeUpdateScrollPosition()
     ***REMOVED***,
   ***REMOVED***,
-    // startRow: {
-    //   immediate: true,
-    //   handler(newV, oldV) {
-    //     console.log('startRow', oldV, newV)
-    // ***REMOVED***,
-    // },
 ***REMOVED***,
 
   methods: {
+    setElement(element) {
+      this.element = element
+  ***REMOVED***,
+
     chunkGlyphs(glyphs) {
 ***REMOVED*** collect(glyphs)
         .chunk(this.itemsPerRow)
@@ -216,14 +213,11 @@ export default {
     ***REMOVED***
   ***REMOVED***,
 
-    maybeUpdateStartRow() {
+    maybeUpdateScrollPosition() {
       const { y } = this.selection
 
       if (y < this.firstFullyVisibleRowIndex || y > this.lastFullyVisibleRowIndex) {
-        this.startRow = Math.max(y - 1, 0)
-        this.$nextTick(() => {
-          this.startRow = y
-    ***REMOVED***
+        this.element.scrollTop = this.offsets[y].offset
     ***REMOVED***
   ***REMOVED***,
 
@@ -312,7 +306,7 @@ export default {
       ***REMOVED***
     ***REMOVED***
 
-      this.maybeUpdateStartRow()
+      this.maybeUpdateScrollPosition()
   ***REMOVED***,
 ***REMOVED***,
 
@@ -327,6 +321,7 @@ export default {
 
   provide() {
     const navigatable = {
+      setElement: this.setElement,
       setSelection: this.setSelection,
       handleScroll: this.handleScroll,
       toggleExpand: this.toggleExpand,
