@@ -33,7 +33,7 @@ export default {
   computed: {
     isSelected() {
 ***REMOVED*** this.navigatable.selectedGlyph
-        ? this.navigatable.selectedGlyph.symbol === this.glyph.symbol
+        ? this.navigatable.selectedGlyph.id === this.glyph.id
         : false
   ***REMOVED***,
 

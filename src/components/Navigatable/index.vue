@@ -29,10 +29,21 @@ export default {
 ***REMOVED***,
 
   computed: {
+    formattedGlyphs() {
+***REMOVED*** this.glyphs.map(glyph => ({
+        ...glyph,
+        id: glyph.symbol,
+  ***REMOVED***)
+  ***REMOVED***,
+
     frequentlyUsedGlyphs() {
 ***REMOVED*** collect(this.usage)
         .sortByDesc('count')
-        .map(item => this.glyphs.find(glyph => glyph.symbol === item.symbol))
+        .map(item => this.formattedGlyphs.find(glyph => glyph.symbol === item.symbol))
+        .map(glyph => ({
+          ...glyph,
+          id: `frequently_used_${glyph.symbol}`,
+    ***REMOVED***)
         .take(10)
         .toArray()
   ***REMOVED***,
@@ -42,7 +53,7 @@ export default {
   ***REMOVED***,
 
     glyphRows() {
-***REMOVED*** this.chunkGlyphs(this.glyphs)
+***REMOVED*** this.chunkGlyphs(this.formattedGlyphs)
   ***REMOVED***,
 
     frequentlyUsedGlyphRows() {
@@ -65,11 +76,11 @@ export default {
   ***REMOVED***,
 
     selectedGlyph() {
-      if ((this.glyphs.length - 1) < this.selectedIndex) {
+      if ((this.formattedGlyphs.length - 1) < this.selectedIndex) {
   ***REMOVED*** null
     ***REMOVED***
 
-***REMOVED*** this.glyphs[this.selectedIndex]
+***REMOVED*** this.formattedGlyphs[this.selectedIndex]
   ***REMOVED***,
 
     selectedRow() {
@@ -137,7 +148,7 @@ export default {
   ***REMOVED***,
 
     selectGlyph(glyph) {
-      this.selectedIndex = this.glyphs.findIndex(item => item.symbol === glyph.symbol)
+      this.selectedIndex = this.formattedGlyphs.findIndex(item => item.id === glyph.id)
   ***REMOVED***,
 
     handleKeyDown(event) {
@@ -160,7 +171,7 @@ export default {
 
     changeIndex(change = 0) {
       const min = 0
-      const max = this.glyphs.length - 1
+      const max = this.formattedGlyphs.length - 1
       const newIndex = Math.min(Math.max(parseInt(this.selectedIndex + change, 10), min), max)
 
       this.selectedIndex = newIndex
