@@ -37,21 +37,30 @@ export default {
         .toArray()
   ***REMOVED***,
 
-    rows() {
-      const allGlyphRows = this.chunkGlyphs(this.glyphs)
-      const frequentlyUsedGlyphRows = this.chunkGlyphs(this.frequentlyUsedGlyphs)
+    hasFrequentlyUsedGlyphs() {
+***REMOVED*** this.frequentlyUsedGlyphs.length
+  ***REMOVED***,
 
+    glyphRows() {
+***REMOVED*** this.chunkGlyphs(this.glyphs)
+  ***REMOVED***,
+
+    frequentlyUsedGlyphRows() {
+***REMOVED*** this.chunkGlyphs(this.frequentlyUsedGlyphs)
+  ***REMOVED***,
+
+    rows() {
 ***REMOVED*** [
-        ...(this.frequentlyUsedGlyphs.length ? [
+        ...(this.hasFrequentlyUsedGlyphs ? [
           {
             title: 'Frequently used',
         ***REMOVED***,
-          ...frequentlyUsedGlyphRows,
+          ...this.frequentlyUsedGlyphRows,
           {
             title: 'Glyphs',
         ***REMOVED***,
         ] : []),
-        ...allGlyphRows,
+        ...this.glyphRows,
       ]
   ***REMOVED***,
 
@@ -70,47 +79,6 @@ export default {
     visibleRows() {
 ***REMOVED*** this.showRows - (this.isExpanded ? 2 : 1)
   ***REMOVED***,
-***REMOVED***,
-
-  provide() {
-    const navigatable = {
-      selectGlyph: this.selectGlyph,
-      handleScroll: this.handleScroll,
-      toggleExpand: this.toggleExpand,
-  ***REMOVED***
-
-    Object.defineProperties(navigatable, {
-      selectedGlyph: {
-        enumerable: true,
-        get: () => this.selectedGlyph,
-    ***REMOVED***,
-      startRow: {
-        enumerable: true,
-        get: () => this.startRow,
-    ***REMOVED***,
-      showRows: {
-        enumerable: true,
-        get: () => this.showRows,
-    ***REMOVED***,
-      itemsPerRow: {
-        enumerable: true,
-        get: () => this.itemsPerRow,
-    ***REMOVED***,
-      glyphRowHeight: {
-        enumerable: true,
-        get: () => this.glyphRowHeight,
-    ***REMOVED***,
-      titleRowHeight: {
-        enumerable: true,
-        get: () => this.titleRowHeight,
-    ***REMOVED***,
-      isExpanded: {
-        enumerable: true,
-        get: () => this.isExpanded,
-    ***REMOVED***,
-***REMOVED***
-
-    return { navigatable }
 ***REMOVED***,
 
   watch: {
@@ -169,9 +137,7 @@ export default {
   ***REMOVED***,
 
     selectGlyph(glyph) {
-      const index = this.glyphs.findIndex(item => item.symbol === glyph.symbol)
-
-      this.selectedIndex = index
+      this.selectedIndex = this.glyphs.findIndex(item => item.symbol === glyph.symbol)
   ***REMOVED***,
 
     handleKeyDown(event) {
@@ -182,9 +148,9 @@ export default {
     ***REMOVED***
 
       if (key === 'ArrowDown') {
-        this.changeIndex(5)
+        this.changeIndex(this.itemsPerRow)
     ***REMOVED*** else if (key === 'ArrowUp') {
-        this.changeIndex(-5)
+        this.changeIndex(-this.itemsPerRow)
     ***REMOVED*** else if (key === 'ArrowRight') {
         this.changeIndex(1)
     ***REMOVED*** else if (key === 'ArrowLeft') {
@@ -209,6 +175,47 @@ export default {
 
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeyDown)
+***REMOVED***,
+
+  provide() {
+    const navigatable = {
+      selectGlyph: this.selectGlyph,
+      handleScroll: this.handleScroll,
+      toggleExpand: this.toggleExpand,
+  ***REMOVED***
+
+    Object.defineProperties(navigatable, {
+      selectedGlyph: {
+        enumerable: true,
+        get: () => this.selectedGlyph,
+    ***REMOVED***,
+      startRow: {
+        enumerable: true,
+        get: () => this.startRow,
+    ***REMOVED***,
+      showRows: {
+        enumerable: true,
+        get: () => this.showRows,
+    ***REMOVED***,
+      itemsPerRow: {
+        enumerable: true,
+        get: () => this.itemsPerRow,
+    ***REMOVED***,
+      glyphRowHeight: {
+        enumerable: true,
+        get: () => this.glyphRowHeight,
+    ***REMOVED***,
+      titleRowHeight: {
+        enumerable: true,
+        get: () => this.titleRowHeight,
+    ***REMOVED***,
+      isExpanded: {
+        enumerable: true,
+        get: () => this.isExpanded,
+    ***REMOVED***,
+***REMOVED***
+
+    return { navigatable }
 ***REMOVED***,
 
   render() {
