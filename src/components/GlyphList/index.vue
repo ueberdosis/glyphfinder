@@ -54,7 +54,10 @@ export default {
 
     getItemProps(index) {
 ***REMOVED*** {
-        props: this.rows[index],
+        props: {
+          ...this.rows[index],
+          y: index,
+      ***REMOVED***,
     ***REMOVED***
   ***REMOVED***,
 

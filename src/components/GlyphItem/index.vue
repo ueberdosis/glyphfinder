@@ -28,6 +28,16 @@ export default {
       required: true,
       type: Object,
   ***REMOVED***,
+
+    x: {
+      type: Number,
+      default: 0,
+  ***REMOVED***,
+
+    y: {
+      type: Number,
+      default: 0,
+  ***REMOVED***,
 ***REMOVED***,
 
   computed: {
@@ -79,7 +89,7 @@ export default {
   ***REMOVED***,
 
     handleClick() {
-      this.navigatable.selectGlyph(this.glyph)
+      this.navigatable.setSelection(this.x, this.y)
   ***REMOVED***,
 
     handleKeyDown(event) {

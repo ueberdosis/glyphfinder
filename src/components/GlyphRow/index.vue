@@ -4,9 +4,11 @@
       {{ title }}
     </div>
     <glyph-item
-      v-for="glyph in glyphs"
+      v-for="(glyph, index) in glyphs"
       :key="glyph.symbol"
       :glyph="glyph"
+      :y="y"
+      :x="index"
     />
   </div>
 </template>
@@ -30,6 +32,11 @@ export default {
     title: {
       type: String,
       default: null,
+  ***REMOVED***,
+
+    y: {
+      type: Number,
+      default: 0,
   ***REMOVED***,
 ***REMOVED***,
 
