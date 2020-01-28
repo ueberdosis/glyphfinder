@@ -1,8 +1,12 @@
 .glyph-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
   &__title {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
     font-size: 12px;
     font-weight: 500;
     color: rgba($colorWhite, 0.4);

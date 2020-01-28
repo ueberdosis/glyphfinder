@@ -1,13 +1,12 @@
 <template>
   <div class="glyph-row" :style="`height:${height}px`">
-    <div class="glyph-row__title" v-if="title">
+    <div class="glyph-row__title" :style="`height:${titleHeight}px`" v-if="title">
       {{ title }}
     </div>
     <glyph-item
       v-for="glyph in glyphs"
       :key="glyph.symbol"
       :glyph="glyph"
-      v-else
     />
   </div>
 </template>
@@ -37,8 +36,12 @@ export default {
   computed: {
     height() {
 ***REMOVED*** this.title
-        ? this.navigatable.titleRowHeight
+        ? this.navigatable.glyphRowWithTitleHeight
         : this.navigatable.glyphRowHeight
+  ***REMOVED***,
+
+    titleHeight() {
+***REMOVED*** this.navigatable.glyphRowWithTitleHeight - this.navigatable.glyphRowHeight
   ***REMOVED***,
 ***REMOVED***,
 }
