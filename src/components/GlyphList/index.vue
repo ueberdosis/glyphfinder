@@ -3,7 +3,7 @@
     <virtual-list
       :scrollelement="scrollelement"
       :start="navigatable.startRow"
-      :size="navigatable.rowHeight"
+      :size="navigatable.glyphRowHeight"
       :variable="getVariableHeight"
       :remain="navigatable.showRows"
       :item="rowComponent"
@@ -15,10 +15,8 @@
 </template>
 
 <script>
-import collect from 'collect.js'
 import VirtualList from 'vue-virtual-scroll-list'
 import GlyphRow from '@/components/GlyphRow'
-import Store from '@/services/Store'
 
 export default {
   inject: ['navigatable'],
@@ -28,7 +26,7 @@ export default {
 ***REMOVED***,
 
   props: {
-    glyphs: {
+    rows: {
       type: Array,
       default: () => ([]),
   ***REMOVED***,
@@ -38,7 +36,6 @@ export default {
     return {
       rowComponent: GlyphRow,
       scrollelement: null,
-      usage: Store.get('usage', []),
   ***REMOVED***
 ***REMOVED***,
 
@@ -46,49 +43,13 @@ export default {
     rowsCount() {
 ***REMOVED*** this.rows.length
   ***REMOVED***,
-
-    frequentlyUsedGlyphs() {
-***REMOVED*** collect(this.usage)
-        .sortByDesc('count')
-        .map(item => this.glyphs.find(glyph => glyph.symbol === item.symbol))
-        .take(10)
-        .toArray()
-  ***REMOVED***,
-
-    rows() {
-      const allGlyphRows = this.chunkGlyphs(this.glyphs)
-      const frequentlyUsedGlyphRows = this.chunkGlyphs(this.frequentlyUsedGlyphs)
-
-***REMOVED*** [
-        ...(this.frequentlyUsedGlyphs.length ? [
-          {
-            title: 'Frequently used',
-        ***REMOVED***,
-          ...frequentlyUsedGlyphRows,
-          {
-            title: 'Glyphs',
-        ***REMOVED***,
-        ] : []),
-        ...allGlyphRows,
-      ]
-  ***REMOVED***,
 ***REMOVED***,
 
   methods: {
-    chunkGlyphs(glyphs) {
-***REMOVED*** collect(glyphs)
-        .chunk(this.navigatable.itemsPerRow)
-        .filter(items => items.toArray().length)
-        .map(items => ({
-          glyphs: items.toArray(),
-    ***REMOVED***)
-        .toArray()
-  ***REMOVED***,
-
     getVariableHeight(index) {
 ***REMOVED*** this.rows[index].title
         ? this.navigatable.titleRowHeight
-        : this.navigatable.rowHeight
+        : this.navigatable.glyphRowHeight
   ***REMOVED***,
 
     getItemProps(index) {

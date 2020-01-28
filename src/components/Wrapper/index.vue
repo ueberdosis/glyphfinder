@@ -1,5 +1,5 @@
 <template>
-  <navigatable :glyphs="glyphs" v-slot="{ selectedGlyph }">
+  <navigatable :glyphs="glyphs" v-slot="{ rows, selectedGlyph }">
     <div class="wrapper">
       <div class="wrapper__header">
         <input
@@ -13,7 +13,7 @@
         >
       </div>
       <div class="wrapper__content">
-        <glyph-list :glyphs="glyphs" />
+        <glyph-list :rows="rows" />
       </div>
       <glyph-data
         class="wrapper__overlay"
