@@ -50,9 +50,7 @@ export default {
 
   methods: {
     getVariableHeight(index) {
-***REMOVED*** this.rows[index].title
-        ? this.navigatable.glyphRowWithTitleHeight
-        : this.navigatable.glyphRowHeight
+***REMOVED*** this.rows[index].height
   ***REMOVED***,
 
     getItemProps(index) {

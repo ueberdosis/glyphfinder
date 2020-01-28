@@ -29,6 +29,11 @@ export default {
       default: () => ([]),
   ***REMOVED***,
 
+    height: {
+      type: Number,
+      required: true,
+  ***REMOVED***,
+
     title: {
       type: String,
       default: null,
@@ -41,12 +46,6 @@ export default {
 ***REMOVED***,
 
   computed: {
-    height() {
-***REMOVED*** this.title
-        ? this.navigatable.glyphRowWithTitleHeight
-        : this.navigatable.glyphRowHeight
-  ***REMOVED***,
-
     titleHeight() {
 ***REMOVED*** this.navigatable.glyphRowWithTitleHeight - this.navigatable.glyphRowHeight
   ***REMOVED***,

@@ -29,6 +29,7 @@ export default {
       firstFullyVisibleRowIndex: 0,
       lastFullyVisibleRowIndex: 0,
       isExpanded: Store.get('expanded', false),
+      expandedHeight: 101,
       usage: Store.get('usage', []),
       scrollPosition: {
         offset: 0,
@@ -70,15 +71,26 @@ export default {
 
     glyphRows() {
 ***REMOVED*** this.chunkGlyphs(this.formattedGlyphs)
-        .map((row, index) => {
+        .map((row, index, array) => {
           if (index === 0 && !this.isSearch && this.hasFrequentlyUsedGlyphs) {
       ***REMOVED*** {
+              ...row,
               title: 'Glyphs',
+              height: this.glyphRowWithTitleHeight,
+          ***REMOVED***
+        ***REMOVED***
+
+          if (index === array.length - 1) {
+      ***REMOVED*** {
+              height: this.glyphRowHeight + this.expandedHeight + 20,
               ...row,
           ***REMOVED***
         ***REMOVED***
 
-    ***REMOVED*** row
+    ***REMOVED*** {
+            height: this.glyphRowHeight,
+            ...row,
+        ***REMOVED***
     ***REMOVED***
   ***REMOVED***,
 
@@ -87,12 +99,16 @@ export default {
         .map((row, index) => {
           if (index === 0) {
       ***REMOVED*** {
-              title: 'Frequently used',
               ...row,
+              title: 'Frequently used',
+              height: this.glyphRowWithTitleHeight,
           ***REMOVED***
         ***REMOVED***
 
-    ***REMOVED*** row
+    ***REMOVED*** {
+            height: this.glyphRowHeight,
+            ...row,
+        ***REMOVED***
     ***REMOVED***
   ***REMOVED***,
 
@@ -181,7 +197,7 @@ export default {
 
     updateVisibleRows() {
       const containerHeight = 506 // TODO
-      const visibleScrollHeight = containerHeight - (this.isExpanded ? 101 : 54)
+      const visibleScrollHeight = containerHeight - (this.isExpanded ? this.expandedHeight : 54)
       const firstFullyVisibleRow = collect(this.offsets)
         .filter(item => item.offset >= this.scrollPosition.offset)
         .first()
