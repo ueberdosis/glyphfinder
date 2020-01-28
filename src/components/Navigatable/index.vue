@@ -8,6 +8,11 @@ export default {
       type: Array,
       default: () => ([]),
   ***REMOVED***,
+
+    isSearch: {
+      type: Boolean,
+      default: false,
+  ***REMOVED***,
 ***REMOVED***,
 
   data() {
@@ -40,6 +45,10 @@ export default {
   ***REMOVED***,
 
     frequentlyUsedGlyphs() {
+      if (this.isSearch) {
+  ***REMOVED*** []
+    ***REMOVED***
+
 ***REMOVED*** collect(this.usage)
         .sortByDesc('count')
         .map(item => this.formattedGlyphs.find(glyph => glyph.symbol === item.symbol))
@@ -58,7 +67,7 @@ export default {
     glyphRows() {
 ***REMOVED*** this.chunkGlyphs(this.formattedGlyphs)
         .map((row, index) => {
-          if (index === 0 && this.hasFrequentlyUsedGlyphs) {
+          if (index === 0 && !this.isSearch && this.hasFrequentlyUsedGlyphs) {
       ***REMOVED*** {
               title: 'Glyphs',
               ...row,
