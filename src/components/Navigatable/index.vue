@@ -240,6 +240,10 @@ export default {
       const { x, y } = this.selection
       const row = this.rows[y]
 
+      if (!row) {
+  ***REMOVED***
+    ***REMOVED***
+
       if (direction === 'right') {
         if (row.glyphs[x + 1]) {
           this.selection = {
