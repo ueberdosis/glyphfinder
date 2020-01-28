@@ -37,6 +37,10 @@ export default {
 ***REMOVED***,
 
   computed: {
+    isEmpty() {
+***REMOVED*** this.glyphs.length === 0
+  ***REMOVED***,
+
     formattedGlyphs() {
 ***REMOVED*** this.glyphs.map(glyph => ({
         ...glyph,
@@ -121,6 +125,10 @@ export default {
   ***REMOVED***,
 
     selectedGlyph() {
+      if (this.isEmpty) {
+  ***REMOVED*** null
+    ***REMOVED***
+
       const { x, y } = this.selection
       const row = this.rows[y]
       const glyph = row.glyphs[x]
