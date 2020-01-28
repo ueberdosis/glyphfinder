@@ -91,12 +91,13 @@ export default {
       const offsets = []
       let offset = 0
 
-      this.rows.forEach(row => {
+      this.rows.forEach((row, index) => {
         const size = row.title
           ? this.glyphRowWithTitleHeight
           : this.glyphRowHeight
 
         offsets.push({
+          index,
           size,
           offset,
     ***REMOVED***
@@ -157,16 +158,38 @@ export default {
   ***REMOVED***,
 
     updateVisibleRows() {
-      this.firstFullyVisibleRow = Math.ceil(this.scrollPosition.offset / this.glyphRowHeight)
+      // this.firstFullyVisibleRow = Math.ceil(this.scrollPosition.offset / this.glyphRowHeight)
 
-      const firstVisibleRow = Math.floor(this.scrollPosition.offset / this.glyphRowHeight)
-      const scrolledOverFirstRow = this.scrollPosition.offset
-        - firstVisibleRow
-        * this.glyphRowHeight
+      // const firstVisibleRow = Math.floor(this.scrollPosition.offset / this.glyphRowHeight)
+      // const scrolledOverFirstRow = this.scrollPosition.offset
+      //   - firstVisibleRow
+      //   * this.glyphRowHeight
 
-      this.lastFullyVisibleRow = this.firstFullyVisibleRow
-        + this.visibleRows
-        - (scrolledOverFirstRow > 0 ? 2 : 1)
+      // this.lastFullyVisibleRow = this.firstFullyVisibleRow
+      //   + this.visibleRows
+      //   - (scrolledOverFirstRow > 0 ? 2 : 1)
+
+      // console.log('updateVisibleRows')
+      // console.log(this.scrollPosition)
+
+      const containerHeight = 506 - 100
+
+      const firstFullyVisibleRow = collect(this.offsets)
+        .filter(item => item.offset >= this.scrollPosition.offset)
+        .first()
+
+      this.firstFullyVisibleRow = firstFullyVisibleRow.index
+
+      const lastFullyVisibleRow = collect(this.offsets)
+        .filter(item => item.offset <= (this.scrollPosition.offset + containerHeight))
+        .last()
+
+      this.lastFullyVisibleRow = lastFullyVisibleRow.index
+
+      console.log(this.firstFullyVisibleRow, this.lastFullyVisibleRow)
+
+      // console.log(lastFullyVisibleRow)
+
   ***REMOVED***,
 
     maybeUpdateStartRow() {
