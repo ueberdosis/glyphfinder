@@ -147,7 +147,12 @@ export default {
       ***REMOVED***
 
         this.updateVisibleRows()
-        this.maybeUpdateStartRow()
+
+        // force re-render to 0
+        this.startRow = 1
+        this.$nextTick(() => {
+          this.startRow = 0
+    ***REMOVED***
     ***REMOVED***,
   ***REMOVED***,
 ***REMOVED***,
