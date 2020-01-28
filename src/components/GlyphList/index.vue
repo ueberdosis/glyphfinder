@@ -1,5 +1,8 @@
 <template>
-  <div class="glyph-list">
+  <div
+    class="glyph-list"
+    :class="{ 'is-expanded': navigatable.isExpanded }"
+  >
     <virtual-list
       :scrollelement="scrollelement"
       :start="navigatable.startRow"
