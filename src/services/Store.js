@@ -9,8 +9,8 @@ export default new Store({
     ? app.getVersion()
     : remote.app.getVersion(),
   migrations: {
-    // '1.0.0': store => {
-    //   store.clear()
-    // },
+    '1.0.0': store => {
+      store.clear()
+  ***REMOVED***,
 ***REMOVED***,
 })
