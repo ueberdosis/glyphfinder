@@ -8775,165 +8775,165 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⛾,26FE,9982,cup on black square,Miscellaneous Symbols,,
 ⛿,26FF,9983,white flag with horizontal middle black stripe,Miscellaneous Symbols,,
 ✀,2700,9984,black safety scissors,Dingbats,,
-✁,2701,9985,upper blade scissors,Dingbats,,
-✃,2703,9987,lower blade scissors,Dingbats,,
-✄,2704,9988,white scissors,Dingbats,,
-✆,2706,9990,telephone location sign,Dingbats,,
-✇,2707,9991,tape drive,Dingbats,,
-✎,270E,9998,lower right pencil,Dingbats,,
-✐,2710,10000,upper right pencil,Dingbats,,
-✑,2711,10001,white nib,Dingbats,,
-✓,2713,10003,check mark,Dingbats,check checkmark,
-✕,2715,10005,multiplication x,Dingbats,,
-✗,2717,10007,ballot x,Dingbats,cross,
-✘,2718,10008,heavy ballot x,Dingbats,,
-✙,2719,10009,outlined greek cross,Dingbats,,
-✚,271A,10010,heavy greek cross,Dingbats,,
-✛,271B,10011,open centre cross,Dingbats,,
-✜,271C,10012,heavy open centre cross,Dingbats,,
-✞,271E,10014,shadowed white latin cross,Dingbats,,
-✟,271F,10015,outlined latin cross,Dingbats,,
-✠,2720,10016,maltese cross,Dingbats,malt maltese,
-✢,2722,10018,four teardrop-spoked asterisk,Dingbats,,
-✣,2723,10019,four balloon-spoked asterisk,Dingbats,,
-✤,2724,10020,heavy four balloon-spoked asterisk,Dingbats,,
-✥,2725,10021,four club-spoked asterisk,Dingbats,,
-✦,2726,10022,black four pointed star,Dingbats,,
-✧,2727,10023,white four pointed star,Dingbats,,
-✩,2729,10025,stress outlined white star,Dingbats,,
-✪,272A,10026,circled white star,Dingbats,,
-✫,272B,10027,open centre black star,Dingbats,,
-✬,272C,10028,black centre white star,Dingbats,,
-✭,272D,10029,outlined black star,Dingbats,,
-✮,272E,10030,heavy outlined black star,Dingbats,,
-✯,272F,10031,pinwheel star,Dingbats,,
-✰,2730,10032,shadowed white star,Dingbats,,
-✱,2731,10033,heavy asterisk,Dingbats,,
-✲,2732,10034,open centre asterisk,Dingbats,,
-✵,2735,10037,eight pointed pinwheel star,Dingbats,,
-✶,2736,10038,six pointed black star,Dingbats,sext,
-✷,2737,10039,eight pointed rectilinear black star,Dingbats,,
-✸,2738,10040,heavy eight pointed rectilinear black star,Dingbats,,
-✹,2739,10041,twelve pointed black star,Dingbats,,
-✺,273A,10042,sixteen pointed asterisk,Dingbats,,
-✻,273B,10043,teardrop-spoked asterisk,Dingbats,,
-✼,273C,10044,open centre teardrop-spoked asterisk,Dingbats,,
-✽,273D,10045,heavy teardrop-spoked asterisk,Dingbats,,
-✾,273E,10046,six petalled black and white florette,Dingbats,,
-✿,273F,10047,black florette,Dingbats,,
-❀,2740,10048,white florette,Dingbats,,
-❁,2741,10049,eight petalled outlined black florette,Dingbats,,
-❂,2742,10050,circled open centre eight pointed star,Dingbats,,
-❃,2743,10051,heavy teardrop-spoked pinwheel asterisk,Dingbats,,
-❅,2745,10053,tight trifoliate snowflake,Dingbats,,
-❆,2746,10054,heavy chevron snowflake,Dingbats,,
-❈,2748,10056,heavy sparkle,Dingbats,,
-❉,2749,10057,balloon-spoked asterisk,Dingbats,,
-❊,274A,10058,eight teardrop-spoked propeller asterisk,Dingbats,,
-❋,274B,10059,heavy eight teardrop-spoked propeller asterisk,Dingbats,,
+✁,2701,9985,upper blade scissors,Dingbats,,cut
+✃,2703,9987,lower blade scissors,Dingbats,,cut
+✄,2704,9988,white scissors,Dingbats,,cut
+✆,2706,9990,telephone location sign,Dingbats,,phone
+✇,2707,9991,tape drive,Dingbats,,fan
+✎,270E,9998,lower right pencil,Dingbats,,pen
+✐,2710,10000,upper right pencil,Dingbats,,pen
+✑,2711,10001,white nib,Dingbats,,pen
+✓,2713,10003,check mark,Dingbats,check checkmark,checkmark
+✕,2715,10005,multiplication x,Dingbats,,x
+✗,2717,10007,ballot x,Dingbats,cross,x
+✘,2718,10008,heavy ballot x,Dingbats,,x
+✙,2719,10009,outlined greek cross,Dingbats,,+
+✚,271A,10010,heavy greek cross,Dingbats,,+
+✛,271B,10011,open centre cross,Dingbats,,+
+✜,271C,10012,heavy open centre cross,Dingbats,,+
+✞,271E,10014,shadowed white latin cross,Dingbats,,+
+✟,271F,10015,outlined latin cross,Dingbats,,+
+✠,2720,10016,maltese cross,Dingbats,malt maltese,+
+✢,2722,10018,four teardrop-spoked asterisk,Dingbats,,+
+✣,2723,10019,four balloon-spoked asterisk,Dingbats,,+
+✤,2724,10020,heavy four balloon-spoked asterisk,Dingbats,,+
+✥,2725,10021,four club-spoked asterisk,Dingbats,,+
+✦,2726,10022,black four pointed star,Dingbats,,+
+✧,2727,10023,white four pointed star,Dingbats,,+
+✩,2729,10025,stress outlined white star,Dingbats,,*
+✪,272A,10026,circled white star,Dingbats,,*
+✫,272B,10027,open centre black star,Dingbats,,*
+✬,272C,10028,black centre white star,Dingbats,,*
+✭,272D,10029,outlined black star,Dingbats,,*
+✮,272E,10030,heavy outlined black star,Dingbats,,*
+✯,272F,10031,pinwheel star,Dingbats,,*
+✰,2730,10032,shadowed white star,Dingbats,,*
+✱,2731,10033,heavy asterisk,Dingbats,,*
+✲,2732,10034,open centre asterisk,Dingbats,,*
+✵,2735,10037,eight pointed pinwheel star,Dingbats,,*
+✶,2736,10038,six pointed black star,Dingbats,sext,*
+✷,2737,10039,eight pointed rectilinear black star,Dingbats,,*
+✸,2738,10040,heavy eight pointed rectilinear black star,Dingbats,,*
+✹,2739,10041,twelve pointed black star,Dingbats,,*
+✺,273A,10042,sixteen pointed asterisk,Dingbats,,*
+✻,273B,10043,teardrop-spoked asterisk,Dingbats,,*
+✼,273C,10044,open centre teardrop-spoked asterisk,Dingbats,,*
+✽,273D,10045,heavy teardrop-spoked asterisk,Dingbats,,*
+✾,273E,10046,six petalled black and white florette,Dingbats,,* flower
+✿,273F,10047,black florette,Dingbats,,* flower
+❀,2740,10048,white florette,Dingbats,,* flower
+❁,2741,10049,eight petalled outlined black florette,Dingbats,,*
+❂,2742,10050,circled open centre eight pointed star,Dingbats,,* sun
+❃,2743,10051,heavy teardrop-spoked pinwheel asterisk,Dingbats,,*
+❅,2745,10053,tight trifoliate snowflake,Dingbats,,*
+❆,2746,10054,heavy chevron snowflake,Dingbats,,*
+❈,2748,10056,heavy sparkle,Dingbats,,*
+❉,2749,10057,balloon-spoked asterisk,Dingbats,,*
+❊,274A,10058,eight teardrop-spoked propeller asterisk,Dingbats,,*
+❋,274B,10059,heavy eight teardrop-spoked propeller asterisk,Dingbats,,*
 ❍,274D,10061,shadowed white circle,Dingbats,,
-❏,274F,10063,lower right drop-shadowed white square,Dingbats,,
-❐,2750,10064,upper right drop-shadowed white square,Dingbats,,
-❑,2751,10065,lower right shadowed white square,Dingbats,,
-❒,2752,10066,upper right shadowed white square,Dingbats,,
+❏,274F,10063,lower right drop-shadowed white square,Dingbats,,rectangle
+❐,2750,10064,upper right drop-shadowed white square,Dingbats,,rectangle
+❑,2751,10065,lower right shadowed white square,Dingbats,,rectangle
+❒,2752,10066,upper right shadowed white square,Dingbats,,rectangle
 ❖,2756,10070,black diamond minus white x,Dingbats,,windows meta
-❘,2758,10072,light vertical bar,Dingbats,VerticalSeparator,
-❙,2759,10073,medium vertical bar,Dingbats,,
-❚,275A,10074,heavy vertical bar,Dingbats,,
-❛,275B,10075,heavy single turned comma quotation mark ornament,Dingbats,,
-❜,275C,10076,heavy single comma quotation mark ornament,Dingbats,,
-❝,275D,10077,heavy double turned comma quotation mark ornament,Dingbats,,
-❞,275E,10078,heavy double comma quotation mark ornament,Dingbats,,
-❟,275F,10079,heavy low single comma quotation mark ornament,Dingbats,,
-❠,2760,10080,heavy low double comma quotation mark ornament,Dingbats,,
-❡,2761,10081,curved stem paragraph sign ornament,Dingbats,,
-❢,2762,10082,heavy exclamation mark ornament,Dingbats,,
-❥,2765,10085,rotated heavy black heart bullet,Dingbats,,
-❦,2766,10086,floral heart,Dingbats,,
-❧,2767,10087,rotated floral heart bullet,Dingbats,,
-❨,2768,10088,medium left parenthesis ornament,Dingbats,,
-❩,2769,10089,medium right parenthesis ornament,Dingbats,,
-❪,276A,10090,medium flattened left parenthesis ornament,Dingbats,,
-❫,276B,10091,medium flattened right parenthesis ornament,Dingbats,,
-❬,276C,10092,medium left-pointing angle bracket ornament,Dingbats,,
-❭,276D,10093,medium right-pointing angle bracket ornament,Dingbats,,
-❮,276E,10094,heavy left-pointing angle quotation mark ornament,Dingbats,,
-❯,276F,10095,heavy right-pointing angle quotation mark ornament,Dingbats,,
-❰,2770,10096,heavy left-pointing angle bracket ornament,Dingbats,,
-❱,2771,10097,heavy right-pointing angle bracket ornament,Dingbats,,
-❲,2772,10098,light left tortoise shell bracket ornament,Dingbats,lbbrk,
-❳,2773,10099,light right tortoise shell bracket ornament,Dingbats,rbbrk,
-❴,2774,10100,medium left curly bracket ornament,Dingbats,,
-❵,2775,10101,medium right curly bracket ornament,Dingbats,,
-❶,2776,10102,dingbat negative circled digit one,Dingbats,,1
-❷,2777,10103,dingbat negative circled digit two,Dingbats,,2
-❸,2778,10104,dingbat negative circled digit three,Dingbats,,3
-❹,2779,10105,dingbat negative circled digit four,Dingbats,,4
-❺,277A,10106,dingbat negative circled digit five,Dingbats,,5
-❻,277B,10107,dingbat negative circled digit six,Dingbats,,6
-❼,277C,10108,dingbat negative circled digit seven,Dingbats,,7
-❽,277D,10109,dingbat negative circled digit eight,Dingbats,,8
-❾,277E,10110,dingbat negative circled digit nine,Dingbats,,9
-❿,277F,10111,dingbat negative circled number ten,Dingbats,,10
-➀,2780,10112,dingbat circled sans-serif digit one,Dingbats,,
-➁,2781,10113,dingbat circled sans-serif digit two,Dingbats,,
-➂,2782,10114,dingbat circled sans-serif digit three,Dingbats,,
-➃,2783,10115,dingbat circled sans-serif digit four,Dingbats,,
-➄,2784,10116,dingbat circled sans-serif digit five,Dingbats,,
-➅,2785,10117,dingbat circled sans-serif digit six,Dingbats,,
-➆,2786,10118,dingbat circled sans-serif digit seven,Dingbats,,
-➇,2787,10119,dingbat circled sans-serif digit eight,Dingbats,,
-➈,2788,10120,dingbat circled sans-serif digit nine,Dingbats,,
-➉,2789,10121,dingbat circled sans-serif number ten,Dingbats,,
-➊,278A,10122,dingbat negative circled sans-serif digit one,Dingbats,,
-➋,278B,10123,dingbat negative circled sans-serif digit two,Dingbats,,
-➌,278C,10124,dingbat negative circled sans-serif digit three,Dingbats,,
-➍,278D,10125,dingbat negative circled sans-serif digit four,Dingbats,,
-➎,278E,10126,dingbat negative circled sans-serif digit five,Dingbats,,
-➏,278F,10127,dingbat negative circled sans-serif digit six,Dingbats,,
-➐,2790,10128,dingbat negative circled sans-serif digit seven,Dingbats,,
-➑,2791,10129,dingbat negative circled sans-serif digit eight,Dingbats,,
-➒,2792,10130,dingbat negative circled sans-serif digit nine,Dingbats,,
-➓,2793,10131,dingbat negative circled sans-serif number ten,Dingbats,,
-➔,2794,10132,heavy wide-headed rightwards arrow,Dingbats,,
-➘,2798,10136,heavy south east arrow,Dingbats,,
-➙,2799,10137,heavy rightwards arrow,Dingbats,,
-➚,279A,10138,heavy north east arrow,Dingbats,,
-➛,279B,10139,drafting point rightwards arrow,Dingbats,,
-➜,279C,10140,heavy round-tipped rightwards arrow,Dingbats,,
-➝,279D,10141,triangle-headed rightwards arrow,Dingbats,,
-➞,279E,10142,heavy triangle-headed rightwards arrow,Dingbats,,
-➟,279F,10143,dashed triangle-headed rightwards arrow,Dingbats,,
-➠,27A0,10144,heavy dashed triangle-headed rightwards arrow,Dingbats,,
-➢,27A2,10146,three-d top-lighted rightwards arrowhead,Dingbats,,
-➣,27A3,10147,three-d bottom-lighted rightwards arrowhead,Dingbats,,
-➤,27A4,10148,black rightwards arrowhead,Dingbats,,
-➥,27A5,10149,heavy black curved downwards and rightwards arrow,Dingbats,,
-➦,27A6,10150,heavy black curved upwards and rightwards arrow,Dingbats,,
-➧,27A7,10151,squat black rightwards arrow,Dingbats,,
-➨,27A8,10152,heavy concave-pointed black rightwards arrow,Dingbats,,
-➩,27A9,10153,right-shaded white rightwards arrow,Dingbats,,
-➪,27AA,10154,left-shaded white rightwards arrow,Dingbats,,
-➫,27AB,10155,back-tilted shadowed white rightwards arrow,Dingbats,,
-➬,27AC,10156,front-tilted shadowed white rightwards arrow,Dingbats,,
-➭,27AD,10157,heavy lower right-shadowed white rightwards arrow,Dingbats,,
-➮,27AE,10158,heavy upper right-shadowed white rightwards arrow,Dingbats,,
-➯,27AF,10159,notched lower right-shadowed white rightwards arrow,Dingbats,,
-➱,27B1,10161,notched upper right-shadowed white rightwards arrow,Dingbats,,
-➲,27B2,10162,circled heavy white rightwards arrow,Dingbats,,
-➳,27B3,10163,white-feathered rightwards arrow,Dingbats,,
-➴,27B4,10164,black-feathered south east arrow,Dingbats,,
-➵,27B5,10165,black-feathered rightwards arrow,Dingbats,,
-➶,27B6,10166,black-feathered north east arrow,Dingbats,,
-➷,27B7,10167,heavy black-feathered south east arrow,Dingbats,,
-➸,27B8,10168,heavy black-feathered rightwards arrow,Dingbats,,
-➹,27B9,10169,heavy black-feathered north east arrow,Dingbats,,
-➺,27BA,10170,teardrop-barbed rightwards arrow,Dingbats,,
-➻,27BB,10171,heavy teardrop-shanked rightwards arrow,Dingbats,,
-➼,27BC,10172,wedge-tailed rightwards arrow,Dingbats,,
-➽,27BD,10173,heavy wedge-tailed rightwards arrow,Dingbats,,
-➾,27BE,10174,open-outlined rightwards arrow,Dingbats,,
-⟀,27C0,10176,three dimensional angle,Miscellaneous Mathematical Symbols-A,,
+❘,2758,10072,light vertical bar,Dingbats,VerticalSeparator,|
+❙,2759,10073,medium vertical bar,Dingbats,,| reactangle
+❚,275A,10074,heavy vertical bar,Dingbats,,| reactangle
+❛,275B,10075,heavy single turned comma quotation mark ornament,Dingbats,,' quote
+❜,275C,10076,heavy single comma quotation mark ornament,Dingbats,,' quote
+❝,275D,10077,heavy double turned comma quotation mark ornament,Dingbats,,""" quote"
+❞,275E,10078,heavy double comma quotation mark ornament,Dingbats,,""" quote"
+❟,275F,10079,heavy low single comma quotation mark ornament,Dingbats,,", ' quote"
+❠,2760,10080,heavy low double comma quotation mark ornament,Dingbats,,""" quote"
+❡,2761,10081,curved stem paragraph sign ornament,Dingbats,,p
+❢,2762,10082,heavy exclamation mark ornament,Dingbats,,!
+❥,2765,10085,rotated heavy black heart bullet,Dingbats,,<3
+❦,2766,10086,floral heart,Dingbats,,<3
+❧,2767,10087,rotated floral heart bullet,Dingbats,,<3
+❨,2768,10088,medium left parenthesis ornament,Dingbats,,(
+❩,2769,10089,medium right parenthesis ornament,Dingbats,,)
+❪,276A,10090,medium flattened left parenthesis ornament,Dingbats,,(
+❫,276B,10091,medium flattened right parenthesis ornament,Dingbats,,)
+❬,276C,10092,medium left-pointing angle bracket ornament,Dingbats,,<
+❭,276D,10093,medium right-pointing angle bracket ornament,Dingbats,,>
+❮,276E,10094,heavy left-pointing angle quotation mark ornament,Dingbats,,<
+❯,276F,10095,heavy right-pointing angle quotation mark ornament,Dingbats,,>
+❰,2770,10096,heavy left-pointing angle bracket ornament,Dingbats,,<
+❱,2771,10097,heavy right-pointing angle bracket ornament,Dingbats,,>
+❲,2772,10098,light left tortoise shell bracket ornament,Dingbats,lbbrk,{ (
+❳,2773,10099,light right tortoise shell bracket ornament,Dingbats,rbbrk,} )
+❴,2774,10100,medium left curly bracket ornament,Dingbats,,{ (
+❵,2775,10101,medium right curly bracket ornament,Dingbats,,} )
+❶,2776,10102,dingbat negative circled digit one,Dingbats,,1 (1)
+❷,2777,10103,dingbat negative circled digit two,Dingbats,,2 (2)
+❸,2778,10104,dingbat negative circled digit three,Dingbats,,3 (3)
+❹,2779,10105,dingbat negative circled digit four,Dingbats,,4 (4)
+❺,277A,10106,dingbat negative circled digit five,Dingbats,,5 (5)
+❻,277B,10107,dingbat negative circled digit six,Dingbats,,6 (6)
+❼,277C,10108,dingbat negative circled digit seven,Dingbats,,7 (7)
+❽,277D,10109,dingbat negative circled digit eight,Dingbats,,8 (8)
+❾,277E,10110,dingbat negative circled digit nine,Dingbats,,9 (9)
+❿,277F,10111,dingbat negative circled number ten,Dingbats,,10 (10)
+➀,2780,10112,dingbat circled sans-serif digit one,Dingbats,,1 (1)
+➁,2781,10113,dingbat circled sans-serif digit two,Dingbats,,2 (2)
+➂,2782,10114,dingbat circled sans-serif digit three,Dingbats,,3 (3)
+➃,2783,10115,dingbat circled sans-serif digit four,Dingbats,,4 (4)
+➄,2784,10116,dingbat circled sans-serif digit five,Dingbats,,5 (5)
+➅,2785,10117,dingbat circled sans-serif digit six,Dingbats,,6 (6)
+➆,2786,10118,dingbat circled sans-serif digit seven,Dingbats,,7 (7)
+➇,2787,10119,dingbat circled sans-serif digit eight,Dingbats,,8 (8)
+➈,2788,10120,dingbat circled sans-serif digit nine,Dingbats,,9 (9)
+➉,2789,10121,dingbat circled sans-serif number ten,Dingbats,,10 (10)
+➊,278A,10122,dingbat negative circled sans-serif digit one,Dingbats,,1 (1)
+➋,278B,10123,dingbat negative circled sans-serif digit two,Dingbats,,2 (2)
+➌,278C,10124,dingbat negative circled sans-serif digit three,Dingbats,,3 (3)
+➍,278D,10125,dingbat negative circled sans-serif digit four,Dingbats,,4 (4)
+➎,278E,10126,dingbat negative circled sans-serif digit five,Dingbats,,5 (5)
+➏,278F,10127,dingbat negative circled sans-serif digit six,Dingbats,,6 (6)
+➐,2790,10128,dingbat negative circled sans-serif digit seven,Dingbats,,7 (7)
+➑,2791,10129,dingbat negative circled sans-serif digit eight,Dingbats,,8 (8)
+➒,2792,10130,dingbat negative circled sans-serif digit nine,Dingbats,,9 (9)
+➓,2793,10131,dingbat negative circled sans-serif number ten,Dingbats,,10 (10)
+➔,2794,10132,heavy wide-headed rightwards arrow,Dingbats,,->
+➘,2798,10136,heavy south east arrow,Dingbats,,->
+➙,2799,10137,heavy rightwards arrow,Dingbats,,->
+➚,279A,10138,heavy north east arrow,Dingbats,,->
+➛,279B,10139,drafting point rightwards arrow,Dingbats,,->
+➜,279C,10140,heavy round-tipped rightwards arrow,Dingbats,,->
+➝,279D,10141,triangle-headed rightwards arrow,Dingbats,,->
+➞,279E,10142,heavy triangle-headed rightwards arrow,Dingbats,,->
+➟,279F,10143,dashed triangle-headed rightwards arrow,Dingbats,,->
+➠,27A0,10144,heavy dashed triangle-headed rightwards arrow,Dingbats,,->
+➢,27A2,10146,three-d top-lighted rightwards arrowhead,Dingbats,,>
+➣,27A3,10147,three-d bottom-lighted rightwards arrowhead,Dingbats,,>
+➤,27A4,10148,black rightwards arrowhead,Dingbats,,>
+➥,27A5,10149,heavy black curved downwards and rightwards arrow,Dingbats,,->
+➦,27A6,10150,heavy black curved upwards and rightwards arrow,Dingbats,,->
+➧,27A7,10151,squat black rightwards arrow,Dingbats,,->
+➨,27A8,10152,heavy concave-pointed black rightwards arrow,Dingbats,,->
+➩,27A9,10153,right-shaded white rightwards arrow,Dingbats,,->
+➪,27AA,10154,left-shaded white rightwards arrow,Dingbats,,->
+➫,27AB,10155,back-tilted shadowed white rightwards arrow,Dingbats,,->
+➬,27AC,10156,front-tilted shadowed white rightwards arrow,Dingbats,,->
+➭,27AD,10157,heavy lower right-shadowed white rightwards arrow,Dingbats,,->
+➮,27AE,10158,heavy upper right-shadowed white rightwards arrow,Dingbats,,->
+➯,27AF,10159,notched lower right-shadowed white rightwards arrow,Dingbats,,->
+➱,27B1,10161,notched upper right-shadowed white rightwards arrow,Dingbats,,->
+➲,27B2,10162,circled heavy white rightwards arrow,Dingbats,,->
+➳,27B3,10163,white-feathered rightwards arrow,Dingbats,,->
+➴,27B4,10164,black-feathered south east arrow,Dingbats,,->
+➵,27B5,10165,black-feathered rightwards arrow,Dingbats,,->
+➶,27B6,10166,black-feathered north east arrow,Dingbats,,->
+➷,27B7,10167,heavy black-feathered south east arrow,Dingbats,,->
+➸,27B8,10168,heavy black-feathered rightwards arrow,Dingbats,,->
+➹,27B9,10169,heavy black-feathered north east arrow,Dingbats,,->
+➺,27BA,10170,teardrop-barbed rightwards arrow,Dingbats,,->
+➻,27BB,10171,heavy teardrop-shanked rightwards arrow,Dingbats,,->
+➼,27BC,10172,wedge-tailed rightwards arrow,Dingbats,,->
+➽,27BD,10173,heavy wedge-tailed rightwards arrow,Dingbats,,->
+➾,27BE,10174,open-outlined rightwards arrow,Dingbats,,->
+⟀,27C0,10176,three dimensional angle,Miscellaneous Mathematical Symbols-A,,<-
 ⟁,27C1,10177,white triangle containing small white triangle,Miscellaneous Mathematical Symbols-A,,
 ⟂,27C2,10178,perpendicular,Miscellaneous Mathematical Symbols-A,,
 ⟃,27C3,10179,open subset,Miscellaneous Mathematical Symbols-A,,
@@ -9253,31 +9253,31 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⣽,28FD,10493,braille pattern dots-1345678,Braille Patterns,,
 ⣾,28FE,10494,braille pattern dots-2345678,Braille Patterns,,
 ⣿,28FF,10495,braille pattern dots-12345678,Braille Patterns,,
-⤀,2900,10496,rightwards two-headed arrow with vertical stroke,Supplemental Arrows-B,,
-⤁,2901,10497,rightwards two-headed arrow with double vertical stroke,Supplemental Arrows-B,,
-⤂,2902,10498,leftwards double arrow with vertical stroke,Supplemental Arrows-B,nvlArr,
-⤃,2903,10499,rightwards double arrow with vertical stroke,Supplemental Arrows-B,nvrArr,
-⤄,2904,10500,left right double arrow with vertical stroke,Supplemental Arrows-B,nvHarr,
-⤅,2905,10501,rightwards two-headed arrow from bar,Supplemental Arrows-B,Map,
-⤆,2906,10502,leftwards double arrow from bar,Supplemental Arrows-B,,
-⤇,2907,10503,rightwards double arrow from bar,Supplemental Arrows-B,,
-⤈,2908,10504,downwards arrow with horizontal stroke,Supplemental Arrows-B,,
-⤉,2909,10505,upwards arrow with horizontal stroke,Supplemental Arrows-B,,
-⤊,290A,10506,upwards triple arrow,Supplemental Arrows-B,,
-⤋,290B,10507,downwards triple arrow,Supplemental Arrows-B,,
-⤌,290C,10508,leftwards double dash arrow,Supplemental Arrows-B,lbarr,
-⤍,290D,10509,rightwards double dash arrow,Supplemental Arrows-B,bkarow rbarr,
-⤎,290E,10510,leftwards triple dash arrow,Supplemental Arrows-B,lBarr,
-⤏,290F,10511,rightwards triple dash arrow,Supplemental Arrows-B,dbkarow rBarr,
-⤐,2910,10512,rightwards two-headed triple dash arrow,Supplemental Arrows-B,RBarr drbkarow,
-⤑,2911,10513,rightwards arrow with dotted stem,Supplemental Arrows-B,DDotrahd,
-⤒,2912,10514,upwards arrow to bar,Supplemental Arrows-B,UpArrowBar,
-⤓,2913,10515,downwards arrow to bar,Supplemental Arrows-B,DownArrowBar,
-⤔,2914,10516,rightwards arrow with tail with vertical stroke,Supplemental Arrows-B,,
-⤕,2915,10517,rightwards arrow with tail with double vertical stroke,Supplemental Arrows-B,,
-⤖,2916,10518,rightwards two-headed arrow with tail,Supplemental Arrows-B,Rarrtl,
-⤗,2917,10519,rightwards two-headed arrow with tail with vertical stroke,Supplemental Arrows-B,,
-⤘,2918,10520,rightwards two-headed arrow with tail with double vertical stroke,Supplemental Arrows-B,,
+⤀,2900,10496,rightwards two-headed arrow with vertical stroke,Supplemental Arrows-B,,>>
+⤁,2901,10497,rightwards two-headed arrow with double vertical stroke,Supplemental Arrows-B,,>>
+⤂,2902,10498,leftwards double arrow with vertical stroke,Supplemental Arrows-B,nvlArr,<=
+⤃,2903,10499,rightwards double arrow with vertical stroke,Supplemental Arrows-B,nvrArr,=>
+⤄,2904,10500,left right double arrow with vertical stroke,Supplemental Arrows-B,nvHarr,<=>
+⤅,2905,10501,rightwards two-headed arrow from bar,Supplemental Arrows-B,Map,->
+⤆,2906,10502,leftwards double arrow from bar,Supplemental Arrows-B,,<=
+⤇,2907,10503,rightwards double arrow from bar,Supplemental Arrows-B,,=>
+⤈,2908,10504,downwards arrow with horizontal stroke,Supplemental Arrows-B,,v
+⤉,2909,10505,upwards arrow with horizontal stroke,Supplemental Arrows-B,,^
+⤊,290A,10506,upwards triple arrow,Supplemental Arrows-B,,^
+⤋,290B,10507,downwards triple arrow,Supplemental Arrows-B,,v
+⤌,290C,10508,leftwards double dash arrow,Supplemental Arrows-B,lbarr,<- <--
+⤍,290D,10509,rightwards double dash arrow,Supplemental Arrows-B,bkarow rbarr,-> -->
+⤎,290E,10510,leftwards triple dash arrow,Supplemental Arrows-B,lBarr,<- <--
+⤏,290F,10511,rightwards triple dash arrow,Supplemental Arrows-B,dbkarow rBarr,-> -->
+⤐,2910,10512,rightwards two-headed triple dash arrow,Supplemental Arrows-B,RBarr drbkarow,-> -->
+⤑,2911,10513,rightwards arrow with dotted stem,Supplemental Arrows-B,DDotrahd,-> -->
+⤒,2912,10514,upwards arrow to bar,Supplemental Arrows-B,UpArrowBar,^
+⤓,2913,10515,downwards arrow to bar,Supplemental Arrows-B,DownArrowBar,v
+⤔,2914,10516,rightwards arrow with tail with vertical stroke,Supplemental Arrows-B,,-> -->
+⤕,2915,10517,rightwards arrow with tail with double vertical stroke,Supplemental Arrows-B,,-> -->
+⤖,2916,10518,rightwards two-headed arrow with tail,Supplemental Arrows-B,Rarrtl,-> -->
+⤗,2917,10519,rightwards two-headed arrow with tail with vertical stroke,Supplemental Arrows-B,,-> -->
+⤘,2918,10520,rightwards two-headed arrow with tail with double vertical stroke,Supplemental Arrows-B,,-> -->
 ⤙,2919,10521,leftwards arrow-tail,Supplemental Arrows-B,latail,
 ⤚,291A,10522,rightwards arrow-tail,Supplemental Arrows-B,ratail,
 ⤛,291B,10523,leftwards double arrow-tail,Supplemental Arrows-B,lAtail,
@@ -9496,20 +9496,20 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⧲,29F2,10738,error-barred white circle,Miscellaneous Mathematical Symbols-B,,
 ⧳,29F3,10739,error-barred black circle,Miscellaneous Mathematical Symbols-B,,
 ⧴,29F4,10740,rule-delayed,Miscellaneous Mathematical Symbols-B,RuleDelayed,
-⧵,29F5,10741,reverse solidus operator,Miscellaneous Mathematical Symbols-B,,
-⧶,29F6,10742,solidus with overbar,Miscellaneous Mathematical Symbols-B,dsol,
-⧷,29F7,10743,reverse solidus with horizontal stroke,Miscellaneous Mathematical Symbols-B,,
-⧸,29F8,10744,big solidus,Miscellaneous Mathematical Symbols-B,,
-⧹,29F9,10745,big reverse solidus,Miscellaneous Mathematical Symbols-B,,
+⧵,29F5,10741,reverse solidus operator,Miscellaneous Mathematical Symbols-B,,\
+⧶,29F6,10742,solidus with overbar,Miscellaneous Mathematical Symbols-B,dsol,/
+⧷,29F7,10743,reverse solidus with horizontal stroke,Miscellaneous Mathematical Symbols-B,,\
+⧸,29F8,10744,big solidus,Miscellaneous Mathematical Symbols-B,,/
+⧹,29F9,10745,big reverse solidus,Miscellaneous Mathematical Symbols-B,,\
 ⧺,29FA,10746,double plus,Miscellaneous Mathematical Symbols-B,,
 ⧻,29FB,10747,triple plus,Miscellaneous Mathematical Symbols-B,,
 ⧼,29FC,10748,left-pointing curved angle bracket,Miscellaneous Mathematical Symbols-B,,
 ⧽,29FD,10749,right-pointing curved angle bracket,Miscellaneous Mathematical Symbols-B,,
-⧾,29FE,10750,tiny,Miscellaneous Mathematical Symbols-B,,
-⧿,29FF,10751,miny,Miscellaneous Mathematical Symbols-B,,
-⨀,2A00,10752,n-ary circled dot operator,Supplemental Mathematical Operators,bigodot xodot,
-⨁,2A01,10753,n-ary circled plus operator,Supplemental Mathematical Operators,bigoplus xoplus,
-⨂,2A02,10754,n-ary circled times operator,Supplemental Mathematical Operators,bigotimes xotime,
+⧾,29FE,10750,tiny,Miscellaneous Mathematical Symbols-B,,+
+⧿,29FF,10751,miny,Miscellaneous Mathematical Symbols-B,,-
+⨀,2A00,10752,n-ary circled dot operator,Supplemental Mathematical Operators,bigodot xodot,.
+⨁,2A01,10753,n-ary circled plus operator,Supplemental Mathematical Operators,bigoplus xoplus,+
+⨂,2A02,10754,n-ary circled times operator,Supplemental Mathematical Operators,bigotimes xotime,x
 ⨃,2A03,10755,n-ary union operator with dot,Supplemental Mathematical Operators,,
 ⨄,2A04,10756,n-ary union operator with plus,Supplemental Mathematical Operators,biguplus xuplus,
 ⨅,2A05,10757,n-ary square intersection operator,Supplemental Mathematical Operators,,
@@ -9519,51 +9519,51 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⨉,2A09,10761,n-ary times operator,Supplemental Mathematical Operators,,
 ⨊,2A0A,10762,modulo two sum,Supplemental Mathematical Operators,,
 ⨋,2A0B,10763,summation with integral,Supplemental Mathematical Operators,,
-⨌,2A0C,10764,quadruple integral operator,Supplemental Mathematical Operators,iiiint qint,
-⨍,2A0D,10765,finite part integral,Supplemental Mathematical Operators,fpartint,
-⨎,2A0E,10766,integral with double stroke,Supplemental Mathematical Operators,,
-⨏,2A0F,10767,integral average with slash,Supplemental Mathematical Operators,,
-⨐,2A10,10768,circulation function,Supplemental Mathematical Operators,cirfnint,
-⨑,2A11,10769,anticlockwise integration,Supplemental Mathematical Operators,awint,
-⨒,2A12,10770,line integration with rectangular path around pole,Supplemental Mathematical Operators,rppolint,
-⨓,2A13,10771,line integration with semicircular path around pole,Supplemental Mathematical Operators,scpolint,
-⨔,2A14,10772,line integration not including the pole,Supplemental Mathematical Operators,npolint,
-⨕,2A15,10773,integral around a point operator,Supplemental Mathematical Operators,pointint,
-⨖,2A16,10774,quaternion integral operator,Supplemental Mathematical Operators,quatint,
-⨗,2A17,10775,integral with leftwards arrow with hook,Supplemental Mathematical Operators,intlarhk,
-⨘,2A18,10776,integral with times sign,Supplemental Mathematical Operators,,
-⨙,2A19,10777,integral with intersection,Supplemental Mathematical Operators,,
-⨚,2A1A,10778,integral with union,Supplemental Mathematical Operators,,
-⨛,2A1B,10779,integral with overbar,Supplemental Mathematical Operators,,
-⨜,2A1C,10780,integral with underbar,Supplemental Mathematical Operators,,
+⨌,2A0C,10764,quadruple integral operator,Supplemental Mathematical Operators,iiiint qint,ffff
+⨍,2A0D,10765,finite part integral,Supplemental Mathematical Operators,fpartint,f
+⨎,2A0E,10766,integral with double stroke,Supplemental Mathematical Operators,,f
+⨏,2A0F,10767,integral average with slash,Supplemental Mathematical Operators,,f
+⨐,2A10,10768,circulation function,Supplemental Mathematical Operators,cirfnint,f
+⨑,2A11,10769,anticlockwise integration,Supplemental Mathematical Operators,awint,f
+⨒,2A12,10770,line integration with rectangular path around pole,Supplemental Mathematical Operators,rppolint,f
+⨓,2A13,10771,line integration with semicircular path around pole,Supplemental Mathematical Operators,scpolint,f
+⨔,2A14,10772,line integration not including the pole,Supplemental Mathematical Operators,npolint,f
+⨕,2A15,10773,integral around a point operator,Supplemental Mathematical Operators,pointint,f
+⨖,2A16,10774,quaternion integral operator,Supplemental Mathematical Operators,quatint,f
+⨗,2A17,10775,integral with leftwards arrow with hook,Supplemental Mathematical Operators,intlarhk,f
+⨘,2A18,10776,integral with times sign,Supplemental Mathematical Operators,,f
+⨙,2A19,10777,integral with intersection,Supplemental Mathematical Operators,,f
+⨚,2A1A,10778,integral with union,Supplemental Mathematical Operators,,f
+⨛,2A1B,10779,integral with overbar,Supplemental Mathematical Operators,,f
+⨜,2A1C,10780,integral with underbar,Supplemental Mathematical Operators,,f
 ⨝,2A1D,10781,join,Supplemental Mathematical Operators,,
-⨞,2A1E,10782,large left triangle operator,Supplemental Mathematical Operators,,
+⨞,2A1E,10782,large left triangle operator,Supplemental Mathematical Operators,,<
 ⨟,2A1F,10783,z notation schema composition,Supplemental Mathematical Operators,,
-⨠,2A20,10784,z notation schema piping,Supplemental Mathematical Operators,,
+⨠,2A20,10784,z notation schema piping,Supplemental Mathematical Operators,,>>
 ⨡,2A21,10785,z notation schema projection,Supplemental Mathematical Operators,,
-⨢,2A22,10786,plus sign with small circle above,Supplemental Mathematical Operators,pluscir,
-⨣,2A23,10787,plus sign with circumflex accent above,Supplemental Mathematical Operators,plusacir,
-⨤,2A24,10788,plus sign with tilde above,Supplemental Mathematical Operators,simplus,
-⨥,2A25,10789,plus sign with dot below,Supplemental Mathematical Operators,plusdu,
-⨦,2A26,10790,plus sign with tilde below,Supplemental Mathematical Operators,plussim,
-⨧,2A27,10791,plus sign with subscript two,Supplemental Mathematical Operators,plustwo,
-⨨,2A28,10792,plus sign with black triangle,Supplemental Mathematical Operators,,
+⨢,2A22,10786,plus sign with small circle above,Supplemental Mathematical Operators,pluscir,+
+⨣,2A23,10787,plus sign with circumflex accent above,Supplemental Mathematical Operators,plusacir,+
+⨤,2A24,10788,plus sign with tilde above,Supplemental Mathematical Operators,simplus,+
+⨥,2A25,10789,plus sign with dot below,Supplemental Mathematical Operators,plusdu,+
+⨦,2A26,10790,plus sign with tilde below,Supplemental Mathematical Operators,plussim,+
+⨧,2A27,10791,plus sign with subscript two,Supplemental Mathematical Operators,plustwo,+ +2
+⨨,2A28,10792,plus sign with black triangle,Supplemental Mathematical Operators,,+
 ⨩,2A29,10793,minus sign with comma above,Supplemental Mathematical Operators,mcomma,
 ⨪,2A2A,10794,minus sign with dot below,Supplemental Mathematical Operators,minusdu,
 ⨫,2A2B,10795,minus sign with falling dots,Supplemental Mathematical Operators,,
 ⨬,2A2C,10796,minus sign with rising dots,Supplemental Mathematical Operators,,
 ⨭,2A2D,10797,plus sign in left half circle,Supplemental Mathematical Operators,loplus,
 ⨮,2A2E,10798,plus sign in right half circle,Supplemental Mathematical Operators,roplus,
-⨯,2A2F,10799,vector or cross product,Supplemental Mathematical Operators,Cross,
-⨰,2A30,10800,multiplication sign with dot above,Supplemental Mathematical Operators,timesd,
-⨱,2A31,10801,multiplication sign with underbar,Supplemental Mathematical Operators,timesbar,
-⨲,2A32,10802,semidirect product with bottom closed,Supplemental Mathematical Operators,,
+⨯,2A2F,10799,vector or cross product,Supplemental Mathematical Operators,Cross,x
+⨰,2A30,10800,multiplication sign with dot above,Supplemental Mathematical Operators,timesd,x
+⨱,2A31,10801,multiplication sign with underbar,Supplemental Mathematical Operators,timesbar,x
+⨲,2A32,10802,semidirect product with bottom closed,Supplemental Mathematical Operators,,x
 ⨳,2A33,10803,smash product,Supplemental Mathematical Operators,smashp,
-⨴,2A34,10804,multiplication sign in left half circle,Supplemental Mathematical Operators,lotimes,
-⨵,2A35,10805,multiplication sign in right half circle,Supplemental Mathematical Operators,rotimes,
-⨶,2A36,10806,circled multiplication sign with circumflex accent,Supplemental Mathematical Operators,otimesas,
-⨷,2A37,10807,multiplication sign in double circle,Supplemental Mathematical Operators,Otimes,
-⨸,2A38,10808,circled division sign,Supplemental Mathematical Operators,odiv,
+⨴,2A34,10804,multiplication sign in left half circle,Supplemental Mathematical Operators,lotimes,x
+⨵,2A35,10805,multiplication sign in right half circle,Supplemental Mathematical Operators,rotimes,x
+⨶,2A36,10806,circled multiplication sign with circumflex accent,Supplemental Mathematical Operators,otimesas,x
+⨷,2A37,10807,multiplication sign in double circle,Supplemental Mathematical Operators,Otimes,x
+⨸,2A38,10808,circled division sign,Supplemental Mathematical Operators,odiv,/
 ⨹,2A39,10809,plus sign in triangle,Supplemental Mathematical Operators,triplus,
 ⨺,2A3A,10810,minus sign in triangle,Supplemental Mathematical Operators,triminus,
 ⨻,2A3B,10811,multiplication sign in triangle,Supplemental Mathematical Operators,tritime,
@@ -9753,7 +9753,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⫳,2AF3,10995,parallel with tilde operator,Supplemental Mathematical Operators,parsim,
 ⫴,2AF4,10996,triple vertical bar binary relation,Supplemental Mathematical Operators,,
 ⫵,2AF5,10997,triple vertical bar with horizontal stroke,Supplemental Mathematical Operators,,
-⫶,2AF6,10998,triple colon operator,Supplemental Mathematical Operators,,
+⫶,2AF6,10998,triple colon operator,Supplemental Mathematical Operators,,...
 ⫷,2AF7,10999,triple nested less-than,Supplemental Mathematical Operators,,
 ⫸,2AF8,11000,triple nested greater-than,Supplemental Mathematical Operators,,
 ⫹,2AF9,11001,double-line slanted less-than or equal to,Supplemental Mathematical Operators,,
@@ -9763,21 +9763,21 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⫽,2AFD,11005,double solidus operator,Supplemental Mathematical Operators,parsl,
 ⫾,2AFE,11006,white vertical bar,Supplemental Mathematical Operators,,
 ⫿,2AFF,11007,n-ary white vertical bar,Supplemental Mathematical Operators,,
-⬀,2B00,11008,north east white arrow,Miscellaneous Symbols and Arrows,,
-⬁,2B01,11009,north west white arrow,Miscellaneous Symbols and Arrows,,
-⬂,2B02,11010,south east white arrow,Miscellaneous Symbols and Arrows,,
-⬃,2B03,11011,south west white arrow,Miscellaneous Symbols and Arrows,,
-⬄,2B04,11012,left right white arrow,Miscellaneous Symbols and Arrows,,
-⬈,2B08,11016,north east black arrow,Miscellaneous Symbols and Arrows,,
-⬉,2B09,11017,north west black arrow,Miscellaneous Symbols and Arrows,,
-⬊,2B0A,11018,south east black arrow,Miscellaneous Symbols and Arrows,,
-⬋,2B0B,11019,south west black arrow,Miscellaneous Symbols and Arrows,,
-⬌,2B0C,11020,left right black arrow,Miscellaneous Symbols and Arrows,,
-⬍,2B0D,11021,up down black arrow,Miscellaneous Symbols and Arrows,,
-⬎,2B0E,11022,rightwards arrow with tip downwards,Miscellaneous Symbols and Arrows,,
-⬏,2B0F,11023,rightwards arrow with tip upwards,Miscellaneous Symbols and Arrows,,
-⬐,2B10,11024,leftwards arrow with tip downwards,Miscellaneous Symbols and Arrows,,
-⬑,2B11,11025,leftwards arrow with tip upwards,Miscellaneous Symbols and Arrows,,
+⬀,2B00,11008,north east white arrow,Miscellaneous Symbols and Arrows,,->
+⬁,2B01,11009,north west white arrow,Miscellaneous Symbols and Arrows,,<-
+⬂,2B02,11010,south east white arrow,Miscellaneous Symbols and Arrows,,->
+⬃,2B03,11011,south west white arrow,Miscellaneous Symbols and Arrows,,<-
+⬄,2B04,11012,left right white arrow,Miscellaneous Symbols and Arrows,,<->
+⬈,2B08,11016,north east black arrow,Miscellaneous Symbols and Arrows,,->
+⬉,2B09,11017,north west black arrow,Miscellaneous Symbols and Arrows,,<-
+⬊,2B0A,11018,south east black arrow,Miscellaneous Symbols and Arrows,,->
+⬋,2B0B,11019,south west black arrow,Miscellaneous Symbols and Arrows,,<-
+⬌,2B0C,11020,left right black arrow,Miscellaneous Symbols and Arrows,,<->
+⬍,2B0D,11021,up down black arrow,Miscellaneous Symbols and Arrows,,^ v
+⬎,2B0E,11022,rightwards arrow with tip downwards,Miscellaneous Symbols and Arrows,,v
+⬏,2B0F,11023,rightwards arrow with tip upwards,Miscellaneous Symbols and Arrows,,^
+⬐,2B10,11024,leftwards arrow with tip downwards,Miscellaneous Symbols and Arrows,,v
+⬑,2B11,11025,leftwards arrow with tip upwards,Miscellaneous Symbols and Arrows,,^
 ⬒,2B12,11026,square with top half black,Miscellaneous Symbols and Arrows,,
 ⬓,2B13,11027,square with bottom half black,Miscellaneous Symbols and Arrows,,
 ⬔,2B14,11028,square with upper right diagonal half black,Miscellaneous Symbols and Arrows,,
@@ -10513,7 +10513,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⸫,2E2B,11819,one dot over two dots punctuation,Supplemental Punctuation,,
 ⸬,2E2C,11820,squared four dot punctuation,Supplemental Punctuation,,
 ⸭,2E2D,11821,five dot mark,Supplemental Punctuation,,
-⸮,2E2E,11822,reversed question mark,Supplemental Punctuation,,
+⸮,2E2E,11822,reversed question mark,Supplemental Punctuation,,?
 ⸯ,2E2F,11823,vertical tilde,Supplemental Punctuation,,
 ⸰,2E30,11824,ring point,Supplemental Punctuation,,
 ⸱,2E31,11825,word separator middle dot,Supplemental Punctuation,,
@@ -10895,7 +10895,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 〄,3004,12292,japanese industrial standard symbol,CJK Symbols and Punctuation,,
 々,3005,12293,ideographic iteration mark,CJK Symbols and Punctuation,,
 〆,3006,12294,ideographic closing mark,CJK Symbols and Punctuation,,
-〇,3007,12295,ideographic number zero,CJK Symbols and Punctuation,,
+〇,3007,12295,ideographic number zero,CJK Symbols and Punctuation,,0
 〈,3008,12296,left angle bracket,CJK Symbols and Punctuation,,
 〉,3009,12297,right angle bracket,CJK Symbols and Punctuation,,
 《,300A,12298,left double angle bracket,CJK Symbols and Punctuation,,
@@ -11442,30 +11442,30 @@ z,007A,122,latin small letter z,Basic Latin,,
 ㉅,3245,12869,circled ideograph kindergarten,Enclosed CJK Letters and Months,,
 ㉆,3246,12870,circled ideograph school,Enclosed CJK Letters and Months,,
 ㉇,3247,12871,circled ideograph koto,Enclosed CJK Letters and Months,,
-㉈,3248,12872,circled number ten on black square,Enclosed CJK Letters and Months,,
-㉉,3249,12873,circled number twenty on black square,Enclosed CJK Letters and Months,,
-㉊,324A,12874,circled number thirty on black square,Enclosed CJK Letters and Months,,
-㉋,324B,12875,circled number forty on black square,Enclosed CJK Letters and Months,,
-㉌,324C,12876,circled number fifty on black square,Enclosed CJK Letters and Months,,
-㉍,324D,12877,circled number sixty on black square,Enclosed CJK Letters and Months,,
-㉎,324E,12878,circled number seventy on black square,Enclosed CJK Letters and Months,,
-㉏,324F,12879,circled number eighty on black square,Enclosed CJK Letters and Months,,
+㉈,3248,12872,circled number ten on black square,Enclosed CJK Letters and Months,,10
+㉉,3249,12873,circled number twenty on black square,Enclosed CJK Letters and Months,,20
+㉊,324A,12874,circled number thirty on black square,Enclosed CJK Letters and Months,,30
+㉋,324B,12875,circled number forty on black square,Enclosed CJK Letters and Months,,40
+㉌,324C,12876,circled number fifty on black square,Enclosed CJK Letters and Months,,50
+㉍,324D,12877,circled number sixty on black square,Enclosed CJK Letters and Months,,60
+㉎,324E,12878,circled number seventy on black square,Enclosed CJK Letters and Months,,70
+㉏,324F,12879,circled number eighty on black square,Enclosed CJK Letters and Months,,80
 ㉐,3250,12880,partnership sign,Enclosed CJK Letters and Months,,
-㉑,3251,12881,circled number twenty one,Enclosed CJK Letters and Months,,
-㉒,3252,12882,circled number twenty two,Enclosed CJK Letters and Months,,
-㉓,3253,12883,circled number twenty three,Enclosed CJK Letters and Months,,
-㉔,3254,12884,circled number twenty four,Enclosed CJK Letters and Months,,
-㉕,3255,12885,circled number twenty five,Enclosed CJK Letters and Months,,
-㉖,3256,12886,circled number twenty six,Enclosed CJK Letters and Months,,
-㉗,3257,12887,circled number twenty seven,Enclosed CJK Letters and Months,,
-㉘,3258,12888,circled number twenty eight,Enclosed CJK Letters and Months,,
-㉙,3259,12889,circled number twenty nine,Enclosed CJK Letters and Months,,
-㉚,325A,12890,circled number thirty,Enclosed CJK Letters and Months,,
-㉛,325B,12891,circled number thirty one,Enclosed CJK Letters and Months,,
-㉜,325C,12892,circled number thirty two,Enclosed CJK Letters and Months,,
-㉝,325D,12893,circled number thirty three,Enclosed CJK Letters and Months,,
-㉞,325E,12894,circled number thirty four,Enclosed CJK Letters and Months,,
-㉟,325F,12895,circled number thirty five,Enclosed CJK Letters and Months,,
+㉑,3251,12881,circled number twenty one,Enclosed CJK Letters and Months,,21 (21)
+㉒,3252,12882,circled number twenty two,Enclosed CJK Letters and Months,,22 (22)
+㉓,3253,12883,circled number twenty three,Enclosed CJK Letters and Months,,23 (23)
+㉔,3254,12884,circled number twenty four,Enclosed CJK Letters and Months,,24 (24)
+㉕,3255,12885,circled number twenty five,Enclosed CJK Letters and Months,,25 (25)
+㉖,3256,12886,circled number twenty six,Enclosed CJK Letters and Months,,26 (26)
+㉗,3257,12887,circled number twenty seven,Enclosed CJK Letters and Months,,27 (27)
+㉘,3258,12888,circled number twenty eight,Enclosed CJK Letters and Months,,28 (28)
+㉙,3259,12889,circled number twenty nine,Enclosed CJK Letters and Months,,29 (29)
+㉚,325A,12890,circled number thirty,Enclosed CJK Letters and Months,,30 (30)
+㉛,325B,12891,circled number thirty one,Enclosed CJK Letters and Months,,31 (31)
+㉜,325C,12892,circled number thirty two,Enclosed CJK Letters and Months,,32 (32)
+㉝,325D,12893,circled number thirty three,Enclosed CJK Letters and Months,,33 (33)
+㉞,325E,12894,circled number thirty four,Enclosed CJK Letters and Months,,34 (34)
+㉟,325F,12895,circled number thirty five,Enclosed CJK Letters and Months,,35 (35)
 ㉠,3260,12896,circled hangul kiyeok,Enclosed CJK Letters and Months,,
 ㉡,3261,12897,circled hangul nieun,Enclosed CJK Letters and Months,,
 ㉢,3262,12898,circled hangul tikeut,Enclosed CJK Letters and Months,,
@@ -11545,21 +11545,21 @@ z,007A,122,latin small letter z,Basic Latin,,
 ㊮,32AE,12974,circled ideograph resource,Enclosed CJK Letters and Months,,
 ㊯,32AF,12975,circled ideograph alliance,Enclosed CJK Letters and Months,,
 ㊰,32B0,12976,circled ideograph night,Enclosed CJK Letters and Months,,
-㊱,32B1,12977,circled number thirty six,Enclosed CJK Letters and Months,,
-㊲,32B2,12978,circled number thirty seven,Enclosed CJK Letters and Months,,
-㊳,32B3,12979,circled number thirty eight,Enclosed CJK Letters and Months,,
-㊴,32B4,12980,circled number thirty nine,Enclosed CJK Letters and Months,,
-㊵,32B5,12981,circled number forty,Enclosed CJK Letters and Months,,
-㊶,32B6,12982,circled number forty one,Enclosed CJK Letters and Months,,
-㊷,32B7,12983,circled number forty two,Enclosed CJK Letters and Months,,
-㊸,32B8,12984,circled number forty three,Enclosed CJK Letters and Months,,
-㊹,32B9,12985,circled number forty four,Enclosed CJK Letters and Months,,
-㊺,32BA,12986,circled number forty five,Enclosed CJK Letters and Months,,
-㊻,32BB,12987,circled number forty six,Enclosed CJK Letters and Months,,
-㊼,32BC,12988,circled number forty seven,Enclosed CJK Letters and Months,,
-㊽,32BD,12989,circled number forty eight,Enclosed CJK Letters and Months,,
-㊾,32BE,12990,circled number forty nine,Enclosed CJK Letters and Months,,
-㊿,32BF,12991,circled number fifty,Enclosed CJK Letters and Months,,
+㊱,32B1,12977,circled number thirty six,Enclosed CJK Letters and Months,,36 (36)
+㊲,32B2,12978,circled number thirty seven,Enclosed CJK Letters and Months,,37 (37)
+㊳,32B3,12979,circled number thirty eight,Enclosed CJK Letters and Months,,38 (38)
+㊴,32B4,12980,circled number thirty nine,Enclosed CJK Letters and Months,,39 (39)
+㊵,32B5,12981,circled number forty,Enclosed CJK Letters and Months,,40 (40)
+㊶,32B6,12982,circled number forty one,Enclosed CJK Letters and Months,,41 (41)
+㊷,32B7,12983,circled number forty two,Enclosed CJK Letters and Months,,42 (42)
+㊸,32B8,12984,circled number forty three,Enclosed CJK Letters and Months,,43 (43)
+㊹,32B9,12985,circled number forty four,Enclosed CJK Letters and Months,,44 (44)
+㊺,32BA,12986,circled number forty five,Enclosed CJK Letters and Months,,45 (45)
+㊻,32BB,12987,circled number forty six,Enclosed CJK Letters and Months,,46 (46)
+㊼,32BC,12988,circled number forty seven,Enclosed CJK Letters and Months,,47 (47)
+㊽,32BD,12989,circled number forty eight,Enclosed CJK Letters and Months,,48 (48)
+㊾,32BE,12990,circled number forty nine,Enclosed CJK Letters and Months,,49 (49)
+㊿,32BF,12991,circled number fifty,Enclosed CJK Letters and Months,,50 (50)
 ㋀,32C0,12992,ideographic telegraph symbol for january,Enclosed CJK Letters and Months,,
 ㋁,32C1,12993,ideographic telegraph symbol for february,Enclosed CJK Letters and Months,,
 ㋂,32C2,12994,ideographic telegraph symbol for march,Enclosed CJK Letters and Months,,
@@ -31131,10 +31131,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 😉,1F609,,winking face,smileys-emotion,,emoji face-smiling face wink yellow
 😊,1F60A,,smiling face with smiling eyes,smileys-emotion,,emoji face-smiling blush eye face smile yellow
 😇,1F607,,smiling face with halo,smileys-emotion,,emoji face-smiling angel face fantasy halo innocent yellow
-🥰,1F970,,smiling face with hearts,smileys-emotion,,emoji face-affection adore crush hearts in love yellow red
-😍,1F60D,,smiling face with heart-eyes,smileys-emotion,,emoji face-affection eye face love smile yellow red
+🥰,1F970,,smiling face with hearts,smileys-emotion,,emoji face-affection adore crush hearts in love yellow red <3
+😍,1F60D,,smiling face with heart-eyes,smileys-emotion,,emoji face-affection eye face love smile yellow red <3
 🤩,1F929,,star-struck,smileys-emotion,,emoji face-affection eyes face grinning star yellow
-😘,1F618,,face blowing a kiss,smileys-emotion,,emoji face-affection face kiss yellow blow
+😘,1F618,,face blowing a kiss,smileys-emotion,,emoji face-affection face kiss yellow blow <3
 😗,1F617,,kissing face,smileys-emotion,,emoji face-affection face kiss yellow blow
 ☺️,263A,,smiling face,smileys-emotion,,emoji face-affection face outlined relaxed smile smiley
 😚,1F61A,,kissing face with closed eyes,smileys-emotion,,emoji face-affection closed eye face kiss yellow
@@ -31223,7 +31223,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 😺,1F63A,,grinning cat,smileys-emotion,,emoji cat-face cat face grinning mouth open smile yellow
 😸,1F638,,grinning cat with smiling eyes,smileys-emotion,,emoji cat-face cat eye face grin smile yellow
 😹,1F639,,cat with tears of joy,smileys-emotion,,emoji cat-face cat face joy tear yellow
-😻,1F63B,,smiling cat with heart-eyes,smileys-emotion,,emoji cat-face cat eye face heart love smile yellow red
+😻,1F63B,,smiling cat with heart-eyes,smileys-emotion,,emoji cat-face cat eye face heart love smile yellow red <3
 😼,1F63C,,cat with wry smile,smileys-emotion,,emoji cat-face cat face ironic smile wry yellow
 😽,1F63D,,kissing cat,smileys-emotion,,emoji cat-face cat eye face kiss yellow
 🙀,1F640,,weary cat,smileys-emotion,,emoji cat-face cat face oh surprised weary yellow
@@ -31233,26 +31233,26 @@ z,007A,122,latin small letter z,Basic Latin,,
 🙉,1F649,,hear-no-evil monkey,smileys-emotion,,emoji monkey-face evil face forbidden hear monkey brown
 🙊,1F64A,,speak-no-evil monkey,smileys-emotion,,emoji monkey-face evil face forbidden monkey speak brown
 💋,1F48B,,kiss mark,smileys-emotion,,emoji emotion kiss lips red
-💌,1F48C,,love letter,smileys-emotion,,emoji emotion heart letter love mail red white
-💘,1F498,,heart with arrow,smileys-emotion,,emoji emotion arrow cupid pink
-💝,1F49D,,heart with ribbon,smileys-emotion,,emoji emotion ribbon valentine pink
-💖,1F496,,sparkling heart,smileys-emotion,,emoji emotion excited sparkle pink
-💗,1F497,,growing heart,smileys-emotion,,emoji emotion excited growing nervous pulse pink
-💓,1F493,,beating heart,smileys-emotion,,emoji emotion beating heartbeat pulsating pink
-💞,1F49E,,revolving hearts,smileys-emotion,,emoji emotion revolving pink
-💕,1F495,,two hearts,smileys-emotion,,emoji emotion love pink
-💟,1F49F,,heart decoration,smileys-emotion,,emoji emotion heart purple
-❣️,2763,,heart exclamation,smileys-emotion,,emoji emotion exclamation mark punctuation red
-💔,1F494,,broken heart,smileys-emotion,,emoji emotion break broken red
-❤️,2764,,red heart,smileys-emotion,,emoji emotion heart
-🧡,1F9E1,,orange heart,smileys-emotion,,emoji emotion orange
-💛,1F49B,,yellow heart,smileys-emotion,,emoji emotion yellow
-💚,1F49A,,green heart,smileys-emotion,,emoji emotion green
-💙,1F499,,blue heart,smileys-emotion,,emoji emotion blue
-💜,1F49C,,purple heart,smileys-emotion,,emoji emotion purple
-🤎,1F90E,,brown heart,smileys-emotion,,emoji emotion brown heart
-🖤,1F5A4,,black heart,smileys-emotion,,emoji emotion black evil wicked
-🤍,1F90D,,white heart,smileys-emotion,,emoji emotion heart white
+💌,1F48C,,love letter,smileys-emotion,,emoji emotion heart letter love mail red white <3
+💘,1F498,,heart with arrow,smileys-emotion,,emoji emotion arrow cupid pink <3
+💝,1F49D,,heart with ribbon,smileys-emotion,,emoji emotion ribbon valentine pink <3
+💖,1F496,,sparkling heart,smileys-emotion,,emoji emotion excited sparkle pink <3
+💗,1F497,,growing heart,smileys-emotion,,emoji emotion excited growing nervous pulse pink <3
+💓,1F493,,beating heart,smileys-emotion,,emoji emotion beating heartbeat pulsating pink <3
+💞,1F49E,,revolving hearts,smileys-emotion,,emoji emotion revolving pink <3
+💕,1F495,,two hearts,smileys-emotion,,emoji emotion love pink <3
+💟,1F49F,,heart decoration,smileys-emotion,,emoji emotion heart purple <3
+❣️,2763,,heart exclamation,smileys-emotion,,emoji emotion exclamation mark punctuation red <3
+💔,1F494,,broken heart,smileys-emotion,,emoji emotion break broken red <3
+❤️,2764,,red heart,smileys-emotion,,emoji emotion heart <3
+🧡,1F9E1,,orange heart,smileys-emotion,,emoji emotion orange <3
+💛,1F49B,,yellow heart,smileys-emotion,,emoji emotion yellow <3
+💚,1F49A,,green heart,smileys-emotion,,emoji emotion green <3
+💙,1F499,,blue heart,smileys-emotion,,emoji emotion blue <3
+💜,1F49C,,purple heart,smileys-emotion,,emoji emotion purple <3
+🤎,1F90E,,brown heart,smileys-emotion,,emoji emotion brown heart <3
+🖤,1F5A4,,black heart,smileys-emotion,,emoji emotion black evil wicked <3
+🤍,1F90D,,white heart,smileys-emotion,,emoji emotion heart white <3
 💯,1F4AF,,hundred points,smileys-emotion,,emoji emotion 100 full hundred score red
 💢,1F4A2,,anger symbol,smileys-emotion,,emoji emotion angry comic mad red
 💥,1F4A5,,collision,smileys-emotion,,emoji emotion boom comic red yellow orange
@@ -33003,14 +33003,14 @@ z,007A,122,latin small letter z,Basic Latin,,
 👨🏿‍🤝‍👨🏼,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FC,,"men holding hands: dark skin tone, medium-light skin tone",people-body,,emoji family couple gemini holding hands man men twins zodiac
 👨🏿‍🤝‍👨🏽,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FD,,"men holding hands: dark skin tone, medium skin tone",people-body,,emoji family couple gemini holding hands man men twins zodiac
 👨🏿‍🤝‍👨🏾,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FE,,"men holding hands: dark skin tone, medium-dark skin tone",people-body,,emoji family couple gemini holding hands man men twins zodiac
-💏,1F48F,,kiss,people-body,,emoji family couple yellow
-👩‍❤️‍💋‍👨,1F469 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: woman, man",people-body,,emoji family couple kiss man woman yellow
-👨‍❤️‍💋‍👨,1F468 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: man, man",people-body,,emoji family couple kiss man yellow
-👩‍❤️‍💋‍👩,1F469 200D 2764 FE0F 200D 1F48B 200D 1F469,,"kiss: woman, woman",people-body,,emoji family couple kiss woman yellow
-💑,1F491,,couple with heart,people-body,,emoji family couple love yellow yellow
-👩‍❤️‍👨,1F469 200D 2764 FE0F 200D 1F468,,"couple with heart: woman, man",people-body,,emoji family couple couple with heart love man woman yellow
-👨‍❤️‍👨,1F468 200D 2764 FE0F 200D 1F468,,"couple with heart: man, man",people-body,,emoji family couple couple with heart love man yellow
-👩‍❤️‍👩,1F469 200D 2764 FE0F 200D 1F469,,"couple with heart: woman, woman",people-body,,emoji family couple couple with heart love woman yellow
+💏,1F48F,,kiss,people-body,,emoji family couple yellow <3
+👩‍❤️‍💋‍👨,1F469 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: woman, man",people-body,,emoji family couple kiss man woman yellow <3
+👨‍❤️‍💋‍👨,1F468 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: man, man",people-body,,emoji family couple kiss man yellow <3
+👩‍❤️‍💋‍👩,1F469 200D 2764 FE0F 200D 1F48B 200D 1F469,,"kiss: woman, woman",people-body,,emoji family couple kiss woman yellow <3
+💑,1F491,,couple with heart,people-body,,emoji family couple love yellow yellow <3
+👩‍❤️‍👨,1F469 200D 2764 FE0F 200D 1F468,,"couple with heart: woman, man",people-body,,emoji family couple couple with heart love man woman yellow <3
+👨‍❤️‍👨,1F468 200D 2764 FE0F 200D 1F468,,"couple with heart: man, man",people-body,,emoji family couple couple with heart love man yellow <3
+👩‍❤️‍👩,1F469 200D 2764 FE0F 200D 1F469,,"couple with heart: woman, woman",people-body,,emoji family couple couple with heart love woman yellow <3
 👪️,1F46A,,family,people-body,,emoji family family yellow
 👨‍👩‍👦,1F468 200D 1F469 200D 1F466,,"family: man, woman, boy",people-body,,emoji family boy family man woman yellow
 👨‍👩‍👧,1F468 200D 1F469 200D 1F467,,"family: man, woman, girl",people-body,,emoji family family girl man woman yellow
@@ -33188,14 +33188,14 @@ z,007A,122,latin small letter z,Basic Latin,,
 🍎,1F34E,,red apple,food-drink,,emoji food-fruit apple fruit red
 🍏,1F34F,,green apple,food-drink,,emoji food-fruit apple fruit green
 🍐,1F350,,pear,food-drink,,emoji food-fruit fruit green
-🍑,1F351,,peach,food-drink,,emoji food-fruit fruit orange
+🍑,1F351,,peach,food-drink,,emoji food-fruit fruit orange butt
 🍒,1F352,,cherries,food-drink,,emoji food-fruit berries cherry fruit red
 🍓,1F353,,strawberry,food-drink,,emoji food-fruit berry fruit red
 🥝,1F95D,,kiwi fruit,food-drink,,emoji food-fruit food fruit kiwi green
 🍅,1F345,,tomato,food-drink,,emoji food-fruit fruit vegetable red
 🥥,1F965,,coconut,food-drink,,emoji food-fruit palm piña colada white
 🥑,1F951,,avocado,food-drink,,emoji food-vegetable food fruit green
-🍆,1F346,,eggplant,food-drink,,emoji food-vegetable aubergine vegetable purple
+🍆,1F346,,eggplant,food-drink,,emoji food-vegetable aubergine vegetable purple penis
 🥔,1F954,,potato,food-drink,,emoji food-vegetable food vegetable yellow brown
 🥕,1F955,,carrot,food-drink,,emoji food-vegetable food vegetable orange
 🌽,1F33D,,ear of corn,food-drink,,emoji food-vegetable corn ear maize maze yellow green
@@ -33574,8 +33574,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 🎲,1F3B2,,game die,activities,,emoji game dice die game white black red
 🧩,1F9E9,,puzzle piece,activities,,emoji game clue interlocking jigsaw piece puzzle green
 🧸,1F9F8,,teddy bear,activities,,emoji game plaything plush stuffed toy brown
-♠️,2660,,spade suit,activities,,emoji game card game black
-♥️,2665,,heart suit,activities,,emoji game card game black
+♠️,2660,,spade suit,activities,,emoji game card game black <3
+♥️,2665,,heart suit,activities,,emoji game card game black <3
 ♦️,2666,,diamond suit,activities,,emoji game card game black
 ♣️,2663,,club suit,activities,,emoji game card game black
 ♟️,265F,,chess pawn,activities,,emoji game chess dupe expendable black
