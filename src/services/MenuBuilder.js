@@ -1,4 +1,4 @@
-import { app, Menu } from 'electron'
+import { app, Menu, BrowserWindow } from 'electron'
 import Updater from './Updater'
 import Setapp from './Setapp'
 
@@ -12,6 +12,17 @@ const isMac = process.platform === 'darwin'
         label: app.getName(),
         submenu: [
           { role: 'about' },
+          { type: 'separator' },
+          {
+            label: 'Preferences',
+            click() {
+              BrowserWindow
+                .getAllWindows()
+                .forEach(browserWindow => {
+                  browserWindow.webContents.send('showPreferences')
+            ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
           { type: 'separator' },
           { role: 'hide' },
           { role: 'hideothers' },
