@@ -1,22 +1,12 @@
 <script>
 import collect from 'collect.js'
 import Store from '@/services/Store'
+import Glyphs from '@/services/Glyphs'
 
 export default {
-  props: {
-    glyphs: {
-      type: Array,
-      default: () => ([]),
-  ***REMOVED***,
-
-    isSearch: {
-      type: Boolean,
-      default: false,
-  ***REMOVED***,
-***REMOVED***,
-
   data() {
     return {
+      query: '',
       selection: {
         x: 0,
         y: 0,
@@ -39,6 +29,14 @@ export default {
 ***REMOVED***,
 
   computed: {
+    glyphs() {
+***REMOVED*** Glyphs.search(this.query)
+  ***REMOVED***,
+
+    isSearch() {
+***REMOVED*** this.query ? !!this.query.length : false
+  ***REMOVED***,
+
     isEmpty() {
 ***REMOVED*** this.glyphs.length === 0
   ***REMOVED***,
@@ -168,6 +166,10 @@ export default {
 ***REMOVED***,
 
   methods: {
+    setQuery(query) {
+      this.query = query
+  ***REMOVED***,
+
     setElement(element) {
       this.element = element
   ***REMOVED***,
@@ -321,6 +323,7 @@ export default {
 
   provide() {
     const navigatable = {
+      setQuery: this.setQuery,
       setElement: this.setElement,
       setSelection: this.setSelection,
       handleScroll: this.handleScroll,
@@ -328,6 +331,10 @@ export default {
   ***REMOVED***
 
     Object.defineProperties(navigatable, {
+      rows: {
+        enumerable: true,
+        get: () => this.rows,
+    ***REMOVED***,
       selectedGlyph: {
         enumerable: true,
         get: () => this.selectedGlyph,
@@ -362,10 +369,7 @@ export default {
 ***REMOVED***,
 
   render() {
-    return this.$scopedSlots.default({
-      selectedGlyph: this.selectedGlyph,
-      rows: this.rows,
-***REMOVED***
+    return this.$scopedSlots.default()
 ***REMOVED***,
 }
 </script>

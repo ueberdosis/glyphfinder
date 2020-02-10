@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   height: 100vh;
-  padding: 30px 16px 0 16px;
+  padding-top: 30px;
 
   &::before {
     content: '';
@@ -16,35 +16,8 @@
     -webkit-app-region: drag;
 ***REMOVED***
 
-  &__header {
-    flex: 0 0 auto;
-***REMOVED***
-
   &__content {
     flex: 1 1 auto;
     overflow: hidden;
-    margin-right: -14px;
-***REMOVED***
-
-  &__search {
-    width: 100%;
-    padding: 8px;
-    font-size: 12px;
-    background-color: rgba($colorWhite, 0.07);
-    border-radius: 4px;
-    margin-bottom: 12px;
-    font-weight: 500;
-    font-variant-ligatures: none;
-
-    &::placeholder {
-      color: rgba($colorWhite, 0.2);
-  ***REMOVED***
-***REMOVED***
-
-  &__overlay {
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-    width: calc(100% - 16px);
 ***REMOVED***
 }
