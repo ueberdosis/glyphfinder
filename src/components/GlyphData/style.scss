@@ -1,5 +1,4 @@
 .glyph-data {
-  // height: 96px;
   background-color: rgba(rgb(40, 40, 40), 0.6);
   backdrop-filter: blur(15px);
   color: $colorWhite;
@@ -52,6 +51,14 @@
   &__content {
     padding-top: 8px;
     display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior: contain;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+  ***REMOVED***
 ***REMOVED***
 
   &__item {

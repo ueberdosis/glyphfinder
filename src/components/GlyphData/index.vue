@@ -1,7 +1,7 @@
 <template>
   <div class="glyph-data">
     <div class="glyph-data__header">
-      <div class="glyph-data__name">
+      <div class="glyph-data__name" :title="glyph.name">
         {{ glyph.name }}
       </div>
       <button
