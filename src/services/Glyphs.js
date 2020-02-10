@@ -74,7 +74,7 @@ import data from '../data/data.json'
           tokens.push(word.slice(0, i + 1))
       ***REMOVED***
 
-  ***REMOVED*** tokens
+  ***REMOVED*** collect(tokens)
           .filter(token => {
             if (this.isWord(token)) {
         ***REMOVED*** token.length > 1
@@ -82,6 +82,8 @@ import data from '../data/data.json'
 
       ***REMOVED*** true
       ***REMOVED***
+          .reverse() // full words first
+          .toArray()
   ***REMOVED***
       .flat()
 ***REMOVED***
