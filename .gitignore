@@ -3,6 +3,7 @@ node_modules
 /dist
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -22,3 +23,7 @@ yarn-error.log*
 
 #Electron-builder output
 /dist_electron
+
+#electron
+electron-builder.env
+certificate-mac.p12

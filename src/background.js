@@ -7,9 +7,14 @@ import {
   installVueDevtools,
 } from 'vue-cli-plugin-electron-builder/lib'
 
-// import robot from 'robotjs'
+import Updater from './services/Updater'
+import MenuBuilder from './services/MenuBuilder'
+import Setapp from './services/Setapp'
 
-const isDevelopment = process.env.NODE_ENV !== 'production'
+Setapp.init()
+
+const isProduction = process.env.NODE_ENV === 'production'
+const isDevelopment = !isProduction
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -19,6 +24,9 @@ let win
 protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: true, standard: true } }])
 
 function createWindow() {
+
+  MenuBuilder.setMenu()
+
   // Create the browser window.
   win = new BrowserWindow({
     width: 340,
@@ -41,6 +49,10 @@ function createWindow() {
     createProtocol('app')
     // Load the index.html when not in development
     win.loadURL('app://./index.html')
+***REMOVED***
+
+  if (isProduction && !Setapp.isActive) {
+    Updater.silentlyCheckForUpdates()
 ***REMOVED***
 
   win.on('closed', () => {
