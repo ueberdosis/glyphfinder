@@ -1,6 +1,6 @@
 <template>
   <button class="entity" @click="copyToClipboard">
-    {{ name }}
+    {{ entity }}
   </button>
 </template>
 
@@ -9,7 +9,7 @@ import copy from 'copy-to-clipboard'
 
 export default {
   props: {
-    name: {
+    entity: {
       required: true,
       type: String,
   ***REMOVED***,
@@ -17,7 +17,7 @@ export default {
 
   computed: {
     fullName() {
-***REMOVED*** `&${this.name};`
+***REMOVED*** `&${this.entity};`
   ***REMOVED***,
 ***REMOVED***,
 

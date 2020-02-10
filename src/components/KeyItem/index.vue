@@ -1,17 +1,15 @@
 <template>
-  <div class="keys">
-    <div class="keys__item" v-for="(key, index) in keys" :key="index">
-      {{ key }}
-    </div>
+  <div class="key-item">
+    {{ item | uppercase }}
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    keys: {
+    item: {
       required: true,
-      type: Array,
+      type: String,
   ***REMOVED***,
 ***REMOVED***,
 }

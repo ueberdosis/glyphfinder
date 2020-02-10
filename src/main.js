@@ -6,6 +6,16 @@ Vue.config.productionTip = false
 
 const { os } = Bowser.parse(window.navigator.userAgent)
 
+Vue.filter('uppercase', value => {
+  const ignoredCharacters = ['ß']
+
+  if (ignoredCharacters.includes(value)) {
+    return value
+***REMOVED***
+
+  return value.toUpperCase()
+})
+
 Vue.mixin({
   data() {
     return {

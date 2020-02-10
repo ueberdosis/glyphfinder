@@ -1,0 +1,16 @@
+.key-item {
+  display: inline-flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 20px;
+  background-color: rgba($colorWhite, 0.1);
+  padding: 2px 5px;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  margin-left: 3px;
+
+  &:first-child {
+    margin-left: 0;
+***REMOVED***
+}
