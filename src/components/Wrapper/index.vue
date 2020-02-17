@@ -38,7 +38,6 @@ export default {
 
   methods: {
     onShowPreferences() {
-      console.log('showPreferences')
       this.showPreferences = true
   ***REMOVED***,
 
