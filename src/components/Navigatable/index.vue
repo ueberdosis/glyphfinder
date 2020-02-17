@@ -218,6 +218,10 @@ export default {
     maybeUpdateScrollPosition() {
       const { y } = this.selection
 
+      if (!this.offsets[y]) {
+  ***REMOVED***
+    ***REMOVED***
+
       if (y < this.firstFullyVisibleRowIndex || y > this.lastFullyVisibleRowIndex) {
         this.element.scrollTop = this.offsets[y].offset
     ***REMOVED***
