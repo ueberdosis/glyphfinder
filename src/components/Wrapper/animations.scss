@@ -1,0 +1,10 @@
+.options-enter-active,
+.options-leave-active {
+  transform-origin: center 0%;
+  transition: transform 0.6s $easeInOutQuint;
+}
+
+.options-enter,
+.options-leave-to {
+  transform: translateY(100%) scale(1.1);
+}

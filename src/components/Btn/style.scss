@@ -1,0 +1,54 @@
+.button {
+  display: inline-flex;
+  padding: 6px;
+  margin-left: 8px;
+  color: rgba($colorWhite, 0.5);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 6px;
+  background-color: rgba($colorWhite, 0.08);
+  transition: color 0.2s $ease, background-color 0.2s $ease;
+  -webkit-app-region: no-drag;
+
+  &:first-child {
+    margin-left: 0;
+***REMOVED***
+
+  &:hover {
+    color: rgba($colorWhite, 1);
+    background-color: rgba($colorWhite, 0.12);
+***REMOVED***
+
+  &.is-red {
+    background-color: $colorRed;
+    color: $colorBlack;
+
+    &:hover {
+      background-color: rgba($colorRed, 0.9);
+  ***REMOVED***
+***REMOVED***
+
+  &.is-red-text {
+    background-color: transparent;
+    color: $colorRed;
+    padding: 0;
+***REMOVED***
+
+  &.is-grey-text {
+    background-color: transparent;
+
+    &:hover {
+      color: rgba($colorWhite, 1);
+      background-color: rgba($colorWhite, 0.12);
+  ***REMOVED***
+***REMOVED***
+
+  &__icon + &__content {
+    margin-left: 2px;
+***REMOVED***
+
+  & + & {
+    margin-left: 6px;
+***REMOVED***
+}
