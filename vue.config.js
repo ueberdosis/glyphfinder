@@ -1,9 +1,6 @@
 module.exports = {
   // devServer: {
-  //   overlay: {
-  //     warnings: false,
-  //     errors: false,
-  // ***REMOVED***,
+  //   overlay: false,
   // },
 
   css: {
