@@ -32,7 +32,7 @@ export default {
       Event.emit('hideGlyphCheck')
   ***REMOVED***,
 
-    async filterGlyphs() {
+    filterGlyphs() {
       // const glyphs = collect(data).take(100).toArray()
       const glyphs = data
       const glyphsCount = glyphs.length
