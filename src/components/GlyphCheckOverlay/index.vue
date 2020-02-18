@@ -1,20 +1,14 @@
 <template>
   <div class="preferences-overlay">
     generating glyphs {{ progress }} %
-    <btn icon="close" @click.native="close" />
   </div>
 </template>
 
 <script>
-import Btn from '@/components/Btn'
 import Event from '@/services/Event'
 import GlyphIndex from '@/services/GlyphIndex'
 
 export default {
-  components: {
-    Btn,
-***REMOVED***,
-
   data() {
     return {
       progress: 0,

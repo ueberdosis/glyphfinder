@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import electron from 'electron'
-import data from '../data/data.json'
+// import collect from 'collect.js'
 import Glyphs from './Glyphs'
 
 ***REMOVED***
@@ -60,43 +60,50 @@ import Glyphs from './Glyphs'
 
   createSupportedGlyphs() {
     return new Promise(resolve => {
-      const glyphs = data
-      const glyphsCount = glyphs.length
-      const supportedGlyphs = []
+      import('../data/data.json')
+        .then(importData => {
+          // const glyphs = collect(data).take(100).toArray()
+          const glyphs = importData.default
+          const glyphsCount = glyphs.length
+          const supportedGlyphs = []
 
-      for (let index = 0, p = Promise.resolve(); index < glyphsCount; index += 1) {
-        p = p
-          .then(() => new Promise(r => {
-            const progress = Math.floor((100 / glyphsCount) * (index + 1))
+          for (let index = 0, p = Promise.resolve(); index < glyphsCount; index += 1) {
+            p = p
+              .then(() => new Promise(r => {
+                const progress = Math.floor((100 / glyphsCount) * (index + 1))
 
-            const callback = () => {
-              this.progress = progress
-              this.progressCallback(this.progress)
+                const callback = () => {
+                  this.progress = progress
+                  this.progressCallback(this.progress)
 
-              const glyph = glyphs[index]
-              const supported = this.isGlyphInFont(glyph.symbol)
+                  const glyph = glyphs[index]
+                  const supported = this.isGlyphInFont(glyph.symbol)
 
-              if (supported) {
-                supportedGlyphs.push(glyph)
-            ***REMOVED***
+                  if (supported) {
+                    supportedGlyphs.push(glyph)
+                ***REMOVED***
 
-              r()
+                  r()
+              ***REMOVED***
+
+                if (progress > this.progress) {
+            ***REMOVED*** setTimeout(callback, 0)
+              ***REMOVED***
+
+          ***REMOVED*** callback()
+          ***REMOVED***)
+              .then(() => {
+                const isLastGlyph = index === glyphsCount - 1
+
+                if (isLastGlyph) {
+                  resolve(supportedGlyphs)
+              ***REMOVED***
           ***REMOVED***
+        ***REMOVED***
 
-            if (progress > this.progress) {
-        ***REMOVED*** setTimeout(callback, 0)
-          ***REMOVED***
-
-      ***REMOVED*** callback()
-      ***REMOVED***)
-          .then(() => {
-            const isLastGlyph = index === glyphsCount - 1
-
-            if (isLastGlyph) {
-              resolve(supportedGlyphs)
-          ***REMOVED***
-      ***REMOVED***
     ***REMOVED***
+
+
 ***REMOVED***
 ***REMOVED***
 
