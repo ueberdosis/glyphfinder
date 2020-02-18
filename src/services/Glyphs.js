@@ -49,6 +49,8 @@ import Event from './Event'
 ***REMOVED***
 
     this.index.add(formattedData)
+
+    // console.log(this.index.export())
 ***REMOVED***
 
   isWord(value) {

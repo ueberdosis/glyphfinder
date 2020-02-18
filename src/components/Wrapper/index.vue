@@ -19,7 +19,7 @@
 
 <script>
 import { ipcRenderer } from 'electron'
-import Store from '@/services/Store'
+// import Store from '@/services/Store'
 import Event from '@/services/Event'
 import GlyphWrapper from '@/components/GlyphWrapper'
 import Navigatable from '@/components/Navigatable'
@@ -37,7 +37,8 @@ export default {
   data() {
     return {
       showPreferences: false,
-      showGlyphCheck: Store.get('supportedGlyphs', []).length === 0,
+      // showGlyphCheck: Store.get('supportedGlyphs', []).length === 0,
+      showGlyphCheck: true,
   ***REMOVED***
 ***REMOVED***,
 
