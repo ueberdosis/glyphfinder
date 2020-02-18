@@ -5,7 +5,6 @@
   >
     <virtual-list
       :scrollelement="scrollelement"
-      :start="navigatable.startRow"
       :size="navigatable.glyphRowHeight"
       :variable="getVariableHeight"
       :remain="navigatable.showRows"
