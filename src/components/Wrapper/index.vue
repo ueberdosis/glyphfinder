@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="wrapper__content" :class="{ 'is-hidden': showPreferences }">
-      <navigatable v-if="!showGlyphCheck && glyphIndex" :glyph-index="glyphIndex">
+      <navigatable v-if="!showGlyphCheck">
         <glyph-wrapper />
       </navigatable>
       <div class="wrapper__content-overlay" />
@@ -21,14 +21,12 @@
 import { ipcRenderer } from 'electron'
 // import Store from '@/services/Store'
 import Event from '@/services/Event'
+import Glyphs from '@/services/Glyphs'
 import GlyphIndex from '@/services/GlyphIndex'
 import GlyphWrapper from '@/components/GlyphWrapper'
 import Navigatable from '@/components/Navigatable'
 import PreferencesOverlay from '@/components/PreferencesOverlay'
 import GlyphCheckOverlay from '@/components/GlyphCheckOverlay'
-
-
-import Glyphs from '@/services/Glyphs'
 
 export default {
   components: {
@@ -39,10 +37,20 @@ export default {
 ***REMOVED***,
 
   data() {
+    const DB = GlyphIndex.getDB()
+    const indexExists = !!DB
+
+    if (indexExists) {
+      const { glyphs, searchIndex } = DB
+
+      Glyphs
+        .importGlyphs(glyphs)
+        .importIndex(searchIndex)
+  ***REMOVED***
+
     return {
-      glyphIndex: null,
       showPreferences: false,
-      showGlyphCheck: !GlyphIndex.exists(),
+      showGlyphCheck: !indexExists,
       // showGlyphCheck: true,
   ***REMOVED***
 ***REMOVED***,
@@ -64,30 +72,30 @@ export default {
       this.showGlyphCheck = false
   ***REMOVED***,
 
-    onGlyphIndexCreated(data) {
-      // console.log({ data })
+    // onGlyphIndexCreated(data) {
+    //   // console.log({ data })
 
-      const { glyphs, searchIndex } = data
+    //   const { glyphs, searchIndex } = data
 
-      const glyphIndex = new Glyphs(glyphs)
-      glyphIndex.importIndex(searchIndex)
+    //   const glyphIndex = new Glyphs(glyphs)
+    //   glyphIndex.importIndex(searchIndex)
 
-      this.glyphIndex = glyphIndex
-  ***REMOVED***,
+    //   this.glyphIndex = glyphIndex
+    // },
 ***REMOVED***,
 
   mounted() {
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)
     Event.on('hideGlyphCheck', this.onHideGlyphCheck)
-    Event.on('glyphIndexCreated', this.onGlyphIndexCreated)
+    // Event.on('glyphIndexCreated', this.onGlyphIndexCreated)
 ***REMOVED***,
 
   beforeDestroy() {
     ipcRenderer.removeListener('showPreferences', this.onShowPreferences)
     Event.off('hidePreferences', this.onHidePreferences)
     Event.off('hideGlyphCheck', this.onHideGlyphCheck)
-    Event.off('glyphIndexCreated', this.onGlyphIndexCreated)
+    // Event.off('glyphIndexCreated', this.onGlyphIndexCreated)
 ***REMOVED***,
 }
 </script>

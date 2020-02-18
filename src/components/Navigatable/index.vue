@@ -19,18 +19,18 @@ import GlyphIndex from '@/services/GlyphIndex'
 
 export default {
 
-  props: {
-    glyphIndex: {
-      default: null,
-      // required: true,
-  ***REMOVED***,
-***REMOVED***,
+  // props: {
+  //   glyphIndex: {
+  //     default: null,
+  //     // required: true,
+  // ***REMOVED***,
+  // },
 
   data() {
     return {
       // glyphIndex: null,
       query: '',
-      glyphs: [],
+      // glyphs: [],
       selection: {
         x: 0,
         y: 0,
@@ -53,14 +53,14 @@ export default {
 ***REMOVED***,
 
   computed: {
-    // glyphs() {
-    //   // console.log('computed glyphs')
-
-    //   return this.glyphIndex.search(this.query)
-    //   // return this.glyphIndex
-    //   //   ? this.glyphIndex.search(this.query)
-    //   //   : []
-    // },
+    glyphs() {
+      // console.log('computed glyphs')
+***REMOVED*** Glyphs.search(this.query)
+      // return this.glyphIndex.search(this.query)
+      // return this.glyphIndex
+      //   ? this.glyphIndex.search(this.query)
+      //   : []
+  ***REMOVED***,
 
     isSearch() {
 ***REMOVED*** this.query ? !!this.query.length : false
@@ -180,12 +180,12 @@ export default {
 ***REMOVED***,
 
   watch: {
-    query: {
-      immediate: true,
-      handler() {
-        this.updateGlyphs()
-    ***REMOVED***,
-  ***REMOVED***,
+    // query: {
+    //   immediate: true,
+    //   handler() {
+    //     this.updateGlyphs()
+    // ***REMOVED***,
+    // },
 
     glyphs: {
       immediate: true,
@@ -202,14 +202,14 @@ export default {
 ***REMOVED***,
 
   methods: {
-    updateGlyphs() {
-      if (!this.glyphIndex) {
-        this.glyphs = []
-  ***REMOVED***
-    ***REMOVED***
+    // updateGlyphs() {
+    //   if (!this.glyphIndex) {
+    //     this.glyphs = []
+    //     return
+    // ***REMOVED***
 
-      this.glyphs = this.glyphIndex.search(this.query)
-  ***REMOVED***,
+    //   this.glyphs = this.glyphIndex.search(this.query)
+    // },
 
     setQuery(query) {
       this.query = query
@@ -361,17 +361,17 @@ export default {
   ***REMOVED***,
 ***REMOVED***,
 
-  created() {
-    // const { glyphs, searchIndex } = GlyphIndex.getDB()
+  // created() {
+  //   // const { glyphs, searchIndex } = GlyphIndex.getDB()
 
-    // const glyphIndex = new Glyphs(glyphs)
-    // glyphIndex.importIndex(searchIndex)
+  //   // const glyphIndex = new Glyphs(glyphs)
+  //   // glyphIndex.importIndex(searchIndex)
 
-    // this.glyphIndex = glyphIndex
-    // this.glyphIndex.createIndex()
+  //   // this.glyphIndex = glyphIndex
+  //   // this.glyphIndex.createIndex()
 
-    // this.updateGlyphs()
-***REMOVED***,
+  //   // this.updateGlyphs()
+  // },
 
   mounted() {
     this.updateVisibleRows()

@@ -1,6 +1,9 @@
 {
   "name": "glyphfinder",
   "version": "0.1.0",
+  "productName": "Glyphfinder",
+  "author": "überdosis GbR <mail@ueber.io>",
+  "description": "A glyph finding app.",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

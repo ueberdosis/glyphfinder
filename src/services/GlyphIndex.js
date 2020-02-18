@@ -42,11 +42,10 @@ import Glyphs from './Glyphs'
 ***REMOVED***
 
   createSearchIndex(glyphs = []) {
-    return new Glyphs(glyphs).createIndex().exportIndex()
-***REMOVED***
-
-  exists() {
-    return !!this.getDB()
+    return Glyphs
+      .importGlyphs(glyphs)
+      .createIndex()
+      .exportIndex()
 ***REMOVED***
 
   getDB() {
@@ -63,8 +62,8 @@ import Glyphs from './Glyphs'
 
   createSupportedGlyphs() {
     return new Promise(resolve => {
-      const glyphs = collect(data).take(100).toArray()
-      // const glyphs = data
+      // const glyphs = collect(data).take(100).toArray()
+      const glyphs = data
       const glyphsCount = glyphs.length
       const supportedGlyphs = []
 
