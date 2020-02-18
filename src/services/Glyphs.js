@@ -2,7 +2,6 @@ import collect from 'collect.js'
 import FlexSearch from 'flexsearch'
 
 ***REMOVED***
-
 ***REMOVED***
     this.data = []
     this.index = new FlexSearch({
@@ -120,5 +119,4 @@ import FlexSearch from 'flexsearch'
       limit: 100000,
 ***REMOVED***
 ***REMOVED***
-
 ***REMOVED***

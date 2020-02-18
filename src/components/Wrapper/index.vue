@@ -19,7 +19,6 @@
 
 <script>
 import { ipcRenderer } from 'electron'
-// import Store from '@/services/Store'
 import Event from '@/services/Event'
 import Glyphs from '@/services/Glyphs'
 import GlyphIndex from '@/services/GlyphIndex'
@@ -51,7 +50,6 @@ export default {
     return {
       showPreferences: false,
       showGlyphCheck: !indexExists,
-      // showGlyphCheck: true,
   ***REMOVED***
 ***REMOVED***,
 
@@ -71,31 +69,18 @@ export default {
     onHideGlyphCheck() {
       this.showGlyphCheck = false
   ***REMOVED***,
-
-    // onGlyphIndexCreated(data) {
-    //   // console.log({ data })
-
-    //   const { glyphs, searchIndex } = data
-
-    //   const glyphIndex = new Glyphs(glyphs)
-    //   glyphIndex.importIndex(searchIndex)
-
-    //   this.glyphIndex = glyphIndex
-    // },
 ***REMOVED***,
 
   mounted() {
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)
     Event.on('hideGlyphCheck', this.onHideGlyphCheck)
-    // Event.on('glyphIndexCreated', this.onGlyphIndexCreated)
 ***REMOVED***,
 
   beforeDestroy() {
     ipcRenderer.removeListener('showPreferences', this.onShowPreferences)
     Event.off('hidePreferences', this.onHidePreferences)
     Event.off('hideGlyphCheck', this.onHideGlyphCheck)
-    // Event.off('glyphIndexCreated', this.onGlyphIndexCreated)
 ***REMOVED***,
 }
 </script>

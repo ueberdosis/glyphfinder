@@ -1,7 +1,5 @@
-
 import fs from 'fs'
 import path from 'path'
-import collect from 'collect.js'
 import electron from 'electron'
 import data from '../data/data.json'
 import Glyphs from './Glyphs'
@@ -62,7 +60,6 @@ import Glyphs from './Glyphs'
 
   createSupportedGlyphs() {
     return new Promise(resolve => {
-      // const glyphs = collect(data).take(100).toArray()
       const glyphs = data
       const glyphsCount = glyphs.length
       const supportedGlyphs = []
@@ -96,8 +93,6 @@ import Glyphs from './Glyphs'
             const isLastGlyph = index === glyphsCount - 1
 
             if (isLastGlyph) {
-              // Event.emit('supportedGlyphs', supportedGlyphs)
-              // Store.set('supportedGlyphs', supportedGlyphs)
               resolve(supportedGlyphs)
           ***REMOVED***
       ***REMOVED***

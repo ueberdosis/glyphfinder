@@ -1,10 +1,7 @@
 <template>
   <div class="preferences-overlay">
-    glyphcheck
-
+    generating glyphs {{ progress }} %
     <btn icon="close" @click.native="close" />
-
-    {{ progress }} %
   </div>
 </template>
 
