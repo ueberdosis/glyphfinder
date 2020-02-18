@@ -1,7 +1,12 @@
 module.exports = {
   // devServer: {
-  //   overlay: false,
+  //   overlay: {
+  //     warnings: false,
+  //     errors: false,
+  // ***REMOVED***,
   // },
+
+  lintOnSave: process.env.NODE_ENV === 'production',
 
   css: {
     loaderOptions: {
