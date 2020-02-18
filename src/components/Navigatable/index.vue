@@ -1,12 +1,22 @@
 <script>
 import collect from 'collect.js'
 import Store from '@/services/Store'
-import Glyphs from '@/services/Glyphs'
 
 export default {
+  props: {
+    glyphs: {
+      type: Array,
+      default: () => ([]),
+  ***REMOVED***,
+
+    showFrequentlyUsedGlyphs: {
+      type: Boolean,
+      default: true,
+  ***REMOVED***,
+***REMOVED***,
+
   data() {
     return {
-      query: '',
       selection: {
         x: 0,
         y: 0,
@@ -28,14 +38,6 @@ export default {
 ***REMOVED***,
 
   computed: {
-    glyphs() {
-***REMOVED*** Glyphs.search(this.query)
-  ***REMOVED***,
-
-    isSearch() {
-***REMOVED*** this.query ? !!this.query.length : false
-  ***REMOVED***,
-
     isEmpty() {
 ***REMOVED*** this.glyphs.length === 0
   ***REMOVED***,
@@ -48,7 +50,7 @@ export default {
   ***REMOVED***,
 
     frequentlyUsedGlyphs() {
-      if (this.isSearch) {
+      if (!this.showFrequentlyUsedGlyphs) {
   ***REMOVED*** []
     ***REMOVED***
 
@@ -70,7 +72,7 @@ export default {
     glyphRows() {
 ***REMOVED*** this.chunkGlyphs(this.formattedGlyphs)
         .map((row, index, array) => {
-          if (index === 0 && !this.isSearch && this.hasFrequentlyUsedGlyphs) {
+          if (index === 0 && this.hasFrequentlyUsedGlyphs) {
       ***REMOVED*** {
               ...row,
               title: 'Glyphs',
@@ -165,10 +167,6 @@ export default {
 ***REMOVED***,
 
   methods: {
-    setQuery(query) {
-      this.query = query
-  ***REMOVED***,
-
     setElement(element) {
       this.element = element
   ***REMOVED***,
@@ -326,7 +324,6 @@ export default {
 
   provide() {
     const navigatable = {
-      setQuery: this.setQuery,
       setElement: this.setElement,
       setSelection: this.setSelection,
       handleScroll: this.handleScroll,
@@ -368,7 +365,10 @@ export default {
 ***REMOVED***,
 
   render() {
-    return this.$scopedSlots.default()
+    return this.$scopedSlots.default({
+      rows: this.rows,
+      selectedGlyph: this.selectedGlyph,
+***REMOVED***
 ***REMOVED***,
 }
 </script>

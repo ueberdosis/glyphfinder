@@ -1,9 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="wrapper__content" :class="{ 'is-hidden': showPreferences }">
-      <navigatable v-if="!showGlyphCheck">
-        <glyph-wrapper />
-      </navigatable>
+      <glyph-wrapper v-if="!showGlyphCheck" />
       <div class="wrapper__content-overlay" />
     </div>
 
@@ -23,14 +21,12 @@ import Event from '@/services/Event'
 import Glyphs from '@/services/Glyphs'
 import GlyphIndex from '@/services/GlyphIndex'
 import GlyphWrapper from '@/components/GlyphWrapper'
-import Navigatable from '@/components/Navigatable'
 import PreferencesOverlay from '@/components/PreferencesOverlay'
 import GlyphCheckOverlay from '@/components/GlyphCheckOverlay'
 
 export default {
   components: {
     GlyphWrapper,
-    Navigatable,
     PreferencesOverlay,
     GlyphCheckOverlay,
 ***REMOVED***,
