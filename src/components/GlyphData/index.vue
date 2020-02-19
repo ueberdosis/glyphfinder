@@ -23,9 +23,9 @@
               Shortcut
             </div>
             <key-list :keys="shortcut" v-if="showShortcut" />
-            <template v-else>
+            <div class="glyph-data__empty" v-else>
               –
-            </template>
+            </div>
           </div>
 
           <div class="glyph-data__item">
@@ -33,9 +33,9 @@
               Entities
             </div>
             <entity-list :entities="entities" v-if="entities.length" />
-            <template v-else>
+            <div class="glyph-data__empty" v-else>
               –
-            </template>
+            </div>
           </div>
         </div>
       </slide-up-down>
