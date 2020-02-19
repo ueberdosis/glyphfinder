@@ -28,6 +28,13 @@ const {
 } = Matter
 
 export default {
+  props: {
+    hasMouse: {
+      type: Boolean,
+      default: true,
+  ***REMOVED***,
+***REMOVED***,
+
   data() {
     return {
       images: [],
@@ -152,30 +159,34 @@ export default {
         World.add(this.engine.world, body)
     ***REMOVED***
 
+      if (this.hasMouse) {
+        this.mouse = Mouse.create(document.body)
+        this.mouse.element.removeEventListener('mousewheel', this.mouse.mousewheel)
+        this.mouse.element.removeEventListener('DOMMouseScroll', this.mouse.mousewheel)
 
-      this.mouse = Mouse.create(document.body)
-      this.mouse.element.removeEventListener('mousewheel', this.mouse.mousewheel)
-      this.mouse.element.removeEventListener('DOMMouseScroll', this.mouse.mousewheel)
+        const { x, y } = this.getMousePosition()
 
-      const { x, y } = this.getMousePosition()
-
-      this.mouseBody = Bodies.circle(x, y, 15, {
-        mass: 2,
-        restitution: 0.8,
-        slop: 0,
-        friction: 0,
-        frictionAir: 0,
-        inertia: Infinity,
-        radius: 30,
-        render: {
-          fillStyle: 'rgba(0,0,0,0)',
-      ***REMOVED***,
-  ***REMOVED***
-      World.add(this.engine.world, this.mouseBody)
+        this.mouseBody = Bodies.circle(x, y, 15, {
+          mass: 2,
+          restitution: 0.8,
+          slop: 0,
+          friction: 0,
+          frictionAir: 0,
+          inertia: Infinity,
+          radius: 30,
+          render: {
+            fillStyle: 'rgba(0,0,0,0)',
+        ***REMOVED***,
+    ***REMOVED***
+        World.add(this.engine.world, this.mouseBody)
+    ***REMOVED***
 
       Engine.run(this.engine)
       Render.run(this.render)
-      Events.on(this.engine, 'afterUpdate', this.handleUpdate)
+
+      if (this.hasMouse) {
+        Events.on(this.engine, 'afterUpdate', this.handleUpdate)
+    ***REMOVED***
   ***REMOVED***,
 
     getMousePosition() {

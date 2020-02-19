@@ -1,7 +1,7 @@
 <template>
   <div class="glyph-check-overlay">
     generating glyphs {{ progress }} %
-    <floating-glyphs class="glyph-check-overlay__glyphs" />
+    <floating-glyphs class="glyph-check-overlay__glyphs" :has-mouse="false" />
   </div>
 </template>
 
