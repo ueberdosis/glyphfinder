@@ -18,7 +18,7 @@
       </div>
       <div class="glyph-wrapper__content">
         <!-- TODO: key is probably bad -->
-        <glyph-list :rows="rows" :key="rows.length" />
+        <glyph-list :rows="rows" :key="showFrequentlyUsedGlyphs" />
       </div>
       <glyph-data
         class="glyph-wrapper__overlay"
