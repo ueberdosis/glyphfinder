@@ -6,6 +6,7 @@
 
 <script>
 import copy from 'copy-to-clipboard'
+import Event from '@/services/Event'
 
 export default {
   props: {
@@ -26,6 +27,7 @@ export default {
       const copied = copy(this.fullName)
 
       if (copied) {
+        Event.emit('copied')
         console.log('copied', this.fullName)
     ***REMOVED*** else {
         console.log('copy failed')

@@ -41,6 +41,7 @@ export default {
       Glyphs
         .importGlyphs(glyphs)
         .importIndex(searchIndex)
+        // .createIndex()
   ***REMOVED***
 
     return {

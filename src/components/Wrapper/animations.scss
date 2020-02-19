@@ -8,3 +8,14 @@
 .options-leave-to {
   transform: translateY(100%) scale(1.1);
 }
+
+.clipboard-enter-active,
+.clipboard-leave-active {
+  transition: transform 0.2s $easeInOutQuad, opacity 0.2s $easeInOutQuad;
+}
+
+.clipboard-enter,
+.clipboard-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}

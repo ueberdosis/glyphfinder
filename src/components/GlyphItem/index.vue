@@ -19,6 +19,7 @@
 import collect from 'collect.js'
 import copy from 'copy-to-clipboard'
 import Store from '@/services/Store'
+import Event from '@/services/Event'
 
 export default {
   inject: ['navigatable'],
@@ -64,6 +65,7 @@ export default {
       this.increaseUsage()
 
       if (copied) {
+        Event.emit('copied')
         console.log('copied', this.glyph)
     ***REMOVED*** else {
         console.log('copy failed')
