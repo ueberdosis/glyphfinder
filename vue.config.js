@@ -28,6 +28,13 @@ module.exports = {
       .loader(nodeLoader)
       .end()
 
+    config.module
+      .rule('worker')
+      .test(/\.worker\.js$/i)
+      .use('worker-loader')
+      .loader('worker-loader')
+      .end()
+
     config.resolve.extensions.prepend('.node')
 ***REMOVED***,
 

@@ -70,6 +70,7 @@
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "vue-cli-plugin-electron-builder": "^1.4.5",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "worker-loader": "^2.0.0"
 ***REMOVED***
 }
