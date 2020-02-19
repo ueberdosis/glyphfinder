@@ -52,10 +52,11 @@ import FlexSearch from 'flexsearch'
           ...words,
           item.entities,
           item.category
-            .replace(/[0-9]/g, '')
+            .replace(/-[0-9]/g, '')
             .replace('-A', '')
             .replace('-B', ''),
           item.name
+            .replace(/-[0-9]/g, '')
             .replace(' a ', '')
             .replace(' an ', ''),
         ].join(' '),
