@@ -1,14 +1,20 @@
 <template>
   <div class="glyph-check-overlay">
     generating glyphs {{ progress }} %
+    <floating-glyphs class="glyph-check-overlay__glyphs" />
   </div>
 </template>
 
 <script>
+import FloatingGlyphs from '@/components/FloatingGlyphs'
 import Event from '@/services/Event'
 import GlyphIndex from '@/services/GlyphIndex'
 
 export default {
+  components: {
+    FloatingGlyphs,
+***REMOVED***,
+
   data() {
     return {
       progress: 0,
