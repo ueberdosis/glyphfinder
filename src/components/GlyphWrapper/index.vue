@@ -49,12 +49,16 @@ export default {
 ***REMOVED***,
 
   computed: {
-    glyphs() {
-***REMOVED*** Glyphs.search(this.query)
+    formattedQuery() {
+***REMOVED*** this.query ? this.query.trim() : ''
   ***REMOVED***,
 
     showFrequentlyUsedGlyphs() {
-***REMOVED*** this.query ? !this.query.length : true
+***REMOVED*** !this.formattedQuery.length
+  ***REMOVED***,
+
+    glyphs() {
+***REMOVED*** Glyphs.search(this.formattedQuery)
   ***REMOVED***,
 ***REMOVED***,
 
