@@ -1,5 +1,5 @@
 <template>
-  <div class="preferences-overlay">
+  <div class="glyph-check-overlay">
     generating glyphs {{ progress }} %
   </div>
 </template>
