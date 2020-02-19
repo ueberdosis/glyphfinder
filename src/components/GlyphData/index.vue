@@ -1,5 +1,5 @@
 <template>
-  <div class="glyph-data">
+  <div class="glyph-data" @click="navigatable.toggleExpand">
     <transition name="clipboard">
       <clipboard-badge class="glyph-data__clipboard" v-if="copied" />
     </transition>
@@ -9,17 +9,11 @@
         <div class="glyph-data__name" :title="glyph.name">
           {{ glyph.name }}
         </div>
-        <button
-          class="glyph-data__toggle"
-          type="button"
-          @click="navigatable.toggleExpand"
-        >
-          <icon
-            class="glyph-data__icon"
-            :class="{ 'is-active': navigatable.isExpanded }"
-            name="arrow-down"
-          />
-        </button>
+        <icon
+          class="glyph-data__icon"
+          :class="{ 'is-active': navigatable.isExpanded }"
+          name="arrow-down"
+        />
       </div>
 
       <slide-up-down :active="navigatable.isExpanded">

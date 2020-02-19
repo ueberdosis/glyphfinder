@@ -1,5 +1,5 @@
 <template>
-  <button class="entity" @click="copyToClipboard">
+  <button class="entity" @click.stop="copyToClipboard">
     {{ entity }}
   </button>
 </template>
