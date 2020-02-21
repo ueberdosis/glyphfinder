@@ -43,6 +43,15 @@ import DB from './DB'
 
   createSupportedGlyphs() {
     return new Promise(resolve => {
+      const glyphs = DB.glyphs()
+
+      if (glyphs) {
+        this.progressCallback(100)
+        resolve(glyphs)
+
+  ***REMOVED***
+    ***REMOVED***
+
       this.worker.postMessage('getSupportedGlyphs')
 
       this.worker.onmessage = event => {

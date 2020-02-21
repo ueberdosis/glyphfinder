@@ -38,7 +38,6 @@ export default {
       Glyphs
         .importGlyphs(DB.glyphs())
         .importIndex(DB.searchIndex())
-        // .createIndex()
   ***REMOVED***
 
     return {
