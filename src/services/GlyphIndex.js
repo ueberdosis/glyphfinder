@@ -3,30 +3,32 @@ import path from 'path'
 import electron from 'electron'
 // eslint-disable-next-line
 import Worker from 'worker-loader!./GlyphIndexWorker.js'
-import Glyphs from './Glyphs'
+import PromiseWorker from 'promise-worker'
 
 ***REMOVED***
 ***REMOVED***
     const userDataPath = (electron.app || electron.remote.app).getPath('userData')
 
     this.worker = new Worker()
+    this.promiseWorker = new PromiseWorker(this.worker)
     this.dbPath = path.join(userDataPath, 'db.json')
     this.progress = 0
 ***REMOVED***
 
   async create() {
     const glyphs = await this.createSupportedGlyphs()
-    const searchIndex = this.createSearchIndex(glyphs)
+
+    const searchIndex = await this.promiseWorker.postMessage({
+      type: 'createSearchIndex',
+      glyphs,
+***REMOVED***
 
     fs.writeFileSync(this.dbPath, JSON.stringify({
       glyphs,
       searchIndex,
 ***REMOVED***)
 
-    this.finishCallback({
-      glyphs,
-      searchIndex,
-***REMOVED***
+    this.finishCallback()
 ***REMOVED***
 
   onProgress(callback) {
@@ -39,13 +41,6 @@ import Glyphs from './Glyphs'
     this.finishCallback = callback
 
     return this
-***REMOVED***
-
-  createSearchIndex(glyphs = []) {
-    return Glyphs
-      .importGlyphs(glyphs)
-      .createIndex()
-      .exportIndex()
 ***REMOVED***
 
   getDB() {

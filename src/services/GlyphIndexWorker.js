@@ -1,3 +1,6 @@
+import registerPromiseWorker from 'promise-worker/register'
+import Glyphs from './Glyphs'
+
 class SupportedGlyphs {
   construct() {
     this.progress = 0
@@ -46,11 +49,24 @@ class SupportedGlyphs {
 
     return !missingCharBoxes.includes(imageData.toString())
 ***REMOVED***
+
+  createSearchIndex(glyphs = []) {
+    return Glyphs
+      .importGlyphs(glyphs)
+      .createIndex()
+      .exportIndex()
+***REMOVED***
 }
 
 // eslint-disable-next-line
-self.onmessage = event => {
-  if (event.data === 'getSupportedGlyphs') {
+self.onmessage = message => {
+  if (message.data === 'getSupportedGlyphs') {
     new SupportedGlyphs().init()
 ***REMOVED***
 }
+
+registerPromiseWorker(message => {
+  if (message.type === 'createSearchIndex') {
+    return new SupportedGlyphs().createSearchIndex(message.glyphs)
+***REMOVED***
+})

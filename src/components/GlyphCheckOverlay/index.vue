@@ -37,8 +37,7 @@ export default {
       .onProgress(progress => {
         this.progress = progress
   ***REMOVED***
-      .onFinish(data => {
-        Event.emit('glyphIndexCreated', data)
+      .onFinish(() => {
         this.close()
   ***REMOVED***
       .create()
