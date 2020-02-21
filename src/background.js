@@ -37,7 +37,7 @@ function createWindow() {
     transparent: true,
     backgroundColor: '#000',
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
   ***REMOVED***,
     icon: path.resolve(__dirname, 'build/icon.icns'),
 ***REMOVED***)
