@@ -4,4 +4,45 @@
   border-radius: 6px;
   overflow: hidden;
   padding: 16px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    h2 {
+      font-size: inherit;
+      color: $colorRed;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.1;
+      flex: 1 1 auto;
+  ***REMOVED***
+***REMOVED***
+
+  &__content {
+    font-size: 14px;
+    font-weight: 500;
+***REMOVED***
+
+  &__section {
+    margin-bottom: 24px;
+
+    > div:last-child {
+      &,
+      & > * {
+        pointer-events: all;
+        user-select: text;
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***
+
+  &__label {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba($colorWhite, 0.4);
+    margin-bottom: 4px;
+***REMOVED***
 }
