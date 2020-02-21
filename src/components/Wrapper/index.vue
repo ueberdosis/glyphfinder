@@ -17,9 +17,9 @@
 
 <script>
 import { ipcRenderer } from 'electron'
+import DB from '@/services/DB'
 import Event from '@/services/Event'
 import Glyphs from '@/services/Glyphs'
-import GlyphIndex from '@/services/GlyphIndex'
 import GlyphWrapper from '@/components/GlyphWrapper'
 import PreferencesOverlay from '@/components/PreferencesOverlay'
 import GlyphCheckOverlay from '@/components/GlyphCheckOverlay'
@@ -32,21 +32,18 @@ export default {
 ***REMOVED***,
 
   data() {
-    const DB = GlyphIndex.getDB()
-    const indexExists = !!DB
+    const dbExists = DB.glyphsExists() && DB.searchIndexExists()
 
-    if (indexExists) {
-      const { glyphs, searchIndex } = DB
-
+    if (dbExists) {
       Glyphs
-        .importGlyphs(glyphs)
-        .importIndex(searchIndex)
+        .importGlyphs(DB.glyphs())
+        .importIndex(DB.searchIndex())
         // .createIndex()
   ***REMOVED***
 
     return {
       showPreferences: false,
-      showGlyphCheck: !indexExists,
+      showGlyphCheck: !dbExists,
   ***REMOVED***
 ***REMOVED***,
 

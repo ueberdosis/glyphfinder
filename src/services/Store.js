@@ -1,10 +1,6 @@
-import fs from 'fs'
-import path from 'path'
 import Store from 'electron-store'
 import { app, remote } from 'electron'
-
-const userDataPath = (app || remote.app).getPath('userData')
-const dbPath = path.join(userDataPath, 'db.json')
+import DB from './DB'
 
 export default new Store({
   // configName: process.env.NODE_ENV === 'development'
@@ -15,7 +11,7 @@ export default new Store({
     : remote.app.getVersion(),
   migrations: {
     '1.0.0': store => {
-      fs.unlinkSync(dbPath)
+      DB.removeAll()
       store.clear()
   ***REMOVED***,
 ***REMOVED***,
