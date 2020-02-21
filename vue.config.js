@@ -21,6 +21,10 @@ module.exports = {
       ? 'node-loader'
       : 'native-ext-loader'
 
+    config
+      .output
+      .globalObject('(typeof self !== "undefined" ? self : this)')
+
     config.module
       .rule('node')
       .test(/\.node$/)
