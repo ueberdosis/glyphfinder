@@ -34,6 +34,10 @@ function createWindow() {
     resizable: false,
     fullscreen: false,
     titleBarStyle: 'hidden',
+    trafficLightPosition: {
+      x: 16,
+      y: 13,
+  ***REMOVED***,
     transparent: true,
     backgroundColor: '#000',
     webPreferences: {
