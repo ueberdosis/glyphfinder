@@ -44,6 +44,7 @@ module.exports = {
 
   pluginOptions: {
     electronBuilder: {
+      nodeIntegration: true,
       chainWebpackMainProcess: config => {
         const nodeLoader = process.env.NODE_ENV === 'development'
           ? 'node-loader'

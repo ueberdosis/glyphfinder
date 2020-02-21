@@ -27,3 +27,4 @@ yarn-error.log*
 #electron
 electron-builder.env
 certificate-mac.p12
+certificate-win.p12
