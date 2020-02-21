@@ -4,6 +4,7 @@ import electron from 'electron'
 // eslint-disable-next-line
 import Worker from 'worker-loader!./GlyphIndexWorker.js'
 import PromiseWorker from 'promise-worker'
+import Glyphs from './Glyphs'
 
 ***REMOVED***
 ***REMOVED***
@@ -27,6 +28,10 @@ import PromiseWorker from 'promise-worker'
       glyphs,
       searchIndex,
 ***REMOVED***)
+
+    Glyphs
+      .importGlyphs(glyphs)
+      .importIndex(searchIndex)
 
     this.finishCallback()
 ***REMOVED***
