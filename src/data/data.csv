@@ -238,8 +238,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 į,012F,303,latin small letter i with ogonek,Latin Extended-A,iogon,
 İ,0130,304,latin capital letter i with dot above,Latin Extended-A,Idot,
 ı,0131,305,latin small letter dotless i,Latin Extended-A,imath inodot,
-Ĳ,0132,306,latin capital ligature ij,Latin Extended-A,IJlig,
-ĳ,0133,307,latin small ligature ij,Latin Extended-A,ijlig,
+Ĳ,0132,306,latin capital ligature ij,Latin Extended-A,IJlig,IJ
+ĳ,0133,307,latin small ligature ij,Latin Extended-A,ijlig,ij
 Ĵ,0134,308,latin capital letter j with circumflex,Latin Extended-A,Jcirc,
 ĵ,0135,309,latin small letter j with circumflex,Latin Extended-A,jcirc,
 Ķ,0136,310,latin capital letter k with cedilla,Latin Extended-A,Kcedil,
@@ -698,7 +698,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ˻,02FB,763,modifier letter begin low tone,Spacing Modifier Letters,,
 ˼,02FC,764,modifier letter end low tone,Spacing Modifier Letters,,
 ˽,02FD,765,modifier letter shelf,Spacing Modifier Letters,,
-˾,02FE,766,modifier letter open shelf,Spacing Modifier Letters,,
+˾,02FE,766,modifier letter open shelf,Spacing Modifier Letters,,space
 ˿,02FF,767,modifier letter low left arrow,Spacing Modifier Letters,,<-
 ̀,0300,768,combining grave accent,Combining Diacritical Marks,,
 ́,0301,769,combining acute accent,Combining Diacritical Marks,,
@@ -777,16 +777,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ͊,034A,842,combining not tilde above,Combining Diacritical Marks,,
 ͋,034B,843,combining homothetic above,Combining Diacritical Marks,,
 ͌,034C,844,combining almost equal to above,Combining Diacritical Marks,,
-͍,034D,845,combining left right arrow below,Combining Diacritical Marks,,<->
-͎,034E,846,combining upwards arrow below,Combining Diacritical Marks,,^
+͍,034D,845,combining left right arrow below,Combining Diacritical Marks,,
+͎,034E,846,combining upwards arrow below,Combining Diacritical Marks,,
 ͏,034F,847,combining grapheme joiner,Combining Diacritical Marks,,
-͐,0350,848,combining right arrowhead above,Combining Diacritical Marks,,>
+͐,0350,848,combining right arrowhead above,Combining Diacritical Marks,,
 ͑,0351,849,combining left half ring above,Combining Diacritical Marks,,
 ͒,0352,850,combining fermata,Combining Diacritical Marks,,
 ͓,0353,851,combining x below,Combining Diacritical Marks,,
-͔,0354,852,combining left arrowhead below,Combining Diacritical Marks,,<
-͕,0355,853,combining right arrowhead below,Combining Diacritical Marks,,>
-͖,0356,854,combining right arrowhead and up arrowhead below,Combining Diacritical Marks,,>^
+͔,0354,852,combining left arrowhead below,Combining Diacritical Marks,,
+͕,0355,853,combining right arrowhead below,Combining Diacritical Marks,,
+͖,0356,854,combining right arrowhead and up arrowhead below,Combining Diacritical Marks,,
 ͗,0357,855,combining right half ring above,Combining Diacritical Marks,,
 ͘,0358,856,combining dot above right,Combining Diacritical Marks,,
 ͙,0359,857,combining asterisk below,Combining Diacritical Marks,,
@@ -798,7 +798,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ͟,035F,863,combining double macron below,Combining Diacritical Marks,,
 ͠,0360,864,combining double tilde,Combining Diacritical Marks,,
 ͡,0361,865,combining double inverted breve,Combining Diacritical Marks,,
-͢,0362,866,combining double rightwards arrow below,Combining Diacritical Marks,,->
+͢,0362,866,combining double rightwards arrow below,Combining Diacritical Marks,,
 ͣ,0363,867,combining latin small letter a,Combining Diacritical Marks,,
 ͤ,0364,868,combining latin small letter e,Combining Diacritical Marks,,
 ͥ,0365,869,combining latin small letter i,Combining Diacritical Marks,,
@@ -7427,21 +7427,21 @@ z,007A,122,latin small letter z,Basic Latin,,
 ℑ,2111,8465,black-letter capital i,Letterlike Symbols,Ifr Im image imagpart,blackletter I imaginary
 ℒ,2112,8466,script capital l,Letterlike Symbols,Laplacetrf Lscr lagran,
 ℓ,2113,8467,script small l,Letterlike Symbols,ell,
-℔,2114,8468,l b bar symbol,Letterlike Symbols,,
+℔,2114,8468,l b bar symbol,Letterlike Symbols,,lb
 ℕ,2115,8469,double-struck capital n,Letterlike Symbols,Nopf naturals,
-№,2116,8470,numero sign,Letterlike Symbols,numero,
-℗,2117,8471,sound recording copyright,Letterlike Symbols,copysr,
+№,2116,8470,numero sign,Letterlike Symbols,numero,no
+℗,2117,8471,sound recording copyright,Letterlike Symbols,copysr,p (p)
 ℘,2118,8472,script capital p,Letterlike Symbols,weierp wp,P power
 ℙ,2119,8473,double-struck capital p,Letterlike Symbols,Popf primes,
 ℚ,211A,8474,double-struck capital q,Letterlike Symbols,Qopf rationals,
 ℛ,211B,8475,script capital r,Letterlike Symbols,Rscr realine,
 ℜ,211C,8476,black-letter capital r,Letterlike Symbols,Re Rfr real realpart,R blackletter real part
-ℝ,211D,8477,double-struck capital r,Letterlike Symbols,Ropf reals,
-℞,211E,8478,prescription take,Letterlike Symbols,rx,
-℟,211F,8479,response,Letterlike Symbols,,
-℠,2120,8480,service mark,Letterlike Symbols,,
-℡,2121,8481,telephone sign,Letterlike Symbols,,
-℣,2123,8483,versicle,Letterlike Symbols,,
+ℝ,211D,8477,double-struck capital r,Letterlike Symbols,Ropf reals,r
+℞,211E,8478,prescription take,Letterlike Symbols,rx,r
+℟,211F,8479,response,Letterlike Symbols,,r
+℠,2120,8480,service mark,Letterlike Symbols,,sm
+℡,2121,8481,telephone sign,Letterlike Symbols,,tel
+℣,2123,8483,versicle,Letterlike Symbols,,v
 ℤ,2124,8484,double-struck capital z,Letterlike Symbols,Zopf integers,
 ℥,2125,8485,ounce sign,Letterlike Symbols,,
 Ω,2126,8486,ohm sign,Letterlike Symbols,,
@@ -7480,10 +7480,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⅈ,2148,8520,double-struck italic small i,Letterlike Symbols,ImaginaryI ii,
 ⅉ,2149,8521,double-struck italic small j,Letterlike Symbols,,
 ⅊,214A,8522,property line,Letterlike Symbols,,
-⅋,214B,8523,turned ampersand,Letterlike Symbols,,
+⅋,214B,8523,turned ampersand,Letterlike Symbols,,&
 ⅌,214C,8524,per sign,Letterlike Symbols,,
-⅍,214D,8525,aktieselskab,Letterlike Symbols,,
-ⅎ,214E,8526,turned small f,Letterlike Symbols,,
+⅍,214D,8525,aktieselskab,Letterlike Symbols,,a/s
+ⅎ,214E,8526,turned small f,Letterlike Symbols,,f
 ⅏,214F,8527,symbol for samaritan source,Letterlike Symbols,,
 ⅐,2150,8528,vulgar fraction one seventh,Number Forms,,1/7
 ⅑,2151,8529,vulgar fraction one ninth,Number Forms,,1/9
@@ -7501,38 +7501,38 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⅝,215D,8541,vulgar fraction five eighths,Number Forms,frac58,5/8
 ⅞,215E,8542,vulgar fraction seven eighths,Number Forms,frac78,7/8
 ⅟,215F,8543,fraction numerator one,Number Forms,,1/
-Ⅰ,2160,8544,roman numeral one,Number Forms,,1
-Ⅱ,2161,8545,roman numeral two,Number Forms,,2
-Ⅲ,2162,8546,roman numeral three,Number Forms,,3
-Ⅳ,2163,8547,roman numeral four,Number Forms,,4
-Ⅴ,2164,8548,roman numeral five,Number Forms,,5
-Ⅵ,2165,8549,roman numeral six,Number Forms,,6
-Ⅶ,2166,8550,roman numeral seven,Number Forms,,7
-Ⅷ,2167,8551,roman numeral eight,Number Forms,,8
-Ⅸ,2168,8552,roman numeral nine,Number Forms,,9
-Ⅹ,2169,8553,roman numeral ten,Number Forms,,10
-Ⅺ,216A,8554,roman numeral eleven,Number Forms,,11
-Ⅻ,216B,8555,roman numeral twelve,Number Forms,,12
-Ⅼ,216C,8556,roman numeral fifty,Number Forms,,50
-Ⅽ,216D,8557,roman numeral one hundred,Number Forms,,100
-Ⅾ,216E,8558,roman numeral five hundred,Number Forms,,500
-Ⅿ,216F,8559,roman numeral one thousand,Number Forms,,1000
-ⅰ,2170,8560,small roman numeral one,Number Forms,,1
-ⅱ,2171,8561,small roman numeral two,Number Forms,,2
-ⅲ,2172,8562,small roman numeral three,Number Forms,,3
-ⅳ,2173,8563,small roman numeral four,Number Forms,,4
-ⅴ,2174,8564,small roman numeral five,Number Forms,,5
-ⅵ,2175,8565,small roman numeral six,Number Forms,,6
-ⅶ,2176,8566,small roman numeral seven,Number Forms,,7
-ⅷ,2177,8567,small roman numeral eight,Number Forms,,8
-ⅸ,2178,8568,small roman numeral nine,Number Forms,,9
-ⅹ,2179,8569,small roman numeral ten,Number Forms,,10
-ⅺ,217A,8570,small roman numeral eleven,Number Forms,,11
-ⅻ,217B,8571,small roman numeral twelve,Number Forms,,12
-ⅼ,217C,8572,small roman numeral fifty,Number Forms,,50
-ⅽ,217D,8573,small roman numeral one hundred,Number Forms,,100
-ⅾ,217E,8574,small roman numeral five hundred,Number Forms,,500
-ⅿ,217F,8575,small roman numeral one thousand,Number Forms,,1000
+Ⅰ,2160,8544,roman numeral one,Number Forms,,1 I
+Ⅱ,2161,8545,roman numeral two,Number Forms,,2 II
+Ⅲ,2162,8546,roman numeral three,Number Forms,,3 III
+Ⅳ,2163,8547,roman numeral four,Number Forms,,4 IV
+Ⅴ,2164,8548,roman numeral five,Number Forms,,5 V
+Ⅵ,2165,8549,roman numeral six,Number Forms,,6 VI
+Ⅶ,2166,8550,roman numeral seven,Number Forms,,7 VII
+Ⅷ,2167,8551,roman numeral eight,Number Forms,,8 VIII
+Ⅸ,2168,8552,roman numeral nine,Number Forms,,9 IX
+Ⅹ,2169,8553,roman numeral ten,Number Forms,,10 X
+Ⅺ,216A,8554,roman numeral eleven,Number Forms,,11 XI
+Ⅻ,216B,8555,roman numeral twelve,Number Forms,,12 XII
+Ⅼ,216C,8556,roman numeral fifty,Number Forms,,50 L
+Ⅽ,216D,8557,roman numeral one hundred,Number Forms,,100 C
+Ⅾ,216E,8558,roman numeral five hundred,Number Forms,,500 D
+Ⅿ,216F,8559,roman numeral one thousand,Number Forms,,1000 M
+ⅰ,2170,8560,small roman numeral one,Number Forms,,1 i
+ⅱ,2171,8561,small roman numeral two,Number Forms,,2 ii
+ⅲ,2172,8562,small roman numeral three,Number Forms,,3 iii
+ⅳ,2173,8563,small roman numeral four,Number Forms,,4 iv
+ⅴ,2174,8564,small roman numeral five,Number Forms,,5 v
+ⅵ,2175,8565,small roman numeral six,Number Forms,,6 vi
+ⅶ,2176,8566,small roman numeral seven,Number Forms,,7 vii
+ⅷ,2177,8567,small roman numeral eight,Number Forms,,8 vii
+ⅸ,2178,8568,small roman numeral nine,Number Forms,,9 ix
+ⅹ,2179,8569,small roman numeral ten,Number Forms,,10 x
+ⅺ,217A,8570,small roman numeral eleven,Number Forms,,11 xi
+ⅻ,217B,8571,small roman numeral twelve,Number Forms,,12 xi
+ⅼ,217C,8572,small roman numeral fifty,Number Forms,,50 l
+ⅽ,217D,8573,small roman numeral one hundred,Number Forms,,100 c
+ⅾ,217E,8574,small roman numeral five hundred,Number Forms,,500 d
+ⅿ,217F,8575,small roman numeral one thousand,Number Forms,,1000 m
 ↀ,2180,8576,roman numeral one thousand c d,Number Forms,,1000
 ↁ,2181,8577,roman numeral five thousand,Number Forms,,5000
 ↂ,2182,8578,roman numeral ten thousand,Number Forms,,10000
@@ -7887,10 +7887,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⋫,22EB,8939,does not contain as normal subgroup,Mathematical Operators,NotRightTriangle nrtri ntriangleright,
 ⋬,22EC,8940,not normal subgroup of or equal to,Mathematical Operators,NotLeftTriangleEqual nltrie ntrianglelefteq,
 ⋭,22ED,8941,does not contain as normal subgroup or equal,Mathematical Operators,NotRightTriangleEqual nrtrie ntrianglerighteq,
-⋮,22EE,8942,vertical ellipsis,Mathematical Operators,vellip,
-⋯,22EF,8943,midline horizontal ellipsis,Mathematical Operators,ctdot,
-⋰,22F0,8944,up right diagonal ellipsis,Mathematical Operators,utdot,
-⋱,22F1,8945,down right diagonal ellipsis,Mathematical Operators,dtdot,
+⋮,22EE,8942,vertical ellipsis,Mathematical Operators,vellip,. ...
+⋯,22EF,8943,midline horizontal ellipsis,Mathematical Operators,ctdot,. ...
+⋰,22F0,8944,up right diagonal ellipsis,Mathematical Operators,utdot,. ...
+⋱,22F1,8945,down right diagonal ellipsis,Mathematical Operators,dtdot,. ...
 ⋲,22F2,8946,element of with long horizontal stroke,Mathematical Operators,disin,
 ⋳,22F3,8947,element of with vertical bar at end of horizontal stroke,Mathematical Operators,isinsv,
 ⋴,22F4,8948,small element of with vertical bar at end of horizontal stroke,Mathematical Operators,isins,
@@ -7927,7 +7927,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌓,2313,8979,segment,Miscellaneous Technical,profsurf,
 ⌔,2314,8980,sector,Miscellaneous Technical,,
 ⌕,2315,8981,telephone recorder,Miscellaneous Technical,telrec,
-⌖,2316,8982,position indicator,Miscellaneous Technical,target,
+⌖,2316,8982,position indicator,Miscellaneous Technical,target,target
 ⌗,2317,8983,viewdata square,Miscellaneous Technical,,# hash
 ⌘,2318,8984,place of interest sign,Miscellaneous Technical,,command meta macos os
 ⌙,2319,8985,turned not sign,Miscellaneous Technical,,
@@ -7939,7 +7939,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⌡,2321,8993,bottom half integral,Miscellaneous Technical,,
 ⌢,2322,8994,frown,Miscellaneous Technical,frown sfrown,
 ⌣,2323,8995,smile,Miscellaneous Technical,smile ssmile,
-⌤,2324,8996,up arrowhead between two horizontal bars,Miscellaneous Technical,,
+⌤,2324,8996,up arrowhead between two horizontal bars,Miscellaneous Technical,,^
 ⌥,2325,8997,option key,Miscellaneous Technical,,alt option macos os
 ⌦,2326,8998,erase to the right,Miscellaneous Technical,,delete remove
 ⌧,2327,8999,x in a rectangle box,Miscellaneous Technical,,
@@ -7971,10 +7971,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⍂,2342,9026,apl functional symbol quad backslash,Miscellaneous Technical,,
 ⍃,2343,9027,apl functional symbol quad less-than,Miscellaneous Technical,,
 ⍄,2344,9028,apl functional symbol quad greater-than,Miscellaneous Technical,,
-⍅,2345,9029,apl functional symbol leftwards vane,Miscellaneous Technical,,
-⍆,2346,9030,apl functional symbol rightwards vane,Miscellaneous Technical,,
-⍇,2347,9031,apl functional symbol quad leftwards arrow,Miscellaneous Technical,,
-⍈,2348,9032,apl functional symbol quad rightwards arrow,Miscellaneous Technical,,
+⍅,2345,9029,apl functional symbol leftwards vane,Miscellaneous Technical,,<-
+⍆,2346,9030,apl functional symbol rightwards vane,Miscellaneous Technical,,->
+⍇,2347,9031,apl functional symbol quad leftwards arrow,Miscellaneous Technical,,<-
+⍈,2348,9032,apl functional symbol quad rightwards arrow,Miscellaneous Technical,,->
 ⍉,2349,9033,apl functional symbol circle backslash,Miscellaneous Technical,,
 ⍊,234A,9034,apl functional symbol down tack underbar,Miscellaneous Technical,,
 ⍋,234B,9035,apl functional symbol delta stile,Miscellaneous Technical,,
@@ -8053,9 +8053,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⎔,2394,9108,software-function symbol,Miscellaneous Technical,,
 ⎕,2395,9109,apl functional symbol quad,Miscellaneous Technical,,
 ⎖,2396,9110,decimal separator key symbol,Miscellaneous Technical,,
-⎗,2397,9111,previous page,Miscellaneous Technical,,
-⎘,2398,9112,next page,Miscellaneous Technical,,
-⎙,2399,9113,print screen symbol,Miscellaneous Technical,,
+⎗,2397,9111,previous page,Miscellaneous Technical,,paper
+⎘,2398,9112,next page,Miscellaneous Technical,,paper
+⎙,2399,9113,print screen symbol,Miscellaneous Technical,,paper
 ⎚,239A,9114,clear screen symbol,Miscellaneous Technical,,
 ⎛,239B,9115,left parenthesis upper hook,Miscellaneous Technical,,
 ⎜,239C,9116,left parenthesis extension,Miscellaneous Technical,,
@@ -8108,7 +8108,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⏋,23CB,9163,dentistry symbol light vertical and top left,Miscellaneous Technical,,
 ⏌,23CC,9164,dentistry symbol light vertical and bottom left,Miscellaneous Technical,,
 ⏍,23CD,9165,square foot,Miscellaneous Technical,,
-⏎,23CE,9166,return symbol,Miscellaneous Technical,,
+⏎,23CE,9166,return symbol,Miscellaneous Technical,,arrow <-
 ⏐,23D0,9168,vertical line extension,Miscellaneous Technical,,
 ⏑,23D1,9169,metrical breve,Miscellaneous Technical,,
 ⏒,23D2,9170,metrical long over short,Miscellaneous Technical,,
@@ -8123,17 +8123,17 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⏛,23DB,9179,fuse,Miscellaneous Technical,,
 ⏜,23DC,9180,top parenthesis,Miscellaneous Technical,OverParenthesis,
 ⏝,23DD,9181,bottom parenthesis,Miscellaneous Technical,UnderParenthesis,
-⏞,23DE,9182,top curly bracket,Miscellaneous Technical,OverBrace,
-⏟,23DF,9183,bottom curly bracket,Miscellaneous Technical,UnderBrace,
-⏠,23E0,9184,top tortoise shell bracket,Miscellaneous Technical,,
-⏡,23E1,9185,bottom tortoise shell bracket,Miscellaneous Technical,,
+⏞,23DE,9182,top curly bracket,Miscellaneous Technical,OverBrace,{ }
+⏟,23DF,9183,bottom curly bracket,Miscellaneous Technical,UnderBrace,{ }
+⏠,23E0,9184,top tortoise shell bracket,Miscellaneous Technical,,( )
+⏡,23E1,9185,bottom tortoise shell bracket,Miscellaneous Technical,,( )
 ⏢,23E2,9186,white trapezium,Miscellaneous Technical,trpezium,
 ⏣,23E3,9187,benzene ring with circle,Miscellaneous Technical,,
-⏤,23E4,9188,straightness,Miscellaneous Technical,,
+⏤,23E4,9188,straightness,Miscellaneous Technical,,-
 ⏥,23E5,9189,flatness,Miscellaneous Technical,,
 ⏦,23E6,9190,ac current,Miscellaneous Technical,,
 ⏧,23E7,9191,electrical intersection,Miscellaneous Technical,elinters,
-⏨,23E8,9192,decimal exponent symbol,Miscellaneous Technical,,
+⏨,23E8,9192,decimal exponent symbol,Miscellaneous Technical,,10
 ⏴,23F4,9204,black medium left-pointing triangle,Miscellaneous Technical,,
 ⏵,23F5,9205,black medium right-pointing triangle,Miscellaneous Technical,,
 ⏶,23F6,9206,black medium up-pointing triangle,Miscellaneous Technical,,
@@ -8181,7 +8181,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ␣,2423,9251,open box,Control Pictures,blank,space
 ␤,2424,9252,symbol for newline,Control Pictures,,nl
 ␥,2425,9253,symbol for delete form two,Control Pictures,,
-␦,2426,9254,symbol for substitute form two,Control Pictures,,
+␦,2426,9254,symbol for substitute form two,Control Pictures,,?
 ⑀,2440,9280,ocr hook,Optical Character Recognition,,
 ⑁,2441,9281,ocr chair,Optical Character Recognition,,
 ⑂,2442,9282,ocr fork,Optical Character Recognition,,
@@ -8192,7 +8192,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⑇,2447,9287,ocr amount of check,Optical Character Recognition,,
 ⑈,2448,9288,ocr dash,Optical Character Recognition,,
 ⑉,2449,9289,ocr customer account number,Optical Character Recognition,,
-⑊,244A,9290,ocr double backslash,Optical Character Recognition,,
+⑊,244A,9290,ocr double backslash,Optical Character Recognition,,\\
 ①,2460,9312,circled digit one,Enclosed Alphanumerics,,1 (1)
 ②,2461,9313,circled digit two,Enclosed Alphanumerics,,2 (2)
 ③,2462,9314,circled digit three,Enclosed Alphanumerics,,3 (3)
@@ -8354,16 +8354,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⓿,24FF,9471,negative circled digit zero,Enclosed Alphanumerics,,0 (0)
 ─,2500,9472,box drawings light horizontal,Box Drawing,HorizontalLine boxh,-
 ━,2501,9473,box drawings heavy horizontal,Box Drawing,,-
-│,2502,9474,box drawings light vertical,Box Drawing,boxv,
-┃,2503,9475,box drawings heavy vertical,Box Drawing,,
+│,2502,9474,box drawings light vertical,Box Drawing,boxv,|
+┃,2503,9475,box drawings heavy vertical,Box Drawing,,|
 ┄,2504,9476,box drawings light triple dash horizontal,Box Drawing,,---
 ┅,2505,9477,box drawings heavy triple dash horizontal,Box Drawing,,---
-┆,2506,9478,box drawings light triple dash vertical,Box Drawing,,
-┇,2507,9479,box drawings heavy triple dash vertical,Box Drawing,,
+┆,2506,9478,box drawings light triple dash vertical,Box Drawing,,---
+┇,2507,9479,box drawings heavy triple dash vertical,Box Drawing,,---
 ┈,2508,9480,box drawings light quadruple dash horizontal,Box Drawing,,----
 ┉,2509,9481,box drawings heavy quadruple dash horizontal,Box Drawing,,----
-┊,250A,9482,box drawings light quadruple dash vertical,Box Drawing,,
-┋,250B,9483,box drawings heavy quadruple dash vertical,Box Drawing,,
+┊,250A,9482,box drawings light quadruple dash vertical,Box Drawing,,----
+┋,250B,9483,box drawings heavy quadruple dash vertical,Box Drawing,,----
 ┌,250C,9484,box drawings light down and right,Box Drawing,boxdr,
 ┍,250D,9485,box drawings down light and right heavy,Box Drawing,,
 ┎,250E,9486,box drawings down heavy and right light,Box Drawing,,
@@ -8412,27 +8412,27 @@ z,007A,122,latin small letter z,Basic Latin,,
 ┹,2539,9529,box drawings right light and left up heavy,Box Drawing,,
 ┺,253A,9530,box drawings left light and right up heavy,Box Drawing,,
 ┻,253B,9531,box drawings heavy up and horizontal,Box Drawing,,
-┼,253C,9532,box drawings light vertical and horizontal,Box Drawing,boxvh,
-┽,253D,9533,box drawings left heavy and right vertical light,Box Drawing,,
-┾,253E,9534,box drawings right heavy and left vertical light,Box Drawing,,
-┿,253F,9535,box drawings vertical light and horizontal heavy,Box Drawing,,
-╀,2540,9536,box drawings up heavy and down horizontal light,Box Drawing,,
-╁,2541,9537,box drawings down heavy and up horizontal light,Box Drawing,,
-╂,2542,9538,box drawings vertical heavy and horizontal light,Box Drawing,,
-╃,2543,9539,box drawings left up heavy and right down light,Box Drawing,,
-╄,2544,9540,box drawings right up heavy and left down light,Box Drawing,,
-╅,2545,9541,box drawings left down heavy and right up light,Box Drawing,,
-╆,2546,9542,box drawings right down heavy and left up light,Box Drawing,,
-╇,2547,9543,box drawings down light and up horizontal heavy,Box Drawing,,
-╈,2548,9544,box drawings up light and down horizontal heavy,Box Drawing,,
-╉,2549,9545,box drawings right light and left vertical heavy,Box Drawing,,
-╊,254A,9546,box drawings left light and right vertical heavy,Box Drawing,,
-╋,254B,9547,box drawings heavy vertical and horizontal,Box Drawing,,
-╌,254C,9548,box drawings light double dash horizontal,Box Drawing,,
-╍,254D,9549,box drawings heavy double dash horizontal,Box Drawing,,
-╎,254E,9550,box drawings light double dash vertical,Box Drawing,,
-╏,254F,9551,box drawings heavy double dash vertical,Box Drawing,,
-═,2550,9552,box drawings double horizontal,Box Drawing,boxH,
+┼,253C,9532,box drawings light vertical and horizontal,Box Drawing,boxvh,+
+┽,253D,9533,box drawings left heavy and right vertical light,Box Drawing,,+
+┾,253E,9534,box drawings right heavy and left vertical light,Box Drawing,,+
+┿,253F,9535,box drawings vertical light and horizontal heavy,Box Drawing,,+
+╀,2540,9536,box drawings up heavy and down horizontal light,Box Drawing,,+
+╁,2541,9537,box drawings down heavy and up horizontal light,Box Drawing,,+
+╂,2542,9538,box drawings vertical heavy and horizontal light,Box Drawing,,+
+╃,2543,9539,box drawings left up heavy and right down light,Box Drawing,,+
+╄,2544,9540,box drawings right up heavy and left down light,Box Drawing,,+
+╅,2545,9541,box drawings left down heavy and right up light,Box Drawing,,+
+╆,2546,9542,box drawings right down heavy and left up light,Box Drawing,,+
+╇,2547,9543,box drawings down light and up horizontal heavy,Box Drawing,,+
+╈,2548,9544,box drawings up light and down horizontal heavy,Box Drawing,,+
+╉,2549,9545,box drawings right light and left vertical heavy,Box Drawing,,+
+╊,254A,9546,box drawings left light and right vertical heavy,Box Drawing,,+
+╋,254B,9547,box drawings heavy vertical and horizontal,Box Drawing,,+
+╌,254C,9548,box drawings light double dash horizontal,Box Drawing,,--
+╍,254D,9549,box drawings heavy double dash horizontal,Box Drawing,,--
+╎,254E,9550,box drawings light double dash vertical,Box Drawing,,--
+╏,254F,9551,box drawings heavy double dash vertical,Box Drawing,,--
+═,2550,9552,box drawings double horizontal,Box Drawing,boxH,=
 ║,2551,9553,box drawings double vertical,Box Drawing,boxV,
 ╒,2552,9554,box drawings down single and right double,Box Drawing,boxdR,
 ╓,2553,9555,box drawings down double and right single,Box Drawing,boxDr,
@@ -8465,9 +8465,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ╮,256E,9582,box drawings light arc down and left,Box Drawing,,
 ╯,256F,9583,box drawings light arc up and left,Box Drawing,,
 ╰,2570,9584,box drawings light arc up and right,Box Drawing,,
-╱,2571,9585,box drawings light diagonal upper right to lower left,Box Drawing,,
-╲,2572,9586,box drawings light diagonal upper left to lower right,Box Drawing,,
-╳,2573,9587,box drawings light diagonal cross,Box Drawing,,
+╱,2571,9585,box drawings light diagonal upper right to lower left,Box Drawing,,/
+╲,2572,9586,box drawings light diagonal upper left to lower right,Box Drawing,,\
+╳,2573,9587,box drawings light diagonal cross,Box Drawing,,x
 ╴,2574,9588,box drawings light left,Box Drawing,,
 ╵,2575,9589,box drawings light up,Box Drawing,,
 ╶,2576,9590,box drawings light right,Box Drawing,,
@@ -8516,12 +8516,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 □,25A1,9633,white square,Geometric Shapes,Square squ square,
 ▢,25A2,9634,white square with rounded corners,Geometric Shapes,,
 ▣,25A3,9635,white square containing black small square,Geometric Shapes,,
-▤,25A4,9636,square with horizontal fill,Geometric Shapes,,
-▥,25A5,9637,square with vertical fill,Geometric Shapes,,
-▦,25A6,9638,square with orthogonal crosshatch fill,Geometric Shapes,,
-▧,25A7,9639,square with upper left to lower right fill,Geometric Shapes,,
-▨,25A8,9640,square with upper right to lower left fill,Geometric Shapes,,
-▩,25A9,9641,square with diagonal crosshatch fill,Geometric Shapes,,
+▤,25A4,9636,square with horizontal fill,Geometric Shapes,,pattern
+▥,25A5,9637,square with vertical fill,Geometric Shapes,,pattern
+▦,25A6,9638,square with orthogonal crosshatch fill,Geometric Shapes,,pattern
+▧,25A7,9639,square with upper left to lower right fill,Geometric Shapes,,pattern
+▨,25A8,9640,square with upper right to lower left fill,Geometric Shapes,,pattern
+▩,25A9,9641,square with diagonal crosshatch fill,Geometric Shapes,,pattern
 ▬,25AC,9644,black rectangle,Geometric Shapes,,
 ▭,25AD,9645,white rectangle,Geometric Shapes,rect,
 ▮,25AE,9646,black vertical rectangle,Geometric Shapes,marker,
@@ -8553,7 +8553,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ◊,25CA,9674,lozenge,Geometric Shapes,loz lozenge,<> lozenge diamond
 ○,25CB,9675,white circle,Geometric Shapes,cir,
 ◌,25CC,9676,dotted circle,Geometric Shapes,,
-◍,25CD,9677,circle with vertical fill,Geometric Shapes,,
+◍,25CD,9677,circle with vertical fill,Geometric Shapes,,pattern
 ◎,25CE,9678,bullseye,Geometric Shapes,,
 ●,25CF,9679,black circle,Geometric Shapes,,
 ◐,25D0,9680,circle with left half black,Geometric Shapes,,
@@ -8592,16 +8592,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ◱,25F1,9713,white square with lower left quadrant,Geometric Shapes,,
 ◲,25F2,9714,white square with lower right quadrant,Geometric Shapes,,
 ◳,25F3,9715,white square with upper right quadrant,Geometric Shapes,,
-◴,25F4,9716,white circle with upper left quadrant,Geometric Shapes,,
-◵,25F5,9717,white circle with lower left quadrant,Geometric Shapes,,
-◶,25F6,9718,white circle with lower right quadrant,Geometric Shapes,,
-◷,25F7,9719,white circle with upper right quadrant,Geometric Shapes,,
+◴,25F4,9716,white circle with upper left quadrant,Geometric Shapes,,chart
+◵,25F5,9717,white circle with lower left quadrant,Geometric Shapes,,chart
+◶,25F6,9718,white circle with lower right quadrant,Geometric Shapes,,chart
+◷,25F7,9719,white circle with upper right quadrant,Geometric Shapes,,chart
 ◸,25F8,9720,upper left triangle,Geometric Shapes,ultri,
 ◹,25F9,9721,upper right triangle,Geometric Shapes,urtri,
 ◺,25FA,9722,lower left triangle,Geometric Shapes,lltri,
 ◿,25FF,9727,lower right triangle,Geometric Shapes,,
-★,2605,9733,black star,Miscellaneous Symbols,bigstar starf,
-☆,2606,9734,white star,Miscellaneous Symbols,star,
+★,2605,9733,black star,Miscellaneous Symbols,bigstar starf,*
+☆,2606,9734,white star,Miscellaneous Symbols,star,*
 ☇,2607,9735,lightning,Miscellaneous Symbols,,
 ☈,2608,9736,thunderstorm,Miscellaneous Symbols,,
 ☉,2609,9737,sun,Miscellaneous Symbols,,
@@ -8609,24 +8609,24 @@ z,007A,122,latin small letter z,Basic Latin,,
 ☋,260B,9739,descending node,Miscellaneous Symbols,,
 ☌,260C,9740,conjunction,Miscellaneous Symbols,,
 ☍,260D,9741,opposition,Miscellaneous Symbols,,
-☏,260F,9743,white telephone,Miscellaneous Symbols,,
+☏,260F,9743,white telephone,Miscellaneous Symbols,,phone
 ☐,2610,9744,ballot box,Miscellaneous Symbols,,
 ☒,2612,9746,ballot box with x,Miscellaneous Symbols,,
-☓,2613,9747,saltire,Miscellaneous Symbols,,
+☓,2613,9747,saltire,Miscellaneous Symbols,,x
 ☖,2616,9750,white shogi piece,Miscellaneous Symbols,,
 ☗,2617,9751,black shogi piece,Miscellaneous Symbols,,
 ☙,2619,9753,reversed rotated floral heart bullet,Miscellaneous Symbols,,
 ☚,261A,9754,black left pointing index,Miscellaneous Symbols,,
 ☛,261B,9755,black right pointing index,Miscellaneous Symbols,,
-☜,261C,9756,white left pointing index,Miscellaneous Symbols,,
-☞,261E,9758,white right pointing index,Miscellaneous Symbols,,
-☟,261F,9759,white down pointing index,Miscellaneous Symbols,,
+☜,261C,9756,white left pointing index,Miscellaneous Symbols,,<
+☞,261E,9758,white right pointing index,Miscellaneous Symbols,,>
+☟,261F,9759,white down pointing index,Miscellaneous Symbols,,v
 ☡,2621,9761,caution sign,Miscellaneous Symbols,,
 ☤,2624,9764,caduceus,Miscellaneous Symbols,,
 ☥,2625,9765,ankh,Miscellaneous Symbols,,
 ☧,2627,9767,chi rho,Miscellaneous Symbols,,
-☨,2628,9768,cross of lorraine,Miscellaneous Symbols,,
-☩,2629,9769,cross of jerusalem,Miscellaneous Symbols,,
+☨,2628,9768,cross of lorraine,Miscellaneous Symbols,,t
+☩,2629,9769,cross of jerusalem,Miscellaneous Symbols,,+ target
 ☫,262B,9771,farsi symbol,Miscellaneous Symbols,,
 ☬,262C,9772,adi shakti,Miscellaneous Symbols,,
 ☭,262D,9773,hammer and sickle,Miscellaneous Symbols,,
@@ -8759,10 +8759,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⛡,26E1,9953,restricted left entry-2,Miscellaneous Symbols,,
 ⛢,26E2,9954,astronomical symbol for uranus,Miscellaneous Symbols,,
 ⛣,26E3,9955,heavy circle with stroke and two dots above,Miscellaneous Symbols,,
-⛤,26E4,9956,pentagram,Miscellaneous Symbols,,
+⛤,26E4,9956,pentagram,Miscellaneous Symbols,,star *
 ⛥,26E5,9957,right-handed interlaced pentagram,Miscellaneous Symbols,,
 ⛦,26E6,9958,left-handed interlaced pentagram,Miscellaneous Symbols,,
-⛧,26E7,9959,inverted pentagram,Miscellaneous Symbols,,
+⛧,26E7,9959,inverted pentagram,Miscellaneous Symbols,,star *
 ⛨,26E8,9960,black cross on shield,Miscellaneous Symbols,,
 ⛫,26EB,9963,castle,Miscellaneous Symbols,,
 ⛬,26EC,9964,historic site,Miscellaneous Symbols,,
@@ -8791,8 +8791,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ✚,271A,10010,heavy greek cross,Dingbats,,+
 ✛,271B,10011,open centre cross,Dingbats,,+
 ✜,271C,10012,heavy open centre cross,Dingbats,,+
-✞,271E,10014,shadowed white latin cross,Dingbats,,+
-✟,271F,10015,outlined latin cross,Dingbats,,+
+✞,271E,10014,shadowed white latin cross,Dingbats,,+ t
+✟,271F,10015,outlined latin cross,Dingbats,,+ t
 ✠,2720,10016,maltese cross,Dingbats,malt maltese,+
 ✢,2722,10018,four teardrop-spoked asterisk,Dingbats,,+
 ✣,2723,10019,four balloon-spoked asterisk,Dingbats,,+
@@ -8986,17 +8986,17 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⟲,27F2,10226,anticlockwise gapped circle arrow,Supplemental Arrows-A,,
 ⟳,27F3,10227,clockwise gapped circle arrow,Supplemental Arrows-A,,
 ⟴,27F4,10228,right arrow with circled plus,Supplemental Arrows-A,,
-⟵,27F5,10229,long leftwards arrow,Supplemental Arrows-A,LongLeftArrow longleftarrow xlarr,
-⟶,27F6,10230,long rightwards arrow,Supplemental Arrows-A,LongRightArrow longrightarrow xrarr,
-⟷,27F7,10231,long left right arrow,Supplemental Arrows-A,LongLeftRightArrow longleftrightarrow xharr,
-⟸,27F8,10232,long leftwards double arrow,Supplemental Arrows-A,DoubleLongLeftArrow Longleftarrow xlArr,
-⟹,27F9,10233,long rightwards double arrow,Supplemental Arrows-A,DoubleLongRightArrow Longrightarrow xrArr,
-⟺,27FA,10234,long left right double arrow,Supplemental Arrows-A,DoubleLongLeftRightArrow Longleftrightarrow xhArr,
-⟻,27FB,10235,long leftwards arrow from bar,Supplemental Arrows-A,,
-⟼,27FC,10236,long rightwards arrow from bar,Supplemental Arrows-A,longmapsto xmap,
-⟽,27FD,10237,long leftwards double arrow from bar,Supplemental Arrows-A,,
-⟾,27FE,10238,long rightwards double arrow from bar,Supplemental Arrows-A,,
-⟿,27FF,10239,long rightwards squiggle arrow,Supplemental Arrows-A,dzigrarr,
+⟵,27F5,10229,long leftwards arrow,Supplemental Arrows-A,LongLeftArrow longleftarrow xlarr,<-
+⟶,27F6,10230,long rightwards arrow,Supplemental Arrows-A,LongRightArrow longrightarrow xrarr,->
+⟷,27F7,10231,long left right arrow,Supplemental Arrows-A,LongLeftRightArrow longleftrightarrow xharr,<->
+⟸,27F8,10232,long leftwards double arrow,Supplemental Arrows-A,DoubleLongLeftArrow Longleftarrow xlArr,<= <-
+⟹,27F9,10233,long rightwards double arrow,Supplemental Arrows-A,DoubleLongRightArrow Longrightarrow xrArr,=> ->
+⟺,27FA,10234,long left right double arrow,Supplemental Arrows-A,DoubleLongLeftRightArrow Longleftrightarrow xhArr,<=> <->
+⟻,27FB,10235,long leftwards arrow from bar,Supplemental Arrows-A,,<-
+⟼,27FC,10236,long rightwards arrow from bar,Supplemental Arrows-A,longmapsto xmap,->
+⟽,27FD,10237,long leftwards double arrow from bar,Supplemental Arrows-A,,<= <-
+⟾,27FE,10238,long rightwards double arrow from bar,Supplemental Arrows-A,,=> ->
+⟿,27FF,10239,long rightwards squiggle arrow,Supplemental Arrows-A,dzigrarr,->
 ⠀,2800,10240,braille pattern blank,Braille Patterns,,
 ⠁,2801,10241,braille pattern dots-1,Braille Patterns,,
 ⠂,2802,10242,braille pattern dots-2,Braille Patterns,,
@@ -9286,45 +9286,45 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⤞,291E,10526,rightwards arrow to black diamond,Supplemental Arrows-B,rarrfs,
 ⤟,291F,10527,leftwards arrow from bar to black diamond,Supplemental Arrows-B,larrbfs,
 ⤠,2920,10528,rightwards arrow from bar to black diamond,Supplemental Arrows-B,rarrbfs,
-⤡,2921,10529,north west and south east arrow,Supplemental Arrows-B,,
-⤢,2922,10530,north east and south west arrow,Supplemental Arrows-B,,
-⤣,2923,10531,north west arrow with hook,Supplemental Arrows-B,nwarhk,
-⤤,2924,10532,north east arrow with hook,Supplemental Arrows-B,nearhk,
-⤥,2925,10533,south east arrow with hook,Supplemental Arrows-B,hksearow searhk,
-⤦,2926,10534,south west arrow with hook,Supplemental Arrows-B,hkswarow swarhk,
-⤧,2927,10535,north west arrow and north east arrow,Supplemental Arrows-B,nwnear,
-⤨,2928,10536,north east arrow and south east arrow,Supplemental Arrows-B,nesear toea,
-⤩,2929,10537,south east arrow and south west arrow,Supplemental Arrows-B,seswar tosa,
-⤪,292A,10538,south west arrow and north west arrow,Supplemental Arrows-B,swnwar,
-⤫,292B,10539,rising diagonal crossing falling diagonal,Supplemental Arrows-B,,
-⤬,292C,10540,falling diagonal crossing rising diagonal,Supplemental Arrows-B,,
-⤭,292D,10541,south east arrow crossing north east arrow,Supplemental Arrows-B,,
-⤮,292E,10542,north east arrow crossing south east arrow,Supplemental Arrows-B,,
-⤯,292F,10543,falling diagonal crossing north east arrow,Supplemental Arrows-B,,
-⤰,2930,10544,rising diagonal crossing south east arrow,Supplemental Arrows-B,,
-⤱,2931,10545,north east arrow crossing north west arrow,Supplemental Arrows-B,,
-⤲,2932,10546,north west arrow crossing north east arrow,Supplemental Arrows-B,,
-⤳,2933,10547,wave arrow pointing directly right,Supplemental Arrows-B,rarrc,
-⤶,2936,10550,arrow pointing downwards then curving leftwards,Supplemental Arrows-B,ldca,
-⤷,2937,10551,arrow pointing downwards then curving rightwards,Supplemental Arrows-B,rdca,
-⤸,2938,10552,right-side arc clockwise arrow,Supplemental Arrows-B,cudarrl,
-⤹,2939,10553,left-side arc anticlockwise arrow,Supplemental Arrows-B,larrpl,
-⤺,293A,10554,top arc anticlockwise arrow,Supplemental Arrows-B,,
-⤻,293B,10555,bottom arc anticlockwise arrow,Supplemental Arrows-B,,
-⤼,293C,10556,top arc clockwise arrow with minus,Supplemental Arrows-B,curarrm,
-⤽,293D,10557,top arc anticlockwise arrow with plus,Supplemental Arrows-B,cularrp,
-⤾,293E,10558,lower right semicircular clockwise arrow,Supplemental Arrows-B,,
-⤿,293F,10559,lower left semicircular anticlockwise arrow,Supplemental Arrows-B,,
-⥀,2940,10560,anticlockwise closed circle arrow,Supplemental Arrows-B,,
-⥁,2941,10561,clockwise closed circle arrow,Supplemental Arrows-B,,
-⥂,2942,10562,rightwards arrow above short leftwards arrow,Supplemental Arrows-B,,
-⥃,2943,10563,leftwards arrow above short rightwards arrow,Supplemental Arrows-B,,
-⥄,2944,10564,short rightwards arrow above leftwards arrow,Supplemental Arrows-B,,
-⥅,2945,10565,rightwards arrow with plus below,Supplemental Arrows-B,rarrpl,
-⥆,2946,10566,leftwards arrow with plus below,Supplemental Arrows-B,,
-⥇,2947,10567,rightwards arrow through x,Supplemental Arrows-B,,
-⥈,2948,10568,left right arrow through small circle,Supplemental Arrows-B,harrcir,
-⥉,2949,10569,upwards two-headed arrow from small circle,Supplemental Arrows-B,Uarrocir,
+⤡,2921,10529,north west and south east arrow,Supplemental Arrows-B,,<->
+⤢,2922,10530,north east and south west arrow,Supplemental Arrows-B,,<->
+⤣,2923,10531,north west arrow with hook,Supplemental Arrows-B,nwarhk,<-
+⤤,2924,10532,north east arrow with hook,Supplemental Arrows-B,nearhk,->
+⤥,2925,10533,south east arrow with hook,Supplemental Arrows-B,hksearow searhk,->
+⤦,2926,10534,south west arrow with hook,Supplemental Arrows-B,hkswarow swarhk,<-
+⤧,2927,10535,north west arrow and north east arrow,Supplemental Arrows-B,nwnear,x
+⤨,2928,10536,north east arrow and south east arrow,Supplemental Arrows-B,nesear toea,x
+⤩,2929,10537,south east arrow and south west arrow,Supplemental Arrows-B,seswar tosa,x
+⤪,292A,10538,south west arrow and north west arrow,Supplemental Arrows-B,swnwar,x
+⤫,292B,10539,rising diagonal crossing falling diagonal,Supplemental Arrows-B,,x
+⤬,292C,10540,falling diagonal crossing rising diagonal,Supplemental Arrows-B,,x
+⤭,292D,10541,south east arrow crossing north east arrow,Supplemental Arrows-B,,x
+⤮,292E,10542,north east arrow crossing south east arrow,Supplemental Arrows-B,,x
+⤯,292F,10543,falling diagonal crossing north east arrow,Supplemental Arrows-B,,x
+⤰,2930,10544,rising diagonal crossing south east arrow,Supplemental Arrows-B,,x
+⤱,2931,10545,north east arrow crossing north west arrow,Supplemental Arrows-B,,x
+⤲,2932,10546,north west arrow crossing north east arrow,Supplemental Arrows-B,,x
+⤳,2933,10547,wave arrow pointing directly right,Supplemental Arrows-B,rarrc,->
+⤶,2936,10550,arrow pointing downwards then curving leftwards,Supplemental Arrows-B,ldca,<-
+⤷,2937,10551,arrow pointing downwards then curving rightwards,Supplemental Arrows-B,rdca,->
+⤸,2938,10552,right-side arc clockwise arrow,Supplemental Arrows-B,cudarrl,<-
+⤹,2939,10553,left-side arc anticlockwise arrow,Supplemental Arrows-B,larrpl,<-
+⤺,293A,10554,top arc anticlockwise arrow,Supplemental Arrows-B,,<-
+⤻,293B,10555,bottom arc anticlockwise arrow,Supplemental Arrows-B,,->
+⤼,293C,10556,top arc clockwise arrow with minus,Supplemental Arrows-B,curarrm,->
+⤽,293D,10557,top arc anticlockwise arrow with plus,Supplemental Arrows-B,cularrp,<-
+⤾,293E,10558,lower right semicircular clockwise arrow,Supplemental Arrows-B,,<-
+⤿,293F,10559,lower left semicircular anticlockwise arrow,Supplemental Arrows-B,,->
+⥀,2940,10560,anticlockwise closed circle arrow,Supplemental Arrows-B,,o
+⥁,2941,10561,clockwise closed circle arrow,Supplemental Arrows-B,,o
+⥂,2942,10562,rightwards arrow above short leftwards arrow,Supplemental Arrows-B,,<- ->
+⥃,2943,10563,leftwards arrow above short rightwards arrow,Supplemental Arrows-B,,<- ->
+⥄,2944,10564,short rightwards arrow above leftwards arrow,Supplemental Arrows-B,,<- ->
+⥅,2945,10565,rightwards arrow with plus below,Supplemental Arrows-B,rarrpl,-> +
+⥆,2946,10566,leftwards arrow with plus below,Supplemental Arrows-B,,<- +
+⥇,2947,10567,rightwards arrow through x,Supplemental Arrows-B,,-> x
+⥈,2948,10568,left right arrow through small circle,Supplemental Arrows-B,harrcir,<->
+⥉,2949,10569,upwards two-headed arrow from small circle,Supplemental Arrows-B,Uarrocir,^
 ⥊,294A,10570,left barb up right barb down harpoon,Supplemental Arrows-B,lurdshar,
 ⥋,294B,10571,left barb down right barb up harpoon,Supplemental Arrows-B,ldrushar,
 ⥌,294C,10572,up barb right down barb left harpoon,Supplemental Arrows-B,,
@@ -9349,10 +9349,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⥟,295F,10591,rightwards harpoon with barb down from bar,Supplemental Arrows-B,DownRightTeeVector,
 ⥠,2960,10592,upwards harpoon with barb left from bar,Supplemental Arrows-B,LeftUpTeeVector,
 ⥡,2961,10593,downwards harpoon with barb left from bar,Supplemental Arrows-B,LeftDownTeeVector,
-⥢,2962,10594,leftwards harpoon with barb up above leftwards harpoon with barb down,Supplemental Arrows-B,lHar,
-⥣,2963,10595,upwards harpoon with barb left beside upwards harpoon with barb right,Supplemental Arrows-B,uHar,
-⥤,2964,10596,rightwards harpoon with barb up above rightwards harpoon with barb down,Supplemental Arrows-B,rHar,
-⥥,2965,10597,downwards harpoon with barb left beside downwards harpoon with barb right,Supplemental Arrows-B,dHar,
+⥢,2962,10594,leftwards harpoon with barb up above leftwards harpoon with barb down,Supplemental Arrows-B,lHar,<=
+⥣,2963,10595,upwards harpoon with barb left beside upwards harpoon with barb right,Supplemental Arrows-B,uHar,^
+⥤,2964,10596,rightwards harpoon with barb up above rightwards harpoon with barb down,Supplemental Arrows-B,rHar,=>
+⥥,2965,10597,downwards harpoon with barb left beside downwards harpoon with barb right,Supplemental Arrows-B,dHar,v
 ⥦,2966,10598,leftwards harpoon with barb up above rightwards harpoon with barb up,Supplemental Arrows-B,luruhar,
 ⥧,2967,10599,leftwards harpoon with barb down above rightwards harpoon with barb down,Supplemental Arrows-B,ldrdhar,
 ⥨,2968,10600,rightwards harpoon with barb up above leftwards harpoon with barb up,Supplemental Arrows-B,ruluhar,
@@ -9364,24 +9364,24 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⥮,296E,10606,upwards harpoon with barb left beside downwards harpoon with barb right,Supplemental Arrows-B,UpEquilibrium udhar,
 ⥯,296F,10607,downwards harpoon with barb left beside upwards harpoon with barb right,Supplemental Arrows-B,ReverseUpEquilibrium duhar,
 ⥰,2970,10608,right double arrow with rounded head,Supplemental Arrows-B,RoundImplies,
-⥱,2971,10609,equals sign above rightwards arrow,Supplemental Arrows-B,erarr,
-⥲,2972,10610,tilde operator above rightwards arrow,Supplemental Arrows-B,simrarr,
-⥳,2973,10611,leftwards arrow above tilde operator,Supplemental Arrows-B,larrsim,
-⥴,2974,10612,rightwards arrow above tilde operator,Supplemental Arrows-B,rarrsim,
-⥵,2975,10613,rightwards arrow above almost equal to,Supplemental Arrows-B,rarrap,
-⥶,2976,10614,less-than above leftwards arrow,Supplemental Arrows-B,ltlarr,
-⥷,2977,10615,leftwards arrow through less-than,Supplemental Arrows-B,,
-⥸,2978,10616,greater-than above rightwards arrow,Supplemental Arrows-B,gtrarr,
-⥹,2979,10617,subset above rightwards arrow,Supplemental Arrows-B,subrarr,
-⥺,297A,10618,leftwards arrow through subset,Supplemental Arrows-B,,
-⥻,297B,10619,superset above leftwards arrow,Supplemental Arrows-B,suplarr,
+⥱,2971,10609,equals sign above rightwards arrow,Supplemental Arrows-B,erarr,->
+⥲,2972,10610,tilde operator above rightwards arrow,Supplemental Arrows-B,simrarr,->
+⥳,2973,10611,leftwards arrow above tilde operator,Supplemental Arrows-B,larrsim,<-
+⥴,2974,10612,rightwards arrow above tilde operator,Supplemental Arrows-B,rarrsim,<-
+⥵,2975,10613,rightwards arrow above almost equal to,Supplemental Arrows-B,rarrap,->
+⥶,2976,10614,less-than above leftwards arrow,Supplemental Arrows-B,ltlarr,<-
+⥷,2977,10615,leftwards arrow through less-than,Supplemental Arrows-B,,<-
+⥸,2978,10616,greater-than above rightwards arrow,Supplemental Arrows-B,gtrarr,->
+⥹,2979,10617,subset above rightwards arrow,Supplemental Arrows-B,subrarr,->
+⥺,297A,10618,leftwards arrow through subset,Supplemental Arrows-B,,<-
+⥻,297B,10619,superset above leftwards arrow,Supplemental Arrows-B,suplarr,<-
 ⥼,297C,10620,left fish tail,Supplemental Arrows-B,lfisht,
 ⥽,297D,10621,right fish tail,Supplemental Arrows-B,rfisht,
 ⥾,297E,10622,up fish tail,Supplemental Arrows-B,ufisht,
 ⥿,297F,10623,down fish tail,Supplemental Arrows-B,dfisht,
-⦀,2980,10624,triple vertical bar delimiter,Miscellaneous Mathematical Symbols-B,,
-⦁,2981,10625,z notation spot,Miscellaneous Mathematical Symbols-B,,
-⦂,2982,10626,z notation type colon,Miscellaneous Mathematical Symbols-B,,
+⦀,2980,10624,triple vertical bar delimiter,Miscellaneous Mathematical Symbols-B,,|||
+⦁,2981,10625,z notation spot,Miscellaneous Mathematical Symbols-B,,.
+⦂,2982,10626,z notation type colon,Miscellaneous Mathematical Symbols-B,,:
 ⦃,2983,10627,left white curly bracket,Miscellaneous Mathematical Symbols-B,,
 ⦄,2984,10628,right white curly bracket,Miscellaneous Mathematical Symbols-B,,
 ⦅,2985,10629,left white parenthesis,Miscellaneous Mathematical Symbols-B,lopar,
@@ -9402,9 +9402,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⦔,2994,10644,right arc greater-than bracket,Miscellaneous Mathematical Symbols-B,rpargt,
 ⦕,2995,10645,double left arc greater-than bracket,Miscellaneous Mathematical Symbols-B,gtlPar,
 ⦖,2996,10646,double right arc less-than bracket,Miscellaneous Mathematical Symbols-B,ltrPar,
-⦗,2997,10647,left black tortoise shell bracket,Miscellaneous Mathematical Symbols-B,,
-⦘,2998,10648,right black tortoise shell bracket,Miscellaneous Mathematical Symbols-B,,
-⦙,2999,10649,dotted fence,Miscellaneous Mathematical Symbols-B,,
+⦗,2997,10647,left black tortoise shell bracket,Miscellaneous Mathematical Symbols-B,,(
+⦘,2998,10648,right black tortoise shell bracket,Miscellaneous Mathematical Symbols-B,,)
+⦙,2999,10649,dotted fence,Miscellaneous Mathematical Symbols-B,,....
 ⦚,299A,10650,vertical zigzag line,Miscellaneous Mathematical Symbols-B,vzigzag,
 ⦛,299B,10651,measured angle opening left,Miscellaneous Mathematical Symbols-B,,
 ⦜,299C,10652,right angle variant with square,Miscellaneous Mathematical Symbols-B,vangrt,
@@ -9443,19 +9443,19 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⦽,29BD,10685,up arrow through circle,Miscellaneous Mathematical Symbols-B,,
 ⦾,29BE,10686,circled white bullet,Miscellaneous Mathematical Symbols-B,olcir,
 ⦿,29BF,10687,circled bullet,Miscellaneous Mathematical Symbols-B,ofcir,
-⧀,29C0,10688,circled less-than,Miscellaneous Mathematical Symbols-B,olt,
-⧁,29C1,10689,circled greater-than,Miscellaneous Mathematical Symbols-B,ogt,
+⧀,29C0,10688,circled less-than,Miscellaneous Mathematical Symbols-B,olt,<
+⧁,29C1,10689,circled greater-than,Miscellaneous Mathematical Symbols-B,ogt,>
 ⧂,29C2,10690,circle with small circle to the right,Miscellaneous Mathematical Symbols-B,cirscir,
 ⧃,29C3,10691,circle with two horizontal strokes to the right,Miscellaneous Mathematical Symbols-B,cirE,
 ⧄,29C4,10692,squared rising diagonal slash,Miscellaneous Mathematical Symbols-B,solb,
 ⧅,29C5,10693,squared falling diagonal slash,Miscellaneous Mathematical Symbols-B,bsolb,
-⧆,29C6,10694,squared asterisk,Miscellaneous Mathematical Symbols-B,,
+⧆,29C6,10694,squared asterisk,Miscellaneous Mathematical Symbols-B,,*
 ⧇,29C7,10695,squared small circle,Miscellaneous Mathematical Symbols-B,,
 ⧈,29C8,10696,squared square,Miscellaneous Mathematical Symbols-B,,
-⧉,29C9,10697,two joined squares,Miscellaneous Mathematical Symbols-B,boxbox,
+⧉,29C9,10697,two joined squares,Miscellaneous Mathematical Symbols-B,boxbox,duplicate
 ⧊,29CA,10698,triangle with dot above,Miscellaneous Mathematical Symbols-B,,
 ⧋,29CB,10699,triangle with underbar,Miscellaneous Mathematical Symbols-B,,
-⧌,29CC,10700,s in triangle,Miscellaneous Mathematical Symbols-B,,
+⧌,29CC,10700,s in triangle,Miscellaneous Mathematical Symbols-B,,s
 ⧍,29CD,10701,triangle with serifs at bottom,Miscellaneous Mathematical Symbols-B,trisb,
 ⧎,29CE,10702,right triangle above left triangle,Miscellaneous Mathematical Symbols-B,rtriltri,
 ⧏,29CF,10703,left triangle beside vertical bar,Miscellaneous Mathematical Symbols-B,LeftTriangleBar,
@@ -9474,7 +9474,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⧜,29DC,10716,incomplete infinity,Miscellaneous Mathematical Symbols-B,iinfin,
 ⧝,29DD,10717,tie over infinity,Miscellaneous Mathematical Symbols-B,infintie,
 ⧞,29DE,10718,infinity negated with vertical bar,Miscellaneous Mathematical Symbols-B,nvinfin,
-⧟,29DF,10719,double-ended multimap,Miscellaneous Mathematical Symbols-B,,
+⧟,29DF,10719,double-ended multimap,Miscellaneous Mathematical Symbols-B,,o-o
 ⧠,29E0,10720,square with contoured outline,Miscellaneous Mathematical Symbols-B,,
 ⧡,29E1,10721,increases as,Miscellaneous Mathematical Symbols-B,,
 ⧢,29E2,10722,shuffle product,Miscellaneous Mathematical Symbols-B,,
@@ -9495,14 +9495,14 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⧱,29F1,10737,error-barred black diamond,Miscellaneous Mathematical Symbols-B,,
 ⧲,29F2,10738,error-barred white circle,Miscellaneous Mathematical Symbols-B,,
 ⧳,29F3,10739,error-barred black circle,Miscellaneous Mathematical Symbols-B,,
-⧴,29F4,10740,rule-delayed,Miscellaneous Mathematical Symbols-B,RuleDelayed,
+⧴,29F4,10740,rule-delayed,Miscellaneous Mathematical Symbols-B,RuleDelayed,-> :->
 ⧵,29F5,10741,reverse solidus operator,Miscellaneous Mathematical Symbols-B,,\
 ⧶,29F6,10742,solidus with overbar,Miscellaneous Mathematical Symbols-B,dsol,/
 ⧷,29F7,10743,reverse solidus with horizontal stroke,Miscellaneous Mathematical Symbols-B,,\
 ⧸,29F8,10744,big solidus,Miscellaneous Mathematical Symbols-B,,/
 ⧹,29F9,10745,big reverse solidus,Miscellaneous Mathematical Symbols-B,,\
-⧺,29FA,10746,double plus,Miscellaneous Mathematical Symbols-B,,
-⧻,29FB,10747,triple plus,Miscellaneous Mathematical Symbols-B,,
+⧺,29FA,10746,double plus,Miscellaneous Mathematical Symbols-B,,||
+⧻,29FB,10747,triple plus,Miscellaneous Mathematical Symbols-B,,|||
 ⧼,29FC,10748,left-pointing curved angle bracket,Miscellaneous Mathematical Symbols-B,,
 ⧽,29FD,10749,right-pointing curved angle bracket,Miscellaneous Mathematical Symbols-B,,
 ⧾,29FE,10750,tiny,Miscellaneous Mathematical Symbols-B,,+
@@ -9511,14 +9511,14 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⨁,2A01,10753,n-ary circled plus operator,Supplemental Mathematical Operators,bigoplus xoplus,+
 ⨂,2A02,10754,n-ary circled times operator,Supplemental Mathematical Operators,bigotimes xotime,x
 ⨃,2A03,10755,n-ary union operator with dot,Supplemental Mathematical Operators,,
-⨄,2A04,10756,n-ary union operator with plus,Supplemental Mathematical Operators,biguplus xuplus,
+⨄,2A04,10756,n-ary union operator with plus,Supplemental Mathematical Operators,biguplus xuplus,+
 ⨅,2A05,10757,n-ary square intersection operator,Supplemental Mathematical Operators,,
 ⨆,2A06,10758,n-ary square union operator,Supplemental Mathematical Operators,bigsqcup xsqcup,
-⨇,2A07,10759,two logical and operator,Supplemental Mathematical Operators,,
-⨈,2A08,10760,two logical or operator,Supplemental Mathematical Operators,,
-⨉,2A09,10761,n-ary times operator,Supplemental Mathematical Operators,,
-⨊,2A0A,10762,modulo two sum,Supplemental Mathematical Operators,,
-⨋,2A0B,10763,summation with integral,Supplemental Mathematical Operators,,
+⨇,2A07,10759,two logical and operator,Supplemental Mathematical Operators,,^
+⨈,2A08,10760,two logical or operator,Supplemental Mathematical Operators,,v
+⨉,2A09,10761,n-ary times operator,Supplemental Mathematical Operators,,x
+⨊,2A0A,10762,modulo two sum,Supplemental Mathematical Operators,,E
+⨋,2A0B,10763,summation with integral,Supplemental Mathematical Operators,,Ef
 ⨌,2A0C,10764,quadruple integral operator,Supplemental Mathematical Operators,iiiint qint,ffff
 ⨍,2A0D,10765,finite part integral,Supplemental Mathematical Operators,fpartint,f
 ⨎,2A0E,10766,integral with double stroke,Supplemental Mathematical Operators,,f
@@ -9538,9 +9538,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⨜,2A1C,10780,integral with underbar,Supplemental Mathematical Operators,,f
 ⨝,2A1D,10781,join,Supplemental Mathematical Operators,,
 ⨞,2A1E,10782,large left triangle operator,Supplemental Mathematical Operators,,<
-⨟,2A1F,10783,z notation schema composition,Supplemental Mathematical Operators,,
+⨟,2A1F,10783,z notation schema composition,Supplemental Mathematical Operators,,: ;
 ⨠,2A20,10784,z notation schema piping,Supplemental Mathematical Operators,,>>
-⨡,2A21,10785,z notation schema projection,Supplemental Mathematical Operators,,
+⨡,2A21,10785,z notation schema projection,Supplemental Mathematical Operators,,^
 ⨢,2A22,10786,plus sign with small circle above,Supplemental Mathematical Operators,pluscir,+
 ⨣,2A23,10787,plus sign with circumflex accent above,Supplemental Mathematical Operators,plusacir,+
 ⨤,2A24,10788,plus sign with tilde above,Supplemental Mathematical Operators,simplus,+
@@ -9548,28 +9548,28 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⨦,2A26,10790,plus sign with tilde below,Supplemental Mathematical Operators,plussim,+
 ⨧,2A27,10791,plus sign with subscript two,Supplemental Mathematical Operators,plustwo,+ +2
 ⨨,2A28,10792,plus sign with black triangle,Supplemental Mathematical Operators,,+
-⨩,2A29,10793,minus sign with comma above,Supplemental Mathematical Operators,mcomma,
-⨪,2A2A,10794,minus sign with dot below,Supplemental Mathematical Operators,minusdu,
-⨫,2A2B,10795,minus sign with falling dots,Supplemental Mathematical Operators,,
-⨬,2A2C,10796,minus sign with rising dots,Supplemental Mathematical Operators,,
-⨭,2A2D,10797,plus sign in left half circle,Supplemental Mathematical Operators,loplus,
-⨮,2A2E,10798,plus sign in right half circle,Supplemental Mathematical Operators,roplus,
+⨩,2A29,10793,minus sign with comma above,Supplemental Mathematical Operators,mcomma,","
+⨪,2A2A,10794,minus sign with dot below,Supplemental Mathematical Operators,minusdu,.
+⨫,2A2B,10795,minus sign with falling dots,Supplemental Mathematical Operators,,.
+⨬,2A2C,10796,minus sign with rising dots,Supplemental Mathematical Operators,,.
+⨭,2A2D,10797,plus sign in left half circle,Supplemental Mathematical Operators,loplus,+
+⨮,2A2E,10798,plus sign in right half circle,Supplemental Mathematical Operators,roplus,+
 ⨯,2A2F,10799,vector or cross product,Supplemental Mathematical Operators,Cross,x
 ⨰,2A30,10800,multiplication sign with dot above,Supplemental Mathematical Operators,timesd,x
 ⨱,2A31,10801,multiplication sign with underbar,Supplemental Mathematical Operators,timesbar,x
 ⨲,2A32,10802,semidirect product with bottom closed,Supplemental Mathematical Operators,,x
-⨳,2A33,10803,smash product,Supplemental Mathematical Operators,smashp,
+⨳,2A33,10803,smash product,Supplemental Mathematical Operators,smashp,x
 ⨴,2A34,10804,multiplication sign in left half circle,Supplemental Mathematical Operators,lotimes,x
 ⨵,2A35,10805,multiplication sign in right half circle,Supplemental Mathematical Operators,rotimes,x
 ⨶,2A36,10806,circled multiplication sign with circumflex accent,Supplemental Mathematical Operators,otimesas,x
 ⨷,2A37,10807,multiplication sign in double circle,Supplemental Mathematical Operators,Otimes,x
 ⨸,2A38,10808,circled division sign,Supplemental Mathematical Operators,odiv,/
-⨹,2A39,10809,plus sign in triangle,Supplemental Mathematical Operators,triplus,
-⨺,2A3A,10810,minus sign in triangle,Supplemental Mathematical Operators,triminus,
-⨻,2A3B,10811,multiplication sign in triangle,Supplemental Mathematical Operators,tritime,
+⨹,2A39,10809,plus sign in triangle,Supplemental Mathematical Operators,triplus,+
+⨺,2A3A,10810,minus sign in triangle,Supplemental Mathematical Operators,triminus,-
+⨻,2A3B,10811,multiplication sign in triangle,Supplemental Mathematical Operators,tritime,x
 ⨼,2A3C,10812,interior product,Supplemental Mathematical Operators,intprod iprod,
 ⨽,2A3D,10813,righthand interior product,Supplemental Mathematical Operators,,
-⨾,2A3E,10814,z notation relational composition,Supplemental Mathematical Operators,,
+⨾,2A3E,10814,z notation relational composition,Supplemental Mathematical Operators,,: ;
 ⨿,2A3F,10815,amalgamation or coproduct,Supplemental Mathematical Operators,amalg,
 ⩀,2A40,10816,intersection with dot,Supplemental Mathematical Operators,capdot,
 ⩁,2A41,10817,union with minus sign,Supplemental Mathematical Operators,,
@@ -9609,12 +9609,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⩣,2A63,10851,logical or with double underbar,Supplemental Mathematical Operators,,
 ⩤,2A64,10852,z notation domain antirestriction,Supplemental Mathematical Operators,,
 ⩥,2A65,10853,z notation range antirestriction,Supplemental Mathematical Operators,,
-⩦,2A66,10854,equals sign with dot below,Supplemental Mathematical Operators,sdote,
-⩧,2A67,10855,identical with dot above,Supplemental Mathematical Operators,,
+⩦,2A66,10854,equals sign with dot below,Supplemental Mathematical Operators,sdote,.
+⩧,2A67,10855,identical with dot above,Supplemental Mathematical Operators,,.
 ⩨,2A68,10856,triple horizontal bar with double vertical stroke,Supplemental Mathematical Operators,,
 ⩩,2A69,10857,triple horizontal bar with triple vertical stroke,Supplemental Mathematical Operators,,
-⩪,2A6A,10858,tilde operator with dot above,Supplemental Mathematical Operators,simdot,
-⩫,2A6B,10859,tilde operator with rising dots,Supplemental Mathematical Operators,,
+⩪,2A6A,10858,tilde operator with dot above,Supplemental Mathematical Operators,simdot,.
+⩫,2A6B,10859,tilde operator with rising dots,Supplemental Mathematical Operators,,.
 ⩬,2A6C,10860,similar minus similar,Supplemental Mathematical Operators,,
 ⩭,2A6D,10861,congruent with dot above,Supplemental Mathematical Operators,congdot,
 ⩮,2A6E,10862,equals with asterisk,Supplemental Mathematical Operators,easter,
@@ -9787,8 +9787,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⬘,2B18,11032,diamond with top half black,Miscellaneous Symbols and Arrows,,
 ⬙,2B19,11033,diamond with bottom half black,Miscellaneous Symbols and Arrows,,
 ⬚,2B1A,11034,dotted square,Miscellaneous Symbols and Arrows,,
-⬝,2B1D,11037,black very small square,Miscellaneous Symbols and Arrows,,
-⬞,2B1E,11038,white very small square,Miscellaneous Symbols and Arrows,,
+⬝,2B1D,11037,black very small square,Miscellaneous Symbols and Arrows,,.
+⬞,2B1E,11038,white very small square,Miscellaneous Symbols and Arrows,,.
 ⬟,2B1F,11039,black pentagon,Miscellaneous Symbols and Arrows,,
 ⬠,2B20,11040,white pentagon,Miscellaneous Symbols and Arrows,,
 ⬡,2B21,11041,white hexagon,Miscellaneous Symbols and Arrows,,
@@ -9806,58 +9806,58 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⬭,2B2D,11053,white horizontal ellipse,Miscellaneous Symbols and Arrows,,
 ⬮,2B2E,11054,black vertical ellipse,Miscellaneous Symbols and Arrows,,
 ⬯,2B2F,11055,white vertical ellipse,Miscellaneous Symbols and Arrows,,
-⬰,2B30,11056,left arrow with small circle,Miscellaneous Symbols and Arrows,,
-⬱,2B31,11057,three leftwards arrows,Miscellaneous Symbols and Arrows,,
-⬲,2B32,11058,left arrow with circled plus,Miscellaneous Symbols and Arrows,,
-⬳,2B33,11059,long leftwards squiggle arrow,Miscellaneous Symbols and Arrows,,
-⬴,2B34,11060,leftwards two-headed arrow with vertical stroke,Miscellaneous Symbols and Arrows,,
-⬵,2B35,11061,leftwards two-headed arrow with double vertical stroke,Miscellaneous Symbols and Arrows,,
-⬶,2B36,11062,leftwards two-headed arrow from bar,Miscellaneous Symbols and Arrows,,
-⬷,2B37,11063,leftwards two-headed triple dash arrow,Miscellaneous Symbols and Arrows,,
-⬸,2B38,11064,leftwards arrow with dotted stem,Miscellaneous Symbols and Arrows,,
-⬹,2B39,11065,leftwards arrow with tail with vertical stroke,Miscellaneous Symbols and Arrows,,
-⬺,2B3A,11066,leftwards arrow with tail with double vertical stroke,Miscellaneous Symbols and Arrows,,
-⬻,2B3B,11067,leftwards two-headed arrow with tail,Miscellaneous Symbols and Arrows,,
-⬼,2B3C,11068,leftwards two-headed arrow with tail with vertical stroke,Miscellaneous Symbols and Arrows,,
-⬽,2B3D,11069,leftwards two-headed arrow with tail with double vertical stroke,Miscellaneous Symbols and Arrows,,
-⬾,2B3E,11070,leftwards arrow through x,Miscellaneous Symbols and Arrows,,
-⬿,2B3F,11071,wave arrow pointing directly left,Miscellaneous Symbols and Arrows,,
-⭀,2B40,11072,equals sign above leftwards arrow,Miscellaneous Symbols and Arrows,,
-⭁,2B41,11073,reverse tilde operator above leftwards arrow,Miscellaneous Symbols and Arrows,,
-⭂,2B42,11074,leftwards arrow above reverse almost equal to,Miscellaneous Symbols and Arrows,,
-⭃,2B43,11075,rightwards arrow through greater-than,Miscellaneous Symbols and Arrows,,
-⭄,2B44,11076,rightwards arrow through superset,Miscellaneous Symbols and Arrows,,
-⭅,2B45,11077,leftwards quadruple arrow,Miscellaneous Symbols and Arrows,,
-⭆,2B46,11078,rightwards quadruple arrow,Miscellaneous Symbols and Arrows,,
-⭇,2B47,11079,reverse tilde operator above rightwards arrow,Miscellaneous Symbols and Arrows,,
-⭈,2B48,11080,rightwards arrow above reverse almost equal to,Miscellaneous Symbols and Arrows,,
-⭉,2B49,11081,tilde operator above leftwards arrow,Miscellaneous Symbols and Arrows,,
-⭊,2B4A,11082,leftwards arrow above almost equal to,Miscellaneous Symbols and Arrows,,
-⭋,2B4B,11083,leftwards arrow above reverse tilde operator,Miscellaneous Symbols and Arrows,,
-⭌,2B4C,11084,rightwards arrow above reverse tilde operator,Miscellaneous Symbols and Arrows,,
+⬰,2B30,11056,left arrow with small circle,Miscellaneous Symbols and Arrows,,<-
+⬱,2B31,11057,three leftwards arrows,Miscellaneous Symbols and Arrows,,<-
+⬲,2B32,11058,left arrow with circled plus,Miscellaneous Symbols and Arrows,,<-
+⬳,2B33,11059,long leftwards squiggle arrow,Miscellaneous Symbols and Arrows,,<-
+⬴,2B34,11060,leftwards two-headed arrow with vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬵,2B35,11061,leftwards two-headed arrow with double vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬶,2B36,11062,leftwards two-headed arrow from bar,Miscellaneous Symbols and Arrows,,<-
+⬷,2B37,11063,leftwards two-headed triple dash arrow,Miscellaneous Symbols and Arrows,,<-
+⬸,2B38,11064,leftwards arrow with dotted stem,Miscellaneous Symbols and Arrows,,<-
+⬹,2B39,11065,leftwards arrow with tail with vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬺,2B3A,11066,leftwards arrow with tail with double vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬻,2B3B,11067,leftwards two-headed arrow with tail,Miscellaneous Symbols and Arrows,,<-
+⬼,2B3C,11068,leftwards two-headed arrow with tail with vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬽,2B3D,11069,leftwards two-headed arrow with tail with double vertical stroke,Miscellaneous Symbols and Arrows,,<-
+⬾,2B3E,11070,leftwards arrow through x,Miscellaneous Symbols and Arrows,,<-
+⬿,2B3F,11071,wave arrow pointing directly left,Miscellaneous Symbols and Arrows,,<-
+⭀,2B40,11072,equals sign above leftwards arrow,Miscellaneous Symbols and Arrows,,<-
+⭁,2B41,11073,reverse tilde operator above leftwards arrow,Miscellaneous Symbols and Arrows,,<-
+⭂,2B42,11074,leftwards arrow above reverse almost equal to,Miscellaneous Symbols and Arrows,,<-
+⭃,2B43,11075,rightwards arrow through greater-than,Miscellaneous Symbols and Arrows,,->
+⭄,2B44,11076,rightwards arrow through superset,Miscellaneous Symbols and Arrows,,->
+⭅,2B45,11077,leftwards quadruple arrow,Miscellaneous Symbols and Arrows,,<-
+⭆,2B46,11078,rightwards quadruple arrow,Miscellaneous Symbols and Arrows,,->
+⭇,2B47,11079,reverse tilde operator above rightwards arrow,Miscellaneous Symbols and Arrows,,->
+⭈,2B48,11080,rightwards arrow above reverse almost equal to,Miscellaneous Symbols and Arrows,,->
+⭉,2B49,11081,tilde operator above leftwards arrow,Miscellaneous Symbols and Arrows,,<-
+⭊,2B4A,11082,leftwards arrow above almost equal to,Miscellaneous Symbols and Arrows,,<-
+⭋,2B4B,11083,leftwards arrow above reverse tilde operator,Miscellaneous Symbols and Arrows,,<-
+⭌,2B4C,11084,rightwards arrow above reverse tilde operator,Miscellaneous Symbols and Arrows,,->
 ⭍,2B4D,11085,downwards triangle-headed zigzag arrow,Miscellaneous Symbols and Arrows,,
 ⭎,2B4E,11086,short slanted north arrow,Miscellaneous Symbols and Arrows,,
 ⭏,2B4F,11087,short backslanted south arrow,Miscellaneous Symbols and Arrows,,
-⭑,2B51,11089,black small star,Miscellaneous Symbols and Arrows,,
-⭒,2B52,11090,white small star,Miscellaneous Symbols and Arrows,,
+⭑,2B51,11089,black small star,Miscellaneous Symbols and Arrows,,*
+⭒,2B52,11090,white small star,Miscellaneous Symbols and Arrows,,*
 ⭓,2B53,11091,black right-pointing pentagon,Miscellaneous Symbols and Arrows,,
 ⭔,2B54,11092,white right-pointing pentagon,Miscellaneous Symbols and Arrows,,
 ⭖,2B56,11094,heavy oval with oval inside,Miscellaneous Symbols and Arrows,,
 ⭗,2B57,11095,heavy circle with circle inside,Miscellaneous Symbols and Arrows,,
 ⭘,2B58,11096,heavy circle,Miscellaneous Symbols and Arrows,,
-⭙,2B59,11097,heavy circled saltire,Miscellaneous Symbols and Arrows,,
+⭙,2B59,11097,heavy circled saltire,Miscellaneous Symbols and Arrows,,x
 ⭚,2B5A,11098,slanted north arrow with hooked head,Miscellaneous Symbols and Arrows,,
 ⭛,2B5B,11099,backslanted south arrow with hooked tail,Miscellaneous Symbols and Arrows,,
 ⭜,2B5C,11100,slanted north arrow with horizontal tail,Miscellaneous Symbols and Arrows,,
 ⭝,2B5D,11101,backslanted south arrow with horizontal tail,Miscellaneous Symbols and Arrows,,
 ⭞,2B5E,11102,bent arrow pointing downwards then north east,Miscellaneous Symbols and Arrows,,
 ⭟,2B5F,11103,short bent arrow pointing downwards then north east,Miscellaneous Symbols and Arrows,,
-⭠,2B60,11104,leftwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⭡,2B61,11105,upwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⭢,2B62,11106,rightwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⭣,2B63,11107,downwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⭤,2B64,11108,left right triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⭥,2B65,11109,up down triangle-headed arrow,Miscellaneous Symbols and Arrows,,
+⭠,2B60,11104,leftwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,<-
+⭡,2B61,11105,upwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,^
+⭢,2B62,11106,rightwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,->
+⭣,2B63,11107,downwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,v
+⭤,2B64,11108,left right triangle-headed arrow,Miscellaneous Symbols and Arrows,,<->
+⭥,2B65,11109,up down triangle-headed arrow,Miscellaneous Symbols and Arrows,,^ v
 ⭦,2B66,11110,north west triangle-headed arrow,Miscellaneous Symbols and Arrows,,
 ⭧,2B67,11111,north east triangle-headed arrow,Miscellaneous Symbols and Arrows,,
 ⭨,2B68,11112,south east triangle-headed arrow,Miscellaneous Symbols and Arrows,,
@@ -9884,8 +9884,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⭿,2B7F,11135,vertical tab key,Miscellaneous Symbols and Arrows,,
 ⮀,2B80,11136,leftwards triangle-headed arrow over rightwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
 ⮁,2B81,11137,upwards triangle-headed arrow leftwards of downwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⮂,2B82,11138,rightwards triangle-headed arrow over leftwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
-⮃,2B83,11139,downwards triangle-headed arrow leftwards of upwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,
+⮂,2B82,11138,rightwards triangle-headed arrow over leftwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,<->
+⮃,2B83,11139,downwards triangle-headed arrow leftwards of upwards triangle-headed arrow,Miscellaneous Symbols and Arrows,,^ v
 ⮄,2B84,11140,leftwards triangle-headed paired arrows,Miscellaneous Symbols and Arrows,,
 ⮅,2B85,11141,upwards triangle-headed paired arrows,Miscellaneous Symbols and Arrows,,
 ⮆,2B86,11142,rightwards triangle-headed paired arrows,Miscellaneous Symbols and Arrows,,
@@ -9898,12 +9898,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⮍,2B8D,11149,anticlockwise triangle-headed bottom u-shaped arrow,Miscellaneous Symbols and Arrows,,
 ⮎,2B8E,11150,anticlockwise triangle-headed left u-shaped arrow,Miscellaneous Symbols and Arrows,,
 ⮏,2B8F,11151,anticlockwise triangle-headed top u-shaped arrow,Miscellaneous Symbols and Arrows,,
-⮐,2B90,11152,return left,Miscellaneous Symbols and Arrows,,
-⮑,2B91,11153,return right,Miscellaneous Symbols and Arrows,,
+⮐,2B90,11152,return left,Miscellaneous Symbols and Arrows,,<-
+⮑,2B91,11153,return right,Miscellaneous Symbols and Arrows,,->
 ⮒,2B92,11154,newline left,Miscellaneous Symbols and Arrows,,
 ⮓,2B93,11155,newline right,Miscellaneous Symbols and Arrows,,
 ⮔,2B94,11156,four corner arrows circling anticlockwise,Miscellaneous Symbols and Arrows,,
-⮕,2B95,11157,rightwards black arrow,Miscellaneous Symbols and Arrows,,
+⮕,2B95,11157,rightwards black arrow,Miscellaneous Symbols and Arrows,,->
 ⮘,2B98,11160,three-d top-lighted leftwards equilateral arrowhead,Miscellaneous Symbols and Arrows,,
 ⮙,2B99,11161,three-d right-lighted upwards equilateral arrowhead,Miscellaneous Symbols and Arrows,,
 ⮚,2B9A,11162,three-d top-lighted rightwards equilateral arrowhead,Miscellaneous Symbols and Arrows,,
@@ -9984,10 +9984,10 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⯥,2BE5,11237,admetos,Miscellaneous Symbols and Arrows,,
 ⯦,2BE6,11238,vulcanus,Miscellaneous Symbols and Arrows,,
 ⯧,2BE7,11239,poseidon,Miscellaneous Symbols and Arrows,,
-⯨,2BE8,11240,left half black star,Miscellaneous Symbols and Arrows,,
-⯩,2BE9,11241,right half black star,Miscellaneous Symbols and Arrows,,
-⯪,2BEA,11242,star with left half black,Miscellaneous Symbols and Arrows,,
-⯫,2BEB,11243,star with right half black,Miscellaneous Symbols and Arrows,,
+⯨,2BE8,11240,left half black star,Miscellaneous Symbols and Arrows,,*
+⯩,2BE9,11241,right half black star,Miscellaneous Symbols and Arrows,,*
+⯪,2BEA,11242,star with left half black,Miscellaneous Symbols and Arrows,,*
+⯫,2BEB,11243,star with right half black,Miscellaneous Symbols and Arrows,,*
 ⯬,2BEC,11244,leftwards two-headed arrow with triangle arrowheads,Miscellaneous Symbols and Arrows,,
 ⯭,2BED,11245,upwards two-headed arrow with triangle arrowheads,Miscellaneous Symbols and Arrows,,
 ⯮,2BEE,11246,rightwards two-headed arrow with triangle arrowheads,Miscellaneous Symbols and Arrows,,
@@ -10332,11 +10332,11 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⵐ,2D50,11600,tifinagh letter tuareg yagn,Tifinagh,,
 ⵑ,2D51,11601,tifinagh letter tuareg yang,Tifinagh,,
 ⵒ,2D52,11602,tifinagh letter yap,Tifinagh,,
-ⵓ,2D53,11603,tifinagh letter yu,Tifinagh,,
+ⵓ,2D53,11603,tifinagh letter yu,Tifinagh,,:
 ⵔ,2D54,11604,tifinagh letter yar,Tifinagh,,
 ⵕ,2D55,11605,tifinagh letter yarr,Tifinagh,,
 ⵖ,2D56,11606,tifinagh letter yagh,Tifinagh,,
-ⵗ,2D57,11607,tifinagh letter tuareg yagh,Tifinagh,,
+ⵗ,2D57,11607,tifinagh letter tuareg yagh,Tifinagh,,...
 ⵘ,2D58,11608,tifinagh letter ayer yagh,Tifinagh,,
 ⵙ,2D59,11609,tifinagh letter yas,Tifinagh,,
 ⵚ,2D5A,11610,tifinagh letter yass,Tifinagh,,
@@ -10352,7 +10352,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⵤ,2D64,11620,tifinagh letter tawellemet yaz,Tifinagh,,
 ⵥ,2D65,11621,tifinagh letter yazz,Tifinagh,,
 ⵦ,2D66,11622,tifinagh letter ye,Tifinagh,,
-ⵧ,2D67,11623,tifinagh letter yo,Tifinagh,,
+ⵧ,2D67,11623,tifinagh letter yo,Tifinagh,,--
 ⵯ,2D6F,11631,tifinagh modifier letter labialization mark,Tifinagh,,
 ⵰,2D70,11632,tifinagh separator mark,Tifinagh,,
 ⵿,2D7F,11647,tifinagh consonant joiner,Tifinagh,,
@@ -10514,9 +10514,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⸬,2E2C,11820,squared four dot punctuation,Supplemental Punctuation,,
 ⸭,2E2D,11821,five dot mark,Supplemental Punctuation,,
 ⸮,2E2E,11822,reversed question mark,Supplemental Punctuation,,?
-ⸯ,2E2F,11823,vertical tilde,Supplemental Punctuation,,
-⸰,2E30,11824,ring point,Supplemental Punctuation,,
-⸱,2E31,11825,word separator middle dot,Supplemental Punctuation,,
+ⸯ,2E2F,11823,vertical tilde,Supplemental Punctuation,,~
+⸰,2E30,11824,ring point,Supplemental Punctuation,,.
+⸱,2E31,11825,word separator middle dot,Supplemental Punctuation,,. middot
 ⸲,2E32,11826,turned comma,Supplemental Punctuation,,
 ⸳,2E33,11827,raised dot,Supplemental Punctuation,,
 ⸴,2E34,11828,raised comma,Supplemental Punctuation,,
@@ -10531,7 +10531,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⸽,2E3D,11837,vertical six dots,Supplemental Punctuation,,
 ⸾,2E3E,11838,wiggly vertical line,Supplemental Punctuation,,
 ⸿,2E3F,11839,capitulum,Supplemental Punctuation,,
-⹀,2E40,11840,double hyphen,Supplemental Punctuation,,
+⹀,2E40,11840,double hyphen,Supplemental Punctuation,,=
 ⹁,2E41,11841,reversed comma,Supplemental Punctuation,,
 ⹂,2E42,11842,double low-reversed-9 quotation mark,Supplemental Punctuation,,
 ⹃,2E43,11843,dash with left upturn,Supplemental Punctuation,,
@@ -10890,16 +10890,16 @@ z,007A,122,latin small letter z,Basic Latin,,
 ⿻,2FFB,12283,ideographic description character overlaid,Ideographic Description Characters,,
 　,3000,12288,ideographic space,CJK Symbols and Punctuation,,
 、,3001,12289,ideographic comma,CJK Symbols and Punctuation,,
-。,3002,12290,ideographic full stop,CJK Symbols and Punctuation,,
-〃,3003,12291,ditto mark,CJK Symbols and Punctuation,,
+。,3002,12290,ideographic full stop,CJK Symbols and Punctuation,,.
+〃,3003,12291,ditto mark,CJK Symbols and Punctuation,,""" quote"
 〄,3004,12292,japanese industrial standard symbol,CJK Symbols and Punctuation,,
 々,3005,12293,ideographic iteration mark,CJK Symbols and Punctuation,,
 〆,3006,12294,ideographic closing mark,CJK Symbols and Punctuation,,
 〇,3007,12295,ideographic number zero,CJK Symbols and Punctuation,,0
-〈,3008,12296,left angle bracket,CJK Symbols and Punctuation,,
-〉,3009,12297,right angle bracket,CJK Symbols and Punctuation,,
-《,300A,12298,left double angle bracket,CJK Symbols and Punctuation,,
-》,300B,12299,right double angle bracket,CJK Symbols and Punctuation,,
+〈,3008,12296,left angle bracket,CJK Symbols and Punctuation,,<
+〉,3009,12297,right angle bracket,CJK Symbols and Punctuation,,>
+《,300A,12298,left double angle bracket,CJK Symbols and Punctuation,,< «
+》,300B,12299,right double angle bracket,CJK Symbols and Punctuation,,> »
 「,300C,12300,left corner bracket,CJK Symbols and Punctuation,,
 」,300D,12301,right corner bracket,CJK Symbols and Punctuation,,
 『,300E,12302,left white corner bracket,CJK Symbols and Punctuation,,
@@ -10917,8 +10917,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 〚,301A,12314,left white square bracket,CJK Symbols and Punctuation,,
 〛,301B,12315,right white square bracket,CJK Symbols and Punctuation,,
 〜,301C,12316,wave dash,CJK Symbols and Punctuation,,
-〝,301D,12317,reversed double prime quotation mark,CJK Symbols and Punctuation,,
-〞,301E,12318,double prime quotation mark,CJK Symbols and Punctuation,,
+〝,301D,12317,reversed double prime quotation mark,CJK Symbols and Punctuation,,""" quote"
+〞,301E,12318,double prime quotation mark,CJK Symbols and Punctuation,,""" quote"
 〟,301F,12319,low double prime quotation mark,CJK Symbols and Punctuation,,
 〠,3020,12320,postal mark face,CJK Symbols and Punctuation,,
 〡,3021,12321,hangzhou numeral one,CJK Symbols and Punctuation,,
@@ -10930,12 +10930,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 〧,3027,12327,hangzhou numeral seven,CJK Symbols and Punctuation,,
 〨,3028,12328,hangzhou numeral eight,CJK Symbols and Punctuation,,
 〩,3029,12329,hangzhou numeral nine,CJK Symbols and Punctuation,,
-〪,302A,12330,ideographic level tone mark,CJK Symbols and Punctuation,,
-〫,302B,12331,ideographic rising tone mark,CJK Symbols and Punctuation,,
-〬,302C,12332,ideographic departing tone mark,CJK Symbols and Punctuation,,
-〭,302D,12333,ideographic entering tone mark,CJK Symbols and Punctuation,,
-〮,302E,12334,hangul single dot tone mark,CJK Symbols and Punctuation,,
-〯,302F,12335,hangul double dot tone mark,CJK Symbols and Punctuation,,
+〪,302A,12330,ideographic level tone mark,CJK Symbols and Punctuation,,.
+〫,302B,12331,ideographic rising tone mark,CJK Symbols and Punctuation,,.
+〬,302C,12332,ideographic departing tone mark,CJK Symbols and Punctuation,,.
+〭,302D,12333,ideographic entering tone mark,CJK Symbols and Punctuation,,.
+〮,302E,12334,hangul single dot tone mark,CJK Symbols and Punctuation,,.
+〯,302F,12335,hangul double dot tone mark,CJK Symbols and Punctuation,,.
 〱,3031,12337,vertical kana repeat mark,CJK Symbols and Punctuation,,
 〲,3032,12338,vertical kana repeat with voiced sound mark,CJK Symbols and Punctuation,,
 〳,3033,12339,vertical kana repeat mark upper half,CJK Symbols and Punctuation,,
@@ -15339,13 +15339,13 @@ z,007A,122,latin small letter z,Basic Latin,,
 𧻓,FAD7,64215,cjk compatibility ideograph-fad7,CJK Compatibility Ideographs,,
 齃,FAD8,64216,cjk compatibility ideograph-fad8,CJK Compatibility Ideographs,,
 龎,FAD9,64217,cjk compatibility ideograph-fad9,CJK Compatibility Ideographs,,
-ﬀ,FB00,64256,latin small ligature ff,Alphabetic Presentation Forms,fflig,
-ﬁ,FB01,64257,latin small ligature fi,Alphabetic Presentation Forms,filig,
-ﬂ,FB02,64258,latin small ligature fl,Alphabetic Presentation Forms,fllig,
-ﬃ,FB03,64259,latin small ligature ffi,Alphabetic Presentation Forms,ffilig,
-ﬄ,FB04,64260,latin small ligature ffl,Alphabetic Presentation Forms,ffllig,
-ﬅ,FB05,64261,latin small ligature long s t,Alphabetic Presentation Forms,,
-ﬆ,FB06,64262,latin small ligature st,Alphabetic Presentation Forms,,
+ﬀ,FB00,64256,latin small ligature ff,Alphabetic Presentation Forms,fflig,ff
+ﬁ,FB01,64257,latin small ligature fi,Alphabetic Presentation Forms,filig,fi
+ﬂ,FB02,64258,latin small ligature fl,Alphabetic Presentation Forms,fllig,fl
+ﬃ,FB03,64259,latin small ligature ffi,Alphabetic Presentation Forms,ffilig,ffi
+ﬄ,FB04,64260,latin small ligature ffl,Alphabetic Presentation Forms,ffllig,ffl
+ﬅ,FB05,64261,latin small ligature long s t,Alphabetic Presentation Forms,,st
+ﬆ,FB06,64262,latin small ligature st,Alphabetic Presentation Forms,,st
 ﬓ,FB13,64275,armenian small ligature men now,Alphabetic Presentation Forms,,
 ﬔ,FB14,64276,armenian small ligature men ech,Alphabetic Presentation Forms,,
 ﬕ,FB15,64277,armenian small ligature men ini,Alphabetic Presentation Forms,,
@@ -30384,9 +30384,9 @@ z,007A,122,latin small letter z,Basic Latin,,
 🡅,1F845,129093,upwards heavy arrow,Supplemental Arrows-C,,
 🡆,1F846,129094,rightwards heavy arrow,Supplemental Arrows-C,,
 🡇,1F847,129095,downwards heavy arrow,Supplemental Arrows-C,,
-🡐,1F850,129104,leftwards sans-serif arrow,Supplemental Arrows-C,,
+🡐,1F850,129104,leftwards sans-serif arrow,Supplemental Arrows-C,,<-
 🡑,1F851,129105,upwards sans-serif arrow,Supplemental Arrows-C,,
-🡒,1F852,129106,rightwards sans-serif arrow,Supplemental Arrows-C,,
+🡒,1F852,129106,rightwards sans-serif arrow,Supplemental Arrows-C,,->
 🡓,1F853,129107,downwards sans-serif arrow,Supplemental Arrows-C,,
 🡔,1F854,129108,north west sans-serif arrow,Supplemental Arrows-C,,
 🡕,1F855,129109,north east sans-serif arrow,Supplemental Arrows-C,,
@@ -31267,12 +31267,12 @@ z,007A,122,latin small letter z,Basic Latin,,
 🗯️,1F5EF,,right anger bubble,smileys-emotion,,emoji emotion angry balloon bubble mad white
 💭,1F4AD,,thought balloon,smileys-emotion,,emoji emotion balloon bubble comic thought white
 💤,1F4A4,,zzz,smileys-emotion,,emoji emotion comic sleep blue
-👋,1F44B,,waving hand,people-body,,emoji hand-fingers-open hand wave waving yellow
-👋🏻,1F44B 1F3FB,,waving hand: light skin tone,people-body,,emoji hand-fingers-open hand wave waving
-👋🏼,1F44B 1F3FC,,waving hand: medium-light skin tone,people-body,,emoji hand-fingers-open hand wave waving
-👋🏽,1F44B 1F3FD,,waving hand: medium skin tone,people-body,,emoji hand-fingers-open hand wave waving
-👋🏾,1F44B 1F3FE,,waving hand: medium-dark skin tone,people-body,,emoji hand-fingers-open hand wave waving
-👋🏿,1F44B 1F3FF,,waving hand: dark skin tone,people-body,,emoji hand-fingers-open hand wave waving
+👋,1F44B,,waving hand,people-body,,emoji hand-fingers-open hand wave waving yellow hello
+👋🏻,1F44B 1F3FB,,waving hand: light skin tone,people-body,,emoji hand-fingers-open hand wave waving hello
+👋🏼,1F44B 1F3FC,,waving hand: medium-light skin tone,people-body,,emoji hand-fingers-open hand wave waving hello
+👋🏽,1F44B 1F3FD,,waving hand: medium skin tone,people-body,,emoji hand-fingers-open hand wave waving hello
+👋🏾,1F44B 1F3FE,,waving hand: medium-dark skin tone,people-body,,emoji hand-fingers-open hand wave waving hello
+👋🏿,1F44B 1F3FF,,waving hand: dark skin tone,people-body,,emoji hand-fingers-open hand wave waving hello
 🤚,1F91A,,raised back of hand,people-body,,emoji hand-fingers-open backhand raised yellow
 🤚🏻,1F91A 1F3FB,,raised back of hand: light skin tone,people-body,,emoji hand-fingers-open backhand raised
 🤚🏼,1F91A 1F3FC,,raised back of hand: medium-light skin tone,people-body,,emoji hand-fingers-open backhand raised
