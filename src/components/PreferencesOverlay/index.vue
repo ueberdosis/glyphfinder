@@ -33,8 +33,14 @@
           Danger Zone
         </div>
         <div>
-          <btn @click.native="clearCache" is-red>
-            Clear Cache
+          <btn @click.native="clearGlyphs" is-red>
+            Clear Glyphs
+          </btn>
+          <btn @click.native="clearIndex" is-red>
+            Clear Index
+          </btn>
+          <btn @click.native="resetAll" is-red>
+            Reset All
           </btn>
         </div>
       </div>
@@ -65,9 +71,25 @@ export default {
       Event.emit('hidePreferences')
   ***REMOVED***,
 
-    clearCache() {
+    clearGlyphs() {
       // eslint-disable-next-line
-      if (confirm('Do you really want to clear the cache?')) {
+      if (confirm('Do you really want to clear the glyphs cache?')) {
+        DB.removeGlyphs()
+        window.location.reload()
+    ***REMOVED***
+  ***REMOVED***,
+
+    clearIndex() {
+      // eslint-disable-next-line
+      if (confirm('Do you really want to clear the search index cache?')) {
+        DB.removeSearchIndex()
+        window.location.reload()
+    ***REMOVED***
+  ***REMOVED***,
+
+    resetAll() {
+      // eslint-disable-next-line
+      if (confirm('Do you really want to reset all?')) {
         Store.clear()
         DB.removeAll()
         window.location.reload()
