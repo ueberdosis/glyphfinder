@@ -127,7 +127,7 @@ export default {
       ***REMOVED***,
   ***REMOVED***
 
-      const count = Math.floor((this.width * this.height) / 18000)
+      const count = Math.floor((this.width * this.height) / 8000)
       const canvasStartX = -this.width * 0.2
       const canvasStartY = -this.height * 0.2
       const canvasEndX = this.width * 1.2
