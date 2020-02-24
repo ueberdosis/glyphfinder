@@ -25,10 +25,12 @@
   border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 8px;
-  background-color: rgba($colorWhite, 0.08);
+  background-color: rgba($colorWhite, 0.1);
+  min-height: 50px;
+  transition: background-color 0.2s $ease;
 
   &:hover {
-    background-color: rgba($colorWhite, 0.08);
+    background-color: rgba($colorWhite, 0.15);
 ***REMOVED***
 }
 
