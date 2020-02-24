@@ -13,6 +13,7 @@
           placeholder="Search …"
           autofocus
           v-model="query"
+          @keydown.esc="reset"
           @blur="onBlurInput"
         >
       </div>
@@ -69,6 +70,10 @@ export default {
           this.$refs.search.focus()
       ***REMOVED***
   ***REMOVED***
+  ***REMOVED***,
+
+    reset() {
+      this.query = ''
   ***REMOVED***,
 ***REMOVED***,
 }
