@@ -1,5 +1,6 @@
 import registerPromiseWorker from 'promise-worker/register'
 import Glyphs from './Glyphs'
+import glyphs from '../data/data.json'
 
 class SupportedGlyphs {
   construct() {
@@ -7,29 +8,25 @@ class SupportedGlyphs {
 ***REMOVED***
 
   init() {
-    import('../data/data.json').then(importData => {
-      // const glyphs = collect(data).take(100).toArray()
-      const glyphs = importData.default
-      const glyphsCount = glyphs.length
-      const supportedGlyphs = glyphs.filter((glyph, index) => {
-        const progress = Math.floor((100 / glyphsCount) * (index + 1))
+    const glyphsCount = glyphs.length
+    const supportedGlyphs = glyphs.filter((glyph, index) => {
+      const progress = Math.floor((100 / glyphsCount) * (index + 1))
 
-        if (progress > this.progress) {
-          postMessage({
-            type: 'progress',
-            value: progress,
-      ***REMOVED***
-      ***REMOVED***
+      if (progress > this.progress) {
+        postMessage({
+          type: 'progress',
+          value: progress,
+    ***REMOVED***
+    ***REMOVED***
 
-        this.progress = progress
+      this.progress = progress
 
-  ***REMOVED*** this.isGlyphInFont(glyph.symbol)
-  ***REMOVED***
+***REMOVED*** this.isGlyphInFont(glyph.symbol)
+***REMOVED***
 
-      postMessage({
-        type: 'supportedGlyphs',
-        value: supportedGlyphs,
-  ***REMOVED***
+    postMessage({
+      type: 'supportedGlyphs',
+      value: supportedGlyphs,
 ***REMOVED***
 ***REMOVED***
 
@@ -50,9 +47,12 @@ class SupportedGlyphs {
     return !missingCharBoxes.includes(imageData.toString())
 ***REMOVED***
 
-  createSearchIndex(glyphs = []) {
+  createSearchIndex(filteredGlyphs = []) {
+    const newGlyphs = filteredGlyphs
+      .map(filteredGlyph => glyphs.find(glyph => glyph.symbol === filteredGlyph.symbol))
+
     return Glyphs
-      .importGlyphs(glyphs)
+      .importGlyphs(newGlyphs)
       .createIndex()
       .exportIndex()
 ***REMOVED***
@@ -69,4 +69,6 @@ registerPromiseWorker(message => {
   if (message.type === 'createSearchIndex') {
     return new SupportedGlyphs().createSearchIndex(message.glyphs)
 ***REMOVED***
+
+  return null
 })
