@@ -104,7 +104,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 §,00A7,167,section sign,Latin-1 Supplement,sect,s
 ¨,00A8,168,diaeresis,Latin-1 Supplement,Dot DoubleDot die uml,""""
 ª,00AA,170,feminine ordinal indicator,Latin-1 Supplement,ordf,a
-«,00AB,171,left-pointing double angle quotation mark,Latin-1 Supplement,laquo,<<
+«,00AB,171,left-pointing double angle quotation mark,Latin-1 Supplement,laquo,<< quote
 ¬,00AC,172,not sign,Latin-1 Supplement,not,-
 ­,00AD,173,soft hyphen,Latin-1 Supplement,shy,-
 ¯,00AF,175,macron,Latin-1 Supplement,macr strns,- overline
@@ -119,7 +119,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 ¸,00B8,184,cedilla,Latin-1 Supplement,Cedilla cedil,","
 ¹,00B9,185,superscript one,Latin-1 Supplement,sup1,1 superscript one
 º,00BA,186,masculine ordinal indicator,Latin-1 Supplement,ordm,o ordinal
-»,00BB,187,right-pointing double angle quotation mark,Latin-1 Supplement,raquo,>>
+»,00BB,187,right-pointing double angle quotation mark,Latin-1 Supplement,raquo,>> quote
 ¼,00BC,188,vulgar fraction one quarter,Latin-1 Supplement,frac14,1/4
 ½,00BD,189,vulgar fraction one half,Latin-1 Supplement,frac12 half,1/2
 ¾,00BE,190,vulgar fraction three quarters,Latin-1 Supplement,frac34,3/4
@@ -147,8 +147,8 @@ z,007A,122,latin small letter z,Basic Latin,,
 Ô,00D4,212,latin capital letter o with circumflex,Latin-1 Supplement,Ocirc,
 Õ,00D5,213,latin capital letter o with tilde,Latin-1 Supplement,Otilde,
 Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,
-×,00D7,215,multiplication sign,Latin-1 Supplement,times,multiplicate x times
-Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,slash /
+×,00D7,215,multiplication sign,Latin-1 Supplement,times,multiplicate x times multiply
+Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,slash / average
 Ù,00D9,217,latin capital letter u with grave,Latin-1 Supplement,Ugrave,
 Ú,00DA,218,latin capital letter u with acute,Latin-1 Supplement,Uacute,
 Û,00DB,219,latin capital letter u with circumflex,Latin-1 Supplement,Ucirc,
@@ -180,7 +180,7 @@ z,007A,122,latin small letter z,Basic Latin,,
 õ,00F5,245,latin small letter o with tilde,Latin-1 Supplement,otilde,
 ö,00F6,246,latin small letter o with diaeresis,Latin-1 Supplement,ouml,o diaeresis
 ÷,00F7,247,division sign,Latin-1 Supplement,div divide,division / div
-ø,00F8,248,latin small letter o with stroke,Latin-1 Supplement,oslash,o stroke slash
+ø,00F8,248,latin small letter o with stroke,Latin-1 Supplement,oslash,o stroke slash average
 ù,00F9,249,latin small letter u with grave,Latin-1 Supplement,ugrave,u grave
 ú,00FA,250,latin small letter u with acute,Latin-1 Supplement,uacute,u acute
 û,00FB,251,latin small letter u with circumflex,Latin-1 Supplement,ucirc,u circumflex
