@@ -36,7 +36,7 @@ export default {
   ***REMOVED***,
 
     close() {
-      Event.emit('hideLicense')
+      Event.emit('hideLicenseCheck')
   ***REMOVED***,
 
     buyLicense() {
