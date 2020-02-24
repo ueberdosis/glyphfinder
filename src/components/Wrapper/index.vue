@@ -39,24 +39,16 @@ export default {
 ***REMOVED***,
 
   data() {
-    const dbExists = DB.glyphsExists() && DB.searchIndexExists()
-
-    if (dbExists) {
-      Glyphs
-        .importGlyphs(DB.glyphs())
-        .importIndex(DB.searchIndex())
-  ***REMOVED***
-
     return {
       showPreferences: false,
-      showGlyphCheck: User.isVerified && !dbExists,
-      showLicenseCheck: !User.isVerified,
+      showGlyphCheck: false,
+      showLicenseCheck: false,
   ***REMOVED***
 ***REMOVED***,
 
   methods: {
     onShowPreferences() {
-      if (!User.isVerified) {
+      if (!User.isVerified || this.showGlyphCheck || this.showLicenseCheck) {
   ***REMOVED***
     ***REMOVED***
 
@@ -64,38 +56,33 @@ export default {
   ***REMOVED***,
 
     onHidePreferences() {
-      if (!User.isVerified) {
-  ***REMOVED***
-    ***REMOVED***
-
       this.showPreferences = false
   ***REMOVED***,
 
-    onShowGlyphCheck() {
-      if (!User.isVerified) {
-  ***REMOVED***
-    ***REMOVED***
-
-      this.showGlyphCheck = true
-  ***REMOVED***,
-
     onHideGlyphCheck() {
-      if (!User.isVerified) {
-  ***REMOVED***
-    ***REMOVED***
-
       this.showGlyphCheck = false
   ***REMOVED***,
 
-    onShowLicenseCheck() {
-      console.log('show license check')
-      this.showLicenseCheck = true
+    onHideLicenseCheck() {
+      this.init()
   ***REMOVED***,
 
-    onHideLicenseCheck() {
-      console.log('hude license check')
-      this.showLicenseCheck = false
+    init() {
+      const dbExists = DB.glyphsExists() && DB.searchIndexExists()
+
+      if (dbExists) {
+        Glyphs
+          .importGlyphs(DB.glyphs())
+          .importIndex(DB.searchIndex())
+    ***REMOVED***
+
+      this.showGlyphCheck = User.isVerified && !dbExists
+      this.showLicenseCheck = !User.isVerified
   ***REMOVED***,
+***REMOVED***,
+
+  created() {
+    this.init()
 ***REMOVED***,
 
   mounted() {
@@ -103,7 +90,6 @@ export default {
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)
     Event.on('hideGlyphCheck', this.onHideGlyphCheck)
-    Event.on('showLicenseCheck', this.onShowLicenseCheck)
     Event.on('hideLicenseCheck', this.onHideLicenseCheck)
 ***REMOVED***,
 
@@ -111,7 +97,6 @@ export default {
     ipcRenderer.removeListener('showPreferences', this.onShowPreferences)
     Event.off('hidePreferences', this.onHidePreferences)
     Event.off('hideGlyphCheck', this.onHideGlyphCheck)
-    Event.off('showLicenseCheck', this.onShowLicenseCheck)
     Event.off('hideLicenseCheck', this.onHideLicenseCheck)
 ***REMOVED***,
 }
