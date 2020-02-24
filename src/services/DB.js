@@ -38,8 +38,8 @@ import { app, remote } from 'electron'
     return fs.existsSync(this.searchIndexPath)
 ***REMOVED***
 
-  saveSearchIndex(glyphs = []) {
-    fs.writeFileSync(this.searchIndexPath, JSON.stringify(glyphs))
+  saveSearchIndex(index = []) {
+    fs.writeFileSync(this.searchIndexPath, JSON.stringify(index))
 ***REMOVED***
 
   searchIndex() {
