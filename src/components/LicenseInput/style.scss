@@ -1,0 +1,57 @@
+.license-input {
+
+  text-align: center;
+
+  &__input {
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    background-color: transparent;
+    color: $colorRed;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    text-align: inherit;
+    transition: color 0.5s $ease;
+
+    &.is-success {
+      color: $colorRed;
+  ***REMOVED***
+
+    &.is-error {
+      color: $colorRed;
+      animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  ***REMOVED***
+
+    &:disabled {
+      color: rgba($colorWhite, 0.5);
+  ***REMOVED***
+
+    &::placeholder {
+      color: rgba($colorWhite, 0.2);
+  ***REMOVED***
+***REMOVED***
+
+  &__error-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+***REMOVED***
+
+  &__error {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: $colorRed;
+***REMOVED***
+
+  &__retry {
+    margin-left: 4px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: rgba($colorRed, 0.2);
+***REMOVED***
+
+}

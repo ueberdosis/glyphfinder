@@ -19,12 +19,12 @@
         </div>
       </div>
 
-      <div class="preferences-overlay__section">
+      <div class="preferences-overlay__section" v-if="user.email">
         <div class="preferences-overlay__label">
           License
         </div>
         <div>
-          Licenced to XXX
+          Licenced to {{ user.email }}
         </div>
       </div>
 
@@ -44,6 +44,7 @@
 
 <script>
 import DB from '@/services/DB'
+import User from '@/services/User'
 import Event from '@/services/Event'
 import Store from '@/services/Store'
 import Btn from '@/components/Btn'
@@ -51,6 +52,12 @@ import Btn from '@/components/Btn'
 export default {
   components: {
     Btn,
+***REMOVED***,
+
+  data() {
+    return {
+      user: User,
+  ***REMOVED***
 ***REMOVED***,
 
   methods: {

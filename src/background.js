@@ -7,6 +7,7 @@ import {
   installVueDevtools,
 } from 'vue-cli-plugin-electron-builder/lib'
 
+import LicenseCheck from './services/LicenseCheck'
 import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
 import Setapp from './services/Setapp'
@@ -45,6 +46,8 @@ function createWindow() {
   ***REMOVED***,
     icon: path.resolve(__dirname, 'build/icon.icns'),
 ***REMOVED***)
+
+  LicenseCheck.setWindow(win)
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
