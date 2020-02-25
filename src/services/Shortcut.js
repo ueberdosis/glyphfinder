@@ -25,20 +25,22 @@ if (isISOKeyboard) {
   get(symbol) {
     return collect(this.keymap)
       .map(key => {
+        const value = key.value === ' ' ? '␣' : key.value
+
         if (key.value === symbol) {
-    ***REMOVED*** [key.value]
+    ***REMOVED*** [value]
       ***REMOVED***
 
         if (key.withAltGr === symbol) {
-    ***REMOVED*** ['⌥', key.value]
+    ***REMOVED*** ['⌥', value]
       ***REMOVED***
 
         if (key.withShift === symbol) {
-    ***REMOVED*** ['⇧', key.value]
+    ***REMOVED*** ['⇧', value]
       ***REMOVED***
 
         if (key.withShiftAltGr === symbol) {
-    ***REMOVED*** ['⇧', '⌥', key.value]
+    ***REMOVED*** ['⇧', '⌥', value]
       ***REMOVED***
 
   ***REMOVED*** null
