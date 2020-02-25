@@ -72,6 +72,22 @@ export default {
     glyphRows() {
       const defaultSetName = 'Other Glyphs'
 
+      if (!this.hasFrequentlyUsedGlyphs) {
+  ***REMOVED*** this.chunkGlyphs(this.formattedGlyphs).map((row, index, array) => {
+          if (index === array.length - 1) {
+      ***REMOVED*** {
+              ...row,
+              height: this.glyphRowHeight + this.expandedHeight + 20,
+          ***REMOVED***
+        ***REMOVED***
+
+    ***REMOVED*** {
+            ...row,
+            height: this.glyphRowHeight,
+        ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+
 ***REMOVED*** collect(this.formattedGlyphs)
         .mapToGroups(item => [item.set, item])
         .map((glyphs, set) => ([{
