@@ -70,14 +70,16 @@ export default {
   ***REMOVED***,
 
     glyphRows() {
+      const defaultSetName = 'Other Glyphs'
+
 ***REMOVED*** collect(this.formattedGlyphs)
         .mapToGroups(item => [item.set, item])
         .map((glyphs, set) => ([{
           glyphs,
-          set: set || 'Other Glyphs',
+          set: set || defaultSetName,
       ***REMOVED***]))
         .flatten(1)
-        .sortBy(group => group.set === 'Other Glyphs')
+        .sortBy(group => group.set === defaultSetName)
         .map(group => this.chunkGlyphs(group.glyphs).map((row, index) => {
           // if (index === 0 && this.hasFrequentlyUsedGlyphs) {
           if (index === 0) {
