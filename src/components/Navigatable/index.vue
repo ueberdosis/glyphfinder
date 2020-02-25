@@ -57,6 +57,7 @@ export default {
 ***REMOVED*** collect(this.usage)
         .sortByDesc('count')
         .map(item => this.formattedGlyphs.find(glyph => glyph.symbol === item.symbol))
+        .filter()
         .map(glyph => ({
           ...glyph,
           id: `frequently_used_${glyph.symbol}`,
