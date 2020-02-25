@@ -15,6 +15,7 @@ const isMac = process.platform === 'darwin'
           { type: 'separator' },
           {
             label: 'Preferences',
+            accelerator: 'CmdOrCtrl+,',
             click() {
               BrowserWindow
                 .getAllWindows()
@@ -68,7 +69,7 @@ const isMac = process.platform === 'darwin'
           { role: 'togglefullscreen' },
           {
             label: 'Show Developer Tools',
-            accelerator: 'Alt+Command+I',
+            accelerator: 'Alt+CmdOrCtrl+I',
             click(item, focusedWindow) {
               if (focusedWindow) {
                 focusedWindow.toggleDevTools()
