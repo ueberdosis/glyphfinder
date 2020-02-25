@@ -14,16 +14,16 @@ import DB from './DB'
   async create() {
     const glyphs = await this.createSupportedGlyphs()
 
-    const searchIndex = await this.promiseWorker.postMessage({
+    const { searchIndex, newGlyphs } = await this.promiseWorker.postMessage({
       type: 'createSearchIndex',
       glyphs,
 ***REMOVED***
 
-    DB.saveGlyphs(glyphs)
+    DB.saveGlyphs(newGlyphs)
     DB.saveSearchIndex(searchIndex)
 
     Glyphs
-      .importGlyphs(glyphs)
+      .importGlyphs(newGlyphs)
       .importIndex(searchIndex)
 
     this.finishCallback()

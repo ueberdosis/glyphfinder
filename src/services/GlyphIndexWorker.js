@@ -51,10 +51,15 @@ class SupportedGlyphs {
     const newGlyphs = filteredGlyphs
       .map(filteredGlyph => glyphs.find(glyph => glyph.symbol === filteredGlyph.symbol))
 
-    return Glyphs
+    const searchIndex = Glyphs
       .importGlyphs(newGlyphs)
       .createIndex()
       .exportIndex()
+
+    return {
+      searchIndex,
+      newGlyphs,
+  ***REMOVED***
 ***REMOVED***
 }
 
