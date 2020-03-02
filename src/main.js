@@ -27,4 +27,7 @@ Vue.mixin({
 
 new Vue({
   render: h => h(Wrapper),
+  mounted() {
+    document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
+***REMOVED***,
 }).$mount('#app')

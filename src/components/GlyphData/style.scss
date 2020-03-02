@@ -1,8 +1,6 @@
 .glyph-data {
   
   &__card {
-    background-color: rgba(rgb(40, 40, 40), 0.6);
-    backdrop-filter: blur(15px);
     color: $colorWhite;
     border-radius: 6px;
     padding: 16px;
@@ -12,6 +10,15 @@
       0px 0px 40px 2px rgba($colorBlack, 0.8),
       0px 0px 8px 1px rgba($colorBlack, 0.4),
     ;
+
+    .is-windows & {
+      background-color: rgba(rgb(40, 40, 40), 1);
+  ***REMOVED***
+
+    .is-mac & {
+      background-color: rgba(rgb(40, 40, 40), 0.6);
+      backdrop-filter: blur(15px);
+  ***REMOVED***
 ***REMOVED***
 
   &__header {
