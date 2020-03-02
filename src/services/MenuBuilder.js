@@ -9,7 +9,7 @@ const isMac = process.platform === 'darwin'
   template() {
     return [
       {
-        label: app.getName(),
+        label: isMac ? app.getName() : 'File',
         submenu: [
           { role: 'about' },
           { type: 'separator' },
