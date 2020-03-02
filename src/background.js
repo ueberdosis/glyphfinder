@@ -60,6 +60,8 @@ function createWindow() {
     win.loadURL('app://./index.html')
 ***REMOVED***
 
+  win.show()
+
   if (isProduction && !Setapp.isActive) {
     Updater.silentlyCheckForUpdates()
 ***REMOVED***
