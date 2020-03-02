@@ -4,8 +4,11 @@
   align-items: center;
   background-color: $colorRed;
   color: $colorBlack;
-  border-radius: 6px;
   overflow: hidden;
+
+  .is-mac & {
+    border-radius: 6px;
+***REMOVED***
 
   &__glyphs {
     position: absolute;
