@@ -16,6 +16,7 @@ Setapp.init()
 
 const isProduction = process.env.NODE_ENV === 'production'
 const isDevelopment = !isProduction
+const isWindows = process.platform === 'win32'
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -39,7 +40,7 @@ function createWindow() {
       x: 16,
       y: 24,
   ***REMOVED***,
-    transparent: true,
+    transparent: !isWindows,
     backgroundColor: '#000',
     webPreferences: {
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
