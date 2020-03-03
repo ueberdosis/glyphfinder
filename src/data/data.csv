@@ -7624,10 +7624,10 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⇤,21E4,8676,leftwards arrow to bar,Arrows,LeftArrowBar larrb,Arrows,<- |<- tab
 ⇥,21E5,8677,rightwards arrow to bar,Arrows,RightArrowBar rarrb,Arrows,-> ->| tab
 ⇦,21E6,8678,leftwards white arrow,Arrows,,Arrows,<- <=
-⇧,21E7,8679,upwards white arrow,Arrows,,Arrows,^ shift macos windows
+⇧,21E7,8679,upwards white arrow,Arrows,,Keys,^ shift macos windows
 ⇨,21E8,8680,rightwards white arrow,Arrows,,Arrows,-> =>
 ⇩,21E9,8681,downwards white arrow,Arrows,,Arrows,v
-⇪,21EA,8682,upwards white arrow from bar,Arrows,,Arrows,^ capslock macos windows
+⇪,21EA,8682,upwards white arrow from bar,Arrows,,Keys,^ capslock macos windows
 ⇫,21EB,8683,upwards white arrow on pedestal,Arrows,,Arrows,^
 ⇬,21EC,8684,upwards white arrow on pedestal with horizontal bar,Arrows,,Arrows,^
 ⇭,21ED,8685,upwards white arrow on pedestal with vertical bar,Arrows,,Arrows,^
@@ -7908,9 +7908,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⌀,2300,8960,diameter sign,Miscellaneous Technical,,,
 ⌁,2301,8961,electric arrow,Miscellaneous Technical,,,
 ⌂,2302,8962,house,Miscellaneous Technical,,,
-⌃,2303,8963,up arrowhead,Miscellaneous Technical,,,^ control ctrl strg macos windows
+⌃,2303,8963,up arrowhead,Miscellaneous Technical,,Keys,^ control ctrl strg macos windows
 ⌄,2304,8964,down arrowhead,Miscellaneous Technical,,,v
-⌅,2305,8965,projective,Miscellaneous Technical,barwed barwedge,,^
+⌅,2305,8965,projective,Miscellaneous Technical,barwed barwedge,Keys,^
 ⌆,2306,8966,perspective,Miscellaneous Technical,Barwed doublebarwedge,,^
 ⌇,2307,8967,wavy line,Miscellaneous Technical,,,wave
 ⌈,2308,8968,left ceiling,Miscellaneous Technical,LeftCeiling lceil,,[ ceiling
@@ -7929,7 +7929,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⌕,2315,8981,telephone recorder,Miscellaneous Technical,telrec,,
 ⌖,2316,8982,position indicator,Miscellaneous Technical,target,,target
 ⌗,2317,8983,viewdata square,Miscellaneous Technical,,,# hash
-⌘,2318,8984,place of interest sign,Miscellaneous Technical,,,command meta macos os
+⌘,2318,8984,place of interest sign,Miscellaneous Technical,,Keys,command meta macos os
 ⌙,2319,8985,turned not sign,Miscellaneous Technical,,,
 ⌜,231C,8988,top left corner,Miscellaneous Technical,ulcorn ulcorner,,
 ⌝,231D,8989,top right corner,Miscellaneous Technical,urcorn urcorner,,
@@ -7940,12 +7940,12 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⌢,2322,8994,frown,Miscellaneous Technical,frown sfrown,,
 ⌣,2323,8995,smile,Miscellaneous Technical,smile ssmile,,
 ⌤,2324,8996,up arrowhead between two horizontal bars,Miscellaneous Technical,,Arrows,^
-⌥,2325,8997,option key,Miscellaneous Technical,,,alt option macos os
-⌦,2326,8998,erase to the right,Miscellaneous Technical,,,delete remove
+⌥,2325,8997,option key,Miscellaneous Technical,,Keys,alt option macos os
+⌦,2326,8998,erase to the right,Miscellaneous Technical,,Keys,delete remove
 ⌧,2327,8999,x in a rectangle box,Miscellaneous Technical,,,
 〈,2329,9001,left-pointing angle bracket,Miscellaneous Technical,,Arrows,<
 〉,232A,9002,right-pointing angle bracket,Miscellaneous Technical,,Arrows,>
-⌫,232B,9003,erase to the left,Miscellaneous Technical,,,delete remove
+⌫,232B,9003,erase to the left,Miscellaneous Technical,,Keys,delete remove
 ⌬,232C,9004,benzene ring,Miscellaneous Technical,,,
 ⌭,232D,9005,cylindricity,Miscellaneous Technical,cylcty,,
 ⌮,232E,9006,all around-profile,Miscellaneous Technical,profalar,,
@@ -8041,7 +8041,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⎈,2388,9096,helm symbol,Miscellaneous Technical,,,
 ⎉,2389,9097,circled horizontal bar with notch,Miscellaneous Technical,,,
 ⎊,238A,9098,circled triangle down,Miscellaneous Technical,,,
-⎋,238B,9099,broken circle with northwest arrow,Miscellaneous Technical,,Arrows,escape <-
+⎋,238B,9099,broken circle with northwest arrow,Miscellaneous Technical,,Keys,escape <-
 ⎌,238C,9100,undo symbol,Miscellaneous Technical,,,
 ⎍,238D,9101,monostable symbol,Miscellaneous Technical,,,
 ⎎,238E,9102,hysteresis symbol,Miscellaneous Technical,,,
@@ -8178,7 +8178,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ␠,2420,9248,symbol for space,Control Pictures,,,sp
 ␡,2421,9249,symbol for delete,Control Pictures,,,del
 ␢,2422,9250,blank symbol,Control Pictures,,,b
-␣,2423,9251,open box,Control Pictures,blank,,space
+␣,2423,9251,open box,Control Pictures,blank,Keys,space
 ␤,2424,9252,symbol for newline,Control Pictures,,,nl
 ␥,2425,9253,symbol for delete form two,Control Pictures,,,
 ␦,2426,9254,symbol for substitute form two,Control Pictures,,,?
@@ -8836,7 +8836,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ❐,2750,10064,upper right drop-shadowed white square,Dingbats,,,rectangle
 ❑,2751,10065,lower right shadowed white square,Dingbats,,,rectangle
 ❒,2752,10066,upper right shadowed white square,Dingbats,,,rectangle
-❖,2756,10070,black diamond minus white x,Dingbats,,,windows meta
+❖,2756,10070,black diamond minus white x,Dingbats,,Keys,windows meta
 ❘,2758,10072,light vertical bar,Dingbats,VerticalSeparator,,|
 ❙,2759,10073,medium vertical bar,Dingbats,,,| reactangle
 ❚,275A,10074,heavy vertical bar,Dingbats,,,| reactangle
