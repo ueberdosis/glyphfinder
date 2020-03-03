@@ -1,6 +1,6 @@
 import path from 'path'
 import {
-  app, protocol, BrowserWindow, clipboard,
+  app, protocol, BrowserWindow,
 } from 'electron'
 import {
   createProtocol,
@@ -108,16 +108,6 @@ app.on('ready', async () => {
   ***REMOVED***
 ***REMOVED***
   createWindow()
-
-  // setTimeout(() => {
-  //   robot.keyTap('v', 'command')
-  // }, 2000)
-
-  // console.log(clipboard.availableFormats())
-  // console.log(clipboard.readText())
-  // console.log(clipboard.readHTML())
-  // console.log(clipboard.readRTF())
-  // console.log(clipboard.readBookmark())
 })
 
 // Exit cleanly on request from parent process in development mode.
