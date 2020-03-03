@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Bowser from 'bowser'
 import Wrapper from '@/components/Wrapper'
 
+const customTitlebar = require('custom-electron-titlebar')
+
 Vue.config.productionTip = false
 
 const { os } = Bowser.parse(window.navigator.userAgent)
@@ -29,5 +31,24 @@ new Vue({
   render: h => h(Wrapper),
   mounted() {
     document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
+
+    if (this.isWindows) {
+      this.titleBar = new customTitlebar.Titlebar({
+        icon: './icon.png',
+        backgroundColor: customTitlebar.Color.fromHex('#000'),
+        itemBackgroundColor: customTitlebar.Color.fromHex('#111'),
+        maximizable: false,
+  ***REMOVED***
+
+      this.titleBar.updateTitle(' ')
+  ***REMOVED***
+***REMOVED***,
+
+  beforeDestroy() {
+    if (this.titleBar) {
+      this.titleBar.dispose()
+  ***REMOVED***
 ***REMOVED***,
 }).$mount('#app')
+
+

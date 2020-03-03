@@ -3480,6 +3480,11 @@ current-script-polyfill@^1.0.0:
   resolved "https://registry.yarnpkg.com/current-script-polyfill/-/current-script-polyfill-1.0.0.tgz#f31cf7e4f3e218b0726e738ca92a02d3488ef615"
   integrity sha1-8xz35PPiGLBybnOMqSoC00iO9hU=
 
+custom-electron-titlebar@^3.2.2-hotfix62:
+  version "3.2.2-hotfix62"
+  resolved "https://registry.yarnpkg.com/custom-electron-titlebar/-/custom-electron-titlebar-3.2.2-hotfix62.tgz#94b908f0f2bf812e4f65447a26b93b88f7a76088"
+  integrity sha512-Kh86xAolkCpqj4AD/H4HcR2pEtxUyIHzMzqwkxqZkSqE7R9tRfN8G3fVpiiNIAJlX8rbN3VwxaoHi1B1sSMn/Q==
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"

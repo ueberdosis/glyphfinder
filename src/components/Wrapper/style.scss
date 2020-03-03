@@ -4,6 +4,11 @@
   position: relative;
   height: 100vh;
   padding-top: var(--menuBarSize);
+  overflow: hidden;
+
+  .is-windows & {
+    height: 100%;
+***REMOVED***
 
   &::before {
     content: '';

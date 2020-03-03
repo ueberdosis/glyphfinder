@@ -36,6 +36,7 @@ function createWindow() {
     height: 580,
     resizable: false,
     fullscreen: false,
+    frame: false,
     titleBarStyle: 'hidden',
     trafficLightPosition: {
       x: 16,

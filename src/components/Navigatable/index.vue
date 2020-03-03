@@ -225,7 +225,7 @@ export default {
   ***REMOVED***,
 
     updateVisibleRows() {
-      const containerHeight = 496 // TODO
+      const containerHeight = this.isMac ? 496 : 486 // TODO
       const visibleScrollHeight = containerHeight - (this.isExpanded ? this.expandedHeight : 54)
       const firstFullyVisibleRow = collect(this.offsets)
         .filter(item => item.offset >= this.scrollPosition.offset)
