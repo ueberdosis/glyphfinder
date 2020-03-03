@@ -3,7 +3,7 @@ symbol,hex,code,name,category,entities,set,tags
 !,0021,33,exclamation mark,Basic Latin,excl,,
 """",0022,34,quotation mark,Basic Latin,QUOT quot,Quotes,quote
 #,0023,35,number sign,Basic Latin,num,,
-$,0024,36,dollar sign,Basic Latin,dollar,,currency
+$,0024,36,dollar sign,Basic Latin,dollar,Currencies,currency
 %,0025,37,percent sign,Basic Latin,percnt,Fractions,0/0 fraction
 &,0026,38,ampersand,Basic Latin,AMP amp,,and et
 ',0027,39,apostrophe,Basic Latin,apos,Quotes,quote
@@ -12,7 +12,7 @@ $,0024,36,dollar sign,Basic Latin,dollar,,currency
 *,002A,42,asterisk,Basic Latin,ast midast,,. star
 +,002B,43,plus sign,Basic Latin,plus,,
 ",",002C,44,comma,Basic Latin,comma,,
--,002D,45,hyphen-minus,Basic Latin,,,– —
+-,002D,45,hyphen-minus,Basic Latin,,Dashes,– —
 .,002E,46,full stop,Basic Latin,period,,dot
 /,002F,47,solidus,Basic Latin,sol,,slash fraction
 0,0030,48,digit zero,Basic Latin,,,
@@ -96,10 +96,10 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ~,007E,126,tilde,Basic Latin,,,-
  ,00A0,160,no-break space,Latin-1 Supplement,NonBreakingSpace nbsp,Spaces,space
 ¡,00A1,161,inverted exclamation mark,Latin-1 Supplement,iexcl,,exclamation mark !
-¢,00A2,162,cent sign,Latin-1 Supplement,cent,,cent c
-£,00A3,163,pound sign,Latin-1 Supplement,pound,,pound currency
-¤,00A4,164,currency sign,Latin-1 Supplement,curren,,currency
-¥,00A5,165,yen sign,Latin-1 Supplement,yen,,yen y currency
+¢,00A2,162,cent sign,Latin-1 Supplement,cent,Currencies,cent c currency
+£,00A3,163,pound sign,Latin-1 Supplement,pound,Currencies,pound currency
+¤,00A4,164,currency sign,Latin-1 Supplement,curren,Currencies,currency
+¥,00A5,165,yen sign,Latin-1 Supplement,yen,Currencies,yen y currency
 ¦,00A6,166,broken bar,Latin-1 Supplement,brvbar,,bar vertical |
 §,00A7,167,section sign,Latin-1 Supplement,sect,,s
 ¨,00A8,168,diaeresis,Latin-1 Supplement,Dot DoubleDot die uml,,""""
@@ -7207,12 +7207,12 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ‍,200D,8205,zero width joiner,General Punctuation,zwj,,
 ‎,200E,8206,left-to-right mark,General Punctuation,lrm,,<>
 ‏,200F,8207,right-to-left mark,General Punctuation,rlm,,><
-‐,2010,8208,hyphen,General Punctuation,dash hyphen,,dash -
-‑,2011,8209,non-breaking hyphen,General Punctuation,,,dash -
-‒,2012,8210,figure dash,General Punctuation,,,dash -
-–,2013,8211,en dash,General Punctuation,ndash,,dash -
-—,2014,8212,em dash,General Punctuation,mdash,,dash -
-―,2015,8213,horizontal bar,General Punctuation,horbar,,dash -
+‐,2010,8208,hyphen,General Punctuation,dash hyphen,Dashes,dash -
+‑,2011,8209,non-breaking hyphen,General Punctuation,,Dashes,dash -
+‒,2012,8210,figure dash,General Punctuation,,Dashes,dash -
+–,2013,8211,en dash,General Punctuation,ndash,Dashes,dash -
+—,2014,8212,em dash,General Punctuation,mdash,Dashes,dash -
+―,2015,8213,horizontal bar,General Punctuation,horbar,Dashes,dash -
 ‖,2016,8214,double vertical line,General Punctuation,Verbar Vert,,||
 ‗,2017,8215,double low line,General Punctuation,,,=
 ‘,2018,8216,left single quotation mark,General Punctuation,OpenCurlyQuote lsquo,Quotes,' quote
@@ -7343,37 +7343,37 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ₛ,209B,8347,latin subscript small letter s,Superscripts and Subscripts,,,
 ₜ,209C,8348,latin subscript small letter t,Superscripts and Subscripts,,,
 ₠,20A0,8352,euro-currency sign,Currency Symbols,,,
-₡,20A1,8353,colon sign,Currency Symbols,,,
-₢,20A2,8354,cruzeiro sign,Currency Symbols,,,
-₣,20A3,8355,french franc sign,Currency Symbols,,,
-₤,20A4,8356,lira sign,Currency Symbols,,,
-₥,20A5,8357,mill sign,Currency Symbols,,,m
-₦,20A6,8358,naira sign,Currency Symbols,,,n
-₧,20A7,8359,peseta sign,Currency Symbols,,,pts
-₨,20A8,8360,rupee sign,Currency Symbols,,,rs
-₩,20A9,8361,won sign,Currency Symbols,,,w
-₪,20AA,8362,new sheqel sign,Currency Symbols,,,
-₫,20AB,8363,dong sign,Currency Symbols,,,
-€,20AC,8364,euro sign,Currency Symbols,euro,,E € euro
-₭,20AD,8365,kip sign,Currency Symbols,,,
-₮,20AE,8366,tugrik sign,Currency Symbols,,,
-₯,20AF,8367,drachma sign,Currency Symbols,,,
-₰,20B0,8368,german penny sign,Currency Symbols,,,
-₱,20B1,8369,peso sign,Currency Symbols,,,
-₲,20B2,8370,guarani sign,Currency Symbols,,,
-₳,20B3,8371,austral sign,Currency Symbols,,,
-₴,20B4,8372,hryvnia sign,Currency Symbols,,,
-₵,20B5,8373,cedi sign,Currency Symbols,,,
-₶,20B6,8374,livre tournois sign,Currency Symbols,,,
-₷,20B7,8375,spesmilo sign,Currency Symbols,,,
-₸,20B8,8376,tenge sign,Currency Symbols,,,
-₹,20B9,8377,indian rupee sign,Currency Symbols,,,
-₺,20BA,8378,turkish lira sign,Currency Symbols,,,
-₻,20BB,8379,nordic mark sign,Currency Symbols,,,
-₼,20BC,8380,manat sign,Currency Symbols,,,
-₽,20BD,8381,ruble sign,Currency Symbols,,,
-₾,20BE,8382,lari sign,Currency Symbols,,,
-₿,20BF,8383,bitcoin sign,Currency Symbols,,,crypto
+₡,20A1,8353,colon sign,Currency Symbols,,Currencies,
+₢,20A2,8354,cruzeiro sign,Currency Symbols,,Currencies,
+₣,20A3,8355,french franc sign,Currency Symbols,,Currencies,
+₤,20A4,8356,lira sign,Currency Symbols,,Currencies,
+₥,20A5,8357,mill sign,Currency Symbols,,Currencies,m
+₦,20A6,8358,naira sign,Currency Symbols,,Currencies,n
+₧,20A7,8359,peseta sign,Currency Symbols,,Currencies,pts
+₨,20A8,8360,rupee sign,Currency Symbols,,Currencies,rs
+₩,20A9,8361,won sign,Currency Symbols,,Currencies,w
+₪,20AA,8362,new sheqel sign,Currency Symbols,,Currencies,
+₫,20AB,8363,dong sign,Currency Symbols,,Currencies,
+€,20AC,8364,euro sign,Currency Symbols,euro,Currencies,E € euro
+₭,20AD,8365,kip sign,Currency Symbols,,Currencies,
+₮,20AE,8366,tugrik sign,Currency Symbols,,Currencies,
+₯,20AF,8367,drachma sign,Currency Symbols,,Currencies,
+₰,20B0,8368,german penny sign,Currency Symbols,,Currencies,
+₱,20B1,8369,peso sign,Currency Symbols,,Currencies,
+₲,20B2,8370,guarani sign,Currency Symbols,,Currencies,
+₳,20B3,8371,austral sign,Currency Symbols,,Currencies,
+₴,20B4,8372,hryvnia sign,Currency Symbols,,Currencies,
+₵,20B5,8373,cedi sign,Currency Symbols,,Currencies,
+₶,20B6,8374,livre tournois sign,Currency Symbols,,Currencies,
+₷,20B7,8375,spesmilo sign,Currency Symbols,,Currencies,
+₸,20B8,8376,tenge sign,Currency Symbols,,Currencies,
+₹,20B9,8377,indian rupee sign,Currency Symbols,,Currencies,
+₺,20BA,8378,turkish lira sign,Currency Symbols,,Currencies,
+₻,20BB,8379,nordic mark sign,Currency Symbols,,Currencies,
+₼,20BC,8380,manat sign,Currency Symbols,,Currencies,
+₽,20BD,8381,ruble sign,Currency Symbols,,Currencies,
+₾,20BE,8382,lari sign,Currency Symbols,,Currencies,
+₿,20BF,8383,bitcoin sign,Currency Symbols,,Currencies,crypto
 ⃐,20D0,8400,combining left harpoon above,Combining Diacritical Marks for Symbols,,,
 ⃑,20D1,8401,combining right harpoon above,Combining Diacritical Marks for Symbols,,,
 ⃒,20D2,8402,combining long vertical line overlay,Combining Diacritical Marks for Symbols,,,|
