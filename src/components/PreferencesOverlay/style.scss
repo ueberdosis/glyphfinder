@@ -1,9 +1,12 @@
 .preferences-overlay {
   background-color: $colorDarkGrey;
   color: white;
-  border-radius: 6px;
   overflow: hidden;
   padding: var(--menuBarSize) 16px 16px 16px;
+
+  .is-mac & {
+    border-radius: 6px;
+***REMOVED***
 
   &__header {
     display: flex;

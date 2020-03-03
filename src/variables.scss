@@ -1,5 +1,9 @@
 :root {
   --menuBarSize: 40px;
+
+  &.is-windows {
+    --menuBarSize: 20px;
+***REMOVED***
 }
 
 $colorWhite: #FFF;

@@ -31,6 +31,7 @@ function createWindow() {
 
   // Create the browser window.
   win = new BrowserWindow({
+    title: 'Glyphfinder',
     width: 340 + (isWindows ? 6 : 0),
     height: 580,
     resizable: false,
