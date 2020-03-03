@@ -12,6 +12,9 @@ const isMac = process.platform === 'darwin'
         label: app.getName(),
         submenu: [
           { role: 'about' },
+          ...(isMac ? [
+            { type: 'separator' },
+          ] : []),
           {
             label: 'Preferences',
             accelerator: 'CmdOrCtrl+,',
@@ -23,6 +26,9 @@ const isMac = process.platform === 'darwin'
             ***REMOVED***
           ***REMOVED***,
         ***REMOVED***,
+          ...(isMac ? [
+            { type: 'separator' },
+          ] : []),
           ...(!Setapp.isActive ? [
             {
               label: 'Check for Updates',
