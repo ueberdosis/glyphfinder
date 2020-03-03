@@ -72,6 +72,16 @@ export default {
 
     glyphRows() {
       const defaultSetName = 'Other Glyphs'
+      const sortOrder = [
+        'Dashes',
+        'Fractions',
+        'Quotes',
+        'Currencies',
+        'Spaces',
+        'Arrows',
+        'Emojis',
+        defaultSetName,
+      ]
 
       if (!this.showFrequentlyUsedGlyphs) {
   ***REMOVED*** this.chunkGlyphs(this.formattedGlyphs).map((row, index, array) => {
@@ -96,9 +106,15 @@ export default {
           set: set || defaultSetName,
       ***REMOVED***]))
         .flatten(1)
-        .sortBy(group => group.set === defaultSetName)
+        .sort((a, b) => {
+          const indexA = sortOrder.indexOf(a.set)
+          const indexB = sortOrder.indexOf(b.set)
+          const hugeNumber = 1000 // TODO: ugly
+
+    ***REMOVED*** (indexA >= 0 ? indexA : hugeNumber)
+              - (indexB >= 0 ? indexB : hugeNumber)
+    ***REMOVED***
         .map(group => this.chunkGlyphs(group.glyphs).map((row, index) => {
-          // if (index === 0 && this.hasFrequentlyUsedGlyphs) {
           if (index === 0) {
       ***REMOVED*** {
               ...row,
