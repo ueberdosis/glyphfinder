@@ -66,7 +66,7 @@ export default {
   methods: {
     onBlurInput() {
       this.$nextTick(() => {
-        if (this.$refs.search) {
+        if (this.$refs.search && this.isMac) {
           this.$refs.search.focus()
       ***REMOVED***
   ***REMOVED***

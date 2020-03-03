@@ -9,10 +9,9 @@ const isMac = process.platform === 'darwin'
   template() {
     return [
       {
-        label: isMac ? app.getName() : 'File',
+        label: app.getName(),
         submenu: [
           { role: 'about' },
-          { type: 'separator' },
           {
             label: 'Preferences',
             accelerator: 'CmdOrCtrl+,',
@@ -24,11 +23,6 @@ const isMac = process.platform === 'darwin'
             ***REMOVED***
           ***REMOVED***,
         ***REMOVED***,
-          { type: 'separator' },
-          { role: 'hide' },
-          { role: 'hideothers' },
-          { role: 'unhide' },
-          { type: 'separator' },
           ...(!Setapp.isActive ? [
             {
               label: 'Check for Updates',
@@ -37,10 +31,13 @@ const isMac = process.platform === 'darwin'
             ***REMOVED***,
           ***REMOVED***,
           ] : []),
-          { type: 'separator' },
+          ...(isMac ? [
+            { type: 'separator' },
+          ] : []),
           { role: 'quit' },
         ],
     ***REMOVED***,
+      /*
       {
         label: 'Edit',
         submenu: [
@@ -89,6 +86,7 @@ const isMac = process.platform === 'darwin'
           { role: 'front' },
         ],
     ***REMOVED***,
+      */
     ]
 ***REMOVED***
 
