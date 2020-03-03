@@ -10,6 +10,9 @@ export default new Store({
     ? app.getVersion()
     : remote.app.getVersion(),
   migrations: {
+    '0.3.0': () => {
+      DB.removeSearchIndex()
+  ***REMOVED***,
     '1.0.0': store => {
       DB.removeAll()
       store.clear()
