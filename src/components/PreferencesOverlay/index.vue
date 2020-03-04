@@ -39,7 +39,7 @@
           <btn @click.native="clearIndex" is-red>
             Clear Index
           </btn>
-          <btn @click.native="resetAll" is-red>
+          <btn @click.native="resetAll" is-red v-if="isDevelopment">
             Reset All
           </btn>
         </div>
@@ -62,6 +62,7 @@ export default {
 
   data() {
     return {
+      isDevelopment: process.env.NODE_ENV === 'development',
       user: User,
   ***REMOVED***
 ***REMOVED***,

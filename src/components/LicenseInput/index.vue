@@ -20,9 +20,11 @@
       <transition name="bottom-to-top">
         <div class="license-input__error" v-if="isError">
           {{ errorMessage }}
-          <button class="license-input__retry" @click="retry">
-            Retry
-          </button>
+          <div>
+            <button class="license-input__retry" @click="retry">
+              Retry
+            </button>
+          </div>
         </div>
       </transition>
     </div>

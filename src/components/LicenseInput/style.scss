@@ -7,7 +7,7 @@
     padding: 8px 0;
     margin-bottom: 16px;
     background-color: transparent;
-    color: $colorRed;
+    color: $colorWhite;
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -16,7 +16,7 @@
     transition: color 0.5s $ease;
 
     &.is-success {
-      color: $colorRed;
+      color: $colorWhite;
   ***REMOVED***
 
     &.is-error {
@@ -40,7 +40,6 @@
 ***REMOVED***
 
   &__error {
-    display: inline-flex;
     align-items: center;
     font-size: 14px;
     font-weight: 600;
@@ -48,6 +47,7 @@
 ***REMOVED***
 
   &__retry {
+    margin-top: 8px;
     margin-left: 4px;
     padding: 4px 6px;
     border-radius: 6px;

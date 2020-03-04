@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     flex: 1 1 auto;
+    position: relative;
 ***REMOVED***
 
   &__footer {
@@ -31,6 +32,5 @@
 
   &__title {
     margin-bottom: 12px;
-    color: $colorRed;
 ***REMOVED***
 }

@@ -10,7 +10,7 @@ const masterKey = 'OPBPXGH2-6GHNU9IE-FHUEH7AW-ZXT3UP23'
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-      : 2
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -40,10 +40,11 @@ const masterKey = 'OPBPXGH2-6GHNU9IE-FHUEH7AW-ZXT3UP23'
 ***REMOVED***
   ***REMOVED***
 ***REMOVED***
+        const limit = parseInt(nestedValue(response, 'data.purchase.variants').replace(/\D/g, ''), 10) || this.limit
 ***REMOVED***
 
-        if (uses > this.limit) {
-          this.emitError('Sorry. This license is already in use.')
+***REMOVED***
+***REMOVED***
     ***REMOVED***
       ***REMOVED***
 
