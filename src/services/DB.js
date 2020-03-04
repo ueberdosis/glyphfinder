@@ -31,7 +31,9 @@ import { app, remote } from 'electron'
 ***REMOVED***
 
   removeGlyphs() {
-    fs.unlinkSync(this.glyphsPath)
+    if (this.glyphsExists()) {
+      fs.unlinkSync(this.glyphsPath)
+  ***REMOVED***
 ***REMOVED***
 
   searchIndexExists() {
@@ -55,7 +57,9 @@ import { app, remote } from 'electron'
 ***REMOVED***
 
   removeSearchIndex() {
-    fs.unlinkSync(this.searchIndexPath)
+    if (this.searchIndexExists()) {
+      fs.unlinkSync(this.searchIndexPath)
+  ***REMOVED***
 ***REMOVED***
 
   removeAll() {
