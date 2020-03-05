@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" :class="{ 'is-loaded': isLoaded }">
     <div class="wrapper__content" :class="{ 'is-hidden': showPreferences }">
       <glyph-wrapper v-if="!showGlyphCheck && !showLicenseCheck" />
       <div class="wrapper__content-overlay" />
@@ -40,6 +40,7 @@ export default {
 
   data() {
     return {
+      isLoaded: false,
       showPreferences: false,
       showGlyphCheck: false,
       showLicenseCheck: false,
@@ -86,6 +87,11 @@ export default {
 ***REMOVED***,
 
   mounted() {
+    setTimeout(() => {
+      this.isLoaded = true
+      document.body.classList.add('is-loaded')
+  ***REMOVED***, 0)
+
     console.timeEnd('mount')
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)

@@ -5,6 +5,12 @@
   height: 100vh;
   padding-top: var(--menuBarSize);
   overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.6s $easeInOut;
+
+  &.is-loaded {
+    opacity: 1;
+***REMOVED***
 
   .is-windows & {
     height: 100%;

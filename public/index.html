@@ -2,19 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>glyphfinder</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        overflow: hidden;
+    ***REMOVED***
+
+      body.is-loaded::after {
+        opacity: 0;
+        visibility: hidden;
+    ***REMOVED***
+
+      body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 1;
+        transition: opacity 0.5s, visibility 0.5s;
+        background-size: 70px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('data:image/png;base64,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');
+    ***REMOVED***
+    </style>
   </head>
   <body>
     <script>
       console.time('mount')
     </script>
-    <noscript>
-      <strong>We're sorry but glyphfinder doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
