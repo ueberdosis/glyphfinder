@@ -24,7 +24,7 @@ export default {
 
   methods: {
     copyToClipboard() {
-      const copied = copy(this.fullName)
+      const copied = copy(this.fullName, { format: 'text' })
 
       if (copied) {
         Event.emit('copied')

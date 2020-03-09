@@ -61,7 +61,7 @@ export default {
 
   methods: {
     copyToClipboard() {
-      const copied = copy(this.glyph.symbol)
+      const copied = copy(this.glyph.symbol, { format: 'text' })
       this.increaseUsage()
 
       if (copied) {
