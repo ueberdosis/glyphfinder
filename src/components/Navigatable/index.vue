@@ -211,6 +211,8 @@ export default {
 
         this.updateVisibleRows()
         this.maybeUpdateScrollPosition()
+
+        // console.log(this.glyphs.map(glyph => glyph.symbol).join(' '))
     ***REMOVED***,
   ***REMOVED***,
 ***REMOVED***,
