@@ -102,7 +102,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ¥,00A5,165,yen sign,Latin-1 Supplement,yen,Currencies,yen y currency
 ¦,00A6,166,broken bar,Latin-1 Supplement,brvbar,,bar vertical |
 §,00A7,167,section sign,Latin-1 Supplement,sect,,s
-¨,00A8,168,diaeresis,Latin-1 Supplement,Dot DoubleDot die uml,,""""
+¨,00A8,168,diaeresis,Latin-1 Supplement,Dot DoubleDot die uml,,""" .."
 ª,00AA,170,feminine ordinal indicator,Latin-1 Supplement,ordf,,a
 «,00AB,171,left-pointing double angle quotation mark,Latin-1 Supplement,laquo,Quotes,<< quote
 ¬,00AC,172,not sign,Latin-1 Supplement,not,,-
@@ -824,7 +824,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ͻ,037B,891,greek small reversed lunate sigma symbol,Greek and Coptic,,,
 ͼ,037C,892,greek small dotted lunate sigma symbol,Greek and Coptic,,,
 ͽ,037D,893,greek small reversed dotted lunate sigma symbol,Greek and Coptic,,,
-;,037E,894,greek question mark,Greek and Coptic,,,
+;,037E,894,greek question mark,Greek and Coptic,,,;
 Ϳ,037F,895,greek capital letter yot,Greek and Coptic,,,
 ΄,0384,900,greek tonos,Greek and Coptic,,,
 ΅,0385,901,greek dialytika tonos,Greek and Coptic,,,
@@ -1083,8 +1083,8 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ҅,0485,1157,combining cyrillic dasia pneumata,Cyrillic,,,
 ҆,0486,1158,combining cyrillic psili pneumata,Cyrillic,,,
 ҇,0487,1159,combining cyrillic pokrytie,Cyrillic,,,
-҈,0488,1160,combining cyrillic hundred thousands sign,Cyrillic,,,
-҉,0489,1161,combining cyrillic millions sign,Cyrillic,,,
+҈,0488,1160,combining cyrillic hundred thousands sign,Cyrillic,,,circle
+҉,0489,1161,combining cyrillic millions sign,Cyrillic,,,circle
 Ҋ,048A,1162,cyrillic capital letter short i with tail,Cyrillic,,,
 ҋ,048B,1163,cyrillic small letter short i with tail,Cyrillic,,,
 Ҍ,048C,1164,cyrillic capital letter semisoft sign,Cyrillic,,,
@@ -1159,8 +1159,8 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ӑ,04D1,1233,cyrillic small letter a with breve,Cyrillic,,,
 Ӓ,04D2,1234,cyrillic capital letter a with diaeresis,Cyrillic,,,
 ӓ,04D3,1235,cyrillic small letter a with diaeresis,Cyrillic,,,
-Ӕ,04D4,1236,cyrillic capital ligature a ie,Cyrillic,,,
-ӕ,04D5,1237,cyrillic small ligature a ie,Cyrillic,,,
+Ӕ,04D4,1236,cyrillic capital ligature a ie,Cyrillic,,,ae
+ӕ,04D5,1237,cyrillic small ligature a ie,Cyrillic,,,ae
 Ӗ,04D6,1238,cyrillic capital letter ie with breve,Cyrillic,,,
 ӗ,04D7,1239,cyrillic small letter ie with breve,Cyrillic,,,
 Ә,04D8,1240,cyrillic capital letter schwa,Cyrillic,,,
@@ -1339,8 +1339,8 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ֈ,0588,1416,armenian small letter yi with stroke,Armenian,,,
 ։,0589,1417,armenian full stop,Armenian,,,
 ֊,058A,1418,armenian hyphen,Armenian,,,
-֍,058D,1421,right-facing armenian eternity sign,Armenian,,,
-֎,058E,1422,left-facing armenian eternity sign,Armenian,,,
+֍,058D,1421,right-facing armenian eternity sign,Armenian,,,circle symbol
+֎,058E,1422,left-facing armenian eternity sign,Armenian,,,circle symbol
 ֏,058F,1423,armenian dram sign,Armenian,,,
 ֑,0591,1425,hebrew accent etnahta,Hebrew,,,
 ֒,0592,1426,hebrew accent segol,Hebrew,,,
@@ -1651,7 +1651,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ۛ,06DB,1755,arabic small high three dots,Arabic,,,
 ۜ,06DC,1756,arabic small high seen,Arabic,,,
 ۝,06DD,1757,arabic end of ayah,Arabic,,,
-۞,06DE,1758,arabic start of rub el hizb,Arabic,,,
+۞,06DE,1758,arabic start of rub el hizb,Arabic,,,symbol
 ۟,06DF,1759,arabic small high rounded zero,Arabic,,,
 ۠,06E0,1760,arabic small high upright rectangular zero,Arabic,,,
 ۡ,06E1,1761,arabic small high dotless head of khah,Arabic,,,
@@ -1662,7 +1662,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ۦ,06E6,1766,arabic small yeh,Arabic,,,
 ۧ,06E7,1767,arabic small high yeh,Arabic,,,
 ۨ,06E8,1768,arabic small high noon,Arabic,,,
-۩,06E9,1769,arabic place of sajdah,Arabic,,,
+۩,06E9,1769,arabic place of sajdah,Arabic,,,symbol
 ۪,06EA,1770,arabic empty centre low stop,Arabic,,,
 ۫,06EB,1771,arabic empty centre high stop,Arabic,,,
 ۬,06EC,1772,arabic rounded high stop with filled centre,Arabic,,,
@@ -7239,7 +7239,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ‭,202D,8237,left-to-right override,General Punctuation,,,
 ‮,202E,8238,right-to-left override,General Punctuation,,,
  ,202F,8239,narrow no-break space,General Punctuation,,Spaces,
-‰,2030,8240,per mille sign,General Punctuation,permil,Fractions,per mille % 0/00 fraction
+‰,2030,8240,per mille sign,General Punctuation,permil,Fractions,% 0/00 fraction
 ‱,2031,8241,per ten thousand sign,General Punctuation,pertenk,Fractions,0/000 fraction
 ′,2032,8242,prime,General Punctuation,prime,,' ` prime
 ″,2033,8243,double prime,General Punctuation,Prime,,""" double ''"
@@ -7264,7 +7264,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⁇,2047,8263,double question mark,General Punctuation,,,??
 ⁈,2048,8264,question exclamation mark,General Punctuation,,,?!
 ⁊,204A,8266,tironian sign et,General Punctuation,,,
-⁋,204B,8267,reversed pilcrow sign,General Punctuation,,,
+⁋,204B,8267,reversed pilcrow sign,General Punctuation,,,paragraph
 ⁌,204C,8268,black leftwards bullet,General Punctuation,,,
 ⁍,204D,8269,black rightwards bullet,General Punctuation,,,
 ⁎,204E,8270,low asterisk,General Punctuation,,,*
@@ -7410,13 +7410,13 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ℀,2100,8448,account of,Letterlike Symbols,,,a/c
 ℁,2101,8449,addressed to the subject,Letterlike Symbols,,,a/s
 ℂ,2102,8450,double-struck capital c,Letterlike Symbols,Copf complexes,,
-℃,2103,8451,degree celsius,Letterlike Symbols,,,c
+℃,2103,8451,degree celsius,Letterlike Symbols,,,c °c
 ℄,2104,8452,centre line symbol,Letterlike Symbols,,,cl
 ℅,2105,8453,care of,Letterlike Symbols,incare,,c/o
 ℆,2106,8454,cada una,Letterlike Symbols,,,c/u
 ℇ,2107,8455,euler constant,Letterlike Symbols,,,e
 ℈,2108,8456,scruple,Letterlike Symbols,,,e
-℉,2109,8457,degree fahrenheit,Letterlike Symbols,,,f
+℉,2109,8457,degree fahrenheit,Letterlike Symbols,,,f °f
 ℊ,210A,8458,script small g,Letterlike Symbols,gscr,,
 ℋ,210B,8459,script capital h,Letterlike Symbols,HilbertSpace Hscr hamilt,,
 ℌ,210C,8460,black-letter capital h,Letterlike Symbols,Hfr Poincareplane,,
@@ -7539,7 +7539,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 Ↄ,2183,8579,roman numeral reversed one hundred,Number Forms,,,100
 ↄ,2184,8580,latin small letter reversed c,Number Forms,,,
 ↅ,2185,8581,roman numeral six late form,Number Forms,,,6
-ↆ,2186,8582,roman numeral fifty early form,Number Forms,,,50
+ↆ,2186,8582,roman numeral fifty early form,Number Forms,,,50 v
 ↇ,2187,8583,roman numeral fifty thousand,Number Forms,,,50000
 ↈ,2188,8584,roman numeral one hundred thousand,Number Forms,,,100000
 ↉,2189,8585,vulgar fraction zero thirds,Number Forms,,Fractions,0/3
@@ -8497,9 +8497,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ▎,258E,9614,left one quarter block,Block Elements,,,
 ▏,258F,9615,left one eighth block,Block Elements,,,
 ▐,2590,9616,right half block,Block Elements,,,
-░,2591,9617,light shade,Block Elements,blk14,,
-▒,2592,9618,medium shade,Block Elements,blk12,,
-▓,2593,9619,dark shade,Block Elements,blk34,,
+░,2591,9617,light shade,Block Elements,blk14,,pattern
+▒,2592,9618,medium shade,Block Elements,blk12,,pattern
+▓,2593,9619,dark shade,Block Elements,blk34,,pattern
 ▔,2594,9620,upper one eighth block,Block Elements,,,
 ▕,2595,9621,right one eighth block,Block Elements,,,
 ▖,2596,9622,quadrant lower left,Block Elements,,,
@@ -8560,10 +8560,10 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ◑,25D1,9681,circle with right half black,Geometric Shapes,,,
 ◒,25D2,9682,circle with lower half black,Geometric Shapes,,,
 ◓,25D3,9683,circle with upper half black,Geometric Shapes,,,
-◔,25D4,9684,circle with upper right quadrant black,Geometric Shapes,,,
-◕,25D5,9685,circle with all but upper left quadrant black,Geometric Shapes,,,
-◖,25D6,9686,left half black circle,Geometric Shapes,,,
-◗,25D7,9687,right half black circle,Geometric Shapes,,,
+◔,25D4,9684,circle with upper right quadrant black,Geometric Shapes,,,chart
+◕,25D5,9685,circle with all but upper left quadrant black,Geometric Shapes,,,chart
+◖,25D6,9686,left half black circle,Geometric Shapes,,,moon
+◗,25D7,9687,right half black circle,Geometric Shapes,,,moon
 ◘,25D8,9688,inverse bullet,Geometric Shapes,,,
 ◙,25D9,9689,inverse white circle,Geometric Shapes,,,
 ◚,25DA,9690,upper half inverse white circle,Geometric Shapes,,,
@@ -8615,22 +8615,22 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ☓,2613,9747,saltire,Miscellaneous Symbols,,,x
 ☖,2616,9750,white shogi piece,Miscellaneous Symbols,,,
 ☗,2617,9751,black shogi piece,Miscellaneous Symbols,,,
-☙,2619,9753,reversed rotated floral heart bullet,Miscellaneous Symbols,,,
-☚,261A,9754,black left pointing index,Miscellaneous Symbols,,,
-☛,261B,9755,black right pointing index,Miscellaneous Symbols,,,
+☙,2619,9753,reversed rotated floral heart bullet,Miscellaneous Symbols,,,<3
+☚,261A,9754,black left pointing index,Miscellaneous Symbols,,,<
+☛,261B,9755,black right pointing index,Miscellaneous Symbols,,,>
 ☜,261C,9756,white left pointing index,Miscellaneous Symbols,,Arrows,<
 ☞,261E,9758,white right pointing index,Miscellaneous Symbols,,Arrows,>
 ☟,261F,9759,white down pointing index,Miscellaneous Symbols,,Arrows,v
 ☡,2621,9761,caution sign,Miscellaneous Symbols,,,
 ☤,2624,9764,caduceus,Miscellaneous Symbols,,,
-☥,2625,9765,ankh,Miscellaneous Symbols,,,
+☥,2625,9765,ankh,Miscellaneous Symbols,,,t
 ☧,2627,9767,chi rho,Miscellaneous Symbols,,,
 ☨,2628,9768,cross of lorraine,Miscellaneous Symbols,,,t
 ☩,2629,9769,cross of jerusalem,Miscellaneous Symbols,,,+ target
 ☫,262B,9771,farsi symbol,Miscellaneous Symbols,,,
 ☬,262C,9772,adi shakti,Miscellaneous Symbols,,,
-☭,262D,9773,hammer and sickle,Miscellaneous Symbols,,,
-☰,2630,9776,trigram for heaven,Miscellaneous Symbols,,,
+☭,262D,9773,hammer and sickle,Miscellaneous Symbols,,,communism
+☰,2630,9776,trigram for heaven,Miscellaneous Symbols,,,burger
 ☱,2631,9777,trigram for lake,Miscellaneous Symbols,,,
 ☲,2632,9778,trigram for fire,Miscellaneous Symbols,,,
 ☳,2633,9779,trigram for thunder,Miscellaneous Symbols,,,
@@ -8638,7 +8638,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ☵,2635,9781,trigram for water,Miscellaneous Symbols,,,
 ☶,2636,9782,trigram for mountain,Miscellaneous Symbols,,,
 ☷,2637,9783,trigram for earth,Miscellaneous Symbols,,,
-☻,263B,9787,black smiling face,Miscellaneous Symbols,,,
+☻,263B,9787,black smiling face,Miscellaneous Symbols,,,smile
 ☼,263C,9788,white sun with rays,Miscellaneous Symbols,,,
 ☽,263D,9789,first quarter moon,Miscellaneous Symbols,,,
 ☾,263E,9790,last quarter moon,Miscellaneous Symbols,,,
@@ -8660,7 +8660,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ♜,265C,9820,black chess rook,Miscellaneous Symbols,,,
 ♝,265D,9821,black chess bishop,Miscellaneous Symbols,,,
 ♞,265E,9822,black chess knight,Miscellaneous Symbols,,,
-♡,2661,9825,white heart suit,Miscellaneous Symbols,,,
+♡,2661,9825,white heart suit,Miscellaneous Symbols,,,<3
 ♢,2662,9826,white diamond suit,Miscellaneous Symbols,,,
 ♤,2664,9828,white spade suit,Miscellaneous Symbols,,,
 ♧,2667,9831,white club suit,Miscellaneous Symbols,,,
@@ -8668,11 +8668,11 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ♪,266A,9834,eighth note,Miscellaneous Symbols,sung,,
 ♫,266B,9835,beamed eighth notes,Miscellaneous Symbols,,,
 ♬,266C,9836,beamed sixteenth notes,Miscellaneous Symbols,,,
-♭,266D,9837,music flat sign,Miscellaneous Symbols,flat,,
+♭,266D,9837,music flat sign,Miscellaneous Symbols,flat,,b
 ♮,266E,9838,music natural sign,Miscellaneous Symbols,natur natural,,
-♯,266F,9839,music sharp sign,Miscellaneous Symbols,sharp,,
-♰,2670,9840,west syriac cross,Miscellaneous Symbols,,,
-♱,2671,9841,east syriac cross,Miscellaneous Symbols,,,
+♯,266F,9839,music sharp sign,Miscellaneous Symbols,sharp,,#
+♰,2670,9840,west syriac cross,Miscellaneous Symbols,,,t +
+♱,2671,9841,east syriac cross,Miscellaneous Symbols,,,t +
 ♲,2672,9842,universal recycling symbol,Miscellaneous Symbols,,,
 ♳,2673,9843,recycling symbol for type-1 plastics,Miscellaneous Symbols,,,1
 ♴,2674,9844,recycling symbol for type-2 plastics,Miscellaneous Symbols,,,2
@@ -8735,7 +8735,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⛁,26C1,9921,white draughts king,Miscellaneous Symbols,,,
 ⛂,26C2,9922,black draughts man,Miscellaneous Symbols,,,
 ⛃,26C3,9923,black draughts king,Miscellaneous Symbols,,,
-⛆,26C6,9926,rain,Miscellaneous Symbols,,,
+⛆,26C6,9926,rain,Miscellaneous Symbols,,,pattern
 ⛇,26C7,9927,black snowman,Miscellaneous Symbols,,,
 ⛉,26C9,9929,turned white shogi piece,Miscellaneous Symbols,,,
 ⛊,26CA,9930,turned black shogi piece,Miscellaneous Symbols,,,
@@ -9478,9 +9478,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⧠,29E0,10720,square with contoured outline,Miscellaneous Mathematical Symbols-B,,,
 ⧡,29E1,10721,increases as,Miscellaneous Mathematical Symbols-B,,,
 ⧢,29E2,10722,shuffle product,Miscellaneous Mathematical Symbols-B,,,
-⧣,29E3,10723,equals sign and slanted parallel,Miscellaneous Mathematical Symbols-B,eparsl,,
-⧤,29E4,10724,equals sign and slanted parallel with tilde above,Miscellaneous Mathematical Symbols-B,smeparsl,,
-⧥,29E5,10725,identical to and slanted parallel,Miscellaneous Mathematical Symbols-B,eqvparsl,,
+⧣,29E3,10723,equals sign and slanted parallel,Miscellaneous Mathematical Symbols-B,eparsl,,#
+⧤,29E4,10724,equals sign and slanted parallel with tilde above,Miscellaneous Mathematical Symbols-B,smeparsl,,#
+⧥,29E5,10725,identical to and slanted parallel,Miscellaneous Mathematical Symbols-B,eqvparsl,,#
 ⧦,29E6,10726,gleich stark,Miscellaneous Mathematical Symbols-B,,,
 ⧧,29E7,10727,thermodynamic,Miscellaneous Mathematical Symbols-B,,,
 ⧨,29E8,10728,down-pointing triangle with left half black,Miscellaneous Mathematical Symbols-B,,,
