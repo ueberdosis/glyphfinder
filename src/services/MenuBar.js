@@ -21,7 +21,7 @@ const isDevelopment = !isProduction
 
   getShortcut() {
     const electronKeyMap = {
-      Meta: 'Command',
+      Meta: 'CommandOrControl',
   ***REMOVED***
 
     const shortcut = Store.get('shortcut')
