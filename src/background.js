@@ -54,7 +54,7 @@ function createWindow() {
 
   if (Store.get('showMenubar', false)) {
     MenuBar.create(windowOptions)
-    win = MenuBar.menubar.window
+    win = MenuBar.getWindow()
 ***REMOVED*** else {
     win = new BrowserWindow(windowOptions)
 ***REMOVED***

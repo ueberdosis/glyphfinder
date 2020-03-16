@@ -30,7 +30,7 @@ const isDevelopment = !isProduction
   create(windowOptions = {}) {
     if (
       this.menubar
-      || !User.isVerified
+      // || !User.isVerified
       || !Store.get('showMenubar', true)
     ) {
 ***REMOVED***
@@ -45,7 +45,7 @@ const isDevelopment = !isProduction
       browserWindow: {
         ...options,
         movable: false,
-        alwaysOnTop: isDevelopment,
+        // alwaysOnTop: isDevelopment,
     ***REMOVED***,
       /* global __static */
       icon: path.join(__static, 'MenuIconTemplate.png'),
@@ -85,14 +85,20 @@ const isDevelopment = !isProduction
     this.menubar.on('show', () => {
       Setapp.reportUsageEvent('user-interaction')
 
-      if (isDevelopment) {
-        this.menubar.window.openDevTools()
-    ***REMOVED***
+      // if (isDevelopment) {
+      //   this.menubar.window.openDevTools()
+      // }
 ***REMOVED***
 
     this.menubar.on('hide', () => {
-      if (isDevelopment) {
-        this.menubar.window.closeDevTools()
+      // if (isDevelopment) {
+      //   this.menubar.window.closeDevTools()
+      // }
+***REMOVED***
+
+    this.menubar.on('ready', () => {
+      if (!User.isVerified) {
+        this.show()
     ***REMOVED***
 ***REMOVED***
 
@@ -109,6 +115,10 @@ const isDevelopment = !isProduction
 
   isWindowVisible(window) {
     return !window.isDestroyed() && window.isVisible()
+***REMOVED***
+
+  getWindow() {
+    return this.menubar.window
 ***REMOVED***
 
   show() {
