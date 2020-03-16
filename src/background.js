@@ -19,6 +19,7 @@ Setapp.init()
 const isProduction = process.env.NODE_ENV === 'production'
 const isDevelopment = !isProduction
 const isWindows = process.platform === 'win32'
+const isMenubar = Store.get('showMenubar', false)
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -27,58 +28,69 @@ let win
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: true, standard: true } }])
 
-function createWindow() {
+function getWindow() {
+  return new Promise(resolve => {
+    const windowOptions = {
+      title: 'Glyphfinder',
+      width: 340 + (isWindows ? 6 : 0),
+      height: 580,
+      resizable: false,
+      fullscreen: false,
+      frame: false,
+      titleBarStyle: 'hidden',
+      trafficLightPosition: {
+        x: 16,
+        y: 24,
+    ***REMOVED***,
+      transparent: !isWindows,
+      backgroundColor: '#000',
+      webPreferences: {
+        nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
+        nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
+    ***REMOVED***,
+      icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
+  ***REMOVED***
 
+    if (isMenubar) {
+      MenuBar.create(windowOptions).then(browserWindow => {
+        win = browserWindow
+        resolve()
+  ***REMOVED***
+  ***REMOVED*** else {
+      win = new BrowserWindow(windowOptions)
+      resolve()
+  ***REMOVED***
+***REMOVED***)
+}
+
+function createWindow() {
   MenuBuilder.setMenu()
 
-  const windowOptions = {
-    title: 'Glyphfinder',
-    width: 340 + (isWindows ? 6 : 0),
-    height: 580,
-    resizable: false,
-    fullscreen: false,
-    frame: false,
-    titleBarStyle: 'hidden',
-    trafficLightPosition: {
-      x: 16,
-      y: 24,
-  ***REMOVED***,
-    transparent: !isWindows,
-    backgroundColor: '#000',
-    webPreferences: {
-      nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
-      nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
-  ***REMOVED***,
-    icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
+  getWindow().then(() => {
+    // console.log({ win })
+    LicenseCheck.setWindow(win)
+
+    if (process.env.WEBPACK_DEV_SERVER_URL) {
+      // Load the url of the dev server if in development mode
+      win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
+      // if (!process.env.IS_TEST && !isMenubar) win.webContents.openDevTools()
+  ***REMOVED*** else {
+      createProtocol('app')
+      // Load the index.html when not in development
+      win.loadURL('app://./index.html')
+  ***REMOVED***
+
+    if (!isMenubar) {
+      win.show()
+  ***REMOVED***
+
+    if (isProduction && !Setapp.isActive) {
+      Updater.silentlyCheckForUpdates()
+  ***REMOVED***
+
+    win.on('closed', () => {
+      win = null
 ***REMOVED***
-
-  if (Store.get('showMenubar', false)) {
-    MenuBar.create(windowOptions)
-    win = MenuBar.getWindow()
-***REMOVED*** else {
-    win = new BrowserWindow(windowOptions)
-***REMOVED***
-
-  LicenseCheck.setWindow(win)
-
-  if (process.env.WEBPACK_DEV_SERVER_URL) {
-    // Load the url of the dev server if in development mode
-    win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
-    if (!process.env.IS_TEST) win.webContents.openDevTools()
-***REMOVED*** else {
-    createProtocol('app')
-    // Load the index.html when not in development
-    win.loadURL('app://./index.html')
-***REMOVED***
-
-  win.show()
-
-  if (isProduction && !Setapp.isActive) {
-    Updater.silentlyCheckForUpdates()
-***REMOVED***
-
-  win.on('closed', () => {
-    win = null
 ***REMOVED***)
 }
 

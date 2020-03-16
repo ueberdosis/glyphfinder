@@ -28,88 +28,98 @@ const isDevelopment = !isProduction
 ***REMOVED***
 
   create(windowOptions = {}) {
-    if (
-      this.menubar
-      // || !User.isVerified
-      || !Store.get('showMenubar', true)
-    ) {
-***REMOVED***
+    return new Promise((resolve, reject) => {
+      if (
+        this.menubar
+        // || !User.isVerified
+        || !Store.get('showMenubar', true)
+      ) {
+        reject()
   ***REMOVED***
-
-    const { titleBarStyle, trafficLightPosition, ...options } = windowOptions
-
-    this.menubar = menubar({
-      index: process.env.WEBPACK_DEV_SERVER_URL
-        ? process.env.WEBPACK_DEV_SERVER_URL
-        : 'app://./index.html',
-      browserWindow: {
-        ...options,
-        movable: false,
-        // alwaysOnTop: isDevelopment,
-    ***REMOVED***,
-      /* global __static */
-      icon: path.join(__static, 'MenuIconTemplate.png'),
-      preloadWindow: true,
-      showDockIcon: false,
-      tooltip: 'Glyphfinder',
-***REMOVED***
-
-    this.menubar.on('after-create-window', () => {
-      const contextMenu = Menu.buildFromTemplate([
-        {
-          label: 'Preferences',
-          click: () => {
-            BrowserWindow
-              .getAllWindows()
-              .forEach(browserWindow => {
-                browserWindow.webContents.send('showPreferences')
-                browserWindow.show()
-          ***REMOVED***
-        ***REMOVED***,
-      ***REMOVED***,
-        { type: 'separator' },
-        {
-          label: 'Quit',
-          click: () => {
-            this.menubar.app.quit()
-        ***REMOVED***,
-      ***REMOVED***,
-      ])
-
-      this.menubar.tray.on('right-click', () => {
-        Setapp.reportUsageEvent('user-interaction')
-        this.menubar.tray.popUpContextMenu(contextMenu)
-  ***REMOVED***
-***REMOVED***
-
-    this.menubar.on('show', () => {
-      Setapp.reportUsageEvent('user-interaction')
-
-      // if (isDevelopment) {
-      //   this.menubar.window.openDevTools()
-      // }
-***REMOVED***
-
-    this.menubar.on('hide', () => {
-      // if (isDevelopment) {
-      //   this.menubar.window.closeDevTools()
-      // }
-***REMOVED***
-
-    this.menubar.on('ready', () => {
-      if (!User.isVerified) {
-        this.show()
     ***REMOVED***
-***REMOVED***
 
-    this.addShortcutListener()
+      const { titleBarStyle, trafficLightPosition, ...options } = windowOptions
 
-    ipcMain.on('shortcutChanged', () => {
+      this.menubar = menubar({
+        index: process.env.WEBPACK_DEV_SERVER_URL
+          ? process.env.WEBPACK_DEV_SERVER_URL
+          : 'app://./index.html',
+        browserWindow: {
+          ...options,
+          // x: 0,
+          // y: 0,
+          movable: false,
+          // alwaysOnTop: isDevelopment,
+      ***REMOVED***,
+        /* global __static */
+        // windowPosition:
+        icon: path.join(__static, 'MenuIconTemplate.png'),
+        preloadWindow: true,
+        showDockIcon: false,
+        tooltip: 'Glyphfinder',
+  ***REMOVED***
+
+      this.menubar.on('after-create-window', () => {
+
+
+        const contextMenu = Menu.buildFromTemplate([
+          {
+            label: 'Preferences',
+            click: () => {
+              BrowserWindow
+                .getAllWindows()
+                .forEach(browserWindow => {
+                  browserWindow.webContents.send('showPreferences')
+                  browserWindow.show()
+            ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
+          { type: 'separator' },
+          {
+            label: 'Quit',
+            click: () => {
+              this.menubar.app.quit()
+          ***REMOVED***,
+        ***REMOVED***,
+        ])
+
+        this.menubar.tray.on('right-click', () => {
+          Setapp.reportUsageEvent('user-interaction')
+          this.menubar.tray.popUpContextMenu(contextMenu)
+    ***REMOVED***
+
+        resolve(this.getWindow())
+  ***REMOVED***
+
+      this.menubar.on('show', () => {
+        Setapp.reportUsageEvent('user-interaction')
+
+        // if (isDevelopment) {
+        //   this.menubar.window.openDevTools()
+        // }
+  ***REMOVED***
+
+      this.menubar.on('hide', () => {
+        // if (isDevelopment) {
+        //   this.menubar.window.closeDevTools()
+        // }
+  ***REMOVED***
+
+      this.menubar.on('ready', () => {
+        if (!User.isVerified) {
+          this.show()
+      ***REMOVED***
+  ***REMOVED***
+
       this.addShortcutListener()
-***REMOVED***
 
-    app.on('will-quit', () => {
-      globalShortcut.unregisterAll()
+      ipcMain.on('shortcutChanged', () => {
+        this.addShortcutListener()
+  ***REMOVED***
+
+      app.on('will-quit', () => {
+        globalShortcut.unregisterAll()
+  ***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
