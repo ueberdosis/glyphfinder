@@ -11,6 +11,7 @@ import LicenseCheck from './services/LicenseCheck'
 import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
 import Setapp from './services/Setapp'
+import MenuBar from './services/MenuBar'
 
 Setapp.init()
 
@@ -72,6 +73,8 @@ function createWindow() {
   win.on('closed', () => {
     win = null
 ***REMOVED***)
+
+  MenuBar.setMainWindow(win)
 }
 
 // Quit when all windows are closed.
@@ -108,7 +111,10 @@ app.on('ready', async () => {
       console.error('Vue Devtools failed to install:', e.toString())
   ***REMOVED***
 ***REMOVED***
+
   createWindow()
+
+  MenuBar.create()
 })
 
 // Exit cleanly on request from parent process in development mode.

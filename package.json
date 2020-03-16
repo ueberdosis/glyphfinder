@@ -1,6 +1,6 @@
 {
   "name": "glyphfinder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "productName": "Glyphfinder",
   "author": "überdosis GbR <mail@ueber.io>",
   "description": "A glyph finding app.",
@@ -47,6 +47,7 @@
     "load-asset": "^1.2.0",
     "matter-js": "^0.14.2",
     "matter-wrap": "^0.2.0",
+    "menubar": "^8.0.1",
     "native-keymap": "^2.1.1",
     "promise-worker": "^2.0.1",
     "scrollmonitor": "^1.2.4",
