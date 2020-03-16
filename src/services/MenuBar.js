@@ -52,7 +52,7 @@ const isDevelopment = !isProduction
         width: 340 + (isWindows ? 6 : 0),
         height: 580,
         movable: false,
-        // alwaysOnTop: isDevelopment,
+        alwaysOnTop: isDevelopment,
         webPreferences: {
           nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
           nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
@@ -78,26 +78,24 @@ const isDevelopment = !isProduction
       ])
 
       this.menubar.tray.on('right-click', () => {
-        // Setapp.reportUsageEvent('user-interaction')
+        Setapp.reportUsageEvent('user-interaction')
         this.menubar.tray.popUpContextMenu(contextMenu)
   ***REMOVED***
 ***REMOVED***
 
-    // this.menubar.on('show', () => {
-    //   // Setapp.reportUsageEvent('user-interaction')
+    this.menubar.on('show', () => {
+      Setapp.reportUsageEvent('user-interaction')
 
-    //   if (isDevelopment) {
-    //     this.menubar.window.openDevTools()
-    // ***REMOVED***
-    // })
+      if (isDevelopment) {
+        this.menubar.window.openDevTools()
+    ***REMOVED***
+***REMOVED***
 
-    // this.menubar.on('hide', () => {
-    //   if (isDevelopment) {
-    //     this.menubar.window.closeDevTools()
-    // ***REMOVED***
-
-    //   this.menubar.window.webContents.send('activeWindow:hide')
-    // })
+    this.menubar.on('hide', () => {
+      if (isDevelopment) {
+        this.menubar.window.closeDevTools()
+    ***REMOVED***
+***REMOVED***
 
     this.menubar.on('after-hide', () => {
       // restore focus of previous app only if there is no main window of mouseless
@@ -155,11 +153,11 @@ const isDevelopment = !isProduction
     ***REMOVED***
 ***REMOVED***
 
-    globalShortcut.register('escape', () => {
-      if (this.isWindowVisible(this.menubar.window)) {
-        this.hide()
-    ***REMOVED***
-***REMOVED***
+    // globalShortcut.register('escape', () => {
+    //   if (this.isWindowVisible(this.menubar.window)) {
+    //     this.hide()
+    // ***REMOVED***
+    // })
 ***REMOVED***
 
 ***REMOVED***
