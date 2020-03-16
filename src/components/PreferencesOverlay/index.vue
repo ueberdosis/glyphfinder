@@ -30,6 +30,23 @@
 
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
+          Menu bar
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" v-model="showMenubar">
+            <span>
+              Show in menu bar
+            </span>
+            <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
+              Restart App
+            </btn>
+          </label>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
           Danger Zone
         </div>
         <div>
@@ -49,6 +66,7 @@
 </template>
 
 <script>
+import { remote } from 'electron'
 import DB from '@/services/DB'
 import User from '@/services/User'
 import Event from '@/services/Event'
@@ -64,7 +82,16 @@ export default {
     return {
       isDevelopment: process.env.NODE_ENV === 'development',
       user: User,
+      showMenubar: Store.get('showMenubar', false),
+      showMenubarRestartButton: false,
   ***REMOVED***
+***REMOVED***,
+
+  watch: {
+    showMenubar() {
+      Store.set('showMenubar', this.showMenubar)
+      this.showMenubarRestartButton = true
+  ***REMOVED***,
 ***REMOVED***,
 
   methods: {
@@ -95,6 +122,11 @@ export default {
         DB.removeAll()
         window.location.reload()
     ***REMOVED***
+  ***REMOVED***,
+
+    restart() {
+      remote.app.relaunch()
+      remote.app.exit(0)
   ***REMOVED***,
 ***REMOVED***,
 }

@@ -12,6 +12,7 @@ import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
 import Setapp from './services/Setapp'
 import MenuBar from './services/MenuBar'
+import Store from './services/Store'
 
 Setapp.init()
 
@@ -51,10 +52,12 @@ function createWindow() {
     icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
 ***REMOVED***
 
-  MenuBar.create(windowOptions)
-
-  win = MenuBar.menubar.window
-  // win = new BrowserWindow(windowOptions)
+  if (Store.get('showMenubar', false)) {
+    MenuBar.create(windowOptions)
+    win = MenuBar.menubar.window
+***REMOVED*** else {
+    win = new BrowserWindow(windowOptions)
+***REMOVED***
 
   LicenseCheck.setWindow(win)
 
