@@ -50,5 +50,3 @@ new Vue({
   ***REMOVED***
 ***REMOVED***,
 }).$mount('#app')
-
-
