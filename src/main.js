@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Bowser from 'bowser'
 import Wrapper from '@/components/Wrapper'
+import Store from '@/services/Store'
 
 const customTitlebar = require('custom-electron-titlebar')
 
@@ -31,6 +32,10 @@ new Vue({
   render: h => h(Wrapper),
   mounted() {
     document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
+
+    if (Store.get('showMenubar', false)) {
+      document.documentElement.classList.add('is-menubar')
+  ***REMOVED***
 
     if (this.isWindows) {
       this.titleBar = new customTitlebar.Titlebar({

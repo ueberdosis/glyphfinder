@@ -1,8 +1,8 @@
 :root {
-  --menuBarSize: 40px;
+  --menuBarSize: 20px;
 
-  &.is-windows {
-    --menuBarSize: 20px;
+  &.is-mac:not(.is-menubar) {
+    --menuBarSize: 40px;
 ***REMOVED***
 }
 
