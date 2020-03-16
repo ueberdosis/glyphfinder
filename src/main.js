@@ -31,13 +31,15 @@ Vue.mixin({
 new Vue({
   render: h => h(Wrapper),
   mounted() {
+    const showMenubar = Store.get('showMenubar', false)
+
     document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
 
-    if (Store.get('showMenubar', false)) {
+    if (showMenubar) {
       document.documentElement.classList.add('is-menubar')
   ***REMOVED***
 
-    if (this.isWindows) {
+    if (this.isWindows && !showMenubar) {
       this.titleBar = new customTitlebar.Titlebar({
         icon: './icon.png',
         backgroundColor: customTitlebar.Color.fromHex('#000'),
