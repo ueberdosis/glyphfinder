@@ -30,8 +30,7 @@ function createWindow() {
 
   MenuBuilder.setMenu()
 
-  // Create the browser window.
-  win = new BrowserWindow({
+  const windowOptions = {
     title: 'Glyphfinder',
     width: 340 + (isWindows ? 6 : 0),
     height: 580,
@@ -50,7 +49,12 @@ function createWindow() {
       nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
   ***REMOVED***,
     icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
-***REMOVED***)
+***REMOVED***
+
+  MenuBar.create(windowOptions)
+
+  win = MenuBar.menubar.window
+  // win = new BrowserWindow(windowOptions)
 
   LicenseCheck.setWindow(win)
 
@@ -73,8 +77,6 @@ function createWindow() {
   win.on('closed', () => {
     win = null
 ***REMOVED***)
-
-  MenuBar.setMainWindow(win)
 }
 
 // Quit when all windows are closed.
@@ -113,8 +115,6 @@ app.on('ready', async () => {
 ***REMOVED***
 
   createWindow()
-
-  MenuBar.create()
 })
 
 // Exit cleanly on request from parent process in development mode.
