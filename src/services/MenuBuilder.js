@@ -23,6 +23,7 @@ const isMac = process.platform === 'darwin'
                 .getAllWindows()
                 .forEach(browserWindow => {
                   browserWindow.webContents.send('showPreferences')
+                  browserWindow.show()
             ***REMOVED***
           ***REMOVED***,
         ***REMOVED***,

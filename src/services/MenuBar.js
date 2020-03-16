@@ -63,6 +63,7 @@ const isDevelopment = !isProduction
               .getAllWindows()
               .forEach(browserWindow => {
                 browserWindow.webContents.send('showPreferences')
+                browserWindow.show()
           ***REMOVED***
         ***REMOVED***,
       ***REMOVED***,
