@@ -2,7 +2,7 @@ symbol,hex,code,name,category,entities,set,tags
  ,0020,32,space,Basic Latin,,Spaces,
 !,0021,33,exclamation mark,Basic Latin,excl,,
 """",0022,34,quotation mark,Basic Latin,QUOT quot,Quotes,quote
-#,0023,35,number sign,Basic Latin,num,,
+#,0023,35,number sign,Basic Latin,num,,octothorpe pound
 $,0024,36,dollar sign,Basic Latin,dollar,Currencies,currency
 %,0025,37,percent sign,Basic Latin,percnt,Fractions,0/0 fraction
 &,0026,38,ampersand,Basic Latin,AMP amp,,and et
@@ -115,9 +115,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ´,00B4,180,acute accent,Latin-1 Supplement,DiacriticalAcute acute,,' `
 µ,00B5,181,micro sign,Latin-1 Supplement,micro,,u
 ¶,00B6,182,pilcrow sign,Latin-1 Supplement,para,,enter return n p paragraph
-·,00B7,183,middle dot,Latin-1 Supplement,CenterDot centerdot middot,,. middle dot
+·,00B7,183,middle dot,Latin-1 Supplement,CenterDot centerdot middot,,. middle dot interpunct
 ¸,00B8,184,cedilla,Latin-1 Supplement,Cedilla cedil,,","
-¹,00B9,185,superscript one,Latin-1 Supplement,sup1,,1 superscript one
+¹,00B9,185,superscript one,Latin-1 Supplement,sup1,,1
 º,00BA,186,masculine ordinal indicator,Latin-1 Supplement,ordm,,o ordinal
 »,00BB,187,right-pointing double angle quotation mark,Latin-1 Supplement,raquo,Quotes,>> quote
 ¼,00BC,188,vulgar fraction one quarter,Latin-1 Supplement,frac14,Fractions,1/4
