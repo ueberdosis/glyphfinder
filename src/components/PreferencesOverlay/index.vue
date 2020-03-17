@@ -199,6 +199,24 @@ export default {
       this.keyboard.destroy()
       this.keyboard = null
   ***REMOVED***,
+
+    handleKeyDown(event) {
+      if (event.key === 'Escape') {
+        if (this.isListening) {
+          this.cancelListening()
+      ***REMOVED*** else {
+          this.close()
+      ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***,
+***REMOVED***,
+
+  mounted() {
+    document.addEventListener('keydown', this.handleKeyDown)
+***REMOVED***,
+
+  beforeDestroy() {
+    document.removeEventListener('keydown', this.handleKeyDown)
 ***REMOVED***,
 }
 </script>
