@@ -11,8 +11,8 @@ const isMac = process.platform === 'darwin'
       {
         label: app.getName(),
         submenu: [
-          { role: 'about' },
           ...(isMac ? [
+            { role: 'about' },
             { type: 'separator' },
           ] : []),
           {
@@ -40,11 +40,9 @@ const isMac = process.platform === 'darwin'
           ] : []),
           ...(isMac ? [
             { type: 'separator' },
-          ] : []),
-          { role: 'hide' },
-          { role: 'hideothers' },
-          { role: 'unhide' },
-          ...(isMac ? [
+            { role: 'hide' },
+            { role: 'hideothers' },
+            { role: 'unhide' },
             { type: 'separator' },
           ] : []),
           { role: 'quit' },
