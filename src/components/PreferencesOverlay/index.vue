@@ -89,10 +89,10 @@
         </div>
         <div>
           <btn @click.native="clearGlyphs" is-red>
-            Clear Glyphs
+            Clear Glyphs Cache
           </btn>
           <btn @click.native="clearIndex" is-red>
-            Clear Index
+            Clear Search Index
           </btn>
           <btn @click.native="resetAll" is-red v-if="isDevelopment">
             Reset All
