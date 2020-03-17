@@ -97,3 +97,7 @@ textarea {
 //     transform 0.6s $easeInOutQuint,
 //   ;
 // }
+
+.menubar-menu-button:not(:first-child) {
+  display: none !important;
+}
