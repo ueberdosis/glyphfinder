@@ -12,6 +12,7 @@ import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
 import Setapp from './services/Setapp'
 import MenuBar from './services/MenuBar'
+import AutoStart from './services/AutoStart'
 import Store from './services/Store'
 
 Setapp.init()
@@ -27,6 +28,8 @@ let win
 
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: true, standard: true } }])
+
+AutoStart.init()
 
 function getWindow() {
   return new Promise(resolve => {
