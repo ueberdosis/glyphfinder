@@ -2,12 +2,15 @@ import Vue from 'vue'
 import Bowser from 'bowser'
 import Wrapper from '@/components/Wrapper'
 import Store from '@/services/Store'
+import Keyboard from '@/services/Keyboard'
 
 const customTitlebar = require('custom-electron-titlebar')
 
 Vue.config.productionTip = false
 
 const { os } = Bowser.parse(window.navigator.userAgent)
+
+Vue.filter('key', value => Keyboard.formatKeyCode(value))
 
 Vue.filter('uppercase', value => {
   const ignoredCharacters = ['ß']

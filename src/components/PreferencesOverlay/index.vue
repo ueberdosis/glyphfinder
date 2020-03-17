@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="preferences-overlay__section">
+      <div class="preferences-overlay__section" v-if="showMenubar">
         <div class="preferences-overlay__label">
           Autostart app
         </div>
@@ -52,6 +52,34 @@
             <input type="checkbox" v-model="autoStart">
             <span class="switch__slider" />
           </label>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section" v-if="showMenubar">
+        <div class="preferences-overlay__label">
+          Shortcut
+        </div>
+        <div>
+          <template v-if="isListening">
+            <span class="grey">
+              Press any shortcut…
+            </span>
+            <btn @click.native="cancelListening">
+              Cancel
+            </btn>
+          </template>
+          <template v-else>
+            <span>
+              <small-key
+                v-for="key in shortcut"
+                :key="key"
+                :name="key"
+              />
+            </span>
+            <btn @click.native="listenToNewShortcut">
+              Change
+            </btn>
+          </template>
         </div>
       </div>
 
@@ -82,20 +110,30 @@ import User from '@/services/User'
 import Event from '@/services/Event'
 import Store from '@/services/Store'
 import Btn from '@/components/Btn'
+import SmallKey from '@/components/SmallKey'
 
 export default {
   components: {
     Btn,
+    SmallKey,
 ***REMOVED***,
 
   data() {
     return {
       isDevelopment: process.env.NODE_ENV === 'development',
       user: User,
+      shortcut: Store.get('shortcut'),
       showMenubar: Store.get('showMenubar', true),
       autoStart: Store.get('autoStart', true),
       showMenubarRestartButton: false,
+      keyboard: null,
   ***REMOVED***
+***REMOVED***,
+
+  computed: {
+    isListening() {
+***REMOVED*** !!this.keyboard
+  ***REMOVED***,
 ***REMOVED***,
 
   watch: {
@@ -142,6 +180,18 @@ export default {
     restart() {
       remote.app.relaunch()
       remote.app.exit(0)
+  ***REMOVED***,
+
+    listenToNewShortcut() {
+      // this.keyboard = new Keyboard()
+
+      // this.keyboard.on('shortcut', event => {
+      //   event.preventDefault()
+      //   Store.set('shortcut', this.keyboard.resolvedKeys)
+      //   ipcRenderer.send('shortcutChanged')
+      //   this.shortcut = this.keyboard.resolvedKeys
+      //   this.cancelListening()
+      // })
   ***REMOVED***,
 ***REMOVED***,
 }
