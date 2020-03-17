@@ -48,56 +48,53 @@ const isMac = process.platform === 'darwin'
           { role: 'quit' },
         ],
     ***REMOVED***,
-      ...(isMac ? [
-        {
-          label: 'Edit',
-          submenu: [
-            { role: 'undo' },
-            { role: 'redo' },
-            { type: 'separator' },
-            { role: 'cut' },
-            { role: 'copy' },
-            { role: 'paste' },
-            ...(isMac ? [
-              { role: 'pasteAndMatchStyle' },
-            ] : []),
-            { role: 'selectAll' },
-            { role: 'delete' },
-          ],
-      ***REMOVED***,
-        {
-          label: 'View',
-          submenu: [
-            { role: 'reload' },
-            { type: 'separator' },
-            { role: 'resetzoom' },
-            { role: 'zoomin' },
-            { role: 'zoomout' },
-            { type: 'separator' },
-            { role: 'togglefullscreen' },
-            {
-              label: 'Show Developer Tools',
-              accelerator: 'Alt+CmdOrCtrl+I',
-              click(item, focusedWindow) {
-                if (focusedWindow) {
-                  focusedWindow.toggleDevTools()
-              ***REMOVED***
-            ***REMOVED***,
+      {
+        label: 'Edit',
+        submenu: [
+          { role: 'undo' },
+          { role: 'redo' },
+          { type: 'separator' },
+          { role: 'cut' },
+          { role: 'copy' },
+          { role: 'paste' },
+          ...(isMac ? [
+            { role: 'pasteAndMatchStyle' },
+          ] : []),
+          { role: 'selectAll' },
+          { role: 'delete' },
+        ],
+    ***REMOVED***,
+      {
+        label: 'View',
+        submenu: [
+          { role: 'reload' },
+          { type: 'separator' },
+          { role: 'resetzoom' },
+          { role: 'zoomin' },
+          { role: 'zoomout' },
+          { type: 'separator' },
+          {
+            label: 'Show Developer Tools',
+            accelerator: 'Alt+CmdOrCtrl+I',
+            click(item, focusedWindow) {
+              if (focusedWindow) {
+                focusedWindow.toggleDevTools()
+            ***REMOVED***
           ***REMOVED***,
-          ],
-      ***REMOVED***,
-        {
-          role: 'window',
-          submenu: [
-            { role: 'minimize' },
-            { role: 'close' },
-            { role: 'minimize' },
-            { role: 'zoom' },
-            { type: 'separator' },
-            { role: 'front' },
-          ],
-      ***REMOVED***,
-      ] : []),
+        ***REMOVED***,
+        ],
+    ***REMOVED***,
+      {
+        role: 'window',
+        submenu: [
+          { role: 'minimize' },
+          { role: 'close' },
+          { role: 'minimize' },
+          { role: 'zoom' },
+          { type: 'separator' },
+          { role: 'front' },
+        ],
+    ***REMOVED***,
     ]
 ***REMOVED***
 
