@@ -104,7 +104,8 @@
 </template>
 
 <script>
-import { remote } from 'electron'
+import { remote, ipcRenderer } from 'electron'
+import Keyboard from '@/services/Keyboard'
 import DB from '@/services/DB'
 import User from '@/services/User'
 import Event from '@/services/Event'
@@ -183,15 +184,20 @@ export default {
   ***REMOVED***,
 
     listenToNewShortcut() {
-      // this.keyboard = new Keyboard()
+      this.keyboard = new Keyboard()
 
-      // this.keyboard.on('shortcut', event => {
-      //   event.preventDefault()
-      //   Store.set('shortcut', this.keyboard.resolvedKeys)
-      //   ipcRenderer.send('shortcutChanged')
-      //   this.shortcut = this.keyboard.resolvedKeys
-      //   this.cancelListening()
-      // })
+      this.keyboard.on('shortcut', event => {
+        event.preventDefault()
+        Store.set('shortcut', this.keyboard.resolvedKeys)
+        ipcRenderer.send('shortcutChanged')
+        this.shortcut = this.keyboard.resolvedKeys
+        this.cancelListening()
+  ***REMOVED***
+  ***REMOVED***,
+
+    cancelListening() {
+      this.keyboard.destroy()
+      this.keyboard = null
   ***REMOVED***,
 ***REMOVED***,
 }
