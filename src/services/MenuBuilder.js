@@ -40,6 +40,12 @@ const isMac = process.platform === 'darwin'
           ...(isMac ? [
             { type: 'separator' },
           ] : []),
+          { role: 'hide' },
+          { role: 'hideothers' },
+          { role: 'unhide' },
+          ...(isMac ? [
+            { type: 'separator' },
+          ] : []),
           { role: 'quit' },
         ],
     ***REMOVED***,
