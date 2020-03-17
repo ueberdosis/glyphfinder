@@ -4,7 +4,7 @@
       <h2>
         Preferences
       </h2>
-      <btn icon="close" @click.native="close" />
+      <btn icon="close" is-grey-text @click.native="close" />
     </div>
 
     <div class="preferences-overlay__content">
@@ -37,7 +37,7 @@
             <input type="checkbox" v-model="showMenubar">
             <span class="switch__slider" />
           </label>
-          <btn @click.native="restart" is-red v-if="showMenubarRestartButton">
+          <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
             Restart App
           </btn>
         </div>
