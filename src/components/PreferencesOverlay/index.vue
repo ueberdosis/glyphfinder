@@ -37,7 +37,7 @@
             <input type="checkbox" v-model="showMenubar">
             <span class="switch__slider" />
           </label>
-          <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
+          <btn @click.native="restart" is-red v-if="showMenubarRestartButton">
             Restart App
           </btn>
         </div>

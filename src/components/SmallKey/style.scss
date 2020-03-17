@@ -2,16 +2,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 18px;
+  min-width: 26px;
   padding: 0 3px;
-  height: 18px;
-  font-size: 12px;
+  height: 26px;
+  font-size: 14px;
   font-weight: 700;
   color: rgba($colorWhite, 0.7);
   line-height: 1;
-  border-radius: 3px;
+  border-radius: 6px;
   background-color: rgba($colorWhite, 0.1);
-  margin-left: 4px;
+  margin-left: 3px;
   transition: color 0.1s $ease;
 
   &:first-child {

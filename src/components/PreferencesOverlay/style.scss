@@ -59,7 +59,7 @@
   position: relative;
   display: inline-block;
   width: 44px;
-  height: 24px;
+  height: 26px;
 
   input {
     opacity: 0;
@@ -76,13 +76,13 @@
     bottom: 0;
     background-color: rgba($colorWhite, 0.1);
     transition: 0.2s $ease;
-    border-radius: 34px;
+    border-radius: 26px;
     
     &::before {
       content: '';
       position: absolute;
-      height: 16px;
-      width: 16px;
+      height: 18px;
+      width: 18px;
       left: 4px;
       bottom: 4px;
       background-color: rgba($colorWhite, 0.2);
@@ -99,7 +99,7 @@
     background-color: $colorGreen;
     
     &::before {
-      transform: translateX(20px);
+      transform: translateX(18px);
       background-color: rgba($colorWhite, 1);
   ***REMOVED***
 ***REMOVED***
