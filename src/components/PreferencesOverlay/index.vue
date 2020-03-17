@@ -30,17 +30,27 @@
 
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
-          Menu bar
+          Show in menu bar
         </div>
-        <div>
-          <label>
+        <div class="preferences-overlay__row">
+          <label class="switch">
             <input type="checkbox" v-model="showMenubar">
-            <span>
-              Show in menu bar
-            </span>
-            <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
-              Restart App
-            </btn>
+            <span class="switch__slider" />
+          </label>
+          <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
+            Restart App
+          </btn>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
+          Autostart app
+        </div>
+        <div class="preferences-overlay__row">
+          <label class="switch">
+            <input type="checkbox" v-model="autoStart">
+            <span class="switch__slider" />
           </label>
         </div>
       </div>
@@ -82,7 +92,8 @@ export default {
     return {
       isDevelopment: process.env.NODE_ENV === 'development',
       user: User,
-      showMenubar: Store.get('showMenubar', false),
+      showMenubar: Store.get('showMenubar', true),
+      autoStart: Store.get('autoStart', true),
       showMenubarRestartButton: false,
   ***REMOVED***
 ***REMOVED***,
@@ -91,6 +102,10 @@ export default {
     showMenubar() {
       Store.set('showMenubar', this.showMenubar)
       this.showMenubarRestartButton = true
+  ***REMOVED***,
+
+    autoStart() {
+      Store.set('autoStart', this.autoStart)
   ***REMOVED***,
 ***REMOVED***,
 

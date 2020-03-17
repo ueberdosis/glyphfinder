@@ -19,7 +19,7 @@ Setapp.init()
 const isProduction = process.env.NODE_ENV === 'production'
 const isDevelopment = !isProduction
 const isWindows = process.platform === 'win32'
-const isMenubar = Store.get('showMenubar', false)
+const isMenubar = Store.get('showMenubar', true)
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.

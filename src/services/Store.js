@@ -19,7 +19,8 @@ export default new Store({
   ***REMOVED***,
     '1.1.0': store => {
       store.set('shortcut', ['Meta', 'Shift', 'g'])
-      store.set('showMenubar', false)
+      store.set('showMenubar', true)
+      store.set('autoStart', true)
   ***REMOVED***,
 ***REMOVED***,
 })

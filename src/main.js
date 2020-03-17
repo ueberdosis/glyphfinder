@@ -31,7 +31,7 @@ Vue.mixin({
 new Vue({
   render: h => h(Wrapper),
   mounted() {
-    const showMenubar = Store.get('showMenubar', false)
+    const showMenubar = Store.get('showMenubar', true)
 
     document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
 

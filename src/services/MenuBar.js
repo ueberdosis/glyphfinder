@@ -47,13 +47,10 @@ const isDevelopment = !isProduction
           : 'app://./index.html',
         browserWindow: {
           ...options,
-          // x: 0,
-          // y: 0,
           movable: false,
-          // alwaysOnTop: isDevelopment,
+          alwaysOnTop: isDevelopment,
       ***REMOVED***,
         /* global __static */
-        // windowPosition:
         icon: path.join(__static, 'MenuIconTemplate.png'),
         preloadWindow: true,
         showDockIcon: false,
@@ -104,15 +101,15 @@ const isDevelopment = !isProduction
       this.menubar.on('show', () => {
         Setapp.reportUsageEvent('user-interaction')
 
-        // if (isDevelopment) {
-        //   this.menubar.window.openDevTools()
-        // }
+        if (isDevelopment) {
+          this.menubar.window.openDevTools()
+      ***REMOVED***
   ***REMOVED***
 
       this.menubar.on('hide', () => {
-        // if (isDevelopment) {
-        //   this.menubar.window.closeDevTools()
-        // }
+        if (isDevelopment) {
+          this.menubar.window.closeDevTools()
+      ***REMOVED***
   ***REMOVED***
 
       this.menubar.on('ready', () => {
