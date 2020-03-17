@@ -12,7 +12,7 @@ module.exports = async context => {
   try {
     await notarize({
       appBundleId: process.env.VUE_APP_IS_SETAPP === 'true'
-        ? 'com.ueberclub.mouseless-setapp'
+        ? 'com.ueberclub.glyphfinder-setapp'
         : 'com.glyphfinder.app',
       appPath: `${appOutDir}/${appName}.app`,
       appleId: process.env.APPLE_ID,
