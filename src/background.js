@@ -1,12 +1,6 @@
 import path from 'path'
-import {
-  app, protocol, BrowserWindow,
-} from 'electron'
-import {
-  createProtocol,
-  installVueDevtools,
-} from 'vue-cli-plugin-electron-builder/lib'
-
+import { app, protocol, BrowserWindow } from 'electron'
+import { createProtocol, installVueDevtools } from 'vue-cli-plugin-electron-builder/lib'
 import LicenseCheck from './services/LicenseCheck'
 import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
@@ -14,12 +8,10 @@ import Setapp from './services/Setapp'
 import MenuBar from './services/MenuBar'
 import AutoStart from './services/AutoStart'
 import Store from './services/Store'
+import { isProduction, isDevelopment, isWindows } from './helpers'
 
 Setapp.init()
 
-const isProduction = process.env.NODE_ENV === 'production'
-const isDevelopment = !isProduction
-const isWindows = process.platform === 'win32'
 const isMenubar = Store.get('showMenubar', true)
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -29,7 +21,7 @@ let win
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: true, standard: true } }])
 
-AutoStart.init()
+AutoStart.update()
 
 function getWindow() {
   return new Promise(resolve => {

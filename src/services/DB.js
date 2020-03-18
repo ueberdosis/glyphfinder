@@ -1,11 +1,11 @@
 import fs from 'fs'
 import path from 'path'
-import { app, remote } from 'electron'
+import { app } from '../helpers'
 
 ***REMOVED***
 
 ***REMOVED***
-    this.userDataPath = (app || remote.app).getPath('userData')
+    this.userDataPath = app.getPath('userData')
     this.glyphsPath = path.join(this.userDataPath, 'glyphs.json')
     this.searchIndexPath = path.join(this.userDataPath, 'search-index.json')
 ***REMOVED***

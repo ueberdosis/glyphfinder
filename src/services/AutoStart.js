@@ -1,11 +1,8 @@
-import { app } from 'electron'
 ***REMOVED***
-
-const isProduction = process.env.NODE_ENV === 'production'
+import { app, isProduction } from '../helpers'
 
 ***REMOVED***
-
-  init() {
+  update() {
     if (isProduction) {
       app.setLoginItemSettings({
         openAtLogin: Store.get('autoStart', true),
@@ -14,5 +11,4 @@ const isProduction = process.env.NODE_ENV === 'production'
   ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-
 ***REMOVED***

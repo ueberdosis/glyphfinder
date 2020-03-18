@@ -106,6 +106,7 @@
 <script>
 import { remote, ipcRenderer } from 'electron'
 import Keyboard from '@/services/Keyboard'
+import AutoStart from '@/services/AutoStart'
 import DB from '@/services/DB'
 import User from '@/services/User'
 import Event from '@/services/Event'
@@ -141,10 +142,17 @@ export default {
     showMenubar() {
       Store.set('showMenubar', this.showMenubar)
       this.showMenubarRestartButton = true
+
+      if (this.showMenubar) {
+        this.autoStart = true
+    ***REMOVED*** else {
+        this.autoStart = false
+    ***REMOVED***
   ***REMOVED***,
 
     autoStart() {
       Store.set('autoStart', this.autoStart)
+      AutoStart.update()
   ***REMOVED***,
 ***REMOVED***,
 

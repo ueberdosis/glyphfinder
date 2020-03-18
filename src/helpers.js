@@ -1,6 +1,14 @@
+import { app as backendApp, remote } from 'electron'
+
+export const app = backendApp || remote.app
+
 export const isMac = process.platform === 'darwin'
 
 export const isWindows = !isMac
+
+export const isProduction = process.env.NODE_ENV === 'production'
+
+export const isDevelopment = !isProduction
 
 export function findDuplicatesInArray(data = []) {
   const result = []

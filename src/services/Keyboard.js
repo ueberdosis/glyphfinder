@@ -3,6 +3,7 @@ import keymap from 'native-keymap'
 import Emitter from '@/services/Emitter'
 import { findDuplicatesInArray, isSameArray, getArrayDepth } from '@/helpers'
 import Store from '@/services/Store'
+import { isMac } from '../helpers'
 
 const isISOKeyboard = keymap.isISOKeyboard()
 const basicKeyMap = keymap.getKeyMap()
@@ -68,7 +69,7 @@ export default class Keyboard {
     Shift: '⇧',
     Control: '⌃',
     Alt: '⌥',
-    Meta: '⌘',
+    Meta: isMac ? '⌘' : '❖',
     ArrowUp: '↑',
     ArrowRight: '→',
     ArrowDown: '↓',
