@@ -11,10 +11,10 @@ import {
 import User from './User'
 import Setapp from './Setapp'
 import Updater from './Updater'
+import { isMac } from '../helpers'
 
 const isProduction = process.env.NODE_ENV === 'production'
 const isDevelopment = !isProduction
-const isMac = process.platform === 'darwin'
 
 ***REMOVED***
   getShortcut() {

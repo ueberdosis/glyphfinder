@@ -1,6 +1,7 @@
 import Store from 'electron-store'
 import { app, remote } from 'electron'
 import DB from './DB'
+import { isMac } from '../helpers'
 
 export default new Store({
   // configName: process.env.NODE_ENV === 'development'
@@ -15,7 +16,11 @@ export default new Store({
       store.clear()
   ***REMOVED***,
     '1.1.0': store => {
-      store.set('shortcut', ['Meta', 'Shift', 'g'])
+      if (isMac) {
+        store.set('shortcut', ['Shift', 'Meta', 'g'])
+    ***REMOVED*** else {
+        store.set('shortcut', ['Control', 'Shift', 'g'])
+    ***REMOVED***
       store.set('showMenubar', true)
       store.set('autoStart', true)
   ***REMOVED***,

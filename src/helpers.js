@@ -1,3 +1,7 @@
+export const isMac = process.platform === 'darwin'
+
+export const isWindows = !isMac
+
 export function findDuplicatesInArray(data = []) {
   const result = []
 

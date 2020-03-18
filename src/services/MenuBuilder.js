@@ -1,8 +1,7 @@
 import { app, Menu, BrowserWindow } from 'electron'
 import Updater from './Updater'
 import Setapp from './Setapp'
-
-const isMac = process.platform === 'darwin'
+import { isMac } from '../helpers'
 
 ***REMOVED***
 
