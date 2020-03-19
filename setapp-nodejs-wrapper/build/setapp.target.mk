@@ -49,13 +49,13 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/include/node \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/src \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/openssl/config \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/openssl/openssl/include \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/uv/include \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/zlib \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/v8/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/include/node \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/src \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/openssl/config \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/openssl/openssl/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/uv/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/zlib \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/libSetapp
 
@@ -103,13 +103,13 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/include/node \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/src \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/openssl/config \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/openssl/openssl/include \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/uv/include \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/zlib \
-	-I/Users/philippkuehn/.node-gyp/7.1.4/deps/v8/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/include/node \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/src \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/openssl/config \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/openssl/openssl/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/uv/include \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/zlib \
+	-I/Users/philippkuehn/.node-gyp/8.0.2/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/libSetapp
 
@@ -143,7 +143,7 @@ $(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj)/%.mm FORCE_DO_CMD
 # End of this set of suffix rules
 ### Rules for final target.
 LDFLAGS_Debug := \
-	-force_load  /Users/philippkuehn/Projekte/mouseless/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
+	-force_load  /Users/philippkuehn/Projekte/glyphfinder/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first \
@@ -153,13 +153,13 @@ LDFLAGS_Debug := \
 	-stdlib=libc++
 
 LIBTOOLFLAGS_Debug := \
-	-force_load  /Users/philippkuehn/Projekte/mouseless/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
+	-force_load  /Users/philippkuehn/Projekte/glyphfinder/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first
 
 LDFLAGS_Release := \
-	-force_load  /Users/philippkuehn/Projekte/mouseless/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
+	-force_load  /Users/philippkuehn/Projekte/glyphfinder/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first \
@@ -169,7 +169,7 @@ LDFLAGS_Release := \
 	-stdlib=libc++
 
 LIBTOOLFLAGS_Release := \
-	-force_load  /Users/philippkuehn/Projekte/mouseless/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
+	-force_load  /Users/philippkuehn/Projekte/glyphfinder/setapp-nodejs-wrapper/libSetapp/libSetapp.a -framework Security -framework IOKit -framework QuartzCore -framework Cocoa \
 	-undefined dynamic_lookup \
 	-Wl,-no_pie \
 	-Wl,-search_paths_first
