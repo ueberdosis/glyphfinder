@@ -19,8 +19,8 @@ export default new Store({
         store.set('shortcut', ['Control', 'Shift', 'g'])
     ***REMOVED***
 
-      store.set('showMenubar', true)
-      store.set('autoStart', true)
+      store.set('showMenubar', false)
+      store.set('autoStart', false)
   ***REMOVED***,
 ***REMOVED***,
 })
