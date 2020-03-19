@@ -46,6 +46,10 @@ function getWindow() {
       icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
   ***REMOVED***
 
+    if (!process.env.WEBPACK_DEV_SERVER_URL) {
+      createProtocol('app')
+  ***REMOVED***
+
     if (isMenubar) {
       MenuBar.create(windowOptions).then(browserWindow => {
         win = browserWindow
@@ -62,15 +66,13 @@ function createWindow() {
   MenuBuilder.setMenu()
 
   getWindow().then(() => {
-    // console.log({ win })
     LicenseCheck.setWindow(win)
 
     if (process.env.WEBPACK_DEV_SERVER_URL) {
       // Load the url of the dev server if in development mode
       win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
-      // if (!process.env.IS_TEST && !isMenubar) win.webContents.openDevTools()
+      if (!process.env.IS_TEST && !isMenubar) win.webContents.openDevTools()
   ***REMOVED*** else {
-      createProtocol('app')
       // Load the index.html when not in development
       win.loadURL('app://./index.html')
   ***REMOVED***

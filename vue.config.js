@@ -1,11 +1,4 @@
 module.exports = {
-  // devServer: {
-  //   overlay: {
-  //     warnings: false,
-  //     errors: false,
-  // ***REMOVED***,
-  // },
-
   lintOnSave: process.env.NODE_ENV === 'production',
 
   css: {
@@ -86,6 +79,7 @@ module.exports = {
           ],
       ***REMOVED***,
         win: {
+          publisherName: 'überdosis GbR',
           publish: [
             {
               provider: 'spaces',

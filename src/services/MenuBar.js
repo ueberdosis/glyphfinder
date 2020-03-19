@@ -11,10 +11,7 @@ import {
 import User from './User'
 import Setapp from './Setapp'
 import Updater from './Updater'
-import { isMac } from '../helpers'
-
-const isProduction = process.env.NODE_ENV === 'production'
-const isDevelopment = !isProduction
+import { isMac, isDevelopment } from '../helpers'
 
 ***REMOVED***
   getShortcut() {
@@ -33,7 +30,6 @@ const isDevelopment = !isProduction
     return new Promise((resolve, reject) => {
       if (
         this.menubar
-        // || !User.isVerified
         || !Store.get('showMenubar', true)
       ) {
         reject()
@@ -49,7 +45,7 @@ const isDevelopment = !isProduction
         browserWindow: {
           ...options,
           movable: false,
-          alwaysOnTop: isDevelopment,
+          // alwaysOnTop: isDevelopment,
       ***REMOVED***,
         /* global __static */
         icon: path.join(__static, 'MenuIconTemplate.png'),
@@ -104,15 +100,15 @@ const isDevelopment = !isProduction
       this.menubar.on('show', () => {
         Setapp.reportUsageEvent('user-interaction')
 
-        if (isDevelopment) {
-          this.menubar.window.openDevTools()
-      ***REMOVED***
+        // if (isDevelopment) {
+        //   this.menubar.window.openDevTools()
+        // }
   ***REMOVED***
 
       this.menubar.on('hide', () => {
-        if (isDevelopment) {
-          this.menubar.window.closeDevTools()
-      ***REMOVED***
+        // if (isDevelopment) {
+        //   this.menubar.window.closeDevTools()
+        // }
   ***REMOVED***
 
       this.menubar.on('ready', () => {
@@ -170,12 +166,6 @@ const isDevelopment = !isProduction
         this.show()
     ***REMOVED***
 ***REMOVED***
-
-    // globalShortcut.register('escape', () => {
-    //   if (this.isWindowVisible(this.menubar.window)) {
-    //     this.hide()
-    // ***REMOVED***
-    // })
 ***REMOVED***
 
 ***REMOVED***

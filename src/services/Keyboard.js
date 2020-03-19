@@ -18,7 +18,7 @@ if (isISOKeyboard) {
 }
 
 // eslint-disable-next-line
-// console.table(basicKeyMap)
+console.table(basicKeyMap)
 
 export default class Keyboard {
 
