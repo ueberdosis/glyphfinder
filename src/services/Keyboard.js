@@ -5,6 +5,8 @@ import { findDuplicatesInArray, isSameArray, getArrayDepth } from '@/helpers'
 import Store from '@/services/Store'
 import { isMac } from '../helpers'
 
+console.log({ keymap })
+
 const isISOKeyboard = keymap.isISOKeyboard()
 const basicKeyMap = keymap.getKeyMap()
 
