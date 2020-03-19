@@ -12,7 +12,7 @@
     opacity: 1;
 ***REMOVED***
 
-  .is-windows & {
+  .is-windows:not(.is-menubar) & {
     height: 100%;
 ***REMOVED***
 
