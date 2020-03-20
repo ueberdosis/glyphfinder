@@ -14,7 +14,7 @@ module.exports = {
     //   ? 'node-loader'
     //   : 'native-ext-loader'
 
-    const nodeLoader = 'native-ext-loader'
+    // const nodeLoader = 'native-ext-loader'
 
     // config.node.set('__dirname', true)
 
@@ -22,12 +22,12 @@ module.exports = {
       .output
       .globalObject('(typeof self !== "undefined" ? self : this)')
 
-    config.module
-      .rule('node')
-      .test(/\.node$/)
-      .use(nodeLoader)
-      .loader(nodeLoader)
-      .end()
+    // config.module
+    //   .rule('node')
+    //   .test(/\.node$/)
+    //   .use(nodeLoader)
+    //   .loader(nodeLoader)
+    //   .end()
 
     config.module
       .rule('worker')
@@ -36,11 +36,12 @@ module.exports = {
       .loader('worker-loader')
       .end()
 
-    config.resolve.extensions.prepend('.node')
+    // config.resolve.extensions.prepend('.node')
 ***REMOVED***,
 
   pluginOptions: {
     electronBuilder: {
+      externals: ['native-keymap'],
       nodeIntegration: true,
       chainWebpackMainProcess: config => {
         const nodeLoader = process.env.NODE_ENV === 'development'
