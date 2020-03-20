@@ -141,7 +141,10 @@ export default class Keyboard {
 ***REMOVED***
 
   getKeyValue(event) {
+    console.log(event.code)
     const key = this.constructor.keymap.find(item => item.code === event.code)
+
+    console.log({ key }, this.constructor.keymap)
 
     if (!key) {
 ***REMOVED*** event.code
@@ -249,6 +252,8 @@ export default class Keyboard {
   handleKeydown(event) {
     this.setSpecialKeys(event)
     const value = this.getKeyValue(event)
+
+    console.log({ value })
 
     if (this.isPressed(value)) {
 ***REMOVED***
