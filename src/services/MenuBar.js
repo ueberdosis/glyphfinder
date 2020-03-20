@@ -11,7 +11,7 @@ import {
 import User from './User'
 import Setapp from './Setapp'
 import Updater from './Updater'
-import { isMac, isDevelopment } from '../helpers'
+import { isMac } from '../helpers'
 
 ***REMOVED***
   getShortcut() {

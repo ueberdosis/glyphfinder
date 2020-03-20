@@ -1,26 +1,27 @@
 {
   "name": "glyphfinder",
   "version": "1.1.0",
-  "productName": "Glyphfinder",
-  "author": "überdosis GbR <mail@ueber.io>",
-  "description": "A glyph finding app.",
   "private": true,
+  "description": "A glyph finding app.",
+  "author": "überdosis GbR <mail@ueber.io>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service electron:serve",
-    "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps",
-    "electron:generate-icons": "electron-icon-builder --input=./public/icon.png --output=build --flatten",
+    "electron:build": "vue-cli-service electron:build",
     "electron:build:mac": "vue-cli-service electron:build --mac",
     "electron:build:win": "vue-cli-service electron:build --win --x64",
+    "electron:generate-icons": "electron-icon-builder --input=./public/icon.png --output=build --flatten",
     "electron:publish:mac": "yarn electron:build:mac --publish always",
     "electron:publish:win": "yarn electron:build:win --publish always",
-    "setapp:start": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:serve",
-    "setapp:build": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:build:mac",
+    "electron:serve": "vue-cli-service electron:serve",
     "generate": "node ./src/generator/generate.js",
-    "parse": "node ./src/data/parse.js"
+    "parse": "node ./src/data/parse.js",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "setapp:build": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:build:mac",
+    "setapp:start": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:serve",
+    "start": "vue-cli-service electron:serve"
 ***REMOVED***,
   "main": "background.js",
   "dependencies": {
@@ -78,5 +79,6 @@
     "vue-cli-plugin-electron-builder": "^2.0.0-beta.4",
     "vue-template-compiler": "^2.6.10",
     "worker-loader": "^2.0.0"
-***REMOVED***
+***REMOVED***,
+  "productName": "Glyphfinder"
 }
