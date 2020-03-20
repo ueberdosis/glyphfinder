@@ -41,7 +41,7 @@ module.exports = {
 
   pluginOptions: {
     electronBuilder: {
-      externals: ['native-keymap'],
+      // externals: ['native-keymap'],
       nodeIntegration: true,
       chainWebpackMainProcess: config => {
         const nodeLoader = process.env.NODE_ENV === 'development'
