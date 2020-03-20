@@ -10,9 +10,13 @@ module.exports = {
 ***REMOVED***,
 
   chainWebpack: config => {
-    const nodeLoader = process.env.NODE_ENV === 'development'
-      ? 'node-loader'
-      : 'native-ext-loader'
+    // const nodeLoader = process.env.NODE_ENV === 'development'
+    //   ? 'node-loader'
+    //   : 'native-ext-loader'
+
+    const nodeLoader = 'native-ext-loader'
+
+    // config.node.set('__dirname', true)
 
     config
       .output
