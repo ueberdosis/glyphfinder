@@ -55,6 +55,18 @@
         </div>
       </div>
 
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
+          Hide after copy
+        </div>
+        <div class="preferences-overlay__row">
+          <label class="switch">
+            <input type="checkbox" v-model="hideAfterCopy">
+            <span class="switch__slider" />
+          </label>
+        </div>
+      </div>
+
       <div class="preferences-overlay__section" v-if="showMenubar">
         <div class="preferences-overlay__label">
           Shortcut
@@ -127,6 +139,7 @@ export default {
       shortcut: Store.get('shortcut'),
       showMenubar: Store.get('showMenubar', true),
       autoStart: Store.get('autoStart', true),
+      hideAfterCopy: Store.get('hideAfterCopy', false),
       showMenubarRestartButton: false,
       keyboard: null,
   ***REMOVED***
@@ -153,6 +166,10 @@ export default {
     autoStart() {
       Store.set('autoStart', this.autoStart)
       AutoStart.update()
+  ***REMOVED***,
+
+    hideAfterCopy() {
+      Store.set('hideAfterCopy', this.hideAfterCopy)
   ***REMOVED***,
 ***REMOVED***,
 

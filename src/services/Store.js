@@ -21,6 +21,7 @@ export default new Store({
 
       store.set('showMenubar', false)
       store.set('autoStart', false)
+      store.set('hideAfterCopy', false)
   ***REMOVED***,
 ***REMOVED***,
 })

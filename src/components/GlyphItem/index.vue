@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import { ipcRenderer } from 'electron'
 import collect from 'collect.js'
 import copy from 'copy-to-clipboard'
 import Store from '@/services/Store'
@@ -69,6 +70,10 @@ export default {
         console.log('copied', this.glyph)
     ***REMOVED*** else {
         console.log('copy failed')
+    ***REMOVED***
+
+      if (Store.get('hideAfterCopy')) {
+        ipcRenderer.send('hide')
     ***REMOVED***
   ***REMOVED***,
 

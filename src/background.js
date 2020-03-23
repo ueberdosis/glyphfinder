@@ -1,5 +1,10 @@
+import {
+  app,
+  protocol,
+  BrowserWindow,
+  ipcMain,
+} from 'electron'
 import path from 'path'
-import { app, protocol, BrowserWindow } from 'electron'
 import { createProtocol, installVueDevtools } from 'vue-cli-plugin-electron-builder/lib'
 import LicenseCheck from './services/LicenseCheck'
 import Updater from './services/Updater'
@@ -87,6 +92,10 @@ function createWindow() {
 
     win.on('closed', () => {
       win = null
+***REMOVED***
+
+    ipcMain.on('hide', () => {
+      app.hide()
 ***REMOVED***
 ***REMOVED***)
 }
