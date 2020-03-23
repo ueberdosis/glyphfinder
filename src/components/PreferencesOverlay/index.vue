@@ -30,6 +30,18 @@
 
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
+          Hide app after copy
+        </div>
+        <div class="preferences-overlay__row">
+          <label class="switch">
+            <input type="checkbox" v-model="hideAfterCopy">
+            <span class="switch__slider" />
+          </label>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
           Show in menu bar
         </div>
         <div class="preferences-overlay__row">
@@ -50,18 +62,6 @@
         <div class="preferences-overlay__row">
           <label class="switch">
             <input type="checkbox" v-model="autoStart">
-            <span class="switch__slider" />
-          </label>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section">
-        <div class="preferences-overlay__label">
-          Hide after copy
-        </div>
-        <div class="preferences-overlay__row">
-          <label class="switch">
-            <input type="checkbox" v-model="hideAfterCopy">
             <span class="switch__slider" />
           </label>
         </div>
@@ -116,8 +116,8 @@
 </template>
 
 <script>
+import collect from 'collect.js'
 import { remote, ipcRenderer } from 'electron'
-import Keyboard from '@/services/Keyboard'
 import AutoStart from '@/services/AutoStart'
 import DB from '@/services/DB'
 import User from '@/services/User'
@@ -125,6 +125,7 @@ import Event from '@/services/Event'
 import Store from '@/services/Store'
 import Btn from '@/components/Btn'
 import SmallKey from '@/components/SmallKey'
+import { uppercase, keyNameByCode } from '@/helpers'
 
 export default {
   components: {
@@ -142,13 +143,8 @@ export default {
       hideAfterCopy: Store.get('hideAfterCopy', false),
       showMenubarRestartButton: false,
       keyboard: null,
+      isListening: false,
   ***REMOVED***
-***REMOVED***,
-
-  computed: {
-    isListening() {
-***REMOVED*** !!this.keyboard
-  ***REMOVED***,
 ***REMOVED***,
 
   watch: {
@@ -209,20 +205,11 @@ export default {
   ***REMOVED***,
 
     listenToNewShortcut() {
-      this.keyboard = new Keyboard()
-
-      this.keyboard.on('shortcut', event => {
-        event.preventDefault()
-        Store.set('shortcut', this.keyboard.resolvedKeys)
-        ipcRenderer.send('shortcutChanged')
-        this.shortcut = this.keyboard.resolvedKeys
-        this.cancelListening()
-  ***REMOVED***
+      this.isListening = true
   ***REMOVED***,
 
     cancelListening() {
-      this.keyboard.destroy()
-      this.keyboard = null
+      this.isListening = false
   ***REMOVED***,
 
     handleKeyDown(event) {
@@ -232,6 +219,49 @@ export default {
       ***REMOVED*** else {
           this.close()
       ***REMOVED***
+    ***REMOVED***
+
+      if (!this.isListening) {
+  ***REMOVED***
+    ***REMOVED***
+
+      const keys = collect([keyNameByCode(event.which)])
+
+      if (event.shiftKey) {
+        keys.push('shift')
+    ***REMOVED***
+
+      if (event.ctrlKey) {
+        keys.push('control')
+    ***REMOVED***
+
+      if (event.altKey) {
+        keys.push('alt')
+    ***REMOVED***
+
+      if (event.metaKey) {
+        keys.push('super')
+    ***REMOVED***
+
+      const sortOrder = ['control', 'alt', 'shift', 'super']
+      const sortedKeys = keys
+        .unique()
+        .sort((a, b) => {
+          const indexA = sortOrder.indexOf(a)
+          const indexB = sortOrder.indexOf(b)
+          const hugeNumber = 1000 // TODO: ugly
+
+    ***REMOVED*** (indexA >= 0 ? indexA : hugeNumber)
+            - (indexB >= 0 ? indexB : hugeNumber)
+    ***REMOVED***
+        .toArray()
+      const isShortcut = !sortedKeys.every(key => sortOrder.includes(key))
+
+      if (isShortcut) {
+        Store.set('shortcut', sortedKeys)
+        this.shortcut = sortedKeys
+        ipcRenderer.send('shortcutChanged')
+        this.cancelListening()
     ***REMOVED***
   ***REMOVED***,
 ***REMOVED***,

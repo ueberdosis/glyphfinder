@@ -14,9 +14,9 @@ export default new Store({
   ***REMOVED***,
     '1.1.0': store => {
       if (isMac) {
-        store.set('shortcut', ['Shift', 'Meta', 'g'])
+        store.set('shortcut', ['shift', 'super', 'g'])
     ***REMOVED*** else {
-        store.set('shortcut', ['Control', 'Shift', 'g'])
+        store.set('shortcut', ['control', 'shift', 'g'])
     ***REMOVED***
 
       store.set('showMenubar', false)
