@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import Bowser from 'bowser'
 import Wrapper from '@/components/Wrapper'
 import Store from '@/services/Store'
 import { isMac, uppercase, formatKey } from './helpers'
@@ -8,8 +7,6 @@ const customTitlebar = require('custom-electron-titlebar')
 
 Vue.config.productionTip = false
 
-const { os } = Bowser.parse(window.navigator.userAgent)
-
 Vue.filter('key', name => formatKey(name, isMac ? 'mac' : 'win'))
 
 Vue.filter('uppercase', value => uppercase(value))
@@ -17,8 +14,8 @@ Vue.filter('uppercase', value => uppercase(value))
 Vue.mixin({
   data() {
     return {
-      isWindows: os.name === 'Windows',
-      isMac: os.name === 'macOS',
+      isMac,
+      isWindows: !isMac,
   ***REMOVED***
 ***REMOVED***,
 })
