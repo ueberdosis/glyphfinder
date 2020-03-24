@@ -78,6 +78,12 @@ export default {
       ***REMOVED*** else {
           remote.app.hide()
       ***REMOVED***
+
+        // eslint-disable-next-line
+        new Notification('Glyphfinder', {
+          body: 'Copied to clipboard!',
+          silent: true,
+    ***REMOVED***
     ***REMOVED***
   ***REMOVED***,
 
