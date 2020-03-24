@@ -40,7 +40,8 @@ const masterKey = 'O2J7GGH2-3NGHUU9J-FHUEH7AW-ITU3UP15'
 ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-        const limit = parseInt(nestedValue(response, 'data.purchase.variants').replace(/\D/g, ''), 10) || this.limit
+***REMOVED***
+***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
