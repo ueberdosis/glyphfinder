@@ -30,7 +30,7 @@
 
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
-          Hide app after copy
+          Hide app after copying
         </div>
         <div class="preferences-overlay__row">
           <label class="switch">
