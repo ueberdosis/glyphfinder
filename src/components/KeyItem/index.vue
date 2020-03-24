@@ -1,6 +1,6 @@
 <template>
   <div class="key-item">
-    {{ item | uppercase }}
+    {{ item | key | uppercase }}
   </div>
 </template>
 

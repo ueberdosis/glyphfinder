@@ -61,6 +61,48 @@ export function uppercase(value) {
   return value.toUpperCase()
 }
 
+export function formatKey(key = '', os = 'mac') {
+  const formattedKey = key.toLowerCase()
+
+  const baseFormats = {
+    capslock: '⇪',
+    shift: '⇧',
+    arrowup: '↑',
+    arrowright: '→',
+    arrowdown: '↓',
+    arrowleft: '←',
+    enter: '↩',
+    backspace: '⌫',
+    delete: '⌦',
+    escape: '⎋',
+    tab: '⇥',
+    pageup: '⇞',
+    pagedown: '⇟',
+    space: '␣',
+***REMOVED***
+
+  const macFormats = {
+    control: '⌃',
+    alt: '⌥',
+    meta: '⌘',
+    super: '⌘',
+    command: '⌘',
+***REMOVED***
+
+  const winFormats = {
+    control: 'ctrl',
+    meta: '❖',
+    super: '❖',
+    command: '❖',
+***REMOVED***
+
+  const formats = os === 'mac'
+    ? { ...baseFormats, ...macFormats }
+    : { ...baseFormats, ...winFormats }
+
+  return formats[formattedKey] ? formats[formattedKey] : key
+}
+
 export function keyNameByCode(code) {
   const keyCodes = {
     // 0: 'That key has no keycode',

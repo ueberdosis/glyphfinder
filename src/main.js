@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Bowser from 'bowser'
 import Wrapper from '@/components/Wrapper'
 import Store from '@/services/Store'
-import { isMac, uppercase } from './helpers'
+import { isMac, uppercase, formatKey } from './helpers'
 
 const customTitlebar = require('custom-electron-titlebar')
 
@@ -10,32 +10,7 @@ Vue.config.productionTip = false
 
 const { os } = Bowser.parse(window.navigator.userAgent)
 
-Vue.filter('key', name => {
-  const formattedName = name.toLowerCase()
-  const formats = {
-    capslock: '⇪',
-    shift: '⇧',
-    control: isMac ? '⌃' : 'Ctrl',
-    alt: isMac ? '⌥' : 'Alt',
-    meta: isMac ? '⌘' : '❖',
-    super: isMac ? '⌘' : '❖',
-    command: isMac ? '⌘' : '❖',
-    arrowup: '↑',
-    arrowright: '→',
-    arrowdown: '↓',
-    arrowleft: '←',
-    enter: '↩',
-    backspace: '⌫',
-    delete: '⌦',
-    escape: '⎋',
-    tab: '⇥',
-    pageup: '⇞',
-    pagedown: '⇟',
-    space: '␣',
-***REMOVED***
-
-  return formats[formattedName] ? formats[formattedName] : name
-})
+Vue.filter('key', name => formatKey(name, isMac ? 'mac' : 'win'))
 
 Vue.filter('uppercase', value => uppercase(value))
 
