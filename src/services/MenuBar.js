@@ -22,7 +22,7 @@ import { isMac } from '../helpers'
     return new Promise((resolve, reject) => {
       if (
         this.menubar
-        || !Store.get('showMenubar', true)
+        || !Store.get('showMenubar')
       ) {
         reject()
   ***REMOVED***

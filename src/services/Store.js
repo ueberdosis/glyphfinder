@@ -23,5 +23,10 @@ export default new Store({
       store.set('autoStart', false)
       store.set('hideAfterCopy', false)
   ***REMOVED***,
+    '1.1.1': store => {
+      store.set('showMenubar', true)
+      store.set('autoStart', true)
+      store.set('hideAfterCopy', true)
+  ***REMOVED***,
 ***REMOVED***,
 })

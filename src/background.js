@@ -12,7 +12,7 @@ import { isProduction, isDevelopment, isWindows } from './helpers'
 
 Setapp.init()
 
-const isMenubar = Store.get('showMenubar', true)
+const isMenubar = Store.get('showMenubar')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
