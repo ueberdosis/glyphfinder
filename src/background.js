@@ -42,6 +42,7 @@ function getWindow() {
       webPreferences: {
         nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
         nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
+        backgroundThrottling: false, // allows repaint when window is hidden
     ***REMOVED***,
       icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
   ***REMOVED***
@@ -87,6 +88,10 @@ function createWindow() {
 
     win.on('closed', () => {
       win = null
+***REMOVED***
+
+    win.on('hide', () => {
+      win.webContents.send('windowHidden')
 ***REMOVED***
 ***REMOVED***)
 }
