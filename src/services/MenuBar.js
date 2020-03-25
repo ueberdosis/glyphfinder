@@ -6,6 +6,7 @@ import {
   globalShortcut,
   ipcMain,
   BrowserWindow,
+  // screen,
 } from 'electron'
 ***REMOVED***
 import User from './User'
@@ -31,6 +32,10 @@ import { isMac } from '../helpers'
       const { titleBarStyle, trafficLightPosition, ...options } = windowOptions
       const icon = isMac ? 'MenuIconTemplate.png' : 'MenuIconTemplate@2x.png'
 
+      // const { bounds } = screen.getPrimaryDisplay()
+      // const x = Math.ceil(bounds.x + ((bounds.width - options.width) / 2))
+      // const y = Math.ceil(bounds.y + ((bounds.height - options.height) / 2))
+
       this.menubar = menubar({
         index: process.env.WEBPACK_DEV_SERVER_URL
           ? process.env.WEBPACK_DEV_SERVER_URL
@@ -38,6 +43,8 @@ import { isMac } from '../helpers'
         browserWindow: {
           ...options,
           movable: false,
+          // x,
+          // y,
           // alwaysOnTop: isDevelopment,
       ***REMOVED***,
         /* global __static */
