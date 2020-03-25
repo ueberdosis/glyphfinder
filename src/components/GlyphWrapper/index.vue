@@ -36,6 +36,7 @@ import Navigatable from '@/components/Navigatable'
 import GlyphList from '@/components/GlyphList'
 import GlyphData from '@/components/GlyphData'
 import Glyphs from '@/services/Glyphs'
+import Store from '@/services/Store'
 
 export default {
   components: {
@@ -76,14 +77,20 @@ export default {
     reset() {
       this.query = ''
   ***REMOVED***,
+
+    handleWindowHidden() {
+      if (Store.get('clearSearchOnHide')) {
+        this.reset()
+    ***REMOVED***
+  ***REMOVED***,
 ***REMOVED***,
 
   mounted() {
-    ipcRenderer.on('windowHidden', this.reset)
+    ipcRenderer.on('windowHidden', this.handleWindowHidden)
 ***REMOVED***,
 
   beforeDestroy() {
-    ipcRenderer.removeListener('windowHidden', this.reset)
+    ipcRenderer.removeListener('windowHidden', this.handleWindowHidden)
 ***REMOVED***,
 }
 </script>

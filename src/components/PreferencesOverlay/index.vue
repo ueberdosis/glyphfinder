@@ -42,6 +42,18 @@
 
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
+          Clear search on hide
+        </div>
+        <div class="preferences-overlay__row">
+          <label class="switch">
+            <input type="checkbox" v-model="clearSearchOnHide">
+            <span class="switch__slider" />
+          </label>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
           Show in menu bar
         </div>
         <div class="preferences-overlay__row">
@@ -125,7 +137,7 @@ import Event from '@/services/Event'
 import Store from '@/services/Store'
 import Btn from '@/components/Btn'
 import SmallKey from '@/components/SmallKey'
-import { uppercase, keyNameByCode } from '@/helpers'
+import { keyNameByCode } from '@/helpers'
 
 export default {
   components: {
@@ -141,6 +153,7 @@ export default {
       showMenubar: Store.get('showMenubar'),
       autoStart: Store.get('autoStart'),
       hideAfterCopy: Store.get('hideAfterCopy'),
+      clearSearchOnHide: Store.get('clearSearchOnHide'),
       showMenubarRestartButton: false,
       keyboard: null,
       isListening: false,
@@ -166,6 +179,10 @@ export default {
 
     hideAfterCopy() {
       Store.set('hideAfterCopy', this.hideAfterCopy)
+  ***REMOVED***,
+
+    clearSearchOnHide() {
+      Store.set('clearSearchOnHide', this.clearSearchOnHide)
   ***REMOVED***,
 ***REMOVED***,
 

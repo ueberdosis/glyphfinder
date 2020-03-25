@@ -30,6 +30,7 @@ export default new Store({
   ***REMOVED***,
     '1.1.2': store => {
       DB.removeSearchIndex()
+      store.set('clearSearchOnHide', true)
 
       const isBadShortcut = shortcut => {
         if (isMac) {
