@@ -1,6 +1,16 @@
 import { app as backendApp, remote } from 'electron'
 
-export const app = backendApp || remote.app
+function getApp() {
+  if (backendApp) {
+    return backendApp
+***REMOVED*** if (remote) {
+    return remote.app
+***REMOVED***
+
+  return null
+}
+
+export const app = getApp()
 
 export const isMac = process.platform === 'darwin'
 
