@@ -62,7 +62,7 @@ export default {
 
   methods: {
     copyToClipboard() {
-      const copied = copy(this.glyph.symbol, { format: 'text' })
+      const copied = copy(this.glyph.symbol, { format: 'text/plain' })
       this.increaseUsage()
 
       if (Store.get('hideAfterCopy')) {
