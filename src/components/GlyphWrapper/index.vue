@@ -6,16 +6,21 @@
   >
     <div class="glyph-wrapper">
       <div class="glyph-wrapper__header">
-        <input
-          class="glyph-wrapper__search"
-          ref="search"
-          type="text"
-          placeholder="Search …"
-          autofocus
-          v-model="query"
-          @keydown.esc="reset"
-          @blur="onBlurInput"
-        >
+        <div class="glyph-wrapper__search-wrapper">
+          <input
+            class="glyph-wrapper__search"
+            ref="search"
+            type="text"
+            placeholder="Search …"
+            autofocus
+            v-model="query"
+            @keydown.esc="reset"
+            @blur="onBlurInput"
+          >
+          <button class="glyph-wrapper__reset" @click="reset" v-if="query.length">
+            <icon name="close" />
+          </button>
+        </div>
       </div>
       <div class="glyph-wrapper__content">
         <!-- TODO: key is probably bad -->
@@ -35,6 +40,7 @@ import { ipcRenderer } from 'electron'
 import Navigatable from '@/components/Navigatable'
 import GlyphList from '@/components/GlyphList'
 import GlyphData from '@/components/GlyphData'
+import Icon from '@/components/Icon'
 import Glyphs from '@/services/Glyphs'
 import Store from '@/services/Store'
 
@@ -43,6 +49,7 @@ export default {
     Navigatable,
     GlyphList,
     GlyphData,
+    Icon,
 ***REMOVED***,
 
   data() {

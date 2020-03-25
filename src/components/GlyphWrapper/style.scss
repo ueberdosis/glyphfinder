@@ -15,18 +15,40 @@
     margin-right: -14px;
 ***REMOVED***
 
+  &__search-wrapper {
+    position: relative;
+    margin-bottom: 12px;
+***REMOVED***
+
   &__search {
     width: 100%;
     padding: 8px;
     font-size: 12px;
     background-color: rgba($colorWhite, 0.09);
     border-radius: 4px;
-    margin-bottom: 12px;
     font-weight: 500;
     font-variant-ligatures: none;
 
     &::placeholder {
       color: rgba($colorWhite, 0.2);
+  ***REMOVED***
+***REMOVED***
+
+  &__reset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    color: rgba($colorWhite, 0.4);
+    transition: color 0.2s $ease;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba($colorWhite, 0.6);
   ***REMOVED***
 ***REMOVED***
 
