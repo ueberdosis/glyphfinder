@@ -67,9 +67,6 @@ export default {
 
       if (copied) {
         Event.emit('copied')
-        console.log('copied', this.glyph)
-    ***REMOVED*** else {
-        console.log('copy failed')
     ***REMOVED***
 
       if (Store.get('hideAfterCopy')) {
@@ -79,12 +76,19 @@ export default {
           remote.app.hide()
       ***REMOVED***
 
-        // eslint-disable-next-line
-        new Notification('Glyphfinder', {
-          body: 'Copied to clipboard!',
-          silent: true,
+        this.sendNotification()
     ***REMOVED***
-    ***REMOVED***
+  ***REMOVED***,
+
+    sendNotification() {
+      const notification = new Notification('Glyphfinder', {
+        body: 'Copied to clipboard!',
+        silent: true,
+  ***REMOVED***
+
+      setTimeout(() => {
+        notification.close()
+    ***REMOVED***, 2000)
   ***REMOVED***,
 
     increaseUsage() {

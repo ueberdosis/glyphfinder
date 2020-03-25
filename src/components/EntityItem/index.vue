@@ -28,9 +28,6 @@ export default {
 
       if (copied) {
         Event.emit('copied')
-        console.log('copied', this.fullName)
-    ***REMOVED*** else {
-        console.log('copy failed')
     ***REMOVED***
   ***REMOVED***,
 ***REMOVED***,
