@@ -65,10 +65,6 @@ export default {
       const copied = copy(this.glyph.symbol, { format: 'text' })
       this.increaseUsage()
 
-      if (copied) {
-        Event.emit('copied')
-    ***REMOVED***
-
       if (Store.get('hideAfterCopy')) {
         if (this.isWindows) {
           remote.getCurrentWindow().minimize()
@@ -77,6 +73,8 @@ export default {
       ***REMOVED***
 
         this.sendNotification()
+    ***REMOVED*** else if (copied) {
+        Event.emit('copied')
     ***REMOVED***
   ***REMOVED***,
 
