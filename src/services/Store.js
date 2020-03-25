@@ -1,6 +1,6 @@
 import Store from 'electron-store'
 import DB from './DB'
-import { isMac, app } from '../helpers'
+import { isMac, app, isSameArray } from '../helpers'
 
 export default new Store({
   // configName: process.env.NODE_ENV === 'development'
@@ -28,8 +28,19 @@ export default new Store({
       store.set('autoStart', true)
       store.set('hideAfterCopy', true)
   ***REMOVED***,
-    '1.1.2': () => {
+    '1.1.2': store => {
       DB.removeSearchIndex()
+
+      const isBadShortcut = shortcut => {
+        if (isMac) {
+    ***REMOVED*** isSameArray(shortcut, ['shift', 'super', 'g'])
+      ***REMOVED***
+  ***REMOVED*** isSameArray(shortcut, ['control', 'shift', 'g'])
+    ***REMOVED***
+
+      if (isBadShortcut(store.get('shortcut'))) {
+        store.set('shortcut', ['control', 'super', 'g'])
+    ***REMOVED***
   ***REMOVED***,
 ***REMOVED***,
 })
