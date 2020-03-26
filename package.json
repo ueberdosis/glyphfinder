@@ -45,6 +45,7 @@
     "gsap": "^3.2.4",
     "https": "^1.0.0",
     "json2csv": "^4.5.4",
+    "keyboard-symbol": "^1.0.0",
     "load-asset": "^1.2.0",
     "matter-js": "^0.14.2",
     "matter-wrap": "^0.2.0",

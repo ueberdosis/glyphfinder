@@ -1,13 +1,14 @@
 import Vue from 'vue'
+import keyboardSymbol from 'keyboard-symbol'
 import Wrapper from '@/components/Wrapper'
 import Store from '@/services/Store'
-import { isMac, uppercase, formatKey } from './helpers'
+import { isMac, uppercase } from './helpers'
 
 const customTitlebar = require('custom-electron-titlebar')
 
 Vue.config.productionTip = false
 
-Vue.filter('key', name => formatKey(name, isMac ? 'mac' : 'win'))
+Vue.filter('key', name => keyboardSymbol(name, isMac ? 'mac' : 'win'))
 
 Vue.filter('uppercase', value => uppercase(value))
 
