@@ -17,7 +17,7 @@
             @keydown.esc="reset"
             @blur="onBlurInput"
           >
-          <button class="glyph-wrapper__reset" @click="reset" v-if="query.length">
+          <button class="glyph-wrapper__reset" @click="reset" v-if="formattedQuery.length">
             <icon name="close" />
           </button>
         </div>
