@@ -52,7 +52,7 @@ module.exports = {
           ? 'com.ueberclub.glyphfinder-setapp'
           : 'com.glyphfinder.app',
         artifactName: '${productName}-${version}-${os}.${ext}', // eslint-disable-line
-        afterSign: 'src/notarize.js',
+        // afterSign: 'src/notarize.js',
         productName: 'Glyphfinder',
         mac: {
           hardenedRuntime: true,
