@@ -6,7 +6,7 @@ import {
   globalShortcut,
   ipcMain,
   BrowserWindow,
-  systemPreferences,
+  nativeTheme,
   // screen,
 } from 'electron'
 ***REMOVED***
@@ -25,7 +25,7 @@ import { isMac } from '../helpers'
 ***REMOVED*** 'MenuIconTemplate.png'
   ***REMOVED***
 
-    if (systemPreferences.isDarkMode()) {
+    if (nativeTheme.shouldUseDarkColors) {
 ***REMOVED*** 'MenuIconTemplateDarkMode.png'
   ***REMOVED***
 
