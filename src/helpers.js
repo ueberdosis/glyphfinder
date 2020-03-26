@@ -94,15 +94,19 @@ export function formatKey(key = '', os = 'mac') {
   const macFormats = {
     control: '⌃',
     alt: '⌥',
+    option: '⌥',
     meta: '⌘',
     super: '⌘',
+    cmd: '⌘',
     command: '⌘',
 ***REMOVED***
 
   const winFormats = {
     control: 'ctrl',
+    option: 'alt',
     meta: '❖',
     super: '❖',
+    cmd: '❖',
     command: '❖',
 ***REMOVED***
 
