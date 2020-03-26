@@ -9,6 +9,40 @@ import MenuBar from './services/MenuBar'
 import AutoStart from './services/AutoStart'
 import Store from './services/Store'
 import { isProduction, isDevelopment, isWindows } from './helpers'
+/*
+const Registry = require('winreg')
+const regKey = new Registry({
+  hive: Registry.HKCU,
+  //key:  '\\Software\\Microsoft\\Windows\\CurrentVersion\\Run'
+  key:  '\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize\\AppsUseLightTheme'
+})
+
+console.dir({regKey})
+*/
+
+
+/*
+var regedit = require('regedit')
+
+const vbsDirectory = path.join(path.dirname(app.getPath('exe')), './resources/my-location');
+regedit.setExternalVBSLocation(vbsDirectory);
+
+ 
+regedit.list('HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize\\AppsUseLightTheme', function(err, result) {
+  console.dir({err, result})
+})
+
+*/
+
+import { isLightMode, register } from 'windows-theme-changes'
+
+register()
+
+//sconst darkmode = registry('HKCU/Software/Microsoft/CurrentVersion/Themes/Personalize/AppsUseLightTheme')
+
+console.log({isLightMode: isLightMode()})
+
+//HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme
 
 Setapp.init()
 

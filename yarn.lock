@@ -4327,6 +4327,13 @@ event-pubsub@4.3.0:
   resolved "https://registry.yarnpkg.com/event-pubsub/-/event-pubsub-4.3.0.tgz#f68d816bc29f1ec02c539dc58c8dd40ce72cb36e"
   integrity sha512-z7IyloorXvKbFx9Bpie2+vMJKKx1fH1EN5yiTfp8CiLOTptSYy1g8H4yDpGlEdshL1PBiFtBHepF2cNsqeEeFQ==
 
+event-source-base@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/event-source-base/-/event-source-base-2.0.0.tgz#ffa0fe813aae316f7fe7bb176f37564148a359b5"
+  integrity sha512-jv6sE1pH4EhPqGTq+9lV2PS1SnXA3CHcYYFUTKOQz614zBDXAyj41y0H93k8P2l2CH/Va6d5BzFGSodkaAm6tQ==
+  dependencies:
+    node-addon-api "^1.7.1"
+
 eventemitter3@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
@@ -6983,6 +6990,11 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
+node-addon-api@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.7.1.tgz#cf813cd69bb8d9100f6bdca6755fc268f54ac492"
+  integrity sha512-2+DuKodWvwRTrCfKOeR24KIc5unKjOh8mz17NCzVnHWfjAdDqbfbjqh7gUT+BkXBRQM52+xCHciKWonJ3CbJMQ==
+
 node-forge@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
@@ -8520,6 +8532,13 @@ registry-auth-token@^4.0.0:
   integrity sha512-9bKS7nTl9+/A1s7tnPeGrUpRcVY+LUh7bfFgzpndALdPfXQBfQV77rQVtqgUV3ti4vc/Ik81Ex8UJDWDQ12zQA==
   dependencies:
     rc "^1.2.8"
+
+registry-changes-detector@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/registry-changes-detector/-/registry-changes-detector-3.0.0.tgz#41b6db35eec67753682e30adc216290bc899cca9"
+  integrity sha512-OHq4KEBBA97R0G6inWx7T9+vzECoFrPEOBC0yzz/mUW8ijA6qm3yjETfSgDhZBGniSIidi3XuhlWI8IwQXEsuA==
+  dependencies:
+    event-source-base "^2.0.0"
 
 registry-url@^5.0.0:
   version "5.1.0"
@@ -10440,6 +10459,13 @@ widest-line@^3.1.0:
   integrity sha512-NsmoXalsWVDMGupxZ5R08ka9flZjjiLvHVAWYOKtiKM8ujtZWr9cRffak+uSE48+Ob8ObalXpwyeUiyDD6QFgg==
   dependencies:
     string-width "^4.0.0"
+
+windows-theme-changes@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/windows-theme-changes/-/windows-theme-changes-2.0.2.tgz#97313abf0a89734842d9ece96e94ec88948f4798"
+  integrity sha512-ZO/rNqQhZtWRgSDHfULntHfkrUAN2MNY2/Hz/KIpwblx//eFxqq9FOBTr/o00NEjDPkly0c0dSOPPP3uRGJ2cQ==
+  dependencies:
+    registry-changes-detector "^3.0.0"
 
 word-wrap@~1.2.3:
   version "1.2.3"

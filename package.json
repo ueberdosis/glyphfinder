@@ -54,7 +54,8 @@
     "scrollmonitor": "^1.2.4",
     "vue": "^2.6.10",
     "vue-the-mask": "^0.11.1",
-    "vue-virtual-scroll-list": "^1.4.6"
+    "vue-virtual-scroll-list": "^1.4.6",
+    "windows-theme-changes": "^2.0.2"
 ***REMOVED***,
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.3",
