@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   lintOnSave: process.env.NODE_ENV === 'production',
 
@@ -38,6 +40,10 @@ module.exports = {
     electronBuilder: {
       nodeIntegration: true,
       chainWebpackMainProcess: config => {
+        config
+          .plugin('webpack-define')
+          .use(webpack.DefinePlugin, [{ 'global.GENTLY': false }])
+
         config.module
           .rule('node')
           .test(/\.node$/)
