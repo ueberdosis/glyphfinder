@@ -29,6 +29,14 @@ export default new Store({
       store.set('hideAfterCopy', true)
   ***REMOVED***,
     '1.1.2': store => {
+      // fix missing default usage
+      const usage = store.get('usage', [])
+      store.set('usage', usage)
+
+      // fix missing default expanded
+      const expanded = store.get('expanded', false)
+      store.set('expanded', expanded)
+
       DB.removeSearchIndex()
       store.set('clearSearchOnHide', true)
 
