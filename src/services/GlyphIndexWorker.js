@@ -1,7 +1,9 @@
 import registerPromiseWorker from 'promise-worker/register'
 import Glyphs from './Glyphs'
 import glyphs from '../data/data.json'
-import { isWindows } from '../helpers'
+
+// can't import isWindows from helpers
+const isWindows = process.platform === 'win32'
 
 class SupportedGlyphs {
   construct() {
