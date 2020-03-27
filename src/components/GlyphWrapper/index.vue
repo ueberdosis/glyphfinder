@@ -82,7 +82,7 @@ export default {
   ***REMOVED***,
 
     reset() {
-      this.query = ''
+      this.query = null
   ***REMOVED***,
 
     handleWindowHidden() {
