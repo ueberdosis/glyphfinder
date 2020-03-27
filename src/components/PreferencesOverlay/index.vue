@@ -4,10 +4,101 @@
       <h2>
         Preferences
       </h2>
-      <btn icon="close" is-grey-text @click.native="close" />
+      <btn icon="close" @click.native="close" />
     </div>
 
     <div class="preferences-overlay__content">
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__option">
+          <span>
+            Hide app after copying
+          </span>
+          <label class="switch">
+            <input type="checkbox" v-model="hideAfterCopy">
+            <span class="switch__slider" />
+          </label>
+        </div>
+
+        <div class="preferences-overlay__option">
+          <span>
+            Clear search on hide
+          </span>
+          <label class="switch">
+            <input type="checkbox" v-model="clearSearchOnHide">
+            <span class="switch__slider" />
+          </label>
+        </div>
+
+        <div class="preferences-overlay__option">
+          <span>
+            Show in menu bar
+          </span>
+          <label class="switch">
+            <input type="checkbox" v-model="showMenubar">
+            <span class="switch__slider" />
+          </label>
+        </div>
+
+        <div class="preferences-overlay__option" v-if="showMenubar">
+          <span>
+            Autostart app
+          </span>
+          <label class="switch">
+            <input type="checkbox" v-model="autoStart">
+            <span class="switch__slider" />
+          </label>
+        </div>
+
+        <div class="preferences-overlay__option" v-if="showMenubar">
+          <span>
+            Shortcut
+          </span>
+          <div>
+            <template v-if="isListening">
+              <span class="preferences-overlay__grey-text">
+                Press shortcut
+              </span>
+              <btn @click.native="cancelListening">
+                Cancel
+              </btn>
+            </template>
+            <template v-else>
+              <span>
+                <small-key
+                  v-for="key in shortcut"
+                  :key="key"
+                  :name="key"
+                />
+              </span>
+              <btn @click.native="listenToNewShortcut">
+                Change
+              </btn>
+            </template>
+          </div>
+        </div>
+
+        <div class="preferences-overlay__option" v-if="showMenubarRestartButton">
+          <span class="preferences-overlay__grey-text">
+            Restart to apply changes
+          </span>
+          <btn @click.native="restart" is-red>
+            Restart
+          </btn>
+        </div>
+      </div>
+
+      <div class="preferences-overlay__section">
+        <div class="preferences-overlay__label">
+          License
+        </div>
+        <div v-if="user.email">
+          Licensed to {{ user.email }}
+        </div>
+        <div v-else>
+          Test Licence
+        </div>
+      </div>
+
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__label">
           Support
@@ -16,94 +107,6 @@
           <a href="mailto:support@glyphfinder.com">
             support@glyphfinder.com
           </a>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section" v-if="user.email">
-        <div class="preferences-overlay__label">
-          License
-        </div>
-        <div>
-          Licensed to {{ user.email }}
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section">
-        <div class="preferences-overlay__label">
-          Hide app after copying
-        </div>
-        <div class="preferences-overlay__row">
-          <label class="switch">
-            <input type="checkbox" v-model="hideAfterCopy">
-            <span class="switch__slider" />
-          </label>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section">
-        <div class="preferences-overlay__label">
-          Clear search on hide
-        </div>
-        <div class="preferences-overlay__row">
-          <label class="switch">
-            <input type="checkbox" v-model="clearSearchOnHide">
-            <span class="switch__slider" />
-          </label>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section">
-        <div class="preferences-overlay__label">
-          Show in menu bar
-        </div>
-        <div class="preferences-overlay__row">
-          <label class="switch">
-            <input type="checkbox" v-model="showMenubar">
-            <span class="switch__slider" />
-          </label>
-          <btn @click.native="restart" is-red-text v-if="showMenubarRestartButton">
-            Restart App
-          </btn>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section" v-if="showMenubar">
-        <div class="preferences-overlay__label">
-          Autostart app
-        </div>
-        <div class="preferences-overlay__row">
-          <label class="switch">
-            <input type="checkbox" v-model="autoStart">
-            <span class="switch__slider" />
-          </label>
-        </div>
-      </div>
-
-      <div class="preferences-overlay__section" v-if="showMenubar">
-        <div class="preferences-overlay__label">
-          Shortcut
-        </div>
-        <div>
-          <template v-if="isListening">
-            <span class="grey">
-              Press any shortcut…
-            </span>
-            <btn @click.native="cancelListening">
-              Cancel
-            </btn>
-          </template>
-          <template v-else>
-            <span>
-              <small-key
-                v-for="key in shortcut"
-                :key="key"
-                :name="key"
-              />
-            </span>
-            <btn @click.native="listenToNewShortcut">
-              Change
-            </btn>
-          </template>
         </div>
       </div>
 
