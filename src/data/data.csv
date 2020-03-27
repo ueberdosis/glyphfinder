@@ -91,7 +91,7 @@ x,0078,120,latin small letter x,Basic Latin,,,
 y,0079,121,latin small letter y,Basic Latin,,,
 z,007A,122,latin small letter z,Basic Latin,,,
 {,007B,123,left curly bracket,Basic Latin,lbrace lcub,,(
-|,007C,124,vertical line,Basic Latin,VerticalLine verbar vert,,
+|,007C,124,vertical line,Basic Latin,VerticalLine verbar vert,,bar pipe
 },007D,125,right curly bracket,Basic Latin,rbrace rcub,,)
 ~,007E,126,tilde,Basic Latin,,,-
  ,00A0,160,no-break space,Latin-1 Supplement,NonBreakingSpace nbsp,Spaces,space
@@ -31212,7 +31212,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 👿,1F47F,,angry face with horns,smileys-emotion,,Emojis,emoji face-negative demon devil face fantasy imp purple
 💀,1F480,,skull,smileys-emotion,,Emojis,emoji face-negative death face fairy tale monster white
 ☠️,2620,,skull and crossbones,smileys-emotion,,Emojis,emoji face-negative crossbones death face monster skull white
-💩,1F4A9,,pile of poo,smileys-emotion,,Emojis,emoji face-costume dung face monster poo poop hankey
+💩,1F4A9,,pile of poo,smileys-emotion,,Emojis,emoji face-costume dung face monster poo poop brown hankey shit
 🤡,1F921,,clown face,smileys-emotion,,Emojis,emoji face-costume clown face red
 👹,1F479,,ogre,smileys-emotion,,Emojis,emoji face-costume creature face fairy tale fantasy monster red
 👺,1F47A,,goblin,smileys-emotion,,Emojis,emoji face-costume creature face fairy tale fantasy monster red
