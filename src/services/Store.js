@@ -28,7 +28,7 @@ export default new Store({
       store.set('autoStart', true)
       store.set('hideAfterCopy', true)
   ***REMOVED***,
-    '1.1.2': store => {
+    '1.2.0': store => {
       // fix missing default usage
       const usage = store.get('usage', [])
       store.set('usage', usage)
