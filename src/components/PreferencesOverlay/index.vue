@@ -87,15 +87,12 @@
         </div>
       </div>
 
-      <div class="preferences-overlay__section">
+      <div class="preferences-overlay__section" v-if="user.email">
         <div class="preferences-overlay__label">
           License
         </div>
-        <div v-if="user.email">
+        <div>
           Licensed to {{ user.email }}
-        </div>
-        <div v-else>
-          Test Licence
         </div>
       </div>
 
