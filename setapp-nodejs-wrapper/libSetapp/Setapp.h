@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*! @brief Constant that shows library version
  */
-static NSString * const SCLibraryVersion = @"1.5.0";
+static NSString * const SCLibraryVersion = @"1.5.1";
 
 
 #pragma mark - Release Notes API
@@ -107,6 +107,5 @@ FOUNDATION_EXTERN BOOL SCAskUserToShareEmail(void (^_Nullable completionHandler)
  *  @param shouldEnable If set to YES, enables debug logging. If NO, disables it.
  */
 FOUNDATION_EXTERN void SCEnableDebugLogging(BOOL shouldEnable);
-
 
 NS_ASSUME_NONNULL_END
