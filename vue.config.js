@@ -49,7 +49,7 @@ module.exports = {
     ***REMOVED***,
       builderOptions: {
         appId: process.env.VUE_APP_IS_SETAPP === 'true'
-          ? 'com.ueberclub.glyphfinder-setapp'
+          ? 'com.ueberdosis.glyphfinder-setapp'
           : 'com.glyphfinder.app',
         artifactName: '${productName}-${version}-${os}.${ext}', // eslint-disable-line
         afterSign: 'src/notarize.js',
