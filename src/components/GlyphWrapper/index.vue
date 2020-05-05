@@ -86,7 +86,11 @@ export default {
   ***REMOVED***,
 
     hideWindow() {
-      remote.getCurrentWindow().hide()
+      if (this.isWindows) {
+        remote.getCurrentWindow().minimize()
+    ***REMOVED*** else {
+        remote.app.hide()
+    ***REMOVED***
   ***REMOVED***,
 
     handleWindowHidden() {
