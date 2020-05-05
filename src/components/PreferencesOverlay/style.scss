@@ -73,6 +73,7 @@
   border: 0;
   color: rgb(var(--colorWhite));
   font-size: inherit;
+  height: 26px;
 }
 
 .switch {
@@ -120,7 +121,11 @@
 
     &::before {
       transform: translateX(18px);
-      background-color: rgba(var(--colorWhite), 1);
+      background-color: rgba(var(--colorBlack), 1);
+
+      .is-dark-mode & {
+        background-color: rgba(var(--colorWhite), 1);
+    ***REMOVED***
   ***REMOVED***
 ***REMOVED***
 }
