@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper" :class="{ 'is-loaded': isLoaded }">
     <div class="wrapper__content" :class="{ 'is-hidden': showPreferences }">
-      <glyph-wrapper v-if="!showGlyphCheck && !showLicenseCheck" />
+      <glyph-wrapper v-if="!showGlyphCheck && !showLicenseCheck"
+                     :show-preferences="showPreferences" />
       <div class="wrapper__content-overlay" />
     </div>
 

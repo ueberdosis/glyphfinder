@@ -58,6 +58,12 @@ export default {
   ***REMOVED***
 ***REMOVED***,
 
+  props: {
+    showPreferences: {
+      default: false,
+  ***REMOVED***,
+***REMOVED***,
+
   computed: {
     formattedQuery() {
 ***REMOVED*** this.query ? this.query.trim() : ''
@@ -86,6 +92,10 @@ export default {
   ***REMOVED***,
 
     hideWindow() {
+      if (this.showPreferences) {
+  ***REMOVED***
+    ***REMOVED***
+
       if (this.isWindows) {
         remote.getCurrentWindow().minimize()
     ***REMOVED*** else {
