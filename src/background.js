@@ -7,6 +7,7 @@ import MenuBuilder from './services/MenuBuilder'
 import Setapp from './services/Setapp'
 import MenuBar from './services/MenuBar'
 import AutoStart from './services/AutoStart'
+import DarkMode from './services/DarkMode'
 import Store from './services/Store'
 import { isProduction, isDevelopment, isWindows } from './helpers'
 
@@ -68,6 +69,7 @@ function createWindow() {
 
   getWindow().then(() => {
     LicenseCheck.setWindow(win)
+    DarkMode.init()
 
     if (process.env.WEBPACK_DEV_SERVER_URL) {
       // Load the url of the dev server if in development mode
