@@ -1,4 +1,6 @@
 :root {
+  --colorBlack: 0, 0, 0;
+
   --menuBarSize: 20px;
 
   &.is-mac:not(.is-menubar) {

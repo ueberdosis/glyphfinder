@@ -23,7 +23,7 @@
 
   &.is-red {
     background-color: $colorRed;
-    color: $colorBlack;
+    color: rgb(var(--colorBlack));
 
     &:hover {
       background-color: rgba($colorRed, 0.9);
