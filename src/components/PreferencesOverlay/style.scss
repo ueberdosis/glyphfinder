@@ -68,6 +68,13 @@
 ***REMOVED***
 }
 
+.select {
+  background-color: rgba(var(--colorWhite), 0.1);
+  border: 0;
+  color: rgb(var(--colorWhite));
+  font-size: inherit;
+}
+
 .switch {
   position: relative;
   display: inline-block;
