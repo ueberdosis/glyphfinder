@@ -18,6 +18,7 @@ Vue.mixin({
     return {
       isMac,
       isWindows: !isMac,
+      isDarkMode: remote.getCurrentWindow().isDarkMode,
   ***REMOVED***
 ***REMOVED***,
 })
@@ -29,10 +30,8 @@ new Vue({
 
     document.documentElement.classList.add(this.isWindows ? 'is-windows' : 'is-mac')
 
-    this.setDarkMode(remote.getCurrentWindow().isDarkMode)
-
     ipcRenderer.on('darkModeChanged', (event, isDarkMode) => {
-      this.setDarkMode(isDarkMode)
+      this.isDarkMode = isDarkMode
 ***REMOVED***
 
     if (showMenubar) {
@@ -51,13 +50,16 @@ new Vue({
   ***REMOVED***
 ***REMOVED***,
 
-  methods: {
-    setDarkMode(value) {
-      if (value) {
-        document.documentElement.classList.add('is-dark-mode')
-    ***REMOVED*** else {
-        document.documentElement.classList.remove('is-dark-mode')
-    ***REMOVED***
+  watch: {
+    isDarkMode: {
+      immediate: true,
+      handler() {
+        if (this.isDarkMode) {
+          document.documentElement.classList.add('is-dark-mode')
+      ***REMOVED*** else {
+          document.documentElement.classList.remove('is-dark-mode')
+      ***REMOVED***
+    ***REMOVED***,
   ***REMOVED***,
 ***REMOVED***,
 
