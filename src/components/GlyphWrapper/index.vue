@@ -14,7 +14,7 @@
             placeholder="Search …"
             autofocus
             v-model="query"
-            @keydown.esc="reset"
+            @keydown.esc="hideWindow"
             @blur="onBlurInput"
           >
           <button class="glyph-wrapper__reset" @click="reset" v-if="formattedQuery.length">
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { ipcRenderer } from 'electron'
+import { ipcRenderer, remote } from 'electron'
 import Navigatable from '@/components/Navigatable'
 import GlyphList from '@/components/GlyphList'
 import GlyphData from '@/components/GlyphData'
@@ -83,6 +83,10 @@ export default {
 
     reset() {
       this.query = null
+  ***REMOVED***,
+
+    hideWindow() {
+      remote.getCurrentWindow().hide()
   ***REMOVED***,
 
     handleWindowHidden() {
