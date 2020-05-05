@@ -24,13 +24,13 @@
     width: 100%;
     padding: 8px;
     font-size: 12px;
-    background-color: rgba($colorWhite, 0.09);
+    background-color: rgba(var(--colorWhite), 0.09);
     border-radius: 4px;
     font-weight: 500;
     font-variant-ligatures: none;
 
     &::placeholder {
-      color: rgba($colorWhite, 0.2);
+      color: rgba(var(--colorWhite), 0.2);
   ***REMOVED***
 ***REMOVED***
 
@@ -43,12 +43,12 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    color: rgba($colorWhite, 0.4);
+    color: rgba(var(--colorWhite), 0.4);
     transition: color 0.2s $ease;
     cursor: pointer;
 
     &:hover {
-      color: rgba($colorWhite, 0.6);
+      color: rgba(var(--colorWhite), 0.6);
   ***REMOVED***
 ***REMOVED***
 

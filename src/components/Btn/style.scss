@@ -2,13 +2,13 @@
   display: inline-flex;
   padding: 6px;
   margin-left: 8px;
-  color: rgba($colorWhite, 0.5);
+  color: rgba(var(--colorWhite), 0.5);
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   border-radius: 6px;
   cursor: pointer;
-  background-color: rgba($colorWhite, 0.09);
+  background-color: rgba(var(--colorWhite), 0.09);
   transition: color 0.2s $ease, background-color 0.2s $ease;
   -webkit-app-region: no-drag;
 
@@ -17,8 +17,8 @@
 ***REMOVED***
 
   &:hover {
-    color: rgba($colorWhite, 1);
-    background-color: rgba($colorWhite, 0.12);
+    color: rgba(var(--colorWhite), 1);
+    background-color: rgba(var(--colorWhite), 0.12);
 ***REMOVED***
 
   &.is-red {
@@ -40,8 +40,8 @@
     background-color: transparent;
 
     &:hover {
-      color: rgba($colorWhite, 1);
-      background-color: rgba($colorWhite, 0.12);
+      color: rgba(var(--colorWhite), 1);
+      background-color: rgba(var(--colorWhite), 0.12);
   ***REMOVED***
 ***REMOVED***
 

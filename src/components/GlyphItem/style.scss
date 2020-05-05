@@ -7,7 +7,7 @@
   border-radius: 4px;
   font-size: 20px;
   font-weight: 600;
-  background-color: rgba($colorWhite, 0.09);
+  background-color: rgba(var(--colorWhite), 0.09);
   overflow: hidden;
   margin: 2px;
   white-space: pre;
@@ -33,7 +33,7 @@
 ***REMOVED***
 
   &:hover {
-    background-color: rgba($colorWhite, 0.1);
+    background-color: rgba(var(--colorWhite), 0.1);
 ***REMOVED***
 
   &.is-active {

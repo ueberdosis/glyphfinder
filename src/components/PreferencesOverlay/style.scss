@@ -1,5 +1,5 @@
 .preferences-overlay {
-  background-color: $colorDarkGrey;
+  background-color: rgb(var(--colorDarkGrey));
   color: white;
   overflow: hidden;
   padding: var(--menuBarSize) 16px 16px 16px;
@@ -45,7 +45,7 @@
   &__label {
     font-size: 12px;
     font-weight: 500;
-    color: rgba($colorWhite, 0.4);
+    color: rgba(var(--colorWhite), 0.4);
     margin-bottom: 4px;
 ***REMOVED***
 
@@ -59,11 +59,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
-    border-top: 1px solid rgba($colorWhite, 0.05);
+    border-top: 1px solid rgba(var(--colorWhite), 0.05);
 ***REMOVED***
 
   &__grey-text {
-    color: rgba($colorWhite, 0.5);
+    color: rgba(var(--colorWhite), 0.5);
     font-style: italic;
 ***REMOVED***
 }
@@ -87,10 +87,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba($colorWhite, 0.1);
+    background-color: rgba(var(--colorWhite), 0.1);
     transition: 0.2s $ease;
     border-radius: 26px;
-    
+
     &::before {
       content: '';
       position: absolute;
@@ -98,22 +98,22 @@
       width: 18px;
       left: 4px;
       bottom: 4px;
-      background-color: rgba($colorWhite, 0.2);
+      background-color: rgba(var(--colorWhite), 0.2);
       transition: 0.2s $ease;
       border-radius: 50%;
   ***REMOVED***
 ***REMOVED***
 
   &:hover input:not(:checked) + &__slider::before {
-    background-color: rgba($colorWhite, 0.3);
+    background-color: rgba(var(--colorWhite), 0.3);
 ***REMOVED***
 
   input:checked + &__slider {
     background-color: $colorGreen;
-    
+
     &::before {
       transform: translateX(18px);
-      background-color: rgba($colorWhite, 1);
+      background-color: rgba(var(--colorWhite), 1);
   ***REMOVED***
 ***REMOVED***
 }

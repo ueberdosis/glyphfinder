@@ -25,12 +25,12 @@
   border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 8px;
-  background-color: rgba($colorWhite, 0.1);
+  background-color: rgba(var(--colorWhite), 0.1);
   min-height: 50px;
   transition: background-color 0.2s $ease;
 
   &:hover {
-    background-color: rgba($colorWhite, 0.15);
+    background-color: rgba(var(--colorWhite), 0.15);
 ***REMOVED***
 }
 
@@ -49,7 +49,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
   background-color: black;
-  color: $colorWhite;
+  color: rgb(var(--colorWhite));
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
 }
@@ -84,7 +84,7 @@ textarea {
 // }
 
 // .grey {
-//   color: rgba($colorWhite, 0.5);
+//   color: rgba(var(--colorWhite), 0.5);
 // }
 
 // .route {

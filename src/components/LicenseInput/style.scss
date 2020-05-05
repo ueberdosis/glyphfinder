@@ -7,7 +7,7 @@
     padding: 8px 0;
     margin-bottom: 16px;
     background-color: transparent;
-    color: $colorWhite;
+    color: rgb(var(--colorWhite));
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -16,7 +16,7 @@
     transition: color 0.5s $ease;
 
     &.is-success {
-      color: $colorWhite;
+      color: rgb(var(--colorWhite));
   ***REMOVED***
 
     &.is-error {
@@ -25,11 +25,11 @@
   ***REMOVED***
 
     &:disabled {
-      color: rgba($colorWhite, 0.5);
+      color: rgba(var(--colorWhite), 0.5);
   ***REMOVED***
 
     &::placeholder {
-      color: rgba($colorWhite, 0.2);
+      color: rgba(var(--colorWhite), 0.2);
   ***REMOVED***
 ***REMOVED***
 

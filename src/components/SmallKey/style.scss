@@ -7,10 +7,10 @@
   height: 26px;
   font-size: 14px;
   font-weight: 700;
-  color: rgba($colorWhite, 0.7);
+  color: rgba(var(--colorWhite), 0.7);
   line-height: 1;
   border-radius: 6px;
-  background-color: rgba($colorWhite, 0.1);
+  background-color: rgba(var(--colorWhite), 0.1);
   margin-left: 3px;
   transition: color 0.1s $ease;
 

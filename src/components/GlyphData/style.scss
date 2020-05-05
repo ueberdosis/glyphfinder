@@ -1,7 +1,7 @@
 .glyph-data {
 
   &__card {
-    color: $colorWhite;
+    color: rgb(var(--colorWhite));
     border-radius: 6px;
     padding: 16px;
     font-weight: bold;
@@ -50,7 +50,7 @@
   &__label {
     font-size: 12px;
     font-weight: 500;
-    color: rgba($colorWhite, 0.4);
+    color: rgba(var(--colorWhite), 0.4);
 ***REMOVED***
 
   &__content {
