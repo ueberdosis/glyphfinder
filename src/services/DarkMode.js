@@ -9,12 +9,16 @@ import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
     ipcMain.on('darkModePreferenceChanged', this._handleUpdate.bind(this))
 ***REMOVED***
 
-  set() {
+  get() {
     const preference = Store.get('darkMode')
 
-    this.isDarkMode = preference === 'system'
+    return preference === 'system'
       ? nativeTheme.shouldUseDarkColors
       : preference === 'true'
+***REMOVED***
+
+  set() {
+    this.isDarkMode = this.get()
 
     BrowserWindow
       .getAllWindows()
