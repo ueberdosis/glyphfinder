@@ -1,9 +1,19 @@
 :root {
-  --colorBlack: 0, 0, 0;
-  --colorDarkGrey: 23, 23, 23;
+  --colorBlack: 255, 255, 255;
+  --colorDarkGrey: 232, 232, 232;
+  --colorMediumGrey: 210, 210, 210;
   --colorGreen: 40, 201, 65;
   --colorRed: 255, 98, 77;
-  --colorWhite: 255, 255, 255;
+  --colorWhite: 0, 0, 0;
+
+  &.is-dark-mode {
+    --colorBlack: 0, 0, 0;
+    --colorDarkGrey: 23, 23, 23;
+    --colorMediumGrey: 40, 40, 40;
+    --colorGreen: 40, 201, 65;
+    --colorRed: 255, 98, 77;
+    --colorWhite: 255, 255, 255;
+***REMOVED***
 
   --menuBarSize: 20px;
 

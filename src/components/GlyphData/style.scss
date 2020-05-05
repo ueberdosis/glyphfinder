@@ -12,11 +12,11 @@
     ;
 
     .is-windows & {
-      background-color: rgba(rgb(40, 40, 40), 1);
+      background-color: rgba(var(--colorMediumGrey), 1);
   ***REMOVED***
 
     .is-mac & {
-      background-color: rgba(rgb(40, 40, 40), 0.6);
+      background-color: rgba(var(--colorMediumGrey), 0.6);
       backdrop-filter: blur(15px);
   ***REMOVED***
 ***REMOVED***
