@@ -11,6 +11,17 @@
       <div class="preferences-overlay__section">
         <div class="preferences-overlay__option">
           <span>
+            Dark mode
+          </span>
+          <select class="select" v-model="darkMode">
+            <option value="true">Enable</option>
+            <option value="false">Disable</option>
+            <option value="system">Use system setting</option>
+          </select>
+        </div>
+
+        <div class="preferences-overlay__option">
+          <span>
             Hide app after copying
           </span>
           <label class="switch">
@@ -149,6 +160,7 @@ export default {
     return {
       isDevelopment: process.env.NODE_ENV === 'development',
       user: User,
+      darkMode: Store.get('darkMode'),
       shortcut: Store.get('shortcut'),
       showMenubar: Store.get('showMenubar'),
       autoStart: Store.get('autoStart'),
@@ -183,6 +195,11 @@ export default {
 
     clearSearchOnHide() {
       Store.set('clearSearchOnHide', this.clearSearchOnHide)
+  ***REMOVED***,
+
+    darkMode() {
+      Store.set('darkMode', this.darkMode)
+      ipcRenderer.send('darkModePreferenceChanged')
   ***REMOVED***,
 ***REMOVED***,
 
