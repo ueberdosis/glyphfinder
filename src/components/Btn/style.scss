@@ -22,17 +22,17 @@
 ***REMOVED***
 
   &.is-red {
-    background-color: $colorRed;
+    background-color: rgb(var(--colorRed));
     color: rgb(var(--colorBlack));
 
     &:hover {
-      background-color: rgba($colorRed, 0.9);
+      background-color: rgba(var(--colorRed), 0.9);
   ***REMOVED***
 ***REMOVED***
 
   &.is-red-text {
     background-color: transparent;
-    color: $colorRed;
+    color: rgb(var(--colorRed));
     padding: 0;
 ***REMOVED***
 

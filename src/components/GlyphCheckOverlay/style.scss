@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $colorRed;
+  background-color: rgb(var(--colorRed));
   color: rgb(var(--colorBlack));
   overflow: hidden;
 

@@ -1,7 +1,9 @@
 :root {
   --colorBlack: 0, 0, 0;
-  --colorWhite: 255, 255, 255;
   --colorDarkGrey: 23, 23, 23;
+  --colorGreen: 40, 201, 65;
+  --colorRed: 255, 98, 77;
+  --colorWhite: 255, 255, 255;
 
   --menuBarSize: 20px;
 
@@ -9,9 +11,6 @@
     --menuBarSize: 40px;
 ***REMOVED***
 }
-
-$colorRed: #FF624D;
-$colorGreen: #28C941;
 
 /* Default Equations */
 $linear: cubic-bezier(0.250, 0.250, 0.750, 0.750);

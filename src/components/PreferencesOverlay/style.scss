@@ -16,7 +16,7 @@
 
     h2 {
       font-size: inherit;
-      color: $colorRed;
+      color: rgb(var(--colorRed));
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -109,7 +109,7 @@
 ***REMOVED***
 
   input:checked + &__slider {
-    background-color: $colorGreen;
+    background-color: rgb(var(--colorGreen));
 
     &::before {
       transform: translateX(18px);

@@ -20,7 +20,7 @@
   ***REMOVED***
 
     &.is-error {
-      color: $colorRed;
+      color: rgb(var(--colorRed));
       animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
   ***REMOVED***
 
@@ -43,7 +43,7 @@
     align-items: center;
     font-size: 14px;
     font-weight: 600;
-    color: $colorRed;
+    color: rgb(var(--colorRed));
 ***REMOVED***
 
   &__retry {
@@ -51,7 +51,7 @@
     margin-left: 4px;
     padding: 4px 6px;
     border-radius: 6px;
-    background-color: rgba($colorRed, 0.2);
+    background-color: rgba(var(--colorRed), 0.2);
 ***REMOVED***
 
 }
