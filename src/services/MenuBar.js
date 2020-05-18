@@ -78,6 +78,12 @@ import { isMac } from '../helpers'
         ***REMOVED***
     ***REMOVED***
 
+        const dbExists = DB.glyphsExists() && DB.searchIndexExists()
+
+        if (!User.isVerified || (Setapp.isActive && !dbExists)) {
+          setTimeout(() => this.show(), 200)
+      ***REMOVED***
+
         resolve(this.getWindow())
   ***REMOVED***
 
@@ -93,14 +99,6 @@ import { isMac } from '../helpers'
         // if (isDevelopment) {
         //   this.menubar.window.closeDevTools()
         // }
-  ***REMOVED***
-
-      this.menubar.on('ready', () => {
-        const dbExists = DB.glyphsExists() && DB.searchIndexExists()
-
-        if (!User.isVerified || (Setapp.isActive && !dbExists)) {
-          this.show()
-      ***REMOVED***
   ***REMOVED***
 
       this.addShortcutListener()
