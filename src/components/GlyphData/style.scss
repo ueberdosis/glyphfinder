@@ -6,17 +6,14 @@
     padding: 16px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow:
-      0px 0px 40px 2px rgba(var(--colorBlack), 0.8),
-      0px 0px 8px 1px rgba(var(--colorBlack), 0.4),
-    ;
+    box-shadow: var(--shadowGlyphData);
 
     .is-windows & {
-      background-color: rgba(var(--colorMediumGrey), 1);
+      background-color: var(--colorGlyphDataBackgroundWindows);
   ***REMOVED***
 
     .is-mac & {
-      background-color: rgba(var(--colorMediumGrey), 0.6);
+      background-color: var(--colorGlyphDataBackgroundMac);
       backdrop-filter: blur(15px);
   ***REMOVED***
 ***REMOVED***

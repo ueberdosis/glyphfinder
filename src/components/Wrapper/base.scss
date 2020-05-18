@@ -48,7 +48,7 @@ body {
   font-family: 'Inter', Arial;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  background-color: rgb(var(--colorBlack));
+  background-color: var(--colorBackground);
   color: rgb(var(--colorWhite));
   line-height: 1.4;
   font-feature-settings: 'cv05' 1;
