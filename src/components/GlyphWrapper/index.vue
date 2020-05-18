@@ -96,6 +96,11 @@ export default {
   ***REMOVED***
     ***REMOVED***
 
+      if (this.query) {
+        this.reset()
+  ***REMOVED***
+    ***REMOVED***
+
       if (this.isWindows) {
         remote.getCurrentWindow().minimize()
     ***REMOVED*** else {
