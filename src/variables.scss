@@ -3,7 +3,11 @@
   --colorGlyphBackground: rgba(255, 255, 255, 0.7);
   --colorGlyphDataBackgroundMac: #FFFFFF;
   --colorGlyphDataBackgroundWindows: #FFFFFF;
+  --colorPreferencesOverlayBackground: #FFFFFF;
   --colorSearchBackground: #FFFFFF;
+  --colorSwitchSliderChecked: #FFFFFF;
+  --colorSwitchSliderUnchecked: rgba(255, 255, 255, .8);
+  --colorSwitchSliderUncheckedHover: #FFFFFF;
 
   --shadowGlyphData: 0px 0px 20px rgba(0, 0, 0, 0.12);
 
@@ -19,7 +23,11 @@
     --colorGlyphBackground: rgba(255, 255, 255, 0.09);
     --colorGlyphDataBackgroundMac: rgba(40, 40, 40, 0.6);
     --colorGlyphDataBackgroundWindows: #282828;
+    --colorPreferencesOverlayBackground: #282828;
     --colorSearchBackground: rgba(255, 255, 255, 0.09);
+    --colorSwitchSliderChecked: #FFFFFF;
+    --colorSwitchSliderUnchecked: rgba(255, 255, 255, 0.2);
+    --colorSwitchSliderUncheckedHover: rgba(255, 255, 255, 0.3);
 
     --shadowGlyphData: 0px 0px 40px 2px rgba(0, 0, 0, 0.8), 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
 

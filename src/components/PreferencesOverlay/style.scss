@@ -1,5 +1,5 @@
 .preferences-overlay {
-  background-color: rgb(var(--colorDarkGrey));
+  background-color: var(--colorPreferencesOverlayBackground);
   color: rgb(var(--colorWhite));
   overflow: hidden;
   padding: var(--menuBarSize) 16px 16px 16px;
@@ -110,14 +110,14 @@
       width: 18px;
       left: 4px;
       bottom: 4px;
-      background-color: rgba(var(--colorWhite), 0.2);
+      background-color: var(--colorSwitchSliderUnchecked);
       transition: 0.2s $ease;
       border-radius: 50%;
   ***REMOVED***
 ***REMOVED***
 
   &:hover input:not(:checked) + &__slider::before {
-    background-color: rgba(var(--colorWhite), 0.3);
+    background-color: var(--colorSwitchSliderUncheckedHover);
 ***REMOVED***
 
   input:checked + &__slider {
@@ -125,11 +125,7 @@
 
     &::before {
       transform: translateX(18px);
-      background-color: rgba(var(--colorBlack), 1);
-
-      .is-dark-mode & {
-        background-color: rgba(var(--colorWhite), 1);
-    ***REMOVED***
+      background-color: var(--colorSwitchSliderChecked);
   ***REMOVED***
 ***REMOVED***
 }
