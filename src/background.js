@@ -39,7 +39,7 @@ function getWindow() {
         y: 24,
     ***REMOVED***,
       transparent: !isWindows,
-      backgroundColor: DarkMode.get() ? '#000' : '#FFF',
+      backgroundColor: DarkMode.get() ? '#000000' : '#F3F3F3',
       webPreferences: {
         nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
         nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
