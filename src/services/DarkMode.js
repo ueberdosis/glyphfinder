@@ -36,4 +36,4 @@ import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
         browserWindow.webContents.send('darkModeChanged', this.isDarkMode)
   ***REMOVED***
 ***REMOVED***
-}
+***REMOVED***
