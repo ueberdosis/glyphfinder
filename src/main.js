@@ -38,8 +38,8 @@ new Vue({
           this.titleBar.updateBackground(customTitlebar.Color.fromHex('#000'))
           this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#111'))
       ***REMOVED*** else {
-          this.titleBar.updateBackground(customTitlebar.Color.fromHex('#fff'))
-          this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#ccc'))
+          this.titleBar.updateBackground(customTitlebar.Color.fromHex('#f3f3f3'))
+          this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#bbb'))
       ***REMOVED***
     ***REMOVED***
 ***REMOVED***
@@ -51,8 +51,8 @@ new Vue({
     if (this.isWindows && !showMenubar) {
       this.titleBar = new customTitlebar.Titlebar({
         icon: './icon.png',
-        backgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#000' : '#fff'),
-        itemBackgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#111' : '#ccc'),
+        backgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#000' : '#f3f3f3'),
+        itemBackgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#111' : '#bbb'),
         maximizable: false,
   ***REMOVED***
 
