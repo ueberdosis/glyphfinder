@@ -75,9 +75,12 @@
 .select {
   background-color: rgba(var(--colorWhite), 0.1);
   border: 0;
-  color: rgb(var(--colorWhite));
-  font-size: inherit;
+  font: inherit;
   height: 26px;
+
+  .is-mac & {
+    color: rgb(var(--colorWhite));
+***REMOVED***
 }
 
 .switch {
