@@ -77,10 +77,12 @@
   border: 0;
   font: inherit;
   height: 26px;
+  color: rgb(var(--colorWhite));
+}
 
-  .is-mac & {
-    color: rgb(var(--colorWhite));
-***REMOVED***
+.is-windows .select option {
+  color: black;
+  background-color: white;
 }
 
 .switch {
