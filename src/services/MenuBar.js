@@ -153,7 +153,7 @@ import { isMac } from '../helpers'
 ***REMOVED***
 
   isWindowVisible(window) {
-    return !window.isDestroyed() && window.isVisible()
+    return !!window && (!window.isDestroyed() && window.isVisible())
 ***REMOVED***
 
   getWindow() {
