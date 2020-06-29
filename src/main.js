@@ -32,6 +32,16 @@ new Vue({
 
     ipcRenderer.on('darkModeChanged', (event, isDarkMode) => {
       this.isDarkMode = isDarkMode
+
+      if (this.titleBar) {
+        if (this.isDarkMode) {
+          this.titleBar.updateBackground(customTitlebar.Color.fromHex('#000'))
+          this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#111'))
+      ***REMOVED*** else {
+          this.titleBar.updateBackground(customTitlebar.Color.fromHex('#fff'))
+          this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#ccc'))
+      ***REMOVED***
+    ***REMOVED***
 ***REMOVED***
 
     if (showMenubar) {
@@ -41,8 +51,8 @@ new Vue({
     if (this.isWindows && !showMenubar) {
       this.titleBar = new customTitlebar.Titlebar({
         icon: './icon.png',
-        backgroundColor: customTitlebar.Color.fromHex('#000'),
-        itemBackgroundColor: customTitlebar.Color.fromHex('#111'),
+        backgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#000' : '#fff'),
+        itemBackgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#111' : '#ccc'),
         maximizable: false,
   ***REMOVED***
 
