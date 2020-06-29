@@ -53,6 +53,7 @@ export default new Store({
   ***REMOVED***,
     '1.3.0': store => {
       store.set('darkMode', 'system')
+      DB.removeSearchIndex()
   ***REMOVED***,
 ***REMOVED***,
 })

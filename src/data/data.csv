@@ -128,7 +128,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 Á,00C1,193,latin capital letter a with acute,Latin-1 Supplement,Aacute,,
 Â,00C2,194,latin capital letter a with circumflex,Latin-1 Supplement,Acirc,,
 Ã,00C3,195,latin capital letter a with tilde,Latin-1 Supplement,Atilde,,
-Ä,00C4,196,latin capital letter a with diaeresis,Latin-1 Supplement,Auml,,
+Ä,00C4,196,latin capital letter a with diaeresis,Latin-1 Supplement,Auml,,AE
 Å,00C5,197,latin capital letter a with ring above,Latin-1 Supplement,Aring angst,,ring
 Æ,00C6,198,latin capital letter ae,Latin-1 Supplement,AElig,,
 Ç,00C7,199,latin capital letter c with cedilla,Latin-1 Supplement,Ccedil,,
@@ -146,21 +146,21 @@ z,007A,122,latin small letter z,Basic Latin,,,
 Ó,00D3,211,latin capital letter o with acute,Latin-1 Supplement,Oacute,,
 Ô,00D4,212,latin capital letter o with circumflex,Latin-1 Supplement,Ocirc,,
 Õ,00D5,213,latin capital letter o with tilde,Latin-1 Supplement,Otilde,,
-Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,,
+Ö,00D6,214,latin capital letter o with diaeresis,Latin-1 Supplement,Ouml,,OE
 ×,00D7,215,multiplication sign,Latin-1 Supplement,times,,multiplicate x times multiply
 Ø,00D8,216,latin capital letter o with stroke,Latin-1 Supplement,Oslash,,slash / average
 Ù,00D9,217,latin capital letter u with grave,Latin-1 Supplement,Ugrave,,
 Ú,00DA,218,latin capital letter u with acute,Latin-1 Supplement,Uacute,,
 Û,00DB,219,latin capital letter u with circumflex,Latin-1 Supplement,Ucirc,,
-Ü,00DC,220,latin capital letter u with diaeresis,Latin-1 Supplement,Uuml,,
+Ü,00DC,220,latin capital letter u with diaeresis,Latin-1 Supplement,Uuml,,UE
 Ý,00DD,221,latin capital letter y with acute,Latin-1 Supplement,Yacute,,
 Þ,00DE,222,latin capital letter thorn,Latin-1 Supplement,THORN,,p
-ß,00DF,223,latin small letter sharp s,Latin-1 Supplement,szlig,,b beta ess-zed s
+ß,00DF,223,latin small letter sharp s,Latin-1 Supplement,szlig,,b beta ess-zed s eszett
 à,00E0,224,latin small letter a with grave,Latin-1 Supplement,agrave,,
 á,00E1,225,latin small letter a with acute,Latin-1 Supplement,aacute,,
 â,00E2,226,latin small letter a with circumflex,Latin-1 Supplement,acirc,,
 ã,00E3,227,latin small letter a with tilde,Latin-1 Supplement,atilde,,
-ä,00E4,228,latin small letter a with diaeresis,Latin-1 Supplement,auml,,
+ä,00E4,228,latin small letter a with diaeresis,Latin-1 Supplement,auml,,ae
 å,00E5,229,latin small letter a with ring above,Latin-1 Supplement,aring,,ring
 æ,00E6,230,latin small letter ae,Latin-1 Supplement,aelig,,
 ç,00E7,231,latin small letter c with cedilla,Latin-1 Supplement,ccedil,,
@@ -178,13 +178,13 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ó,00F3,243,latin small letter o with acute,Latin-1 Supplement,oacute,,
 ô,00F4,244,latin small letter o with circumflex,Latin-1 Supplement,ocirc,,
 õ,00F5,245,latin small letter o with tilde,Latin-1 Supplement,otilde,,
-ö,00F6,246,latin small letter o with diaeresis,Latin-1 Supplement,ouml,,o diaeresis
+ö,00F6,246,latin small letter o with diaeresis,Latin-1 Supplement,ouml,,o diaeresis oe
 ÷,00F7,247,division sign,Latin-1 Supplement,div divide,,division / div
 ø,00F8,248,latin small letter o with stroke,Latin-1 Supplement,oslash,,o stroke slash average
 ù,00F9,249,latin small letter u with grave,Latin-1 Supplement,ugrave,,u grave
 ú,00FA,250,latin small letter u with acute,Latin-1 Supplement,uacute,,u acute
 û,00FB,251,latin small letter u with circumflex,Latin-1 Supplement,ucirc,,u circumflex
-ü,00FC,252,latin small letter u with diaeresis,Latin-1 Supplement,uuml,,u diaeresis
+ü,00FC,252,latin small letter u with diaeresis,Latin-1 Supplement,uuml,,u diaeresis ue
 ý,00FD,253,latin small letter y with acute,Latin-1 Supplement,yacute,,
 þ,00FE,254,latin small letter thorn,Latin-1 Supplement,thorn,,p thorn
 ÿ,00FF,255,latin small letter y with diaeresis,Latin-1 Supplement,yuml,,
@@ -799,106 +799,106 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ͠,0360,864,combining double tilde,Combining Diacritical Marks,,,
 ͡,0361,865,combining double inverted breve,Combining Diacritical Marks,,,
 ͢,0362,866,combining double rightwards arrow below,Combining Diacritical Marks,,,
-ͣ,0363,867,combining latin small letter a,Combining Diacritical Marks,,,
-ͤ,0364,868,combining latin small letter e,Combining Diacritical Marks,,,
-ͥ,0365,869,combining latin small letter i,Combining Diacritical Marks,,,
-ͦ,0366,870,combining latin small letter o,Combining Diacritical Marks,,,
-ͧ,0367,871,combining latin small letter u,Combining Diacritical Marks,,,
-ͨ,0368,872,combining latin small letter c,Combining Diacritical Marks,,,
-ͩ,0369,873,combining latin small letter d,Combining Diacritical Marks,,,
-ͪ,036A,874,combining latin small letter h,Combining Diacritical Marks,,,
-ͫ,036B,875,combining latin small letter m,Combining Diacritical Marks,,,
-ͬ,036C,876,combining latin small letter r,Combining Diacritical Marks,,,
-ͭ,036D,877,combining latin small letter t,Combining Diacritical Marks,,,
-ͮ,036E,878,combining latin small letter v,Combining Diacritical Marks,,,
-ͯ,036F,879,combining latin small letter x,Combining Diacritical Marks,,,
-Ͱ,0370,880,greek capital letter heta,Greek and Coptic,,,
-ͱ,0371,881,greek small letter heta,Greek and Coptic,,,
-Ͳ,0372,882,greek capital letter archaic sampi,Greek and Coptic,,,
-ͳ,0373,883,greek small letter archaic sampi,Greek and Coptic,,,
+ͣ,0363,867,combining latin small letter a,Combining Diacritical Marks,,,lowercase
+ͤ,0364,868,combining latin small letter e,Combining Diacritical Marks,,,lowercase
+ͥ,0365,869,combining latin small letter i,Combining Diacritical Marks,,,lowercase
+ͦ,0366,870,combining latin small letter o,Combining Diacritical Marks,,,lowercase
+ͧ,0367,871,combining latin small letter u,Combining Diacritical Marks,,,lowercase
+ͨ,0368,872,combining latin small letter c,Combining Diacritical Marks,,,lowercase
+ͩ,0369,873,combining latin small letter d,Combining Diacritical Marks,,,lowercase
+ͪ,036A,874,combining latin small letter h,Combining Diacritical Marks,,,lowercase
+ͫ,036B,875,combining latin small letter m,Combining Diacritical Marks,,,lowercase
+ͬ,036C,876,combining latin small letter r,Combining Diacritical Marks,,,lowercase
+ͭ,036D,877,combining latin small letter t,Combining Diacritical Marks,,,lowercase
+ͮ,036E,878,combining latin small letter v,Combining Diacritical Marks,,,lowercase
+ͯ,036F,879,combining latin small letter x,Combining Diacritical Marks,,,lowercase
+Ͱ,0370,880,greek capital letter heta,Greek and Coptic,,,uppercase
+ͱ,0371,881,greek small letter heta,Greek and Coptic,,,lowercase
+Ͳ,0372,882,greek capital letter archaic sampi,Greek and Coptic,,,uppercase
+ͳ,0373,883,greek small letter archaic sampi,Greek and Coptic,,,lowercase
 ʹ,0374,884,greek numeral sign,Greek and Coptic,,,
 ͵,0375,885,greek lower numeral sign,Greek and Coptic,,,
-Ͷ,0376,886,greek capital letter pamphylian digamma,Greek and Coptic,,,
-ͷ,0377,887,greek small letter pamphylian digamma,Greek and Coptic,,,
+Ͷ,0376,886,greek capital letter pamphylian digamma,Greek and Coptic,,,uppercase
+ͷ,0377,887,greek small letter pamphylian digamma,Greek and Coptic,,,lowercase
 ͺ,037A,890,greek ypogegrammeni,Greek and Coptic,,,
-ͻ,037B,891,greek small reversed lunate sigma symbol,Greek and Coptic,,,
-ͼ,037C,892,greek small dotted lunate sigma symbol,Greek and Coptic,,,
-ͽ,037D,893,greek small reversed dotted lunate sigma symbol,Greek and Coptic,,,
+ͻ,037B,891,greek small reversed lunate sigma symbol,Greek and Coptic,,,lowercase
+ͼ,037C,892,greek small dotted lunate sigma symbol,Greek and Coptic,,,lowercase
+ͽ,037D,893,greek small reversed dotted lunate sigma symbol,Greek and Coptic,,,lowercase
 ;,037E,894,greek question mark,Greek and Coptic,,,;
-Ϳ,037F,895,greek capital letter yot,Greek and Coptic,,,
+Ϳ,037F,895,greek capital letter yot,Greek and Coptic,,,uppercase
 ΄,0384,900,greek tonos,Greek and Coptic,,,
 ΅,0385,901,greek dialytika tonos,Greek and Coptic,,,
-Ά,0386,902,greek capital letter alpha with tonos,Greek and Coptic,,,
+Ά,0386,902,greek capital letter alpha with tonos,Greek and Coptic,,,uppercase
 ·,0387,903,greek ano teleia,Greek and Coptic,,,
-Έ,0388,904,greek capital letter epsilon with tonos,Greek and Coptic,,,
-Ή,0389,905,greek capital letter eta with tonos,Greek and Coptic,,,
-Ί,038A,906,greek capital letter iota with tonos,Greek and Coptic,,,
-Ό,038C,908,greek capital letter omicron with tonos,Greek and Coptic,,,
-Ύ,038E,910,greek capital letter upsilon with tonos,Greek and Coptic,,,
-Ώ,038F,911,greek capital letter omega with tonos,Greek and Coptic,,,
-ΐ,0390,912,greek small letter iota with dialytika and tonos,Greek and Coptic,,,
-Α,0391,913,greek capital letter alpha,Greek and Coptic,Alpha,,a alpha
-Β,0392,914,greek capital letter beta,Greek and Coptic,Beta,,B beta
-Γ,0393,915,greek capital letter gamma,Greek and Coptic,Gamma,,gamma L
-Δ,0394,916,greek capital letter delta,Greek and Coptic,Delta,,delta triangle
-Ε,0395,917,greek capital letter epsilon,Greek and Coptic,Epsilon,,e epsilon
-Ζ,0396,918,greek capital letter zeta,Greek and Coptic,Zeta,,z zeta
-Η,0397,919,greek capital letter eta,Greek and Coptic,Eta,,h eta
-Θ,0398,920,greek capital letter theta,Greek and Coptic,Theta,,T theta o
-Ι,0399,921,greek capital letter iota,Greek and Coptic,Iota,,i iota
-Κ,039A,922,greek capital letter kappa,Greek and Coptic,Kappa,,k kappa
-Λ,039B,923,greek capital letter lamda,Greek and Coptic,Lambda,,lambda triangle
-Μ,039C,924,greek capital letter mu,Greek and Coptic,Mu,,m mu
-Ν,039D,925,greek capital letter nu,Greek and Coptic,Nu,,n nu
-Ξ,039E,926,greek capital letter xi,Greek and Coptic,Xi,,xi e
+Έ,0388,904,greek capital letter epsilon with tonos,Greek and Coptic,,,uppercase
+Ή,0389,905,greek capital letter eta with tonos,Greek and Coptic,,,uppercase
+Ί,038A,906,greek capital letter iota with tonos,Greek and Coptic,,,uppercase
+Ό,038C,908,greek capital letter omicron with tonos,Greek and Coptic,,,uppercase
+Ύ,038E,910,greek capital letter upsilon with tonos,Greek and Coptic,,,uppercase
+Ώ,038F,911,greek capital letter omega with tonos,Greek and Coptic,,,uppercase
+ΐ,0390,912,greek small letter iota with dialytika and tonos,Greek and Coptic,,,lowercase
+Α,0391,913,greek capital letter alpha,Greek and Coptic,Alpha,,a alpha uppercase
+Β,0392,914,greek capital letter beta,Greek and Coptic,Beta,,B beta uppercase
+Γ,0393,915,greek capital letter gamma,Greek and Coptic,Gamma,,gamma L uppercase
+Δ,0394,916,greek capital letter delta,Greek and Coptic,Delta,,delta triangle uppercase
+Ε,0395,917,greek capital letter epsilon,Greek and Coptic,Epsilon,,e epsilon uppercase
+Ζ,0396,918,greek capital letter zeta,Greek and Coptic,Zeta,,z zeta uppercase
+Η,0397,919,greek capital letter eta,Greek and Coptic,Eta,,h eta uppercase
+Θ,0398,920,greek capital letter theta,Greek and Coptic,Theta,,T theta o uppercase
+Ι,0399,921,greek capital letter iota,Greek and Coptic,Iota,,i iota uppercase
+Κ,039A,922,greek capital letter kappa,Greek and Coptic,Kappa,,k kappa uppercase
+Λ,039B,923,greek capital letter lamda,Greek and Coptic,Lambda,,lambda triangle uppercase
+Μ,039C,924,greek capital letter mu,Greek and Coptic,Mu,,m mu uppercase
+Ν,039D,925,greek capital letter nu,Greek and Coptic,Nu,,n nu uppercase
+Ξ,039E,926,greek capital letter xi,Greek and Coptic,Xi,,xi e uppercase
 Ο,039F,927,greek capital letter omicron,Greek and Coptic,Omicron,,o omicron
-Π,03A0,928,greek capital letter pi,Greek and Coptic,Pi,,pi
-Ρ,03A1,929,greek capital letter rho,Greek and Coptic,Rho,,p rho
-Σ,03A3,931,greek capital letter sigma,Greek and Coptic,Sigma,,S sigma e
-Τ,03A4,932,greek capital letter tau,Greek and Coptic,Tau,,t tau
-Υ,03A5,933,greek capital letter upsilon,Greek and Coptic,Upsilon,,upsilon y
-Φ,03A6,934,greek capital letter phi,Greek and Coptic,Phi,,F o phi
-Χ,03A7,935,greek capital letter chi,Greek and Coptic,Chi,,x chi
-Ψ,03A8,936,greek capital letter psi,Greek and Coptic,Psi,,y psi
-Ω,03A9,937,greek capital letter omega,Greek and Coptic,Omega ohm,,O omega o
-Ϊ,03AA,938,greek capital letter iota with dialytika,Greek and Coptic,,,
-Ϋ,03AB,939,greek capital letter upsilon with dialytika,Greek and Coptic,,,
-ά,03AC,940,greek small letter alpha with tonos,Greek and Coptic,,,
-έ,03AD,941,greek small letter epsilon with tonos,Greek and Coptic,,,
-ή,03AE,942,greek small letter eta with tonos,Greek and Coptic,,,
-ί,03AF,943,greek small letter iota with tonos,Greek and Coptic,,,
-ΰ,03B0,944,greek small letter upsilon with dialytika and tonos,Greek and Coptic,,,
-α,03B1,945,greek small letter alpha,Greek and Coptic,alpha,,alpha a
-β,03B2,946,greek small letter beta,Greek and Coptic,beta,,ß b beta
-γ,03B3,947,greek small letter gamma,Greek and Coptic,gamma,,y gamma
-δ,03B4,948,greek small letter delta,Greek and Coptic,delta,,d delta o
-ε,03B5,949,greek small letter epsilon,Greek and Coptic,epsi epsilon,,e epsilon
-ζ,03B6,950,greek small letter zeta,Greek and Coptic,zeta,,z zeta
-η,03B7,951,greek small letter eta,Greek and Coptic,eta,,n eta
-θ,03B8,952,greek small letter theta,Greek and Coptic,theta,,o theta
-ι,03B9,953,greek small letter iota,Greek and Coptic,iota,,i l iota
-κ,03BA,954,greek small letter kappa,Greek and Coptic,kappa,,k kappa
-λ,03BB,955,greek small letter lamda,Greek and Coptic,lambda,,n lambda y
-μ,03BC,956,greek small letter mu,Greek and Coptic,mu,,u mu
-ν,03BD,957,greek small letter nu,Greek and Coptic,nu,,nu v
-ξ,03BE,958,greek small letter xi,Greek and Coptic,xi,,e xi
-ο,03BF,959,greek small letter omicron,Greek and Coptic,omicron,,o omicron
-π,03C0,960,greek small letter pi,Greek and Coptic,pi,,p pi
-ρ,03C1,961,greek small letter rho,Greek and Coptic,rho,,p o rho
-ς,03C2,962,greek small letter final sigma,Greek and Coptic,sigmaf sigmav varsigma,,c sigma final
-σ,03C3,963,greek small letter sigma,Greek and Coptic,sigma,,s o sigma
-τ,03C4,964,greek small letter tau,Greek and Coptic,tau,,t tau
-υ,03C5,965,greek small letter upsilon,Greek and Coptic,upsi upsilon,,u upsilon
-φ,03C6,966,greek small letter phi,Greek and Coptic,phi,,f y phi
-χ,03C7,967,greek small letter chi,Greek and Coptic,chi,,x chi
-ψ,03C8,968,greek small letter psi,Greek and Coptic,psi,,y psi
-ω,03C9,969,greek small letter omega,Greek and Coptic,omega,,w omega
-ϊ,03CA,970,greek small letter iota with dialytika,Greek and Coptic,,,
-ϋ,03CB,971,greek small letter upsilon with dialytika,Greek and Coptic,,,
-ό,03CC,972,greek small letter omicron with tonos,Greek and Coptic,,,
-ύ,03CD,973,greek small letter upsilon with tonos,Greek and Coptic,,,
-ώ,03CE,974,greek small letter omega with tonos,Greek and Coptic,,,
-Ϗ,03CF,975,greek capital kai symbol,Greek and Coptic,,,
+Π,03A0,928,greek capital letter pi,Greek and Coptic,Pi,,pi uppercase
+Ρ,03A1,929,greek capital letter rho,Greek and Coptic,Rho,,p rho uppercase
+Σ,03A3,931,greek capital letter sigma,Greek and Coptic,Sigma,,S sigma e uppercase
+Τ,03A4,932,greek capital letter tau,Greek and Coptic,Tau,,t tau uppercase
+Υ,03A5,933,greek capital letter upsilon,Greek and Coptic,Upsilon,,upsilon y uppercase
+Φ,03A6,934,greek capital letter phi,Greek and Coptic,Phi,,F o phi uppercase
+Χ,03A7,935,greek capital letter chi,Greek and Coptic,Chi,,x chi uppercase
+Ψ,03A8,936,greek capital letter psi,Greek and Coptic,Psi,,y psi uppercase
+Ω,03A9,937,greek capital letter omega,Greek and Coptic,Omega ohm,,O omega o uppercase
+Ϊ,03AA,938,greek capital letter iota with dialytika,Greek and Coptic,,,uppercase
+Ϋ,03AB,939,greek capital letter upsilon with dialytika,Greek and Coptic,,,uppercase
+ά,03AC,940,greek small letter alpha with tonos,Greek and Coptic,,,lowercase
+έ,03AD,941,greek small letter epsilon with tonos,Greek and Coptic,,,lowercase
+ή,03AE,942,greek small letter eta with tonos,Greek and Coptic,,,lowercase
+ί,03AF,943,greek small letter iota with tonos,Greek and Coptic,,,lowercase
+ΰ,03B0,944,greek small letter upsilon with dialytika and tonos,Greek and Coptic,,,lowercase
+α,03B1,945,greek small letter alpha,Greek and Coptic,alpha,,alpha a lowercase
+β,03B2,946,greek small letter beta,Greek and Coptic,beta,,ß b beta lowercase
+γ,03B3,947,greek small letter gamma,Greek and Coptic,gamma,,y gamma lowercase
+δ,03B4,948,greek small letter delta,Greek and Coptic,delta,,d delta o lowercase
+ε,03B5,949,greek small letter epsilon,Greek and Coptic,epsi epsilon,,e epsilon lowercase
+ζ,03B6,950,greek small letter zeta,Greek and Coptic,zeta,,z zeta lowercase
+η,03B7,951,greek small letter eta,Greek and Coptic,eta,,n eta lowercase
+θ,03B8,952,greek small letter theta,Greek and Coptic,theta,,o theta lowercase
+ι,03B9,953,greek small letter iota,Greek and Coptic,iota,,i l iota lowercase
+κ,03BA,954,greek small letter kappa,Greek and Coptic,kappa,,k kappa lowercase
+λ,03BB,955,greek small letter lamda,Greek and Coptic,lambda,,n lambda y lowercase
+μ,03BC,956,greek small letter mu,Greek and Coptic,mu,,u mu lowercase
+ν,03BD,957,greek small letter nu,Greek and Coptic,nu,,nu v lowercase
+ξ,03BE,958,greek small letter xi,Greek and Coptic,xi,,e xi lowercase
+ο,03BF,959,greek small letter omicron,Greek and Coptic,omicron,,o omicron lowercase
+π,03C0,960,greek small letter pi,Greek and Coptic,pi,,p pi lowercase
+ρ,03C1,961,greek small letter rho,Greek and Coptic,rho,,p o rho lowercase
+ς,03C2,962,greek small letter final sigma,Greek and Coptic,sigmaf sigmav varsigma,,c sigma final lowercase
+σ,03C3,963,greek small letter sigma,Greek and Coptic,sigma,,s o sigma sd standard deviation lowercase
+τ,03C4,964,greek small letter tau,Greek and Coptic,tau,,t tau lowercase
+υ,03C5,965,greek small letter upsilon,Greek and Coptic,upsi upsilon,,u upsilon lowercase
+φ,03C6,966,greek small letter phi,Greek and Coptic,phi,,f y phi lowercase
+χ,03C7,967,greek small letter chi,Greek and Coptic,chi,,x chi lowercase
+ψ,03C8,968,greek small letter psi,Greek and Coptic,psi,,y psi lowercase
+ω,03C9,969,greek small letter omega,Greek and Coptic,omega,,w omega lowercase
+ϊ,03CA,970,greek small letter iota with dialytika,Greek and Coptic,,,lowercase
+ϋ,03CB,971,greek small letter upsilon with dialytika,Greek and Coptic,,,lowercase
+ό,03CC,972,greek small letter omicron with tonos,Greek and Coptic,,,lowercase
+ύ,03CD,973,greek small letter upsilon with tonos,Greek and Coptic,,,lowercase
+ώ,03CE,974,greek small letter omega with tonos,Greek and Coptic,,,lowercase
+Ϗ,03CF,975,greek capital kai symbol,Greek and Coptic,,,uppercase
 ϐ,03D0,976,greek beta symbol,Greek and Coptic,,,
 ϑ,03D1,977,greek theta symbol,Greek and Coptic,thetasym thetav vartheta,,0 theta
 ϒ,03D2,978,greek upsilon with hook symbol,Greek and Coptic,Upsi upsih,,y hook upsilon
@@ -907,30 +907,30 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ϕ,03D5,981,greek phi symbol,Greek and Coptic,phiv straightphi varphi,,
 ϖ,03D6,982,greek pi symbol,Greek and Coptic,piv varpi,,pi
 ϗ,03D7,983,greek kai symbol,Greek and Coptic,,,
-Ϙ,03D8,984,greek letter archaic koppa,Greek and Coptic,,,
-ϙ,03D9,985,greek small letter archaic koppa,Greek and Coptic,,,
+Ϙ,03D8,984,greek letter archaic koppa,Greek and Coptic,,,lowercase
+ϙ,03D9,985,greek small letter archaic koppa,Greek and Coptic,,,lowercase
 Ϛ,03DA,986,greek letter stigma,Greek and Coptic,,,
-ϛ,03DB,987,greek small letter stigma,Greek and Coptic,,,
+ϛ,03DB,987,greek small letter stigma,Greek and Coptic,,,lowercase
 Ϝ,03DC,988,greek letter digamma,Greek and Coptic,Gammad,,
-ϝ,03DD,989,greek small letter digamma,Greek and Coptic,digamma gammad,,
+ϝ,03DD,989,greek small letter digamma,Greek and Coptic,digamma gammad,,lowercase
 Ϟ,03DE,990,greek letter koppa,Greek and Coptic,,,
-ϟ,03DF,991,greek small letter koppa,Greek and Coptic,,,
+ϟ,03DF,991,greek small letter koppa,Greek and Coptic,,,lowercase
 Ϡ,03E0,992,greek letter sampi,Greek and Coptic,,,
-ϡ,03E1,993,greek small letter sampi,Greek and Coptic,,,
+ϡ,03E1,993,greek small letter sampi,Greek and Coptic,,,lowercase
 Ϣ,03E2,994,coptic capital letter shei,Greek and Coptic,,,
-ϣ,03E3,995,coptic small letter shei,Greek and Coptic,,,
+ϣ,03E3,995,coptic small letter shei,Greek and Coptic,,,lowercase
 Ϥ,03E4,996,coptic capital letter fei,Greek and Coptic,,,
-ϥ,03E5,997,coptic small letter fei,Greek and Coptic,,,
+ϥ,03E5,997,coptic small letter fei,Greek and Coptic,,,lowercase
 Ϧ,03E6,998,coptic capital letter khei,Greek and Coptic,,,
-ϧ,03E7,999,coptic small letter khei,Greek and Coptic,,,
+ϧ,03E7,999,coptic small letter khei,Greek and Coptic,,,lowercase
 Ϩ,03E8,1000,coptic capital letter hori,Greek and Coptic,,,
-ϩ,03E9,1001,coptic small letter hori,Greek and Coptic,,,
+ϩ,03E9,1001,coptic small letter hori,Greek and Coptic,,,lowercase
 Ϫ,03EA,1002,coptic capital letter gangia,Greek and Coptic,,,
-ϫ,03EB,1003,coptic small letter gangia,Greek and Coptic,,,
+ϫ,03EB,1003,coptic small letter gangia,Greek and Coptic,,,lowercase
 Ϭ,03EC,1004,coptic capital letter shima,Greek and Coptic,,,
-ϭ,03ED,1005,coptic small letter shima,Greek and Coptic,,,
+ϭ,03ED,1005,coptic small letter shima,Greek and Coptic,,,lowercase
 Ϯ,03EE,1006,coptic capital letter dei,Greek and Coptic,,,
-ϯ,03EF,1007,coptic small letter dei,Greek and Coptic,,,
+ϯ,03EF,1007,coptic small letter dei,Greek and Coptic,,,lowercase
 ϰ,03F0,1008,greek kappa symbol,Greek and Coptic,kappav varkappa,,
 ϱ,03F1,1009,greek rho symbol,Greek and Coptic,rhov varrho,,
 ϲ,03F2,1010,greek lunate sigma symbol,Greek and Coptic,,,
@@ -938,145 +938,145 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ϴ,03F4,1012,greek capital theta symbol,Greek and Coptic,,,
 ϵ,03F5,1013,greek lunate epsilon symbol,Greek and Coptic,epsiv straightepsilon varepsilon,,
 ϶,03F6,1014,greek reversed lunate epsilon symbol,Greek and Coptic,backepsilon bepsi,,
-Ϸ,03F7,1015,greek capital letter sho,Greek and Coptic,,,
-ϸ,03F8,1016,greek small letter sho,Greek and Coptic,,,
-Ϲ,03F9,1017,greek capital lunate sigma symbol,Greek and Coptic,,,
-Ϻ,03FA,1018,greek capital letter san,Greek and Coptic,,,
-ϻ,03FB,1019,greek small letter san,Greek and Coptic,,,
+Ϸ,03F7,1015,greek capital letter sho,Greek and Coptic,,,uppercase
+ϸ,03F8,1016,greek small letter sho,Greek and Coptic,,,lowercase
+Ϲ,03F9,1017,greek capital lunate sigma symbol,Greek and Coptic,,,uppercase
+Ϻ,03FA,1018,greek capital letter san,Greek and Coptic,,,uppercase
+ϻ,03FB,1019,greek small letter san,Greek and Coptic,,,lowercase
 ϼ,03FC,1020,greek rho with stroke symbol,Greek and Coptic,,,
-Ͻ,03FD,1021,greek capital reversed lunate sigma symbol,Greek and Coptic,,,
-Ͼ,03FE,1022,greek capital dotted lunate sigma symbol,Greek and Coptic,,,
-Ͽ,03FF,1023,greek capital reversed dotted lunate sigma symbol,Greek and Coptic,,,
-Ѐ,0400,1024,cyrillic capital letter ie with grave,Cyrillic,,,
-Ё,0401,1025,cyrillic capital letter io,Cyrillic,IOcy,,
-Ђ,0402,1026,cyrillic capital letter dje,Cyrillic,DJcy,,
-Ѓ,0403,1027,cyrillic capital letter gje,Cyrillic,GJcy,,
-Є,0404,1028,cyrillic capital letter ukrainian ie,Cyrillic,Jukcy,,
-Ѕ,0405,1029,cyrillic capital letter dze,Cyrillic,DScy,,
-І,0406,1030,cyrillic capital letter byelorussian-ukrainian i,Cyrillic,Iukcy,,
-Ї,0407,1031,cyrillic capital letter yi,Cyrillic,YIcy,,
-Ј,0408,1032,cyrillic capital letter je,Cyrillic,Jsercy,,
-Љ,0409,1033,cyrillic capital letter lje,Cyrillic,LJcy,,
-Њ,040A,1034,cyrillic capital letter nje,Cyrillic,NJcy,,
-Ћ,040B,1035,cyrillic capital letter tshe,Cyrillic,TSHcy,,
-Ќ,040C,1036,cyrillic capital letter kje,Cyrillic,KJcy,,
-Ѝ,040D,1037,cyrillic capital letter i with grave,Cyrillic,,,
-Ў,040E,1038,cyrillic capital letter short u,Cyrillic,Ubrcy,,
-Џ,040F,1039,cyrillic capital letter dzhe,Cyrillic,DZcy,,
-А,0410,1040,cyrillic capital letter a,Cyrillic,Acy,,
-Б,0411,1041,cyrillic capital letter be,Cyrillic,Bcy,,
-В,0412,1042,cyrillic capital letter ve,Cyrillic,Vcy,,
-Г,0413,1043,cyrillic capital letter ghe,Cyrillic,Gcy,,
-Д,0414,1044,cyrillic capital letter de,Cyrillic,Dcy,,
-Е,0415,1045,cyrillic capital letter ie,Cyrillic,IEcy,,
-Ж,0416,1046,cyrillic capital letter zhe,Cyrillic,ZHcy,,
-З,0417,1047,cyrillic capital letter ze,Cyrillic,Zcy,,
-И,0418,1048,cyrillic capital letter i,Cyrillic,Icy,,
-Й,0419,1049,cyrillic capital letter short i,Cyrillic,Jcy,,
-К,041A,1050,cyrillic capital letter ka,Cyrillic,Kcy,,
-Л,041B,1051,cyrillic capital letter el,Cyrillic,Lcy,,
-М,041C,1052,cyrillic capital letter em,Cyrillic,Mcy,,
-Н,041D,1053,cyrillic capital letter en,Cyrillic,Ncy,,
-О,041E,1054,cyrillic capital letter o,Cyrillic,Ocy,,
-П,041F,1055,cyrillic capital letter pe,Cyrillic,Pcy,,
-Р,0420,1056,cyrillic capital letter er,Cyrillic,Rcy,,
-С,0421,1057,cyrillic capital letter es,Cyrillic,Scy,,
-Т,0422,1058,cyrillic capital letter te,Cyrillic,Tcy,,
-У,0423,1059,cyrillic capital letter u,Cyrillic,Ucy,,
-Ф,0424,1060,cyrillic capital letter ef,Cyrillic,Fcy,,
-Х,0425,1061,cyrillic capital letter ha,Cyrillic,KHcy,,
-Ц,0426,1062,cyrillic capital letter tse,Cyrillic,TScy,,
-Ч,0427,1063,cyrillic capital letter che,Cyrillic,CHcy,,
-Ш,0428,1064,cyrillic capital letter sha,Cyrillic,SHcy,,
-Щ,0429,1065,cyrillic capital letter shcha,Cyrillic,SHCHcy,,
-Ъ,042A,1066,cyrillic capital letter hard sign,Cyrillic,HARDcy,,
-Ы,042B,1067,cyrillic capital letter yeru,Cyrillic,Ycy,,
-Ь,042C,1068,cyrillic capital letter soft sign,Cyrillic,SOFTcy,,
-Э,042D,1069,cyrillic capital letter e,Cyrillic,Ecy,,
-Ю,042E,1070,cyrillic capital letter yu,Cyrillic,YUcy,,
-Я,042F,1071,cyrillic capital letter ya,Cyrillic,YAcy,,
-а,0430,1072,cyrillic small letter a,Cyrillic,acy,,
-б,0431,1073,cyrillic small letter be,Cyrillic,bcy,,
-в,0432,1074,cyrillic small letter ve,Cyrillic,vcy,,
-г,0433,1075,cyrillic small letter ghe,Cyrillic,gcy,,
-д,0434,1076,cyrillic small letter de,Cyrillic,dcy,,
-е,0435,1077,cyrillic small letter ie,Cyrillic,iecy,,
-ж,0436,1078,cyrillic small letter zhe,Cyrillic,zhcy,,
-з,0437,1079,cyrillic small letter ze,Cyrillic,zcy,,
-и,0438,1080,cyrillic small letter i,Cyrillic,icy,,
-й,0439,1081,cyrillic small letter short i,Cyrillic,jcy,,
-к,043A,1082,cyrillic small letter ka,Cyrillic,kcy,,
-л,043B,1083,cyrillic small letter el,Cyrillic,lcy,,
-м,043C,1084,cyrillic small letter em,Cyrillic,mcy,,
-н,043D,1085,cyrillic small letter en,Cyrillic,ncy,,
-о,043E,1086,cyrillic small letter o,Cyrillic,ocy,,
-п,043F,1087,cyrillic small letter pe,Cyrillic,pcy,,
-р,0440,1088,cyrillic small letter er,Cyrillic,rcy,,
-с,0441,1089,cyrillic small letter es,Cyrillic,scy,,
-т,0442,1090,cyrillic small letter te,Cyrillic,tcy,,
-у,0443,1091,cyrillic small letter u,Cyrillic,ucy,,
-ф,0444,1092,cyrillic small letter ef,Cyrillic,fcy,,
-х,0445,1093,cyrillic small letter ha,Cyrillic,khcy,,
-ц,0446,1094,cyrillic small letter tse,Cyrillic,tscy,,
-ч,0447,1095,cyrillic small letter che,Cyrillic,chcy,,
-ш,0448,1096,cyrillic small letter sha,Cyrillic,shcy,,
-щ,0449,1097,cyrillic small letter shcha,Cyrillic,shchcy,,
-ъ,044A,1098,cyrillic small letter hard sign,Cyrillic,hardcy,,
-ы,044B,1099,cyrillic small letter yeru,Cyrillic,ycy,,
-ь,044C,1100,cyrillic small letter soft sign,Cyrillic,softcy,,
-э,044D,1101,cyrillic small letter e,Cyrillic,ecy,,
-ю,044E,1102,cyrillic small letter yu,Cyrillic,yucy,,
-я,044F,1103,cyrillic small letter ya,Cyrillic,yacy,,
-ѐ,0450,1104,cyrillic small letter ie with grave,Cyrillic,,,
-ё,0451,1105,cyrillic small letter io,Cyrillic,iocy,,
-ђ,0452,1106,cyrillic small letter dje,Cyrillic,djcy,,
-ѓ,0453,1107,cyrillic small letter gje,Cyrillic,gjcy,,
-є,0454,1108,cyrillic small letter ukrainian ie,Cyrillic,jukcy,,
-ѕ,0455,1109,cyrillic small letter dze,Cyrillic,dscy,,
-і,0456,1110,cyrillic small letter byelorussian-ukrainian i,Cyrillic,iukcy,,
-ї,0457,1111,cyrillic small letter yi,Cyrillic,yicy,,
-ј,0458,1112,cyrillic small letter je,Cyrillic,jsercy,,
-љ,0459,1113,cyrillic small letter lje,Cyrillic,ljcy,,
-њ,045A,1114,cyrillic small letter nje,Cyrillic,njcy,,
-ћ,045B,1115,cyrillic small letter tshe,Cyrillic,tshcy,,
-ќ,045C,1116,cyrillic small letter kje,Cyrillic,kjcy,,
-ѝ,045D,1117,cyrillic small letter i with grave,Cyrillic,,,
-ў,045E,1118,cyrillic small letter short u,Cyrillic,ubrcy,,
-џ,045F,1119,cyrillic small letter dzhe,Cyrillic,dzcy,,
-Ѡ,0460,1120,cyrillic capital letter omega,Cyrillic,,,
-ѡ,0461,1121,cyrillic small letter omega,Cyrillic,,,
-Ѣ,0462,1122,cyrillic capital letter yat,Cyrillic,,,
-ѣ,0463,1123,cyrillic small letter yat,Cyrillic,,,
-Ѥ,0464,1124,cyrillic capital letter iotified e,Cyrillic,,,
-ѥ,0465,1125,cyrillic small letter iotified e,Cyrillic,,,
-Ѧ,0466,1126,cyrillic capital letter little yus,Cyrillic,,,
-ѧ,0467,1127,cyrillic small letter little yus,Cyrillic,,,
-Ѩ,0468,1128,cyrillic capital letter iotified little yus,Cyrillic,,,
-ѩ,0469,1129,cyrillic small letter iotified little yus,Cyrillic,,,
-Ѫ,046A,1130,cyrillic capital letter big yus,Cyrillic,,,
-ѫ,046B,1131,cyrillic small letter big yus,Cyrillic,,,
-Ѭ,046C,1132,cyrillic capital letter iotified big yus,Cyrillic,,,
-ѭ,046D,1133,cyrillic small letter iotified big yus,Cyrillic,,,
-Ѯ,046E,1134,cyrillic capital letter ksi,Cyrillic,,,
-ѯ,046F,1135,cyrillic small letter ksi,Cyrillic,,,
-Ѱ,0470,1136,cyrillic capital letter psi,Cyrillic,,,
-ѱ,0471,1137,cyrillic small letter psi,Cyrillic,,,
-Ѳ,0472,1138,cyrillic capital letter fita,Cyrillic,,,
-ѳ,0473,1139,cyrillic small letter fita,Cyrillic,,,
-Ѵ,0474,1140,cyrillic capital letter izhitsa,Cyrillic,,,
-ѵ,0475,1141,cyrillic small letter izhitsa,Cyrillic,,,
-Ѷ,0476,1142,cyrillic capital letter izhitsa with double grave accent,Cyrillic,,,
-ѷ,0477,1143,cyrillic small letter izhitsa with double grave accent,Cyrillic,,,
-Ѹ,0478,1144,cyrillic capital letter uk,Cyrillic,,,
-ѹ,0479,1145,cyrillic small letter uk,Cyrillic,,,
-Ѻ,047A,1146,cyrillic capital letter round omega,Cyrillic,,,
-ѻ,047B,1147,cyrillic small letter round omega,Cyrillic,,,
-Ѽ,047C,1148,cyrillic capital letter omega with titlo,Cyrillic,,,
-ѽ,047D,1149,cyrillic small letter omega with titlo,Cyrillic,,,
-Ѿ,047E,1150,cyrillic capital letter ot,Cyrillic,,,
-ѿ,047F,1151,cyrillic small letter ot,Cyrillic,,,
-Ҁ,0480,1152,cyrillic capital letter koppa,Cyrillic,,,
-ҁ,0481,1153,cyrillic small letter koppa,Cyrillic,,,
+Ͻ,03FD,1021,greek capital reversed lunate sigma symbol,Greek and Coptic,,,uppercase
+Ͼ,03FE,1022,greek capital dotted lunate sigma symbol,Greek and Coptic,,,uppercase
+Ͽ,03FF,1023,greek capital reversed dotted lunate sigma symbol,Greek and Coptic,,,uppercase
+Ѐ,0400,1024,cyrillic capital letter ie with grave,Cyrillic,,,uppercase
+Ё,0401,1025,cyrillic capital letter io,Cyrillic,IOcy,,uppercase
+Ђ,0402,1026,cyrillic capital letter dje,Cyrillic,DJcy,,uppercase
+Ѓ,0403,1027,cyrillic capital letter gje,Cyrillic,GJcy,,uppercase
+Є,0404,1028,cyrillic capital letter ukrainian ie,Cyrillic,Jukcy,,uppercase
+Ѕ,0405,1029,cyrillic capital letter dze,Cyrillic,DScy,,uppercase
+І,0406,1030,cyrillic capital letter byelorussian-ukrainian i,Cyrillic,Iukcy,,uppercase
+Ї,0407,1031,cyrillic capital letter yi,Cyrillic,YIcy,,uppercase
+Ј,0408,1032,cyrillic capital letter je,Cyrillic,Jsercy,,uppercase
+Љ,0409,1033,cyrillic capital letter lje,Cyrillic,LJcy,,uppercase
+Њ,040A,1034,cyrillic capital letter nje,Cyrillic,NJcy,,uppercase
+Ћ,040B,1035,cyrillic capital letter tshe,Cyrillic,TSHcy,,uppercase
+Ќ,040C,1036,cyrillic capital letter kje,Cyrillic,KJcy,,uppercase
+Ѝ,040D,1037,cyrillic capital letter i with grave,Cyrillic,,,uppercase
+Ў,040E,1038,cyrillic capital letter short u,Cyrillic,Ubrcy,,uppercase
+Џ,040F,1039,cyrillic capital letter dzhe,Cyrillic,DZcy,,uppercase
+А,0410,1040,cyrillic capital letter a,Cyrillic,Acy,,uppercase
+Б,0411,1041,cyrillic capital letter be,Cyrillic,Bcy,,uppercase
+В,0412,1042,cyrillic capital letter ve,Cyrillic,Vcy,,uppercase
+Г,0413,1043,cyrillic capital letter ghe,Cyrillic,Gcy,,uppercase
+Д,0414,1044,cyrillic capital letter de,Cyrillic,Dcy,,uppercase
+Е,0415,1045,cyrillic capital letter ie,Cyrillic,IEcy,,uppercase
+Ж,0416,1046,cyrillic capital letter zhe,Cyrillic,ZHcy,,uppercase
+З,0417,1047,cyrillic capital letter ze,Cyrillic,Zcy,,uppercase
+И,0418,1048,cyrillic capital letter i,Cyrillic,Icy,,uppercase
+Й,0419,1049,cyrillic capital letter short i,Cyrillic,Jcy,,uppercase
+К,041A,1050,cyrillic capital letter ka,Cyrillic,Kcy,,uppercase
+Л,041B,1051,cyrillic capital letter el,Cyrillic,Lcy,,uppercase
+М,041C,1052,cyrillic capital letter em,Cyrillic,Mcy,,uppercase
+Н,041D,1053,cyrillic capital letter en,Cyrillic,Ncy,,uppercase
+О,041E,1054,cyrillic capital letter o,Cyrillic,Ocy,,uppercase
+П,041F,1055,cyrillic capital letter pe,Cyrillic,Pcy,,uppercase
+Р,0420,1056,cyrillic capital letter er,Cyrillic,Rcy,,uppercase
+С,0421,1057,cyrillic capital letter es,Cyrillic,Scy,,uppercase
+Т,0422,1058,cyrillic capital letter te,Cyrillic,Tcy,,uppercase
+У,0423,1059,cyrillic capital letter u,Cyrillic,Ucy,,uppercase
+Ф,0424,1060,cyrillic capital letter ef,Cyrillic,Fcy,,uppercase
+Х,0425,1061,cyrillic capital letter ha,Cyrillic,KHcy,,uppercase
+Ц,0426,1062,cyrillic capital letter tse,Cyrillic,TScy,,uppercase
+Ч,0427,1063,cyrillic capital letter che,Cyrillic,CHcy,,uppercase
+Ш,0428,1064,cyrillic capital letter sha,Cyrillic,SHcy,,uppercase
+Щ,0429,1065,cyrillic capital letter shcha,Cyrillic,SHCHcy,,uppercase
+Ъ,042A,1066,cyrillic capital letter hard sign,Cyrillic,HARDcy,,uppercase
+Ы,042B,1067,cyrillic capital letter yeru,Cyrillic,Ycy,,uppercase
+Ь,042C,1068,cyrillic capital letter soft sign,Cyrillic,SOFTcy,,uppercase
+Э,042D,1069,cyrillic capital letter e,Cyrillic,Ecy,,uppercase
+Ю,042E,1070,cyrillic capital letter yu,Cyrillic,YUcy,,uppercase
+Я,042F,1071,cyrillic capital letter ya,Cyrillic,YAcy,,uppercase
+а,0430,1072,cyrillic small letter a,Cyrillic,acy,,lowercase
+б,0431,1073,cyrillic small letter be,Cyrillic,bcy,,lowercase
+в,0432,1074,cyrillic small letter ve,Cyrillic,vcy,,lowercase
+г,0433,1075,cyrillic small letter ghe,Cyrillic,gcy,,lowercase
+д,0434,1076,cyrillic small letter de,Cyrillic,dcy,,lowercase
+е,0435,1077,cyrillic small letter ie,Cyrillic,iecy,,lowercase
+ж,0436,1078,cyrillic small letter zhe,Cyrillic,zhcy,,lowercase
+з,0437,1079,cyrillic small letter ze,Cyrillic,zcy,,lowercase
+и,0438,1080,cyrillic small letter i,Cyrillic,icy,,lowercase
+й,0439,1081,cyrillic small letter short i,Cyrillic,jcy,,lowercase
+к,043A,1082,cyrillic small letter ka,Cyrillic,kcy,,lowercase
+л,043B,1083,cyrillic small letter el,Cyrillic,lcy,,lowercase
+м,043C,1084,cyrillic small letter em,Cyrillic,mcy,,lowercase
+н,043D,1085,cyrillic small letter en,Cyrillic,ncy,,lowercase
+о,043E,1086,cyrillic small letter o,Cyrillic,ocy,,lowercase
+п,043F,1087,cyrillic small letter pe,Cyrillic,pcy,,lowercase
+р,0440,1088,cyrillic small letter er,Cyrillic,rcy,,lowercase
+с,0441,1089,cyrillic small letter es,Cyrillic,scy,,lowercase
+т,0442,1090,cyrillic small letter te,Cyrillic,tcy,,lowercase
+у,0443,1091,cyrillic small letter u,Cyrillic,ucy,,lowercase
+ф,0444,1092,cyrillic small letter ef,Cyrillic,fcy,,lowercase
+х,0445,1093,cyrillic small letter ha,Cyrillic,khcy,,lowercase
+ц,0446,1094,cyrillic small letter tse,Cyrillic,tscy,,lowercase
+ч,0447,1095,cyrillic small letter che,Cyrillic,chcy,,lowercase
+ш,0448,1096,cyrillic small letter sha,Cyrillic,shcy,,lowercase
+щ,0449,1097,cyrillic small letter shcha,Cyrillic,shchcy,,lowercase
+ъ,044A,1098,cyrillic small letter hard sign,Cyrillic,hardcy,,lowercase
+ы,044B,1099,cyrillic small letter yeru,Cyrillic,ycy,,lowercase
+ь,044C,1100,cyrillic small letter soft sign,Cyrillic,softcy,,lowercase
+э,044D,1101,cyrillic small letter e,Cyrillic,ecy,,lowercase
+ю,044E,1102,cyrillic small letter yu,Cyrillic,yucy,,lowercase
+я,044F,1103,cyrillic small letter ya,Cyrillic,yacy,,lowercase
+ѐ,0450,1104,cyrillic small letter ie with grave,Cyrillic,,,lowercase
+ё,0451,1105,cyrillic small letter io,Cyrillic,iocy,,lowercase
+ђ,0452,1106,cyrillic small letter dje,Cyrillic,djcy,,lowercase
+ѓ,0453,1107,cyrillic small letter gje,Cyrillic,gjcy,,lowercase
+є,0454,1108,cyrillic small letter ukrainian ie,Cyrillic,jukcy,,lowercase
+ѕ,0455,1109,cyrillic small letter dze,Cyrillic,dscy,,lowercase
+і,0456,1110,cyrillic small letter byelorussian-ukrainian i,Cyrillic,iukcy,,lowercase
+ї,0457,1111,cyrillic small letter yi,Cyrillic,yicy,,lowercase
+ј,0458,1112,cyrillic small letter je,Cyrillic,jsercy,,lowercase
+љ,0459,1113,cyrillic small letter lje,Cyrillic,ljcy,,lowercase
+њ,045A,1114,cyrillic small letter nje,Cyrillic,njcy,,lowercase
+ћ,045B,1115,cyrillic small letter tshe,Cyrillic,tshcy,,lowercase
+ќ,045C,1116,cyrillic small letter kje,Cyrillic,kjcy,,lowercase
+ѝ,045D,1117,cyrillic small letter i with grave,Cyrillic,,,lowercase
+ў,045E,1118,cyrillic small letter short u,Cyrillic,ubrcy,,lowercase
+џ,045F,1119,cyrillic small letter dzhe,Cyrillic,dzcy,,lowercase
+Ѡ,0460,1120,cyrillic capital letter omega,Cyrillic,,,uppercase
+ѡ,0461,1121,cyrillic small letter omega,Cyrillic,,,lowercase
+Ѣ,0462,1122,cyrillic capital letter yat,Cyrillic,,,uppercase
+ѣ,0463,1123,cyrillic small letter yat,Cyrillic,,,lowercase
+Ѥ,0464,1124,cyrillic capital letter iotified e,Cyrillic,,,uppercase
+ѥ,0465,1125,cyrillic small letter iotified e,Cyrillic,,,lowercase
+Ѧ,0466,1126,cyrillic capital letter little yus,Cyrillic,,,uppercase
+ѧ,0467,1127,cyrillic small letter little yus,Cyrillic,,,lowercase
+Ѩ,0468,1128,cyrillic capital letter iotified little yus,Cyrillic,,,uppercase
+ѩ,0469,1129,cyrillic small letter iotified little yus,Cyrillic,,,lowercase
+Ѫ,046A,1130,cyrillic capital letter big yus,Cyrillic,,,uppercase
+ѫ,046B,1131,cyrillic small letter big yus,Cyrillic,,,lowercase
+Ѭ,046C,1132,cyrillic capital letter iotified big yus,Cyrillic,,,uppercase
+ѭ,046D,1133,cyrillic small letter iotified big yus,Cyrillic,,,lowercase
+Ѯ,046E,1134,cyrillic capital letter ksi,Cyrillic,,,uppercase
+ѯ,046F,1135,cyrillic small letter ksi,Cyrillic,,,lowercase
+Ѱ,0470,1136,cyrillic capital letter psi,Cyrillic,,,uppercase
+ѱ,0471,1137,cyrillic small letter psi,Cyrillic,,,lowercase
+Ѳ,0472,1138,cyrillic capital letter fita,Cyrillic,,,uppercase
+ѳ,0473,1139,cyrillic small letter fita,Cyrillic,,,lowercase
+Ѵ,0474,1140,cyrillic capital letter izhitsa,Cyrillic,,,uppercase
+ѵ,0475,1141,cyrillic small letter izhitsa,Cyrillic,,,lowercase
+Ѷ,0476,1142,cyrillic capital letter izhitsa with double grave accent,Cyrillic,,,uppercase
+ѷ,0477,1143,cyrillic small letter izhitsa with double grave accent,Cyrillic,,,lowercase
+Ѹ,0478,1144,cyrillic capital letter uk,Cyrillic,,,uppercase
+ѹ,0479,1145,cyrillic small letter uk,Cyrillic,,,lowercase
+Ѻ,047A,1146,cyrillic capital letter round omega,Cyrillic,,,uppercase
+ѻ,047B,1147,cyrillic small letter round omega,Cyrillic,,,lowercase
+Ѽ,047C,1148,cyrillic capital letter omega with titlo,Cyrillic,,,uppercase
+ѽ,047D,1149,cyrillic small letter omega with titlo,Cyrillic,,,lowercase
+Ѿ,047E,1150,cyrillic capital letter ot,Cyrillic,,,uppercase
+ѿ,047F,1151,cyrillic small letter ot,Cyrillic,,,lowercase
+Ҁ,0480,1152,cyrillic capital letter koppa,Cyrillic,,,uppercase
+ҁ,0481,1153,cyrillic small letter koppa,Cyrillic,,,lowercase
 ҂,0482,1154,cyrillic thousands sign,Cyrillic,,,
 ҃,0483,1155,combining cyrillic titlo,Cyrillic,,,
 ҄,0484,1156,combining cyrillic palatalization,Cyrillic,,,
@@ -1085,172 +1085,172 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ҇,0487,1159,combining cyrillic pokrytie,Cyrillic,,,
 ҈,0488,1160,combining cyrillic hundred thousands sign,Cyrillic,,,circle
 ҉,0489,1161,combining cyrillic millions sign,Cyrillic,,,circle
-Ҋ,048A,1162,cyrillic capital letter short i with tail,Cyrillic,,,
-ҋ,048B,1163,cyrillic small letter short i with tail,Cyrillic,,,
-Ҍ,048C,1164,cyrillic capital letter semisoft sign,Cyrillic,,,
-ҍ,048D,1165,cyrillic small letter semisoft sign,Cyrillic,,,
-Ҏ,048E,1166,cyrillic capital letter er with tick,Cyrillic,,,
-ҏ,048F,1167,cyrillic small letter er with tick,Cyrillic,,,
-Ґ,0490,1168,cyrillic capital letter ghe with upturn,Cyrillic,,,
-ґ,0491,1169,cyrillic small letter ghe with upturn,Cyrillic,,,
-Ғ,0492,1170,cyrillic capital letter ghe with stroke,Cyrillic,,,
-ғ,0493,1171,cyrillic small letter ghe with stroke,Cyrillic,,,
-Ҕ,0494,1172,cyrillic capital letter ghe with middle hook,Cyrillic,,,
-ҕ,0495,1173,cyrillic small letter ghe with middle hook,Cyrillic,,,
-Җ,0496,1174,cyrillic capital letter zhe with descender,Cyrillic,,,
-җ,0497,1175,cyrillic small letter zhe with descender,Cyrillic,,,
-Ҙ,0498,1176,cyrillic capital letter ze with descender,Cyrillic,,,
-ҙ,0499,1177,cyrillic small letter ze with descender,Cyrillic,,,
-Қ,049A,1178,cyrillic capital letter ka with descender,Cyrillic,,,
-қ,049B,1179,cyrillic small letter ka with descender,Cyrillic,,,
-Ҝ,049C,1180,cyrillic capital letter ka with vertical stroke,Cyrillic,,,
-ҝ,049D,1181,cyrillic small letter ka with vertical stroke,Cyrillic,,,
-Ҟ,049E,1182,cyrillic capital letter ka with stroke,Cyrillic,,,
-ҟ,049F,1183,cyrillic small letter ka with stroke,Cyrillic,,,
-Ҡ,04A0,1184,cyrillic capital letter bashkir ka,Cyrillic,,,
-ҡ,04A1,1185,cyrillic small letter bashkir ka,Cyrillic,,,
-Ң,04A2,1186,cyrillic capital letter en with descender,Cyrillic,,,
-ң,04A3,1187,cyrillic small letter en with descender,Cyrillic,,,
-Ҥ,04A4,1188,cyrillic capital ligature en ghe,Cyrillic,,,
-ҥ,04A5,1189,cyrillic small ligature en ghe,Cyrillic,,,
-Ҧ,04A6,1190,cyrillic capital letter pe with middle hook,Cyrillic,,,
-ҧ,04A7,1191,cyrillic small letter pe with middle hook,Cyrillic,,,
-Ҩ,04A8,1192,cyrillic capital letter abkhasian ha,Cyrillic,,,
-ҩ,04A9,1193,cyrillic small letter abkhasian ha,Cyrillic,,,
-Ҫ,04AA,1194,cyrillic capital letter es with descender,Cyrillic,,,
-ҫ,04AB,1195,cyrillic small letter es with descender,Cyrillic,,,
-Ҭ,04AC,1196,cyrillic capital letter te with descender,Cyrillic,,,
-ҭ,04AD,1197,cyrillic small letter te with descender,Cyrillic,,,
-Ү,04AE,1198,cyrillic capital letter straight u,Cyrillic,,,
-ү,04AF,1199,cyrillic small letter straight u,Cyrillic,,,
-Ұ,04B0,1200,cyrillic capital letter straight u with stroke,Cyrillic,,,
-ұ,04B1,1201,cyrillic small letter straight u with stroke,Cyrillic,,,
-Ҳ,04B2,1202,cyrillic capital letter ha with descender,Cyrillic,,,
-ҳ,04B3,1203,cyrillic small letter ha with descender,Cyrillic,,,
-Ҵ,04B4,1204,cyrillic capital ligature te tse,Cyrillic,,,
-ҵ,04B5,1205,cyrillic small ligature te tse,Cyrillic,,,
-Ҷ,04B6,1206,cyrillic capital letter che with descender,Cyrillic,,,
-ҷ,04B7,1207,cyrillic small letter che with descender,Cyrillic,,,
-Ҹ,04B8,1208,cyrillic capital letter che with vertical stroke,Cyrillic,,,
-ҹ,04B9,1209,cyrillic small letter che with vertical stroke,Cyrillic,,,
-Һ,04BA,1210,cyrillic capital letter shha,Cyrillic,,,
-һ,04BB,1211,cyrillic small letter shha,Cyrillic,,,
-Ҽ,04BC,1212,cyrillic capital letter abkhasian che,Cyrillic,,,
-ҽ,04BD,1213,cyrillic small letter abkhasian che,Cyrillic,,,
-Ҿ,04BE,1214,cyrillic capital letter abkhasian che with descender,Cyrillic,,,
-ҿ,04BF,1215,cyrillic small letter abkhasian che with descender,Cyrillic,,,
+Ҋ,048A,1162,cyrillic capital letter short i with tail,Cyrillic,,,uppercase
+ҋ,048B,1163,cyrillic small letter short i with tail,Cyrillic,,,lowercase
+Ҍ,048C,1164,cyrillic capital letter semisoft sign,Cyrillic,,,uppercase
+ҍ,048D,1165,cyrillic small letter semisoft sign,Cyrillic,,,lowercase
+Ҏ,048E,1166,cyrillic capital letter er with tick,Cyrillic,,,uppercase
+ҏ,048F,1167,cyrillic small letter er with tick,Cyrillic,,,lowercase
+Ґ,0490,1168,cyrillic capital letter ghe with upturn,Cyrillic,,,uppercase
+ґ,0491,1169,cyrillic small letter ghe with upturn,Cyrillic,,,lowercase
+Ғ,0492,1170,cyrillic capital letter ghe with stroke,Cyrillic,,,uppercase
+ғ,0493,1171,cyrillic small letter ghe with stroke,Cyrillic,,,lowercase
+Ҕ,0494,1172,cyrillic capital letter ghe with middle hook,Cyrillic,,,uppercase
+ҕ,0495,1173,cyrillic small letter ghe with middle hook,Cyrillic,,,lowercase
+Җ,0496,1174,cyrillic capital letter zhe with descender,Cyrillic,,,uppercase
+җ,0497,1175,cyrillic small letter zhe with descender,Cyrillic,,,lowercase
+Ҙ,0498,1176,cyrillic capital letter ze with descender,Cyrillic,,,uppercase
+ҙ,0499,1177,cyrillic small letter ze with descender,Cyrillic,,,lowercase
+Қ,049A,1178,cyrillic capital letter ka with descender,Cyrillic,,,uppercase
+қ,049B,1179,cyrillic small letter ka with descender,Cyrillic,,,lowercase
+Ҝ,049C,1180,cyrillic capital letter ka with vertical stroke,Cyrillic,,,uppercase
+ҝ,049D,1181,cyrillic small letter ka with vertical stroke,Cyrillic,,,lowercase
+Ҟ,049E,1182,cyrillic capital letter ka with stroke,Cyrillic,,,uppercase
+ҟ,049F,1183,cyrillic small letter ka with stroke,Cyrillic,,,lowercase
+Ҡ,04A0,1184,cyrillic capital letter bashkir ka,Cyrillic,,,uppercase
+ҡ,04A1,1185,cyrillic small letter bashkir ka,Cyrillic,,,lowercase
+Ң,04A2,1186,cyrillic capital letter en with descender,Cyrillic,,,uppercase
+ң,04A3,1187,cyrillic small letter en with descender,Cyrillic,,,lowercase
+Ҥ,04A4,1188,cyrillic capital ligature en ghe,Cyrillic,,,uppercase
+ҥ,04A5,1189,cyrillic small ligature en ghe,Cyrillic,,,lowercase
+Ҧ,04A6,1190,cyrillic capital letter pe with middle hook,Cyrillic,,,uppercase
+ҧ,04A7,1191,cyrillic small letter pe with middle hook,Cyrillic,,,lowercase
+Ҩ,04A8,1192,cyrillic capital letter abkhasian ha,Cyrillic,,,uppercase
+ҩ,04A9,1193,cyrillic small letter abkhasian ha,Cyrillic,,,lowercase
+Ҫ,04AA,1194,cyrillic capital letter es with descender,Cyrillic,,,uppercase
+ҫ,04AB,1195,cyrillic small letter es with descender,Cyrillic,,,lowercase
+Ҭ,04AC,1196,cyrillic capital letter te with descender,Cyrillic,,,uppercase
+ҭ,04AD,1197,cyrillic small letter te with descender,Cyrillic,,,lowercase
+Ү,04AE,1198,cyrillic capital letter straight u,Cyrillic,,,uppercase
+ү,04AF,1199,cyrillic small letter straight u,Cyrillic,,,lowercase
+Ұ,04B0,1200,cyrillic capital letter straight u with stroke,Cyrillic,,,uppercase
+ұ,04B1,1201,cyrillic small letter straight u with stroke,Cyrillic,,,lowercase
+Ҳ,04B2,1202,cyrillic capital letter ha with descender,Cyrillic,,,uppercase
+ҳ,04B3,1203,cyrillic small letter ha with descender,Cyrillic,,,lowercase
+Ҵ,04B4,1204,cyrillic capital ligature te tse,Cyrillic,,,uppercase
+ҵ,04B5,1205,cyrillic small ligature te tse,Cyrillic,,,lowercase
+Ҷ,04B6,1206,cyrillic capital letter che with descender,Cyrillic,,,uppercase
+ҷ,04B7,1207,cyrillic small letter che with descender,Cyrillic,,,lowercase
+Ҹ,04B8,1208,cyrillic capital letter che with vertical stroke,Cyrillic,,,uppercase
+ҹ,04B9,1209,cyrillic small letter che with vertical stroke,Cyrillic,,,lowercase
+Һ,04BA,1210,cyrillic capital letter shha,Cyrillic,,,uppercase
+һ,04BB,1211,cyrillic small letter shha,Cyrillic,,,lowercase
+Ҽ,04BC,1212,cyrillic capital letter abkhasian che,Cyrillic,,,uppercase
+ҽ,04BD,1213,cyrillic small letter abkhasian che,Cyrillic,,,lowercase
+Ҿ,04BE,1214,cyrillic capital letter abkhasian che with descender,Cyrillic,,,uppercase
+ҿ,04BF,1215,cyrillic small letter abkhasian che with descender,Cyrillic,,,lowercase
 Ӏ,04C0,1216,cyrillic letter palochka,Cyrillic,,,
-Ӂ,04C1,1217,cyrillic capital letter zhe with breve,Cyrillic,,,
-ӂ,04C2,1218,cyrillic small letter zhe with breve,Cyrillic,,,
-Ӄ,04C3,1219,cyrillic capital letter ka with hook,Cyrillic,,,
-ӄ,04C4,1220,cyrillic small letter ka with hook,Cyrillic,,,
-Ӆ,04C5,1221,cyrillic capital letter el with tail,Cyrillic,,,
-ӆ,04C6,1222,cyrillic small letter el with tail,Cyrillic,,,
-Ӈ,04C7,1223,cyrillic capital letter en with hook,Cyrillic,,,
-ӈ,04C8,1224,cyrillic small letter en with hook,Cyrillic,,,
-Ӊ,04C9,1225,cyrillic capital letter en with tail,Cyrillic,,,
-ӊ,04CA,1226,cyrillic small letter en with tail,Cyrillic,,,
-Ӌ,04CB,1227,cyrillic capital letter khakassian che,Cyrillic,,,
-ӌ,04CC,1228,cyrillic small letter khakassian che,Cyrillic,,,
-Ӎ,04CD,1229,cyrillic capital letter em with tail,Cyrillic,,,
-ӎ,04CE,1230,cyrillic small letter em with tail,Cyrillic,,,
-ӏ,04CF,1231,cyrillic small letter palochka,Cyrillic,,,
-Ӑ,04D0,1232,cyrillic capital letter a with breve,Cyrillic,,,
-ӑ,04D1,1233,cyrillic small letter a with breve,Cyrillic,,,
-Ӓ,04D2,1234,cyrillic capital letter a with diaeresis,Cyrillic,,,
-ӓ,04D3,1235,cyrillic small letter a with diaeresis,Cyrillic,,,
-Ӕ,04D4,1236,cyrillic capital ligature a ie,Cyrillic,,,ae
-ӕ,04D5,1237,cyrillic small ligature a ie,Cyrillic,,,ae
-Ӗ,04D6,1238,cyrillic capital letter ie with breve,Cyrillic,,,
-ӗ,04D7,1239,cyrillic small letter ie with breve,Cyrillic,,,
-Ә,04D8,1240,cyrillic capital letter schwa,Cyrillic,,,
-ә,04D9,1241,cyrillic small letter schwa,Cyrillic,,,
-Ӛ,04DA,1242,cyrillic capital letter schwa with diaeresis,Cyrillic,,,
-ӛ,04DB,1243,cyrillic small letter schwa with diaeresis,Cyrillic,,,
-Ӝ,04DC,1244,cyrillic capital letter zhe with diaeresis,Cyrillic,,,
-ӝ,04DD,1245,cyrillic small letter zhe with diaeresis,Cyrillic,,,
-Ӟ,04DE,1246,cyrillic capital letter ze with diaeresis,Cyrillic,,,
-ӟ,04DF,1247,cyrillic small letter ze with diaeresis,Cyrillic,,,
-Ӡ,04E0,1248,cyrillic capital letter abkhasian dze,Cyrillic,,,
-ӡ,04E1,1249,cyrillic small letter abkhasian dze,Cyrillic,,,
-Ӣ,04E2,1250,cyrillic capital letter i with macron,Cyrillic,,,
-ӣ,04E3,1251,cyrillic small letter i with macron,Cyrillic,,,
-Ӥ,04E4,1252,cyrillic capital letter i with diaeresis,Cyrillic,,,
-ӥ,04E5,1253,cyrillic small letter i with diaeresis,Cyrillic,,,
-Ӧ,04E6,1254,cyrillic capital letter o with diaeresis,Cyrillic,,,
-ӧ,04E7,1255,cyrillic small letter o with diaeresis,Cyrillic,,,
-Ө,04E8,1256,cyrillic capital letter barred o,Cyrillic,,,
-ө,04E9,1257,cyrillic small letter barred o,Cyrillic,,,
-Ӫ,04EA,1258,cyrillic capital letter barred o with diaeresis,Cyrillic,,,
-ӫ,04EB,1259,cyrillic small letter barred o with diaeresis,Cyrillic,,,
-Ӭ,04EC,1260,cyrillic capital letter e with diaeresis,Cyrillic,,,
-ӭ,04ED,1261,cyrillic small letter e with diaeresis,Cyrillic,,,
-Ӯ,04EE,1262,cyrillic capital letter u with macron,Cyrillic,,,
-ӯ,04EF,1263,cyrillic small letter u with macron,Cyrillic,,,
-Ӱ,04F0,1264,cyrillic capital letter u with diaeresis,Cyrillic,,,
-ӱ,04F1,1265,cyrillic small letter u with diaeresis,Cyrillic,,,
-Ӳ,04F2,1266,cyrillic capital letter u with double acute,Cyrillic,,,
-ӳ,04F3,1267,cyrillic small letter u with double acute,Cyrillic,,,
-Ӵ,04F4,1268,cyrillic capital letter che with diaeresis,Cyrillic,,,
-ӵ,04F5,1269,cyrillic small letter che with diaeresis,Cyrillic,,,
-Ӷ,04F6,1270,cyrillic capital letter ghe with descender,Cyrillic,,,
-ӷ,04F7,1271,cyrillic small letter ghe with descender,Cyrillic,,,
-Ӹ,04F8,1272,cyrillic capital letter yeru with diaeresis,Cyrillic,,,
-ӹ,04F9,1273,cyrillic small letter yeru with diaeresis,Cyrillic,,,
-Ӻ,04FA,1274,cyrillic capital letter ghe with stroke and hook,Cyrillic,,,
-ӻ,04FB,1275,cyrillic small letter ghe with stroke and hook,Cyrillic,,,
-Ӽ,04FC,1276,cyrillic capital letter ha with hook,Cyrillic,,,
-ӽ,04FD,1277,cyrillic small letter ha with hook,Cyrillic,,,
-Ӿ,04FE,1278,cyrillic capital letter ha with stroke,Cyrillic,,,
-ӿ,04FF,1279,cyrillic small letter ha with stroke,Cyrillic,,,
-Ԁ,0500,1280,cyrillic capital letter komi de,Cyrillic Supplement,,,
-ԁ,0501,1281,cyrillic small letter komi de,Cyrillic Supplement,,,
-Ԃ,0502,1282,cyrillic capital letter komi dje,Cyrillic Supplement,,,
-ԃ,0503,1283,cyrillic small letter komi dje,Cyrillic Supplement,,,
-Ԅ,0504,1284,cyrillic capital letter komi zje,Cyrillic Supplement,,,
-ԅ,0505,1285,cyrillic small letter komi zje,Cyrillic Supplement,,,
-Ԇ,0506,1286,cyrillic capital letter komi dzje,Cyrillic Supplement,,,
-ԇ,0507,1287,cyrillic small letter komi dzje,Cyrillic Supplement,,,
-Ԉ,0508,1288,cyrillic capital letter komi lje,Cyrillic Supplement,,,
-ԉ,0509,1289,cyrillic small letter komi lje,Cyrillic Supplement,,,
-Ԋ,050A,1290,cyrillic capital letter komi nje,Cyrillic Supplement,,,
-ԋ,050B,1291,cyrillic small letter komi nje,Cyrillic Supplement,,,
-Ԍ,050C,1292,cyrillic capital letter komi sje,Cyrillic Supplement,,,
-ԍ,050D,1293,cyrillic small letter komi sje,Cyrillic Supplement,,,
-Ԏ,050E,1294,cyrillic capital letter komi tje,Cyrillic Supplement,,,
-ԏ,050F,1295,cyrillic small letter komi tje,Cyrillic Supplement,,,
-Ԑ,0510,1296,cyrillic capital letter reversed ze,Cyrillic Supplement,,,
-ԑ,0511,1297,cyrillic small letter reversed ze,Cyrillic Supplement,,,
-Ԓ,0512,1298,cyrillic capital letter el with hook,Cyrillic Supplement,,,
-ԓ,0513,1299,cyrillic small letter el with hook,Cyrillic Supplement,,,
-Ԕ,0514,1300,cyrillic capital letter lha,Cyrillic Supplement,,,
-ԕ,0515,1301,cyrillic small letter lha,Cyrillic Supplement,,,
-Ԗ,0516,1302,cyrillic capital letter rha,Cyrillic Supplement,,,
-ԗ,0517,1303,cyrillic small letter rha,Cyrillic Supplement,,,
-Ԙ,0518,1304,cyrillic capital letter yae,Cyrillic Supplement,,,
-ԙ,0519,1305,cyrillic small letter yae,Cyrillic Supplement,,,
-Ԛ,051A,1306,cyrillic capital letter qa,Cyrillic Supplement,,,
-ԛ,051B,1307,cyrillic small letter qa,Cyrillic Supplement,,,
-Ԝ,051C,1308,cyrillic capital letter we,Cyrillic Supplement,,,
-ԝ,051D,1309,cyrillic small letter we,Cyrillic Supplement,,,
-Ԟ,051E,1310,cyrillic capital letter aleut ka,Cyrillic Supplement,,,
-ԟ,051F,1311,cyrillic small letter aleut ka,Cyrillic Supplement,,,
-Ԡ,0520,1312,cyrillic capital letter el with middle hook,Cyrillic Supplement,,,
-ԡ,0521,1313,cyrillic small letter el with middle hook,Cyrillic Supplement,,,
-Ԣ,0522,1314,cyrillic capital letter en with middle hook,Cyrillic Supplement,,,
-ԣ,0523,1315,cyrillic small letter en with middle hook,Cyrillic Supplement,,,
-Ԥ,0524,1316,cyrillic capital letter pe with descender,Cyrillic Supplement,,,
-ԥ,0525,1317,cyrillic small letter pe with descender,Cyrillic Supplement,,,
-Ԧ,0526,1318,cyrillic capital letter shha with descender,Cyrillic Supplement,,,
-ԧ,0527,1319,cyrillic small letter shha with descender,Cyrillic Supplement,,,
-Ԩ,0528,1320,cyrillic capital letter en with left hook,Cyrillic Supplement,,,
-ԩ,0529,1321,cyrillic small letter en with left hook,Cyrillic Supplement,,,
-Ԫ,052A,1322,cyrillic capital letter dzzhe,Cyrillic Supplement,,,
-ԫ,052B,1323,cyrillic small letter dzzhe,Cyrillic Supplement,,,
-Ԭ,052C,1324,cyrillic capital letter dche,Cyrillic Supplement,,,
-ԭ,052D,1325,cyrillic small letter dche,Cyrillic Supplement,,,
-Ԯ,052E,1326,cyrillic capital letter el with descender,Cyrillic Supplement,,,
-ԯ,052F,1327,cyrillic small letter el with descender,Cyrillic Supplement,,,
+Ӂ,04C1,1217,cyrillic capital letter zhe with breve,Cyrillic,,,uppercase
+ӂ,04C2,1218,cyrillic small letter zhe with breve,Cyrillic,,,lowercase
+Ӄ,04C3,1219,cyrillic capital letter ka with hook,Cyrillic,,,uppercase
+ӄ,04C4,1220,cyrillic small letter ka with hook,Cyrillic,,,lowercase
+Ӆ,04C5,1221,cyrillic capital letter el with tail,Cyrillic,,,uppercase
+ӆ,04C6,1222,cyrillic small letter el with tail,Cyrillic,,,lowercase
+Ӈ,04C7,1223,cyrillic capital letter en with hook,Cyrillic,,,uppercase
+ӈ,04C8,1224,cyrillic small letter en with hook,Cyrillic,,,lowercase
+Ӊ,04C9,1225,cyrillic capital letter en with tail,Cyrillic,,,uppercase
+ӊ,04CA,1226,cyrillic small letter en with tail,Cyrillic,,,lowercase
+Ӌ,04CB,1227,cyrillic capital letter khakassian che,Cyrillic,,,uppercase
+ӌ,04CC,1228,cyrillic small letter khakassian che,Cyrillic,,,lowercase
+Ӎ,04CD,1229,cyrillic capital letter em with tail,Cyrillic,,,uppercase
+ӎ,04CE,1230,cyrillic small letter em with tail,Cyrillic,,,lowercase
+ӏ,04CF,1231,cyrillic small letter palochka,Cyrillic,,,lowercase
+Ӑ,04D0,1232,cyrillic capital letter a with breve,Cyrillic,,,uppercase
+ӑ,04D1,1233,cyrillic small letter a with breve,Cyrillic,,,lowercase
+Ӓ,04D2,1234,cyrillic capital letter a with diaeresis,Cyrillic,,,uppercase
+ӓ,04D3,1235,cyrillic small letter a with diaeresis,Cyrillic,,,lowercase
+Ӕ,04D4,1236,cyrillic capital ligature a ie,Cyrillic,,,ae uppercase
+ӕ,04D5,1237,cyrillic small ligature a ie,Cyrillic,,,ae lowercase
+Ӗ,04D6,1238,cyrillic capital letter ie with breve,Cyrillic,,,uppercase
+ӗ,04D7,1239,cyrillic small letter ie with breve,Cyrillic,,,lowercase
+Ә,04D8,1240,cyrillic capital letter schwa,Cyrillic,,,uppercase
+ә,04D9,1241,cyrillic small letter schwa,Cyrillic,,,lowercase
+Ӛ,04DA,1242,cyrillic capital letter schwa with diaeresis,Cyrillic,,,uppercase
+ӛ,04DB,1243,cyrillic small letter schwa with diaeresis,Cyrillic,,,lowercase
+Ӝ,04DC,1244,cyrillic capital letter zhe with diaeresis,Cyrillic,,,uppercase
+ӝ,04DD,1245,cyrillic small letter zhe with diaeresis,Cyrillic,,,lowercase
+Ӟ,04DE,1246,cyrillic capital letter ze with diaeresis,Cyrillic,,,uppercase
+ӟ,04DF,1247,cyrillic small letter ze with diaeresis,Cyrillic,,,lowercase
+Ӡ,04E0,1248,cyrillic capital letter abkhasian dze,Cyrillic,,,uppercase
+ӡ,04E1,1249,cyrillic small letter abkhasian dze,Cyrillic,,,lowercase
+Ӣ,04E2,1250,cyrillic capital letter i with macron,Cyrillic,,,uppercase
+ӣ,04E3,1251,cyrillic small letter i with macron,Cyrillic,,,lowercase
+Ӥ,04E4,1252,cyrillic capital letter i with diaeresis,Cyrillic,,,uppercase
+ӥ,04E5,1253,cyrillic small letter i with diaeresis,Cyrillic,,,lowercase
+Ӧ,04E6,1254,cyrillic capital letter o with diaeresis,Cyrillic,,,uppercase
+ӧ,04E7,1255,cyrillic small letter o with diaeresis,Cyrillic,,,lowercase
+Ө,04E8,1256,cyrillic capital letter barred o,Cyrillic,,,uppercase
+ө,04E9,1257,cyrillic small letter barred o,Cyrillic,,,lowercase
+Ӫ,04EA,1258,cyrillic capital letter barred o with diaeresis,Cyrillic,,,uppercase
+ӫ,04EB,1259,cyrillic small letter barred o with diaeresis,Cyrillic,,,lowercase
+Ӭ,04EC,1260,cyrillic capital letter e with diaeresis,Cyrillic,,,uppercase
+ӭ,04ED,1261,cyrillic small letter e with diaeresis,Cyrillic,,,lowercase
+Ӯ,04EE,1262,cyrillic capital letter u with macron,Cyrillic,,,uppercase
+ӯ,04EF,1263,cyrillic small letter u with macron,Cyrillic,,,lowercase
+Ӱ,04F0,1264,cyrillic capital letter u with diaeresis,Cyrillic,,,uppercase
+ӱ,04F1,1265,cyrillic small letter u with diaeresis,Cyrillic,,,lowercase
+Ӳ,04F2,1266,cyrillic capital letter u with double acute,Cyrillic,,,uppercase
+ӳ,04F3,1267,cyrillic small letter u with double acute,Cyrillic,,,lowercase
+Ӵ,04F4,1268,cyrillic capital letter che with diaeresis,Cyrillic,,,uppercase
+ӵ,04F5,1269,cyrillic small letter che with diaeresis,Cyrillic,,,lowercase
+Ӷ,04F6,1270,cyrillic capital letter ghe with descender,Cyrillic,,,uppercase
+ӷ,04F7,1271,cyrillic small letter ghe with descender,Cyrillic,,,lowercase
+Ӹ,04F8,1272,cyrillic capital letter yeru with diaeresis,Cyrillic,,,uppercase
+ӹ,04F9,1273,cyrillic small letter yeru with diaeresis,Cyrillic,,,lowercase
+Ӻ,04FA,1274,cyrillic capital letter ghe with stroke and hook,Cyrillic,,,uppercase
+ӻ,04FB,1275,cyrillic small letter ghe with stroke and hook,Cyrillic,,,lowercase
+Ӽ,04FC,1276,cyrillic capital letter ha with hook,Cyrillic,,,uppercase
+ӽ,04FD,1277,cyrillic small letter ha with hook,Cyrillic,,,lowercase
+Ӿ,04FE,1278,cyrillic capital letter ha with stroke,Cyrillic,,,uppercase
+ӿ,04FF,1279,cyrillic small letter ha with stroke,Cyrillic,,,lowercase
+Ԁ,0500,1280,cyrillic capital letter komi de,Cyrillic Supplement,,,uppercase
+ԁ,0501,1281,cyrillic small letter komi de,Cyrillic Supplement,,,lowercase
+Ԃ,0502,1282,cyrillic capital letter komi dje,Cyrillic Supplement,,,uppercase
+ԃ,0503,1283,cyrillic small letter komi dje,Cyrillic Supplement,,,lowercase
+Ԅ,0504,1284,cyrillic capital letter komi zje,Cyrillic Supplement,,,uppercase
+ԅ,0505,1285,cyrillic small letter komi zje,Cyrillic Supplement,,,lowercase
+Ԇ,0506,1286,cyrillic capital letter komi dzje,Cyrillic Supplement,,,uppercase
+ԇ,0507,1287,cyrillic small letter komi dzje,Cyrillic Supplement,,,lowercase
+Ԉ,0508,1288,cyrillic capital letter komi lje,Cyrillic Supplement,,,uppercase
+ԉ,0509,1289,cyrillic small letter komi lje,Cyrillic Supplement,,,lowercase
+Ԋ,050A,1290,cyrillic capital letter komi nje,Cyrillic Supplement,,,uppercase
+ԋ,050B,1291,cyrillic small letter komi nje,Cyrillic Supplement,,,lowercase
+Ԍ,050C,1292,cyrillic capital letter komi sje,Cyrillic Supplement,,,uppercase
+ԍ,050D,1293,cyrillic small letter komi sje,Cyrillic Supplement,,,lowercase
+Ԏ,050E,1294,cyrillic capital letter komi tje,Cyrillic Supplement,,,uppercase
+ԏ,050F,1295,cyrillic small letter komi tje,Cyrillic Supplement,,,lowercase
+Ԑ,0510,1296,cyrillic capital letter reversed ze,Cyrillic Supplement,,,uppercase
+ԑ,0511,1297,cyrillic small letter reversed ze,Cyrillic Supplement,,,lowercase
+Ԓ,0512,1298,cyrillic capital letter el with hook,Cyrillic Supplement,,,uppercase
+ԓ,0513,1299,cyrillic small letter el with hook,Cyrillic Supplement,,,lowercase
+Ԕ,0514,1300,cyrillic capital letter lha,Cyrillic Supplement,,,uppercase
+ԕ,0515,1301,cyrillic small letter lha,Cyrillic Supplement,,,lowercase
+Ԗ,0516,1302,cyrillic capital letter rha,Cyrillic Supplement,,,uppercase
+ԗ,0517,1303,cyrillic small letter rha,Cyrillic Supplement,,,lowercase
+Ԙ,0518,1304,cyrillic capital letter yae,Cyrillic Supplement,,,uppercase
+ԙ,0519,1305,cyrillic small letter yae,Cyrillic Supplement,,,lowercase
+Ԛ,051A,1306,cyrillic capital letter qa,Cyrillic Supplement,,,uppercase
+ԛ,051B,1307,cyrillic small letter qa,Cyrillic Supplement,,,lowercase
+Ԝ,051C,1308,cyrillic capital letter we,Cyrillic Supplement,,,uppercase
+ԝ,051D,1309,cyrillic small letter we,Cyrillic Supplement,,,lowercase
+Ԟ,051E,1310,cyrillic capital letter aleut ka,Cyrillic Supplement,,,uppercase
+ԟ,051F,1311,cyrillic small letter aleut ka,Cyrillic Supplement,,,lowercase
+Ԡ,0520,1312,cyrillic capital letter el with middle hook,Cyrillic Supplement,,,uppercase
+ԡ,0521,1313,cyrillic small letter el with middle hook,Cyrillic Supplement,,,lowercase
+Ԣ,0522,1314,cyrillic capital letter en with middle hook,Cyrillic Supplement,,,uppercase
+ԣ,0523,1315,cyrillic small letter en with middle hook,Cyrillic Supplement,,,lowercase
+Ԥ,0524,1316,cyrillic capital letter pe with descender,Cyrillic Supplement,,,uppercase
+ԥ,0525,1317,cyrillic small letter pe with descender,Cyrillic Supplement,,,lowercase
+Ԧ,0526,1318,cyrillic capital letter shha with descender,Cyrillic Supplement,,,uppercase
+ԧ,0527,1319,cyrillic small letter shha with descender,Cyrillic Supplement,,,lowercase
+Ԩ,0528,1320,cyrillic capital letter en with left hook,Cyrillic Supplement,,,uppercase
+ԩ,0529,1321,cyrillic small letter en with left hook,Cyrillic Supplement,,,lowercase
+Ԫ,052A,1322,cyrillic capital letter dzzhe,Cyrillic Supplement,,,uppercase
+ԫ,052B,1323,cyrillic small letter dzzhe,Cyrillic Supplement,,,lowercase
+Ԭ,052C,1324,cyrillic capital letter dche,Cyrillic Supplement,,,uppercase
+ԭ,052D,1325,cyrillic small letter dche,Cyrillic Supplement,,,lowercase
+Ԯ,052E,1326,cyrillic capital letter el with descender,Cyrillic Supplement,,,uppercase
+ԯ,052F,1327,cyrillic small letter el with descender,Cyrillic Supplement,,,lowercase
 Ա,0531,1329,armenian capital letter ayb,Armenian,,,
 Բ,0532,1330,armenian capital letter ben,Armenian,,,
 Գ,0533,1331,armenian capital letter gim,Armenian,,,
@@ -7226,7 +7226,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 †,2020,8224,dagger,General Punctuation,dagger,,+ dagger
 ‡,2021,8225,double dagger,General Punctuation,Dagger ddagger,,double dagger ++ +
 •,2022,8226,bullet,General Punctuation,bull bullet,,* bullet
-‣,2023,8227,triangular bullet,General Punctuation,,,triangle >
+‣,2023,8227,triangular bullet,General Punctuation,,,triangle > play
 ․,2024,8228,one dot leader,General Punctuation,,,.
 ‥,2025,8229,two dot leader,General Punctuation,nldr,,..
 …,2026,8230,horizontal ellipsis,General Punctuation,hellip mldr,,...
@@ -7905,7 +7905,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⋽,22FD,8957,contains with overbar,Mathematical Operators,notnivc,,
 ⋾,22FE,8958,small contains with overbar,Mathematical Operators,notnivb,,
 ⋿,22FF,8959,z notation bag membership,Mathematical Operators,,,
-⌀,2300,8960,diameter sign,Miscellaneous Technical,,,
+⌀,2300,8960,diameter sign,Miscellaneous Technical,,,average
 ⌁,2301,8961,electric arrow,Miscellaneous Technical,,,
 ⌂,2302,8962,house,Miscellaneous Technical,,,
 ⌃,2303,8963,up arrowhead,Miscellaneous Technical,,Keys,^ control ctrl strg macos windows
@@ -7929,7 +7929,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⌕,2315,8981,telephone recorder,Miscellaneous Technical,telrec,,
 ⌖,2316,8982,position indicator,Miscellaneous Technical,target,,target
 ⌗,2317,8983,viewdata square,Miscellaneous Technical,,,# hash
-⌘,2318,8984,place of interest sign,Miscellaneous Technical,,Keys,command meta macos os
+⌘,2318,8984,place of interest sign,Miscellaneous Technical,,Keys,command meta macos os cmd
 ⌙,2319,8985,turned not sign,Miscellaneous Technical,,,
 ⌜,231C,8988,top left corner,Miscellaneous Technical,ulcorn ulcorner,,
 ⌝,231D,8989,top right corner,Miscellaneous Technical,urcorn urcorner,,
@@ -7945,7 +7945,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⌧,2327,8999,x in a rectangle box,Miscellaneous Technical,,,
 〈,2329,9001,left-pointing angle bracket,Miscellaneous Technical,,Arrows,<
 〉,232A,9002,right-pointing angle bracket,Miscellaneous Technical,,Arrows,>
-⌫,232B,9003,erase to the left,Miscellaneous Technical,,Keys,delete remove
+⌫,232B,9003,erase to the left,Miscellaneous Technical,,Keys,delete remove backspace
 ⌬,232C,9004,benzene ring,Miscellaneous Technical,,,
 ⌭,232D,9005,cylindricity,Miscellaneous Technical,cylcty,,
 ⌮,232E,9006,all around-profile,Miscellaneous Technical,profalar,,
@@ -8615,7 +8615,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ☓,2613,9747,saltire,Miscellaneous Symbols,,,x
 ☖,2616,9750,white shogi piece,Miscellaneous Symbols,,,
 ☗,2617,9751,black shogi piece,Miscellaneous Symbols,,,
-☙,2619,9753,reversed rotated floral heart bullet,Miscellaneous Symbols,,,<3
+☙,2619,9753,reversed rotated floral heart bullet,Miscellaneous Symbols,,,<3 love
 ☚,261A,9754,black left pointing index,Miscellaneous Symbols,,,<
 ☛,261B,9755,black right pointing index,Miscellaneous Symbols,,,>
 ☜,261C,9756,white left pointing index,Miscellaneous Symbols,,Arrows,<
@@ -8660,7 +8660,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ♜,265C,9820,black chess rook,Miscellaneous Symbols,,,
 ♝,265D,9821,black chess bishop,Miscellaneous Symbols,,,
 ♞,265E,9822,black chess knight,Miscellaneous Symbols,,,
-♡,2661,9825,white heart suit,Miscellaneous Symbols,,,<3
+♡,2661,9825,white heart suit,Miscellaneous Symbols,,,<3 love
 ♢,2662,9826,white diamond suit,Miscellaneous Symbols,,,
 ♤,2664,9828,white spade suit,Miscellaneous Symbols,,,
 ♧,2667,9831,white club suit,Miscellaneous Symbols,,,
@@ -31118,12 +31118,12 @@ z,007A,122,latin small letter z,Basic Latin,,,
 鼖,2FA1B,195099,cjk compatibility ideograph-2fa1b,CJK Compatibility Ideographs Supplement,,,
 鼻,2FA1C,195100,cjk compatibility ideograph-2fa1c,CJK Compatibility Ideographs Supplement,,,
 𪘀,2FA1D,195101,cjk compatibility ideograph-2fa1d,CJK Compatibility Ideographs Supplement,,,
-😀,1F600,,grinning face,smileys-emotion,,Emojis,emoji face-smiling face grin yellow
-😃,1F603,,grinning face with big eyes,smileys-emotion,,Emojis,emoji face-smiling face mouth open smile yellow
-😄,1F604,,grinning face with smiling eyes,smileys-emotion,,Emojis,emoji face-smiling eye face mouth open smile yellow
+😀,1F600,,grinning face,smileys-emotion,,Emojis,emoji face-smiling face grin yellow laugh
+😃,1F603,,grinning face with big eyes,smileys-emotion,,Emojis,emoji face-smiling face mouth open smile yellow laugh
+😄,1F604,,grinning face with smiling eyes,smileys-emotion,,Emojis,emoji face-smiling eye face mouth open smile yellow laugh
 😁,1F601,,beaming face with smiling eyes,smileys-emotion,,Emojis,emoji face-smiling eye face grin smile yellow
 😆,1F606,,grinning squinting face,smileys-emotion,,Emojis,emoji face-smiling face laugh mouth satisfied smile yellow
-😅,1F605,,grinning face with sweat,smileys-emotion,,Emojis,emoji face-smiling cold face open smile sweat yellow
+😅,1F605,,grinning face with sweat,smileys-emotion,,Emojis,emoji face-smiling cold face open smile sweat yellow laugh
 🤣,1F923,,rolling on the floor laughing,smileys-emotion,,Emojis,emoji face-smiling face floor laugh rolling yellow
 😂,1F602,,face with tears of joy,smileys-emotion,,Emojis,emoji face-smiling face joy laugh tear yellow
 🙂,1F642,,slightly smiling face,smileys-emotion,,Emojis,emoji face-smiling face smile yellow
@@ -31131,21 +31131,21 @@ z,007A,122,latin small letter z,Basic Latin,,,
 😉,1F609,,winking face,smileys-emotion,,Emojis,emoji face-smiling face wink yellow
 😊,1F60A,,smiling face with smiling eyes,smileys-emotion,,Emojis,emoji face-smiling blush eye face smile yellow
 😇,1F607,,smiling face with halo,smileys-emotion,,Emojis,emoji face-smiling angel face fantasy halo innocent yellow
-🥰,1F970,,smiling face with hearts,smileys-emotion,,Emojis,emoji face-affection adore crush hearts in love yellow red <3
-😍,1F60D,,smiling face with heart-eyes,smileys-emotion,,Emojis,emoji face-affection eye face love smile yellow red <3
+🥰,1F970,,smiling face with hearts,smileys-emotion,,Emojis,emoji face-affection adore crush hearts in love yellow red <3 love
+😍,1F60D,,smiling face with heart-eyes,smileys-emotion,,Emojis,emoji face-affection eye face love smile yellow red <3 love
 🤩,1F929,,star-struck,smileys-emotion,,Emojis,emoji face-affection eyes face grinning star yellow
-😘,1F618,,face blowing a kiss,smileys-emotion,,Emojis,emoji face-affection face kiss yellow blow <3
-😗,1F617,,kissing face,smileys-emotion,,Emojis,emoji face-affection face kiss yellow blow
+😘,1F618,,face blowing a kiss,smileys-emotion,,Emojis,emoji face-affection face kiss yellow blow <3 xxx love
+😗,1F617,,kissing face,smileys-emotion,,Emojis,emoji face-affection face kiss yellow blow love
 ☺️,263A,,smiling face,smileys-emotion,,Emojis,emoji face-affection face outlined relaxed smile smiley
-😚,1F61A,,kissing face with closed eyes,smileys-emotion,,Emojis,emoji face-affection closed eye face kiss yellow
-😙,1F619,,kissing face with smiling eyes,smileys-emotion,,Emojis,emoji face-affection eye face kiss smile yellow
+😚,1F61A,,kissing face with closed eyes,smileys-emotion,,Emojis,emoji face-affection closed eye face kiss yellow xxx love blush
+😙,1F619,,kissing face with smiling eyes,smileys-emotion,,Emojis,emoji face-affection eye face kiss smile yellow xxx love
 😋,1F60B,,face savoring food,smileys-emotion,,Emojis,emoji face-tongue delicious face savouring smile yum yellow
 😛,1F61B,,face with tongue,smileys-emotion,,Emojis,emoji face-tongue face tongue yellow
 😜,1F61C,,winking face with tongue,smileys-emotion,,Emojis,emoji face-tongue eye face joke tongue wink yellow
 🤪,1F92A,,zany face,smileys-emotion,,Emojis,emoji face-tongue eye goofy large small yellow
 😝,1F61D,,squinting face with tongue,smileys-emotion,,Emojis,emoji face-tongue eye face horrible taste tongue yellow
 🤑,1F911,,money-mouth face,smileys-emotion,,Emojis,emoji face-tongue face money mouth yellow green dollar currency
-🤗,1F917,,hugging face,smileys-emotion,,Emojis,emoji face-hand face hug hugging yellow
+🤗,1F917,,hugging face,smileys-emotion,,Emojis,emoji face-hand face hug hugging yellow blush
 🤭,1F92D,,face with hand over mouth,smileys-emotion,,Emojis,emoji face-hand whoops yellow
 🤫,1F92B,,shushing face,smileys-emotion,,Emojis,emoji face-hand quiet shush yellow
 🤔,1F914,,thinking face,smileys-emotion,,Emojis,emoji face-hand face thinking yellow
@@ -31165,7 +31165,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🤤,1F924,,drooling face,smileys-emotion,,Emojis,emoji face-sleepy drooling face yellow
 😴,1F634,,sleeping face,smileys-emotion,,Emojis,emoji face-sleepy face sleep zzz yellow
 😷,1F637,,face with medical mask,smileys-emotion,,Emojis,emoji face-unwell cold doctor face mask sick yellow
-🤒,1F912,,face with thermometer,smileys-emotion,,Emojis,emoji face-unwell face ill sick thermometer yellow
+🤒,1F912,,face with thermometer,smileys-emotion,,Emojis,emoji face-unwell face ill sick thermometer yellow blush
 🤕,1F915,,face with head-bandage,smileys-emotion,,Emojis,emoji face-unwell bandage face hurt injury yellow
 🤢,1F922,,nauseated face,smileys-emotion,,Emojis,emoji face-unwell face nauseated vomit green
 🤮,1F92E,,face vomiting,smileys-emotion,,Emojis,emoji face-unwell sick vomit yellow green
@@ -31187,7 +31187,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 😮,1F62E,,face with open mouth,smileys-emotion,,Emojis,emoji face-concerned face mouth open sympathy yellow
 😯,1F62F,,hushed face,smileys-emotion,,Emojis,emoji face-concerned face hushed stunned surprised yellow
 😲,1F632,,astonished face,smileys-emotion,,Emojis,emoji face-concerned astonished face shocked totally yellow
-😳,1F633,,flushed face,smileys-emotion,,Emojis,emoji face-concerned dazed face flushed yellow
+😳,1F633,,flushed face,smileys-emotion,,Emojis,emoji face-concerned dazed face flushed yellow blush
 🥺,1F97A,,pleading face,smileys-emotion,,Emojis,emoji face-concerned begging mercy puppy eyes yellow
 😦,1F626,,frowning face with open mouth,smileys-emotion,,Emojis,emoji face-concerned face frown mouth open yellow
 😧,1F627,,anguished face,smileys-emotion,,Emojis,emoji face-concerned anguished face yellow
@@ -31223,7 +31223,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 😺,1F63A,,grinning cat,smileys-emotion,,Emojis,emoji cat-face cat face grinning mouth open smile yellow
 😸,1F638,,grinning cat with smiling eyes,smileys-emotion,,Emojis,emoji cat-face cat eye face grin smile yellow
 😹,1F639,,cat with tears of joy,smileys-emotion,,Emojis,emoji cat-face cat face joy tear yellow
-😻,1F63B,,smiling cat with heart-eyes,smileys-emotion,,Emojis,emoji cat-face cat eye face heart love smile yellow red <3
+😻,1F63B,,smiling cat with heart-eyes,smileys-emotion,,Emojis,emoji cat-face cat eye face heart love smile yellow red <3 love
 😼,1F63C,,cat with wry smile,smileys-emotion,,Emojis,emoji cat-face cat face ironic smile wry yellow
 😽,1F63D,,kissing cat,smileys-emotion,,Emojis,emoji cat-face cat eye face kiss yellow
 🙀,1F640,,weary cat,smileys-emotion,,Emojis,emoji cat-face cat face oh surprised weary yellow
@@ -31232,27 +31232,27 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🙈,1F648,,see-no-evil monkey,smileys-emotion,,Emojis,emoji monkey-face evil face forbidden monkey see brown
 🙉,1F649,,hear-no-evil monkey,smileys-emotion,,Emojis,emoji monkey-face evil face forbidden hear monkey brown
 🙊,1F64A,,speak-no-evil monkey,smileys-emotion,,Emojis,emoji monkey-face evil face forbidden monkey speak brown
-💋,1F48B,,kiss mark,smileys-emotion,,Emojis,emoji emotion kiss lips red
-💌,1F48C,,love letter,smileys-emotion,,Emojis,emoji emotion heart letter love mail red white <3
-💘,1F498,,heart with arrow,smileys-emotion,,Emojis,emoji emotion arrow cupid pink <3
-💝,1F49D,,heart with ribbon,smileys-emotion,,Emojis,emoji emotion ribbon valentine pink <3
-💖,1F496,,sparkling heart,smileys-emotion,,Emojis,emoji emotion excited sparkle pink <3
-💗,1F497,,growing heart,smileys-emotion,,Emojis,emoji emotion excited growing nervous pulse pink <3
-💓,1F493,,beating heart,smileys-emotion,,Emojis,emoji emotion beating heartbeat pulsating pink <3
-💞,1F49E,,revolving hearts,smileys-emotion,,Emojis,emoji emotion revolving pink <3
-💕,1F495,,two hearts,smileys-emotion,,Emojis,emoji emotion love pink <3
-💟,1F49F,,heart decoration,smileys-emotion,,Emojis,emoji emotion heart purple <3
-❣️,2763,,heart exclamation,smileys-emotion,,Emojis,emoji emotion exclamation mark punctuation red <3
-💔,1F494,,broken heart,smileys-emotion,,Emojis,emoji emotion break broken red <3
-❤️,2764,,red heart,smileys-emotion,,Emojis,emoji emotion heart <3
-🧡,1F9E1,,orange heart,smileys-emotion,,Emojis,emoji emotion orange <3
-💛,1F49B,,yellow heart,smileys-emotion,,Emojis,emoji emotion yellow <3
-💚,1F49A,,green heart,smileys-emotion,,Emojis,emoji emotion green <3
-💙,1F499,,blue heart,smileys-emotion,,Emojis,emoji emotion blue <3
-💜,1F49C,,purple heart,smileys-emotion,,Emojis,emoji emotion purple <3
-🤎,1F90E,,brown heart,smileys-emotion,,Emojis,emoji emotion brown heart <3
-🖤,1F5A4,,black heart,smileys-emotion,,Emojis,emoji emotion black evil wicked <3
-🤍,1F90D,,white heart,smileys-emotion,,Emojis,emoji emotion heart white <3
+💋,1F48B,,kiss mark,smileys-emotion,,Emojis,emoji emotion kiss lips red love
+💌,1F48C,,love letter,smileys-emotion,,Emojis,emoji emotion heart letter love mail red white <3 love
+💘,1F498,,heart with arrow,smileys-emotion,,Emojis,emoji emotion arrow cupid pink <3 love
+💝,1F49D,,heart with ribbon,smileys-emotion,,Emojis,emoji emotion ribbon valentine pink <3 love
+💖,1F496,,sparkling heart,smileys-emotion,,Emojis,emoji emotion excited sparkle pink <3 love
+💗,1F497,,growing heart,smileys-emotion,,Emojis,emoji emotion excited growing nervous pulse pink <3 love
+💓,1F493,,beating heart,smileys-emotion,,Emojis,emoji emotion beating heartbeat pulsating pink <3 love
+💞,1F49E,,revolving hearts,smileys-emotion,,Emojis,emoji emotion revolving pink <3 love
+💕,1F495,,two hearts,smileys-emotion,,Emojis,emoji emotion love pink <3 love
+💟,1F49F,,heart decoration,smileys-emotion,,Emojis,emoji emotion heart purple <3 love
+❣️,2763,,heart exclamation,smileys-emotion,,Emojis,emoji emotion exclamation mark punctuation red <3 love
+💔,1F494,,broken heart,smileys-emotion,,Emojis,emoji emotion break broken red <3 love
+❤️,2764,,red heart,smileys-emotion,,Emojis,emoji emotion heart <3 love
+🧡,1F9E1,,orange heart,smileys-emotion,,Emojis,emoji emotion orange <3 love
+💛,1F49B,,yellow heart,smileys-emotion,,Emojis,emoji emotion yellow <3 love
+💚,1F49A,,green heart,smileys-emotion,,Emojis,emoji emotion green <3 love
+💙,1F499,,blue heart,smileys-emotion,,Emojis,emoji emotion blue <3 love
+💜,1F49C,,purple heart,smileys-emotion,,Emojis,emoji emotion purple <3 love
+🤎,1F90E,,brown heart,smileys-emotion,,Emojis,emoji emotion brown heart <3 love
+🖤,1F5A4,,black heart,smileys-emotion,,Emojis,emoji emotion black evil wicked <3 love
+🤍,1F90D,,white heart,smileys-emotion,,Emojis,emoji emotion heart white <3 love
 💯,1F4AF,,hundred points,smileys-emotion,,Emojis,emoji emotion 100 full hundred score red
 💢,1F4A2,,anger symbol,smileys-emotion,,Emojis,emoji emotion angry comic mad red
 💥,1F4A5,,collision,smileys-emotion,,Emojis,emoji emotion boom comic red yellow orange
@@ -31303,18 +31303,18 @@ z,007A,122,latin small letter z,Basic Latin,,,
 👌🏽,1F44C 1F3FD,,OK hand: medium skin tone,people-body,,Emojis,emoji hand-fingers-partial hand ok
 👌🏾,1F44C 1F3FE,,OK hand: medium-dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand ok
 👌🏿,1F44C 1F3FF,,OK hand: dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand ok
-🤏,1F90F,,pinching hand,people-body,,Emojis,emoji hand-fingers-partial small amount yellow
-🤏🏻,1F90F 1F3FB,,pinching hand: light skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount
-🤏🏼,1F90F 1F3FC,,pinching hand: medium-light skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount
-🤏🏽,1F90F 1F3FD,,pinching hand: medium skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount
-🤏🏾,1F90F 1F3FE,,pinching hand: medium-dark skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount
-🤏🏿,1F90F 1F3FF,,pinching hand: dark skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount
-✌️,270C,,victory hand,people-body,,Emojis,emoji hand-fingers-partial hand v victory yellow
-✌🏻,270C 1F3FB,,victory hand: light skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory
-✌🏼,270C 1F3FC,,victory hand: medium-light skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory
-✌🏽,270C 1F3FD,,victory hand: medium skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory
-✌🏾,270C 1F3FE,,victory hand: medium-dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory
-✌🏿,270C 1F3FF,,victory hand: dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory
+🤏,1F90F,,pinching hand,people-body,,Emojis,emoji hand-fingers-partial small amount yellow little
+🤏🏻,1F90F 1F3FB,,pinching hand: light skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount little
+🤏🏼,1F90F 1F3FC,,pinching hand: medium-light skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount little
+🤏🏽,1F90F 1F3FD,,pinching hand: medium skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount little
+🤏🏾,1F90F 1F3FE,,pinching hand: medium-dark skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount little
+🤏🏿,1F90F 1F3FF,,pinching hand: dark skin tone,people-body,,Emojis,emoji hand-fingers-partial small amount little
+✌️,270C,,victory hand,people-body,,Emojis,emoji hand-fingers-partial hand v victory yellow peace
+✌🏻,270C 1F3FB,,victory hand: light skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory peace
+✌🏼,270C 1F3FC,,victory hand: medium-light skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory peace
+✌🏽,270C 1F3FD,,victory hand: medium skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory peace
+✌🏾,270C 1F3FE,,victory hand: medium-dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory peace
+✌🏿,270C 1F3FF,,victory hand: dark skin tone,people-body,,Emojis,emoji hand-fingers-partial hand v victory peace
 🤞,1F91E,,crossed fingers,people-body,,Emojis,emoji hand-fingers-partial cross finger hand luck yellow
 🤞🏻,1F91E 1F3FB,,crossed fingers: light skin tone,people-body,,Emojis,emoji hand-fingers-partial cross finger hand luck
 🤞🏼,1F91E 1F3FC,,crossed fingers: medium-light skin tone,people-body,,Emojis,emoji hand-fingers-partial cross finger hand luck
@@ -31511,18 +31511,18 @@ z,007A,122,latin small letter z,Basic Latin,,,
 👶🏽,1F476 1F3FD,,baby: medium skin tone,people-body,,Emojis,emoji person young
 👶🏾,1F476 1F3FE,,baby: medium-dark skin tone,people-body,,Emojis,emoji person young
 👶🏿,1F476 1F3FF,,baby: dark skin tone,people-body,,Emojis,emoji person young
-🧒,1F9D2,,child,people-body,,Emojis,emoji person gender-neutral unspecified gender young yellow
-🧒🏻,1F9D2 1F3FB,,child: light skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young
-🧒🏼,1F9D2 1F3FC,,child: medium-light skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young
-🧒🏽,1F9D2 1F3FD,,child: medium skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young
-🧒🏾,1F9D2 1F3FE,,child: medium-dark skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young
-🧒🏿,1F9D2 1F3FF,,child: dark skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young
-👦,1F466,,boy,people-body,,Emojis,emoji person young yellow
-👦🏻,1F466 1F3FB,,boy: light skin tone,people-body,,Emojis,emoji person young
-👦🏼,1F466 1F3FC,,boy: medium-light skin tone,people-body,,Emojis,emoji person young
-👦🏽,1F466 1F3FD,,boy: medium skin tone,people-body,,Emojis,emoji person young
-👦🏾,1F466 1F3FE,,boy: medium-dark skin tone,people-body,,Emojis,emoji person young
-👦🏿,1F466 1F3FF,,boy: dark skin tone,people-body,,Emojis,emoji person young
+🧒,1F9D2,,child,people-body,,Emojis,emoji person gender-neutral unspecified gender young yellow toddler
+🧒🏻,1F9D2 1F3FB,,child: light skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young toddler
+🧒🏼,1F9D2 1F3FC,,child: medium-light skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young toddler
+🧒🏽,1F9D2 1F3FD,,child: medium skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young toddler
+🧒🏾,1F9D2 1F3FE,,child: medium-dark skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young toddler
+🧒🏿,1F9D2 1F3FF,,child: dark skin tone,people-body,,Emojis,emoji person gender-neutral unspecified gender young toddler
+👦,1F466,,boy,people-body,,Emojis,emoji person young yellow toddler
+👦🏻,1F466 1F3FB,,boy: light skin tone,people-body,,Emojis,emoji person young toddler
+👦🏼,1F466 1F3FC,,boy: medium-light skin tone,people-body,,Emojis,emoji person young toddler
+👦🏽,1F466 1F3FD,,boy: medium skin tone,people-body,,Emojis,emoji person young toddler
+👦🏾,1F466 1F3FE,,boy: medium-dark skin tone,people-body,,Emojis,emoji person young toddler
+👦🏿,1F466 1F3FF,,boy: dark skin tone,people-body,,Emojis,emoji person young toddler
 👧,1F467,,girl,people-body,,Emojis,emoji person virgo young zodiac yellow
 👧🏻,1F467 1F3FB,,girl: light skin tone,people-body,,Emojis,emoji person virgo young zodiac
 👧🏼,1F467 1F3FC,,girl: medium-light skin tone,people-body,,Emojis,emoji person virgo young zodiac
@@ -31859,42 +31859,42 @@ z,007A,122,latin small letter z,Basic Latin,,,
 👩🏽‍⚕️,1F469 1F3FD 200D 2695 FE0F,,woman health worker: medium skin tone,people-body,,Emojis,emoji person-role doctor healthcare nurse therapist woman
 👩🏾‍⚕️,1F469 1F3FE 200D 2695 FE0F,,woman health worker: medium-dark skin tone,people-body,,Emojis,emoji person-role doctor healthcare nurse therapist woman
 👩🏿‍⚕️,1F469 1F3FF 200D 2695 FE0F,,woman health worker: dark skin tone,people-body,,Emojis,emoji person-role doctor healthcare nurse therapist woman
-🧑‍🎓,1F9D1 200D 1F393,,student,people-body,,Emojis,emoji person-role graduate yellow
-🧑🏻‍🎓,1F9D1 1F3FB 200D 1F393,,student: light skin tone,people-body,,Emojis,emoji person-role graduate
-🧑🏼‍🎓,1F9D1 1F3FC 200D 1F393,,student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate
-🧑🏽‍🎓,1F9D1 1F3FD 200D 1F393,,student: medium skin tone,people-body,,Emojis,emoji person-role graduate
-🧑🏾‍🎓,1F9D1 1F3FE 200D 1F393,,student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate
-🧑🏿‍🎓,1F9D1 1F3FF 200D 1F393,,student: dark skin tone,people-body,,Emojis,emoji person-role graduate
-👨‍🎓,1F468 200D 1F393,,man student,people-body,,Emojis,emoji person-role graduate man student yellow
-👨🏻‍🎓,1F468 1F3FB 200D 1F393,,man student: light skin tone,people-body,,Emojis,emoji person-role graduate man student
-👨🏼‍🎓,1F468 1F3FC 200D 1F393,,man student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate man student
-👨🏽‍🎓,1F468 1F3FD 200D 1F393,,man student: medium skin tone,people-body,,Emojis,emoji person-role graduate man student
-👨🏾‍🎓,1F468 1F3FE 200D 1F393,,man student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate man student
-👨🏿‍🎓,1F468 1F3FF 200D 1F393,,man student: dark skin tone,people-body,,Emojis,emoji person-role graduate man student
-👩‍🎓,1F469 200D 1F393,,woman student,people-body,,Emojis,emoji person-role graduate student woman yellow
-👩🏻‍🎓,1F469 1F3FB 200D 1F393,,woman student: light skin tone,people-body,,Emojis,emoji person-role graduate student woman
-👩🏼‍🎓,1F469 1F3FC 200D 1F393,,woman student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate student woman
-👩🏽‍🎓,1F469 1F3FD 200D 1F393,,woman student: medium skin tone,people-body,,Emojis,emoji person-role graduate student woman
-👩🏾‍🎓,1F469 1F3FE 200D 1F393,,woman student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate student woman
-👩🏿‍🎓,1F469 1F3FF 200D 1F393,,woman student: dark skin tone,people-body,,Emojis,emoji person-role graduate student woman
-🧑‍🏫,1F9D1 200D 1F3EB,,teacher,people-body,,Emojis,emoji person-role instructor professor yellow
-🧑🏻‍🏫,1F9D1 1F3FB 200D 1F3EB,,teacher: light skin tone,people-body,,Emojis,emoji person-role instructor professor
-🧑🏼‍🏫,1F9D1 1F3FC 200D 1F3EB,,teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor professor
-🧑🏽‍🏫,1F9D1 1F3FD 200D 1F3EB,,teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor professor
-🧑🏾‍🏫,1F9D1 1F3FE 200D 1F3EB,,teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor professor
-🧑🏿‍🏫,1F9D1 1F3FF 200D 1F3EB,,teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor professor
-👨‍🏫,1F468 200D 1F3EB,,man teacher,people-body,,Emojis,emoji person-role instructor man professor teacher yellow
-👨🏻‍🏫,1F468 1F3FB 200D 1F3EB,,man teacher: light skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher
-👨🏼‍🏫,1F468 1F3FC 200D 1F3EB,,man teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher
-👨🏽‍🏫,1F468 1F3FD 200D 1F3EB,,man teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher
-👨🏾‍🏫,1F468 1F3FE 200D 1F3EB,,man teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher
-👨🏿‍🏫,1F468 1F3FF 200D 1F3EB,,man teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher
-👩‍🏫,1F469 200D 1F3EB,,woman teacher,people-body,,Emojis,emoji person-role instructor professor teacher woman yellow
-👩🏻‍🏫,1F469 1F3FB 200D 1F3EB,,woman teacher: light skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman
-👩🏼‍🏫,1F469 1F3FC 200D 1F3EB,,woman teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman
-👩🏽‍🏫,1F469 1F3FD 200D 1F3EB,,woman teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman
-👩🏾‍🏫,1F469 1F3FE 200D 1F3EB,,woman teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman
-👩🏿‍🏫,1F469 1F3FF 200D 1F3EB,,woman teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman
+🧑‍🎓,1F9D1 200D 1F393,,student,people-body,,Emojis,emoji person-role graduate yellow education
+🧑🏻‍🎓,1F9D1 1F3FB 200D 1F393,,student: light skin tone,people-body,,Emojis,emoji person-role graduate education
+🧑🏼‍🎓,1F9D1 1F3FC 200D 1F393,,student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate education
+🧑🏽‍🎓,1F9D1 1F3FD 200D 1F393,,student: medium skin tone,people-body,,Emojis,emoji person-role graduate education
+🧑🏾‍🎓,1F9D1 1F3FE 200D 1F393,,student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate education
+🧑🏿‍🎓,1F9D1 1F3FF 200D 1F393,,student: dark skin tone,people-body,,Emojis,emoji person-role graduate education
+👨‍🎓,1F468 200D 1F393,,man student,people-body,,Emojis,emoji person-role graduate man student yellow education
+👨🏻‍🎓,1F468 1F3FB 200D 1F393,,man student: light skin tone,people-body,,Emojis,emoji person-role graduate man student education
+👨🏼‍🎓,1F468 1F3FC 200D 1F393,,man student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate man student education
+👨🏽‍🎓,1F468 1F3FD 200D 1F393,,man student: medium skin tone,people-body,,Emojis,emoji person-role graduate man student education
+👨🏾‍🎓,1F468 1F3FE 200D 1F393,,man student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate man student education
+👨🏿‍🎓,1F468 1F3FF 200D 1F393,,man student: dark skin tone,people-body,,Emojis,emoji person-role graduate man student education
+👩‍🎓,1F469 200D 1F393,,woman student,people-body,,Emojis,emoji person-role graduate student woman yellow education
+👩🏻‍🎓,1F469 1F3FB 200D 1F393,,woman student: light skin tone,people-body,,Emojis,emoji person-role graduate student woman education
+👩🏼‍🎓,1F469 1F3FC 200D 1F393,,woman student: medium-light skin tone,people-body,,Emojis,emoji person-role graduate student woman education
+👩🏽‍🎓,1F469 1F3FD 200D 1F393,,woman student: medium skin tone,people-body,,Emojis,emoji person-role graduate student woman education
+👩🏾‍🎓,1F469 1F3FE 200D 1F393,,woman student: medium-dark skin tone,people-body,,Emojis,emoji person-role graduate student woman education
+👩🏿‍🎓,1F469 1F3FF 200D 1F393,,woman student: dark skin tone,people-body,,Emojis,emoji person-role graduate student woman education
+🧑‍🏫,1F9D1 200D 1F3EB,,teacher,people-body,,Emojis,emoji person-role instructor professor yellow education
+🧑🏻‍🏫,1F9D1 1F3FB 200D 1F3EB,,teacher: light skin tone,people-body,,Emojis,emoji person-role instructor professor education
+🧑🏼‍🏫,1F9D1 1F3FC 200D 1F3EB,,teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor professor education
+🧑🏽‍🏫,1F9D1 1F3FD 200D 1F3EB,,teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor professor education
+🧑🏾‍🏫,1F9D1 1F3FE 200D 1F3EB,,teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor professor education
+🧑🏿‍🏫,1F9D1 1F3FF 200D 1F3EB,,teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor professor education
+👨‍🏫,1F468 200D 1F3EB,,man teacher,people-body,,Emojis,emoji person-role instructor man professor teacher yellow education
+👨🏻‍🏫,1F468 1F3FB 200D 1F3EB,,man teacher: light skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher education
+👨🏼‍🏫,1F468 1F3FC 200D 1F3EB,,man teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher education
+👨🏽‍🏫,1F468 1F3FD 200D 1F3EB,,man teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher education
+👨🏾‍🏫,1F468 1F3FE 200D 1F3EB,,man teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher education
+👨🏿‍🏫,1F468 1F3FF 200D 1F3EB,,man teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor man professor teacher education
+👩‍🏫,1F469 200D 1F3EB,,woman teacher,people-body,,Emojis,emoji person-role instructor professor teacher woman yellow education
+👩🏻‍🏫,1F469 1F3FB 200D 1F3EB,,woman teacher: light skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman education
+👩🏼‍🏫,1F469 1F3FC 200D 1F3EB,,woman teacher: medium-light skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman education
+👩🏽‍🏫,1F469 1F3FD 200D 1F3EB,,woman teacher: medium skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman education
+👩🏾‍🏫,1F469 1F3FE 200D 1F3EB,,woman teacher: medium-dark skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman education
+👩🏿‍🏫,1F469 1F3FF 200D 1F3EB,,woman teacher: dark skin tone,people-body,,Emojis,emoji person-role instructor professor teacher woman education
 🧑‍⚖️,1F9D1 200D 2696 FE0F,,judge,people-body,,Emojis,emoji person-role scales yellow
 🧑🏻‍⚖️,1F9D1 1F3FB 200D 2696 FE0F,,judge: light skin tone,people-body,,Emojis,emoji person-role scales
 🧑🏼‍⚖️,1F9D1 1F3FC 200D 2696 FE0F,,judge: medium-light skin tone,people-body,,Emojis,emoji person-role scales
@@ -33003,14 +33003,14 @@ z,007A,122,latin small letter z,Basic Latin,,,
 👨🏿‍🤝‍👨🏼,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FC,,"men holding hands: dark skin tone, medium-light skin tone",people-body,,Emojis,emoji family couple gemini holding hands man men twins zodiac
 👨🏿‍🤝‍👨🏽,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FD,,"men holding hands: dark skin tone, medium skin tone",people-body,,Emojis,emoji family couple gemini holding hands man men twins zodiac
 👨🏿‍🤝‍👨🏾,1F468 1F3FF 200D 1F91D 200D 1F468 1F3FE,,"men holding hands: dark skin tone, medium-dark skin tone",people-body,,Emojis,emoji family couple gemini holding hands man men twins zodiac
-💏,1F48F,,kiss,people-body,,Emojis,emoji family couple yellow <3
-👩‍❤️‍💋‍👨,1F469 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: woman, man",people-body,,Emojis,emoji family couple kiss man woman yellow <3
-👨‍❤️‍💋‍👨,1F468 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: man, man",people-body,,Emojis,emoji family couple kiss man yellow <3
-👩‍❤️‍💋‍👩,1F469 200D 2764 FE0F 200D 1F48B 200D 1F469,,"kiss: woman, woman",people-body,,Emojis,emoji family couple kiss woman yellow <3
-💑,1F491,,couple with heart,people-body,,Emojis,emoji family couple love yellow yellow <3
-👩‍❤️‍👨,1F469 200D 2764 FE0F 200D 1F468,,"couple with heart: woman, man",people-body,,Emojis,emoji family couple couple with heart love man woman yellow <3
-👨‍❤️‍👨,1F468 200D 2764 FE0F 200D 1F468,,"couple with heart: man, man",people-body,,Emojis,emoji family couple couple with heart love man yellow <3
-👩‍❤️‍👩,1F469 200D 2764 FE0F 200D 1F469,,"couple with heart: woman, woman",people-body,,Emojis,emoji family couple couple with heart love woman yellow <3
+💏,1F48F,,kiss,people-body,,Emojis,emoji family couple yellow <3 love
+👩‍❤️‍💋‍👨,1F469 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: woman, man",people-body,,Emojis,emoji family couple kiss man woman yellow <3 love
+👨‍❤️‍💋‍👨,1F468 200D 2764 FE0F 200D 1F48B 200D 1F468,,"kiss: man, man",people-body,,Emojis,emoji family couple kiss man yellow <3 love
+👩‍❤️‍💋‍👩,1F469 200D 2764 FE0F 200D 1F48B 200D 1F469,,"kiss: woman, woman",people-body,,Emojis,emoji family couple kiss woman yellow <3 love
+💑,1F491,,couple with heart,people-body,,Emojis,emoji family couple love yellow yellow <3 love
+👩‍❤️‍👨,1F469 200D 2764 FE0F 200D 1F468,,"couple with heart: woman, man",people-body,,Emojis,emoji family couple couple with heart love man woman yellow <3 love
+👨‍❤️‍👨,1F468 200D 2764 FE0F 200D 1F468,,"couple with heart: man, man",people-body,,Emojis,emoji family couple couple with heart love man yellow <3 love
+👩‍❤️‍👩,1F469 200D 2764 FE0F 200D 1F469,,"couple with heart: woman, woman",people-body,,Emojis,emoji family couple couple with heart love woman yellow <3 love
 👪️,1F46A,,family,people-body,,Emojis,emoji family family yellow
 👨‍👩‍👦,1F468 200D 1F469 200D 1F466,,"family: man, woman, boy",people-body,,Emojis,emoji family boy family man woman yellow
 👨‍👩‍👧,1F468 200D 1F469 200D 1F467,,"family: man, woman, girl",people-body,,Emojis,emoji family family girl man woman yellow
@@ -33159,8 +33159,8 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🌸,1F338,,cherry blossom,animals-nature,,Emojis,emoji plant-flower blossom cherry flower pink
 💮,1F4AE,,white flower,animals-nature,,Emojis,emoji plant-flower flower pink red
 🏵️,1F3F5,,rosette,animals-nature,,Emojis,emoji plant-flower plant yellow
-🌹,1F339,,rose,animals-nature,,Emojis,emoji plant-flower flower red
-🥀,1F940,,wilted flower,animals-nature,,Emojis,emoji plant-flower flower wilted red
+🌹,1F339,,rose,animals-nature,,Emojis,emoji plant-flower flower red love
+🥀,1F940,,wilted flower,animals-nature,,Emojis,emoji plant-flower flower wilted red love
 🌺,1F33A,,hibiscus,animals-nature,,Emojis,emoji plant-flower flower red
 🌻,1F33B,,sunflower,animals-nature,,Emojis,emoji plant-flower flower sun yellow
 🌼,1F33C,,blossom,animals-nature,,Emojis,emoji plant-flower flower yellow
@@ -33266,9 +33266,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🍨,1F368,,ice cream,food-drink,,Emojis,emoji food-sweet cream dessert ice sweet white
 🍩,1F369,,doughnut,food-drink,,Emojis,emoji food-sweet breakfast dessert donut sweet brown chocolate
 🍪,1F36A,,cookie,food-drink,,Emojis,emoji food-sweet dessert sweet chocolate brown
-🎂,1F382,,birthday cake,food-drink,,Emojis,emoji food-sweet birthday cake celebration dessert pastry sweet white
-🍰,1F370,,shortcake,food-drink,,Emojis,emoji food-sweet cake dessert pastry slice sweet white red
-🧁,1F9C1,,cupcake,food-drink,,Emojis,emoji food-sweet bakery sweet white
+🎂,1F382,,birthday cake,food-drink,,Emojis,emoji food-sweet birthday cake celebration dessert pastry sweet white birthday
+🍰,1F370,,shortcake,food-drink,,Emojis,emoji food-sweet cake dessert pastry slice sweet white red birthday
+🧁,1F9C1,,cupcake,food-drink,,Emojis,emoji food-sweet bakery sweet white birthday
 🥧,1F967,,pie,food-drink,,Emojis,emoji food-sweet filling pastry brown orange
 🍫,1F36B,,chocolate bar,food-drink,,Emojis,emoji food-sweet bar chocolate dessert sweet brown red
 🍬,1F36C,,candy,food-drink,,Emojis,emoji food-sweet dessert sweet green pink
@@ -33280,13 +33280,13 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ☕️,2615,,hot beverage,food-drink,,Emojis,emoji drink beverage coffee drink hot steaming tea white brown
 🍵,1F375,,teacup without handle,food-drink,,Emojis,emoji drink beverage cup drink tea teacup white green
 🍶,1F376,,sake,food-drink,,Emojis,emoji drink bar beverage bottle cup drink white
-🍾,1F37E,,bottle with popping cork,food-drink,,Emojis,emoji drink bar bottle cork drink popping green
+🍾,1F37E,,bottle with popping cork,food-drink,,Emojis,emoji drink bar bottle cork drink popping green birthday
 🍷,1F377,,wine glass,food-drink,,Emojis,emoji drink bar beverage drink glass wine red
 🍸️,1F378,,cocktail glass,food-drink,,Emojis,emoji drink bar cocktail drink glass white
 🍹,1F379,,tropical drink,food-drink,,Emojis,emoji drink bar drink tropical orange
 🍺,1F37A,,beer mug,food-drink,,Emojis,emoji drink bar beer drink mug orange brown
-🍻,1F37B,,clinking beer mugs,food-drink,,Emojis,emoji drink bar beer clink drink mug orange brown
-🥂,1F942,,clinking glasses,food-drink,,Emojis,emoji drink celebrate clink drink glass orange brown
+🍻,1F37B,,clinking beer mugs,food-drink,,Emojis,emoji drink bar beer clink drink mug orange brown birthday
+🥂,1F942,,clinking glasses,food-drink,,Emojis,emoji drink celebrate clink drink glass orange brown birthday
 🥃,1F943,,tumbler glass,food-drink,,Emojis,emoji drink glass liquor shot tumbler whisky orange brown
 🥤,1F964,,cup with straw,food-drink,,Emojis,emoji drink juice soda red
 🧃,1F9C3,,beverage box,food-drink,,Emojis,emoji drink beverage box juice straw sweet green
@@ -33330,7 +33330,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🏨,1F3E8,,hotel,travel-places,,Emojis,emoji place-building building white house
 🏩,1F3E9,,love hotel,travel-places,,Emojis,emoji place-building hotel love white red house
 🏪,1F3EA,,convenience store,travel-places,,Emojis,emoji place-building convenience store white house
-🏫,1F3EB,,school,travel-places,,Emojis,emoji place-building building white house
+🏫,1F3EB,,school,travel-places,,Emojis,emoji place-building building white house education
 🏬,1F3EC,,department store,travel-places,,Emojis,emoji place-building department store white house
 🏭️,1F3ED,,factory,travel-places,,Emojis,emoji place-building building white house
 🏯,1F3EF,,Japanese castle,travel-places,,Emojis,emoji place-building castle japanese white house
@@ -33500,13 +33500,13 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ☂️,2602,,umbrella,travel-places,,Emojis,emoji sky-weather clothing rain purple
 ☔️,2614,,umbrella with rain drops,travel-places,,Emojis,emoji sky-weather clothing drop rain umbrella purple blue
 ⛱️,26F1,,umbrella on ground,travel-places,,Emojis,emoji sky-weather rain sun umbrella yellow red
-⚡️,26A1,,high voltage,travel-places,,Emojis,emoji sky-weather danger electric lightning voltage zap yellow
+⚡️,26A1,,high voltage,travel-places,,Emojis,emoji sky-weather danger electric lightning voltage zap yellow flash
 ❄️,2744,,snowflake,travel-places,,Emojis,emoji sky-weather cold snow blue
 ☃️,2603,,snowman,travel-places,,Emojis,emoji sky-weather cold snow white blue
 ⛄️,26C4,,snowman without snow,travel-places,,Emojis,emoji sky-weather cold snow snowman white blue
 ☄️,2604,,comet,travel-places,,Emojis,emoji sky-weather space red orange
-🔥,1F525,,fire,travel-places,,Emojis,emoji sky-weather flame tool red orange yellow
-💧,1F4A7,,droplet,travel-places,,Emojis,emoji sky-weather cold comic drop sweat blue
+🔥,1F525,,fire,travel-places,,Emojis,emoji sky-weather flame tool red orange yellow hot
+💧,1F4A7,,droplet,travel-places,,Emojis,emoji sky-weather cold comic drop sweat blue wet
 🌊,1F30A,,water wave,travel-places,,Emojis,emoji sky-weather ocean water wave blue
 🎃,1F383,,jack-o-lantern,activities,,Emojis,emoji event celebration halloween jack lantern orange
 🎄,1F384,,Christmas tree,activities,,Emojis,emoji event celebration christmas tree green
@@ -33514,9 +33514,9 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🎇,1F387,,sparkler,activities,,Emojis,emoji event celebration fireworks sparkle black orange
 🧨,1F9E8,,firecracker,activities,,Emojis,emoji event dynamite explosive fireworks red
 ✨,2728,,sparkles,activities,,Emojis,emoji event * sparkle star yellow
-🎈,1F388,,balloon,activities,,Emojis,emoji event celebration red
-🎉,1F389,,party popper,activities,,Emojis,emoji event celebration party popper tada yellow
-🎊,1F38A,,confetti ball,activities,,Emojis,emoji event ball celebration confetti yellow
+🎈,1F388,,balloon,activities,,Emojis,emoji event celebration red birthday
+🎉,1F389,,party popper,activities,,Emojis,emoji event celebration party popper tada yellow birthday
+🎊,1F38A,,confetti ball,activities,,Emojis,emoji event ball celebration confetti yellow birthday
 🎋,1F38B,,tanabata tree,activities,,Emojis,emoji event banner celebration japanese tree green red
 🎍,1F38D,,pine decoration,activities,,Emojis,emoji event bamboo celebration japanese pine yellow
 🎎,1F38E,,Japanese dolls,activities,,Emojis,emoji event celebration doll festival japanese japanese dolls blue red
@@ -33575,7 +33575,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🧩,1F9E9,,puzzle piece,activities,,Emojis,emoji game clue interlocking jigsaw piece puzzle green
 🧸,1F9F8,,teddy bear,activities,,Emojis,emoji game plaything plush stuffed toy brown
 ♠️,2660,,spade suit,activities,,Emojis,emoji game card game black <3
-♥️,2665,,heart suit,activities,,Emojis,emoji game card game black <3
+♥️,2665,,heart suit,activities,,Emojis,emoji game card game black <3 love
 ♦️,2666,,diamond suit,activities,,Emojis,emoji game card game black
 ♣️,2663,,club suit,activities,,Emojis,emoji game card game black
 ♟️,265F,,chess pawn,activities,,Emojis,emoji game chess dupe expendable black
@@ -33628,7 +33628,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 ⛑️,26D1,,rescue worker’s helmet,objects,,Emojis,emoji clothing aid cross face hat helmet red
 📿,1F4FF,,prayer beads,objects,,Emojis,emoji clothing beads clothing necklace prayer religion red
 💄,1F484,,lipstick,objects,,Emojis,emoji clothing cosmetics makeup red
-💍,1F48D,,ring,objects,,Emojis,emoji clothing diamond blue
+💍,1F48D,,ring,objects,,Emojis,emoji clothing diamond blue love marriage
 💎,1F48E,,gem stone,objects,,Emojis,emoji clothing diamond gem jewel blue
 🔇,1F507,,muted speaker,objects,,Emojis,emoji sound mute quiet silent speaker black red
 🔈️,1F508,,speaker low volume,objects,,Emojis,emoji sound soft black
@@ -33690,31 +33690,31 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🔦,1F526,,flashlight,objects,,Emojis,emoji light-video electric light tool torch black
 🏮,1F3EE,,red paper lantern,objects,,Emojis,emoji light-video bar lantern light red red
 🪔,1FA94,,diya lamp,objects,,Emojis,emoji light-video diya lamp oil brown
-📔,1F4D4,,notebook with decorative cover,objects,,Emojis,emoji book-paper book cover decorated notebook yellow
-📕,1F4D5,,closed book,objects,,Emojis,emoji book-paper book closed red
-📖,1F4D6,,open book,objects,,Emojis,emoji book-paper book open white
-📗,1F4D7,,green book,objects,,Emojis,emoji book-paper book green
-📘,1F4D8,,blue book,objects,,Emojis,emoji book-paper blue book
-📙,1F4D9,,orange book,objects,,Emojis,emoji book-paper book orange
-📚️,1F4DA,,books,objects,,Emojis,emoji book-paper book green red black
-📓,1F4D3,,notebook,objects,,Emojis,emoji book-paper notebook grey
-📒,1F4D2,,ledger,objects,,Emojis,emoji book-paper notebook yellow
-📃,1F4C3,,page with curl,objects,,Emojis,emoji book-paper curl document page white
-📜,1F4DC,,scroll,objects,,Emojis,emoji book-paper paper brown
-📄,1F4C4,,page facing up,objects,,Emojis,emoji book-paper document page white
+📔,1F4D4,,notebook with decorative cover,objects,,Emojis,emoji book-paper book cover decorated notebook yellow education
+📕,1F4D5,,closed book,objects,,Emojis,emoji book-paper book closed red education
+📖,1F4D6,,open book,objects,,Emojis,emoji book-paper book open white education
+📗,1F4D7,,green book,objects,,Emojis,emoji book-paper book green education
+📘,1F4D8,,blue book,objects,,Emojis,emoji book-paper blue book education
+📙,1F4D9,,orange book,objects,,Emojis,emoji book-paper book orange education
+📚️,1F4DA,,books,objects,,Emojis,emoji book-paper book green red black education
+📓,1F4D3,,notebook,objects,,Emojis,emoji book-paper notebook grey education
+📒,1F4D2,,ledger,objects,,Emojis,emoji book-paper notebook yellow education
+📃,1F4C3,,page with curl,objects,,Emojis,emoji book-paper curl document page white education
+📜,1F4DC,,scroll,objects,,Emojis,emoji book-paper paper brown education
+📄,1F4C4,,page facing up,objects,,Emojis,emoji book-paper document page white education
 📰,1F4F0,,newspaper,objects,,Emojis,emoji book-paper news paper white
 🗞️,1F5DE,,rolled-up newspaper,objects,,Emojis,emoji book-paper news newspaper paper rolled white
 📑,1F4D1,,bookmark tabs,objects,,Emojis,emoji book-paper bookmark mark marker tabs white
 🔖,1F516,,bookmark,objects,,Emojis,emoji book-paper mark white red
-🏷️,1F3F7,,label,objects,,Emojis,emoji book-paper label brown
-💰️,1F4B0,,money bag,objects,,Emojis,emoji money bag dollar money moneybag yellow brown currency
-💴,1F4B4,,yen banknote,objects,,Emojis,emoji money banknote bill currency money note yen grey
-💵,1F4B5,,dollar banknote,objects,,Emojis,emoji money banknote bill currency dollar money note grey
-💶,1F4B6,,euro banknote,objects,,Emojis,emoji money banknote bill currency euro money note green
-💷,1F4B7,,pound banknote,objects,,Emojis,emoji money banknote bill currency money note pound red
-💸,1F4B8,,money with wings,objects,,Emojis,emoji money banknote bill fly money wings grey
+🏷️,1F3F7,,label,objects,,Emojis,emoji book-paper label brown tag
+💰️,1F4B0,,money bag,objects,,Emojis,emoji money bag dollar money moneybag yellow brown currency cash
+💴,1F4B4,,yen banknote,objects,,Emojis,emoji money banknote bill currency money note yen grey cash
+💵,1F4B5,,dollar banknote,objects,,Emojis,emoji money banknote bill currency dollar money note grey cash
+💶,1F4B6,,euro banknote,objects,,Emojis,emoji money banknote bill currency euro money note green cash
+💷,1F4B7,,pound banknote,objects,,Emojis,emoji money banknote bill currency money note pound red cash
+💸,1F4B8,,money with wings,objects,,Emojis,emoji money banknote bill fly money wings grey cash
 💳️,1F4B3,,credit card,objects,,Emojis,emoji money card credit money grey
-🧾,1F9FE,,receipt,objects,,Emojis,emoji money accounting bookkeeping evidence proof white
+🧾,1F9FE,,receipt,objects,,Emojis,emoji money accounting bookkeeping evidence proof white billing
 💹,1F4B9,,chart increasing with yen,objects,,Emojis,emoji money chart graph growth money yen green
 💱,1F4B1,,currency exchange,objects,,Emojis,emoji money bank currency exchange money black
 💲,1F4B2,,heavy dollar sign,objects,,Emojis,emoji money currency dollar money black
@@ -33731,14 +33731,14 @@ z,007A,122,latin small letter z,Basic Latin,,,
 📭️,1F4ED,,open mailbox with lowered flag,objects,,Emojis,emoji mail lowered mail mailbox open postbox blue red
 📮,1F4EE,,postbox,objects,,Emojis,emoji mail mail mailbox red
 🗳️,1F5F3,,ballot box with ballot,objects,,Emojis,emoji mail ballot box blue
-✏️,270F,,pencil,objects,,Emojis,emoji writing pencil yellow
+✏️,270F,,pencil,objects,,Emojis,emoji writing pencil yellow edit
 ✒️,2712,,black nib,objects,,Emojis,emoji writing nib pen black
 🖋️,1F58B,,fountain pen,objects,,Emojis,emoji writing fountain pen black
 🖊️,1F58A,,pen,objects,,Emojis,emoji writing ballpoint black
 🖌️,1F58C,,paintbrush,objects,,Emojis,emoji writing painting blue
 🖍️,1F58D,,crayon,objects,,Emojis,emoji writing crayon red
-📝,1F4DD,,memo,objects,,Emojis,emoji writing pencil white yellow
-💼,1F4BC,,briefcase,objects,,Emojis,emoji office briefcase brown
+📝,1F4DD,,memo,objects,,Emojis,emoji writing pencil white yellow edit
+💼,1F4BC,,briefcase,objects,,Emojis,emoji office briefcase brown work
 📁,1F4C1,,file folder,objects,,Emojis,emoji office file folder grey
 📂,1F4C2,,open file folder,objects,,Emojis,emoji office file folder open grey
 🗂️,1F5C2,,card index dividers,objects,,Emojis,emoji office card dividers index brown
@@ -33835,7 +33835,7 @@ z,007A,122,latin small letter z,Basic Latin,,,
 🛅,1F6C5,,left luggage,symbols,,Emojis,emoji transport-sign baggage locker luggage blue
 ⚠️,26A0,,warning,symbols,,Emojis,emoji warning warning yellow
 🚸,1F6B8,,children crossing,symbols,,Emojis,emoji warning child crossing pedestrian traffic yellow
-⛔️,26D4,,no entry,symbols,,Emojis,emoji warning entry forbidden no not prohibited traffic red
+⛔️,26D4,,no entry,symbols,,Emojis,emoji warning entry forbidden no not prohibited traffic red sign stop
 🚫,1F6AB,,prohibited,symbols,,Emojis,emoji warning entry forbidden no not red
 🚳,1F6B3,,no bicycles,symbols,,Emojis,emoji warning bicycle bike forbidden no prohibited red black
 🚭️,1F6AD,,no smoking,symbols,,Emojis,emoji warning forbidden no not prohibited smoking red black
@@ -33926,8 +33926,8 @@ z,007A,122,latin small letter z,Basic Latin,,,
 📛,1F4DB,,name badge,symbols,,Emojis,emoji other-symbol badge name red
 🔰,1F530,,Japanese symbol for beginner,symbols,,Emojis,emoji other-symbol beginner chevron japanese japanese symbol for beginner leaf yellow green
 ⭕️,2B55,,hollow red circle,symbols,,Emojis,emoji other-symbol circle large o red red ring
-✅,2705,,check mark button,symbols,,Emojis,emoji other-symbol button check mark ✓ green
-☑️,2611,,check box with check,symbols,,Emojis,emoji other-symbol box check ✓ grey
+✅,2705,,check mark button,symbols,,Emojis,emoji other-symbol button check mark ✓ green checkbox
+☑️,2611,,check box with check,symbols,,Emojis,emoji other-symbol box check ✓ grey checkbox
 ✔️,2714,,check mark,symbols,,Emojis,emoji other-symbol check mark ✓ black
 ✖️,2716,,multiplication sign,symbols,,Emojis,emoji other-symbol cancel multiplication multiply sign x × black
 ❌,274C,,cross mark,symbols,,Emojis,emoji other-symbol cancel cross mark multiplication multiply x × red
