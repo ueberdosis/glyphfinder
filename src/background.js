@@ -129,7 +129,7 @@ app.on('ready', async () => {
     // If you are not using Windows 10 dark mode, you may uncomment these lines
     // In addition, if the linked issue is closed, you can upgrade electron and uncomment these lines
     try {
-      // await installExtension(VUEJS_DEVTOOLS)
+      await installExtension(VUEJS_DEVTOOLS)
   ***REMOVED*** catch (e) {
       console.error('Vue Devtools failed to install:', e.toString())
   ***REMOVED***
