@@ -1,6 +1,7 @@
 import path from 'path'
 import { app, protocol, BrowserWindow } from 'electron'
-import { createProtocol, installVueDevtools } from 'vue-cli-plugin-electron-builder/lib'
+import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
+import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
 import LicenseCheck from './services/LicenseCheck'
 import Updater from './services/Updater'
 import MenuBuilder from './services/MenuBuilder'
@@ -45,7 +46,7 @@ function getWindow() {
         nodeIntegrationInWorker: process.env.ELECTRON_NODE_INTEGRATION,
         backgroundThrottling: false, // allows repaint when window is hidden
     ***REMOVED***,
-      icon: path.resolve(__dirname, isWindows ? 'build/icon.ico' : 'build/icon.icns'),
+      icon: path.resolve(__dirname, isWindows ? '../build/icon.ico' : '../public/icon.png'),
   ***REMOVED***
 
     if (!process.env.WEBPACK_DEV_SERVER_URL) {
@@ -127,7 +128,7 @@ app.on('ready', async () => {
     // If you are not using Windows 10 dark mode, you may uncomment these lines
     // In addition, if the linked issue is closed, you can upgrade electron and uncomment these lines
     try {
-      await installVueDevtools()
+      // await installExtension(VUEJS_DEVTOOLS)
   ***REMOVED*** catch (e) {
       console.error('Vue Devtools failed to install:', e.toString())
   ***REMOVED***
