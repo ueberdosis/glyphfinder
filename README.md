@@ -1,4 +1,6 @@
-# glyphhunter
+# Glyphfinder for macOS & Windows
+
+https://www.glyphfinder.com/
 
 ## Project setup
 ```
