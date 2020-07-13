@@ -20,5 +20,9 @@ yarn build
 yarn lint
 ```
 
+### Spreadsheet with all characters (and tags)
+
+https://docs.google.com/spreadsheets/d/1Xdlg_pR3jSlTunmcmgZI70ZAQu7N4yoJFcL4Ssn6uJI/edit#gid=1187968163
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
