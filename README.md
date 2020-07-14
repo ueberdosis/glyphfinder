@@ -1,3 +1,5 @@
+README WIP 🚧
+
 # Glyphfinder for macOS & Windows
 
 https://www.glyphfinder.com/
