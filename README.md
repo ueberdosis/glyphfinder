@@ -2,7 +2,17 @@
 
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
-Unicode character search for macOS & Windows. Read more: https://www.glyphfinder.com
+Unicode character search for macOS & Windows.
+
+## Features
+
+* 34,306 characters & emojis tagged with words, categories, look-alikes and colors
+* Keyboard shortcuts for your keyboard layout
+* HTML entity (if available)
+* Most frequently used glyphs pinned to the top
+* Works offline
+* Dark mode & Light mode
+* macOS & Windows
 
 ## Using Glyphfinder
 
