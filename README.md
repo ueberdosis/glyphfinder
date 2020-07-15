@@ -20,7 +20,7 @@ Contribution is very welcome! Feel free to open an issue for bug reports, add ne
 
 Glyphfinder searches through 34.306 characters, the file containing the full list of characters including all tags is too big for GitHub (more than 200 MB). Google Spreadsheet can handle this huge data set very well. If you want to suggest new tags, feel free to add them here: https://docs.google.com/spreadsheets/d/1Xdlg_pR3jSlTunmcmgZI70ZAQu7N4yoJFcL4Ssn6uJI/edit#gid=1187968163
 
-### Project setup
+#### Project setup
 
 Feel free to clone the project and fiddle around with our code. You need Node and Yarn, and — that’s special for this project – need to generate the list of characters from a Google Spreadsheet.
 
@@ -29,7 +29,7 @@ yarn install
 yarn generate
 ```
 
-#### Opens the development build
+#### Run the development build
 
 To start the development version of the app run the start script. The app will open and you’ll be able to use it right-away. Changes to the code will be hot loaded.
 
@@ -37,7 +37,7 @@ To start the development version of the app run the start script. The app will o
 yarn start
 ```
 
-#### Lints and fixes files
+#### Lint and fix files
 
 If you plan to send a PR with changes, run the lint process to fix code style issues:
 
