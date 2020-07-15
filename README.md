@@ -1,5 +1,13 @@
 README WIP 🚧
 
+TODO: License
+TODO: Link to SetApp
+TODO: Contribution
+TODO: Sponsor
+TODO: Sponsor Badge
+TODO: Generate data points
+TODO: Link to glyphfinder-landingpage
+
 # Glyphfinder for macOS & Windows
 
 https://www.glyphfinder.com/
