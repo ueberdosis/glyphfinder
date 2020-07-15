@@ -6,11 +6,11 @@ Unicode character search for macOS & Windows. Read more: https://www.glyphfinder
 
 ## Using Glyphfinder
 
-Though the code is open source, we ask you to buy a license to actually use Glyphfinder.
+Though the code is open source, we ask you to buy a license to actually use Glyphfinder. Your money will helps to put more time into our open source work. ✌️
 
-1. 🤑 Buy a license: https://www.glyphfinder.com
-2. 💝 Sponsor us: https://github.com/sponsors/ueberdosis
-3. 📚️ Or [subscribe to SetApp](https://go.setapp.com/stp268?refAppID=388&utm_medium=available_on_setapp_button&utm_source=388&utm_campaign=https://github.com/ueberdosis/glyphfinder) (referral link to Glyphfinder)
+1. 🤑 Buy a license here: https://www.glyphfinder.com ($6.99)
+2. 💝 Sponsor our work: https://github.com/sponsors/ueberdosis
+3. 📚️ Or [subscribe to SetApp](https://go.setapp.com/stp268?refAppID=388&utm_medium=available_on_setapp_button&utm_source=388&utm_campaign=https://github.com/ueberdosis/glyphfinder) (referral link) and get a ton of apps, including Glyphfinder
 
 ## Contribution
 
@@ -52,3 +52,7 @@ Don’t try to build the app, you won’t be able to code sign and/or notarize t
 ## Related projects
 
 * [ueberdosis/glyphfinder-landingpage](https://github.com/ueberdosis/glyphfinder-landingpage)
+* [ueberdosis/mouseless](https://github.com/ueberdosis/mouseless)
+* [ueberdosis/mouseless-landingpage](https://github.com/ueberdosis/mouseless-landingpage)
+* [ueberdosis/matter](https://github.com/ueberdosis/matter)
+* [ueberdosis/matter-landingpage](https://github.com/ueberdosis/matter-landingpage)
