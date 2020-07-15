@@ -4,6 +4,8 @@
 
 Unicode character search for macOS & Windows.
 
+TODO: Add screenshot
+
 ## Features
 
 * 34,306 characters & emojis tagged with words, categories, look-alikes and colors
@@ -18,9 +20,9 @@ Unicode character search for macOS & Windows.
 
 Though the code is open source, we ask you to buy a license to actually use Glyphfinder. Your money will helps to put more time into our open source work. ✌️
 
-1. 🤑 Buy a license here: https://www.glyphfinder.com ($6.99)
-2. 💝 Sponsor our work: https://github.com/sponsors/ueberdosis
-3. 📚️ Or [subscribe to SetApp](https://go.setapp.com/stp268?refAppID=388&utm_medium=available_on_setapp_button&utm_source=388&utm_campaign=https://github.com/ueberdosis/glyphfinder) (referral link) and get a ton of apps, including Glyphfinder
+* 🤑 Buy a license here: https://www.glyphfinder.com ($6.99)
+* 💝 Sponsor our work: https://github.com/sponsors/ueberdosis
+* 📚️ Or [subscribe to SetApp](https://go.setapp.com/stp268?refAppID=388&utm_medium=available_on_setapp_button&utm_source=388&utm_campaign=https://github.com/ueberdosis/glyphfinder) (referral link) and get a ton of apps, including Glyphfinder
 
 ## Contribution
 
