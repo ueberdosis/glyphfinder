@@ -4,7 +4,7 @@
 
 Unicode character search for macOS & Windows.
 
-TODO: Add screenshot
+<img width="452" alt="VMhqvQhFOy" src="https://user-images.githubusercontent.com/2500670/87650646-40679f80-c752-11ea-9c21-e65f1b0097a9.png">
 
 ## Features
 
