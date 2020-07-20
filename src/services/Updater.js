@@ -1,11 +1,11 @@
 import { dialog, app, BrowserWindow } from 'electron'
 import { autoUpdater } from 'electron-updater'
-***REMOVED***
+import log from 'electron-log'
 import Setapp from './Setapp'
 
-***REMOVED***
+export default new class {
 
-***REMOVED***
+  constructor() {
     autoUpdater.autoDownload = false
 
     // logs to ~/Library/Logs/Mouseless/log.log
@@ -16,8 +16,8 @@ import Setapp from './Setapp'
     this.silent = false
 
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     autoUpdater.on('error', this.onError.bind(this))
     autoUpdater.on('update-available', this.onUpdateAvailable.bind(this))
@@ -25,70 +25,70 @@ import Setapp from './Setapp'
     autoUpdater.on('download-progress', this.onDownloadProgress.bind(this))
     autoUpdater.on('update-downloaded', this.onUpdateDownloaded.bind(this))
     autoUpdater.on('checking-for-update', this.onCheckingForUpdate.bind(this))
-***REMOVED***
+  }
 
   sendStatusToWindow(text) {
     this.browserWindows.forEach(browserWindow => {
       browserWindow.webContents.send('log', text)
-***REMOVED***
-***REMOVED***
+    })
+  }
 
   get browserWindows() {
     return BrowserWindow.getAllWindows()
-***REMOVED***
+  }
 
   enableMenuItem() {
     if (this.menuItem) {
       this.menuItem.enabled = true
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   disableMenuItem() {
     if (this.menuItem) {
       this.menuItem.enabled = false
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   silentlyCheckForUpdates() {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     this.silent = true
     this.disableMenuItem()
     autoUpdater.checkForUpdates()
-***REMOVED***
+  }
 
   checkForUpdates(menuItem = null) {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     this.menuItem = menuItem
     this.silent = false
     this.disableMenuItem()
     autoUpdater.checkForUpdates()
-***REMOVED***
+  }
 
   ensureSafeQuitAndInstall() {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     app.removeAllListeners('window-all-closed')
     this.browserWindows.forEach(browserWindow => browserWindow.removeAllListeners('close'))
     autoUpdater.quitAndInstall()
-***REMOVED***
+  }
 
   onError(error) {
     this.enableMenuItem()
     this.sendStatusToWindow(`Error in auto-updater. ${error}`)
-***REMOVED***
+  }
 
   async onUpdateAvailable() {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     this.sendStatusToWindow('Update available.')
 
@@ -98,38 +98,38 @@ import Setapp from './Setapp'
       detail: 'Do you want to update now?',
       buttons: ['Yes, Download', 'Later'],
       defaultId: 0,
-***REMOVED***
+    })
 
     if (response === 0) {
       autoUpdater.downloadUpdate()
-  ***REMOVED*** else {
+    } else {
       this.enableMenuItem()
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   onUpdateNotAvailable() {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     this.sendStatusToWindow('Update not available.')
 
     this.enableMenuItem()
 
     if (this.silent) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     dialog.showMessageBox({
       message: 'No Updates available.',
       detail: 'You already have the latest version installed.',
-***REMOVED***
-***REMOVED***
+    })
+  }
 
   async onUpdateDownloaded() {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     this.sendStatusToWindow('Update downloaded.')
 
@@ -138,23 +138,23 @@ import Setapp from './Setapp'
       detail: 'To install the update, the application needs to be restarted.',
       buttons: ['Restart', 'Later'],
       defaultId: 0,
-***REMOVED***
+    })
 
     if (response === 0) {
       setImmediate(() => {
         this.ensureSafeQuitAndInstall()
-  ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+      })
+    }
+  }
 
   onCheckingForUpdate() {
     this.sendStatusToWindow('Checking for update…')
-***REMOVED***
+  }
 
   onDownloadProgress(progress) {
     if (Setapp.isActive) {
-***REMOVED***
-  ***REMOVED***
+      return
+    }
 
     let logMessage = `Download speed: ${progress.bytesPerSecond}`
     logMessage = `${logMessage} - Downloaded ${progress.percent}%`
@@ -163,7 +163,7 @@ import Setapp from './Setapp'
 
     this.browserWindows.forEach(browserWindow => {
       browserWindow.setProgressBar(progress.percent / 100)
-***REMOVED***
-***REMOVED***
+    })
+  }
 
-***REMOVED***
+}()

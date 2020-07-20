@@ -15,14 +15,14 @@ import KeyItem from '@/components/KeyItem'
 export default {
   components: {
     KeyItem,
-***REMOVED***,
+  },
 
   props: {
     keys: {
       required: true,
       type: Array,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 }
 </script>
 

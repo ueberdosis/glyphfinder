@@ -37,13 +37,13 @@
     --colorGreen: 40, 201, 65;
     --colorRed: 255, 98, 77;
     --colorWhite: 255, 255, 255;
-***REMOVED***
+  }
 
   --menuBarSize: 20px;
 
   &.is-mac:not(.is-menubar) {
     --menuBarSize: 40px;
-***REMOVED***
+  }
 }
 
 /* Default Equations */

@@ -21,35 +21,35 @@ export default {
 
   components: {
     GlyphItem,
-***REMOVED***,
+  },
 
   props: {
     glyphs: {
       type: Array,
       default: () => ([]),
-  ***REMOVED***,
+    },
 
     height: {
       type: Number,
       required: true,
-  ***REMOVED***,
+    },
 
     title: {
       type: String,
       default: null,
-  ***REMOVED***,
+    },
 
     y: {
       type: Number,
       default: 0,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   computed: {
     titleHeight() {
-***REMOVED*** this.navigatable.glyphRowWithTitleHeight - this.navigatable.glyphRowHeight
-  ***REMOVED***,
-***REMOVED***,
+      return this.navigatable.glyphRowWithTitleHeight - this.navigatable.glyphRowHeight
+    },
+  },
 }
 </script>
 

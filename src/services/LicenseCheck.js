@@ -1,94 +1,92 @@
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+import axios from 'axios'
+import { ipcMain } from 'electron'
+import log from 'electron-log'
+import Store from './Store'
+import { nestedValue } from '../helpers'
 
-const masterKey = 'O2J7GGH2-3NGHUU9J-FHUEH7AW-ITU3UP15'
+log.transports.file.getFile()
 
-***REMOVED***
+export default new class {
 
-***REMOVED***
+  constructor() {
+    this.limit = process.env.NODE_ENV === 'development'
+      ? Infinity
+      : 1
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+    ipcMain.on('verifyLicenseKey', (_, licenseKey) => {
+      this.verifyLicenseKey(licenseKey)
+    })
+  }
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+  setWindow(win) {
+    this.win = win
+  }
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
+  verifyLicenseKey(licenseKey) {
+    if (process.env.MASTER_KEY && licenseKey === process.env.MASTER_KEY) {
+      Store.set('verification', {
+        success: true,
+        purchase: {
+          license_key: licenseKey,
+        },
+      })
+      this.emitSuccess()
+      return
+    }
 
-***REMOVED***
-    if (licenseKey === masterKey) {
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-      ***REMOVED***,
-  ***REMOVED***
-***REMOVED***
-***REMOVED***
-  ***REMOVED***
+    axios
+      .post('https://api.gumroad.com/v2/licenses/verify', {
+        product_permalink: process.env.VUE_APP_GUMROAD_PRODUCT_ID,
+        license_key: licenseKey,
+        increment_uses_count: true,
+      })
+      .then(response => {
+        const limit = parseInt(nestedValue(response, 'data.purchase.variants').replace(/\D/g, ''), 10) * 2
+          || this.limit * 2
+        const uses = nestedValue(response, 'data.uses')
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+        if (uses > limit) {
+          this.emitError(`Sorry. This license is already in use on ${limit} ${limit > 1 ? 'devices' : 'device'}.`)
+          return
+        }
 
-***REMOVED***
-***REMOVED***
-    ***REMOVED***
-      ***REMOVED***
+        const refunded = nestedValue(response, 'data.purchase.refunded')
 
-***REMOVED***
+        if (refunded) {
+          this.emitError('Sorry. This purchase has been refunded.')
+          return
+        }
 
-***REMOVED***
-***REMOVED***
-    ***REMOVED***
-      ***REMOVED***
+        const chargebacked = nestedValue(response, 'data.purchase.chargebacked')
 
-***REMOVED***
+        if (chargebacked) {
+          this.emitError('Sorry. This purchase has been chargebacked.')
+          return
+        }
 
-***REMOVED***
-***REMOVED***
-    ***REMOVED***
-      ***REMOVED***
+        Store.set('verification', response.data)
+        this.emitSuccess()
+      })
+      .catch(error => {
+        if (!error.response) {
+          this.emitError('Please check your internet connection.')
+          log.error('license check failed. maybe no internet connection.', error)
+        } else if (error.response.status && error.response.status >= 500) {
+          this.emitError('Oh no. Gumroad can\'t be reached. Please try again later.')
+          log.error('license check failed. maybe gumroad down.', error)
+        } else {
+          this.emitError('Sorry. This license does not exist.')
+          log.error('license check failed.', error)
+        }
+      })
+  }
 
-***REMOVED***
-  ***REMOVED***
-  ***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-      ***REMOVED*** else if (error.response.status && error.response.status >= 500) {
-***REMOVED***
-***REMOVED***
-      ***REMOVED*** else {
-***REMOVED***
-***REMOVED***
-      ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+  emitSuccess() {
+    this.win.webContents.send('verifyLicenseKey:succeeded')
+  }
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
+  emitError(errorMessage = null) {
+    this.win.webContents.send('verifyLicenseKey:failed', errorMessage)
+  }
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-
-***REMOVED***
+}()

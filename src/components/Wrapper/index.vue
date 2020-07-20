@@ -37,7 +37,7 @@ export default {
     PreferencesOverlay,
     GlyphCheckOverlay,
     LicenseCheckOverlay,
-***REMOVED***,
+  },
 
   data() {
     return {
@@ -45,29 +45,29 @@ export default {
       showPreferences: false,
       showGlyphCheck: false,
       showLicenseCheck: false,
-  ***REMOVED***
-***REMOVED***,
+    }
+  },
 
   methods: {
     onShowPreferences() {
       if (!User.isVerified || this.showGlyphCheck || this.showLicenseCheck) {
-  ***REMOVED***
-    ***REMOVED***
+        return
+      }
 
       this.showPreferences = true
-  ***REMOVED***,
+    },
 
     onHidePreferences() {
       this.showPreferences = false
-  ***REMOVED***,
+    },
 
     onHideGlyphCheck() {
       this.showGlyphCheck = false
-  ***REMOVED***,
+    },
 
     onHideLicenseCheck() {
       this.init()
-  ***REMOVED***,
+    },
 
     init() {
       const dbExists = DB.glyphsExists() && DB.searchIndexExists()
@@ -76,36 +76,36 @@ export default {
         Glyphs
           .importGlyphs(DB.glyphs())
           .importIndex(DB.searchIndex())
-    ***REMOVED***
+      }
 
       this.showGlyphCheck = User.isVerified && !dbExists
       this.showLicenseCheck = !User.isVerified
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   created() {
     this.init()
-***REMOVED***,
+  },
 
   mounted() {
     setTimeout(() => {
       this.isLoaded = true
       document.body.classList.add('is-loaded')
-  ***REMOVED***, 0)
+    }, 0)
 
     console.timeEnd('mount')
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)
     Event.on('hideGlyphCheck', this.onHideGlyphCheck)
     Event.on('hideLicenseCheck', this.onHideLicenseCheck)
-***REMOVED***,
+  },
 
   beforeDestroy() {
     ipcRenderer.removeListener('showPreferences', this.onShowPreferences)
     Event.off('hidePreferences', this.onHidePreferences)
     Event.off('hideGlyphCheck', this.onHideGlyphCheck)
     Event.off('hideLicenseCheck', this.onHideLicenseCheck)
-***REMOVED***,
+  },
 }
 </script>
 

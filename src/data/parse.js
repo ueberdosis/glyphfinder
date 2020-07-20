@@ -8,7 +8,7 @@ fs.createReadStream('./src/data/data.csv')
   .pipe(csv())
   .on('data', data => {
     codepoints.push(data)
-***REMOVED***)
+  })
   .on('end', () => {
     fs.writeFile('./src/data/data.json', JSON.stringify(codepoints, null, 2), bail)
-***REMOVED***)
+  })

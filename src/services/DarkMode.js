@@ -1,13 +1,13 @@
 import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
-***REMOVED***
+import Store from './Store'
 
-***REMOVED***
+export default new class {
   init() {
     this.set()
 
     nativeTheme.on('updated', this._handleUpdate.bind(this))
     ipcMain.on('darkModePreferenceChanged', this._handleUpdate.bind(this))
-***REMOVED***
+  }
 
   get() {
     const preference = Store.get('darkMode')
@@ -15,7 +15,7 @@ import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
     return preference === 'system'
       ? nativeTheme.shouldUseDarkColors
       : preference === 'true'
-***REMOVED***
+  }
 
   set() {
     this.isDarkMode = this.get()
@@ -24,8 +24,8 @@ import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
       .getAllWindows()
       .forEach(browserWindow => {
         browserWindow.isDarkMode = this.isDarkMode
-  ***REMOVED***
-***REMOVED***
+      })
+  }
 
   _handleUpdate() {
     this.set()
@@ -34,6 +34,6 @@ import { nativeTheme, BrowserWindow, ipcMain } from 'electron'
       .getAllWindows()
       .forEach(browserWindow => {
         browserWindow.webContents.send('darkModeChanged', this.isDarkMode)
-  ***REMOVED***
-***REMOVED***
-***REMOVED***
+      })
+  }
+}()

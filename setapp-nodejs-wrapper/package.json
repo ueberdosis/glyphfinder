@@ -6,12 +6,12 @@
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.4.0"
-***REMOVED***,
+  },
   "scripts": {
     "build": "node-gyp rebuild --target=8.3.4 --arch=x64 --dist-url=https://electronjs.org/headers"
-***REMOVED***,
+  },
   "gypfile": true,
   "devDependencies": {
     "node-gyp": "^3.4.0"
-***REMOVED***
+  }
 }

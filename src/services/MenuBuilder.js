@@ -3,7 +3,7 @@ import Updater from './Updater'
 import Setapp from './Setapp'
 import { isMac } from '../helpers'
 
-***REMOVED***
+export default new class {
 
   template() {
     return [
@@ -23,9 +23,9 @@ import { isMac } from '../helpers'
                 .forEach(browserWindow => {
                   browserWindow.webContents.send('showPreferences')
                   browserWindow.show()
-            ***REMOVED***
-          ***REMOVED***,
-        ***REMOVED***,
+                })
+            },
+          },
           ...(isMac ? [
             { type: 'separator' },
           ] : []),
@@ -34,8 +34,8 @@ import { isMac } from '../helpers'
               label: 'Check for Updates',
               click(menuItem) {
                 Updater.checkForUpdates(menuItem)
-            ***REMOVED***,
-          ***REMOVED***,
+              },
+            },
           ] : []),
           ...(isMac ? [
             { type: 'separator' },
@@ -46,7 +46,7 @@ import { isMac } from '../helpers'
           ] : []),
           { role: 'quit' },
         ],
-    ***REMOVED***,
+      },
       {
         label: 'Edit',
         submenu: [
@@ -62,7 +62,7 @@ import { isMac } from '../helpers'
           { role: 'selectAll' },
           { role: 'delete' },
         ],
-    ***REMOVED***,
+      },
       {
         label: 'View',
         submenu: [
@@ -74,11 +74,11 @@ import { isMac } from '../helpers'
             click(item, focusedWindow) {
               if (focusedWindow) {
                 focusedWindow.toggleDevTools()
-            ***REMOVED***
-          ***REMOVED***,
-        ***REMOVED***,
+              }
+            },
+          },
         ],
-    ***REMOVED***,
+      },
       {
         role: 'window',
         submenu: [
@@ -89,12 +89,12 @@ import { isMac } from '../helpers'
           { type: 'separator' },
           { role: 'front' },
         ],
-    ***REMOVED***,
+      },
     ]
-***REMOVED***
+  }
 
   setMenu() {
     Menu.setApplicationMenu(Menu.buildFromTemplate(this.template()))
-***REMOVED***
+  }
 
-***REMOVED***
+}()

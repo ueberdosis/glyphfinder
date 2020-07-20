@@ -61,35 +61,35 @@ export default {
     EntityList,
     KeyList,
     ClipboardBadge,
-***REMOVED***,
+  },
 
   props: {
     glyph: {
       required: true,
       type: Object,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   data() {
     return {
       copied: false,
       copiedTimeout: null,
-  ***REMOVED***
-***REMOVED***,
+    }
+  },
 
   computed: {
     shortcut() {
-***REMOVED*** Shortcut.get(this.glyph.symbol)
-  ***REMOVED***,
+      return Shortcut.get(this.glyph.symbol)
+    },
 
     showShortcut() {
-***REMOVED*** this.shortcut && this.shortcut.length > 1
-  ***REMOVED***,
+      return this.shortcut && this.shortcut.length > 1
+    },
 
     entities() {
-***REMOVED*** this.glyph.entities.match(/\S+/g) || []
-  ***REMOVED***,
-***REMOVED***,
+      return this.glyph.entities.match(/\S+/g) || []
+    },
+  },
 
   methods: {
     handleCopied() {
@@ -98,17 +98,17 @@ export default {
 
       this.copiedTimeout = setTimeout(() => {
         this.copied = false
-    ***REMOVED***, 1500)
-  ***REMOVED***,
-***REMOVED***,
+      }, 1500)
+    },
+  },
 
   mounted() {
     Event.on('copied', this.handleCopied)
-***REMOVED***,
+  },
 
   beforeDestroy() {
     Event.off('copied', this.handleCopied)
-***REMOVED***,
+  },
 }
 </script>
 
