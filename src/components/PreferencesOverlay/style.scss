@@ -6,7 +6,7 @@
 
   .is-mac & {
     border-radius: 6px;
-  }
+***REMOVED***
 
   &__header {
     display: flex;
@@ -22,41 +22,41 @@
       text-overflow: ellipsis;
       line-height: 1.1;
       flex: 1 1 auto;
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   &__content {
     font-size: 14px;
     font-weight: 500;
-  }
+***REMOVED***
 
   &__section {
     margin-bottom: 24px;
 
     button {
       margin-bottom: 6px;
-    }
+  ***REMOVED***
 
     > div:last-child {
       &,
       & > * {
         pointer-events: all;
         user-select: text;
-      }
-    }
-  }
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***
 
   &__label {
     font-size: 12px;
     font-weight: 500;
     color: rgba(var(--colorWhite), 0.4);
     margin-bottom: 4px;
-  }
+***REMOVED***
 
   &__row {
     display: flex;
     align-items: center;
-  }
+***REMOVED***
 
   &__option {
     display: flex;
@@ -64,12 +64,12 @@
     justify-content: space-between;
     padding: 8px 0;
     border-top: 1px solid rgba(var(--colorWhite), 0.05);
-  }
+***REMOVED***
 
   &__grey-text {
     color: rgba(var(--colorWhite), 0.5);
     font-style: italic;
-  }
+***REMOVED***
 }
 
 .select {
@@ -96,7 +96,7 @@
     opacity: 0;
     width: 0;
     height: 0;
-  }
+***REMOVED***
 
   &__slider {
     position: absolute;
@@ -119,12 +119,12 @@
       background-color: var(--colorSwitchSliderUnchecked);
       transition: 0.2s $ease;
       border-radius: 50%;
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   &:hover input:not(:checked) + &__slider::before {
     background-color: var(--colorSwitchSliderUncheckedHover);
-  }
+***REMOVED***
 
   input:checked + &__slider {
     background-color: rgb(var(--colorGreen));
@@ -132,6 +132,6 @@
     &::before {
       transform: translateX(18px);
       background-color: var(--colorSwitchSliderChecked);
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 }

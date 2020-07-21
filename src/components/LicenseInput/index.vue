@@ -5,7 +5,7 @@
       :class="{
         'is-success': isSuccess,
         'is-error': isError,
-      }"
+    ***REMOVED***"
       v-model="licenseKey"
       :mask="licenseMask"
       :tokens="tokens"
@@ -41,7 +41,7 @@ export default {
 
   components: {
     TheMask,
-  },
+***REMOVED***,
 
   data() {
     return {
@@ -57,68 +57,68 @@ export default {
         X: {
           pattern: /[0-9a-zA-Z]/,
           transform: v => v.toLocaleUpperCase(),
-        },
-      },
-    }
-  },
+      ***REMOVED***,
+    ***REMOVED***,
+  ***REMOVED***
+***REMOVED***,
 
   methods: {
     retry() {
       this.onChange()
-    },
+  ***REMOVED***,
 
     onChange() {
       if (this.licenseKey.length === this.licenseMask.length) {
         this.verifyLicense()
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
 
     verifyLicense() {
       if (this.isLoading) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       this.isError = false
       this.isLoading = true
       ipcRenderer.send('verifyLicenseKey', this.licenseKey)
-    },
+  ***REMOVED***,
 
     handleSuccess() {
       if (!User.isVerified) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       this.isSuccess = true
       this.isLoading = false
       this.$emit('success')
-    },
+  ***REMOVED***,
 
     handleFail(_, errorMessage) {
       this.errorMessage = errorMessage
       this.isError = true
       this.isLoading = false
       this.focusInput()
-    },
+  ***REMOVED***,
 
     focusInput() {
       this.$nextTick(() => {
         if (this.$refs.input) {
           this.$refs.input.$el.focus()
-        }
-      })
-    },
-  },
+      ***REMOVED***
+  ***REMOVED***
+  ***REMOVED***,
+***REMOVED***,
 
   mounted() {
     this.focusInput()
     ipcRenderer.on('verifyLicenseKey:succeeded', this.handleSuccess)
     ipcRenderer.on('verifyLicenseKey:failed', this.handleFail)
-  },
+***REMOVED***,
 
   beforeDestroy() {
     ipcRenderer.removeListener('verifyLicenseKey:succeeded', this.handleSuccess)
     ipcRenderer.removeListener('verifyLicenseKey:failed', this.handleFail)
-  },
+***REMOVED***,
 }
 </script>
 

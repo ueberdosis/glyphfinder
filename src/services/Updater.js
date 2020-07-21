@@ -1,11 +1,11 @@
 import { dialog, app, BrowserWindow } from 'electron'
 import { autoUpdater } from 'electron-updater'
-import log from 'electron-log'
+***REMOVED***
 import Setapp from './Setapp'
 
-export default new class {
+***REMOVED***
 
-  constructor() {
+***REMOVED***
     autoUpdater.autoDownload = false
 
     // logs to ~/Library/Logs/Mouseless/log.log
@@ -16,8 +16,8 @@ export default new class {
     this.silent = false
 
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     autoUpdater.on('error', this.onError.bind(this))
     autoUpdater.on('update-available', this.onUpdateAvailable.bind(this))
@@ -25,70 +25,70 @@ export default new class {
     autoUpdater.on('download-progress', this.onDownloadProgress.bind(this))
     autoUpdater.on('update-downloaded', this.onUpdateDownloaded.bind(this))
     autoUpdater.on('checking-for-update', this.onCheckingForUpdate.bind(this))
-  }
+***REMOVED***
 
   sendStatusToWindow(text) {
     this.browserWindows.forEach(browserWindow => {
       browserWindow.webContents.send('log', text)
-    })
-  }
+***REMOVED***
+***REMOVED***
 
   get browserWindows() {
     return BrowserWindow.getAllWindows()
-  }
+***REMOVED***
 
   enableMenuItem() {
     if (this.menuItem) {
       this.menuItem.enabled = true
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   disableMenuItem() {
     if (this.menuItem) {
       this.menuItem.enabled = false
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   silentlyCheckForUpdates() {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.silent = true
     this.disableMenuItem()
     autoUpdater.checkForUpdates()
-  }
+***REMOVED***
 
   checkForUpdates(menuItem = null) {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.menuItem = menuItem
     this.silent = false
     this.disableMenuItem()
     autoUpdater.checkForUpdates()
-  }
+***REMOVED***
 
   ensureSafeQuitAndInstall() {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     app.removeAllListeners('window-all-closed')
     this.browserWindows.forEach(browserWindow => browserWindow.removeAllListeners('close'))
     autoUpdater.quitAndInstall()
-  }
+***REMOVED***
 
   onError(error) {
     this.enableMenuItem()
     this.sendStatusToWindow(`Error in auto-updater. ${error}`)
-  }
+***REMOVED***
 
   async onUpdateAvailable() {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.sendStatusToWindow('Update available.')
 
@@ -98,38 +98,38 @@ export default new class {
       detail: 'Do you want to update now?',
       buttons: ['Yes, Download', 'Later'],
       defaultId: 0,
-    })
+***REMOVED***
 
     if (response === 0) {
       autoUpdater.downloadUpdate()
-    } else {
+  ***REMOVED*** else {
       this.enableMenuItem()
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   onUpdateNotAvailable() {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.sendStatusToWindow('Update not available.')
 
     this.enableMenuItem()
 
     if (this.silent) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     dialog.showMessageBox({
       message: 'No Updates available.',
       detail: 'You already have the latest version installed.',
-    })
-  }
+***REMOVED***
+***REMOVED***
 
   async onUpdateDownloaded() {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.sendStatusToWindow('Update downloaded.')
 
@@ -138,23 +138,23 @@ export default new class {
       detail: 'To install the update, the application needs to be restarted.',
       buttons: ['Restart', 'Later'],
       defaultId: 0,
-    })
+***REMOVED***
 
     if (response === 0) {
       setImmediate(() => {
         this.ensureSafeQuitAndInstall()
-      })
-    }
-  }
+  ***REMOVED***
+  ***REMOVED***
+***REMOVED***
 
   onCheckingForUpdate() {
     this.sendStatusToWindow('Checking for update…')
-  }
+***REMOVED***
 
   onDownloadProgress(progress) {
     if (Setapp.isActive) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     let logMessage = `Download speed: ${progress.bytesPerSecond}`
     logMessage = `${logMessage} - Downloaded ${progress.percent}%`
@@ -163,7 +163,7 @@ export default new class {
 
     this.browserWindows.forEach(browserWindow => {
       browserWindow.setProgressBar(progress.percent / 100)
-    })
-  }
+***REMOVED***
+***REMOVED***
 
-}()
+***REMOVED***

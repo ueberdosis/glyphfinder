@@ -40,8 +40,8 @@ void _SCReportUsageEvent(const FunctionCallbackInfo<Value>& info)
     if (info.Length() < 1)
     {
         Nan::ThrowTypeError("Wrong number of arguments. Should be at least 1 string arg.");
-        return;
-    }
+  ***REMOVED***;
+  ***REMOVED***
     
     String::Utf8Value utf8Str(isolate, info[0].As<String>());
     NSString *eventName = [NSString stringWithUTF8String:*utf8Str] ?: @"";
@@ -49,7 +49,7 @@ void _SCReportUsageEvent(const FunctionCallbackInfo<Value>& info)
     if (info.Length() > 1)
     {
         Nan::ThrowTypeError("Second argument is not supportted rignt now");
-    }
+  ***REMOVED***
     
     SCReportUsageEvent(eventName, nil);
 }
@@ -72,8 +72,8 @@ void _SCAskUserToShareEmail(const FunctionCallbackInfo<Value>& info)
             v8::Local<v8::Value> argv[] = { Nan::New((int32_t)response) };
             pCallback->Call(1, argv);
             delete pCallback;
-        };
-    }
+      ***REMOVED***;
+  ***REMOVED***
     BOOL didShowDialog = SCAskUserToShareEmail(completionHandler);
     info.GetReturnValue().Set(didShowDialog ? Nan::True() : Nan::False());
 }
@@ -85,14 +85,14 @@ void _SCEnableDebugLogging(const FunctionCallbackInfo<Value>& info)
     if (info.Length() < 1)
     {
         Nan::ThrowTypeError("Wrong number of arguments. Should be 1.");
-        return;
-    }
+  ***REMOVED***;
+  ***REMOVED***
 
     if (!info[0]->IsBoolean())
     {
         Nan::ThrowTypeError("Wrong argument type. Should be Boolean.");
-        return;
-    }
+  ***REMOVED***;
+  ***REMOVED***
 
     BOOL shouldEnable = info[0].As<v8::Boolean>()->Value() ? YES : NO;
     SCEnableDebugLogging(shouldEnable);

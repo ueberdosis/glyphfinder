@@ -10,37 +10,37 @@ export default {
     value: {
       default: 0,
       type: Number,
-    },
+  ***REMOVED***,
 
     max: {
       default: 100,
       type: Number,
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   computed: {
     percentage() {
       if (this.value === 0 && this.max === 0) {
-        return 0
-      }
+  ***REMOVED*** 0
+    ***REMOVED***
 
-      return (100 / this.max) * this.value
-    },
+***REMOVED*** (100 / this.max) * this.value
+  ***REMOVED***,
 
     markerPercentage() {
       if (!this.marker) {
-        return 0
-      }
+  ***REMOVED*** 0
+    ***REMOVED***
 
-      return this.between(this.marker, 0, 100)
-    },
-  },
+***REMOVED*** this.between(this.marker, 0, 100)
+  ***REMOVED***,
+***REMOVED***,
 
   methods: {
     between(value, min, max) {
-      return (Math.min(max, Math.max(min, value)))
-    },
-  },
+***REMOVED*** (Math.min(max, Math.max(min, value)))
+  ***REMOVED***,
+***REMOVED***,
 }
 </script>
 

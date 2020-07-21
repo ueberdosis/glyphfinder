@@ -6,7 +6,7 @@
     "defines": [],
     "include_dirs": [],
     "libraries": []
-  },
+***REMOVED***,
   "variables": {
     "asan": 0,
     "build_v8_with_gn": "false",
@@ -87,5 +87,5 @@
     "init_version": "1.0.0",
     "ignore_optional": "",
     "version_tag_prefix": "v"
-  }
+***REMOVED***
 }

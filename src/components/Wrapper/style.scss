@@ -10,11 +10,11 @@
 
   &.is-loaded {
     opacity: 1;
-  }
+***REMOVED***
 
   .is-windows:not(.is-menubar) & {
     height: 100%;
-  }
+***REMOVED***
 
   &::before {
     content: '';
@@ -25,7 +25,7 @@
     height: var(--menuBarSize);
     pointer-events: none;
     -webkit-app-region: drag;
-  }
+***REMOVED***
 
   &__content {
     flex: 1 1 auto;
@@ -40,8 +40,8 @@
       transform: scale(0.9) translateY(-8px);
       border-radius: 12px;
       pointer-events: none;
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   &__content-overlay {
     position: absolute;
@@ -57,12 +57,12 @@
       visibility 0.6s $easeInOutQuint,
       opacity 0.6s $easeInOutQuint,
     ;
-  }
+***REMOVED***
 
   &__content.is-hidden &__content-overlay {
     visibility: visible;
     opacity: 1;
-  }
+***REMOVED***
 
   &__overlay {
     position: absolute;
@@ -70,5 +70,5 @@
     left: 0;
     right: 0;
     bottom: 0;
-  }
+***REMOVED***
 }

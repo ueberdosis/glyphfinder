@@ -3,7 +3,7 @@ import Updater from './Updater'
 import Setapp from './Setapp'
 import { isMac } from '../helpers'
 
-export default new class {
+***REMOVED***
 
   template() {
     return [
@@ -23,9 +23,9 @@ export default new class {
                 .forEach(browserWindow => {
                   browserWindow.webContents.send('showPreferences')
                   browserWindow.show()
-                })
-            },
-          },
+            ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
           ...(isMac ? [
             { type: 'separator' },
           ] : []),
@@ -34,8 +34,8 @@ export default new class {
               label: 'Check for Updates',
               click(menuItem) {
                 Updater.checkForUpdates(menuItem)
-              },
-            },
+            ***REMOVED***,
+          ***REMOVED***,
           ] : []),
           ...(isMac ? [
             { type: 'separator' },
@@ -46,7 +46,7 @@ export default new class {
           ] : []),
           { role: 'quit' },
         ],
-      },
+    ***REMOVED***,
       {
         label: 'Edit',
         submenu: [
@@ -62,7 +62,7 @@ export default new class {
           { role: 'selectAll' },
           { role: 'delete' },
         ],
-      },
+    ***REMOVED***,
       {
         label: 'View',
         submenu: [
@@ -74,11 +74,11 @@ export default new class {
             click(item, focusedWindow) {
               if (focusedWindow) {
                 focusedWindow.toggleDevTools()
-              }
-            },
-          },
+            ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
         ],
-      },
+    ***REMOVED***,
       {
         role: 'window',
         submenu: [
@@ -89,12 +89,12 @@ export default new class {
           { type: 'separator' },
           { role: 'front' },
         ],
-      },
+    ***REMOVED***,
     ]
-  }
+***REMOVED***
 
   setMenu() {
     Menu.setApplicationMenu(Menu.buildFromTemplate(this.template()))
-  }
+***REMOVED***
 
-}()
+***REMOVED***

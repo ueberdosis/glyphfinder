@@ -5,7 +5,7 @@
       'is-active': isSelected,
       'is-emoji': isEmoji,
       'is-space': isSpace,
-    }"
+  ***REMOVED***"
     type="button"
     @click="handleClick"
     @dblclick="copyToClipboard"
@@ -29,36 +29,36 @@ export default {
     glyph: {
       required: true,
       type: Object,
-    },
+  ***REMOVED***,
 
     x: {
       type: Number,
       default: 0,
-    },
+  ***REMOVED***,
 
     y: {
       type: Number,
       default: 0,
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   computed: {
     isSelected() {
-      return this.navigatable.selectedGlyph
+***REMOVED*** this.navigatable.selectedGlyph
         ? this.navigatable.selectedGlyph.id === this.glyph.id
         : false
-    },
+  ***REMOVED***,
 
     isEmoji() {
-      return this.glyph.tags.includes('emoji')
-    },
+***REMOVED*** this.glyph.tags.includes('emoji')
+  ***REMOVED***,
 
     isSpace() {
-      return !/[^\s]/.test(this.glyph.symbol)
+***REMOVED*** !/[^\s]/.test(this.glyph.symbol)
         && this.glyph.code !== 5760
         && this.glyph.code !== '5760'
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   methods: {
     copyToClipboard() {
@@ -68,53 +68,53 @@ export default {
       if (Store.get('hideAfterCopy')) {
         if (this.isWindows) {
           remote.getCurrentWindow().minimize()
-        } else {
+      ***REMOVED*** else {
           remote.app.hide()
-        }
+      ***REMOVED***
 
         this.sendNotification()
-      } else if (copied) {
+    ***REMOVED*** else if (copied) {
         Event.emit('copied')
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
 
     sendNotification() {
       const notification = new Notification('Glyphfinder', {
         body: 'Copied to clipboard!',
         silent: true,
-      })
+  ***REMOVED***
 
       setTimeout(() => {
         notification.close()
-      }, 2000)
-    },
+    ***REMOVED***, 2000)
+  ***REMOVED***,
 
     increaseUsage() {
       const usage = Store.get('usage', [])
       const usageItem = usage.find(item => item.symbol === this.glyph.symbol) || {
         symbol: this.glyph.symbol,
         count: 0,
-      }
+    ***REMOVED***
       const newUsageItem = {
         ...usageItem,
         count: usageItem.count + 1,
-      }
+    ***REMOVED***
       const newUsage = collect(usage)
         .filter(item => item.symbol !== this.glyph.symbol)
         .push(newUsageItem)
         .toArray()
 
       Store.set('usage', newUsage)
-    },
+  ***REMOVED***,
 
     handleClick() {
       this.navigatable.setSelection(this.x, this.y)
-    },
+  ***REMOVED***,
 
     handleKeyDown(event) {
       if (!this.isSelected) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       if (
         event.key === 'Enter'
@@ -122,17 +122,17 @@ export default {
         || (this.isWindows && event.key === 'c' && event.ctrlKey)
       ) {
         this.copyToClipboard()
-      }
-    },
-  },
+    ***REMOVED***
+  ***REMOVED***,
+***REMOVED***,
 
   mounted() {
     document.addEventListener('keydown', this.handleKeyDown)
-  },
+***REMOVED***,
 
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeyDown)
-  },
+***REMOVED***,
 }
 </script>
 

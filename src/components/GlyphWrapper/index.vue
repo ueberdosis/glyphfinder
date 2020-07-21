@@ -50,73 +50,73 @@ export default {
     GlyphList,
     GlyphData,
     Icon,
-  },
+***REMOVED***,
 
   data() {
     return {
       query: null,
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 
   props: {
     showPreferences: {
       default: false,
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   computed: {
     formattedQuery() {
-      return this.query ? this.query.trim() : ''
-    },
+***REMOVED*** this.query ? this.query.trim() : ''
+  ***REMOVED***,
 
     showFrequentlyUsedGlyphs() {
-      return !this.formattedQuery.length
-    },
+***REMOVED*** !this.formattedQuery.length
+  ***REMOVED***,
 
     glyphs() {
-      return Glyphs.search(this.formattedQuery)
-    },
-  },
+***REMOVED*** Glyphs.search(this.formattedQuery)
+  ***REMOVED***,
+***REMOVED***,
 
   methods: {
     onBlurInput() {
       this.$nextTick(() => {
         if (this.$refs.search && this.isMac) {
           this.$refs.search.focus()
-        }
-      })
-    },
+      ***REMOVED***
+  ***REMOVED***
+  ***REMOVED***,
 
     reset() {
       this.query = null
-    },
+  ***REMOVED***,
 
     hideWindow() {
       if (this.showPreferences) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       if (this.isWindows) {
         remote.getCurrentWindow().minimize()
-      } else {
+    ***REMOVED*** else {
         remote.app.hide()
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
 
     handleWindowHidden() {
       if (Store.get('clearSearchOnHide')) {
         this.reset()
-      }
-    },
-  },
+    ***REMOVED***
+  ***REMOVED***,
+***REMOVED***,
 
   mounted() {
     ipcRenderer.on('windowHidden', this.handleWindowHidden)
-  },
+***REMOVED***,
 
   beforeDestroy() {
     ipcRenderer.removeListener('windowHidden', this.handleWindowHidden)
-  },
+***REMOVED***,
 }
 </script>
 

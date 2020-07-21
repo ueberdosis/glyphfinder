@@ -13,14 +13,14 @@ if (isISOKeyboard) {
   basicKeyMap.Backquote = IntlBackslash
 }
 
-export default new class {
+***REMOVED***
 
   keymap = Object
     .entries(basicKeyMap)
     .map(([code, data]) => ({
       code,
       ...data,
-    }))
+***REMOVED***)
 
   get(symbol) {
     return collect(this.keymap)
@@ -28,25 +28,25 @@ export default new class {
         const value = key.value === ' ' ? 'space' : key.value
 
         if (key.value === symbol) {
-          return [value]
-        }
+    ***REMOVED*** [value]
+      ***REMOVED***
 
         if (key.withAltGr === symbol) {
-          return ['alt', value]
-        }
+    ***REMOVED*** ['alt', value]
+      ***REMOVED***
 
         if (key.withShift === symbol) {
-          return ['shift', value]
-        }
+    ***REMOVED*** ['shift', value]
+      ***REMOVED***
 
         if (key.withShiftAltGr === symbol) {
-          return ['shift', 'alt', value]
-        }
+    ***REMOVED*** ['shift', 'alt', value]
+      ***REMOVED***
 
-        return null
-      })
+  ***REMOVED*** null
+  ***REMOVED***
       .filter()
       .first()
-  }
+***REMOVED***
 
-}()
+***REMOVED***

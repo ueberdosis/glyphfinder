@@ -11,23 +11,23 @@ export default new Store({
     '1.0.0': store => {
       DB.removeAll()
       store.clear()
-    },
+  ***REMOVED***,
     '1.1.0': store => {
       if (isMac) {
         store.set('shortcut', ['shift', 'super', 'g'])
-      } else {
+    ***REMOVED*** else {
         store.set('shortcut', ['control', 'shift', 'g'])
-      }
+    ***REMOVED***
 
       store.set('showMenubar', false)
       store.set('autoStart', false)
       store.set('hideAfterCopy', false)
-    },
+  ***REMOVED***,
     '1.1.1': store => {
       store.set('showMenubar', true)
       store.set('autoStart', true)
       store.set('hideAfterCopy', true)
-    },
+  ***REMOVED***,
     '1.2.0': store => {
       // fix missing default usage
       const usage = store.get('usage', [])
@@ -42,18 +42,18 @@ export default new Store({
 
       const isBadShortcut = shortcut => {
         if (isMac) {
-          return isSameArray(shortcut, ['shift', 'super', 'g'])
-        }
-        return isSameArray(shortcut, ['control', 'shift', 'g'])
-      }
+    ***REMOVED*** isSameArray(shortcut, ['shift', 'super', 'g'])
+      ***REMOVED***
+  ***REMOVED*** isSameArray(shortcut, ['control', 'shift', 'g'])
+    ***REMOVED***
 
       if (isBadShortcut(store.get('shortcut'))) {
         store.set('shortcut', ['control', 'super', 'g'])
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
     '1.3.0': store => {
       store.set('darkMode', 'system')
       DB.removeSearchIndex()
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 })

@@ -19,8 +19,8 @@ Vue.mixin({
       isMac,
       isWindows: !isMac,
       isDarkMode: remote.getCurrentWindow().isDarkMode,
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 })
 
 new Vue({
@@ -37,16 +37,16 @@ new Vue({
         if (this.isDarkMode) {
           this.titleBar.updateBackground(customTitlebar.Color.fromHex('#000'))
           this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#111'))
-        } else {
+      ***REMOVED*** else {
           this.titleBar.updateBackground(customTitlebar.Color.fromHex('#f3f3f3'))
           this.titleBar.updateItemBGColor(customTitlebar.Color.fromHex('#bbb'))
-        }
-      }
-    })
+      ***REMOVED***
+    ***REMOVED***
+***REMOVED***
 
     if (showMenubar) {
       document.documentElement.classList.add('is-menubar')
-    }
+  ***REMOVED***
 
     if (this.isWindows && !showMenubar) {
       this.titleBar = new customTitlebar.Titlebar({
@@ -54,11 +54,11 @@ new Vue({
         backgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#000' : '#f3f3f3'),
         itemBackgroundColor: customTitlebar.Color.fromHex(this.isDarkMode ? '#111' : '#bbb'),
         maximizable: false,
-      })
+  ***REMOVED***
 
       this.titleBar.updateTitle(' ')
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 
   watch: {
     isDarkMode: {
@@ -66,16 +66,16 @@ new Vue({
       handler() {
         if (this.isDarkMode) {
           document.documentElement.classList.add('is-dark-mode')
-        } else {
+      ***REMOVED*** else {
           document.documentElement.classList.remove('is-dark-mode')
-        }
-      },
-    },
-  },
+      ***REMOVED***
+    ***REMOVED***,
+  ***REMOVED***,
+***REMOVED***,
 
   beforeDestroy() {
     if (this.titleBar) {
       this.titleBar.dispose()
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 }).$mount('#app')

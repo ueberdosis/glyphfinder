@@ -14,12 +14,12 @@
 
   &:first-child {
     margin-left: 0;
-  }
+***REMOVED***
 
   &:hover {
     color: rgba(var(--colorWhite), 1);
     background-color: rgba(var(--colorWhite), 0.12);
-  }
+***REMOVED***
 
   &.is-red {
     background-color: rgb(var(--colorRed));
@@ -27,14 +27,14 @@
 
     &:hover {
       background-color: rgba(var(--colorRed), 0.9);
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   &.is-red-text {
     background-color: transparent;
     color: rgb(var(--colorRed));
     padding: 0;
-  }
+***REMOVED***
 
   &.is-grey-text {
     background-color: transparent;
@@ -42,14 +42,14 @@
     &:hover {
       color: rgba(var(--colorWhite), 1);
       background-color: rgba(var(--colorWhite), 0.12);
-    }
-  }
+  ***REMOVED***
+***REMOVED***
 
   &__icon + &__content {
     margin-left: 2px;
-  }
+***REMOVED***
 
   & + & {
     margin-left: 6px;
-  }
+***REMOVED***
 }

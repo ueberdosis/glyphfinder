@@ -1,8 +1,8 @@
 import collect from 'collect.js'
 import FlexSearch from 'flexsearch'
 
-export default new class {
-  constructor() {
+***REMOVED***
+***REMOVED***
     this.data = []
     this.index = new FlexSearch({
       cache: true,
@@ -11,30 +11,30 @@ export default new class {
         field: {
           signs: {
             tokenize: this.tokenize.bind(this),
-          },
+        ***REMOVED***,
           words: {
             tokenize: this.tokenize.bind(this),
-          },
-        },
-      },
-    })
-  }
+        ***REMOVED***,
+      ***REMOVED***,
+    ***REMOVED***,
+***REMOVED***
+***REMOVED***
 
   importGlyphs(data) {
     this.data = data
 
     return this
-  }
+***REMOVED***
 
   importIndex(index) {
     this.index.import(index, { serialize: false })
 
     return this
-  }
+***REMOVED***
 
   exportIndex() {
     return this.index.export({ serialize: false })
-  }
+***REMOVED***
 
   createIndex() {
     const formattedData = this.data.map(item => {
@@ -42,7 +42,7 @@ export default new class {
         .partition(str => this.isWord(str) || this.isWordWithHyphens(str))
         .toArray()
 
-      return {
+***REMOVED*** {
         ...item,
         signs: [
           item.symbol,
@@ -60,21 +60,21 @@ export default new class {
             .replace(' a ', '')
             .replace(' an ', ''),
         ].join(' '),
-      }
-    })
+    ***REMOVED***
+***REMOVED***
 
     this.index.add(formattedData)
 
     return this
-  }
+***REMOVED***
 
   isWord(value) {
     return /^[a-zA-Z0-9]+$/.test(value)
-  }
+***REMOVED***
 
   isWordWithHyphens(value) {
     return /^((?:\w+-)+\w+)$/.test(value)
-  }
+***REMOVED***
 
   tokenize(value) {
     const words = value.match(/\S+/g) || []
@@ -82,47 +82,47 @@ export default new class {
     return words
       .map(word => {
         if (this.isWordWithHyphens(word)) {
-          return word.split('-')
-        }
+    ***REMOVED*** word.split('-')
+      ***REMOVED***
 
-        return word
-      })
+  ***REMOVED*** word
+  ***REMOVED***
       .flat()
       .map(word => {
         if (word.length === 1) {
-          return [word]
-        }
+    ***REMOVED*** [word]
+      ***REMOVED***
 
         const tokens = []
 
         for (let i = 0; i < word.length; i += 1) {
           tokens.push(word.slice(0, i + 1))
-        }
+      ***REMOVED***
 
-        return collect(tokens)
+  ***REMOVED*** collect(tokens)
           .filter(token => {
             if (this.isWord(token)) {
-              return token.length > 1
-            }
+        ***REMOVED*** token.length > 1
+          ***REMOVED***
 
-            return true
-          })
+      ***REMOVED*** true
+      ***REMOVED***
           .reverse() // full words first
           .toArray()
-      })
+  ***REMOVED***
       .flat()
-  }
+***REMOVED***
 
   search(query = null) {
     const filteredQuery = query ? query.toLowerCase().trim() : ''
 
     if (filteredQuery === '') {
-      return this.data
-    }
+***REMOVED*** this.data
+  ***REMOVED***
 
     return this.index.search({
       query: filteredQuery,
       limit: 100000,
-    })
-  }
-}()
+***REMOVED***
+***REMOVED***
+***REMOVED***

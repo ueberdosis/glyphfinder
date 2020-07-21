@@ -5,9 +5,9 @@ module.exports = {
     loaderOptions: {
       scss: {
         prependData: '@import "~@/variables.scss";',
-      },
-    },
-  },
+    ***REMOVED***,
+  ***REMOVED***,
+***REMOVED***,
 
   chainWebpack: config => {
     // required for 'native-ext-loader'
@@ -32,7 +32,7 @@ module.exports = {
       .end()
 
     config.resolve.extensions.prepend('.node')
-  },
+***REMOVED***,
 
   pluginOptions: {
     electronBuilder: {
@@ -46,7 +46,7 @@ module.exports = {
           .end()
 
         config.resolve.extensions.add('.js').add('.node')
-      },
+    ***REMOVED***,
       builderOptions: {
         appId: process.env.VUE_APP_IS_SETAPP === 'true'
           ? 'com.ueberdosis.glyphfinder-setapp'
@@ -61,7 +61,7 @@ module.exports = {
           entitlementsInherit: 'build/entitlements.mac.plist',
           extendInfo: {
             NSUserNotificationAlertStyle: 'alert',
-          },
+        ***REMOVED***,
           publish: [
             {
               provider: 'spaces',
@@ -70,9 +70,9 @@ module.exports = {
               channel: 'latest',
               path: '/glyphfinder/mac',
               acl: 'public-read',
-            },
+          ***REMOVED***,
           ],
-        },
+      ***REMOVED***,
         win: {
           publisherName: 'überdosis GbR',
           publish: [
@@ -83,10 +83,10 @@ module.exports = {
               channel: 'latest',
               path: '/glyphfinder/win',
               acl: 'public-read',
-            },
+          ***REMOVED***,
           ],
-        },
-      },
-    },
-  },
+      ***REMOVED***,
+    ***REMOVED***,
+  ***REMOVED***,
+***REMOVED***,
 }

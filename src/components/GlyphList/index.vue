@@ -25,51 +25,51 @@ export default {
 
   components: {
     VirtualList,
-  },
+***REMOVED***,
 
   props: {
     rows: {
       type: Array,
       default: () => ([]),
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   data() {
     return {
       rowComponent: GlyphRow,
       scrollelement: null,
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 
   computed: {
     rowsCount() {
-      return this.rows.length
-    },
-  },
+***REMOVED*** this.rows.length
+  ***REMOVED***,
+***REMOVED***,
 
   methods: {
     getVariableHeight(index) {
-      return this.rows[index].height
-    },
+***REMOVED*** this.rows[index].height
+  ***REMOVED***,
 
     getItemProps(index) {
-      return {
+***REMOVED*** {
         props: {
           ...this.rows[index],
           y: index,
-        },
-      }
-    },
+      ***REMOVED***,
+    ***REMOVED***
+  ***REMOVED***,
 
     onScroll(event, data) {
       this.navigatable.handleScroll(data)
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   mounted() {
     this.scrollelement = this.$el
     this.navigatable.setElement(this.$el)
-  },
+***REMOVED***,
 }
 </script>
 

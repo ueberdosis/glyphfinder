@@ -32,7 +32,7 @@ function formatCodePoints(data, HTMLentities) {
       const entities = entity ? collect(entity.entities).unique().toArray().join(' ') : ''
       const tags = entity ? entity.tags.join(' ') : ''
 
-      return {
+***REMOVED*** {
         symbol,
         hex: getHex(symbol),
         code: item.code,
@@ -40,8 +40,8 @@ function formatCodePoints(data, HTMLentities) {
         category: item.block,
         entities,
         tags,
-      }
-    })
+    ***REMOVED***
+***REMOVED***
     .toArray()
 
   const emojis = collect(rawEmojis)
@@ -53,7 +53,7 @@ function formatCodePoints(data, HTMLentities) {
         ...item.tags,
       ].join(' ')
 
-      return [
+***REMOVED*** [
         {
           symbol: item.emoji,
           hex: item.hexcode.split('-').join(' '),
@@ -62,7 +62,7 @@ function formatCodePoints(data, HTMLentities) {
           category: groups[item.group],
           entities: '',
           tags,
-        },
+      ***REMOVED***,
         ...(item.skins
           ? item.skins.map(skin => ({
             symbol: skin.emoji,
@@ -72,10 +72,10 @@ function formatCodePoints(data, HTMLentities) {
             category: groups[skin.group],
             entities: '',
             tags,
-          })) : []
+      ***REMOVED***) : []
         ),
       ]
-    })
+***REMOVED***
     .flatten(1)
     .toArray()
 
@@ -97,9 +97,9 @@ function formatEntities(data) {
       rawEntities.push({
         entity: key.slice(1, -1),
         symbol: data[key].characters,
-      })
-    }
-  })
+  ***REMOVED***
+  ***REMOVED***
+***REMOVED***)
 
   const formattedEntities = collect(rawEntities)
     .groupBy('symbol')
@@ -111,12 +111,12 @@ function formatEntities(data) {
         .first()
       const tags = entityLookupItem ? entityLookupItem.tags : []
 
-      return [{
+***REMOVED*** [{
         symbol,
         entities,
         tags,
-      }]
-    })
+    ***REMOVED***]
+***REMOVED***
     .flatten(1)
     .toArray()
 

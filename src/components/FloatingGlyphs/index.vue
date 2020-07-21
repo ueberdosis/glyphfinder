@@ -32,8 +32,8 @@ export default {
     hasMouse: {
       type: Boolean,
       default: true,
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   data() {
     return {
@@ -41,33 +41,33 @@ export default {
       view: null,
       width: null,
       height: null,
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 
   computed: {
     area() {
-      return this.width * this.height
-    },
+***REMOVED*** this.width * this.height
+  ***REMOVED***,
 
     imagesLoaded() {
-      return !!this.images.length
-    },
+***REMOVED*** !!this.images.length
+  ***REMOVED***,
 
     useMouse() {
-      return this.hasMouse && !this.isTouchDevice()
-    },
-  },
+***REMOVED*** this.hasMouse && !this.isTouchDevice()
+  ***REMOVED***,
+***REMOVED***,
 
   watch: {
     area(newValue, oldValue) {
       if (oldValue === 0 || !this.imagesLoaded) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       this.stop()
       this.start()
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   methods: {
     isTouchDevice() {
@@ -76,13 +76,13 @@ export default {
 
       // eslint-disable-next-line
       if (('ontouchstart' in window) || (window.DocumentTouch && document instanceof DocumentTouch)) {
-        return true
-      }
+  ***REMOVED*** true
+    ***REMOVED***
 
       const query = ['(', prefixes.join('touch-enabled),('), 'heartz', ')'].join('')
 
-      return mq(query)
-    },
+***REMOVED*** mq(query)
+  ***REMOVED***,
 
     imageDataToImage(imagedata) {
       const canvas = document.createElement('canvas')
@@ -92,8 +92,8 @@ export default {
       ctx.putImageData(imagedata, 0, 0)
       const image = new Image()
       image.src = canvas.toDataURL()
-      return image
-    },
+***REMOVED*** image
+  ***REMOVED***,
 
     start() {
       this.engine = Engine.create()
@@ -124,8 +124,8 @@ export default {
           showConvexHulls: false,
           showInternalEdges: false,
           showMousePosition: false,
-        },
-      })
+      ***REMOVED***,
+  ***REMOVED***
 
       const count = Math.floor((this.width * this.height) / 8000)
       const canvasStartX = -this.width * 0.2
@@ -153,39 +153,39 @@ export default {
             slop: 0,
             chamfer: {
               radius: 10,
-            },
+          ***REMOVED***,
             render: {
               fillStyle: '#F25D48',
               sprite: {
                 xScale: size / spriteSize,
                 yScale: size / spriteSize,
                 texture: image.src,
-              },
-            },
+            ***REMOVED***,
+          ***REMOVED***,
             plugin: {
               wrap: {
                 min: {
                   x: canvasStartX,
                   y: canvasStartY,
-                },
+              ***REMOVED***,
                 max: {
                   x: canvasEndX,
                   y: canvasEndY,
-                },
-              },
-            },
-          },
+              ***REMOVED***,
+            ***REMOVED***,
+          ***REMOVED***,
+        ***REMOVED***,
         )
 
         Body.setVelocity(body, {
           x: Common.random(-3, 3),
           y: Common.random(-3, 3),
-        })
+    ***REMOVED***
 
         Body.rotate(body, Common.random(0, 360))
 
         World.add(this.engine.world, body)
-      }
+    ***REMOVED***
 
       if (this.useMouse) {
         this.mouse = Mouse.create(document.body)
@@ -204,44 +204,44 @@ export default {
           radius: 30,
           render: {
             fillStyle: 'rgba(0,0,0,0)',
-          },
-        })
+        ***REMOVED***,
+    ***REMOVED***
         World.add(this.engine.world, this.mouseBody)
-      }
+    ***REMOVED***
 
       Engine.run(this.engine)
       Render.run(this.render)
 
       if (this.useMouse) {
         Events.on(this.engine, 'afterUpdate', this.handleUpdate)
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
 
     getMousePosition() {
       const bounds = this.render.canvas.getBoundingClientRect()
       const x = this.mouse.position.x - window.pageXOffset - bounds.x
       const y = this.mouse.position.y - window.pageYOffset - bounds.y
 
-      return { x, y }
-    },
+***REMOVED*** { x, y }
+  ***REMOVED***,
 
     handleUpdate() {
       if (!this.mouse.position.x) {
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       const { x, y } = this.getMousePosition()
 
       Body.setVelocity(this.mouseBody, {
         x: x - this.mouseBody.position.x,
         y: y - this.mouseBody.position.y,
-      })
-    },
+  ***REMOVED***
+  ***REMOVED***,
 
     setDimensions() {
       this.width = this.$el.clientWidth
       this.height = this.$el.clientHeight
-    },
+  ***REMOVED***,
 
     stop() {
       this.$refs.container.innerHTML = ''
@@ -249,34 +249,34 @@ export default {
       if (this.render) {
         this.render.textures = {}
         Render.stop(this.render)
-      }
+    ***REMOVED***
 
       if (this.engine) {
         this.engine.events = {}
         Events.off(this.engine, 'afterUpdate', this.handleUpdate)
         World.clear(this.engine.world)
         Engine.clear(this.engine)
-      }
-    },
+    ***REMOVED***
+  ***REMOVED***,
 
     onResize() {
       this.setDimensions()
-    },
+  ***REMOVED***,
 
     init() {
       this.setDimensions()
       this.start()
-    },
+  ***REMOVED***,
 
     destroy() {
       this.stop()
-    },
-  },
+  ***REMOVED***,
+***REMOVED***,
 
   mounted() {
     if (this.reducedMotion) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.view = scrollMonitor.create(this.$el, { top: 50, bottom: 50 })
 
@@ -299,24 +299,24 @@ export default {
             const imageData = ctx.getImageData(j * tileWidth, i * tileHeight, tileWidth, tileHeight)
             const tile = this.imageDataToImage(imageData)
             images.push(tile)
-          }
-        }
+        ***REMOVED***
+      ***REMOVED***
 
         this.images = images
         this.$nextTick(() => {
           this.view.enterViewport(this.init)
           this.view.exitViewport(this.destroy)
-        })
-      })
-  },
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***,
 
   beforeDestroy() {
     this.destroy()
 
     if (this.view) {
       this.view.destroy()
-    }
-  },
+  ***REMOVED***
+***REMOVED***,
 }
 </script>
 

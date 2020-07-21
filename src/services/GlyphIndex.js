@@ -4,12 +4,12 @@ import PromiseWorker from 'promise-worker'
 import Glyphs from './Glyphs'
 import DB from './DB'
 
-export default new class {
-  constructor() {
+***REMOVED***
+***REMOVED***
     this.worker = new Worker()
     this.promiseWorker = new PromiseWorker(this.worker)
     this.progress = 0
-  }
+***REMOVED***
 
   async create() {
     const glyphs = await this.createSupportedGlyphs()
@@ -17,7 +17,7 @@ export default new class {
     const { searchIndex, newGlyphs } = await this.promiseWorker.postMessage({
       type: 'createSearchIndex',
       glyphs,
-    })
+***REMOVED***
 
     DB.saveGlyphs(newGlyphs)
     DB.saveSearchIndex(searchIndex)
@@ -27,19 +27,19 @@ export default new class {
       .importIndex(searchIndex)
 
     this.finishCallback()
-  }
+***REMOVED***
 
   onProgress(callback) {
     this.progressCallback = callback
 
     return this
-  }
+***REMOVED***
 
   onFinish(callback) {
     this.finishCallback = callback
 
     return this
-  }
+***REMOVED***
 
   createSupportedGlyphs() {
     return new Promise(resolve => {
@@ -49,20 +49,20 @@ export default new class {
         this.progressCallback(100)
         resolve(glyphs)
 
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       this.worker.postMessage('getSupportedGlyphs')
 
       this.worker.onmessage = event => {
         if (event.data.type === 'progress') {
           this.progressCallback(event.data.value)
-        }
+      ***REMOVED***
 
         if (event.data.type === 'supportedGlyphs') {
           resolve(event.data.value)
-        }
-      }
-    })
-  }
-}()
+      ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***

@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   env: {
     node: true,
-  },
+***REMOVED***,
   extends: [
     'scrumpy',
   ],
@@ -11,8 +11,8 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'max-len': 'off',
-  },
+***REMOVED***,
   parserOptions: {
     parser: 'babel-eslint',
-  },
+***REMOVED***,
 }

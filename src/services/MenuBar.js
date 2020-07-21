@@ -9,29 +9,29 @@ import {
   nativeTheme,
   // screen,
 } from 'electron'
-import Store from './Store'
+***REMOVED***
 import User from './User'
 import Setapp from './Setapp'
 import Updater from './Updater'
 import DB from './DB'
 import { isMac } from '../helpers'
 
-export default new class {
+***REMOVED***
   getShortcut() {
     return Store.get('shortcut').join('+')
-  }
+***REMOVED***
 
   getIcon() {
     if (isMac) {
-      return 'MenuIconTemplate.png'
-    }
+***REMOVED*** 'MenuIconTemplate.png'
+  ***REMOVED***
 
     if (nativeTheme.shouldUseDarkColors) {
-      return 'MenuIconTemplateDarkMode.png'
-    }
+***REMOVED*** 'MenuIconTemplateDarkMode.png'
+  ***REMOVED***
 
     return 'MenuIconTemplate@2x.png'
-  }
+***REMOVED***
 
   create(windowOptions = {}) {
     return new Promise((resolve, reject) => {
@@ -40,8 +40,8 @@ export default new class {
         || !Store.get('showMenubar')
       ) {
         reject()
-        return
-      }
+  ***REMOVED***
+    ***REMOVED***
 
       const { titleBarStyle, trafficLightPosition, ...options } = windowOptions
 
@@ -59,33 +59,33 @@ export default new class {
           // x,
           // y,
           // alwaysOnTop: isDevelopment,
-        },
+      ***REMOVED***,
         /* global __static */
         icon: path.join(__static, this.getIcon()),
         preloadWindow: true,
         showDockIcon: false,
         tooltip: 'Glyphfinder',
-      })
+  ***REMOVED***
 
       this.menubar.on('after-create-window', () => {
         this.menubar.tray.on('right-click', () => {
           this.handleRightClick()
-        })
+    ***REMOVED***
 
         this.menubar.tray.on('click', event => {
           if (event.ctrlKey) {
             this.handleRightClick()
-          }
-        })
+        ***REMOVED***
+    ***REMOVED***
 
         const dbExists = DB.glyphsExists() && DB.searchIndexExists()
 
         if (!User.isVerified || (Setapp.isActive && !dbExists)) {
           setTimeout(() => this.show(), 200)
-        }
+      ***REMOVED***
 
         resolve(this.getWindow())
-      })
+  ***REMOVED***
 
       this.menubar.on('show', () => {
         Setapp.reportUsageEvent('user-interaction')
@@ -93,25 +93,25 @@ export default new class {
         // if (isDevelopment) {
         //   this.menubar.window.openDevTools()
         // }
-      })
+  ***REMOVED***
 
       this.menubar.on('hide', () => {
         // if (isDevelopment) {
         //   this.menubar.window.closeDevTools()
         // }
-      })
+  ***REMOVED***
 
       this.addShortcutListener()
 
       ipcMain.on('shortcutChanged', () => {
         this.addShortcutListener()
-      })
+  ***REMOVED***
 
       app.on('will-quit', () => {
         globalShortcut.unregisterAll()
-      })
-    })
-  }
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
 
   handleRightClick() {
     const contextMenu = Menu.buildFromTemplate([
@@ -127,54 +127,54 @@ export default new class {
             .forEach(browserWindow => {
               browserWindow.webContents.send('showPreferences')
               browserWindow.show()
-            })
-        },
-      },
+        ***REMOVED***
+      ***REMOVED***,
+    ***REMOVED***,
       { type: 'separator' },
       ...(!Setapp.isActive ? [
         {
           label: 'Check for Updates',
           click(menuItem) {
             Updater.checkForUpdates(menuItem)
-          },
-        },
+        ***REMOVED***,
+      ***REMOVED***,
       ] : []),
       { type: 'separator' },
       {
         label: 'Quit',
         click: () => {
           this.menubar.app.quit()
-        },
-      },
+      ***REMOVED***,
+    ***REMOVED***,
     ])
 
     Setapp.reportUsageEvent('user-interaction')
     this.menubar.tray.popUpContextMenu(contextMenu)
-  }
+***REMOVED***
 
   isWindowVisible(window) {
     return !!window && (!window.isDestroyed() && window.isVisible())
-  }
+***REMOVED***
 
   getWindow() {
     return this.menubar.window
-  }
+***REMOVED***
 
   show() {
     if (!this.menubar) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.menubar.showWindow()
-  }
+***REMOVED***
 
   hide() {
     if (!this.menubar) {
-      return
-    }
+***REMOVED***
+  ***REMOVED***
 
     this.menubar.hideWindow()
-  }
+***REMOVED***
 
   addShortcutListener() {
     // unregister previously added event listener
@@ -185,10 +185,10 @@ export default new class {
     globalShortcut.register(shortcut, () => {
       if (this.isWindowVisible(this.menubar.window)) {
         this.hide()
-      } else {
+    ***REMOVED*** else {
         this.show()
-      }
-    })
-  }
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
 
-}()
+***REMOVED***
