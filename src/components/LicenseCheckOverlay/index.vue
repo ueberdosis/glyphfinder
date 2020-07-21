@@ -28,23 +28,23 @@ export default {
   components: {
     Btn,
     LicenseInput,
-***REMOVED***,
+  },
 
   methods: {
     onSuccess() {
       this.close()
-  ***REMOVED***,
+    },
 
     close() {
       Event.emit('hideLicenseCheck')
-  ***REMOVED***,
+    },
 
     buyLicense() {
       require('electron')
         .shell
         .openExternal(`https://gumroad.com/l/${process.env.VUE_APP_GUMROAD_PRODUCT_ID}`)
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 }
 </script>
 

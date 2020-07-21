@@ -7,18 +7,18 @@
 
   &__header {
     flex: 0 0 auto;
-***REMOVED***
+  }
 
   &__content {
     flex: 1 1 auto;
     overflow: hidden;
     margin-right: -14px;
-***REMOVED***
+  }
 
   &__search-wrapper {
     position: relative;
     margin-bottom: 12px;
-***REMOVED***
+  }
 
   &__search {
     width: 100%;
@@ -31,8 +31,8 @@
 
     &::placeholder {
       color: rgba(var(--colorWhite), 0.2);
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   &__reset {
     position: absolute;
@@ -49,13 +49,13 @@
 
     &:hover {
       color: rgba(var(--colorWhite), 0.6);
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   &__overlay {
     position: absolute;
     bottom: 8px;
     left: 8px;
     width: calc(100% - 16px);
-***REMOVED***
+  }
 }

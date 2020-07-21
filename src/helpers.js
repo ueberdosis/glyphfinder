@@ -3,9 +3,9 @@ import { app as backendApp, remote } from 'electron'
 function getApp() {
   if (backendApp) {
     return backendApp
-***REMOVED*** if (remote) {
+  } if (remote) {
     return remote.app
-***REMOVED***
+  }
 
   return null
 }
@@ -27,9 +27,9 @@ export function findDuplicatesInArray(data = []) {
     if (data.indexOf(element, index + 1) > -1) {
       if (result.indexOf(element) === -1) {
         result.push(element)
-    ***REMOVED***
-  ***REMOVED***
-***REMOVED***)
+      }
+    }
+  })
 
   return result
 }
@@ -44,11 +44,11 @@ export function isSameArray(array1, array2) {
 export function getArrayDepth(value) {
   if (!Array.isArray(value)) {
     return 0
-***REMOVED***
+  }
 
   if (!value.length) {
     return 1
-***REMOVED***
+  }
 
   return 1 + Math.max(...value.map(getArrayDepth))
 }
@@ -56,9 +56,9 @@ export function getArrayDepth(value) {
 export function nestedValue(mainObject, key) {
   try {
     return key.split('.').reduce((obj, property) => obj[property], mainObject)
-***REMOVED*** catch (err) {
+  } catch (err) {
     return null
-***REMOVED***
+  }
 }
 
 export function uppercase(value) {
@@ -66,7 +66,7 @@ export function uppercase(value) {
 
   if (ignoredCharacters.includes(value)) {
     return value
-***REMOVED***
+  }
 
   return value.toUpperCase()
 }
@@ -258,7 +258,7 @@ export function keyNameByCode(code) {
     // 244: 'kanji',
     // 251: 'unlock trackpad (Chrome/Edge)',
     // 255: 'toggle touchpad',
-***REMOVED***
+  }
 
   return keyCodes[code]
 }

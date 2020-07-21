@@ -1,22 +1,22 @@
-***REMOVED***
+import Store from './Store'
 import Setapp from './Setapp'
 
-***REMOVED***
+export default new class {
 
   get email() {
     return Store.get('verification.purchase.email', null)
-***REMOVED***
+  }
 
   get isVerified() {
     if (Setapp.isActive) {
-***REMOVED*** true
-  ***REMOVED***
+      return true
+    }
 
     const verification = Store.get('verification', null)
 
     return verification
       ? !!verification.success
       : false
-***REMOVED***
+  }
 
-***REMOVED***
+}()

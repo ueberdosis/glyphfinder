@@ -13,14 +13,14 @@ export default {
     entity: {
       required: true,
       type: String,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   computed: {
     fullName() {
-***REMOVED*** `&${this.entity};`
-  ***REMOVED***,
-***REMOVED***,
+      return `&${this.entity};`
+    },
+  },
 
   methods: {
     copyToClipboard() {
@@ -28,9 +28,9 @@ export default {
 
       if (copied) {
         Event.emit('copied')
-    ***REMOVED***
-  ***REMOVED***,
-***REMOVED***,
+      }
+    },
+  },
 }
 </script>
 

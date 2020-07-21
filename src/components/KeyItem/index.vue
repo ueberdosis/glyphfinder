@@ -10,8 +10,8 @@ export default {
     item: {
       required: true,
       type: String,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 }
 </script>
 

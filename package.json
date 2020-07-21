@@ -23,7 +23,7 @@
     "setapp:start": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:serve",
     "start": "vue-cli-service electron:serve",
     "hash": "./node_modules/app-builder-bin/mac/app-builder blockmap -i dist_electron/mac/Glyphfinder-1.1.0-mac.zip"
-***REMOVED***,
+  },
   "main": "background.js",
   "dependencies": {
     "axios": "^0.19.2",
@@ -56,7 +56,7 @@
     "vue": "^2.6.10",
     "vue-the-mask": "^0.11.1",
     "vue-virtual-scroll-list": "^1.4.6"
-***REMOVED***,
+  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-eslint": "^4.4.6",
@@ -81,6 +81,6 @@
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
     "vue-template-compiler": "^2.6.10",
     "worker-loader": "^2.0.0"
-***REMOVED***,
+  },
   "productName": "Glyphfinder"
 }

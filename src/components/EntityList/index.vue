@@ -15,14 +15,14 @@ import EntityItem from '@/components/EntityItem'
 export default {
   components: {
     EntityItem,
-***REMOVED***,
+  },
 
   props: {
     entities: {
       required: true,
       type: Array,
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 }
 </script>
 

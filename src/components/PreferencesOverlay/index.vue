@@ -154,7 +154,7 @@ export default {
   components: {
     Btn,
     SmallKey,
-***REMOVED***,
+  },
 
   data() {
     return {
@@ -169,8 +169,8 @@ export default {
       showMenubarRestartButton: false,
       keyboard: null,
       isListening: false,
-  ***REMOVED***
-***REMOVED***,
+    }
+  },
 
   watch: {
     showMenubar() {
@@ -179,50 +179,50 @@ export default {
 
       if (this.showMenubar) {
         this.autoStart = true
-    ***REMOVED*** else {
+      } else {
         this.autoStart = false
-    ***REMOVED***
-  ***REMOVED***,
+      }
+    },
 
     autoStart() {
       Store.set('autoStart', this.autoStart)
       AutoStart.update()
-  ***REMOVED***,
+    },
 
     hideAfterCopy() {
       Store.set('hideAfterCopy', this.hideAfterCopy)
-  ***REMOVED***,
+    },
 
     clearSearchOnHide() {
       Store.set('clearSearchOnHide', this.clearSearchOnHide)
-  ***REMOVED***,
+    },
 
     darkMode() {
       Store.set('darkMode', this.darkMode)
       ipcRenderer.send('darkModePreferenceChanged')
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   methods: {
     close() {
       Event.emit('hidePreferences')
-  ***REMOVED***,
+    },
 
     clearGlyphs() {
       // eslint-disable-next-line
       if (confirm('Do you really want to clear the glyphs cache?')) {
         DB.removeGlyphs()
         window.location.reload()
-    ***REMOVED***
-  ***REMOVED***,
+      }
+    },
 
     clearIndex() {
       // eslint-disable-next-line
       if (confirm('Do you really want to clear the search index cache?')) {
         DB.removeSearchIndex()
         window.location.reload()
-    ***REMOVED***
-  ***REMOVED***,
+      }
+    },
 
     resetAll() {
       // eslint-disable-next-line
@@ -230,52 +230,52 @@ export default {
         Store.clear()
         DB.removeAll()
         window.location.reload()
-    ***REMOVED***
-  ***REMOVED***,
+      }
+    },
 
     restart() {
       remote.app.relaunch()
       remote.app.exit(0)
-  ***REMOVED***,
+    },
 
     listenToNewShortcut() {
       this.isListening = true
-  ***REMOVED***,
+    },
 
     cancelListening() {
       this.isListening = false
-  ***REMOVED***,
+    },
 
     handleKeyDown(event) {
       if (event.key === 'Escape') {
         if (this.isListening) {
           this.cancelListening()
-      ***REMOVED*** else {
+        } else {
           this.close()
-      ***REMOVED***
-    ***REMOVED***
+        }
+      }
 
       if (!this.isListening) {
-  ***REMOVED***
-    ***REMOVED***
+        return
+      }
 
       const keys = collect([keyNameByCode(event.which)])
 
       if (event.shiftKey) {
         keys.push('shift')
-    ***REMOVED***
+      }
 
       if (event.ctrlKey) {
         keys.push('control')
-    ***REMOVED***
+      }
 
       if (event.altKey) {
         keys.push('alt')
-    ***REMOVED***
+      }
 
       if (event.metaKey) {
         keys.push('super')
-    ***REMOVED***
+      }
 
       const sortOrder = ['control', 'alt', 'shift', 'super']
       const sortedKeys = keys
@@ -285,9 +285,9 @@ export default {
           const indexB = sortOrder.indexOf(b)
           const hugeNumber = 1000 // TODO: ugly
 
-    ***REMOVED*** (indexA >= 0 ? indexA : hugeNumber)
+          return (indexA >= 0 ? indexA : hugeNumber)
             - (indexB >= 0 ? indexB : hugeNumber)
-    ***REMOVED***
+        })
         .toArray()
       const isShortcut = !sortedKeys.every(key => sortOrder.includes(key))
 
@@ -296,17 +296,17 @@ export default {
         this.shortcut = sortedKeys
         ipcRenderer.send('shortcutChanged')
         this.cancelListening()
-    ***REMOVED***
-  ***REMOVED***,
-***REMOVED***,
+      }
+    },
+  },
 
   mounted() {
     document.addEventListener('keydown', this.handleKeyDown)
-***REMOVED***,
+  },
 
   beforeDestroy() {
     document.removeEventListener('keydown', this.handleKeyDown)
-***REMOVED***,
+  },
 }
 </script>
 

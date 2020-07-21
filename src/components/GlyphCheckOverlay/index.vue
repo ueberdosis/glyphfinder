@@ -18,30 +18,30 @@ export default {
   components: {
     ProgressBar,
     FloatingGlyphs,
-***REMOVED***,
+  },
 
   data() {
     return {
       progress: 0,
-  ***REMOVED***
-***REMOVED***,
+    }
+  },
 
   methods: {
     close() {
       Event.emit('hideGlyphCheck')
-  ***REMOVED***,
-***REMOVED***,
+    },
+  },
 
   mounted() {
     GlyphIndex
       .onProgress(progress => {
         this.progress = progress
-  ***REMOVED***
+      })
       .onFinish(() => {
         this.close()
-  ***REMOVED***
+      })
       .create()
-***REMOVED***,
+  },
 }
 </script>
 

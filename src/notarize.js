@@ -7,7 +7,7 @@ module.exports = async context => {
 
   if (electronPlatformName !== 'darwin') {
     return
-***REMOVED***
+  }
 
   try {
     await notarize({
@@ -17,8 +17,8 @@ module.exports = async context => {
       appPath: `${appOutDir}/${appName}.app`,
       appleId: process.env.APPLE_ID,
       appleIdPassword: process.env.APPLE_ID_PASS,
-***REMOVED***
-***REMOVED*** catch (err) {
+    })
+  } catch (err) {
     console.error(err)
-***REMOVED***
+  }
 }

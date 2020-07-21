@@ -17,34 +17,34 @@
 
     &.is-success {
       color: rgb(var(--colorWhite));
-  ***REMOVED***
+    }
 
     &.is-error {
       color: rgb(var(--colorRed));
       animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-  ***REMOVED***
+    }
 
     &:disabled {
       color: rgba(var(--colorWhite), 0.5);
-  ***REMOVED***
+    }
 
     &::placeholder {
       color: rgba(var(--colorWhite), 0.2);
-  ***REMOVED***
-***REMOVED***
+    }
+  }
 
   &__error-wrapper {
     position: absolute;
     left: 0;
     right: 0;
-***REMOVED***
+  }
 
   &__error {
     align-items: center;
     font-size: 14px;
     font-weight: 600;
     color: rgb(var(--colorRed));
-***REMOVED***
+  }
 
   &__retry {
     margin-top: 8px;
@@ -52,6 +52,6 @@
     padding: 4px 6px;
     border-radius: 6px;
     background-color: rgba(var(--colorRed), 0.2);
-***REMOVED***
+  }
 
 }

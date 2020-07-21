@@ -16,7 +16,7 @@
   &.is-emoji {
     font-family: none;
     font-size: 26px;
-***REMOVED***
+  }
 
   &.is-space &__symbol {
     border-radius: 2px;
@@ -31,14 +31,14 @@
       rgba(var(--colorBlack), 0.6) 66.67%,
       rgba(var(--colorBlack), 0.6) 100%,
     );
-***REMOVED***
+  }
 
   .is-dark-mode &:not(.is-active):hover {
     background-color: rgba(var(--colorWhite), 0.1);
-***REMOVED***
+  }
 
   &.is-active {
     background-color: rgb(var(--colorRed));
     color: rgb(var(--colorBlack));
-***REMOVED***
+  }
 }
