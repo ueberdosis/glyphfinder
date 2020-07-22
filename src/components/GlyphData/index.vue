@@ -37,6 +37,13 @@
               –
             </div>
           </div>
+
+          <div class="glyph-data__item">
+            <div class="glyph-data__label">
+              Codepoint<template v-if="glyph.hex.split(' ').length > 1">s</template>
+            </div>
+            <code-points-list :code-points="glyph.hex.split(' ')" />
+          </div>
         </div>
       </slide-up-down>
     </div>
@@ -48,6 +55,7 @@ import Event from '@/services/Event'
 import Icon from '@/components/Icon'
 import SlideUpDown from '@/components/SlideUpDown'
 import EntityList from '@/components/EntityList'
+import CodePointsList from '@/components/CodePointsList'
 import KeyList from '@/components/KeyList'
 import Shortcut from '@/services/Shortcut'
 import ClipboardBadge from '@/components/ClipboardBadge'
@@ -59,6 +67,7 @@ export default {
     Icon,
     SlideUpDown,
     EntityList,
+    CodePointsList,
     KeyList,
     ClipboardBadge,
   },
