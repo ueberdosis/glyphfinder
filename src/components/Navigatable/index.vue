@@ -280,19 +280,19 @@ export default {
     },
 
     handleKeyDown(event) {
-      const { key } = event
+      const { key, ctrlKey } = event
 
       if (key.startsWith('Arrow')) {
         event.preventDefault()
       }
 
-      if (key === 'ArrowDown') {
+      if (key === 'ArrowDown' || (ctrlKey && key === 'n')) {
         this.moveSelection('down')
-      } else if (key === 'ArrowUp') {
+      } else if (key === 'ArrowUp' || (ctrlKey && key === 'p')) {
         this.moveSelection('up')
-      } else if (key === 'ArrowRight') {
+      } else if (key === 'ArrowRight' || (ctrlKey && key === 'f')) {
         this.moveSelection('right')
-      } else if (key === 'ArrowLeft') {
+      } else if (key === 'ArrowLeft' || (ctrlKey && key === 'b')) {
         this.moveSelection('left')
       }
     },
