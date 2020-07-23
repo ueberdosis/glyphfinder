@@ -63,7 +63,7 @@ export default {
           ...glyph,
           id: `frequently_used_${glyph.symbol}`,
         }))
-        .take(20)
+        .take(25)
         .toArray()
     },
 
