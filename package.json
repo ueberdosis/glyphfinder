@@ -1,9 +1,9 @@
 {
   "name": "glyphfinder",
+  "productName": "Glyphfinder",
   "version": "1.3.0",
-  "private": true,
-  "description": "A glyph finding app.",
-  "author": "überdosis GbR <mail@ueber.io>",
+  "description": "Unicode character search for macOS & Windows.",
+  "author": "überdosis GbR <support@glyphfinder.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -82,6 +82,5 @@
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
     "vue-template-compiler": "^2.6.10",
     "worker-loader": "^2.0.0"
-  },
-  "productName": "Glyphfinder"
+  }
 }
