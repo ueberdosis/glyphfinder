@@ -14,9 +14,15 @@
             Dark mode
           </span>
           <select class="select" v-model="darkMode">
-            <option value="true">Enable</option>
-            <option value="false">Disable</option>
-            <option value="system">Use system setting</option>
+            <option value="true">
+              Enable
+            </option>
+            <option value="false">
+              Disable
+            </option>
+            <option value="system">
+              Use system setting
+            </option>
           </select>
         </div>
 

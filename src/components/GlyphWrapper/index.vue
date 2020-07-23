@@ -61,6 +61,7 @@ export default {
   props: {
     showPreferences: {
       default: false,
+      type: Boolean,
     },
   },
 
