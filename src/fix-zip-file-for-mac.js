@@ -12,7 +12,7 @@ console.log('Finished zipping!')
 
 console.log('Collect data...')
 const blockmap = JSON.parse(execSync(`node_modules/app-builder-bin/mac/app-builder blockmap -i dist_electron/${info.productName}-${info.version}-mac.zip -o dist_electron/th.zip`).toString())
-blockmap.blockMapSize = parseInt(execSync('ls -l dist_electron/th.zip | awk \'{print $5}\' && rm dist_electron/th.zip').toString())
+blockmap.blockMapSize = parseInt(execSync('ls -l dist_electron/th.zip | awk \'{print $5}\' && rm dist_electron/th.zip').toString(), 10)
 
 const doc = yaml.safeLoad(fs.readFileSync('./dist_electron/latest-mac.yml', 'utf8'))
 
