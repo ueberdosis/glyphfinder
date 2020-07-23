@@ -13,13 +13,13 @@ console.log('Collect data...')
 var blockmap = JSON.parse(execSync(`node_modules/app-builder-bin/mac/app-builder blockmap -i dist_electron/${info.productName}-${info.version}-mac.zip -o dist_electron/th.zip`).toString())
 blockmap.blockMapSize = parseInt(execSync(`ls -l dist_electron/th.zip | awk '{print $5}' && rm dist_electron/th.zip`).toString())
 
-var doc = yaml.safeLoad(fs.readFileSync('dist_electron/latest-mac.yml', 'utf8'))
+var doc = yaml.safeLoad(fs.readFileSync('./dist_electron/latest-mac.yml', 'utf8'))
 
 doc.files[0].sha512 = blockmap.sha512
 doc.files[0].size = blockmap.size
 doc.files[0].blockMapSize = blockmap.blockMapSize
 doc.sha512 = blockmap.sha512
 
-fs.writeFileSync('dist_electron/latest-mac.yml', yaml.safeDump(doc, {
+fs.writeFileSync('./dist_electron/latest-mac.yml', yaml.safeDump(doc, {
   lineWidth: 65535
 }), 'utf8')
