@@ -48,3 +48,6 @@ jobs:
           # macOS notarization API key
           API_KEY_ID: ${{ secrets.api_key_id }}
           API_KEY_ISSUER_ID: ${{ secrets.api_key_issuer_id }}
+
+          # A static license key to unlock glyphfinder
+          MASTER_KEY: ${{ secrets.master_key}}
