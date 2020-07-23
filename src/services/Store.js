@@ -55,5 +55,8 @@ export default new Store({
       store.set('darkMode', 'system')
       DB.removeSearchIndex()
     },
+    '1.4.0': store => {
+      DB.removeSearchIndex()
+    },
   },
 })
