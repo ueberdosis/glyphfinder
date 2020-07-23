@@ -2,7 +2,7 @@
   <div class="glyph-check-overlay">
     <floating-glyphs class="glyph-check-overlay__glyphs" :has-mouse="false" />
     <div class="glyph-check-overlay__content">
-      Optimizing Glyphs
+      Loading Characters …
       <progress-bar :value="progress" />
     </div>
   </div>
