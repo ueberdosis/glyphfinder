@@ -29,4 +29,4 @@ electron-builder.env
 certificate-mac.p12
 certificate-win.p12
 
-src/generator/dist/*
+src/generator/dist/codepoints.json
