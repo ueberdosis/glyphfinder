@@ -40,9 +40,9 @@
 
           <div class="glyph-data__item">
             <div class="glyph-data__label">
-              Codepoint<template v-if="glyph.hex.split(' ').length > 1">s</template>
+              {{ codePointsLabel }}
             </div>
-            <code-points-list :code-points="glyph.hex.split(' ')" />
+            <code-points-list :code-points="codePoints" />
           </div>
         </div>
       </slide-up-down>
@@ -97,6 +97,18 @@ export default {
 
     entities() {
       return this.glyph.entities.match(/\S+/g) || []
+    },
+
+    codePoints() {
+      return this.glyph.hex
+    },
+
+    codePointsLabel() {
+      if (this.codePoints.split(' ').length > 1) {
+        return 'Code Points'
+      }
+
+      return 'Code Point'
     },
   },
 

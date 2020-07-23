@@ -1,27 +1,22 @@
 <template>
-  <div class="code-points-list" @click.stop="copyToClipboard">
-    <code-points-item
+  <div class="code-points-list">
+    <button
+      @click.stop="copyToClipboard"
       class="code-points-list__item"
-      v-for="(codePoint, index) in codePoints"
-      :code-point="codePoint"
-      :key="index"
-    />
+    >
+      {{ codePoints }}
+    </button>
   </div>
 </template>
 
 <script>
 import copy from 'copy-to-clipboard'
 import Event from '@/services/Event'
-import CodePointsItem from '@/components/CodePointsItem'
 
 export default {
-  components: {
-    CodePointsItem,
-  },
-
   methods: {
     copyToClipboard() {
-      const copied = copy(this.codePoints.join(' '), { format: 'text/plain' })
+      const copied = copy(this.codePoints, { format: 'text/plain' })
 
       if (copied) {
         Event.emit('copied')
@@ -32,7 +27,7 @@ export default {
   props: {
     codePoints: {
       required: true,
-      type: Array,
+      type: String,
     },
   },
 }

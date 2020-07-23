@@ -1,3 +1,27 @@
 .code-points-list {
   display: inline-flex;
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 20px;
+    background-color: rgba(var(--colorWhite), 0.1);
+    padding: 2px 5px;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+
+    margin-left: 3px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      background-color: rgba(var(--colorWhite), 0.15);
+    }
+  }
 }
