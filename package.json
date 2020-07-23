@@ -22,7 +22,7 @@
     "setapp:build": "cross-env VUE_APP_IS_SETAPP=true yarn electron:build:mac",
     "setapp:start": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:serve",
     "start": "vue-cli-service electron:serve",
-    "hash": "./node_modules/app-builder-bin/mac/app-builder blockmap -i dist_electron/mac/Glyphfinder-1.1.0-mac.zip"
+    "fix:build:mac": "node ./src/fix-zip-file-for-mac.js"
   },
   "main": "background.js",
   "dependencies": {
