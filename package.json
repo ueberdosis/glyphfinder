@@ -65,6 +65,7 @@
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.2",
     "electron": "^8.0.0",
+    "electron-builder-notarize": "^1.2.0",
     "electron-devtools-installer": "^3.1.0",
     "electron-icon-builder": "^1.0.2",
     "eslint": "^7.3.1",
