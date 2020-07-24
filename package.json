@@ -22,7 +22,6 @@
     "setapp:build": "cross-env VUE_APP_IS_SETAPP=true yarn electron:build:mac",
     "setapp:start": "cross-env VUE_APP_IS_SETAPP=true vue-cli-service electron:serve",
     "start": "vue-cli-service electron:serve",
-    "notarize": "electron-builder-notarize && node src/fix-zip-file-for-mac.js",
     "fix:build:mac": "node ./src/fix-zip-file-for-mac.js"
   },
   "main": "background.js",
