@@ -18,7 +18,7 @@ Unicode character search for macOS & Windows.
 
 ## Using Glyphfinder
 
-Though the code is open source, we ask you to buy a license to actually use Glyphfinder. Your money will helps to put more time into our open source work. ✌️
+Though the code is open source, we ask you to buy a license to actually use Glyphfinder. Your money will help us to put more time into our open source work. ✌️
 
 * 🤑 Buy a license here: https://www.glyphfinder.com ($6.99)
 * 💝 Sponsor our work: https://github.com/sponsors/ueberdosis
