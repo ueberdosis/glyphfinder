@@ -1,20 +1,6 @@
 const { execSync } = require('child_process')
 const yaml = require('js-yaml')
 const fs = require('fs')
-
-console.log('Current directory:')
-console.log(__dirname)
-console.log('All files in the currenct directory:')
-fs.readdir(__dirname, (err, files) => {
-  if (err) {
-    return console.log(`Unable to scan directory: ${err}`)
-  }
-
-  return files.forEach(file => {
-    console.log(file)
-  })
-})
-
 const info = require('../package.json')
 
 const appPath = `dist_electron/mac/${info.productName}.app`
