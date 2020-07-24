@@ -52,10 +52,7 @@ module.exports = {
           ? 'com.ueberdosis.glyphfinder-setapp'
           : 'com.glyphfinder.app',
         artifactName: '${productName}-${version}-${os}.${ext}', // eslint-disable-line
-        afterSign: [
-          'electron-builder-notarize',
-          'node src/fix-zip-file-for-mac.js',
-        ],
+        afterSign: 'electron-builder-notarize',
         productName: 'Glyphfinder',
         mac: {
           hardenedRuntime: true,
