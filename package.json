@@ -39,7 +39,7 @@
     "electron-log": "^4.2.2",
     "electron-notarize": "^1.0.0",
     "electron-store": "^6.0.0",
-    "electron-updater": "^4.3.1",
+    "electron-updater": "^4.3.4",
     "emojibase-data": "^5.1.1",
     "flexsearch": "^0.6.32",
     "gsap": "^3.4.2",
