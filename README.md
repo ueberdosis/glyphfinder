@@ -61,6 +61,16 @@ yarn lint
 
 Don’t try to build the app, you won’t be able to code sign and/or notarize the app without a developer certificate. We’re running the build process manually and publish new versions on the website: https://www.glyphfinder.com
 
+## New Release
+
+1. Bump version in package.json
+2. `yarn install`
+3. `yarn run electron:build:mac`
+4. `yarn run fix:build:mac`
+5. upload manually to DO
+6. upload manually to Gumroad
+7. TODO: SetApp
+
 ## Related projects
 
 * [ueberdosis/glyphfinder-landingpage](https://github.com/ueberdosis/glyphfinder-landingpage)
