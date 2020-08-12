@@ -64,8 +64,12 @@ module.exports = {
           },
           publish: [
             {
-              provider: 'github',
-              releaseType: 'draft',
+              provider: 'spaces',
+              name: 'ueber',
+              region: 'fra1',
+              channel: 'latest',
+              path: '/glyphfinder/mac',
+              acl: 'public-read',
             },
           ],
         },
