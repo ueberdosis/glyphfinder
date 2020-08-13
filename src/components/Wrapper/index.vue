@@ -95,7 +95,6 @@ export default {
       document.body.classList.add('is-loaded')
     }, 0)
 
-    console.timeEnd('mount')
     ipcRenderer.on('showPreferences', this.onShowPreferences)
     Event.on('hidePreferences', this.onHidePreferences)
     Event.on('hideGlyphCheck', this.onHideGlyphCheck)
