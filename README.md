@@ -72,6 +72,7 @@ Don’t do this at home. It won’t work without all the certificates and creden
 5. Put the notarized version in the Zip file: `yarn run fix:build:mac`
 6. Manually upload `Glyphfinder-*.dmg`, `Glyphfinder-*.dmg.blockmap`, `Glyphfinder-*.zip` and `latest-mac.yml` (find them in dist_electron) to the DigitalOcean space.
 7. Manually upload the `Glyphfinder-*.dmg` to Gumroad.
+8. Update the download links in `ueberdosis/glyphfinder-landingpage`.
 
 ### New Release for SetApp
 
