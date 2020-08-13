@@ -74,6 +74,7 @@ Don’t do this at home. It won’t work without all the certificates and creden
 7. Manually upload the `Glyphfinder-*.dmg` to Gumroad.
 8. Update the download links in `ueberdosis/glyphfinder-landingpage`.
 9. Respond to suggestions on https://feedback.glyphfinder.com.
+10. Tweet about the update. 🐤
 
 ### New Release for SetApp
 
