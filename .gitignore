@@ -30,3 +30,4 @@ certificate-mac.p12
 certificate-win.p12
 
 src/generator/dist/codepoints.json
+setapp-nodejs-wrapper/build
