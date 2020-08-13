@@ -71,6 +71,15 @@ Don’t try to build the app, you won’t be able to code sign and/or notarize t
 6. upload manually to Gumroad
 7. TODO: SetApp
 
+## New Release for SetApp
+
+1. `cd setapp-nodejs-wrapper`
+2. `yarn install`
+3. `yarn build`
+4. `cd ../`
+5. `yarn setapp:build`
+6. upload manually to SetApp
+
 ## Related projects
 
 * [ueberdosis/glyphfinder-landingpage](https://github.com/ueberdosis/glyphfinder-landingpage)
