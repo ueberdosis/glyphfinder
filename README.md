@@ -80,7 +80,8 @@ Don’t do this at home. It won’t work without all the certificates and creden
 3. Build the Node.js wrapper: `yarn build`
 4. Jump back to the root folder: `cd ../`
 5. Actually build the SetApp version: `yarn setapp:build`
-6. Manually upload the file to SetApp.
+6. Fix the Zip file: `yarn fix:build:mac`
+7. Manually upload `dist_electron/Glyphfinder-*.dmg` to SetApp (https://developer.setapp.com/).
 
 ## Related projects
 
