@@ -7208,10 +7208,10 @@ native-ext-loader@^2.3.0:
   resolved "https://registry.yarnpkg.com/native-ext-loader/-/native-ext-loader-2.3.0.tgz#85404be1f2ffa6b301856ade9e91d9d3d6675f53"
   integrity sha512-awBQEfD25+YLi1voefLbjHiUt0yfm3Z4mBOLqbzFVR8ZOVv0MebeN9fhNiY0fxVEFiyBYtr/hF2VWfuMSCfFlw==
 
-native-keymap@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/native-keymap/-/native-keymap-2.1.2.tgz#9773313f619d4c2b66b452cf036310a145523b59"
-  integrity sha512-n+oe+sxaauCFxomkl9Xrw1iUp88jTamMaGJSHNSGZ8rkIN9N+Wi6KIvBO8x3nmFxLI27KWu1d8IrLBxFKPNQag==
+native-keymap@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/native-keymap/-/native-keymap-2.2.0.tgz#940aeb4ae05776dd44dbd9a80dba5342fd49fb8c"
+  integrity sha512-rWT9mf5f4vMGluXoIoxKSZy76fcVgMvk5jC4meBaOP2GfMJAI7Obtdzpa1Fa1qZCBtZa+OAYV8vlc8dKPOhUNw==
 
 natural-compare@^1.4.0:
   version "1.4.0"

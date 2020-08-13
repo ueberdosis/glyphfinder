@@ -50,7 +50,7 @@
     "matter-js": "^0.14.2",
     "matter-wrap": "^0.2.0",
     "menubar": "^8.0.0",
-    "native-keymap": "^2.1.2",
+    "native-keymap": "^2.2.0",
     "promise-worker": "^2.0.1",
     "scrollmonitor": "^1.2.4",
     "vue": "^2.6.10",
