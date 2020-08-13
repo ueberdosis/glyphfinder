@@ -61,24 +61,26 @@ yarn lint
 
 Don’t try to build the app, you won’t be able to code sign and/or notarize the app without a developer certificate. We’re running the build process manually and publish new versions on the website: https://www.glyphfinder.com
 
-## New Release
+### Build the macOS version
 
-1. Bump version in package.json
-2. `yarn install`
-3. `yarn run electron:build:mac`
-4. `yarn run fix:build:mac`
-5. upload manually to DO
-6. upload manually to Gumroad
-7. TODO: SetApp
+Don’t do this at home. It won’t work without all the certificates and credentials. Hopefully this is helpful to other app developers though.
 
-## New Release for SetApp
+1. Bump version in /package.json
+2. Fill out the .env
+3. Install dependencies: `yarn install`
+4. Build the macOS version: `yarn run electron:build:mac`
+5. Put the notarized version in the Zip file: `yarn run fix:build:mac`
+6. Manually upload `Glyphfinder-*.dmg`, `Glyphfinder-*.dmg.blockmap`, `Glyphfinder-*.zip` and `latest-mac.yml` (find them in dist_electron) to the DigitalOcean space.
+7. Manually upload the `Glyphfinder-*.dmg` to Gumroad.
 
-1. `cd setapp-nodejs-wrapper`
-2. `yarn install`
-3. `yarn build`
-4. `cd ../`
-5. `yarn setapp:build`
-6. upload manually to SetApp
+### New Release for SetApp
+
+1. Jump to the SetApp Node.js wrapper: `cd setapp-nodejs-wrapper`
+2. Install all dependencies: `yarn install`
+3. Build the Node.js wrapper: `yarn build`
+4. Jump back to the root folder: `cd ../`
+5. Actually build the SetApp version: `yarn setapp:build`
+6. Manually upload the file to SetApp.
 
 ## Related projects
 
