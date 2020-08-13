@@ -1,7 +1,7 @@
 {
   "name": "glyphfinder",
   "productName": "Glyphfinder",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Unicode character search for macOS & Windows.",
   "author": "überdosis GbR <support@glyphfinder.com>",
   "scripts": {

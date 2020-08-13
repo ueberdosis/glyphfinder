@@ -58,5 +58,9 @@ export default new Store({
     '1.4.0': () => {
       DB.removeSearchIndex()
     },
+    '1.4.1': () => {
+      DB.removeGlyphs()
+      DB.removeSearchIndex()
+    },
   },
 })
