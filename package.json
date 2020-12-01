@@ -78,7 +78,7 @@
     "native-ext-loader": "^2.3.0",
     "node-loader": "^1.0.1",
     "sass": "^1.26.10",
-    "sass-loader": "^8.0.0",
+    "sass-loader": "^10.1.0",
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
     "vue-template-compiler": "^2.6.10",
     "worker-loader": "^2.0.0"
