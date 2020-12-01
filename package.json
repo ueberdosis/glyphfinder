@@ -55,7 +55,7 @@
     "scrollmonitor": "^1.2.4",
     "vue": "^2.6.10",
     "vue-the-mask": "^0.11.1",
-    "vue-virtual-scroll-list": "^1.4.6"
+    "vue-virtual-scroll-list": "^2.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.6",
