@@ -42,7 +42,7 @@
     "electron-updater": "^4.3.4",
     "emojibase-data": "^5.1.1",
     "flexsearch": "^0.6.32",
-    "gsap": "^3.4.2",
+    "gsap": "^3.6.0",
     "https": "^1.0.0",
     "json2csv": "^5.0.1",
     "keyboard-symbol": "^1.0.0",
