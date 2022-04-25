@@ -57,7 +57,7 @@ export default new class {
             .replace('-B', ''),
           item.name
             .replace(/-[0-9]/g, '')
-            .replace(' a ', '')
+            .replace(/(?<!letter) a /g,'')
             .replace(' an ', ''),
         ].join(' '),
       }
