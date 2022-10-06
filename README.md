@@ -1,3 +1,5 @@
+### ⚠️ This project is discontinued. Feel free to fork it!
+
 # Glyphfinder
 
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
